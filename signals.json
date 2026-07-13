@@ -4,8 +4,28 @@
       "items": [
         {
           "kind": "converging",
-          "tldr": "feat(skills): /next — canonical go-to-next-session handoff (thin sequencer, closes #3950)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3952"
+          "tldr": "fix(relay): drainer template passes CLAUDE_CONFIG_DIR so spawns can authenticate",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3969"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(precognition): self-perpetuating witness loop — updates forever, leak-safe (#3954 W5)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/792a90d96e1c0d160a8c4b83bf5670cc223f2e40"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(activate-grip): surface grip-harness + HAL gateway key in the wizard (#23) (#3968)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1852c1fc3bffe5abf43e05248dee0f0f7eaa573"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(agora): DEFER follow-up sweep — ultracode, afk, /next polish (closes #3949 #3964 #39",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/45224315806a603835a782c31f91f82dbad85d47"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(skills): /next — canonical go-to-next-session handoff (thin sequencer, closes #3950) ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/624fade0c38b48403786cce1fac43bcb57a1a223"
         },
         {
           "kind": "shipped",
@@ -26,49 +46,29 @@
           "kind": "shipped",
           "tldr": "fix(relay): rc control on @lid chats + project-scoped fork spawn cwd (#3960)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c348076755c68137a71e325fdad4bb1a99f72d85"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(precognition): W3+W4 — witness what's CONVERGING live + operator-gated deploy (#3954)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/800cfabfa304c33f5a6beb19ddfde6d605704bda"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ultracode): broly council as kernel consumer #1 — resumable, fresh-by-default (H769) ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/88468e196571cf32c564239da4552e250cfb01e9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(relay): /rc arming without SSH + operator-scoped session forking (task #405) (#3957)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cbc956649d3ce7ab4636f4c8c88151f1b741f4fd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(precognition): RSI-witness publisher + /realise — WITNESS the self-improvement (#3956",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e7ef57c5d5ed21235c9dd529f07237293bde271"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "660 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "729 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
-      "value": "142 confirmed / 199 refuted",
+      "value": "196 confirmed / 303 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "385 living genes evolving under fitness selection",
+      "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 1045",
+      "value": "gen 3150",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "114 changes / 7 days",
+      "value": "118 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -77,8 +77,8 @@
       "label": "Converging now",
       "links": [
         {
-          "text": "#3952 feat(skills): /next — canonical go-to-next-session handoff (thin",
-          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3952"
+          "text": "#3969 fix(relay): drainer template passes CLAUDE_CONFIG_DIR so spawns ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3969"
         }
       ],
       "value": "1 in flight",
