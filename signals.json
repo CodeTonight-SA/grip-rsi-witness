@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(auth-surfaces): DEFER sweep — evidence inline, column consistency, falsification stub",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc285975ecdba157a278d940e412bfd6bde0468d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ultralearn): atomic ledger append (flock) + precise build-time leak check (#419) (#398",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/293088700e05bf762877a4b151a9030857f2bdd6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs: Claude Code auth surfaces — in-memory session vs on-disk credential (#3972) (#3990)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/45fe13c71c389ad84206595c513cdaeb5e3ed4a6"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(agora): DEFER follow-up sweep 2 — witness leak-shield depth + relay install hygiene ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8c96d013258e8a4ad07627bf4086039451ff785"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(precognition): GRASP-NIHILISM witness redesign — logos, moat graph, dojo, mobile (#39",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/22043b7e80e690e61f312b7874413837f285fb06"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(team): mark F>> (Fabio) resigned in the operational-context team table (#3979)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f3ba1acf774eaf1a8310f6d1e46fbf76ab70b1a"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3369",
+      "value": "gen 3389",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "133 changes / 7 days",
+      "value": "135 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
