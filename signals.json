@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(activate-grip): frontier-model opt-in wizard step (#394) (#3973)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/91135c1b3a0f9e97029f805f4cb2ce00ba9d0372"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(relay): bare one-shot opt-in + spawn-failure telemetry snippets (#3974)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8754f496cd7865cff191dc5b7ade39181c98fa6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(relay): drainer template passes CLAUDE_CONFIG_DIR so spawns can authenticate (#3969)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a8bc3722026887675d8385a3592d28e17922284"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(scheduler): Windows Task Scheduler renderer scripts/install.ps1 (#23) (#3963)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0546a41614199f557301c3431a9880797c1a3592"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(afk): /afk + /back — autonomous continuation while the operator is away (#3962)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e997e00a10c0876938185cc1f22eb2e93616d6c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(precognition): WIP tower — vertical stack of live items that vanish when done (#3961)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf0acd6c4427129f4bbb1eb33c3ec8cded836266"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3158",
+      "value": "gen 3213",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "119 changes / 7 days",
+      "value": "121 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
