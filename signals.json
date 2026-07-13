@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(sovereign-council): VPS council as an OpenAI-compat provider/model — mechanism (endpo",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e6b3752454ef753d4b4245836bece973c0bca3a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(grip-channel): close command injection in python-gate.ts (CodeQL #77/#78) (#3993)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d01b08345c5110e37e8453e2f8d8985995ac7006"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(precognition): full UI bug-fix round — moat clip, print, mobile overflow, +9 (#3954) (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f180f46aba4a390917f865cbb5b18a8087964f4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(activate-grip): honest-failure path for the gateway-key step (AGORA DEFER #3968) (#39",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/224769660d8f69f6335e5cee2a7722e504903cd7"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3405",
+      "value": "gen 3430",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "125 changes / 7 days",
+      "value": "126 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/worktree-isolation"
         }
       ],
-      "tip": "/evo: 'user_rejected_action' ff=14% (46/54). Ev: gate:hook, grip_workflow:sprint, grip_workflow:rsi, steering:user had to, env:memory"
+      "tip": "/evo: 'user_rejected_action' ff=14% (46/54). Ev: grip_workflow:rsi, grip_workflow:mode, steering:user interrupted, gate:hook, env:memory"
     }
   ]
 }
