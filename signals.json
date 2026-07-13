@@ -3,19 +3,14 @@
     {
       "items": [
         {
-          "kind": "converging",
-          "tldr": "test(gg): concurrent-reap race anchor — two racers, one reap, zero corruption (#3938)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3987"
+          "kind": "shipped",
+          "tldr": "docs: Claude Code auth surfaces — in-memory session vs on-disk credential (#3972) (#3990)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/45fe13c71c389ad84206595c513cdaeb5e3ed4a6"
         },
         {
-          "kind": "converging",
-          "tldr": "fix(ultralearn): atomic ledger append (flock) + precise build-time leak check (#419)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3984"
-        },
-        {
-          "kind": "converging",
-          "tldr": "fix(witness+relay): complement to merged DEFER sweep #3981 — atomic snapshots, _open_prs s",
-          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3982"
+          "kind": "shipped",
+          "tldr": "test(gg): concurrent-reap race anchor + idempotent double-reap (AGORA #3938) (#3987)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2633c24610ea1a3ccb58c7b75fa2a0821538db9f"
         },
         {
           "kind": "shipped",
@@ -46,16 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(team): mark F>> (Fabio) resigned in the operational-context team table (#3979)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f3ba1acf774eaf1a8310f6d1e46fbf76ab70b1a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ultralearn): lean RSI-witness kernel + encrypted GRASP-NIHILISM strat-ops page (#3977",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e754ee6d5a32eb4603d0e5b7cfd586211689740b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: remove F>> (resigned) from the cross-platform scheduler hand-off (#3978)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aca30b213a837116e9ed3e07299f5c258504842b"
         }
       ],
       "key": "stream"
@@ -71,36 +56,15 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3347",
+      "value": "gen 3369",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "131 changes / 7 days",
+      "value": "133 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
-    },
-    {
-      "caption": "open PRs GRIP is driving through CI + the cross-provider council right now — watch it happen",
-      "key": "converging",
-      "label": "Converging now",
-      "links": [
-        {
-          "text": "#3987 test(gg): concurrent-reap race anchor — two racers, one reap, ze",
-          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3987"
-        },
-        {
-          "text": "#3984 fix(ultralearn): atomic ledger append (flock) + precise build-ti",
-          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3984"
-        },
-        {
-          "text": "#3982 fix(witness+relay): complement to merged DEFER sweep #3981 — ato",
-          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3982"
-        }
-      ],
-      "value": "3 in flight",
-      "verify": "gh pr list --repo CodeTonight-SA/GRIP"
     },
     {
       "caption": "Every consequential decision — the what / why / how / believed-when — signed and replayable",
