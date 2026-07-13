@@ -3,6 +3,16 @@
     {
       "items": [
         {
+          "kind": "converging",
+          "tldr": "fix(witness+relay): DEFER sweep — shield-at-source, atomic snapshots, drainer doc hygiene ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3982"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(agora): DEFER follow-up sweep 2 — witness leak-shield depth + relay install hygiene ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8c96d013258e8a4ad07627bf4086039451ff785"
+        },
+        {
           "kind": "shipped",
           "tldr": "feat(precognition): GRASP-NIHILISM witness redesign — logos, moat graph, dojo, mobile (#39",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/22043b7e80e690e61f312b7874413837f285fb06"
@@ -36,17 +46,12 @@
           "kind": "shipped",
           "tldr": "feat(activate-grip): frontier-model opt-in wizard step (#394) (#3973)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/91135c1b3a0f9e97029f805f4cb2ce00ba9d0372"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(relay): bare one-shot opt-in + spawn-failure telemetry snippets (#3974)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8754f496cd7865cff191dc5b7ade39181c98fa6"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "730 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "733 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "196 confirmed / 303 refuted",
@@ -56,15 +61,28 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3272",
+      "value": "gen 3305",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "127 changes / 7 days",
+      "value": "128 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
+    },
+    {
+      "caption": "open PRs GRIP is driving through CI + the cross-provider council right now — watch it happen",
+      "key": "converging",
+      "label": "Converging now",
+      "links": [
+        {
+          "text": "#3982 fix(witness+relay): DEFER sweep — shield-at-source, atomic snaps",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3982"
+        }
+      ],
+      "value": "1 in flight",
+      "verify": "gh pr list --repo CodeTonight-SA/GRIP"
     },
     {
       "caption": "Every consequential decision — the what / why / how / believed-when — signed and replayable",
