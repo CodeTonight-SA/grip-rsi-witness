@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(sovereign-council): concurrency hardening — roster copy, memoised key resolution, race",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/04d46cb8dca7a0a96a78c7e4091a664ea7704923"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(council-endpoint): strengthen #430 race test to real torn-write integrity (AGORA #399",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dd890da59eb9a4de75b89dcdc500cd261b67ee11"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "harden(council-endpoint): #430 concurrency race test + /proc eval; lock ADR 0012 to C-prim",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e1f86295a8fd8152a0520844bc9a030b2ce3607c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(sovereign-council): VPS council as an OpenAI-compat provider/model — mechanism (endpo",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e6b3752454ef753d4b4245836bece973c0bca3a"
         },
@@ -26,27 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(ultralearn): atomic ledger append (flock) + precise build-time leak check (#419) (#398",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/293088700e05bf762877a4b151a9030857f2bdd6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: Claude Code auth surfaces — in-memory session vs on-disk credential (#3972) (#3990)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/45fe13c71c389ad84206595c513cdaeb5e3ed4a6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(gg): concurrent-reap race anchor + idempotent double-reap (AGORA #3938) (#3987)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2633c24610ea1a3ccb58c7b75fa2a0821538db9f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(precognition): full UI bug-fix round — moat clip, print, mobile overflow, +9 (#3954) (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f180f46aba4a390917f865cbb5b18a8087964f4"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "737 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "740 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "196 confirmed / 303 refuted",
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3430",
+      "value": "gen 3472",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "126 changes / 7 days",
+      "value": "129 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
