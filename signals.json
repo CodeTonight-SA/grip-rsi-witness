@@ -1,0 +1,95 @@
+{
+  "signals": [
+    {
+      "items": [
+        {
+          "kind": "converging",
+          "tldr": "feat(skills): /next — canonical go-to-next-session handoff (thin sequencer, closes #3950)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3952"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(scheduler): Windows Task Scheduler renderer scripts/install.ps1 (#23) (#3963)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0546a41614199f557301c3431a9880797c1a3592"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(afk): /afk + /back — autonomous continuation while the operator is away (#3962)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e997e00a10c0876938185cc1f22eb2e93616d6c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(precognition): WIP tower — vertical stack of live items that vanish when done (#3961)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf0acd6c4427129f4bbb1eb33c3ec8cded836266"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(relay): rc control on @lid chats + project-scoped fork spawn cwd (#3960)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c348076755c68137a71e325fdad4bb1a99f72d85"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(precognition): W3+W4 — witness what's CONVERGING live + operator-gated deploy (#3954)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/800cfabfa304c33f5a6beb19ddfde6d605704bda"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ultracode): broly council as kernel consumer #1 — resumable, fresh-by-default (H769) ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/88468e196571cf32c564239da4552e250cfb01e9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(relay): /rc arming without SSH + operator-scoped session forking (task #405) (#3957)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cbc956649d3ce7ab4636f4c8c88151f1b741f4fd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(precognition): RSI-witness publisher + /realise — WITNESS the self-improvement (#3956",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e7ef57c5d5ed21235c9dd529f07237293bde271"
+        }
+      ],
+      "key": "stream"
+    },
+    {
+      "caption": "660 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "key": "hypotheses",
+      "label": "Hypotheses tested",
+      "value": "142 confirmed / 199 refuted",
+      "verify": "python lib/hypothesis_engine.py status"
+    },
+    {
+      "caption": "385 living genes evolving under fitness selection",
+      "key": "genome",
+      "label": "Genome",
+      "value": "gen 1045",
+      "verify": "data/genome-shared.json"
+    },
+    {
+      "caption": "commits merged to main in the last week — the self-improvement loop is running",
+      "key": "velocity",
+      "label": "Shipping velocity",
+      "value": "114 changes / 7 days",
+      "verify": "git log --oneline --since='7 days ago' origin/main"
+    },
+    {
+      "caption": "open PRs GRIP is driving through CI + the cross-provider council right now — watch it happen",
+      "key": "converging",
+      "label": "Converging now",
+      "links": [
+        {
+          "text": "#3952 feat(skills): /next — canonical go-to-next-session handoff (thin",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3952"
+        }
+      ],
+      "value": "1 in flight",
+      "verify": "gh pr list --repo CodeTonight-SA/GRIP"
+    },
+    {
+      "caption": "Every consequential decision — the what / why / how / believed-when — signed and replayable",
+      "key": "decision_chain",
+      "label": "Decision chain",
+      "value": "tamper-evident",
+      "verify": "https://codetonight-sa.github.io/grip-decision-chain/"
+    }
+  ]
+}

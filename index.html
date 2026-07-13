@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WITNESS &mdash; GRIP is recursively self-improving</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0a0a0a; color: #e8e8e8; font: 16px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+         min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 8vh 5vw; }
+  h1 { font-size: clamp(1.6rem, 5vw, 2.6rem); font-weight: 600; letter-spacing: -0.02em; }
+  .thesis { color: #9a9a9a; margin: 0.8rem 0 3rem; max-width: 46rem; text-align: center; }
+  .thesis b { color: #e8e8e8; }
+  .grid { display: grid; gap: 1rem; width: 100%; max-width: 46rem;
+          grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+  .card { border: 1px solid #222; border-radius: 10px; padding: 1.4rem; background: #101010; }
+  .label { color: #7a7a7a; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; }
+  .value { font-size: 1.5rem; font-weight: 600; margin: 0.4rem 0; color: #fff; }
+  .caption { color: #9a9a9a; font-size: 0.85rem; }
+  .verify { margin-top: 0.9rem; font-size: 0.78rem; color: #6a6a6a; word-break: break-all; }
+  .verify a, .verify code { color: #4a9eff; text-decoration: none; }
+  .links { display: flex; flex-direction: column; gap: 0.35rem; margin-top: 0.8rem; }
+  .wip { color: #4a9eff; text-decoration: none; font-size: 0.82rem; padding: 0.35rem 0.5rem;
+         border: 1px solid #1c2a3a; border-radius: 6px; background: #0d1420;
+         overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .wip:hover { border-color: #4a9eff; }
+  .wip-card { border-color: #24485f; }
+  .stream { position: sticky; top: 0; z-index: 10; width: calc(100% + 10vw); margin: -8vh -5vw 3vh;
+            padding: 0.9rem 5vw; background: rgba(10,10,10,0.92); backdrop-filter: blur(8px);
+            border-bottom: 1px solid #1a1a1a; }
+  .shead { display: flex; align-items: center; gap: 0.6rem; font-size: 0.82rem; }
+  .shead .dot { width: 0.55rem; height: 0.55rem; border-radius: 50%; background: #22c55e; flex: none;
+                animation: pulse 1.8s ease-in-out infinite; }
+  .shead .lbl { color: #22c55e; font-weight: 600; letter-spacing: 0.12em; font-size: 0.72rem; }
+  .shead .cnt { color: #9a9a9a; flex: 1; }
+  .shead .jump { color: #6a6a6a; font-size: 0.78rem; text-decoration: none; }
+  .shead .jump:hover { color: #4a9eff; }
+  .tower { display: flex; flex-direction: column; gap: 0.45rem; margin-top: 0.7rem; }
+  .wip-item { display: flex; align-items: center; gap: 0.7rem; text-decoration: none;
+              padding: 0.55rem 0.8rem; border: 1px solid #1c2a3a; border-radius: 8px;
+              background: #0d1420; overflow: hidden; max-height: 3rem; animation: rise .5s ease;
+              transition: opacity .6s ease, transform .6s ease, max-height .6s ease,
+                          padding .6s ease, margin .6s ease, border-width .6s ease; }
+  .wip-item:hover { border-color: #4a9eff; }
+  .wip-item .k { color: #4a9eff; font-size: 0.64rem; text-transform: uppercase; letter-spacing: 0.06em;
+                 flex: none; width: 5.4rem; }
+  .wip-item.shipped .k { color: #22c55e; }
+  .wip-item .txt { color: #cfcfcf; font-size: 0.82rem; flex: 1; white-space: nowrap;
+                   overflow: hidden; text-overflow: ellipsis; }
+  .wip-item .bar { width: 3rem; height: 3px; background: #16233a; border-radius: 2px;
+                   overflow: hidden; flex: none; }
+  .wip-item .bar span { display: block; width: 40%; height: 100%; background: #4a9eff;
+                        animation: slide 1.4s ease-in-out infinite; }
+  .wip-item.done { opacity: 0; transform: translateX(1.5rem); max-height: 0; padding: 0 0.8rem;
+                   margin: 0; border-width: 0; }
+  @keyframes slide { 0% { transform: translateX(-120%); } 100% { transform: translateX(320%); } }
+  @keyframes rise { from { opacity: 0; transform: translateY(-0.4rem); } to { opacity: 1; transform: none; } }
+  .live { display: inline-block; width: 0.55rem; height: 0.55rem; border-radius: 50%;
+          background: #22c55e; margin-left: 0.7rem; vertical-align: middle;
+          animation: pulse 1.8s ease-in-out infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(34,197,94,0.5); }
+                     50% { opacity: 0.5; box-shadow: 0 0 0 0.5rem rgba(34,197,94,0); } }
+  footer { color: #555; font-size: 0.75rem; margin-top: 3rem; text-align: center; max-width: 46rem; }
+</style>
+</head>
+<body>
+  <div class="stream">
+    <div class="shead"><span class="dot"></span><span class="lbl">LIVE</span><span class="cnt">1 in flight</span><a class="jump" href="#witness">witness &darr;</a></div>
+    <div class="tower" id="tower">
+      <a class="wip-item converging" data-key="https://github.com/CodeTonight-SA/GRIP/pull/3952" href="https://github.com/CodeTonight-SA/GRIP/pull/3952"><span class="k">converging</span><span class="txt">feat(skills): /next — canonical go-to-next-session handoff (thin sequencer, closes #3950)</span><span class="bar"><span></span></span></a>
+      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/0546a41614199f557301c3431a9880797c1a3592" href="https://github.com/CodeTonight-SA/GRIP/commit/0546a41614199f557301c3431a9880797c1a3592"><span class="k">shipped</span><span class="txt">feat(scheduler): Windows Task Scheduler renderer scripts/install.ps1 (#23) (#3963)</span></a>
+      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/4e997e00a10c0876938185cc1f22eb2e93616d6c" href="https://github.com/CodeTonight-SA/GRIP/commit/4e997e00a10c0876938185cc1f22eb2e93616d6c"><span class="k">shipped</span><span class="txt">feat(afk): /afk + /back — autonomous continuation while the operator is away (#3962)</span></a>
+      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/bf0acd6c4427129f4bbb1eb33c3ec8cded836266" href="https://github.com/CodeTonight-SA/GRIP/commit/bf0acd6c4427129f4bbb1eb33c3ec8cded836266"><span class="k">shipped</span><span class="txt">feat(precognition): WIP tower — vertical stack of live items that vanish when done (#3961)</span></a>
+      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/c348076755c68137a71e325fdad4bb1a99f72d85" href="https://github.com/CodeTonight-SA/GRIP/commit/c348076755c68137a71e325fdad4bb1a99f72d85"><span class="k">shipped</span><span class="txt">fix(relay): rc control on @lid chats + project-scoped fork spawn cwd (#3960)</span></a>
+      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/800cfabfa304c33f5a6beb19ddfde6d605704bda" href="https://github.com/CodeTonight-SA/GRIP/commit/800cfabfa304c33f5a6beb19ddfde6d605704bda"><span class="k">shipped</span><span class="txt">feat(precognition): W3+W4 — witness what&#x27;s CONVERGING live + operator-gated deploy (#3954)</span></a>
+      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/88468e196571cf32c564239da4552e250cfb01e9" href="https://github.com/CodeTonight-SA/GRIP/commit/88468e196571cf32c564239da4552e250cfb01e9"><span class="k">shipped</span><span class="txt">feat(ultracode): broly council as kernel consumer #1 — resumable, fresh-by-default (H769) </span></a>
+      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/cbc956649d3ce7ab4636f4c8c88151f1b741f4fd" href="https://github.com/CodeTonight-SA/GRIP/commit/cbc956649d3ce7ab4636f4c8c88151f1b741f4fd"><span class="k">shipped</span><span class="txt">feat(relay): /rc arming without SSH + operator-scoped session forking (task #405) (#3957)</span></a>
+    </div>
+  </div>
+  <h1>WITNESS<span class="live" title="live — recomputed from the real substrate"></span></h1>
+  <p class="thesis">Don't trust that the AI is recursively self-improving. <b>Verify it.</b>
+     Every signal below is backed by deterministic provenance &mdash; click or run the check yourself.</p>
+  <main class="grid" id="witness">
+    <div class="card">
+      <div class="label">Hypotheses tested</div>
+      <div class="value">142 confirmed / 199 refuted</div>
+      <div class="caption">660 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)</div>
+      <div class="verify">verify &rarr; <code>python lib/hypothesis_engine.py status</code></div>
+    </div>
+    <div class="card">
+      <div class="label">Genome</div>
+      <div class="value">gen 1045</div>
+      <div class="caption">385 living genes evolving under fitness selection</div>
+      <div class="verify">verify &rarr; <code>data/genome-shared.json</code></div>
+    </div>
+    <div class="card">
+      <div class="label">Shipping velocity</div>
+      <div class="value">114 changes / 7 days</div>
+      <div class="caption">commits merged to main in the last week — the self-improvement loop is running</div>
+      <div class="verify">verify &rarr; <code>git log --oneline --since=&#x27;7 days ago&#x27; origin/main</code></div>
+    </div>
+    <div class="card wip-card">
+      <div class="label">Converging now</div>
+      <div class="value">1 in flight</div>
+      <div class="caption">open PRs GRIP is driving through CI + the cross-provider council right now — watch it happen</div>
+      <div class="links"><a class="wip" href="https://github.com/CodeTonight-SA/GRIP/pull/3952">#3952 feat(skills): /next — canonical go-to-next-session handoff (thin</a></div>
+      <div class="verify">verify &rarr; <code>gh pr list --repo CodeTonight-SA/GRIP</code></div>
+    </div>
+    <div class="card">
+      <div class="label">Decision chain</div>
+      <div class="value">tamper-evident</div>
+      <div class="caption">Every consequential decision — the what / why / how / believed-when — signed and replayable</div>
+      <div class="verify">verify &rarr; <a href="https://codetonight-sa.github.io/grip-decision-chain/">https://codetonight-sa.github.io/grip-decision-chain/</a></div>
+    </div>
+  </main>
+  <footer>Rendered deterministically from GRIP's live substrate (Banach fixed point &mdash; the page changes
+    only when the real signals do). A fabricated signal has no resolvable proof. This is the GRASP moat
+    pointed at GRIP itself.</footer>
+  <script>
+  (function () {
+    var tower = document.getElementById('tower');
+    if (!tower) return;
+    // Live "disappear when finished": poll the deterministic signals.json; any WIP
+    // item no longer in the current stream has finished — fade + collapse it out.
+    function live() {
+      fetch('signals.json?_=' + Date.now()).then(function (r) { return r.json(); }).then(function (d) {
+        var stream = (d.signals || []).filter(function (s) { return s.key === 'stream'; })[0] || {};
+        var keep = {};
+        (stream.items || []).forEach(function (i) { keep[i.url] = 1; });
+        Array.prototype.forEach.call(tower.querySelectorAll('.wip-item'), function (el) {
+          if (!keep[el.getAttribute('data-key')] && !el.classList.contains('done')) {
+            el.classList.add('done');
+            setTimeout(function () { if (el.parentNode) el.parentNode.removeChild(el); }, 700);
+          }
+        });
+      }).catch(function () {});
+    }
+    setInterval(live, 25000);
+  })();
+  </script>
+</body>
+</html>
