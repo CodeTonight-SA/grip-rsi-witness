@@ -3,9 +3,9 @@
     {
       "items": [
         {
-          "kind": "converging",
-          "tldr": "fix(relay): drainer template passes CLAUDE_CONFIG_DIR so spawns can authenticate",
-          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3969"
+          "kind": "shipped",
+          "tldr": "fix(relay): drainer template passes CLAUDE_CONFIG_DIR so spawns can authenticate (#3969)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a8bc3722026887675d8385a3592d28e17922284"
         },
         {
           "kind": "shipped",
@@ -41,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(precognition): WIP tower — vertical stack of live items that vanish when done (#3961)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf0acd6c4427129f4bbb1eb33c3ec8cded836266"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(relay): rc control on @lid chats + project-scoped fork spawn cwd (#3960)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c348076755c68137a71e325fdad4bb1a99f72d85"
         }
       ],
       "key": "stream"
@@ -58,31 +53,18 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "66 living genes evolving under fitness selection",
+      "caption": "385 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3151",
+      "value": "gen 1045",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "118 changes / 7 days",
+      "value": "119 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
-    },
-    {
-      "caption": "open PRs GRIP is driving through CI + the cross-provider council right now — watch it happen",
-      "key": "converging",
-      "label": "Converging now",
-      "links": [
-        {
-          "text": "#3969 fix(relay): drainer template passes CLAUDE_CONFIG_DIR so spawns ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/pull/3969"
-        }
-      ],
-      "value": "1 in flight",
-      "verify": "gh pr list --repo CodeTonight-SA/GRIP"
     },
     {
       "caption": "Every consequential decision — the what / why / how / believed-when — signed and replayable",
