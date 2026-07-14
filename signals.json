@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(rules): self-reports are the highest-risk claims; exogenous verdicts launder a corrup",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aca094c29e6803b49a14fe89460ecadf5bf340b4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(bash-safety): rg -r is --replace, not recursive — verify-canonical footgun",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f81278503ac03ce78158798c1db49f9dc18fd1a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(session-reaper): never reap a live session's cwd worktree (#4021)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7444a5ca4accf6f1021b2b59ee0e536ea96cd741"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(embeddings): resolve model tag + always-warm keep_alive in HAL shim (#4022)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2d6bff4985cfff98af3c50200b0ded30da32c8e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "128 changes / 7 days",
+      "value": "129 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
