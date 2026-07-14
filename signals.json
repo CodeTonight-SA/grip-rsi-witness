@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(repl-429): pin hook fire-kind to classifier constant (AGORA #4016 DEFER follow-up) (#4",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b1a310803fdb14ddb22de4ea62c112490278b854"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(settings): pre-approve GRIP project MCP servers via enabledMcpjsonServers (#4020)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4770a15866e9ff089bb5984990e4a6e890258e5d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(grip-resume): L3 zero-touch resume — send-keys /clear + trigger to a Claude Code pane",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/74a4cec025d3ede29577988e810f3280488963ff"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(repl-429): fold the shared rate-limit classifier into the auto-detect hook (#4016)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c283014d999949baa25e304c0e6c5efcc02df3e2"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(ultraclear): auto-continue on warm-reload — resume Next Step on first go-signal (#401",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2de87c28c4d71e9aacb535c048a3ca7bd9a1339"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(relay): fire grip-auth-failover --note-cap on the usage-cap path (task #435) (#4012)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6b4ac4faf63764b7fcac60e653e79a663ca3e5dc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(auth-failover): --note-cap — usage-cap failover + notify, never a silent stop (#4000)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/99c358624be9e10197c96b0aab43f03d203747bc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(afk): correct scoped-width comment to 16 chars (round-2 review residue) (#4010)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/863433022e7c1918df8f88f1b46f7a6d877c48fe"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3603",
+      "value": "gen 3631",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "142 changes / 7 days",
+      "value": "145 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
