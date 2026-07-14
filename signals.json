@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(session-reaper): never reap a live session's cwd worktree (#4021)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7444a5ca4accf6f1021b2b59ee0e536ea96cd741"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(embeddings): resolve model tag + always-warm keep_alive in HAL shim (#4022)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2d6bff4985cfff98af3c50200b0ded30da32c8e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(repl-429): pin hook fire-kind to classifier constant (AGORA #4016 DEFER follow-up) (#4",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b1a310803fdb14ddb22de4ea62c112490278b854"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(auth-failover): no-truncate lock open + real ImportError test + note-flag guard (task ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d05094973fb3df4375794d61a54112f77796568"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(opencode): wire VPS sovereign council as grip-vps/council provider (C', ADR 0012) (#4",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/696b4c9cd904ebebed2c9b6abbd38dc3c3c9b92b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ultraclear): auto-continue on warm-reload — resume Next Step on first go-signal (#401",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2de87c28c4d71e9aacb535c048a3ca7bd9a1339"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3664",
+      "value": "gen 3679",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "142 changes / 7 days",
+      "value": "144 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
