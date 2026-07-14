@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(design): #464 subagent preload reduction — quick wins + digest split (draft for ratif",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6960322942756c0a86f454e7b6f59e4df031b176"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(agents): design-reviewer smallest-preload shape (haiku/effort-low/no-Bash) — preload a",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b972ae3adc71129c0fed31704b74f1f73405205"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(embeddings): opt-in always-warm semantic memory + /verify-embeddings (#4025)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4873a95cf1b767e3fa713d5fa367e81a759fe1fa"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(session-reaper): close the pgrep->lsof race fail-open (#4021 DEFER) (#4024)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/980633a37e972e0c089f4e921621bc7f3853c39c"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3761",
+      "value": "gen 3790",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "131 changes / 7 days",
+      "value": "132 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/next"
         }
       ],
-      "tip": "/evo: 'user_rejected_action' ff=14% (46/54). Ev: grip_workflow:rsi, grip_workflow:mode, steering:user interrupted, gate:hook, env:memory"
+      "tip": "/evo: 'user_rejected_action' ff=15% (35/41). Ev: steering:user had to, known_hook:session end, steering:user interrupted, grip_workflow:mode, grip_workflow:rsi"
     }
   ]
 }
