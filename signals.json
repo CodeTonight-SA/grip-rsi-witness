@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(session-reaper): close the pgrep->lsof race fail-open (#4021 DEFER) (#4024)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/980633a37e972e0c089f4e921621bc7f3853c39c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gg++): session worktrees branch off freshly-fetched origin/<default>, not stale HEAD (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/423fde0c7dbaef32c5f3f73164f7aa1b3b600e00"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(session-reaper): never reap a live session's cwd worktree (#4021)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7444a5ca4accf6f1021b2b59ee0e536ea96cd741"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(repl-429): fold the shared rate-limit classifier into the auto-detect hook (#4016)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c283014d999949baa25e304c0e6c5efcc02df3e2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ultraclear): L2 autonomous resume — /afk after warm-reload works Next Step + remainin",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eeccf0a874caad262b60744509b2af3d971e50e6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(auth-failover): no-truncate lock open + real ImportError test + note-flag guard (task ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d05094973fb3df4375794d61a54112f77796568"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3679",
+      "value": "gen 3703",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "144 changes / 7 days",
+      "value": "145 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
