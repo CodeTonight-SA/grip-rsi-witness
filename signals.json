@@ -4,66 +4,66 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "fix(sovereign-council): concurrency hardening — roster copy, memoised key resolution, race",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/04d46cb8dca7a0a96a78c7e4091a664ea7704923"
+          "tldr": "fix(repl-429): fold the shared rate-limit classifier into the auto-detect hook (#4016)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c283014d999949baa25e304c0e6c5efcc02df3e2"
         },
         {
           "kind": "shipped",
-          "tldr": "test(council-endpoint): strengthen #430 race test to real torn-write integrity (AGORA #399",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dd890da59eb9a4de75b89dcdc500cd261b67ee11"
+          "tldr": "feat(ultraclear): L2 autonomous resume — /afk after warm-reload works Next Step + remainin",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eeccf0a874caad262b60744509b2af3d971e50e6"
         },
         {
           "kind": "shipped",
-          "tldr": "harden(council-endpoint): #430 concurrency race test + /proc eval; lock ADR 0012 to C-prim",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e1f86295a8fd8152a0520844bc9a030b2ce3607c"
+          "tldr": "fix(auth-failover): no-truncate lock open + real ImportError test + note-flag guard (task ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d05094973fb3df4375794d61a54112f77796568"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(sovereign-council): VPS council as an OpenAI-compat provider/model — mechanism (endpo",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e6b3752454ef753d4b4245836bece973c0bca3a"
+          "tldr": "feat(opencode): wire VPS sovereign council as grip-vps/council provider (C', ADR 0012) (#4",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/696b4c9cd904ebebed2c9b6abbd38dc3c3c9b92b"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(grip-channel): close command injection in python-gate.ts (CodeQL #77/#78) (#3993)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d01b08345c5110e37e8453e2f8d8985995ac7006"
+          "tldr": "feat(ultraclear): auto-continue on warm-reload — resume Next Step on first go-signal (#401",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2de87c28c4d71e9aacb535c048a3ca7bd9a1339"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(witness+relay): complement to merged DEFER sweep #3981 — atomic snapshots, _open_prs s",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a2d908ccebdaf0de09a93328bcd0d3df9a5bc109"
+          "tldr": "feat(relay): fire grip-auth-failover --note-cap on the usage-cap path (task #435) (#4012)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6b4ac4faf63764b7fcac60e653e79a663ca3e5dc"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(auth-surfaces): DEFER sweep — evidence inline, column consistency, falsification stub",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc285975ecdba157a278d940e412bfd6bde0468d"
+          "tldr": "fix(auth-failover): --note-cap — usage-cap failover + notify, never a silent stop (#4000)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/99c358624be9e10197c96b0aab43f03d203747bc"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(ultralearn): atomic ledger append (flock) + precise build-time leak check (#419) (#398",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/293088700e05bf762877a4b151a9030857f2bdd6"
+          "tldr": "test(afk): correct scoped-width comment to 16 chars (round-2 review residue) (#4010)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/863433022e7c1918df8f88f1b46f7a6d877c48fe"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "740 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "749 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "196 confirmed / 303 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "66 living genes evolving under fitness selection",
+      "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3472",
+      "value": "gen 3603",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "129 changes / 7 days",
+      "value": "142 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -78,16 +78,16 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
+          "desc": "Away From Keyboard mode",
+          "name": "/afk"
+        },
+        {
           "desc": "Harness- and provider-agnostic idempotent workflow kernel (lib/ultracode) — cont",
           "name": "/ultracode"
         },
         {
           "desc": "The canonical \"go to next session\" handoff — ONE command for the end-of-session ",
           "name": "/next"
-        },
-        {
-          "desc": "Away From Keyboard mode",
-          "name": "/afk"
         },
         {
           "desc": "TUI++ activation wizard with three-act structure (Identity → Capability → First ",
