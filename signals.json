@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(agents): design-reviewer smallest-preload shape (haiku/effort-low/no-Bash) — preload a",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b972ae3adc71129c0fed31704b74f1f73405205"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(harness): polymorphic LSP-enforced harness-in-harness abstraction (#4029)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cadfa14375c07d049bb22e811d81f0e4efa02049"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(session-reaper): close the pgrep->lsof race fail-open (#4021 DEFER) (#4024)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/980633a37e972e0c089f4e921621bc7f3853c39c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gg++): session worktrees branch off freshly-fetched origin/<default>, not stale HEAD (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/423fde0c7dbaef32c5f3f73164f7aa1b3b600e00"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "130 changes / 7 days",
+      "value": "131 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
