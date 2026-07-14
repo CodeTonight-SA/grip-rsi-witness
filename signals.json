@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(harness): polymorphic LSP-enforced harness-in-harness abstraction (#4029)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cadfa14375c07d049bb22e811d81f0e4efa02049"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(rules): self-reports are the highest-risk claims; exogenous verdicts launder a corrup",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/aca094c29e6803b49a14fe89460ecadf5bf340b4"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(gg++): session worktrees branch off freshly-fetched origin/<default>, not stale HEAD (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/423fde0c7dbaef32c5f3f73164f7aa1b3b600e00"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(session-reaper): never reap a live session's cwd worktree (#4021)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7444a5ca4accf6f1021b2b59ee0e536ea96cd741"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "753 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "754 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "196 confirmed / 303 refuted",
@@ -56,14 +56,14 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3754",
+      "value": "gen 3755",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "129 changes / 7 days",
+      "value": "130 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
