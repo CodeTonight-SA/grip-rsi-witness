@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(embeddings): opt-in always-warm semantic memory + /verify-embeddings (#4025)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4873a95cf1b767e3fa713d5fa367e81a759fe1fa"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(session-reaper): close the pgrep->lsof race fail-open (#4021 DEFER) (#4024)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/980633a37e972e0c089f4e921621bc7f3853c39c"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "feat(grip-resume): L3 zero-touch resume — send-keys /clear + trigger to a Claude Code pane",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/74a4cec025d3ede29577988e810f3280488963ff"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(repl-429): fold the shared rate-limit classifier into the auto-detect hook (#4016)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c283014d999949baa25e304c0e6c5efcc02df3e2"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "751 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "752 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "196 confirmed / 303 refuted",
@@ -56,14 +56,14 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3703",
+      "value": "gen 3706",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "145 changes / 7 days",
+      "value": "146 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
