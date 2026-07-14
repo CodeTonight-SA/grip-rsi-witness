@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gg++): warn instead of silently falling back to HEAD when origin/<default> is unresolv",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/578e8057732a7c8693e3b29aa6e748b7128df065"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(embeddings): AGORA #4022 follow-ups + activate-grip-tui opt-in prompt (#4026)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa78a3c0379e48559527d1311aa1971bcb893de3"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(embeddings): opt-in always-warm semantic memory + /verify-embeddings (#4025)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4873a95cf1b767e3fa713d5fa367e81a759fe1fa"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(repl-429): pin hook fire-kind to classifier constant (AGORA #4016 DEFER follow-up) (#4",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b1a310803fdb14ddb22de4ea62c112490278b854"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(settings): pre-approve GRIP project MCP servers via enabledMcpjsonServers (#4020)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4770a15866e9ff089bb5984990e4a6e890258e5d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(grip-resume): L3 zero-touch resume — send-keys /clear + trigger to a Claude Code pane",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/74a4cec025d3ede29577988e810f3280488963ff"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3706",
+      "value": "gen 3713",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "146 changes / 7 days",
+      "value": "147 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
