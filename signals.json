@@ -78,8 +78,20 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
+          "desc": "Verify GRIP semantic memory end to end — prove embeddings are correctly saved an",
+          "name": "/verify-embeddings"
+        },
+        {
+          "desc": "The lean RSI-witness kernel — ONE idempotent cycle (introspect → exogenous grip-",
+          "name": "/ultralearn"
+        },
+        {
           "desc": "Away From Keyboard mode",
           "name": "/afk"
+        },
+        {
+          "desc": "TUI++ activation wizard with three-act structure (Identity → Capability → First ",
+          "name": "/activate-grip-tui"
         },
         {
           "desc": "Harness- and provider-agnostic idempotent workflow kernel (lib/ultracode) — cont",
@@ -88,18 +100,6 @@
         {
           "desc": "The canonical \"go to next session\" handoff — ONE command for the end-of-session ",
           "name": "/next"
-        },
-        {
-          "desc": "TUI++ activation wizard with three-act structure (Identity → Capability → First ",
-          "name": "/activate-grip-tui"
-        },
-        {
-          "desc": "The lean RSI-witness kernel — ONE idempotent cycle (introspect → exogenous grip-",
-          "name": "/ultralearn"
-        },
-        {
-          "desc": "Git worktree isolation for concurrent sessions and safe branch work",
-          "name": "/worktree-isolation"
         }
       ],
       "tip": "/evo: 'user_rejected_action' ff=14% (46/54). Ev: grip_workflow:rsi, grip_workflow:mode, steering:user interrupted, gate:hook, env:memory"
