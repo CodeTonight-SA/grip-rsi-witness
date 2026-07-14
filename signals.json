@@ -56,7 +56,7 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3744",
+      "value": "gen 3745",
       "verify": "data/genome-shared.json"
     },
     {
