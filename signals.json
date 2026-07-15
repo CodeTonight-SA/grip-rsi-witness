@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hooks): prove-footer follow-ups — discovered grasp import, transcript tail-scan (#4037",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5854e49d13bbe8b5b844d45219dcf5cf6a1bdb6f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(hooks): activate the four confabulation gates (operator-ratified)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/06e5e60de9101d5179e23158b6770dc2b719ac7a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(harness): polymorphic LSP-enforced harness-in-harness abstraction (#4029)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cadfa14375c07d049bb22e811d81f0e4efa02049"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): self-reports are the highest-risk claims; exogenous verdicts launder a corrup",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aca094c29e6803b49a14fe89460ecadf5bf340b4"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3956",
+      "value": "gen 3983",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "119 changes / 7 days",
+      "value": "120 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
