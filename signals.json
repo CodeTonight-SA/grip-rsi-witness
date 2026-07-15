@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test+docs(confab): partial-degrade coverage + program ledger closed out (#4043)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c2d9c4edf199155c82d8f52c2d0a318c7b1d63f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(confab): import-degrade observability anchors + seam-coupling decision (task #482) (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/057598b9eb0c2a6278a0dfa201e55a302f44ec05"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(onboarding): onboarding-interview — HITL fit-interview mapped to config + signed IDR ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/20f501929a4200498b946e1f7e777ec58cd6dba0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(confab): cross-harness enforcement — dispatch-seam advisory + council-seed premise ch",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/44e62e1c900696433283a3c56b29bb30764aa3ca"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(hooks): prove-footer follow-ups — discovered grasp import, transcript tail-scan (#4037",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5854e49d13bbe8b5b844d45219dcf5cf6a1bdb6f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(hooks): activate the four confabulation gates (operator-ratified)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/06e5e60de9101d5179e23158b6770dc2b719ac7a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(hooks): opt-in per-response prove-it footer (GRASP dogfood) (#4034)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c16f5bbc80a27f3e888099da0194855f17ec98ef"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(confab): structural confabulation fix — premise-verification gates, SIGD semantic tie",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/da90e0d5a195d50441a36aa9a147698ebcc6bd09"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "17 living genes evolving under fitness selection",
+      "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4009",
+      "value": "gen 4053",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "124 changes / 7 days",
+      "value": "127 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Conversational HITL interview that gets to know a NEW operator beyond the fixed ",
+          "name": "/onboarding-interview"
+        },
         {
           "desc": "Render a mechanistic probe's workspace-vocabulary readout at a decision point as",
           "name": "/truth-lens"
@@ -96,10 +100,6 @@
         {
           "desc": "Away From Keyboard mode",
           "name": "/afk"
-        },
-        {
-          "desc": "TUI++ activation wizard with three-act structure (Identity → Capability → First ",
-          "name": "/activate-grip-tui"
         }
       ],
       "tip": "/evo: 'user_rejected_action' ff=15% (35/41). Ev: steering:user had to, known_hook:session end, steering:user interrupted, grip_workflow:mode, grip_workflow:rsi"
