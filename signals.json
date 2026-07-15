@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(hooks): activate the four confabulation gates (operator-ratified)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/06e5e60de9101d5179e23158b6770dc2b719ac7a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(hooks): opt-in per-response prove-it footer (GRASP dogfood) (#4034)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c16f5bbc80a27f3e888099da0194855f17ec98ef"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(rules): self-reports are the highest-risk claims; exogenous verdicts launder a corrup",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/aca094c29e6803b49a14fe89460ecadf5bf340b4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(bash-safety): rg -r is --replace, not recursive — verify-canonical footgun",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f81278503ac03ce78158798c1db49f9dc18fd1a"
         }
       ],
       "key": "stream"
@@ -53,10 +53,10 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "17 living genes evolving under fitness selection",
+      "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3902",
+      "value": "gen 3926",
       "verify": "data/genome-shared.json"
     },
     {
