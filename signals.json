@@ -56,14 +56,14 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3828",
+      "value": "gen 3855",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "126 changes / 7 days",
+      "value": "125 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
