@@ -46,7 +46,7 @@
       "key": "stream"
     },
     {
-      "caption": "757 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "758 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "196 confirmed / 303 refuted",
@@ -56,7 +56,7 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4006",
+      "value": "gen 4009",
       "verify": "data/genome-shared.json"
     },
     {
