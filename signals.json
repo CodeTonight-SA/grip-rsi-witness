@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(hooks): opt-in per-response prove-it footer (GRASP dogfood) (#4034)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c16f5bbc80a27f3e888099da0194855f17ec98ef"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(confab): structural confabulation fix — premise-verification gates, SIGD semantic tie",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/da90e0d5a195d50441a36aa9a147698ebcc6bd09"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(harness): GrokBuildHarness — quarantined-by-construction Grok Build leaf (#4032)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2bb97b903bb001d17592c8185c964bf6e5f6615d"
         },
@@ -31,22 +41,12 @@
           "kind": "shipped",
           "tldr": "docs(bash-safety): rg -r is --replace, not recursive — verify-canonical footgun",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f81278503ac03ce78158798c1db49f9dc18fd1a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gg++): warn instead of silently falling back to HEAD when origin/<default> is unresolv",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/578e8057732a7c8693e3b29aa6e748b7128df065"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(embeddings): AGORA #4022 follow-ups + activate-grip-tui opt-in prompt (#4026)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa78a3c0379e48559527d1311aa1971bcb893de3"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "755 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "757 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "196 confirmed / 303 refuted",
@@ -56,14 +56,14 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3855",
+      "value": "gen 3902",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "125 changes / 7 days",
+      "value": "126 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -77,6 +77,14 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Render a mechanistic probe's workspace-vocabulary readout at a decision point as",
+          "name": "/truth-lens"
+        },
+        {
+          "desc": "GRIP self-falsification protocol",
+          "name": "/falsify-self"
+        },
         {
           "desc": "Verify GRIP semantic memory end to end — prove embeddings are correctly saved an",
           "name": "/verify-embeddings"
@@ -92,14 +100,6 @@
         {
           "desc": "TUI++ activation wizard with three-act structure (Identity → Capability → First ",
           "name": "/activate-grip-tui"
-        },
-        {
-          "desc": "Harness- and provider-agnostic idempotent workflow kernel (lib/ultracode) — cont",
-          "name": "/ultracode"
-        },
-        {
-          "desc": "The canonical \"go to next session\" handoff — ONE command for the end-of-session ",
-          "name": "/next"
         }
       ],
       "tip": "/evo: 'user_rejected_action' ff=15% (35/41). Ev: steering:user had to, known_hook:session end, steering:user interrupted, grip_workflow:mode, grip_workflow:rsi"
