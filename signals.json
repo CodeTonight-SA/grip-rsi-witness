@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(confab): cross-harness enforcement — dispatch-seam advisory + council-seed premise ch",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44e62e1c900696433283a3c56b29bb30764aa3ca"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(agora): dispatch speakers/judge via the absolute hal path, not bare \"hal\" (#4039)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3110f33d9d500f13771c8ee87c82d4fa20cb7ab"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test+fix(confab): adversarial falsification pins + day-zero calibration (task #477) (#4036",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c47ea5ae2dcac5a1ef2ec017d98ba756ed55b34a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(hooks): prove-footer tail-scan boundary anchors (#4040)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0d1de798ce23795b01c4ccb666fcff78c8becbc6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hooks): prove-footer follow-ups — discovered grasp import, transcript tail-scan (#4037",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5854e49d13bbe8b5b844d45219dcf5cf6a1bdb6f"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(confab): structural confabulation fix — premise-verification gates, SIGD semantic tie",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/da90e0d5a195d50441a36aa9a147698ebcc6bd09"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(harness): GrokBuildHarness — quarantined-by-construction Grok Build leaf (#4032)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2bb97b903bb001d17592c8185c964bf6e5f6615d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(design): #464 subagent preload reduction — quick wins + digest split (draft for ratif",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6960322942756c0a86f454e7b6f59e4df031b176"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agents): design-reviewer smallest-preload shape (haiku/effort-low/no-Bash) — preload a",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b972ae3adc71129c0fed31704b74f1f73405205"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(harness): polymorphic LSP-enforced harness-in-harness abstraction (#4029)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cadfa14375c07d049bb22e811d81f0e4efa02049"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 3983",
+      "value": "gen 4006",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "120 changes / 7 days",
+      "value": "124 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
