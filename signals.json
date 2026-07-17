@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "test+docs(confab): partial-degrade coverage + program ledger closed out (#4043)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c2d9c4edf199155c82d8f52c2d0a318c7b1d63f"
+          "tldr": "feat(warmstart): questionnaire reply ingest CLI with direct-Slack fallback (#4065)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/933325883532d7752474efb7b19f14596ab13d59"
         },
         {
           "kind": "shipped",
-          "tldr": "test(confab): import-degrade observability anchors + seam-coupling decision (task #482) (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/057598b9eb0c2a6278a0dfa201e55a302f44ec05"
+          "tldr": "fix(mesh): key session identity on stable CLAUDE_CODE_SESSION_ID, not bash PPID (#517) (#4",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d6d2332021f4b54c722230868459066c95dba883"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(onboarding): onboarding-interview — HITL fit-interview mapped to config + signed IDR ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/20f501929a4200498b946e1f7e777ec58cd6dba0"
+          "tldr": "fix(hooks): child-session 1M-context guard — surface /model fix when the launch pin is byp",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9624251a741f3f8a217ca3418a54dfd4f403446d"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(confab): cross-harness enforcement — dispatch-seam advisory + council-seed premise ch",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44e62e1c900696433283a3c56b29bb30764aa3ca"
+          "tldr": "chore: remove nugrip skill, command, and script (#4062)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/780fc8150ecf8b0f0ba40ccd21bd92b43f1e3f9e"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(agora): dispatch speakers/judge via the absolute hal path, not bare \"hal\" (#4039)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3110f33d9d500f13771c8ee87c82d4fa20cb7ab"
+          "tldr": "fix(output): wire the never-firing edge-E + confab Stop advisories to the transcript (#406",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d9ca7ce858f00b3563dbebd38540a771d6b08af1"
         },
         {
           "kind": "shipped",
-          "tldr": "test+fix(confab): adversarial falsification pins + day-zero calibration (task #477) (#4036",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c47ea5ae2dcac5a1ef2ec017d98ba756ed55b34a"
+          "tldr": "docs(rules): negative existence claims must query the moat + content-addressed stores (#40",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1da5e60f6c773f997cf79b86670482fd55d0feb"
         },
         {
           "kind": "shipped",
-          "tldr": "test(hooks): prove-footer tail-scan boundary anchors (#4040)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0d1de798ce23795b01c4ccb666fcff78c8becbc6"
+          "tldr": "feat(routing): /frontier → deepseek-reasoner; council openai speaker → grok-4.5 (ADR 0013)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c246d7fe9787c7de89621d1efd962fb6e08f9d4b"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(hooks): prove-footer follow-ups — discovered grasp import, transcript tail-scan (#4037",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5854e49d13bbe8b5b844d45219dcf5cf6a1bdb6f"
+          "tldr": "feat(harness): 19 CLI coding-agent adapters — the harness wave (#4055)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b42fa3c5c01b9b7dc30ac9d77939e58c4e855f67"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "758 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "761 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "196 confirmed / 303 refuted",
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4053",
+      "value": "gen 4306",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "127 changes / 7 days",
+      "value": "133 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -78,31 +78,31 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
+          "desc": "Programmatic demo videos via Remotion",
+          "name": "/remotion-video-creation"
+        },
+        {
+          "desc": "Durable operator reminders — \"remind me later/at X about Y\" arms a launchd one-s",
+          "name": "/remind-me"
+        },
+        {
           "desc": "Conversational HITL interview that gets to know a NEW operator beyond the fixed ",
           "name": "/onboarding-interview"
         },
         {
-          "desc": "Render a mechanistic probe's workspace-vocabulary readout at a decision point as",
-          "name": "/truth-lens"
+          "desc": "Explain where a session's context window actually went — decompose usage into am",
+          "name": "/context-forensics"
         },
         {
-          "desc": "GRIP self-falsification protocol",
-          "name": "/falsify-self"
+          "desc": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, ",
+          "name": "/wrangler"
         },
         {
-          "desc": "Verify GRIP semantic memory end to end — prove embeddings are correctly saved an",
-          "name": "/verify-embeddings"
-        },
-        {
-          "desc": "The lean RSI-witness kernel — ONE idempotent cycle (introspect → exogenous grip-",
-          "name": "/ultralearn"
-        },
-        {
-          "desc": "Away From Keyboard mode",
-          "name": "/afk"
+          "desc": "Reviews and authors Cloudflare Workers code against production best practices",
+          "name": "/workers-best-practices"
         }
       ],
-      "tip": "/evo: 'user_rejected_action' ff=15% (35/41). Ev: steering:user had to, known_hook:session end, steering:user interrupted, grip_workflow:mode, grip_workflow:rsi"
+      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: grip_workflow:genome, grip_workflow:rsi, grip_workflow:sprint, steering:user interrupted, steering:user wanted"
     }
   ]
 }
