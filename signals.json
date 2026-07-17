@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(onboarding): harden drift-guard — remove Goodhart swallow in _runtime_ops + falsifica",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8ed9c9909c416636ef9b31e743090af295864b26"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(skills): /ultrareason — moat-grounded, cost-tiered reasoning (#502) (#4067)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d68cc99fb0e232741428b3b922c6a8c5ba52cfa7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(hooks): correct child-session-1m-guard message (parent-not-default, #518) + inventory",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/12cca74f108a7a812cc5ccdd560b3703c2c6cee2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(model): wizard DEFAULT_CHOICE = opus-4-8 (durable Opus 4.8 1M default) (#4068)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/34581d4855a6c9c7f91a4739d75a395fc117f11b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(config): default model = Opus 4.8 1M (claude-opus-4-8[1m]) (#4066)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3de96166dd318f37e3baefd6aacd8aa371fb9814"
         },
@@ -21,32 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(mesh): key session identity on stable CLAUDE_CODE_SESSION_ID, not bash PPID (#517) (#4",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d6d2332021f4b54c722230868459066c95dba883"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): child-session 1M-context guard — surface /model fix when the launch pin is byp",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9624251a741f3f8a217ca3418a54dfd4f403446d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore: remove nugrip skill, command, and script (#4062)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/780fc8150ecf8b0f0ba40ccd21bd92b43f1e3f9e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(output): wire the never-firing edge-E + confab Stop advisories to the transcript (#406",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d9ca7ce858f00b3563dbebd38540a771d6b08af1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): negative existence claims must query the moat + content-addressed stores (#40",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1da5e60f6c773f997cf79b86670482fd55d0feb"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "762 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "763 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "196 confirmed / 303 refuted",
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4342",
+      "value": "gen 4364",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "135 changes / 7 days",
+      "value": "139 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
