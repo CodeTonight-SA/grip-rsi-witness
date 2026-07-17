@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(rules): prove-it — spec the minimum valid negative search of the moat + content store",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d487ba223ddd0ea89238f85d0fe837c072259534"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(rules): deferred-followups — add STALE disposition + decay-metric falsifier (#488, DE",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/74dc6f4738f510abcd0b12318c16e50bd60b55e4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(evo): scope CUBE scan to lib/ + HEAD-keyed cache — /evo was un-runnable (16-min grind)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/eae0dad1d6a2dd699888160ed50c4e296b54de83"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(config): default model = Opus 4.8 1M (claude-opus-4-8[1m]) (#4066)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3de96166dd318f37e3baefd6aacd8aa371fb9814"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(recall): Forensic Report layer — deterministic RED-chain renderings + publish-safe ti",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9244460e121ffe0ff6d47cc3d5df1dbc3a332059"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(warmstart): questionnaire reply ingest CLI with direct-Slack fallback (#4065)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/933325883532d7752474efb7b19f14596ab13d59"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4381",
+      "value": "gen 4386",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "140 changes / 7 days",
+      "value": "142 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
