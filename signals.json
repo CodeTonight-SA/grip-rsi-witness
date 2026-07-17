@@ -102,7 +102,7 @@
           "name": "/wrangler"
         }
       ],
-      "tip": "Friction pattern 'wrong_approach' occurs in 56.1% of sessions (273/487). Consider strengthening existing guardrails or creating new prevention skill."
+      "tip": "Friction: Buggy first-pass code on complex sprints — On long multi-PR sessions, initial implementations often ship with regressions that surface only during live testing or follow-up runs. Asking Claude"
     }
   ]
 }
