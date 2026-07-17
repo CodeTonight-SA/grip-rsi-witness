@@ -56,7 +56,7 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4379",
+      "value": "gen 4380",
       "verify": "data/genome-shared.json"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/wrangler"
         }
       ],
-      "tip": "/evo: 'environment_issue' ff=14% (4/5). Ev: gate:permission, steering:requiring user, gate:hook"
+      "tip": "Friction pattern 'wrong_approach' occurs in 56.1% of sessions (273/487). Consider strengthening existing guardrails or creating new prevention skill."
     }
   ]
 }
