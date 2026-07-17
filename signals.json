@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(config): default model = Opus 4.8 1M (claude-opus-4-8[1m]) (#4066)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3de96166dd318f37e3baefd6aacd8aa371fb9814"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(recall): Forensic Report layer — deterministic RED-chain renderings + publish-safe ti",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9244460e121ffe0ff6d47cc3d5df1dbc3a332059"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(warmstart): questionnaire reply ingest CLI with direct-Slack fallback (#4065)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/933325883532d7752474efb7b19f14596ab13d59"
         },
@@ -31,22 +41,12 @@
           "kind": "shipped",
           "tldr": "docs(rules): negative existence claims must query the moat + content-addressed stores (#40",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1da5e60f6c773f997cf79b86670482fd55d0feb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(routing): /frontier → deepseek-reasoner; council openai speaker → grok-4.5 (ADR 0013)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c246d7fe9787c7de89621d1efd962fb6e08f9d4b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(harness): 19 CLI coding-agent adapters — the harness wave (#4055)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b42fa3c5c01b9b7dc30ac9d77939e58c4e855f67"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "761 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "762 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "196 confirmed / 303 refuted",
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4306",
+      "value": "gen 4342",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "133 changes / 7 days",
+      "value": "135 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Answer a hard reasoning question grounded in the GRIP moat (what GRIP has verifi",
+          "name": "/ultrareason"
+        },
         {
           "desc": "Programmatic demo videos via Remotion",
           "name": "/remotion-video-creation"
@@ -96,10 +100,6 @@
         {
           "desc": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, ",
           "name": "/wrangler"
-        },
-        {
-          "desc": "Reviews and authors Cloudflare Workers code against production best practices",
-          "name": "/workers-best-practices"
         }
       ],
       "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: grip_workflow:genome, grip_workflow:rsi, grip_workflow:sprint, steering:user interrupted, steering:user wanted"
