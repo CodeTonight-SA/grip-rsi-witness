@@ -56,7 +56,7 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4364",
+      "value": "gen 4379",
       "verify": "data/genome-shared.json"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/wrangler"
         }
       ],
-      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: grip_workflow:genome, grip_workflow:rsi, grip_workflow:sprint, steering:user interrupted, steering:user wanted"
+      "tip": "/evo: 'environment_issue' ff=14% (4/5). Ev: gate:permission, steering:requiring user, gate:hook"
     }
   ]
 }
