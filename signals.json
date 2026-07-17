@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs: ultraprompt for #464 (subagent preload reduction) — brief for a fresh focused sessio",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ccc535a4e06994e452354b7a6757a6f7ac3d201"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(bare-number-detector): generalise section-label gloss to unbounded bucket labels (#515",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d948e24ddc9b25a2240b149460c04836e20016dd"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(skills): /ultrareason — moat-grounded, cost-tiered reasoning (#502) (#4067)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d68cc99fb0e232741428b3b922c6a8c5ba52cfa7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(hooks): correct child-session-1m-guard message (parent-not-default, #518) + inventory",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/12cca74f108a7a812cc5ccdd560b3703c2c6cee2"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4408",
+      "value": "gen 4413",
       "verify": "data/genome-shared.json"
     },
     {
