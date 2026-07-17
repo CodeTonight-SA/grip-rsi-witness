@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(evo): scope CUBE scan to lib/ + HEAD-keyed cache — /evo was un-runnable (16-min grind)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eae0dad1d6a2dd699888160ed50c4e296b54de83"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(onboarding): harden drift-guard — remove Goodhart swallow in _runtime_ops + falsifica",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8ed9c9909c416636ef9b31e743090af295864b26"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(warmstart): questionnaire reply ingest CLI with direct-Slack fallback (#4065)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/933325883532d7752474efb7b19f14596ab13d59"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(mesh): key session identity on stable CLAUDE_CODE_SESSION_ID, not bash PPID (#517) (#4",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d6d2332021f4b54c722230868459066c95dba883"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "139 changes / 7 days",
+      "value": "140 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
