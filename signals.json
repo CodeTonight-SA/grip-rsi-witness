@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(guild): remove dedicated Guild skills, commands, and lib (#4092)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ccf3b97c906180ed72470968b79f4e4bf588c486"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(#464): subagent-preload verification results (#4091)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b86f971724ad6238575ad8ef736b6404e5eaad23"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(plans): #4058 AGORA idle-oscillation fix ultraprompt — next-session handoff (#540) (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/316b004ccdaf996e242bf32fce7d64a073390c50"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(ultrareason): provenance card — moat facts + tier + council seal per answer (#4086)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f90aecac26ef09030cbe71f3a151ac765d818942"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(skills): /handoff-prompt - minimal next-session prompt auto-copied to clipboard (#408",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c00cb0abca8310d2fd0421295b11ab6aa921e637"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(active-llm): make state-file tests hermetic from the machine catalogue + session id (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/98322af409f4919575105d75d39239c5934cc5f7"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4658",
+      "value": "gen 4689",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "140 changes / 7 days",
+      "value": "142 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
