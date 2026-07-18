@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(rules): bash-safety - document zsh read-only `status` var footgun (#4088)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/051e88540343bf391166eb6b3480515a1326a754"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(der): decision-evidence-receipt composer + CLI + e2e (#527) (#4087)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eb06c9f5f5568902c45660d9d82ec59cf53874cc"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(ultrareason): council escalation passes real prompt not literal \"council\" (#530); migr",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8d4406b1477c5ef65fd28098b17cf4bf3d64c1f6"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(confab): STATUS.md rigour — scope tau, fix tripwire wording, name FP mechanism (#484)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/14e08c036dc95c6ad527d6ebd441f38b1a074377"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(bare-number-detector): explicit offset-preservation test (#526) (#4080)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6584cae1d94d92984468e0616ba5027115199102"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(rules): #464 — shrink subagent preload below 200K via safety-core/extended rule split",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ad8d6e8cb81c8e7fd9cdf8ec0550dd304a577cf2"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "17 living genes evolving under fitness selection",
+      "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4617",
+      "value": "gen 4640",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "148 changes / 7 days",
+      "value": "149 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
