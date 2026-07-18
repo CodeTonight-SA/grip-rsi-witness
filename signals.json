@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(moat): DER attestation-boundary spec + falsifier test (#551 Wave 2)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5a90ebc30c70b02e5aa27a5d4693289dab340d29"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(moat): DER wedge endpoint — POST /receipt · POST /verify (#527/#546)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/da6d18e984b7f0aabd9788e1d2161a1a4e7ac674"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(agora): surface DEFER follow-up auto-file failure on the PR comment (#4095)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0da3efc69b46db75ccc34c9c5db537ad900edf3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(moat): Decision Evidence Receipt — real end-to-end demo + zero-trust verifier (#546)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/25648e43cdd696971b621d529b9b8c69bbbe55c0"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4913",
+      "value": "gen 4954",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "150 changes / 7 days",
+      "value": "151 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
