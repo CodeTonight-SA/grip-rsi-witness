@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(agora): head-SHA idempotency + judge-unavailable fail-closed (#4058) (#4093)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fd3677e498e71195ee994b1643be8563f1948f95"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(embeddings): restore _cosine_similarity dropped in package split (#4099)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/72404386c71b47a37f46dc63150745a69cdc133b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(guild): remove dedicated Guild skills, commands, and lib (#4092)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ccf3b97c906180ed72470968b79f4e4bf588c486"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(#464): subagent-preload verification results (#4091)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b86f971724ad6238575ad8ef736b6404e5eaad23"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4774",
+      "value": "gen 4790",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "148 changes / 7 days",
+      "value": "149 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -82,6 +82,14 @@
           "name": "/ultrareason"
         },
         {
+          "desc": "Unified one-shot save of all GRIP memory subsystems",
+          "name": "/saving-state"
+        },
+        {
+          "desc": "The canonical \"go to next session\" handoff — ONE command for the end-of-session ",
+          "name": "/next"
+        },
+        {
           "desc": "Programmatic demo videos via Remotion",
           "name": "/remotion-video-creation"
         },
@@ -92,14 +100,6 @@
         {
           "desc": "Conversational HITL interview that gets to know a NEW operator beyond the fixed ",
           "name": "/onboarding-interview"
-        },
-        {
-          "desc": "Explain where a session's context window actually went — decompose usage into am",
-          "name": "/context-forensics"
-        },
-        {
-          "desc": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, ",
-          "name": "/wrangler"
         }
       ],
       "tip": "Friction: Buggy first-pass code on complex sprints — On long multi-PR sessions, initial implementations often ship with regressions that surface only during live testing or follow-up runs. Asking Claude"
