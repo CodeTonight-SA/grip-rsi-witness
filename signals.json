@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(genome): stop time-decay compounding super-exponentially across daily sessions (#4097)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e003f65be4e83defd9b9198b20494561c57ff1f1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hooks): route silent fail-open deny gates through canonical hook_response shim (#4096)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2de7754bc52b35fac234b3b3d5c5cf535186edfc"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(rules): bash-safety - correct zsh read-only claim + add full list (DEFER #4088) (#408",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/812a32bb54f2b7584ecb97443b44d478ae8fa063"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): bash-safety - document zsh read-only `status` var footgun (#4088)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/051e88540343bf391166eb6b3480515a1326a754"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4762",
+      "value": "gen 4763",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "145 changes / 7 days",
+      "value": "146 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
