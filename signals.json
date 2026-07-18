@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(ultrareason): council escalation passes real prompt not literal \"council\" (#530); migr",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8d4406b1477c5ef65fd28098b17cf4bf3d64c1f6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ultrareason): provenance card — moat facts + tier + council seal per answer (#4086)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f90aecac26ef09030cbe71f3a151ac765d818942"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(skills): /handoff-prompt - minimal next-session prompt auto-copied to clipboard (#408",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c00cb0abca8310d2fd0421295b11ab6aa921e637"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(active-llm): make state-file tests hermetic from the machine catalogue + session id (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/98322af409f4919575105d75d39239c5934cc5f7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(grip-afk): accept positional AND --note/--ttl flag forms; clear error on bad ttl (#404",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b202dad6ed515753ded07efb6d272ad77122119d"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(rules): #464 — shrink subagent preload below 200K via safety-core/extended rule split",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ad8d6e8cb81c8e7fd9cdf8ec0550dd304a577cf2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ultrareason): council escalation dropped the real prompt (passed literal \"council\") (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d6cab2eaa58ddf60349eb80dde435bfd459eaaf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "refactor(mesh): canonicalize session-id resolution — hooks import lib/mesh_identity (#520)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3cca3c2136499e23d399473dbb988872eec28a71"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: ultraprompt for #464 (subagent preload reduction) — brief for a fresh focused sessio",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ccc535a4e06994e452354b7a6757a6f7ac3d201"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(bare-number-detector): generalise section-label gloss to unbounded bucket labels (#515",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d948e24ddc9b25a2240b149460c04836e20016dd"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4573",
+      "value": "gen 4617",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "144 changes / 7 days",
+      "value": "148 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
