@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(ultrareason): council escalation dropped the real prompt (passed literal \"council\") (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d6cab2eaa58ddf60349eb80dde435bfd459eaaf"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "refactor(mesh): canonicalize session-id resolution — hooks import lib/mesh_identity (#520)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3cca3c2136499e23d399473dbb988872eec28a71"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs: ultraprompt for #464 (subagent preload reduction) — brief for a fresh focused sessio",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ccc535a4e06994e452354b7a6757a6f7ac3d201"
         },
@@ -31,39 +41,29 @@
           "kind": "shipped",
           "tldr": "fix(evo): scope CUBE scan to lib/ + HEAD-keyed cache — /evo was un-runnable (16-min grind)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/eae0dad1d6a2dd699888160ed50c4e296b54de83"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(onboarding): harden drift-guard — remove Goodhart swallow in _runtime_ops + falsifica",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8ed9c9909c416636ef9b31e743090af295864b26"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(skills): /ultrareason — moat-grounded, cost-tiered reasoning (#502) (#4067)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d68cc99fb0e232741428b3b922c6a8c5ba52cfa7"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "765 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "766 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "196 confirmed / 303 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "66 living genes evolving under fitness selection",
+      "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4449",
+      "value": "gen 4491",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "139 changes / 7 days",
+      "value": "141 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
