@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(idr): replay trust gates require positively VERIFIED, not merely not-BROKEN (#4098)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9745e66cfaf1645a229e414d007778a79efdf628"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(genome): stop time-decay compounding super-exponentially across daily sessions (#4097)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e003f65be4e83defd9b9198b20494561c57ff1f1"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(plans): #4058 AGORA idle-oscillation fix ultraprompt — next-session handoff (#540) (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/316b004ccdaf996e242bf32fce7d64a073390c50"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): bash-safety - correct zsh read-only claim + add full list (DEFER #4088) (#408",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/812a32bb54f2b7584ecb97443b44d478ae8fa063"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4763",
+      "value": "gen 4765",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "146 changes / 7 days",
+      "value": "147 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
