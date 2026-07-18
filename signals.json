@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(plans): #4058 AGORA idle-oscillation fix ultraprompt — next-session handoff (#540) (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/316b004ccdaf996e242bf32fce7d64a073390c50"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(rules): bash-safety - correct zsh read-only claim + add full list (DEFER #4088) (#408",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/812a32bb54f2b7584ecb97443b44d478ae8fa063"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(rules): bash-safety - document zsh read-only `status` var footgun (#4088)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/051e88540343bf391166eb6b3480515a1326a754"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(active-llm): make state-file tests hermetic from the machine catalogue + session id (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/98322af409f4919575105d75d39239c5934cc5f7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-afk): accept positional AND --note/--ttl flag forms; clear error on bad ttl (#404",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b202dad6ed515753ded07efb6d272ad77122119d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(confab): STATUS.md rigour — scope tau, fix tripwire wording, name FP mechanism (#484)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/14e08c036dc95c6ad527d6ebd441f38b1a074377"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4640",
+      "value": "gen 4643",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "149 changes / 7 days",
+      "value": "151 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
