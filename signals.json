@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(confab): STATUS.md rigour — scope tau, fix tripwire wording, name FP mechanism (#484)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/14e08c036dc95c6ad527d6ebd441f38b1a074377"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(bare-number-detector): explicit offset-preservation test (#526) (#4080)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6584cae1d94d92984468e0616ba5027115199102"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(rules): #464 — shrink subagent preload below 200K via safety-core/extended rule split",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ad8d6e8cb81c8e7fd9cdf8ec0550dd304a577cf2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(ultrareason): council escalation dropped the real prompt (passed literal \"council\") (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d6cab2eaa58ddf60349eb80dde435bfd459eaaf"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(warmstart-ingest): preserve fallback preamble + reject decimal misparse (#519) (#4075)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdc631b09ecdfbff39ef7842b03e8617f7802c9f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): prove-it — spec the minimum valid negative search of the moat + content store",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d487ba223ddd0ea89238f85d0fe837c072259534"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): deferred-followups — add STALE disposition + decay-metric falsifier (#488, DE",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/74dc6f4738f510abcd0b12318c16e50bd60b55e4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(evo): scope CUBE scan to lib/ + HEAD-keyed cache — /evo was un-runnable (16-min grind)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eae0dad1d6a2dd699888160ed50c4e296b54de83"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4491",
+      "value": "gen 4531",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "141 changes / 7 days",
+      "value": "144 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
