@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(grip-afk): accept positional AND --note/--ttl flag forms; clear error on bad ttl (#404",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b202dad6ed515753ded07efb6d272ad77122119d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(confab): STATUS.md rigour — scope tau, fix tripwire wording, name FP mechanism (#484)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/14e08c036dc95c6ad527d6ebd441f38b1a074377"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(bare-number-detector): generalise section-label gloss to unbounded bucket labels (#515",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d948e24ddc9b25a2240b149460c04836e20016dd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(warmstart-ingest): preserve fallback preamble + reject decimal misparse (#519) (#4075)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdc631b09ecdfbff39ef7842b03e8617f7802c9f"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4531",
+      "value": "gen 4573",
       "verify": "data/genome-shared.json"
     },
     {
