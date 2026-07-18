@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(moat): Decision Evidence Receipt — real end-to-end demo + zero-trust verifier (#546)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/25648e43cdd696971b621d529b9b8c69bbbe55c0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(guild): remove dedicated Guild skills, commands, and lib (#4092)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ccf3b97c906180ed72470968b79f4e4bf588c486"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(ultrareason): council escalation passes real prompt not literal \"council\" (#530); migr",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8d4406b1477c5ef65fd28098b17cf4bf3d64c1f6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ultrareason): provenance card — moat facts + tier + council seal per answer (#4086)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f90aecac26ef09030cbe71f3a151ac765d818942"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4689",
+      "value": "gen 4720",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "142 changes / 7 days",
+      "value": "143 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
