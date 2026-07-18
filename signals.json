@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(concurrency): atomic+locked genome.json RMW writes (#3462 bug #3) (#4103)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecbd51b121de9623c901bb16352f720743bd08cc"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(moat): DER attestation-boundary spec + falsifier test (#551 Wave 2)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5a90ebc30c70b02e5aa27a5d4693289dab340d29"
         },
@@ -36,34 +41,29 @@
           "kind": "shipped",
           "tldr": "fix(hooks): route silent fail-open deny gates through canonical hook_response shim (#4096)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2de7754bc52b35fac234b3b3d5c5cf535186edfc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): surface DEFER follow-up auto-file failure on the PR comment (#4095)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0da3efc69b46db75ccc34c9c5db537ad900edf3"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "767 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "768 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "196 confirmed / 303 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "66 living genes evolving under fitness selection",
+      "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4954",
+      "value": "gen 4977",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "151 changes / 7 days",
+      "value": "152 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
