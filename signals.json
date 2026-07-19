@@ -102,7 +102,7 @@
           "name": "/onboarding-interview"
         }
       ],
-      "tip": "Friction: Context and file discovery failures — Claude loses track of uploaded files, prior session state, or reference data (identities, paths), causing repeated failures and frustration. Pinning c"
+      "tip": "Friction: Environmental and tooling constraints derailing work — Output token limits, git lock contention, branch protection, and hook gates repeatedly interrupt your flow with workarounds or truncated sessions. Pre"
     }
   ]
 }
