@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hal): non-Anthropic provider permanently skipped after one 402/quota error (#4106)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3df3b658cd1e02a896091471105c8b3ac13ecff9"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(concurrency): atomic+locked genome.json RMW writes (#3462 bug #3) (#4103)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecbd51b121de9623c901bb16352f720743bd08cc"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(genome): stop time-decay compounding super-exponentially across daily sessions (#4097)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e003f65be4e83defd9b9198b20494561c57ff1f1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): route silent fail-open deny gates through canonical hook_response shim (#4096)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2de7754bc52b35fac234b3b3d5c5cf535186edfc"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 4998",
+      "value": "gen 5001",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "152 changes / 7 days",
+      "value": "153 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
