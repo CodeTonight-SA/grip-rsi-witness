@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(relay): opencode ladder exhaustion delivered a blank message, not the honest failure (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/33465ef1b32b4c6ae4ddd3e5e92283d2d8aa2179"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hal): non-Anthropic provider permanently skipped after one 402/quota error (#4106)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3df3b658cd1e02a896091471105c8b3ac13ecff9"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(idr): replay trust gates require positively VERIFIED, not merely not-BROKEN (#4098)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9745e66cfaf1645a229e414d007778a79efdf628"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(genome): stop time-decay compounding super-exponentially across daily sessions (#4097)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e003f65be4e83defd9b9198b20494561c57ff1f1"
         }
       ],
       "key": "stream"
