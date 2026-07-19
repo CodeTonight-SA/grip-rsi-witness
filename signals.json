@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(ultracode): cache-hit dropped the DAG node, breaking f∘f=f on the state projection (#4",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/07dc6c65b9d9ea2a04e65666befb5d065742523d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hypothesis): not-equal (≠/!=) predictions always resolved \"refuted\" (#4111)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/41fb8d1b36d369dfe3922c35332849db13375705"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(moat): DER attestation-boundary spec + falsifier test (#551 Wave 2)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5a90ebc30c70b02e5aa27a5d4693289dab340d29"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(moat): DER wedge endpoint — POST /receipt · POST /verify (#527/#546)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/da6d18e984b7f0aabd9788e1d2161a1a4e7ac674"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "147 changes / 7 days",
+      "value": "148 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
