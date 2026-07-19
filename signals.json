@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hal): failed dispatch orphaned the user turn in Conversation history (#4110)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aca55027e375cab5042e4692c0cd6428f527e9cf"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hal): dated model ids resolve to the wrong (shorter-sibling) pricing (#4109)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3600ccdb4947f602097b0d9d55351e594c0c9eea"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(agora): head-SHA idempotency + judge-unavailable fail-closed (#4058) (#4093)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fd3677e498e71195ee994b1643be8563f1948f95"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(embeddings): restore _cosine_similarity dropped in package split (#4099)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/72404386c71b47a37f46dc63150745a69cdc133b"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 5001",
+      "value": "gen 5002",
       "verify": "data/genome-shared.json"
     },
     {
