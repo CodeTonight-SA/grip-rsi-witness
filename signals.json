@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "109 changes / 7 days",
+      "value": "106 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/onboarding-interview"
         }
       ],
-      "tip": "Friction: Environmental and tooling constraints derailing work — Output token limits, git lock contention, branch protection, and hook gates repeatedly interrupt your flow with workarounds or truncated sessions. Pre"
+      "tip": "Friction: Git workflow and branch protection friction — Stale index.lock files, protected-main push blocks, and concurrent-session conflicts repeatedly interrupt your flow. Establishing a default feature-br"
     }
   ]
 }
