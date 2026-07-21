@@ -102,7 +102,7 @@
           "name": "/onboarding-interview"
         }
       ],
-      "tip": "Friction: Git workflow and branch protection friction — Stale index.lock files, protected-main push blocks, and concurrent-session conflicts repeatedly interrupt your flow. Establishing a default feature-br"
+      "tip": "Friction: Misread intent and premature solutioning — Claude frequently jumps to implementation or suggestions before confirming what you actually want, forcing you to course-correct. Being more explicit"
     }
   ]
 }
