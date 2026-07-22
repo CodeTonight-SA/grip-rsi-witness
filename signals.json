@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "60 changes / 7 days",
+      "value": "59 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
