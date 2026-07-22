@@ -102,7 +102,7 @@
           "name": "/onboarding-interview"
         }
       ],
-      "tip": "Friction: Misread intent and premature solutioning — Claude frequently jumps to implementation or suggestions before confirming what you actually want, forcing you to course-correct. Being more explicit"
+      "tip": "Friction: Misreading intent and scope — Claude frequently misinterprets what you actually want, building elaborate solutions when you asked for something simple or pursuing the wrong frame e"
     }
   ]
 }
