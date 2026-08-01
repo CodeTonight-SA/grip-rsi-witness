@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(rsi-witness): revive the sync within one watchdog cycle, not every second one (#4285)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9fb52cfbc8904e9db8804eb75aa042df3a5918ac"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(rsi-witness): stop the code-identity check re-reporting the same change forever (#4283",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6936888499da289630dfef9c4f359b743ca7071a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(rsi-witness): schedule the watchdog with a trigger launchd actually honours (#4281)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a1b37bcca07b71d5394e69631b19ad21fc0b3d1"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(guard): make the cache actually cache, and write it atomically (#4258) (#4274)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cf53c2e6d759f22887faadbc75f5074c4f023580"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(witness): bound the kickstart, and pin the freshness decision (#4248) (#4273)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/98bcc673a115b20b1d8a98ca5c71aff894c76ad2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Warn when a commit lands on a branch whose PR already merged (#4255)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b79f6e30ff23c7147ba17b080ecfc399313613fd"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "69 changes / 7 days",
+      "value": "71 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
