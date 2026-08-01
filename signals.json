@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(deps): clear 5 hono path-traversal alerts now that the MCP SDK allows 2.x (#4289)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/20ae7c095b75b42cf5212c7cb06b0a963d3111b6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(rsi-witness): correct the header assumptions production falsified tonight (#4287)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e6ff49246040766cdfb292baa75197d5caad3eca"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(rsi-witness): make the watchdog announce when its own code is swapped (#4278)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6ad964670f4451ed5b4f3bfd6d7b116e5b930ef6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(witness): make the watchdog report its own absence (#4276)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c5126a2b1eaa6b812f396925f29a083009d5909"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 5801",
+      "value": "gen 5811",
       "verify": "data/genome-shared.json"
     },
     {
