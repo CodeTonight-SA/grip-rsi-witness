@@ -3,21 +3,6 @@
     {
       "items": [
         {
-          "kind": "converging",
-          "tldr": "feat(inception): surface rejected ideas for review, and detect when unrelated ones converg",
-          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4236"
-        },
-        {
-          "kind": "converging",
-          "tldr": "chore(deps): bump brace-expansion, react-native and expo in /apps/grip-mobile",
-          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4133"
-        },
-        {
-          "kind": "converging",
-          "tldr": "secops(hal): git-crypt for exposed PII — task #522 (merge gated on key provisioning)",
-          "url": "https://github.com/CodeTonight-SA/HAL/pull/497"
-        },
-        {
           "kind": "shipped",
           "tldr": "feat(gg++): launch any installed harness by name, and fix the isolation blindness it would",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7fe3ca322e221517c00dde79a9078693d7656d9a"
@@ -71,7 +56,7 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 5665",
+      "value": "gen 5672",
       "verify": "data/genome-shared.json"
     },
     {
@@ -80,27 +65,6 @@
       "label": "Shipping velocity",
       "value": "50 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
-    },
-    {
-      "caption": "open PRs GRIP is driving through CI + the cross-provider council right now — watch it happen",
-      "key": "converging",
-      "label": "Converging now",
-      "links": [
-        {
-          "text": "#4236 feat(inception): surface rejected ideas for review, and detect w",
-          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4236"
-        },
-        {
-          "text": "#4133 chore(deps): bump brace-expansion, react-native and expo in /app",
-          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4133"
-        },
-        {
-          "text": "#497 secops(hal): git-crypt for exposed PII — task #522 (merge gated o",
-          "url": "https://github.com/CodeTonight-SA/HAL/pull/497"
-        }
-      ],
-      "value": "3 in flight",
-      "verify": "gh pr list --repo CodeTonight-SA/GRIP"
     },
     {
       "caption": "Every consequential decision — the what / why / how / believed-when — signed and replayable",
