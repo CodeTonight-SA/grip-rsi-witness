@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(rsi-witness): schedule the watchdog with a trigger launchd actually honours (#4281)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a1b37bcca07b71d5394e69631b19ad21fc0b3d1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(genome): make the genome measure reality — dead recorder, unread signal, invented fall",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4aa184e6c842d0b46e467175edabce82b8ae13ff"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(rsi-witness): distinguish a revival that holds from one that does not (#4279)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aab9a9c31d5bea1dbb558843d9c6ccaa463d991a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(rsi-witness): make the watchdog announce when its own code is swapped (#4278)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6ad964670f4451ed5b4f3bfd6d7b116e5b930ef6"
         },
@@ -26,27 +41,12 @@
           "kind": "shipped",
           "tldr": "Warn when a commit lands on a branch whose PR already merged (#4255)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b79f6e30ff23c7147ba17b080ecfc399313613fd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(bash-safety): record the rg -E footgun and name the class behind both (#4269)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/76d717a697266ad1a709fb6f9ab5cc89c24b0b52"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(der): stop a broken parser from looking like a proof that has not landed (#4257)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a3fb55e6d64c0515187f3784683f85cb6ab74f1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(harness): wire reasoning effort through to codex (#4262)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/89f3912cdf9d43ec1bcc1513e69921d7a0fa160e"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "666 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "667 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "142 confirmed / 199 refuted",
@@ -56,14 +56,14 @@
       "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 5797",
+      "value": "gen 5801",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "66 changes / 7 days",
+      "value": "69 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
