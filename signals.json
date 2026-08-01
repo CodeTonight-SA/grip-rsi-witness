@@ -4,66 +4,66 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "feat(inception): surface rejected ideas for review, and detect when unrelated ones converg",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/86c9c83f3ecca35ddd1693c1820f73d77d87f56f"
+          "tldr": "fix(guard): make the cache actually cache, and write it atomically (#4258) (#4274)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cf53c2e6d759f22887faadbc75f5074c4f023580"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(gg++): launch any installed harness by name, and fix the isolation blindness it would",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7fe3ca322e221517c00dde79a9078693d7656d9a"
+          "tldr": "fix(witness): bound the kickstart, and pin the freshness decision (#4248) (#4273)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/98bcc673a115b20b1d8a98ca5c71aff894c76ad2"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(inception): overnight divergent idea generation with a mechanical limbo test (#4233)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/63ce5ceba188f82f9384099c545f9e09da3a0923"
+          "tldr": "Warn when a commit lands on a branch whose PR already merged (#4255)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b79f6e30ff23c7147ba17b080ecfc399313613fd"
         },
         {
           "kind": "shipped",
-          "tldr": "fix: close the deferred review concerns from issues #4225 and #4228 (#4231)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a8732f2b256969949f783257a0bb29f6884941c8"
+          "tldr": "docs(bash-safety): record the rg -E footgun and name the class behind both (#4269)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/76d717a697266ad1a709fb6f9ab5cc89c24b0b52"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(mcp): anchor grip-apps and grip-presence so they connect in worktrees (#4226)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff8247d694a4a63a16d7594c5c944b8c3efd4985"
+          "tldr": "fix(der): stop a broken parser from looking like a proof that has not landed (#4257)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a3fb55e6d64c0515187f3784683f85cb6ab74f1"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(agora): stop the truncated diff from producing phantom \"undefined symbol\" blockers (#4",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa193786c006a863bd46b7ba5431bfe88305113f"
+          "tldr": "feat(harness): wire reasoning effort through to codex (#4262)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/89f3912cdf9d43ec1bcc1513e69921d7a0fa160e"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(hooks): deliver canonical cross-harness engine (#4222)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/49cc7f4891d20eaabeaca41690f0f75d844cc574"
+          "tldr": "feat(cos): restore the star Insight blocks inside the terminal canonical block (#4253)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/908ccfc453e90d8678720efa3687646f05157cc6"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(grip-channel): stop the WhatsApp code-0 reconnect flap and stop losing queued sends (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3814ace34d9105d61bdb856d0b67316b4f014134"
+          "tldr": "fix(harness): count and observe every harness, not just claude (#4256)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bcfe9b76db78c755f82232f24e6a8d657586c98f"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "664 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "666 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "142 confirmed / 199 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "17 living genes evolving under fitness selection",
+      "caption": "66 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 5683",
+      "value": "gen 5796",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "51 changes / 7 days",
+      "value": "64 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -78,28 +78,28 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
-          "desc": "Clear terminal scrollback (cosmetic) + snapshot current session JSONL into compr",
-          "name": "/scrollback-and-stash"
+          "desc": "On a fresh SessionStart, surface on-disk continuation briefs (ultraprompts) that",
+          "name": "/ultraprompt-picker"
         },
         {
-          "desc": "Show the combined team calendar for the next 5 days — who's in what meetings, fr",
-          "name": "/week-ahead"
+          "desc": "Harness- and provider-agnostic idempotent workflow kernel (lib/ultracode) — cont",
+          "name": "/ultracode"
         },
         {
-          "desc": "Activates GRIP's real-time voice chat mode",
-          "name": "/voice-chatting"
+          "desc": "Prepare executable plans for future GRIP sessions while current session has cont",
+          "name": "/preplan"
         },
         {
-          "desc": "Send any content to a WhatsApp recipient via grip-channel",
-          "name": "/send-whatsapp"
+          "desc": "Orchestrates legal-ops dual-track workflows with jurisdiction awareness, quality",
+          "name": "/legal-mode"
         },
         {
-          "desc": "Durably remember a rule, fact, or lesson FOREVER — write it to the tier that is ",
-          "name": "/remember"
+          "desc": "Fractal facet evolution engine",
+          "name": "/evo"
         },
         {
-          "desc": "Switch or fail over which Max account the VPS relay bills",
-          "name": "/relaybill"
+          "desc": "Persist plan context across sessions via background caching",
+          "name": "/check-last-plan"
         }
       ],
       "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: grip_workflow:sprint, steering:user wanted, known_hook:session end, steering:user interrupted, grip_workflow:rsi"
