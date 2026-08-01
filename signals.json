@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(rsi-witness): stop publicly claiming selection the export cannot back (#4294)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0b3df83769bcfbaa7a0551a8b50ce22e7def15a1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(deps): bump brace-expansion in /apps/grip-mobile (#4288)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/11222091ea610b611bbf474865f9d71cda0d903e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(deps): clear 5 hono path-traversal alerts now that the MCP SDK allows 2.x (#4289)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/20ae7c095b75b42cf5212c7cb06b0a963d3111b6"
         },
@@ -31,39 +41,29 @@
           "kind": "shipped",
           "tldr": "fix(genome): make the genome measure reality — dead recorder, unread signal, invented fall",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4aa184e6c842d0b46e467175edabce82b8ae13ff"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rsi-witness): distinguish a revival that holds from one that does not (#4279)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aab9a9c31d5bea1dbb558843d9c6ccaa463d991a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rsi-witness): make the watchdog announce when its own code is swapped (#4278)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6ad964670f4451ed5b4f3bfd6d7b116e5b930ef6"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "667 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "668 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "142 confirmed / 199 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "66 living genes evolving under fitness selection",
+      "caption": "66 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 5811",
+      "value": "gen 5844",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "70 changes / 7 days",
+      "value": "72 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/check-last-plan"
         }
       ],
-      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: grip_workflow:sprint, steering:user wanted, known_hook:session end, steering:user interrupted, grip_workflow:rsi"
+      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: grip_workflow:sprint, steering:user wanted, steering:user had to, grip_workflow:rsi, grip_workflow:genome"
     }
   ]
 }
