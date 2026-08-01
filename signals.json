@@ -3,68 +3,104 @@
     {
       "items": [
         {
-          "kind": "shipped",
-          "tldr": "fix(ultracode): cache-hit dropped the DAG node, breaking f∘f=f on the state projection (#4",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/07dc6c65b9d9ea2a04e65666befb5d065742523d"
+          "kind": "converging",
+          "tldr": "feat(inception): surface rejected ideas for review, and detect when unrelated ones converg",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4236"
+        },
+        {
+          "kind": "converging",
+          "tldr": "chore(deps): bump brace-expansion, react-native and expo in /apps/grip-mobile",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4133"
+        },
+        {
+          "kind": "converging",
+          "tldr": "secops(hal): git-crypt for exposed PII — task #522 (merge gated on key provisioning)",
+          "url": "https://github.com/CodeTonight-SA/HAL/pull/497"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(hypothesis): not-equal (≠/!=) predictions always resolved \"refuted\" (#4111)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/41fb8d1b36d369dfe3922c35332849db13375705"
+          "tldr": "feat(gg++): launch any installed harness by name, and fix the isolation blindness it would",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7fe3ca322e221517c00dde79a9078693d7656d9a"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(hal): failed dispatch orphaned the user turn in Conversation history (#4110)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aca55027e375cab5042e4692c0cd6428f527e9cf"
+          "tldr": "feat(inception): overnight divergent idea generation with a mechanical limbo test (#4233)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/63ce5ceba188f82f9384099c545f9e09da3a0923"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(hal): dated model ids resolve to the wrong (shorter-sibling) pricing (#4109)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3600ccdb4947f602097b0d9d55351e594c0c9eea"
+          "tldr": "fix: close the deferred review concerns from issues #4225 and #4228 (#4231)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a8732f2b256969949f783257a0bb29f6884941c8"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(relay): opencode ladder exhaustion delivered a blank message, not the honest failure (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/33465ef1b32b4c6ae4ddd3e5e92283d2d8aa2179"
+          "tldr": "fix(mcp): anchor grip-apps and grip-presence so they connect in worktrees (#4226)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff8247d694a4a63a16d7594c5c944b8c3efd4985"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(hal): non-Anthropic provider permanently skipped after one 402/quota error (#4106)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3df3b658cd1e02a896091471105c8b3ac13ecff9"
+          "tldr": "fix(agora): stop the truncated diff from producing phantom \"undefined symbol\" blockers (#4",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa193786c006a863bd46b7ba5431bfe88305113f"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(concurrency): atomic+locked genome.json RMW writes (#3462 bug #3) (#4103)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecbd51b121de9623c901bb16352f720743bd08cc"
+          "tldr": "feat(hooks): deliver canonical cross-harness engine (#4222)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/49cc7f4891d20eaabeaca41690f0f75d844cc574"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(moat): DER attestation-boundary spec + falsifier test (#551 Wave 2)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5a90ebc30c70b02e5aa27a5d4693289dab340d29"
+          "tldr": "fix(grip-channel): stop the WhatsApp code-0 reconnect flap and stop losing queued sends (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3814ace34d9105d61bdb856d0b67316b4f014134"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(opencode): close AGORA #4220 — Symbol-keyed shared slot, collision-proof by constructi",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c253549175075587a7fcb9c1c732b876fecd832"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "768 registered · confirmation rate 39% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "664 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
-      "value": "196 confirmed / 303 refuted",
+      "value": "142 confirmed / 199 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 5005",
+      "value": "gen 5665",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "59 changes / 7 days",
+      "value": "50 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
+    },
+    {
+      "caption": "open PRs GRIP is driving through CI + the cross-provider council right now — watch it happen",
+      "key": "converging",
+      "label": "Converging now",
+      "links": [
+        {
+          "text": "#4236 feat(inception): surface rejected ideas for review, and detect w",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4236"
+        },
+        {
+          "text": "#4133 chore(deps): bump brace-expansion, react-native and expo in /app",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4133"
+        },
+        {
+          "text": "#497 secops(hal): git-crypt for exposed PII — task #522 (merge gated o",
+          "url": "https://github.com/CodeTonight-SA/HAL/pull/497"
+        }
+      ],
+      "value": "3 in flight",
+      "verify": "gh pr list --repo CodeTonight-SA/GRIP"
     },
     {
       "caption": "Every consequential decision — the what / why / how / believed-when — signed and replayable",
@@ -78,31 +114,31 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
-          "desc": "Answer a hard reasoning question grounded in the GRIP moat (what GRIP has verifi",
-          "name": "/ultrareason"
+          "desc": "Clear terminal scrollback (cosmetic) + snapshot current session JSONL into compr",
+          "name": "/scrollback-and-stash"
         },
         {
-          "desc": "Unified one-shot save of all GRIP memory subsystems",
-          "name": "/saving-state"
+          "desc": "Show the combined team calendar for the next 5 days — who's in what meetings, fr",
+          "name": "/week-ahead"
         },
         {
-          "desc": "The canonical \"go to next session\" handoff — ONE command for the end-of-session ",
-          "name": "/next"
+          "desc": "Activates GRIP's real-time voice chat mode",
+          "name": "/voice-chatting"
         },
         {
-          "desc": "Programmatic demo videos via Remotion",
-          "name": "/remotion-video-creation"
+          "desc": "Send any content to a WhatsApp recipient via grip-channel",
+          "name": "/send-whatsapp"
         },
         {
-          "desc": "Durable operator reminders — \"remind me later/at X about Y\" arms a launchd one-s",
-          "name": "/remind-me"
+          "desc": "Durably remember a rule, fact, or lesson FOREVER — write it to the tier that is ",
+          "name": "/remember"
         },
         {
-          "desc": "Conversational HITL interview that gets to know a NEW operator beyond the fixed ",
-          "name": "/onboarding-interview"
+          "desc": "Switch or fail over which Max account the VPS relay bills",
+          "name": "/relaybill"
         }
       ],
-      "tip": "Friction: Misreading intent and scope — Claude frequently misinterprets what you actually want, building elaborate solutions when you asked for something simple or pursuing the wrong frame e"
+      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: grip_workflow:sprint, steering:user wanted, known_hook:session end, steering:user interrupted, grip_workflow:rsi"
     }
   ]
 }
