@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(rsi-witness): correct the header assumptions production falsified tonight (#4287)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e6ff49246040766cdfb292baa75197d5caad3eca"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(rsi-witness): revive the sync within one watchdog cycle, not every second one (#4285)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9fb52cfbc8904e9db8804eb75aa042df3a5918ac"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(witness): make the watchdog report its own absence (#4276)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c5126a2b1eaa6b812f396925f29a083009d5909"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(guard): make the cache actually cache, and write it atomically (#4258) (#4274)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cf53c2e6d759f22887faadbc75f5074c4f023580"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "71 changes / 7 days",
+      "value": "72 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
