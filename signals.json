@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(card): close the three deferred concerns from the launch card review (#4243) (#4321)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a020e36f6cec072a1b04d1324677dccdfdfd719"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(rules): promote \"tests must be able to fail\" to canonical doctrine at N=5 (#4326)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1cce5023d4e59497023ab3bf6ce5b2e6796230bf"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(rsi): stop reporting an unmeasurable test rate as a 0% grade (#4314)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a85f473c7e29adada02cc96997f0f0cd891e395"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(genome): join recorded skill names to genes across the command namespace (#4308)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c87e4be50e95e0632c51c95fc3cf11beb4fac5ef"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(pdf): add bin/pdf-audit, the mandatory audit tool the skill already names (#4312)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/816ae133492494e823565e979270687cf495cfb2"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(inception): make the overnight health verdict able to fail (#4251) (#4305)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a94aa3edb48880107d26bc57b6d6fde9452c848"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(memory): record auto-checkpoints as checkpoints, not achievements (#4302)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/771144ee5e087231db9359776ab309ab22aecbf3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(harness): bind codex root keys to root, not to the preceding TOML table (#4297)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cbe154ba4bea52c4ece5dbbd38dc22378fb7e9b8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rsi-witness): retract a wrong launchd diagnosis and make the publisher self-running (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3ca310c331327a84ab164f78a708c04583b6b479"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(genome-breeder,test): close two open issues — #4280 argument ignored, #4266 unguarded ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c74f64fa176cf7600b8706e351725c9487e5a2f"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "66 living genes exported with their fitness scores",
+      "caption": "68 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 5845",
+      "value": "gen 5855",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "79 changes / 7 days",
+      "value": "83 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
