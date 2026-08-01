@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(inception): surface rejected ideas for review, and detect when unrelated ones converg",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/86c9c83f3ecca35ddd1693c1820f73d77d87f56f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(gg++): launch any installed harness by name, and fix the isolation blindness it would",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7fe3ca322e221517c00dde79a9078693d7656d9a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(grip-channel): stop the WhatsApp code-0 reconnect flap and stop losing queued sends (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3814ace34d9105d61bdb856d0b67316b4f014134"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(opencode): close AGORA #4220 — Symbol-keyed shared slot, collision-proof by constructi",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c253549175075587a7fcb9c1c732b876fecd832"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "17 living genes evolving under fitness selection",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 5672",
+      "value": "gen 5683",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "50 changes / 7 days",
+      "value": "51 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
