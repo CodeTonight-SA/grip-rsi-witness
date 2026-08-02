@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(pdf): a malformed variant config raises the typed error, not a bare KeyError (#4341)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/219f623ff06e637bc96e1101524f99068c89a121"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(pdf): render the variant stylesheet from its template, not from brand values (#4336)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5d7da5bf29a2c4af23889c0a4ac3cb2bfb27f728"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(card): show the launch card failure reason instead of filing it away (#4330)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/90a5ca0fe9490835c3f8ce7cd13ffe2b32b20ecd"
         },
@@ -31,22 +41,12 @@
           "kind": "shipped",
           "tldr": "docs(rules): promote \"tests must be able to fail\" to canonical doctrine at N=5 (#4326)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1cce5023d4e59497023ab3bf6ce5b2e6796230bf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rsi): stop reporting an unmeasurable test rate as a 0% grade (#4314)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a85f473c7e29adada02cc96997f0f0cd891e395"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(genome): join recorded skill names to genes across the command namespace (#4308)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c87e4be50e95e0632c51c95fc3cf11beb4fac5ef"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "670 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "671 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "142 confirmed / 199 refuted",
@@ -56,14 +56,14 @@
       "caption": "68 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 5869",
+      "value": "gen 5904",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "87 changes / 7 days",
+      "value": "89 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
