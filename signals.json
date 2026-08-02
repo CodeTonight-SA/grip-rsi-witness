@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(pdf): the boundary-check comment no longer contradicts the guard below it (#4346)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/14e40fa61db24ccc2791a8a15c024b5e43abbe5f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(launchd): refuse to report a count when git cannot run (#4345)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2e2ef9fb09950487bb07b6a2dad6f5f1f876449e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(pdf): validate the config shape once at the boundary, not per consumer (#4343)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3825cc3c584bcc8c4173bee6f67073ff80b781c9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(launchd): add a finder that answers where a scheduled agent is defined (#4337)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/176331c7c48821ee2e7ce609e0b75cae84a49245"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(pdf): a malformed variant config raises the typed error, not a bare KeyError (#4341)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/219f623ff06e637bc96e1101524f99068c89a121"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(rsi): an empty review history is not a review score of zero (#4331)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/818ffa380cc3b2cc64b4cd7addbdb9791fbb6d91"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: close the four deferred review concerns from tonight's merges (#4329)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b38abbc025e4f5fc3e877c0a569ffa5d58e74cd5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rsi-witness): one definition of the sync agent, not two that disagree (#4320)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cead2394138d67aa874bfa9a88e90bdfc79e546c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(card): close the three deferred concerns from the launch card review (#4243) (#4321)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a020e36f6cec072a1b04d1324677dccdfdfd719"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): promote \"tests must be able to fail\" to canonical doctrine at N=5 (#4326)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1cce5023d4e59497023ab3bf6ce5b2e6796230bf"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "68 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 5904",
+      "value": "gen 5922",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "89 changes / 7 days",
+      "value": "93 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
