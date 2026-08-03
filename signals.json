@@ -46,17 +46,17 @@
       "key": "stream"
     },
     {
-      "caption": "671 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "660 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "142 confirmed / 199 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "68 living genes exported with their fitness scores",
+      "caption": "385 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 5984",
+      "value": "gen 1045",
       "verify": "data/genome-shared.json"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/check-last-plan"
         }
       ],
-      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: known_hook:session end, grip_workflow:mode, grip_workflow:rsi, steering:user interrupted, grip_workflow:genome"
+      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: known_hook:session end, grip_workflow:sprint, steering:user had to, steering:user wanted, grip_workflow:genome"
     }
   ]
 }
