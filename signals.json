@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(heartbeat): restore the script's own Python 3.9 contract (#4361)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/76292803074472266613db448decc3b7cbcd9b58"
+        },
+        {
+          "kind": "shipped",
           "tldr": "PARAMOUNT_BACKUPS: back up anything that must not be lost, to a folder outside every repo ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3aff772b8057bf5a5c11a839b6e2875e114b949f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(pdf): the boundary-check comment no longer contradicts the guard below it (#4346)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/14e40fa61db24ccc2791a8a15c024b5e43abbe5f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(launchd): refuse to report a count when git cannot run (#4345)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2e2ef9fb09950487bb07b6a2dad6f5f1f876449e"
         }
       ],
       "key": "stream"
