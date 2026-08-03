@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(recap): optional designed-PDF render and opt-in delivery to named recipients (#4350)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eb3047f9789e909a26926aa7a2d0f817e7ca6ee7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Report when the shared tree is serving non-canonical code (#4349)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/120c796b17af63e3e168cc85a8821e66731286ed"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(pdf): the boundary-check comment no longer contradicts the guard below it (#4346)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/14e40fa61db24ccc2791a8a15c024b5e43abbe5f"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(pdf): render the variant stylesheet from its template, not from brand values (#4336)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5d7da5bf29a2c4af23889c0a4ac3cb2bfb27f728"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(card): show the launch card failure reason instead of filing it away (#4330)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/90a5ca0fe9490835c3f8ce7cd13ffe2b32b20ecd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rsi): an empty review history is not a review score of zero (#4331)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/818ffa380cc3b2cc64b4cd7addbdb9791fbb6d91"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "68 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 5927",
+      "value": "gen 5955",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "72 changes / 7 days",
+      "value": "74 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
