@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "PARAMOUNT_BACKUPS: back up anything that must not be lost, to a folder outside every repo ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3aff772b8057bf5a5c11a839b6e2875e114b949f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(plans): operator runbook + unified continuation brief (#4357)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f9579ade29c9c0832bf2af1225725cf43724ce3e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(rules): where AGORA is not installed, run the convergence in-session (#4356)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d9d0f086c3111554f131744be78b9ae90338cd8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(brand): rename ENTER Konsult to CodeTonight on current-facing surfaces (#4354)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7139d1435acf674ee973bf3c1c60236d5b293bd1"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(launchd): refuse to report a count when git cannot run (#4345)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2e2ef9fb09950487bb07b6a2dad6f5f1f876449e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(pdf): validate the config shape once at the boundary, not per consumer (#4343)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3825cc3c584bcc8c4173bee6f67073ff80b781c9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(launchd): add a finder that answers where a scheduled agent is defined (#4337)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/176331c7c48821ee2e7ce609e0b75cae84a49245"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(pdf): a malformed variant config raises the typed error, not a bare KeyError (#4341)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/219f623ff06e637bc96e1101524f99068c89a121"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "74 changes / 7 days",
+      "value": "77 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -78,28 +78,28 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
-          "desc": "On a fresh SessionStart, surface on-disk continuation briefs (ultraprompts) that",
-          "name": "/ultraprompt-picker"
+          "desc": ">",
+          "name": "/swiss-nihilism-design"
         },
         {
-          "desc": "Harness- and provider-agnostic idempotent workflow kernel (lib/ultracode) — cont",
-          "name": "/ultracode"
+          "desc": "",
+          "name": "/sensitive-repo-bootstrap"
         },
         {
-          "desc": "Prepare executable plans for future GRIP sessions while current session has cont",
-          "name": "/preplan"
+          "desc": "Generate professional PDF documents with per-organisation branding variants",
+          "name": "/professional-pdf"
         },
         {
-          "desc": "Orchestrates legal-ops dual-track workflows with jurisdiction awareness, quality",
-          "name": "/legal-mode"
+          "desc": ">",
+          "name": "/electron-cross-platform-patterns"
         },
         {
-          "desc": "Fractal facet evolution engine",
-          "name": "/evo"
+          "desc": "Structured team delegation with capability matching, GitHub assignment, and Slac",
+          "name": "/delegating-team-work"
         },
         {
-          "desc": "Persist plan context across sessions via background caching",
-          "name": "/check-last-plan"
+          "desc": "Plain-language summary of what shipped in a sprint or time window — from git his",
+          "name": "/recap"
         }
       ],
       "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: known_hook:session end, grip_workflow:sprint, steering:user had to, steering:user wanted, grip_workflow:genome"
