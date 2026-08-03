@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(brand): rename ENTER Konsult to CodeTonight on current-facing surfaces (#4354)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7139d1435acf674ee973bf3c1c60236d5b293bd1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(recap): optional designed-PDF render and opt-in delivery to named recipients (#4350)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/eb3047f9789e909a26926aa7a2d0f817e7ca6ee7"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(pdf): a malformed variant config raises the typed error, not a bare KeyError (#4341)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/219f623ff06e637bc96e1101524f99068c89a121"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(pdf): render the variant stylesheet from its template, not from brand values (#4336)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5d7da5bf29a2c4af23889c0a4ac3cb2bfb27f728"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "68 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 5955",
+      "value": "gen 5973",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "74 changes / 7 days",
+      "value": "75 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
