@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(runbook): mark what is done and fix the two Phase 2 defects (#4362)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a493f01c28dbaed491d2399263ab4eed1be28a91"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(heartbeat): restore the script's own Python 3.9 contract (#4361)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/76292803074472266613db448decc3b7cbcd9b58"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "Report when the shared tree is serving non-canonical code (#4349)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/120c796b17af63e3e168cc85a8821e66731286ed"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(pdf): the boundary-check comment no longer contradicts the guard below it (#4346)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/14e40fa61db24ccc2791a8a15c024b5e43abbe5f"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "660 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "661 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "142 confirmed / 199 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "74 changes / 7 days",
+      "value": "75 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
