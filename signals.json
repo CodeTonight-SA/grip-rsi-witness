@@ -3,6 +3,46 @@
     {
       "items": [
         {
+          "kind": "converging",
+          "tldr": "chore(changelog): update for PR #4368",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4372"
+        },
+        {
+          "kind": "converging",
+          "tldr": "fix(save): single-flight guard stops the /save genome pile-up (#4310)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4371"
+        },
+        {
+          "kind": "converging",
+          "tldr": "chore(deps): bump hono from 4.12.31 to 4.13.0 in /mcp-servers/grip-mcp-desktop",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4367"
+        },
+        {
+          "kind": "converging",
+          "tldr": "chore(deps): bump hono from 4.12.27 to 4.13.0 in /mcp-servers/hal-mcp",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4366"
+        },
+        {
+          "kind": "converging",
+          "tldr": "chore(deps): bump ip-address from 10.2.0 to 10.4.0 in /mcp-servers/hal-mcp",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4365"
+        },
+        {
+          "kind": "converging",
+          "tldr": "chore(deps): bump ip-address from 10.2.0 to 10.4.0 in /mcp-servers/grip-apps",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4364"
+        },
+        {
+          "kind": "converging",
+          "tldr": "chore(changelog): update for PR #4362",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4363"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(pdf): full-bleed cover reaches the sheet edge (#4339)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3cb353b6960b8bd8eac6e992771b77d1fcb90e45"
+        },
+        {
           "kind": "shipped",
           "tldr": "docs(runbook): mark what is done and fix the two Phase 2 defects (#4362)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a493f01c28dbaed491d2399263ab4eed1be28a91"
@@ -21,26 +61,6 @@
           "kind": "shipped",
           "tldr": "docs(plans): operator runbook + unified continuation brief (#4357)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f9579ade29c9c0832bf2af1225725cf43724ce3e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(rules): where AGORA is not installed, run the convergence in-session (#4356)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d9d0f086c3111554f131744be78b9ae90338cd8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(brand): rename ENTER Konsult to CodeTonight on current-facing surfaces (#4354)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7139d1435acf674ee973bf3c1c60236d5b293bd1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(recap): optional designed-PDF render and opt-in delivery to named recipients (#4350)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eb3047f9789e909a26926aa7a2d0f817e7ca6ee7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Report when the shared tree is serving non-canonical code (#4349)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/120c796b17af63e3e168cc85a8821e66731286ed"
         }
       ],
       "key": "stream"
@@ -63,8 +83,45 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "64 changes / 7 days",
+      "value": "65 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
+    },
+    {
+      "caption": "open PRs GRIP is driving through CI + the cross-provider council right now — watch it happen",
+      "key": "converging",
+      "label": "Converging now",
+      "links": [
+        {
+          "text": "#4372 chore(changelog): update for PR #4368",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4372"
+        },
+        {
+          "text": "#4371 fix(save): single-flight guard stops the /save genome pile-up (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4371"
+        },
+        {
+          "text": "#4367 chore(deps): bump hono from 4.12.31 to 4.13.0 in /mcp-servers/gr",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4367"
+        },
+        {
+          "text": "#4366 chore(deps): bump hono from 4.12.27 to 4.13.0 in /mcp-servers/ha",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4366"
+        },
+        {
+          "text": "#4365 chore(deps): bump ip-address from 10.2.0 to 10.4.0 in /mcp-serve",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4365"
+        },
+        {
+          "text": "#4364 chore(deps): bump ip-address from 10.2.0 to 10.4.0 in /mcp-serve",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4364"
+        },
+        {
+          "text": "#4363 chore(changelog): update for PR #4362",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4363"
+        }
+      ],
+      "value": "7 in flight",
+      "verify": "gh pr list --repo CodeTonight-SA/GRIP"
     },
     {
       "caption": "Every consequential decision — the what / why / how / believed-when — signed and replayable",
