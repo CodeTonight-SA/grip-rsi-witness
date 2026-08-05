@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): consolidate entries for PRs #4362, #4368, #4371",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba79d1efa067a0c1e8e48dba1e1a878171224401"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(save): single-flight guard stops the /save genome pile-up (#4310)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d92f18b8a69da32413ab28b477d04f85707de9be"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "feat(rules): where AGORA is not installed, run the convergence in-session (#4356)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d9d0f086c3111554f131744be78b9ae90338cd8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(brand): rename ENTER Konsult to CodeTonight on current-facing surfaces (#4354)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7139d1435acf674ee973bf3c1c60236d5b293bd1"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "661 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "662 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "142 confirmed / 199 refuted",
@@ -56,14 +56,14 @@
       "caption": "69 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 5999",
+      "value": "gen 6003",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "66 changes / 7 days",
+      "value": "67 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
