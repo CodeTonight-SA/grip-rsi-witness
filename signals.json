@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(moat-anchor): continuous Bitcoin anchoring of the moat via OpenTimestamps (#4384)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0b8546f549fe50fb545c25712c53057e6c006a0d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(hooks): compact-path hang hardening -- timeouts are seconds + 3.9 contract (#618) (#43",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e47e79a90dcfc8f075de06ebb5c3d2b46fd8a279"
+        },
+        {
+          "kind": "shipped",
           "tldr": "release: GRIP 9.0.0 — The Estate Release (AGPL-3.0-only) (#4381)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5495a9a1016fb8ac02f04df74123550ef8fdd3c4"
         },
@@ -31,22 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(pdf): full-bleed cover reaches the sheet edge (#4339)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3cb353b6960b8bd8eac6e992771b77d1fcb90e45"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(runbook): mark what is done and fix the two Phase 2 defects (#4362)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a493f01c28dbaed491d2399263ab4eed1be28a91"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(heartbeat): restore the script's own Python 3.9 contract (#4361)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/76292803074472266613db448decc3b7cbcd9b58"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "662 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "663 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "142 confirmed / 199 refuted",
@@ -56,14 +56,14 @@
       "caption": "70 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6035",
+      "value": "gen 6048",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "70 changes / 7 days",
+      "value": "72 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
