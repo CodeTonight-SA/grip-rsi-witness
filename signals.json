@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(grip-hear): refuse to describe a track it never heard (#4403)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3af97894d758aaba2cdf36b3d4bf4e985c302425"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(changelog): consolidate six colliding auto-changelog PRs (#4398)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e303c090ff8ce8974a8a453368a77abbff64a609"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(launchd): tracked sources + drift probe for the three mesh agents (#4304)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/849aff49d7c9c6b6293eb91a85bb7b4b95d9021a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(pdf): structure-keyed full-bleed marker + configurable render timeout (#4369)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce92d2d1fcabce89cb13c3a94ddf0ee6bbd2558e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "75 changes / 7 days",
+      "value": "76 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
