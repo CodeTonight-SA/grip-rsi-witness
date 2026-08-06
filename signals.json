@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(secrets-hook): build provider-key fixtures at runtime, scanner-safe (#4393)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/27e6849d170113bec39587e80f66b88a0c0e3926"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(moat-anchor): continuous Bitcoin anchoring of the moat via OpenTimestamps (#4384)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0b8546f549fe50fb545c25712c53057e6c006a0d"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(save): single-flight guard stops the /save genome pile-up (#4310)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d92f18b8a69da32413ab28b477d04f85707de9be"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(pdf): full-bleed cover reaches the sheet edge (#4339)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3cb353b6960b8bd8eac6e992771b77d1fcb90e45"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "663 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "666 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "142 confirmed / 199 refuted",
@@ -56,14 +56,14 @@
       "caption": "70 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6057",
+      "value": "gen 6069",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "72 changes / 7 days",
+      "value": "73 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
