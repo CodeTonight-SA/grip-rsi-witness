@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "release: GRIP 9.0.0 — The Estate Release (AGPL-3.0-only) (#4381)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5495a9a1016fb8ac02f04df74123550ef8fdd3c4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(launchd): tracked sources + drift probe for the three mesh agents (#4304)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/849aff49d7c9c6b6293eb91a85bb7b4b95d9021a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(heartbeat): restore the script's own Python 3.9 contract (#4361)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/76292803074472266613db448decc3b7cbcd9b58"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "PARAMOUNT_BACKUPS: back up anything that must not be lost, to a folder outside every repo ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3aff772b8057bf5a5c11a839b6e2875e114b949f"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "69 living genes exported with their fitness scores",
+      "caption": "70 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6018",
+      "value": "gen 6035",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "69 changes / 7 days",
+      "value": "70 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
