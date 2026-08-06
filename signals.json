@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(launchd): tracked sources + drift probe for the three mesh agents (#4304)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/849aff49d7c9c6b6293eb91a85bb7b4b95d9021a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(pdf): structure-keyed full-bleed marker + configurable render timeout (#4369)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce92d2d1fcabce89cb13c3a94ddf0ee6bbd2558e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): consolidate entries for PRs #4362, #4368, #4371",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba79d1efa067a0c1e8e48dba1e1a878171224401"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "PARAMOUNT_BACKUPS: back up anything that must not be lost, to a folder outside every repo ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3aff772b8057bf5a5c11a839b6e2875e114b949f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(plans): operator runbook + unified continuation brief (#4357)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f9579ade29c9c0832bf2af1225725cf43724ce3e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(rules): where AGORA is not installed, run the convergence in-session (#4356)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d9d0f086c3111554f131744be78b9ae90338cd8"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "69 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6011",
+      "value": "gen 6018",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "67 changes / 7 days",
+      "value": "69 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
