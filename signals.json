@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(changelog): consolidate six colliding auto-changelog PRs (#4398)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e303c090ff8ce8974a8a453368a77abbff64a609"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gates): resolve the three false-fire mechanisms from the finale night (#4397)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fceedb7b3b3a6689381fd6d3771f8493d77c587b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(secrets-hook): build provider-key fixtures at runtime, scanner-safe (#4393)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/27e6849d170113bec39587e80f66b88a0c0e3926"
         },
@@ -31,25 +41,15 @@
           "kind": "shipped",
           "tldr": "test(pdf): structure-keyed full-bleed marker + configurable render timeout (#4369)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce92d2d1fcabce89cb13c3a94ddf0ee6bbd2558e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): consolidate entries for PRs #4362, #4368, #4371",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba79d1efa067a0c1e8e48dba1e1a878171224401"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(save): single-flight guard stops the /save genome pile-up (#4310)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d92f18b8a69da32413ab28b477d04f85707de9be"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "666 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "669 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
-      "value": "142 confirmed / 199 refuted",
+      "value": "145 confirmed / 199 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "73 changes / 7 days",
+      "value": "75 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
