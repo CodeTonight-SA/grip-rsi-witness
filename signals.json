@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "44 changes / 7 days",
+      "value": "41 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/recap"
         }
       ],
-      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user had to, steering:user wanted, grip_workflow:genome, grip_workflow:rsi, grip_workflow:mode"
+      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user interrupted, grip_workflow:rsi, known_hook:session end, grip_workflow:mode, grip_workflow:sprint"
     }
   ]
 }
