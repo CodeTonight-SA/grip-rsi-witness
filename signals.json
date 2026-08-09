@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hooks): auto-memory rejection log could never fire (#4414)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a7634bf29fdc0f62ea66fada6bd803487a18d37b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hooks): Rule 20 scanner suppressed its own findings four different ways (#4410)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8abc85e105a72be73ffacf728a1d4e1930ddb99d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(secrets-hook): build provider-key fixtures at runtime, scanner-safe (#4393)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/27e6849d170113bec39587e80f66b88a0c0e3926"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(moat-anchor): continuous Bitcoin anchoring of the moat via OpenTimestamps (#4384)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0b8546f549fe50fb545c25712c53057e6c006a0d"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "73 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6146",
+      "value": "gen 6188",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "23 changes / 7 days",
+      "value": "24 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
