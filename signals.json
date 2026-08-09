@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(git-crypt): remove an offboarded collaborator from the default keyring (#4406)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2472dff913d4c19585cdc5af20726dba33ffc9d7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(wa): drop an offboarded principal from the default broadcast list",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c4709aa74e213edb0d9a2368ff54936bb92e5caa"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(hooks): compact-path hang hardening -- timeouts are seconds + 3.9 contract (#618) (#43",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e47e79a90dcfc8f075de06ebb5c3d2b46fd8a279"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "release: GRIP 9.0.0 — The Estate Release (AGPL-3.0-only) (#4381)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5495a9a1016fb8ac02f04df74123550ef8fdd3c4"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "21 changes / 7 days",
+      "value": "22 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
