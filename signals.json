@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hooks): Rule 20 scanner suppressed its own findings four different ways (#4410)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8abc85e105a72be73ffacf728a1d4e1930ddb99d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(git-crypt): remove an offboarded collaborator from the default keyring (#4406)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2472dff913d4c19585cdc5af20726dba33ffc9d7"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(moat-anchor): continuous Bitcoin anchoring of the moat via OpenTimestamps (#4384)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0b8546f549fe50fb545c25712c53057e6c006a0d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): compact-path hang hardening -- timeouts are seconds + 3.9 contract (#618) (#43",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e47e79a90dcfc8f075de06ebb5c3d2b46fd8a279"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "73 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6122",
+      "value": "gen 6146",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "22 changes / 7 days",
+      "value": "23 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/recap"
         }
       ],
-      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user interrupted, grip_workflow:rsi, known_hook:session end, grip_workflow:mode, grip_workflow:sprint"
+      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user interrupted, grip_workflow:sprint, known_hook:session end, grip_workflow:genome, grip_workflow:mode"
     }
   ]
 }
