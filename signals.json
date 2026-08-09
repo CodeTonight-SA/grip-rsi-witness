@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(wa): drop an offboarded principal from the default broadcast list",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c4709aa74e213edb0d9a2368ff54936bb92e5caa"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(grip-hear): refuse to describe a track it never heard (#4403)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3af97894d758aaba2cdf36b3d4bf4e985c302425"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "release: GRIP 9.0.0 — The Estate Release (AGPL-3.0-only) (#4381)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5495a9a1016fb8ac02f04df74123550ef8fdd3c4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(launchd): tracked sources + drift probe for the three mesh agents (#4304)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/849aff49d7c9c6b6293eb91a85bb7b4b95d9021a"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "70 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6069",
+      "value": "gen 6070",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "20 changes / 7 days",
+      "value": "21 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
