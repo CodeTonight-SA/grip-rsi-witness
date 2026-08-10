@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(deps): pin mcp<2 — fresh GRIP installs are broken on every OS today (#4431)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e1221b89b868b8388dadc0c682c696abb1caa972"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(council): a truncated speaker was judged as if it had voted (#4428)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6e0aa453decf200342780a53af0ad95e0804ae3a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(git-crypt): remove an offboarded collaborator from the default keyring (#4406)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2472dff913d4c19585cdc5af20726dba33ffc9d7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(wa): drop an offboarded principal from the default broadcast list",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c4709aa74e213edb0d9a2368ff54936bb92e5caa"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "74 living genes exported with their fitness scores",
+      "caption": "75 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6262",
+      "value": "gen 6277",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "28 changes / 7 days",
+      "value": "29 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
