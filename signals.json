@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(council): print speaker answers in full instead of the first 217 characters (#4550)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/81bf203b8bcb989ed4aade2ac08e49da6858502f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(worktree): resolve the shared git dir, not $REPO_ROOT/.git (#4491) (#4551)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a2f80f0de4b01683bd26129799bbae5109cbddf"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(update-team): record that the scheduled auto-post is disabled (#4548)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/49668771e8a99d43761b3e67c85a123deb4b680b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(ci): mint a GitHub App token so changelog PRs can pass their own checks (#4545)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5067eda470ab2c604d5e06978bd230360c110fac"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(deps): bump ip-address in /mcp-servers/hal-mcp (#4365)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e89e3ba9b9b4fcf7fb9e940bb5c80ab345cb6cf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(deps): bump hono in /mcp-servers/grip-mcp-desktop (#4367)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/600f1b563620ad7d7df41a569642e3a42eacf283"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(deps): bump hono from 4.12.27 to 4.13.1 in /mcp-servers/hal-mcp (#4440)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f179948afde49327cdf43fc88d264f6214ad0416"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(deps): bump fast-uri in /mcp-servers/grip-mcp-desktop (#4386)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b03a1cd9d246839a3094655a0f5d71c451c7b7a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "67 changes / 7 days",
+      "value": "70 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
