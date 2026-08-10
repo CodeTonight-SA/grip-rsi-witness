@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(bin): 26 commands skipped a working virtualenv on Windows (#4446)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/225be7856c73f3b35de708a4459a430a24097b14"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(pdf-audit): a check that never ran reported success (#4457)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/158c7a2706541fe921ca0a69032a6d6698f73527"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(cc-harness): the adoption ledger could not find its own entries (#4432)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/df2f926f3d525070f7802ed0a59777aaceee1465"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(remind): give grip-remind a real Windows backend so the durability promise holds (#443",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec8aab53e2b9bac542672c89cee6492b89d564dc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): make GRIP run on Windows, and stop it inventing reasons when it cannot check",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4ebed832cf0191f0f35ff39f9e6437f03021d1c8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): pin mcp<2 — fresh GRIP installs are broken on every OS today (#4431)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e1221b89b868b8388dadc0c682c696abb1caa972"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "36 changes / 7 days",
+      "value": "38 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
