@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(agora): tell the reviewers what day it is, and refuse \"correct the date\" advice (#4466",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/435c12a3eae85161ccc344b9fc3a47805aa36fd6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(heartbeat): the freshness gate keyed off a file nobody writes, so it silenced itself (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/85892f521fec367482a3118f18ad3bfd27c9d8bf"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(sprint-loop): claim an issue before working it, and skip claimed ones (#4559)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/468558799d268cc0e97aea6194c9cfb13f745302"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(context-gate): deduplicate the approach-verification ledger (#4495) (#4557)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/198726f6739325ae6468ab6116f9e274061543b5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(worktree): call the encoder that exists, and compare against Python (#4553)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c7b06bceec7bc8cd5f07b681033cc494067388d0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(council): print speaker answers in full instead of the first 217 characters (#4550)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/81bf203b8bcb989ed4aade2ac08e49da6858502f"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(update-team): record that the scheduled auto-post is disabled (#4548)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/49668771e8a99d43761b3e67c85a123deb4b680b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ci): mint a GitHub App token so changelog PRs can pass their own checks (#4545)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5067eda470ab2c604d5e06978bd230360c110fac"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(changelog): parse scoped conventional-commit titles (#4542)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c0532a4e1659520aed038469e9487b519862ddd5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(security): pin the window-overlap and state the binary guarantee honestly (#4504)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ffc464265fd0065c732af3947d47de011a3726d8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): consolidate 42 colliding auto-changelog entries (#4539)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf86b04c08028760df20876c3f4d1b46b697e1bb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(deps): bump ip-address in /mcp-servers/hal-mcp (#4365)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e89e3ba9b9b4fcf7fb9e940bb5c80ab345cb6cf"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "70 changes / 7 days",
+      "value": "75 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
