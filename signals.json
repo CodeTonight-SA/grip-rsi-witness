@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(cc-harness): the adoption ledger could not find its own entries (#4432)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/df2f926f3d525070f7802ed0a59777aaceee1465"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(bin): add grip-keys-to-keyring to move plaintext API keys into the OS keystore (#4449",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0b40aa16c85dc655d5bae1f2fbd010160e3a3f13"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix: resolve the ~/.claude vs ~/.grip split on Windows, and stop hooks reading the stale t",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b650925acbf1fbe3149b714bb82d2a79a7905937"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "security(web): drop the hardcoded Gemini fallback key from the public pages (#4434)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e63ad62fae5184f31997830f4160456567a23208"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(linter): check settings.json path VALUES, and escape the dot that over-matched (#4442)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d6a0b2a1fd68fe5d9731ba901c9d77344b196a1d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(remind): give grip-remind a real Windows backend so the durability promise holds (#443",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec8aab53e2b9bac542672c89cee6492b89d564dc"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): make GRIP run on Windows, and stop it inventing reasons when it cannot check",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4ebed832cf0191f0f35ff39f9e6437f03021d1c8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(deps): pin mcp<2 — fresh GRIP installs are broken on every OS today (#4431)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e1221b89b868b8388dadc0c682c696abb1caa972"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(council): a truncated speaker was judged as if it had voted (#4428)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6e0aa453decf200342780a53af0ad95e0804ae3a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(scope): unification suite for the scope-contamination kernel, and drop real phone num",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/94aa607c7490d5ffc1202591af7dea1229ddbf25"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(cc-harness): the auto-harness was reading a starved corpus and two fields Claude Code ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9fefbcfac1558998f7825166fd328b208788be9f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(safety): three detectors fire on ordinary text and self-induce a confabulation spiral ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7efc8b35ad3b67313d1a01a94573a4d461d11cf3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): auto-memory rejection log could never fire (#4414)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a7634bf29fdc0f62ea66fada6bd803487a18d37b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): Rule 20 scanner suppressed its own findings four different ways (#4410)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8abc85e105a72be73ffacf728a1d4e1930ddb99d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(git-crypt): remove an offboarded collaborator from the default keyring (#4406)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2472dff913d4c19585cdc5af20726dba33ffc9d7"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "29 changes / 7 days",
+      "value": "36 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
