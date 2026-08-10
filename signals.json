@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(council): a truncated speaker was judged as if it had voted (#4428)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6e0aa453decf200342780a53af0ad95e0804ae3a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(scope): unification suite for the scope-contamination kernel, and drop real phone num",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/94aa607c7490d5ffc1202591af7dea1229ddbf25"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(cc-harness): the auto-harness was reading a starved corpus and two fields Claude Code ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9fefbcfac1558998f7825166fd328b208788be9f"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(wa): drop an offboarded principal from the default broadcast list",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c4709aa74e213edb0d9a2368ff54936bb92e5caa"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-hear): refuse to describe a track it never heard (#4403)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3af97894d758aaba2cdf36b3d4bf4e985c302425"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(changelog): consolidate six colliding auto-changelog PRs (#4398)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e303c090ff8ce8974a8a453368a77abbff64a609"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "73 living genes exported with their fitness scores",
+      "caption": "74 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6234",
+      "value": "gen 6262",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "26 changes / 7 days",
+      "value": "28 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -78,6 +78,18 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
+          "desc": "Render a GRIP hypothesis-verdict delight card — the falsification-engine moment",
+          "name": "/verdict"
+        },
+        {
+          "desc": "Generate professional PDF documents with per-organisation branding variants",
+          "name": "/professional-pdf"
+        },
+        {
+          "desc": "",
+          "name": "/cc-auto-harness"
+        },
+        {
           "desc": ">",
           "name": "/swiss-nihilism-design"
         },
@@ -86,20 +98,8 @@
           "name": "/sensitive-repo-bootstrap"
         },
         {
-          "desc": "Generate professional PDF documents with per-organisation branding variants",
-          "name": "/professional-pdf"
-        },
-        {
           "desc": ">",
           "name": "/electron-cross-platform-patterns"
-        },
-        {
-          "desc": "Structured team delegation with capability matching, GitHub assignment, and Slac",
-          "name": "/delegating-team-work"
-        },
-        {
-          "desc": "Plain-language summary of what shipped in a sprint or time window — from git his",
-          "name": "/recap"
         }
       ],
       "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user interrupted, grip_workflow:sprint, known_hook:session end, grip_workflow:genome, grip_workflow:mode"
