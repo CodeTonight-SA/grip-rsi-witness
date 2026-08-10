@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(smt): stop re-burying call-shape bugs, and stop scoring \"unknown\" as 50 (#4569)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b76a6d9adccddabe2d6963216c991bee9ffb48a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(#4513): a brief cannot bind concurrent workers — put the constraint in canon and in th",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f5ab92b6ee4746dab2ac68ef0ca7ff862d4ce676"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(worktree): call the encoder that exists, and compare against Python (#4553)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c7b06bceec7bc8cd5f07b681033cc494067388d0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(council): print speaker answers in full instead of the first 217 characters (#4550)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/81bf203b8bcb989ed4aade2ac08e49da6858502f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "77 changes / 7 days",
+      "value": "78 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
