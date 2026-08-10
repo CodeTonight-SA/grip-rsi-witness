@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix: two verified AGORA deferred concerns (#4573 silent ImportError, #4562 wrong step numb",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf44ba708ced7490f11649a6862027f8082fe18f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix: resolve four aged AGORA follow-ups — a real swallowed bug, and three checks that coul",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d0e37a2364d44c55d8ec87ff7e4d35b554cad66"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(agora): strip echoed Speaker prompt scaffold instead of discarding the review (#4575) ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/41cd31e9af624e8fdf0c2984b16b190233860067"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: close two verified AGORA follow-ups — shell-guard gap (#4524) and a self-contradictin",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c13bce46b8a312112f925e20d82ed9d354e02fd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(sprint-report): a missing metrics file said \"0 anomalies\", not \"unknown\" (#4505) (#457",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6936cad2ffd9ff08d413b3de57f9a39656f0ae3a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gate): record a deny the guardrail-removal gate could not speak (#4576)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/07a43bc8589e32f0a34b5767f175a75081583653"
         }
       ],
       "key": "stream"
