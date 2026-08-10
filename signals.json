@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "test(doctor): exercise check_executing_tree against real git, not a mocked verdict (#4530)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/482e477c5d93ddbf3a15f15ca2081691090b3883"
+          "tldr": "chore(changelog): consolidate 42 colliding auto-changelog entries (#4539)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf86b04c08028760df20876c3f4d1b46b697e1bb"
         },
         {
           "kind": "shipped",
-          "tldr": "perf(auto-memory): stream the transcript instead of materialising all of it (#4527)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/71428f2ef90becce1cbd5f6d4f0c528fb09e749c"
+          "tldr": "chore(deps): bump ip-address in /mcp-servers/hal-mcp (#4365)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e89e3ba9b9b4fcf7fb9e940bb5c80ab345cb6cf"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(self-check): a footgun must be in argv, not merely in the text (#4421) (#4510)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8f46371d83572ac48bc5a87c938cfeb8a9d76fc"
+          "tldr": "chore(deps): bump hono in /mcp-servers/grip-mcp-desktop (#4367)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/600f1b563620ad7d7df41a569642e3a42eacf283"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(aurora): a counter that could not run is unknown, not zero (#4459) (#4523)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c72fb8435ef65ada1f6d923a5ee91f5cfa0b1e7"
+          "tldr": "chore(deps): bump hono from 4.12.27 to 4.13.1 in /mcp-servers/hal-mcp (#4440)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f179948afde49327cdf43fc88d264f6214ad0416"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(self-report): a shell wrapper laundered a self-authored claim into evidence (#4511)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c4e7111faaabae3ea369afc66ba8517492889e31"
+          "tldr": "chore(deps): bump fast-uri in /mcp-servers/grip-mcp-desktop (#4386)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b03a1cd9d246839a3094655a0f5d71c451c7b7a"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(tests): the broly deadline contract test asserted a retired command (#4506)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d1685b97b254096470c62374fd4d08689717f782"
+          "tldr": "chore(deps): bump undici in /tools/grip-discord-voice (#4388)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/21c42cd23d2c290b75778362f2eafd16a4fa83c4"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(doctor): report whether the tree GRIP actually executes is serving canonical code (#4",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/303c8f8f8abcec93802925b26c20dc7a1ecee725"
+          "tldr": "chore(deps): bump fast-uri in /mcp-servers/grip-mcp-web (#4387)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2e4ce525ed1783fca8ec67da69e0e9210d4164f2"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(heartbeat): the learning pulse could never open its own gate (#4443) (#4477)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/93e4470980a74408a60d59d4a6a5bb32927fe2f8"
+          "tldr": "chore(deps): bump ip-address in /mcp-servers/grip-apps (#4364)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e0e0ae2399a9626bdc638a88c3c57b0a9cca215b"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "74 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6349",
+      "value": "gen 6356",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "56 changes / 7 days",
+      "value": "64 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
