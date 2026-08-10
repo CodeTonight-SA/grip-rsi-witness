@@ -102,7 +102,7 @@
           "name": "/electron-cross-platform-patterns"
         }
       ],
-      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user interrupted, grip_workflow:sprint, known_hook:session end, grip_workflow:genome, grip_workflow:mode"
+      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user interrupted, known_hook:session end, grip_workflow:sprint, steering:user wanted, grip_workflow:genome"
     }
   ]
 }
