@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "fix(smt): stop re-burying call-shape bugs, and stop scoring \"unknown\" as 50 (#4569)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b76a6d9adccddabe2d6963216c991bee9ffb48a"
+          "tldr": "fix(agora): strip echoed Speaker prompt scaffold instead of discarding the review (#4575) ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/41cd31e9af624e8fdf0c2984b16b190233860067"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(#4513): a brief cannot bind concurrent workers — put the constraint in canon and in th",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f5ab92b6ee4746dab2ac68ef0ca7ff862d4ce676"
+          "tldr": "fix: three surviving AGORA deferred concerns (#4389, #4395, #4433) (#4583)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3aa48653511f16ba3320f1867bcf118b9cb3a1c6"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(backlog): route aged AGORA deferrals back instead of letting them age out (#4467) (#45",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d53fa2f3fc9dae5df8803fa6d019c14474d2f3bf"
+          "tldr": "fix: resolve four aged AGORA DEFER_CHANGES follow-ups (#4272 #4286 #4290 #4353) (#4585)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/252387ed815da113b34d1bc1dd2f75ee4fc42195"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(agora): tell the reviewers what day it is, and refuse \"correct the date\" advice (#4466",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/435c12a3eae85161ccc344b9fc3a47805aa36fd6"
+          "tldr": "fix: resolve three aged AGORA deferred concerns (#4197, #4206, #4232) (#4581)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/07294bf793a069fbe1aa13ee5fc7c64a77675a89"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(heartbeat): the freshness gate keyed off a file nobody writes, so it silenced itself (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/85892f521fec367482a3118f18ad3bfd27c9d8bf"
+          "tldr": "fix(auto-memory): one bad byte discarded every insight in the transcript (#4532) (#4579)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/833e509a74d63d1a0cd0b64b7ec86cce4a193798"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(sprint-loop): claim an issue before working it, and skip claimed ones (#4559)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/468558799d268cc0e97aea6194c9cfb13f745302"
+          "tldr": "fix: close two verified AGORA follow-ups — shell-guard gap (#4524) and a self-contradictin",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c13bce46b8a312112f925e20d82ed9d354e02fd"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(context-gate): deduplicate the approach-verification ledger (#4495) (#4557)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/198726f6739325ae6468ab6116f9e274061543b5"
+          "tldr": "fix(sprint-report): a missing metrics file said \"0 anomalies\", not \"unknown\" (#4505) (#457",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6936cad2ffd9ff08d413b3de57f9a39656f0ae3a"
         },
         {
           "kind": "shipped",
-          "tldr": "test(worktree): call the encoder that exists, and compare against Python (#4553)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c7b06bceec7bc8cd5f07b681033cc494067388d0"
+          "tldr": "fix(gate): record a deny the guardrail-removal gate could not speak (#4576)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/07a43bc8589e32f0a34b5767f175a75081583653"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "78 changes / 7 days",
+      "value": "86 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
