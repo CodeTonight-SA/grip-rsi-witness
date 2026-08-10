@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(#4513): a brief cannot bind concurrent workers — put the constraint in canon and in th",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f5ab92b6ee4746dab2ac68ef0ca7ff862d4ce676"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(backlog): route aged AGORA deferrals back instead of letting them age out (#4467) (#45",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d53fa2f3fc9dae5df8803fa6d019c14474d2f3bf"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(agora): tell the reviewers what day it is, and refuse \"correct the date\" advice (#4466",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/435c12a3eae85161ccc344b9fc3a47805aa36fd6"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(council): print speaker answers in full instead of the first 217 characters (#4550)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/81bf203b8bcb989ed4aade2ac08e49da6858502f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(worktree): resolve the shared git dir, not $REPO_ROOT/.git (#4491) (#4551)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a2f80f0de4b01683bd26129799bbae5109cbddf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(update-team): record that the scheduled auto-post is disabled (#4548)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/49668771e8a99d43761b3e67c85a123deb4b680b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "75 changes / 7 days",
+      "value": "77 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
