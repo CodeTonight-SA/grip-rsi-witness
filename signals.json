@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(doctor): exercise check_executing_tree against real git, not a mocked verdict (#4530)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/482e477c5d93ddbf3a15f15ca2081691090b3883"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "perf(auto-memory): stream the transcript instead of materialising all of it (#4527)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/71428f2ef90becce1cbd5f6d4f0c528fb09e749c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(self-check): a footgun must be in argv, not merely in the text (#4421) (#4510)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8f46371d83572ac48bc5a87c938cfeb8a9d76fc"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(aurora): a counter that could not run is unknown, not zero (#4459) (#4523)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c72fb8435ef65ada1f6d923a5ee91f5cfa0b1e7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(self-report): a shell wrapper laundered a self-authored claim into evidence (#4511)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c4e7111faaabae3ea369afc66ba8517492889e31"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(heartbeat): the learning pulse could never open its own gate (#4443) (#4477)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/93e4470980a74408a60d59d4a6a5bb32927fe2f8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(vps-drift): a failed fetch reported drift from stale objects (#4480)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/45fe5be279f2538afaac911164726e9e870c3788"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(reporting): two counters reported 0 when they had failed to count (#4458)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/63a0be377e5092356f0ac7653ebccae8218c82e1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ledgers): lock the read-modify-write on two shared ledgers (#4507)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/18f4fddbdc7dd857e4f9d05089e6e525fa61d71a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(heartbeat): the session gate matched the heartbeat's own path, so it never ran (#4490)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0233ca03a79687ecba53818d5ea03902132f8cca"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "75 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6316",
+      "value": "gen 6340",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "52 changes / 7 days",
+      "value": "56 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
