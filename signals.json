@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(ci): mint a GitHub App token so changelog PRs can pass their own checks (#4545)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5067eda470ab2c604d5e06978bd230360c110fac"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(changelog): parse scoped conventional-commit titles (#4542)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c0532a4e1659520aed038469e9487b519862ddd5"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(deps): bump fast-uri in /mcp-servers/grip-mcp-desktop (#4386)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b03a1cd9d246839a3094655a0f5d71c451c7b7a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(deps): bump undici in /tools/grip-discord-voice (#4388)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/21c42cd23d2c290b75778362f2eafd16a4fa83c4"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "66 changes / 7 days",
+      "value": "67 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
