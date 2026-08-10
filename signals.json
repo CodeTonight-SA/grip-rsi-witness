@@ -4,66 +4,66 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(self-report): a shell wrapper laundered a self-authored claim into evidence (#4511)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c4e7111faaabae3ea369afc66ba8517492889e31"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): the broly deadline contract test asserted a retired command (#4506)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d1685b97b254096470c62374fd4d08689717f782"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(doctor): report whether the tree GRIP actually executes is serving canonical code (#4",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/303c8f8f8abcec93802925b26c20dc7a1ecee725"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(heartbeat): the learning pulse could never open its own gate (#4443) (#4477)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/93e4470980a74408a60d59d4a6a5bb32927fe2f8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(vps-drift): a failed fetch reported drift from stale objects (#4480)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/45fe5be279f2538afaac911164726e9e870c3788"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(reporting): two counters reported 0 when they had failed to count (#4458)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/63a0be377e5092356f0ac7653ebccae8218c82e1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ledgers): lock the read-modify-write on two shared ledgers (#4507)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/18f4fddbdc7dd857e4f9d05089e6e525fa61d71a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(heartbeat): the session gate matched the heartbeat's own path, so it never ran (#4490)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0233ca03a79687ecba53818d5ea03902132f8cca"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(smt): run the half of the SMT validation council that never ran (#4411) (#4470)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2cf559130f9e13604649fd77ee71d26379061ab3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(security): the web secrets scanner passed green on files it never opened (#4473)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0d45120c72beec76d2e8a5b149f6f7d85f9102e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rsi): unmeasured convergence inputs must not read as satisfied bars (#4475)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0f43907d2c3418e03aa431ce6fa314d29ad2af6d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(heartbeat): make the learning pulse self-evidencing — the exit-1 was a stale reading (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e43dac0027013b1db2b17c13c770ca7fc6671236"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): dispatch outward when the main session fills (#4476)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f81912a1b1fc27ae5cd3d874e22825669927e33"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(cc-harness,hooks): two components that lost data and reported success (#4464)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/625594bac328710a4bffc6754765155e17678e27"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(bin): 26 commands skipped a working virtualenv on Windows (#4446)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/225be7856c73f3b35de708a4459a430a24097b14"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "669 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "660 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
-      "value": "145 confirmed / 199 refuted",
+      "value": "142 confirmed / 199 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
       "caption": "75 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6283",
+      "value": "gen 6316",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "45 changes / 7 days",
+      "value": "52 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -78,12 +78,12 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
-          "desc": "Render a GRIP hypothesis-verdict delight card — the falsification-engine moment",
-          "name": "/verdict"
-        },
-        {
           "desc": "Generate professional PDF documents with per-organisation branding variants",
           "name": "/professional-pdf"
+        },
+        {
+          "desc": "Render a GRIP hypothesis-verdict delight card — the falsification-engine moment",
+          "name": "/verdict"
         },
         {
           "desc": "",
