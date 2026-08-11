@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "ci(windows): add the first Windows runner",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8dd1c9eb22e5c518a0c147a7622f9b710cd31bc2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): GRIP dies on any console that is not UTF-8 (#4605)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/153b55f89ce40f6e081003e9071bff11fd90e202"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs: correct the routine-default model in .claude/CLAUDE.md to Opus 5 (#4603)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/78721419b406c77587ccd794dd32281f7250f237"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: resolve four aged AGORA DEFER_CHANGES follow-ups (#4272 #4286 #4290 #4353) (#4585)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/252387ed815da113b34d1bc1dd2f75ee4fc42195"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: resolve three aged AGORA deferred concerns (#4197, #4206, #4232) (#4581)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/07294bf793a069fbe1aa13ee5fc7c64a77675a89"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(auto-memory): one bad byte discarded every insight in the transcript (#4532) (#4579)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/833e509a74d63d1a0cd0b64b7ec86cce4a193798"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "76 living genes exported with their fitness scores",
+      "caption": "77 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6376",
+      "value": "gen 6399",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "81 changes / 7 days",
+      "value": "83 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
