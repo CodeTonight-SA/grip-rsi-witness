@@ -102,7 +102,7 @@
           "name": "/verdict"
         }
       ],
-      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user interrupted, known_hook:session end, grip_workflow:sprint, steering:user wanted, grip_workflow:genome"
+      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user interrupted, steering:user had to, known_hook:session end, steering:user wanted, grip_workflow:sprint"
     }
   ]
 }
