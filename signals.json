@@ -78,28 +78,28 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
+          "desc": "The ONE canonical team/update command — keep V>>'s teammates (and V>>) informed ",
+          "name": "/update-team"
+        },
+        {
+          "desc": "Self-healing autonomous sprint with guardrails",
+          "name": "/sprint-loop"
+        },
+        {
+          "desc": "Plain-language summary of what shipped in a sprint or time window — from git his",
+          "name": "/recap"
+        },
+        {
+          "desc": "Unified evolution dispatcher that routes EvolutionState between GRIP's learning ",
+          "name": "/evolve"
+        },
+        {
           "desc": "Generate professional PDF documents with per-organisation branding variants",
           "name": "/professional-pdf"
         },
         {
           "desc": "Render a GRIP hypothesis-verdict delight card — the falsification-engine moment",
           "name": "/verdict"
-        },
-        {
-          "desc": "",
-          "name": "/cc-auto-harness"
-        },
-        {
-          "desc": ">",
-          "name": "/swiss-nihilism-design"
-        },
-        {
-          "desc": "",
-          "name": "/sensitive-repo-bootstrap"
-        },
-        {
-          "desc": ">",
-          "name": "/electron-cross-platform-patterns"
         }
       ],
       "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user interrupted, known_hook:session end, grip_workflow:sprint, steering:user wanted, grip_workflow:genome"
