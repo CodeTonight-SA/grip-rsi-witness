@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs: correct the routine-default model in .claude/CLAUDE.md to Opus 5 (#4603)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/78721419b406c77587ccd794dd32281f7250f237"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix: two verified AGORA deferred concerns (#4573 silent ImportError, #4562 wrong step numb",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf44ba708ced7490f11649a6862027f8082fe18f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(auto-memory): one bad byte discarded every insight in the transcript (#4532) (#4579)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/833e509a74d63d1a0cd0b64b7ec86cce4a193798"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: close two verified AGORA follow-ups — shell-guard gap (#4524) and a self-contradictin",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c13bce46b8a312112f925e20d82ed9d354e02fd"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "74 living genes exported with their fitness scores",
+      "caption": "76 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6369",
+      "value": "gen 6376",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "80 changes / 7 days",
+      "value": "81 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
