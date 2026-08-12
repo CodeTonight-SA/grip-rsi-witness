@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix: aggregate_confidence counted correlated sources as independent (task #684) (#4624)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e62b3958d991195f9e3fca1327e84457694bfab6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Measure agreement on real sealed councils: rho is not measurable from what we record (#462",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ffb1d48f46a5fc3e2f8d28b3cd0651a46434cd3"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix: report the confabulation trigger, not a paragraph prefix (#4609)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/23abeaf2bf8dd5ed2db342a57595608d4f3f73eb"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: resolve four aged AGORA follow-ups — a real swallowed bug, and three checks that coul",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d0e37a2364d44c55d8ec87ff7e4d35b554cad66"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): strip echoed Speaker prompt scaffold instead of discarding the review (#4575) ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/41cd31e9af624e8fdf0c2984b16b190233860067"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: three surviving AGORA deferred concerns (#4389, #4395, #4433) (#4583)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3aa48653511f16ba3320f1867bcf118b9cb3a1c6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "84 changes / 7 days",
+      "value": "86 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
