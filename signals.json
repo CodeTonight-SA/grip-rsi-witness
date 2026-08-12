@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix: report the confabulation trigger, not a paragraph prefix (#4609)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/23abeaf2bf8dd5ed2db342a57595608d4f3f73eb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "ci(windows): add the first Windows runner",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8dd1c9eb22e5c518a0c147a7622f9b710cd31bc2"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "fix: three surviving AGORA deferred concerns (#4389, #4395, #4433) (#4583)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3aa48653511f16ba3320f1867bcf118b9cb3a1c6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: resolve four aged AGORA DEFER_CHANGES follow-ups (#4272 #4286 #4290 #4353) (#4585)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/252387ed815da113b34d1bc1dd2f75ee4fc42195"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "660 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "661 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "142 confirmed / 199 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "83 changes / 7 days",
+      "value": "84 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
