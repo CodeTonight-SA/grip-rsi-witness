@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "Keep production deploying — the previous Vercel globs matched main too (#4633)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/32796ef6911a0b6dee45d174170d05fda7f0be2e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(vercel): stop building preview deployments on every pull request (#4631)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4910ca288c75bc663af0c114a71935b1e0c5eddf"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs: correct the routine-default model in .claude/CLAUDE.md to Opus 5 (#4603)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/78721419b406c77587ccd794dd32281f7250f237"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: two verified AGORA deferred concerns (#4573 silent ImportError, #4562 wrong step numb",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf44ba708ced7490f11649a6862027f8082fe18f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "75 changes / 7 days",
+      "value": "76 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
