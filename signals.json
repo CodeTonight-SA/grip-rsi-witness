@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(hypotheses): record 73 adjudicated verdicts from the 197-record audit (#4649)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ae4fd96fd4d047af3eb1ed664c16533d731748b6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hypotheses): repair the corrupt hypothesis store — split 5 id collisions, drop 167 dup",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ca45b174c6a70f1ac294a6891e6336c0a56f825a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: aggregate_confidence counted correlated sources as independent (task #684) (#4624)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e62b3958d991195f9e3fca1327e84457694bfab6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Measure agreement on real sealed councils: rho is not measurable from what we record (#462",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ffb1d48f46a5fc3e2f8d28b3cd0651a46434cd3"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "80 changes / 7 days",
+      "value": "81 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
