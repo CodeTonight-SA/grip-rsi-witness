@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hypotheses): repair the corrupt hypothesis store — split 5 id collisions, drop 167 dup",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ca45b174c6a70f1ac294a6891e6336c0a56f825a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Recording one hypothesis verdict silently damaged fifteen rows (#4643)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/df5428794edea85824187de410c1adbb351e9877"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs: Art 50(2) watermarks-vs-GRASP verdict run document + IDR.md happi version fix (#4638",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a5192fa9814526051de4edffe1bf0517fe445bc3"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "Measure agreement on real sealed councils: rho is not measurable from what we record (#462",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ffb1d48f46a5fc3e2f8d28b3cd0651a46434cd3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: report the confabulation trigger, not a paragraph prefix (#4609)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/23abeaf2bf8dd5ed2db342a57595608d4f3f73eb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "ci(windows): add the first Windows runner",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8dd1c9eb22e5c518a0c147a7622f9b710cd31bc2"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "78 changes / 7 days",
+      "value": "80 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
