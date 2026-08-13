@@ -56,7 +56,7 @@
       "caption": "77 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6410",
+      "value": "gen 6419",
       "verify": "data/genome-shared.json"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/verdict"
         }
       ],
-      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user interrupted, steering:user wanted, grip_workflow:mode, steering:user had to, grip_workflow:genome"
+      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user wanted, grip_workflow:genome, grip_workflow:mode, steering:user interrupted, grip_workflow:rsi"
     }
   ]
 }
