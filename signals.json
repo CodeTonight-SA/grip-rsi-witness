@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "Canonical style v3 + /witness: short block, clickable see-it links, witnessed provenance (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f87352db7f0ce1d759eac15765445aa41b6e81f1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(hypotheses): record 73 adjudicated verdicts from the 197-record audit (#4649)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ae4fd96fd4d047af3eb1ed664c16533d731748b6"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(vercel): stop building preview deployments on every pull request (#4631)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4910ca288c75bc663af0c114a71935b1e0c5eddf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: aggregate_confidence counted correlated sources as independent (task #684) (#4624)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e62b3958d991195f9e3fca1327e84457694bfab6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "81 changes / 7 days",
+      "value": "82 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
