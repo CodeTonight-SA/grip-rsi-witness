@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "The semantic router tier never reached an embedding — it called the wrong constructor (#46",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a645f2c6be482dd60ee13a256cb00a970d51c217"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Keep production deploying — the previous Vercel globs matched main too (#4633)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/32796ef6911a0b6dee45d174170d05fda7f0be2e"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): GRIP dies on any console that is not UTF-8 (#4605)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/153b55f89ce40f6e081003e9071bff11fd90e202"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: correct the routine-default model in .claude/CLAUDE.md to Opus 5 (#4603)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/78721419b406c77587ccd794dd32281f7250f237"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "76 changes / 7 days",
+      "value": "77 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
