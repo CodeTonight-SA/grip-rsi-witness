@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(vercel): stop building preview deployments on every pull request (#4631)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4910ca288c75bc663af0c114a71935b1e0c5eddf"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix: aggregate_confidence counted correlated sources as independent (task #684) (#4624)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e62b3958d991195f9e3fca1327e84457694bfab6"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: two verified AGORA deferred concerns (#4573 silent ImportError, #4562 wrong step numb",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf44ba708ced7490f11649a6862027f8082fe18f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: resolve four aged AGORA follow-ups — a real swallowed bug, and three checks that coul",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d0e37a2364d44c55d8ec87ff7e4d35b554cad66"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "74 changes / 7 days",
+      "value": "75 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
