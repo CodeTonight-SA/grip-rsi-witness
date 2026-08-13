@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs: Art 50(2) watermarks-vs-GRASP verdict run document + IDR.md happi version fix (#4638",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a5192fa9814526051de4edffe1bf0517fe445bc3"
+        },
+        {
+          "kind": "shipped",
           "tldr": "The semantic router tier never reached an embedding — it called the wrong constructor (#46",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a645f2c6be482dd60ee13a256cb00a970d51c217"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "ci(windows): add the first Windows runner",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8dd1c9eb22e5c518a0c147a7622f9b710cd31bc2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): GRIP dies on any console that is not UTF-8 (#4605)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/153b55f89ce40f6e081003e9071bff11fd90e202"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "77 changes / 7 days",
+      "value": "78 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
