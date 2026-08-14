@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(wa): scrub insight text before it leaves the machine, and fail closed (#4737)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5df811f8994fdffceb07f98432cda2279ad2d386"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test: remove a README string-pin that failed because the docs got better (#4735)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e41aa86911e8dc66600fd2886e1c907c21d052a5"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test: import lib/ from the checkout, not the 37-commits-behind shared tree (#4721)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e565f0f696920a8b35466621812e4766b38c54d3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(suite): make a hung test name itself instead of costing a re-run (#4718)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b969ceb91d21048ec206688efa3aeb8ef9e346a0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "115 changes / 7 days",
+      "value": "116 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
