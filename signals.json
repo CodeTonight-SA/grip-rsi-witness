@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test: close the wider class — stop loading code from the 37-behind shared tree (#4722)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/22c29c3e32e73b4ce0323a674fd67025cebe0ac0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test: import lib/ from the checkout, not the 37-commits-behind shared tree (#4721)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e565f0f696920a8b35466621812e4766b38c54d3"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(tests): close the Route-A blind spot AGORA found in the #4683 scanner (#4695)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/27fd5d09f5fedbac09fc156a10de594e0d262c8b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(conftest): harden the visibility anchor against both AGORA concerns (#4699)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/19d5c9442656dfed50cc71e99d79f8fc496b2b31"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "109 changes / 7 days",
+      "value": "110 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
