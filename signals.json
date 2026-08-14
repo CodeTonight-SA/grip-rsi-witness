@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs: fix four defects AGORA raised on the project brief (#4604) (#4621)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c497be2b06ce376f493f921f215021413dd80c99"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(worktree): refuse to discard uncommitted work on remove; separate GRIP depth from Clau",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e8dcf1df2499fe60b639cbf94cdecd75e88e9c4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix: de-fossilise model pins in two skills, and wire the prompt-audit tool (#4617)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dc3400cd2f30172bb81d04d288e664409f8b5f2b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): make the existing UTF-8 stdio fix actually get called (task #675) (#4658)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/017d4cfc07b1e818e72d09aeb6a58d5c6952ab8b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: make the bootstrap interval and the tail-colon guard able to fail (#688 defects 2/3 ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fb7724a434a9b2627fbbf944bc4a51c238b857d6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test: make test_failed_speakers_are_excluded able to fail (#688 defect 1/3) (#4654)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d31db9b9a94a4042268c4c927af28f2629f2254a"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(hypotheses): record 73 adjudicated verdicts from the 197-record audit (#4649)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ae4fd96fd4d047af3eb1ed664c16533d731748b6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hypotheses): repair the corrupt hypothesis store — split 5 id collisions, drop 167 dup",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ca45b174c6a70f1ac294a6891e6336c0a56f825a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Recording one hypothesis verdict silently damaged fifteen rows (#4643)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/df5428794edea85824187de410c1adbb351e9877"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: Art 50(2) watermarks-vs-GRASP verdict run document + IDR.md happi version fix (#4638",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a5192fa9814526051de4edffe1bf0517fe445bc3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "The semantic router tier never reached an embedding — it called the wrong constructor (#46",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a645f2c6be482dd60ee13a256cb00a970d51c217"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Keep production deploying — the previous Vercel globs matched main too (#4633)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/32796ef6911a0b6dee45d174170d05fda7f0be2e"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "77 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6438",
+      "value": "gen 6441",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "83 changes / 7 days",
+      "value": "88 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
