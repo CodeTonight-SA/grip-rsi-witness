@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(council): split \"timeout_or_missing_binary\", and catch the third failure (#4739)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa05b064f5ae3dcd0ea8f67c3ffacf4c814abe30"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): consolidate the 51-PR backlog into one entry set (#4740)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/25615faad1702a0a53ea0dacfb59fd7766bfe8a0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(wa): scrub insight text before it leaves the machine, and fail closed (#4737)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5df811f8994fdffceb07f98432cda2279ad2d386"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test: turn a filename exemption into a rule; record the ast.Assign gap as measured-and-dec",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8406f16f351a058fd6c48663dab7666389b4c64a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: close the wider class — stop loading code from the 37-behind shared tree (#4722)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/22c29c3e32e73b4ce0323a674fd67025cebe0ac0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: import lib/ from the checkout, not the 37-commits-behind shared tree (#4721)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e565f0f696920a8b35466621812e4766b38c54d3"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "116 changes / 7 days",
+      "value": "118 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
