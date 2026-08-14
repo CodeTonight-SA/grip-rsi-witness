@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(tests): five assertions in one file could not fail, including one named \"should not ha",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5b13886f4da0850abfe9f0d3349914919849832a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): a red-on-main gate test was pinning an implementation detail, not a property (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/208d70b355040defb76e351a7485d643e07bfa1f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gates): the zsh colon-modifier gate only covered refspecs, so a git show returned four",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/dbf7863c3379f852b2f0739cdb25de53bd27d89b"
         },
@@ -31,22 +41,12 @@
           "kind": "shipped",
           "tldr": "test(conftest): anchor the warning-visibility claim instead of asserting it (#4693)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9df43e1c5250831694653812506c754c3d820308"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(test): one cached import was aborting collection of the whole suite (#4686)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c34186eb270063f78750b30fab60cf1cc547e8f3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(test): point the marker warning at conftest, not at pluggy (#4684)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/20017186bb8c850a7a02db74e9a6da8351c4e276"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "663 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "664 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "142 confirmed / 199 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "105 changes / 7 days",
+      "value": "107 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
