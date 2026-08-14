@@ -102,7 +102,7 @@
           "name": "/verdict"
         }
       ],
-      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user wanted, grip_workflow:genome, grip_workflow:mode, steering:user interrupted, grip_workflow:rsi"
+      "tip": "/evo: 'tool_environment_issue' ff=16% (5/6). Ev: steering:requiring user, env:lock file, gate:gate, gate:guardrail"
     }
   ]
 }
