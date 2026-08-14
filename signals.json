@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(suite): make a hung test name itself instead of costing a re-run (#4718)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b969ceb91d21048ec206688efa3aeb8ef9e346a0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(tests): five assertions in one file could not fail, including one named \"should not ha",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5b13886f4da0850abfe9f0d3349914919849832a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): grip-doctor still crashed on a probe that returned no text (#4691)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8e77e0cbc750959f6f41fef72d1bb76b855abf04"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(conftest): anchor the warning-visibility claim instead of asserting it (#4693)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9df43e1c5250831694653812506c754c3d820308"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "107 changes / 7 days",
+      "value": "108 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
