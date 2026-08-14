@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test: turn a filename exemption into a rule; record the ast.Assign gap as measured-and-dec",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8406f16f351a058fd6c48663dab7666389b4c64a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test: close the wider class — stop loading code from the 37-behind shared tree (#4722)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/22c29c3e32e73b4ce0323a674fd67025cebe0ac0"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(tests): 10 of GRIP's 14 Windows CI failures were test bugs, not product bugs (#4704)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b68236f7d3b25e2d4bcf541aba869fa016aeefb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): close the Route-A blind spot AGORA found in the #4683 scanner (#4695)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/27fd5d09f5fedbac09fc156a10de594e0d262c8b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "110 changes / 7 days",
+      "value": "111 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
