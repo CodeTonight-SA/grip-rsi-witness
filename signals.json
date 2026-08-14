@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix: a judge that returns unusable output now says why in the run log (#4754)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/485701d78ad43372dedd9ab3250e2bd0254948fe"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix: AGORA discarded which provider produced each speaker's review (#4752)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f16129fd732ddc9d1e68270ca6af6fcac628dae3"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(wa): scrub insight text before it leaves the machine, and fail closed (#4737)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5df811f8994fdffceb07f98432cda2279ad2d386"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: remove a README string-pin that failed because the docs got better (#4735)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e41aa86911e8dc66600fd2886e1c907c21d052a5"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "122 changes / 7 days",
+      "value": "123 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
