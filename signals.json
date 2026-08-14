@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gates): the zsh colon-modifier gate only covered refspecs, so a git show returned four",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dbf7863c3379f852b2f0739cdb25de53bd27d89b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): 10 of GRIP's 14 Windows CI failures were test bugs, not product bugs (#4704)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b68236f7d3b25e2d4bcf541aba869fa016aeefb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(tests): close the Route-A blind spot AGORA found in the #4683 scanner (#4695)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/27fd5d09f5fedbac09fc156a10de594e0d262c8b"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(test): point the marker warning at conftest, not at pluggy (#4684)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/20017186bb8c850a7a02db74e9a6da8351c4e276"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): restore sight to the Invariant-1 completeness guard (#4683)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d4e0019dc20466474ce619b467b652a8f2a975f2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(test): a percentage tolerance let 364 failures claim the suite passed (#4668)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d51ddb0de2f960e69f10234083c1e8628a3a5523"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "77 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6443",
+      "value": "gen 6444",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "103 changes / 7 days",
+      "value": "105 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
