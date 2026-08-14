@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "ci: point mirror-daily at the runner's real path, install deps in windows-smoke (#4745)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb31b2006e5707593bea85e838542932e29f73c8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): make every hook invocation in settings.json path-portable (#4743)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aebd49b52d985e0987c9a3c067a3607adc9c4995"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(council): split \"timeout_or_missing_binary\", and catch the third failure (#4739)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa05b064f5ae3dcd0ea8f67c3ffacf4c814abe30"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(tests): stop the backlog fixture deleting tracked .gitkeep from the real tree (#4730)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/03485b97be18b650cfda097e71e2aada80114c22"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: correct ultraclear skill — the transcript adapter shipped and is wired (#4728)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e8d618e87050cc5ac393d412d831f8b27f2246e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: turn a filename exemption into a rule; record the ast.Assign gap as measured-and-dec",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8406f16f351a058fd6c48663dab7666389b4c64a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "118 changes / 7 days",
+      "value": "120 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
