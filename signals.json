@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix: kono stats crashed with a raw traceback on a never-bootstrapped substrate (#4749)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d468f25e8fa30d9931445c5197d7a93bd7850d94"
+        },
+        {
+          "kind": "shipped",
           "tldr": "ci: point mirror-daily at the runner's real path, install deps in windows-smoke (#4745)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb31b2006e5707593bea85e838542932e29f73c8"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(agora): say WHY a speaker came back empty instead of discarding the reason (#4731)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1d35290f33ac8b082cdd5fc36fb5ce97831d1a62"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): stop the backlog fixture deleting tracked .gitkeep from the real tree (#4730)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/03485b97be18b650cfda097e71e2aada80114c22"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "120 changes / 7 days",
+      "value": "121 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
