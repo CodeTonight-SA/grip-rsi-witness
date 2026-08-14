@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(tests): close the Route-A blind spot AGORA found in the #4683 scanner (#4695)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/27fd5d09f5fedbac09fc156a10de594e0d262c8b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(conftest): harden the visibility anchor against both AGORA concerns (#4699)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/19d5c9442656dfed50cc71e99d79f8fc496b2b31"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): grip-doctor still crashed on a probe that returned no text (#4691)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8e77e0cbc750959f6f41fef72d1bb76b855abf04"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(conftest): anchor the warning-visibility claim instead of asserting it (#4693)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9df43e1c5250831694653812506c754c3d820308"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(test): one cached import was aborting collection of the whole suite (#4686)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c34186eb270063f78750b30fab60cf1cc547e8f3"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(test): a percentage tolerance let 364 failures claim the suite passed (#4668)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d51ddb0de2f960e69f10234083c1e8628a3a5523"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): pin the subprocess READ decoder to UTF-8 (the mirror of #4658) (#4674)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e9802c108421c62e24c28d0f450743f890a59f42"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(tests): tighten the reload-reach claim after testing AGORA's concerns (#4676)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2d2de4bdc85b7444ec8a5cad372bcb97e5c1bb46"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: report an over-budget MEMORY.md write instead of truncating it silently (CC 2.1.210 p",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5abaeda1ba43488c6e80e136bf20fb118b5b9864"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rsi): make auto_converge check --full reachable, portable, and expiring (#4663)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bbd8c311a66757d2bf066cd32b74c505e0cf21d5"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "77 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6441",
+      "value": "gen 6442",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "99 changes / 7 days",
+      "value": "103 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
