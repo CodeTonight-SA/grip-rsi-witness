@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(test): one cached import was aborting collection of the whole suite (#4686)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c34186eb270063f78750b30fab60cf1cc547e8f3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(test): point the marker warning at conftest, not at pluggy (#4684)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/20017186bb8c850a7a02db74e9a6da8351c4e276"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): restore sight to the Invariant-1 completeness guard (#4683)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d4e0019dc20466474ce619b467b652a8f2a975f2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(test): a percentage tolerance let 364 failures claim the suite passed (#4668)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d51ddb0de2f960e69f10234083c1e8628a3a5523"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): pin the subprocess READ decoder to UTF-8 (the mirror of #4658) (#4674)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e9802c108421c62e24c28d0f450743f890a59f42"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(tests): tighten the reload-reach claim after testing AGORA's concerns (#4676)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2d2de4bdc85b7444ec8a5cad372bcb97e5c1bb46"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix: report an over-budget MEMORY.md write instead of truncating it silently (CC 2.1.210 p",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5abaeda1ba43488c6e80e136bf20fb118b5b9864"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(rsi): make auto_converge check --full reachable, portable, and expiring (#4663)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bbd8c311a66757d2bf066cd32b74c505e0cf21d5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): stop test_gate_escape_hatch leaking a subprocess stub process-wide (#4665)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d892b6d424a560221825c98d402b0e46c1d05898"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Wire dual_verify_external: give an outside auditor somewhere to stand (#4627)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/353a9b20eef2b23b602ea2dab022367b118cde14"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(file_lock): report the file a sidecar lock actually locks (#4653)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/007cd82f9517fed580de627b2e243e1f3d905980"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: fix four defects AGORA raised on the project brief (#4604) (#4621)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c497be2b06ce376f493f921f215021413dd80c99"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(worktree): refuse to discard uncommitted work on remove; separate GRIP depth from Clau",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e8dcf1df2499fe60b639cbf94cdecd75e88e9c4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: de-fossilise model pins in two skills, and wire the prompt-audit tool (#4617)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dc3400cd2f30172bb81d04d288e664409f8b5f2b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): make the existing UTF-8 stdio fix actually get called (task #675) (#4658)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/017d4cfc07b1e818e72d09aeb6a58d5c6952ab8b"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "661 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "663 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "142 confirmed / 199 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "92 changes / 7 days",
+      "value": "99 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
