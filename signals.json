@@ -102,7 +102,7 @@
           "name": "/verdict"
         }
       ],
-      "tip": "/evo: 'misunderstood_request' ff=10% (80/89). Ev: steering:user clarified, env:memory, grip_workflow:broly, gate:guardrail, steering:user wanted"
+      "tip": "/evo: 'misunderstood_request' ff=10% (80/89). Ev: steering:user clarified, grip_workflow:broly, env:lock file, steering:user corrected, gate:guardrail"
     }
   ]
 }
