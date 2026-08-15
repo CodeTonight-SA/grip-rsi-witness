@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(startup): warn when the executing tree is stale — the detector existed and had no call",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6e0df0d1d1a94038eca1ed2c812d8f4092fef34f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix: the sentinel guard inferred \"unmeasured\" from 0.0 instead of knowing it (#4759)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/859e089c1cf2ecaa35b62cce076078f967251b95"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): make every hook invocation in settings.json path-portable (#4743)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/aebd49b52d985e0987c9a3c067a3607adc9c4995"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(council): split \"timeout_or_missing_binary\", and catch the third failure (#4739)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa05b064f5ae3dcd0ea8f67c3ffacf4c814abe30"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "125 changes / 7 days",
+      "value": "126 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
