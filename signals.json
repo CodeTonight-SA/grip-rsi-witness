@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix: the sentinel guard inferred \"unmeasured\" from 0.0 instead of knowing it (#4759)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/859e089c1cf2ecaa35b62cce076078f967251b95"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix: relay telemetry written through log_event carried no timestamp at all (#4757)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ed4c9747f946ba134c371c49fe4aa2728a7aaf04"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(council): split \"timeout_or_missing_binary\", and catch the third failure (#4739)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa05b064f5ae3dcd0ea8f67c3ffacf4c814abe30"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): consolidate the 51-PR backlog into one entry set (#4740)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/25615faad1702a0a53ea0dacfb59fd7766bfe8a0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "124 changes / 7 days",
+      "value": "125 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
