@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(gates): the reflog does not recover a working tree — correct a false rationale, chang",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/930aecd4e1d958c0575d2106534e6feaa250d55d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(startup): warn when the executing tree is stale — the detector existed and had no call",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6e0df0d1d1a94038eca1ed2c812d8f4092fef34f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "ci: point mirror-daily at the runner's real path, install deps in windows-smoke (#4745)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb31b2006e5707593bea85e838542932e29f73c8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): make every hook invocation in settings.json path-portable (#4743)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aebd49b52d985e0987c9a3c067a3607adc9c4995"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "126 changes / 7 days",
+      "value": "127 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
