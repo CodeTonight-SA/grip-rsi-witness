@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "125 changes / 7 days",
+      "value": "124 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/verdict"
         }
       ],
-      "tip": "/evo: 'misunderstood_request' ff=10% (80/89). Ev: steering:user clarified, grip_workflow:broly, env:lock file, steering:user corrected, gate:guardrail"
+      "tip": "/evo: 'misunderstood_request' ff=10% (80/89). Ev: steering:user clarified, steering:requiring user, grip_workflow:broly, steering:user interrupted, steering:user corrected"
     }
   ]
 }
