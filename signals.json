@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hooks): session end never wrote its context file - the module name has no such file (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/648a42cc1133976862c6c6b893d389be3be9c3ff"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows): the hook registry told fresh installs to run hooks the wrong way (#4804)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0f72494c389fdff1638a887d36ef95af965f20c7"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): GRIP could not start on any Windows machine whose username contains a space ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/882f7811ffa0c4c9edb50f905da75a319b3099d8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(4774): close all four AGORA DEFER concerns from the wiring-perimeter merge (#4776)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ffd90522707939596838485d5fd03fb583d2b04"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "68 changes / 7 days",
+      "value": "69 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
