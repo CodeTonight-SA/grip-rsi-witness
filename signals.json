@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4836 (#4839)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dee82a3bbf2164617fbe6e8ca98bfc5c4f5b2c37"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix: three silent breakages — unreadable skill descriptions, fatal startup abort, unrender",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a0753fb6ac7f50dfc94294e40e7a7d5f94df0eb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4833 (#4835)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a444c6cc6f2047670a28a46f37fd7086b52d42fa"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4781 (#4825)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3b0429fe5b0143e54116f806548d67f10c653f3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: sweep the retired Groq model, and stop a host prefix standing in for a lineage (#4781",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/101f61342348218c32eed912dad695f1e272afc8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): recover the entry lost when #4771 merged (#4823)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f3910761f12f5904027f26e1f50a2b040585314"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "95 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6777",
+      "value": "gen 6802",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "88 changes / 7 days",
+      "value": "90 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
