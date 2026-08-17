@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hooks): stop the bash-error learner persisting credentials, and tell the truth about i",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b1cacec2fe84545178d8c1e1c657c6d14fda2f99"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): the last two fixable collection errors -- a POSIX path replace and a wrong-t",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/578045970ccd40047a089cab851cec4cedd13cf2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): two tests in test_settings_smart_merge.py crashed on the locale codec (#4811",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/562eb889b9be879b8ba1a71c47f4d13dcee7c66e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hooks): session end never wrote its context file - the module name has no such file (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/648a42cc1133976862c6c6b893d389be3be9c3ff"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows-ci): make the genome tests build their own genome instead of borrowing one (#4",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/14b966bef099a818e07fd7e904e926c568c8d5b4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): register the two install-profile hooks this machine was missing (#4787)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/07f0001376c9168023cd786a415a5c3fd334fa8d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(test): correct an unverified claim about why Windows CI missed this (#4785)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e84eaf61c8a5d4a314998a473d231d14bff1aa44"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): GRIP could not start on any Windows machine whose username contains a space ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/882f7811ffa0c4c9edb50f905da75a319b3099d8"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "95 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6602",
+      "value": "gen 6627",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "69 changes / 7 days",
+      "value": "72 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
