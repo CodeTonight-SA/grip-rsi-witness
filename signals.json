@@ -46,17 +46,17 @@
       "key": "stream"
     },
     {
-      "caption": "665 registered · confirmation rate 42% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "491 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
-      "value": "142 confirmed / 199 refuted",
+      "value": "130 confirmed / 152 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
       "caption": "95 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6600",
+      "value": "gen 6602",
       "verify": "data/genome-shared.json"
     },
     {
@@ -78,28 +78,28 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
-          "desc": "The ONE canonical team/update command — keep V>>'s teammates (and V>>) informed ",
-          "name": "/update-team"
-        },
-        {
-          "desc": "Self-healing autonomous sprint with guardrails",
-          "name": "/sprint-loop"
-        },
-        {
-          "desc": "Plain-language summary of what shipped in a sprint or time window — from git his",
-          "name": "/recap"
-        },
-        {
-          "desc": "Unified evolution dispatcher that routes EvolutionState between GRIP's learning ",
-          "name": "/evolve"
-        },
-        {
-          "desc": "Generate professional PDF documents with per-organisation branding variants",
-          "name": "/professional-pdf"
+          "desc": "WITNESS — one gesture fusing the short answer, the openable deliverable, and GRA",
+          "name": "/witness"
         },
         {
           "desc": "Render a GRIP hypothesis-verdict delight card — the falsification-engine moment",
           "name": "/verdict"
+        },
+        {
+          "desc": "Multi-model comprehension council",
+          "name": "/ultraread"
+        },
+        {
+          "desc": "The lean RSI-witness kernel — ONE idempotent cycle (introspect → exogenous grip-",
+          "name": "/ultralearn"
+        },
+        {
+          "desc": "Multi-model verdict council with role assignment (devil/pragmatist/futurist/inte",
+          "name": "/ultrajudge"
+        },
+        {
+          "desc": "Zero-loss alternative to /compact for a full interactive context window",
+          "name": "/ultraclear"
         }
       ],
       "tip": "/evo: 'buggy_code' ff=3% (25/26). Ev: grip_workflow:worktree, env:api error, gate:blocked by, steering:requiring user, env:memory"
