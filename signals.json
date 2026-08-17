@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "77 living genes exported with their fitness scores",
+      "caption": "96 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6445",
+      "value": "gen 6455",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "83 changes / 7 days",
+      "value": "82 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
