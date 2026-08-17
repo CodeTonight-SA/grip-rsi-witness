@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4829 (#4830)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c9a0a6dcc37d8417e0c5b8d6b59f995d61b4cc3f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(skills): restore 36 broken skill descriptions; stop CLAUDE.md double-loading in worktr",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/93779a499c709d8117a70ff3ee2e2b9f2d7fe78d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(windows): cover genome save/load fidelity, which no test reached (#4826)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/69fbe55e3255c916b46a7c76cc29f51bd5fda27d"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4767 (#4821)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d185b0cb8b842ed961e1d18379c061440b364575"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(mcp-apps): only string values in semantic fields count as error events (#4779)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5ce54098ba1fd8166c21429c4b0d8cdbe3c6995b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(hypothesis): refuse to store a prediction nothing could ever grade (#690) (#4771)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/59f873cb5dc73efba13c30c9c5e2fa556671b44b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "84 changes / 7 days",
+      "value": "86 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/ultraclear"
         }
       ],
-      "tip": "/evo: 'buggy_code' ff=3% (25/26). Ev: grip_workflow:worktree, env:api error, gate:blocked by, steering:requiring user, env:memory"
+      "tip": "/evo: 'buggy_code' ff=3% (25/26). Ev: grip_workflow:worktree, env:api error, steering:requiring user, gate:blocked by, env:memory"
     }
   ]
 }
