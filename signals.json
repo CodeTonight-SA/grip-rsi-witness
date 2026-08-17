@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(windows): three test modules could not even be imported on Windows (#4792)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd14fba75b7ff8f874a4e0adb9615b730e480908"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows-ci): make the genome tests build their own genome instead of borrowing one (#4",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/14b966bef099a818e07fd7e904e926c568c8d5b4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows): register the two install-profile hooks this machine was missing (#4787)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/07f0001376c9168023cd786a415a5c3fd334fa8d"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(gates): the reflog does not recover a working tree — correct a false rationale, chang",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/930aecd4e1d958c0575d2106534e6feaa250d55d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(startup): warn when the executing tree is stale — the detector existed and had no call",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6e0df0d1d1a94038eca1ed2c812d8f4092fef34f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: the sentinel guard inferred \"unmeasured\" from 0.0 instead of knowing it (#4759)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/859e089c1cf2ecaa35b62cce076078f967251b95"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "64 changes / 7 days",
+      "value": "66 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
