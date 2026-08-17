@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(windows): register the two install-profile hooks this machine was missing (#4787)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/07f0001376c9168023cd786a415a5c3fd334fa8d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(test): correct an unverified claim about why Windows CI missed this (#4785)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e84eaf61c8a5d4a314998a473d231d14bff1aa44"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: the sentinel guard inferred \"unmeasured\" from 0.0 instead of knowing it (#4759)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/859e089c1cf2ecaa35b62cce076078f967251b95"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: relay telemetry written through log_event carried no timestamp at all (#4757)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ed4c9747f946ba134c371c49fe4aa2728a7aaf04"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "96 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6494",
+      "value": "gen 6510",
       "verify": "data/genome-shared.json"
     },
     {
