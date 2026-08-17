@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(windows): the hook registry told fresh installs to run hooks the wrong way (#4804)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0f72494c389fdff1638a887d36ef95af965f20c7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows): /save reported 9 of 11 subsystems failed on a machine with a working Python ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/65a8dfc6dcf99c3b0649e9fd1591f3d830e86fc3"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(4774): close all four AGORA DEFER concerns from the wiring-perimeter merge (#4776)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ffd90522707939596838485d5fd03fb583d2b04"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "HAL wiring perimeter: real dispatch everywhere, and a gate that keeps it real (#4773)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/55c5ce747f12a4f9483a5f4065e7669c2eafabb2"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "96 living genes exported with their fitness scores",
+      "caption": "95 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6582",
+      "value": "gen 6600",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "67 changes / 7 days",
+      "value": "68 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
