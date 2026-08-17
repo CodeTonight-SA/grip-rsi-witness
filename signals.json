@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(windows): /save reported 9 of 11 subsystems failed on a machine with a working Python ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/65a8dfc6dcf99c3b0649e9fd1591f3d830e86fc3"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows): three test modules could not even be imported on Windows (#4792)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd14fba75b7ff8f874a4e0adb9615b730e480908"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "HAL wiring perimeter: real dispatch everywhere, and a gate that keeps it real (#4773)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/55c5ce747f12a4f9483a5f4065e7669c2eafabb2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(gates): the reflog does not recover a working tree — correct a false rationale, chang",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/930aecd4e1d958c0575d2106534e6feaa250d55d"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "66 changes / 7 days",
+      "value": "67 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
