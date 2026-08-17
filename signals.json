@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(test): correct an unverified claim about why Windows CI missed this (#4785)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e84eaf61c8a5d4a314998a473d231d14bff1aa44"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): GRIP could not start on any Windows machine whose username contains a space ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/882f7811ffa0c4c9edb50f905da75a319b3099d8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(4774): close all four AGORA DEFER concerns from the wiring-perimeter merge (#4776)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ffd90522707939596838485d5fd03fb583d2b04"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: relay telemetry written through log_event carried no timestamp at all (#4757)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ed4c9747f946ba134c371c49fe4aa2728a7aaf04"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: a judge that returns unusable output now says why in the run log (#4754)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/485701d78ad43372dedd9ab3250e2bd0254948fe"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: AGORA discarded which provider produced each speaker's review (#4752)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f16129fd732ddc9d1e68270ca6af6fcac628dae3"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "96 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6472",
+      "value": "gen 6494",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "73 changes / 7 days",
+      "value": "74 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/verdict"
         }
       ],
-      "tip": "/evo: 'misunderstood_request' ff=10% (80/89). Ev: steering:user clarified, steering:requiring user, grip_workflow:broly, steering:user interrupted, steering:user corrected"
+      "tip": "/evo: 'buggy_code' ff=3% (25/26). Ev: grip_workflow:worktree, env:api error, gate:blocked by, steering:requiring user, env:memory"
     }
   ]
 }
