@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4833 (#4835)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a444c6cc6f2047670a28a46f37fd7086b52d42fa"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(hooks): restore the GRIP startup status line and stop reporting onboarded machines as ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8ff039bfc6a866de22b46b598352c179da1ca95"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4829 (#4830)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c9a0a6dcc37d8417e0c5b8d6b59f995d61b4cc3f"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): recover the entry lost when #4771 merged (#4823)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f3910761f12f5904027f26e1f50a2b040585314"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4779 (#4822)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/409704d54da4352143d0eba302982baae7947500"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4767 (#4821)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d185b0cb8b842ed961e1d18379c061440b364575"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "95 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6717",
+      "value": "gen 6721",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "86 changes / 7 days",
+      "value": "88 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
