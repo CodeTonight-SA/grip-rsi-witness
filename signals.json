@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(windows): cover genome save/load fidelity, which no test reached (#4826)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/69fbe55e3255c916b46a7c76cc29f51bd5fda27d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4781 (#4825)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3b0429fe5b0143e54116f806548d67f10c653f3"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(hypothesis): refuse to store a prediction nothing could ever grade (#690) (#4771)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/59f873cb5dc73efba13c30c9c5e2fa556671b44b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): let a detection-pattern test contain the pattern it proves (#704) (#4767)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/830a42e95c30d072482cfed4d909edf5eb63b33f"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "95 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6701",
+      "value": "gen 6717",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "83 changes / 7 days",
+      "value": "84 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
