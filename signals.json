@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): consolidate the 19 entries stranded by a CI-skip directive (#4815)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1e810980a8d45e309e30fb6786271be48ea1c96c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hooks): stop the bash-error learner persisting credentials, and tell the truth about i",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b1cacec2fe84545178d8c1e1c657c6d14fda2f99"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): three test modules could not even be imported on Windows (#4792)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd14fba75b7ff8f874a4e0adb9615b730e480908"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows-ci): make the genome tests build their own genome instead of borrowing one (#4",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/14b966bef099a818e07fd7e904e926c568c8d5b4"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "95 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6627",
+      "value": "gen 6649",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "72 changes / 7 days",
+      "value": "73 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
