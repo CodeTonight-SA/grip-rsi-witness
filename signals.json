@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "HAL wiring perimeter: real dispatch everywhere, and a gate that keeps it real (#4773)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/55c5ce747f12a4f9483a5f4065e7669c2eafabb2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(gates): the reflog does not recover a working tree — correct a false rationale, chang",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/930aecd4e1d958c0575d2106534e6feaa250d55d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: kono stats crashed with a raw traceback on a never-bootstrapped substrate (#4749)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d468f25e8fa30d9931445c5197d7a93bd7850d94"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "ci: point mirror-daily at the runner's real path, install deps in windows-smoke (#4745)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb31b2006e5707593bea85e838542932e29f73c8"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "91 changes / 7 days",
+      "value": "92 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
