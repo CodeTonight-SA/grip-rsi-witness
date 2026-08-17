@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(4774): close all four AGORA DEFER concerns from the wiring-perimeter merge (#4776)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ffd90522707939596838485d5fd03fb583d2b04"
+        },
+        {
+          "kind": "shipped",
           "tldr": "HAL wiring perimeter: real dispatch everywhere, and a gate that keeps it real (#4773)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/55c5ce747f12a4f9483a5f4065e7669c2eafabb2"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: AGORA discarded which provider produced each speaker's review (#4752)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f16129fd732ddc9d1e68270ca6af6fcac628dae3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: kono stats crashed with a raw traceback on a never-bootstrapped substrate (#4749)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d468f25e8fa30d9931445c5197d7a93bd7850d94"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "83 changes / 7 days",
+      "value": "84 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
