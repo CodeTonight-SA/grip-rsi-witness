@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4858 (#4862)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2aa99228acc5709654a8ccf0a74a65c61d51db85"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(owes): say so when the clipboard cannot be reached (#4858)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e321ba9708f7e5f65d3290c9a383f833a2e9e3d0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4851 (#4857)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/077889ade53998e60646aea9da779e1b12017e88"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(owes): show who is waiting on a reply from you, and draft it (#4851)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ca9f11dba46560231fe7e3bdc0bafb8802db4328"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4838 (#4849)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdb5066ddf6dff83ce59a942bd454d5363af2f9c"
         },
@@ -21,32 +41,12 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4843 (#4847)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/77a8e3c67840cc464ebe218186413fa59343f5cc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(docs): the self-description hook could only ever fix two of its six numbers (#4843)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/10336b8226795ed13d0bf31998c3b5c534580571"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4840 (#4844)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/58e4b05471ca7b4988a877707f19ec6dafcf69ab"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): a safe prefix was exempting everything chained after it (#4840)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cb40f3658e87f9522f7e38fef4c5d0f5834f0765"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4836 (#4839)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dee82a3bbf2164617fbe6e8ca98bfc5c4f5b2c37"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "492 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "493 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "130 confirmed / 152 refuted",
@@ -56,14 +56,14 @@
       "caption": "95 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6832",
+      "value": "gen 6859",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "97 changes / 7 days",
+      "value": "101 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Show who is waiting on a reply from you and what they asked, read from your own ",
+          "name": "/owes"
+        },
         {
           "desc": "WITNESS — one gesture fusing the short answer, the openable deliverable, and GRA",
           "name": "/witness"
@@ -96,10 +100,6 @@
         {
           "desc": "Multi-model verdict council with role assignment (devil/pragmatist/futurist/inte",
           "name": "/ultrajudge"
-        },
-        {
-          "desc": "Zero-loss alternative to /compact for a full interactive context window",
-          "name": "/ultraclear"
         }
       ],
       "tip": "/evo: 'buggy_code' ff=3% (25/26). Ev: grip_workflow:worktree, env:api error, steering:requiring user, gate:blocked by, env:memory"
