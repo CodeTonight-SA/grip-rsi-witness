@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4889 (#4894)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/99a955b95997209e33bb84bf4445c74b66fc27cb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4888 (#4893)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/199455138cebb12a07ab3d8c3c912b13062b1d48"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(repo): stop shipping a 94 MB database backup in every clone (#4889)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/768207ace3c7d33210342a83d7b95e350c8433eb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gates): wire the two guardrail gates their own PARAMOUNT rules said were already wired",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8ab305087d285e86e4ed5fe0ffb944b84e43fa6e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4854 (#4890)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/616528949d689e1fc4ab0f0a4e4dc000eafe3e32"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4858 (#4862)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2aa99228acc5709654a8ccf0a74a65c61d51db85"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(owes): say so when the clipboard cannot be reached (#4858)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e321ba9708f7e5f65d3290c9a383f833a2e9e3d0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4851 (#4857)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/077889ade53998e60646aea9da779e1b12017e88"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(owes): show who is waiting on a reply from you, and draft it (#4851)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ca9f11dba46560231fe7e3bdc0bafb8802db4328"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4838 (#4849)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdb5066ddf6dff83ce59a942bd454d5363af2f9c"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "95 living genes exported with their fitness scores",
+      "caption": "78 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6859",
+      "value": "gen 6860",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "104 changes / 7 days",
+      "value": "108 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
