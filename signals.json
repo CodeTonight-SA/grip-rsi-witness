@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4933 (#4938)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c5113ea62d846cd81cb12bbedfbd364cde7b4b6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(codex): billing fallback ladder — subscription, then key, then HAL (#4933)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1e6d4ff6e170268c5ba63bd5e85ced2e753261f6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4932 (#4935)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/15c9615f4295609759c3aa2c56faeaf9cef138ec"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(pdf): delete commands/generate-pdf.md — it is now a strict subset of the skill (#492",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c8171a6892b014af7c909b7385c37498230ca59a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4871 (#4926)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/509cc327f5a45c6b44cea639df776a287721f610"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): mcp-servers/grip-mcp-web/package-lock.json — patch 7 Dependabot alerts (#4874)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/822d92379b2445a447e1a3e94afeff14c16b48f9"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "29 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6980",
+      "value": "gen 7002",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "141 changes / 7 days",
+      "value": "143 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
