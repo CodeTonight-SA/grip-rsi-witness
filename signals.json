@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4864 (#4941)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0959d5b44a12a197f57957a3cc02e8d1244adb84"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat: /inception + cube/kono honesty fixes (#4864)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa6b45bdd5970ba255b9b2088cb2d0f581e5fe17"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4933 (#4938)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c5113ea62d846cd81cb12bbedfbd364cde7b4b6"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(hooks): grind-guard — advise once when a low-value test-fixing tail runs past the shi",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/53d989802ce308ec88512c80c78941ec1b9f4d44"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4924 (#4928)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a279f5ab55f9cb4094d6bf8adb8efacf355a4cb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(pdf): delete commands/generate-pdf.md — it is now a strict subset of the skill (#492",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c8171a6892b014af7c909b7385c37498230ca59a"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "29 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7002",
+      "value": "gen 7013",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "143 changes / 7 days",
+      "value": "145 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
