@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4932 (#4935)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/15c9615f4295609759c3aa2c56faeaf9cef138ec"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(council): recover a speaker when the qwen rung times out, instead of losing the slot (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8ed00c7634ad19d0025d9a373be471701172a449"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4930 (#4931)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7cd0dc9ed6b86ebc9972c2f46cf5476060e66b05"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(deps): mcp-servers/grip-mcp-web/package-lock.json — patch 7 Dependabot alerts (#4874)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/822d92379b2445a447e1a3e94afeff14c16b48f9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): mcp-servers/hal-mcp/package-lock.json — patch 1 Dependabot alert (#4871)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e3278bd367661f8f5ff129b778552791d89f30a7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4882 (#4923)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5094e09e061279813e28e48c7853076df6fe242e"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "29 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6950",
+      "value": "gen 6980",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "139 changes / 7 days",
+      "value": "141 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
