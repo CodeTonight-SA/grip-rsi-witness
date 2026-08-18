@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4854 (#4890)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/616528949d689e1fc4ab0f0a4e4dc000eafe3e32"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(channel): close two unauthenticated control surfaces on the channel daemon (#4856)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cb2ba241d501e14d44cecac138ef54ab83f0f02e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gates): the safe-prefix fix closed only half the hole - git diff matched git difftool ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/19f076ebe868b7f1ed570a3d2d817f8f33f6833c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4858 (#4862)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2aa99228acc5709654a8ccf0a74a65c61d51db85"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4838 (#4849)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdb5066ddf6dff83ce59a942bd454d5363af2f9c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): heal a red drift pin on main, and give the council a frontier OpenAI speaker (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c6ee468292e3df24fc5c05be6465976ed26d31c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(self-check): a filtered search that finds nothing is not a store that contains nothing",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/149255b62446568e2031ca88ac2efe68f669ed69"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4843 (#4847)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/77a8e3c67840cc464ebe218186413fa59343f5cc"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "101 changes / 7 days",
+      "value": "104 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -78,28 +78,28 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
+          "desc": "Three-layer Claude Code session mesh — local WebSocket bus, Tailscale cross-mach",
+          "name": "/mesh"
+        },
+        {
+          "desc": "OS memory projector — inspect, analyse, and converge system memory toward a stab",
+          "name": "/mem"
+        },
+        {
+          "desc": "Teach yourself GRIP by USING GRIP",
+          "name": "/dojo"
+        },
+        {
+          "desc": "Universal convergence loop for any task",
+          "name": "/converge"
+        },
+        {
+          "desc": "Automates session-end checklist including git commit, push, memory save, RSI loc",
+          "name": "/closeout"
+        },
+        {
           "desc": "Show who is waiting on a reply from you and what they asked, read from your own ",
           "name": "/owes"
-        },
-        {
-          "desc": "WITNESS — one gesture fusing the short answer, the openable deliverable, and GRA",
-          "name": "/witness"
-        },
-        {
-          "desc": "Render a GRIP hypothesis-verdict delight card — the falsification-engine moment",
-          "name": "/verdict"
-        },
-        {
-          "desc": "Multi-model comprehension council",
-          "name": "/ultraread"
-        },
-        {
-          "desc": "The lean RSI-witness kernel — ONE idempotent cycle (introspect → exogenous grip-",
-          "name": "/ultralearn"
-        },
-        {
-          "desc": "Multi-model verdict council with role assignment (devil/pragmatist/futurist/inte",
-          "name": "/ultrajudge"
         }
       ],
       "tip": "/evo: 'buggy_code' ff=3% (25/26). Ev: grip_workflow:worktree, env:api error, steering:requiring user, gate:blocked by, env:memory"
