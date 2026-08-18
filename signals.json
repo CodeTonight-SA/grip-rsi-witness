@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4930 (#4931)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7cd0dc9ed6b86ebc9972c2f46cf5476060e66b05"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(hooks): grind-guard — advise once when a low-value test-fixing tail runs past the shi",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/53d989802ce308ec88512c80c78941ec1b9f4d44"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4924 (#4928)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a279f5ab55f9cb4094d6bf8adb8efacf355a4cb"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4882 (#4923)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5094e09e061279813e28e48c7853076df6fe242e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): apps/grip-mobile/package-lock.json — patch 2 of 4 Dependabot alerts (#4882)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/65bab1843531ce8230cace5116a1312709cbf597"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4866 (#4921)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/985ea329c29c48312ffaccbead064b517ceefbe5"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "29 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6931",
+      "value": "gen 6950",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "137 changes / 7 days",
+      "value": "139 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/owes"
         }
       ],
-      "tip": "/evo: 'buggy_code' ff=3% (25/26). Ev: grip_workflow:worktree, env:api error, steering:requiring user, gate:blocked by, env:memory"
+      "tip": "/evo: 'buggy_code' ff=3% (25/26). Ev: grip_workflow:worktree, steering:requiring user, env:api error, gate:blocked by, env:memory"
     }
   ]
 }
