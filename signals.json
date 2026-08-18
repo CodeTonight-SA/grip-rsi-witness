@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4917 (#4920)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2af0f683a05fb1031564bf84c4d93c2f6dfdf6a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gates): restore the detection-pattern exemption #4896 dropped, close #4853, clear the ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0d76ab1b6c7baafc2523d0e6a15629e8b6f31138"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(pdf): six WeasyPrint failures — three warned and read past, three silent — plus an Ar",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b2417e9ce7f0d273468cab1b2a4a8fd91589165"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(preload): an abandoned recall was not abandoned, it was joined at exit (#4842)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/692b8271d3d8b21602ed5ed7bb463af51a335087"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4896 (#4908)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/24c48be6c61b00cb5b5a41fb8d52821838d398dc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): grant approvals from the answer, and fail closed when a gate crashes (#4896)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3a7872200e603b9c86ff244ab824b8e0516f5bbb"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "29 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6911",
+      "value": "gen 6918",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "120 changes / 7 days",
+      "value": "122 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
