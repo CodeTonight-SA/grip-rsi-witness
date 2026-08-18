@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(pdf): six WeasyPrint failures — three warned and read past, three silent — plus an Ar",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b2417e9ce7f0d273468cab1b2a4a8fd91589165"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4903 (#4915)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7599cb0ccd926884e99df43a697554f2cfb3aeb0"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(gates): grant approvals from the answer, and fail closed when a gate crashes (#4896)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3a7872200e603b9c86ff244ab824b8e0516f5bbb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(cc-gate): restore a suite dead for three months, and unmask a third cause (#4852)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1ad45825754ffbfc2fec0af7f73d6f26c2e33bd0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "119 changes / 7 days",
+      "value": "120 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
