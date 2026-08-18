@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4898 (#4902)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/381b6bcdcea5eb7f14e5f2702dd10c83174f47b0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(channel): supply the daemon bearer token so a Mac restart can boot (#4898)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/132504a141f33ea4e427365ec6f2e874cdc7c88f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4897 (#4901)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/840c66107c35496d99b75e0e5d01c7ba630aab60"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gates): make the secrets gate unconditional, and prove the fast-path bound with a real",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dd7e8ae33840580e0822c3defd53c651f4dac2c6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4848 (#4895)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e181f02ea409a560b7de5dcc14e65b7e5dce1a0"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4888 (#4893)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/199455138cebb12a07ab3d8c3c912b13062b1d48"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(repo): stop shipping a 94 MB database backup in every clone (#4889)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/768207ace3c7d33210342a83d7b95e350c8433eb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): wire the two guardrail gates their own PARAMOUNT rules said were already wired",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8ab305087d285e86e4ed5fe0ffb944b84e43fa6e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4854 (#4890)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/616528949d689e1fc4ab0f0a4e4dc000eafe3e32"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(channel): close two unauthenticated control surfaces on the channel daemon (#4856)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cb2ba241d501e14d44cecac138ef54ab83f0f02e"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "78 living genes exported with their fitness scores",
+      "caption": "77 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6860",
+      "value": "gen 6868",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "107 changes / 7 days",
+      "value": "111 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
