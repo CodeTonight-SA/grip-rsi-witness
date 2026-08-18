@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4917 (#4920)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2af0f683a05fb1031564bf84c4d93c2f6dfdf6a"
+          "tldr": "chore(changelog): update for PR #4924 (#4928)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a279f5ab55f9cb4094d6bf8adb8efacf355a4cb"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(gates): restore the detection-pattern exemption #4896 dropped, close #4853, clear the ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0d76ab1b6c7baafc2523d0e6a15629e8b6f31138"
+          "tldr": "chore(pdf): delete commands/generate-pdf.md — it is now a strict subset of the skill (#492",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c8171a6892b014af7c909b7385c37498230ca59a"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(pdf): six WeasyPrint failures — three warned and read past, three silent — plus an Ar",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b2417e9ce7f0d273468cab1b2a4a8fd91589165"
+          "tldr": "chore(changelog): update for PR #4871 (#4926)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/509cc327f5a45c6b44cea639df776a287721f610"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4903 (#4915)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7599cb0ccd926884e99df43a697554f2cfb3aeb0"
+          "tldr": "fix(deps): mcp-servers/grip-mcp-web/package-lock.json — patch 7 Dependabot alerts (#4874)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/822d92379b2445a447e1a3e94afeff14c16b48f9"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(owes): read the history from the install, and measure whether the list is acted on (#4",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/26227bb84fc56a18b9a84e46250151c5f051d195"
+          "tldr": "fix(deps): mcp-servers/hal-mcp/package-lock.json — patch 1 Dependabot alert (#4871)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e3278bd367661f8f5ff129b778552791d89f30a7"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4842 (#4912)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d46eb0b45d4a0bfb9de25488055b58aea35be57a"
+          "tldr": "chore(changelog): update for PR #4882 (#4923)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5094e09e061279813e28e48c7853076df6fe242e"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(safety-gates): retarget a stale yolo-bypass example (follow-up to #4897) (#4909)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf1a24a4dcc17dead7680d94662ecd446b01a3f0"
+          "tldr": "fix(deps): apps/grip-mobile/package-lock.json — patch 2 of 4 Dependabot alerts (#4882)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/65bab1843531ce8230cace5116a1312709cbf597"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(preload): an abandoned recall was not abandoned, it was joined at exit (#4842)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/692b8271d3d8b21602ed5ed7bb463af51a335087"
+          "tldr": "chore(changelog): update for PR #4866 (#4921)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/985ea329c29c48312ffaccbead064b517ceefbe5"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "29 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 6918",
+      "value": "gen 6931",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "122 changes / 7 days",
+      "value": "137 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
