@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4848 (#4895)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e181f02ea409a560b7de5dcc14e65b7e5dce1a0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(docs): GRIP announced two different versions, and the generator tracked neither (#4848",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b6529d8eef14c15c42492d729dd7d1e87e8c7357"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4889 (#4894)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/99a955b95997209e33bb84bf4445c74b66fc27cb"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(channel): close two unauthenticated control surfaces on the channel daemon (#4856)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cb2ba241d501e14d44cecac138ef54ab83f0f02e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): the safe-prefix fix closed only half the hole - git diff matched git difftool ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/19f076ebe868b7f1ed570a3d2d817f8f33f6833c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4858 (#4862)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2aa99228acc5709654a8ccf0a74a65c61d51db85"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "105 changes / 7 days",
+      "value": "107 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
