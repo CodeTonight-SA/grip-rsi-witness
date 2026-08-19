@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4964 (#4969)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1832fcb638aa049f1c8ffd89e729393075cbe767"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(agora): a second measurement, and the calibration the Pro seat swap needs (#4964)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/314c8200a76233a29f35d43d7c9e72fc6956f569"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4936 (#4966)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b28a747604a432f81323f03e9f685998ac8a5c3d"
         },
@@ -31,39 +41,29 @@
           "kind": "shipped",
           "tldr": "fix(council): a verdict cut off mid-sentence was sealed as if it were whole (#4953)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3f89fc856b45fd5f9fc0e7d1daf66361262353b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4947 (#4951)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0b60362cefb44358646287c3c3fbcd8df05b4bd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4946 (#4950)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aec5ae7981a520b935e540d5c01cbd9042254fa9"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "493 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "495 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
-      "value": "130 confirmed / 152 refuted",
+      "value": "131 confirmed / 151 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "31 living genes exported with their fitness scores",
+      "caption": "385 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7025",
+      "value": "gen 1045",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "152 changes / 7 days",
+      "value": "154 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -78,31 +78,31 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
-          "desc": "Durable operator reminders — \"remind me later/at X about Y\" arms a reminder on B",
+          "desc": "Durable operator reminders — \"remind me later/at X about Y\" arms a launchd one-s",
           "name": "/remind-me"
+        },
+        {
+          "desc": "Generate professional PDF documents with per-organisation branding variants",
+          "name": "/professional-pdf"
+        },
+        {
+          "desc": "Translate GRIP jargon, metrics, and gate messages to plain English on demand",
+          "name": "/plain-language"
+        },
+        {
+          "desc": "DEPRECATED — superseded by grip-session-mesh (https://github",
+          "name": "/pair-mode"
+        },
+        {
+          "desc": "Show who is waiting on a reply from you and what they asked, read from your own ",
+          "name": "/owes"
         },
         {
           "desc": "Three-layer Claude Code session mesh — local WebSocket bus, Tailscale cross-mach",
           "name": "/mesh"
-        },
-        {
-          "desc": "OS memory projector — inspect, analyse, and converge system memory toward a stab",
-          "name": "/mem"
-        },
-        {
-          "desc": "Teach yourself GRIP by USING GRIP",
-          "name": "/dojo"
-        },
-        {
-          "desc": "Universal convergence loop for any task",
-          "name": "/converge"
-        },
-        {
-          "desc": "Automates session-end checklist including git commit, push, memory save, RSI loc",
-          "name": "/closeout"
         }
       ],
-      "tip": "/evo: 'buggy_code' ff=3% (25/26). Ev: grip_workflow:worktree, steering:requiring user, env:api error, gate:blocked by, env:memory"
+      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user wanted, known_hook:session end, grip_workflow:mode, steering:user interrupted, grip_workflow:rsi"
     }
   ]
 }
