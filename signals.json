@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs: what the skill listing budget actually does, measured rather than inferred",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f28e29731f58241d147bf26f81349f78cbc4d9c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(settings): make auto-compact canonical, restore the effort level a settings write dr",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/21df41350553c790606775316eef7635d659c900"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): recover four stranded entries whose PRs could never run their checks (#4",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/eef57a8cf46002ac3744b86e50230e8605926b34"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4964 (#4969)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1832fcb638aa049f1c8ffd89e729393075cbe767"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): a second measurement, and the calibration the Pro seat swap needs (#4964)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/314c8200a76233a29f35d43d7c9e72fc6956f569"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4936 (#4966)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b28a747604a432f81323f03e9f685998ac8a5c3d"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "159 changes / 7 days",
+      "value": "161 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -78,14 +78,6 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
-          "desc": "Durable operator reminders — \"remind me later/at X about Y\" arms a launchd one-s",
-          "name": "/remind-me"
-        },
-        {
-          "desc": "Generate professional PDF documents with per-organisation branding variants",
-          "name": "/professional-pdf"
-        },
-        {
           "desc": "Translate GRIP jargon, metrics, and gate messages to plain English on demand",
           "name": "/plain-language"
         },
@@ -94,12 +86,20 @@
           "name": "/pair-mode"
         },
         {
-          "desc": "Show who is waiting on a reply from you and what they asked, read from your own ",
-          "name": "/owes"
+          "desc": "Adaptive Context Extension (ACE) - legacy model switching (current Opus defaults",
+          "name": "/context-extension"
         },
         {
-          "desc": "Three-layer Claude Code session mesh — local WebSocket bus, Tailscale cross-mach",
-          "name": "/mesh"
+          "desc": "Durable operator reminders — \"remind me later/at X about Y\" arms a launchd one-s",
+          "name": "/remind-me"
+        },
+        {
+          "desc": "Generate professional PDF documents with per-organisation branding variants",
+          "name": "/professional-pdf"
+        },
+        {
+          "desc": "Show who is waiting on a reply from you and what they asked, read from your own ",
+          "name": "/owes"
         }
       ],
       "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user wanted, known_hook:session end, grip_workflow:mode, steering:user interrupted, grip_workflow:rsi"
