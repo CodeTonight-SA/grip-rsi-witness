@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(council): a verdict cut off mid-sentence was sealed as if it were whole (#4953)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3f89fc856b45fd5f9fc0e7d1daf66361262353b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4947 (#4951)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0b60362cefb44358646287c3c3fbcd8df05b4bd"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4933 (#4938)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c5113ea62d846cd81cb12bbedfbd364cde7b4b6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(codex): billing fallback ladder — subscription, then key, then HAL (#4933)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1e6d4ff6e170268c5ba63bd5e85ced2e753261f6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "146 changes / 7 days",
+      "value": "147 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
