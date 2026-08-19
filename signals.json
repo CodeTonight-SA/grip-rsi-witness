@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(skills): the \"1 skill available\" number was never truncation, and my measurement used",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/79cd0e0a34d0c25fc95f39f210d774740b6b9c92"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4967 (#4979)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6365935e04bdc3271e580e729de13f6c9e49ce26"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(settings): make auto-compact canonical, restore the effort level a settings write dr",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/21df41350553c790606775316eef7635d659c900"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): recover four stranded entries whose PRs could never run their checks (#4",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eef57a8cf46002ac3744b86e50230e8605926b34"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "31 living genes exported with their fitness scores",
+      "caption": "33 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7037",
+      "value": "gen 7043",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "166 changes / 7 days",
+      "value": "167 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
