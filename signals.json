@@ -78,6 +78,10 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
+          "desc": "Durable operator reminders — \"remind me later/at X about Y\" arms a reminder on B",
+          "name": "/remind-me"
+        },
+        {
           "desc": "Three-layer Claude Code session mesh — local WebSocket bus, Tailscale cross-mach",
           "name": "/mesh"
         },
@@ -96,10 +100,6 @@
         {
           "desc": "Automates session-end checklist including git commit, push, memory save, RSI loc",
           "name": "/closeout"
-        },
-        {
-          "desc": "Show who is waiting on a reply from you and what they asked, read from your own ",
-          "name": "/owes"
         }
       ],
       "tip": "/evo: 'buggy_code' ff=3% (25/26). Ev: grip_workflow:worktree, steering:requiring user, env:api error, gate:blocked by, env:memory"
