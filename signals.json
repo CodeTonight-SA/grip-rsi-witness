@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4983 (#4985)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/071e2e07de408920a45c62f5115314c39600021e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Harness wiring: 11 more harnesses on HAL, per-harness model defaults, and worktree freshne",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/27f1b7b3f2fa76501b56f5391d31a2608e7b494d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(aide): oracle daemon crashes on VPS — missing os import + hardcoded CLAUDE_DIR",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d3ba7aa652393bd8cab382c157fe2c2aedafa977"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(aide): pm2 config + deploy script for the AIDE Oracle daemon on the VPS",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0174d198801924fafb62499a37ab28a4b791068e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(aide): read Slack app token from env on Linux (VPS has no keychain)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2691f25bba564db41b024d2cd52d3a8fc86e4f2c"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4968 (#4980)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f6c4dba1d22a31da3a4a0568c6094aa9ac616304"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-anywhere): add __main__.py so python3 -m lib.grip_anywhere works as documented (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/87b6fe97219f87af4a969132d1ab1d8c3b291f9e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(skills): the \"1 skill available\" number was never truncation, and my measurement used",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/79cd0e0a34d0c25fc95f39f210d774740b6b9c92"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4967 (#4979)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6365935e04bdc3271e580e729de13f6c9e49ce26"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(aide): AIDE Oracle — interactive Slack prediction grading (#4967)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1d9926ab417da0fcce30d20825df71ccf733b382"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "80 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7053",
+      "value": "gen 7064",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "172 changes / 7 days",
+      "value": "176 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
