@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4936 (#4966)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b28a747604a432f81323f03e9f685998ac8a5c3d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(harness): every supported harness installable and launchable via gg++ (#4936)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c01ccbb90503dc14e4b26187502a0d102596447"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4942 (#4962)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c4a869fa40be01bf66affa5bcabc04ac8533d6d"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4946 (#4950)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/aec5ae7981a520b935e540d5c01cbd9042254fa9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(council): check whether each rung's declared credential actually resolves (#4947)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b872b1adcf8d77f3101df1a8ebca29101e354bbb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): say when the council was propped up by a fallback (#4946)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c2081891dc6aec64d16c2536bb5744bd7848402"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "150 changes / 7 days",
+      "value": "152 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
