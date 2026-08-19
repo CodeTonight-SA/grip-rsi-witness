@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4947 (#4951)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0b60362cefb44358646287c3c3fbcd8df05b4bd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4946 (#4950)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aec5ae7981a520b935e540d5c01cbd9042254fa9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(council): check whether each rung's declared credential actually resolves (#4947)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b872b1adcf8d77f3101df1a8ebca29101e354bbb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(agora): say when the council was propped up by a fallback (#4946)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c2081891dc6aec64d16c2536bb5744bd7848402"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4864 (#4941)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0959d5b44a12a197f57957a3cc02e8d1244adb84"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(codex): billing fallback ladder — subscription, then key, then HAL (#4933)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1e6d4ff6e170268c5ba63bd5e85ced2e753261f6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4932 (#4935)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/15c9615f4295609759c3aa2c56faeaf9cef138ec"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(council): recover a speaker when the qwen rung times out, instead of losing the slot (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8ed00c7634ad19d0025d9a373be471701172a449"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4930 (#4931)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7cd0dc9ed6b86ebc9972c2f46cf5476060e66b05"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(hooks): grind-guard — advise once when a low-value test-fixing tail runs past the shi",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/53d989802ce308ec88512c80c78941ec1b9f4d44"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "142 changes / 7 days",
+      "value": "146 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
