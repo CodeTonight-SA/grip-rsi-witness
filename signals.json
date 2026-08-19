@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): recover four stranded entries whose PRs could never run their checks (#4",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eef57a8cf46002ac3744b86e50230e8605926b34"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4958 (#4971)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa6f27162a1ccd766bad865225eb266acda3ed52"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(council): revive the OpenAI leg, and stop Google judging its own speaker (#4958)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ef579abc74a2ab772e34b03b5652a4d165a652a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4963 (#4970)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/189bfd87136a3d845e86fa72d7bfeac9ca5b7e31"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4936 (#4966)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b28a747604a432f81323f03e9f685998ac8a5c3d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(harness): every supported harness installable and launchable via gg++ (#4936)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c01ccbb90503dc14e4b26187502a0d102596447"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4942 (#4962)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c4a869fa40be01bf66affa5bcabc04ac8533d6d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): the technical speaker was cut off mid-thought — budget AND timeout both bind (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c9b88c0a48320e92b5cdfc97e5904abf595d6da3"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "156 changes / 7 days",
+      "value": "159 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
