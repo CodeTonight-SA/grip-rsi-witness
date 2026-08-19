@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(dsh): record shipped web-plane GRIP mount (#4984)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/92e2827a18438fa1aecc7881d4ff8935a5bb4b6e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4983 (#4985)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/071e2e07de408920a45c62f5115314c39600021e"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(vps): super-power grip-remote-v2 - health, liveness, dual-channel reminders",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4128725257c0dde9e3bfd5d52c570cc4938452e3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4968 (#4980)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f6c4dba1d22a31da3a4a0568c6094aa9ac616304"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "80 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7064",
+      "value": "gen 7066",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "176 changes / 7 days",
+      "value": "177 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
