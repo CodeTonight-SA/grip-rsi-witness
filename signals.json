@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4942 (#4962)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c4a869fa40be01bf66affa5bcabc04ac8533d6d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(agora): the technical speaker was cut off mid-thought — budget AND timeout both bind (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c9b88c0a48320e92b5cdfc97e5904abf595d6da3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4953 (#4957)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cc5675186530f97e2d5287c7c04c22454afa0a6a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(council): a verdict cut off mid-sentence was sealed as if it were whole (#4953)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3f89fc856b45fd5f9fc0e7d1daf66361262353b"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(agora): say when the council was propped up by a fallback (#4946)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c2081891dc6aec64d16c2536bb5744bd7848402"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4864 (#4941)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0959d5b44a12a197f57957a3cc02e8d1244adb84"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat: /inception + cube/kono honesty fixes (#4864)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa6b45bdd5970ba255b9b2088cb2d0f581e5fe17"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4933 (#4938)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c5113ea62d846cd81cb12bbedfbd364cde7b4b6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "147 changes / 7 days",
+      "value": "150 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
