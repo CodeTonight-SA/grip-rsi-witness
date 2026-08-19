@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4967 (#4979)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6365935e04bdc3271e580e729de13f6c9e49ce26"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(aide): AIDE Oracle — interactive Slack prediction grading (#4967)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1d9926ab417da0fcce30d20825df71ccf733b382"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(doctrine): adversarial instruction does not make a same-vendor seat exogenous (#4944)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/992d51536eb3ceba238e78f9468911e10dd56631"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4797 (#4976)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/66d1f22040d6f8e5a8a15982eaf33a485405afc2"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): recover four stranded entries whose PRs could never run their checks (#4",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/eef57a8cf46002ac3744b86e50230e8605926b34"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4958 (#4971)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa6f27162a1ccd766bad865225eb266acda3ed52"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(council): revive the OpenAI leg, and stop Google judging its own speaker (#4958)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ef579abc74a2ab772e34b03b5652a4d165a652a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4963 (#4970)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/189bfd87136a3d845e86fa72d7bfeac9ca5b7e31"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "31 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7035",
+      "value": "gen 7037",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "163 changes / 7 days",
+      "value": "166 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -78,6 +78,10 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
+          "desc": "Durable operator reminders — \"remind me later/at X about Y\" arms a reminder on B",
+          "name": "/remind-me"
+        },
+        {
           "desc": "Translate GRIP jargon, metrics, and gate messages to plain English on demand",
           "name": "/plain-language"
         },
@@ -88,10 +92,6 @@
         {
           "desc": "Adaptive Context Extension (ACE) - legacy model switching (current Opus defaults",
           "name": "/context-extension"
-        },
-        {
-          "desc": "Durable operator reminders — \"remind me later/at X about Y\" arms a launchd one-s",
-          "name": "/remind-me"
         },
         {
           "desc": "Generate professional PDF documents with per-organisation branding variants",
