@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4963 (#4970)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/189bfd87136a3d845e86fa72d7bfeac9ca5b7e31"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): three permanently-red roster tests were pinning spellings, not behaviour (#496",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/17331ae49cc75636faec74f3be93f87d373801cf"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4964 (#4969)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1832fcb638aa049f1c8ffd89e729393075cbe767"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(agora): the technical speaker was cut off mid-thought — budget AND timeout both bind (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c9b88c0a48320e92b5cdfc97e5904abf595d6da3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4953 (#4957)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cc5675186530f97e2d5287c7c04c22454afa0a6a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(council): a verdict cut off mid-sentence was sealed as if it were whole (#4953)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3f89fc856b45fd5f9fc0e7d1daf66361262353b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "154 changes / 7 days",
+      "value": "156 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
