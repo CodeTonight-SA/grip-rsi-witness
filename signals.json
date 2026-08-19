@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4797 (#4976)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66d1f22040d6f8e5a8a15982eaf33a485405afc2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): grip doctor was reporting four faults that were its own, not GRIP's (#4797)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4209f9e4578dd6de15d24ab404ca7801e63bafbd"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs: what the skill listing budget actually does, measured rather than inferred",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f28e29731f58241d147bf26f81349f78cbc4d9c"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4963 (#4970)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/189bfd87136a3d845e86fa72d7bfeac9ca5b7e31"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): three permanently-red roster tests were pinning spellings, not behaviour (#496",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/17331ae49cc75636faec74f3be93f87d373801cf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4964 (#4969)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1832fcb638aa049f1c8ffd89e729393075cbe767"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "385 living genes exported with their fitness scores",
+      "caption": "31 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 1045",
+      "value": "gen 7035",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "161 changes / 7 days",
+      "value": "163 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
