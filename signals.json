@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(aide): read Slack app token from env on Linux (VPS has no keychain)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2691f25bba564db41b024d2cd52d3a8fc86e4f2c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(skills): the trigger is a content-hash eviction, and the bytes-per-token constant is ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7e9a20a4d588f5d4fe8e6c0ed4b7ffcfa8a5bad2"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(aide): AIDE Oracle — interactive Slack prediction grading (#4967)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1d9926ab417da0fcce30d20825df71ccf733b382"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(doctrine): adversarial instruction does not make a same-vendor seat exogenous (#4944)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/992d51536eb3ceba238e78f9468911e10dd56631"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "80 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7050",
+      "value": "gen 7053",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "171 changes / 7 days",
+      "value": "172 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
