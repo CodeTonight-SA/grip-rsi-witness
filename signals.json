@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(skills): the trigger is a content-hash eviction, and the bytes-per-token constant is ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7e9a20a4d588f5d4fe8e6c0ed4b7ffcfa8a5bad2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(vps): super-power grip-remote-v2 - health, liveness, dual-channel reminders",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4128725257c0dde9e3bfd5d52c570cc4938452e3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4968 (#4980)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f6c4dba1d22a31da3a4a0568c6094aa9ac616304"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(grip-anywhere): add __main__.py so python3 -m lib.grip_anywhere works as documented (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/87b6fe97219f87af4a969132d1ab1d8c3b291f9e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(skills): the \"1 skill available\" number was never truncation, and my measurement used",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/79cd0e0a34d0c25fc95f39f210d774740b6b9c92"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(doctrine): adversarial instruction does not make a same-vendor seat exogenous (#4944)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/992d51536eb3ceba238e78f9468911e10dd56631"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4797 (#4976)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66d1f22040d6f8e5a8a15982eaf33a485405afc2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): grip doctor was reporting four faults that were its own, not GRIP's (#4797)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4209f9e4578dd6de15d24ab404ca7801e63bafbd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: what the skill listing budget actually does, measured rather than inferred",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f28e29731f58241d147bf26f81349f78cbc4d9c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(settings): make auto-compact canonical, restore the effort level a settings write dr",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/21df41350553c790606775316eef7635d659c900"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "167 changes / 7 days",
+      "value": "171 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/owes"
         }
       ],
-      "tip": "/evo: 'user_rejected_action' ff=15% (36/42). Ev: steering:user wanted, known_hook:session end, grip_workflow:mode, steering:user interrupted, grip_workflow:rsi"
+      "tip": "/evo: 'user_rejected_action' ff=18% (34/41). Ev: grip_workflow:broly, grip_workflow:mode, steering:user had to, grip_workflow:genome, steering:user wanted"
     }
   ]
 }
