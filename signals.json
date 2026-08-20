@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4982 (#4990)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/91f5aa8dc028f99ee68c5e83066c13cbaace59cb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(grip-anywhere): review convergence — true stealth default, --report, exit codes, direc",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a622688be771de9a4c5a18641e7693ad4e3fabb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(dsh): record shipped web-plane GRIP mount (#4984)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/92e2827a18438fa1aecc7881d4ff8935a5bb4b6e"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(aide): read Slack app token from env on Linux (VPS has no keychain)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2691f25bba564db41b024d2cd52d3a8fc86e4f2c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(skills): the trigger is a content-hash eviction, and the bytes-per-token constant is ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7e9a20a4d588f5d4fe8e6c0ed4b7ffcfa8a5bad2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(vps): super-power grip-remote-v2 - health, liveness, dual-channel reminders",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4128725257c0dde9e3bfd5d52c570cc4938452e3"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "177 changes / 7 days",
+      "value": "179 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
