@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(doctor): discover char-budget sites instead of listing them (#5000)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2932a9ffe73a4fe85031c5b0a9ab6f5997d4c698"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(doctor): widen the char-budget DRY guard to the third declaration (#4998)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f1d5eb9143426eba4de34c9af46eb8353c8f0dbf"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4995 (#4996)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5f5f49ee28cabe98690194e274d0906c592248e2"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(grip-anywhere): review convergence — true stealth default, --report, exit codes, direc",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a622688be771de9a4c5a18641e7693ad4e3fabb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(dsh): record shipped web-plane GRIP mount (#4984)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/92e2827a18438fa1aecc7881d4ff8935a5bb4b6e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4983 (#4985)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/071e2e07de408920a45c62f5115314c39600021e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "175 changes / 7 days",
+      "value": "177 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
