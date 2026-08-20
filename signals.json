@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4981 (#4992)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b9df3504ba21155ba2abd368b9a952f0c1350d7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(agora): every reviewer signs its own name and says its piece in plain English (#4981)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a5acb5d239963fa6f2a866e2010d830b5abdb1ca"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4982 (#4990)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/91f5aa8dc028f99ee68c5e83066c13cbaace59cb"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(aide): oracle daemon crashes on VPS — missing os import + hardcoded CLAUDE_DIR",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d3ba7aa652393bd8cab382c157fe2c2aedafa977"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(aide): pm2 config + deploy script for the AIDE Oracle daemon on the VPS",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0174d198801924fafb62499a37ab28a4b791068e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(aide): read Slack app token from env on Linux (VPS has no keychain)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2691f25bba564db41b024d2cd52d3a8fc86e4f2c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "177 changes / 7 days",
+      "value": "179 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
