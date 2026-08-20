@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4995 (#4996)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5f5f49ee28cabe98690194e274d0906c592248e2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(broly): stop LTM writes evicting curated pointers from MEMORY.md (#4995)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/692a9f3bbe2a92d8ded057174726363c8bc9c255"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4981 (#4992)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b9df3504ba21155ba2abd368b9a952f0c1350d7"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4983 (#4985)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/071e2e07de408920a45c62f5115314c39600021e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Harness wiring: 11 more harnesses on HAL, per-harness model defaults, and worktree freshne",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/27f1b7b3f2fa76501b56f5391d31a2608e7b494d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(aide): oracle daemon crashes on VPS — missing os import + hardcoded CLAUDE_DIR",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d3ba7aa652393bd8cab382c157fe2c2aedafa977"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "80 living genes exported with their fitness scores",
+      "caption": "78 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7066",
+      "value": "gen 7067",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "173 changes / 7 days",
+      "value": "175 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
