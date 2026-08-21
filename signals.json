@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(council-converge): grade the filesystem, not the function's own return (#5004)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2706858601bc0944e32b560ef64fbfc5d561ed58"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4993 (#5006)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6954ed62c9f368e5340fe9146c34222fdaf190f4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(activation): verify every declared MCP server, not just the healable ones (#4993)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/275631f1942c905522fe44e059a8e7e0baf51f0d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4997 (#5003)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/33a5554627aeb062ebc5ad2974baaaf1dd330492"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4995 (#4996)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5f5f49ee28cabe98690194e274d0906c592248e2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(broly): stop LTM writes evicting curated pointers from MEMORY.md (#4995)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/692a9f3bbe2a92d8ded057174726363c8bc9c255"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4981 (#4992)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b9df3504ba21155ba2abd368b9a952f0c1350d7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(agora): every reviewer signs its own name and says its piece in plain English (#4981)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a5acb5d239963fa6f2a866e2010d830b5abdb1ca"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "143 changes / 7 days",
+      "value": "146 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
