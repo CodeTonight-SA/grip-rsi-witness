@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(dsh): put the boot-verify step where a plugin gets added (#5012)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c77a30d11d4a4799d7b8d31704448d5d093ca55e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5010 (#5011)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6644feebe95df4bfe64f4865197d9c727833e7d0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(dsh): verify a profile can actually boot, not merely compose (#5010)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f8f6922c44057aefc2b12c9a014da96fed037ce6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(rules): fold self-describing artefacts into the two rules that own it (#5007)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a40e8cb5fe07913e52111e1ceaf5e3ac5ee0cbdf"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4997 (#5003)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/33a5554627aeb062ebc5ad2974baaaf1dd330492"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(memory): make MEMORY.md truncation observable instead of silent (#4997)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dcaa01c487e2c8a9a6b3a463e8dbcbd4b8c9c79e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(doctor): discover char-budget sites instead of listing them (#5000)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2932a9ffe73a4fe85031c5b0a9ab6f5997d4c698"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(doctor): widen the char-budget DRY guard to the third declaration (#4998)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f1d5eb9143426eba4de34c9af46eb8353c8f0dbf"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "144 changes / 7 days",
+      "value": "147 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
