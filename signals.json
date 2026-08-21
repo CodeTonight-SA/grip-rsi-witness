@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #4997 (#5003)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/33a5554627aeb062ebc5ad2974baaaf1dd330492"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(memory): make MEMORY.md truncation observable instead of silent (#4997)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dcaa01c487e2c8a9a6b3a463e8dbcbd4b8c9c79e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(doctor): discover char-budget sites instead of listing them (#5000)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2932a9ffe73a4fe85031c5b0a9ab6f5997d4c698"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(agora): every reviewer signs its own name and says its piece in plain English (#4981)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a5acb5d239963fa6f2a866e2010d830b5abdb1ca"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4982 (#4990)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/91f5aa8dc028f99ee68c5e83066c13cbaace59cb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-anywhere): review convergence — true stealth default, --report, exit codes, direc",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a622688be771de9a4c5a18641e7693ad4e3fabb"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "177 changes / 7 days",
+      "value": "178 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
