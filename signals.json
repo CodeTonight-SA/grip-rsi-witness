@@ -53,10 +53,10 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "78 living genes exported with their fitness scores",
+      "caption": "79 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7067",
+      "value": "gen 7068",
       "verify": "data/genome-shared.json"
     },
     {
