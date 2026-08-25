@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5070 (#5078)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2319d1d7de318d8b0bd3e0cdc5f4a017ad311c64"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(save): derive the instance-serialize budget from the ladder it contains (#5070)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/29d2dbec27c07871537b174b867a36efd4960015"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5064 (#5072)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/774485b44f1aa171fcf1a8d70d65fa9e9f5b3186"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(cost): price Fable 5 and Mythos 5 instead of silently billing them as Sonnet (#5062)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/593cd9001e6b6f1dae753ca368583301fd78e856"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "ci: run the forward-anchor suite on every PR (#5061)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f9c78442a221c9896a2c2f0987006b1d55227c32"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5057 (#5059)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4eeead76673d8d1f8c276a49b3d3fd700129e191"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "99 changes / 7 days",
+      "value": "101 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
