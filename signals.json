@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5064 (#5072)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/774485b44f1aa171fcf1a8d70d65fa9e9f5b3186"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(rsi-witness): the tip was the friction ledger, and \"newest\" was mtime (#5064)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4ecfd008e4d6c8719c4188fb3ca0707242b1494e"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5057 (#5059)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4eeead76673d8d1f8c276a49b3d3fd700129e191"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(llm): Claude 5 display names + Mythos opt-in-only forward anchor (#5057)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44c5c025fae00699d66a0af99e8d5480127210df"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "80 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7220",
+      "value": "gen 7238",
       "verify": "data/genome-shared.json"
     },
     {
