@@ -3,44 +3,64 @@
     {
       "items": [
         {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5061 (#5065)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/16095cc1d224bad6008d47e0f18b6d0e01a492e5"
+          "kind": "converging",
+          "tldr": "chore(changelog): update for PR #5064",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5072"
+        },
+        {
+          "kind": "converging",
+          "tldr": "fix(save): derive the instance-serialize budget from the ladder it contains",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5070"
+        },
+        {
+          "kind": "converging",
+          "tldr": "Proportionate critique doctrine + memory tier classifier fix",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5067"
+        },
+        {
+          "kind": "converging",
+          "tldr": "feat: Mac safe self-deploy, SSH-gate zero-trust hardening, doctor-shim regression tests",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5042"
+        },
+        {
+          "kind": "converging",
+          "tldr": "fix(security): remove image-size from grip-mobile via metro 0.83.8 override",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5005"
+        },
+        {
+          "kind": "converging",
+          "tldr": "fix(prove-it) snapshot+mobile; feat(kono) broly-hardened prune tool",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4977"
+        },
+        {
+          "kind": "converging",
+          "tldr": "Security triage: image-size DoS alerts in grip-mobile have no upstream fix",
+          "url": "https://github.com/CodeTonight-SA/HAL/pull/531"
+        },
+        {
+          "kind": "converging",
+          "tldr": "fix(git): remove orphan happi-site gitlink and ignore the path",
+          "url": "https://github.com/CodeTonight-SA/HAL/pull/530"
+        },
+        {
+          "kind": "converging",
+          "tldr": "docs(security): triage image-size DoS alerts — no fix exists, risk accepted",
+          "url": "https://github.com/CodeTonight-SA/HAL/pull/529"
+        },
+        {
+          "kind": "converging",
+          "tldr": "Remove image-size from grip-mobile by bumping metro to 0.83.8",
+          "url": "https://github.com/CodeTonight-SA/HAL/pull/528"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(llm): make \"/llm clear\" actually clear the marker it is showing (#5063)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/de75e303cf151a32644535e1d7fe203b858068b8"
+          "tldr": "fix(rsi-witness): the tip was the friction ledger, and \"newest\" was mtime (#5064)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4ecfd008e4d6c8719c4188fb3ca0707242b1494e"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(cost): price Fable 5 and Mythos 5 instead of silently billing them as Sonnet (#5062)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/593cd9001e6b6f1dae753ca368583301fd78e856"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "ci: run the forward-anchor suite on every PR (#5061)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f9c78442a221c9896a2c2f0987006b1d55227c32"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5057 (#5059)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4eeead76673d8d1f8c276a49b3d3fd700129e191"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(llm): Claude 5 display names + Mythos opt-in-only forward anchor (#5057)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44c5c025fae00699d66a0af99e8d5480127210df"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5054 (#5058)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fa793290a177d34385c1ab299673ff99a99ee09"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(statusline): v5 — Fable Edition (+ fix silent model mislabel) (#5054)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/225c28bf34b758d8d672f45ce2214fa112a61ec0"
+          "tldr": "chore(changelog): update for PR #5062 (#5066)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/75f85f641716163b32f3e39ca1d2cc9fc8bd464f"
         }
       ],
       "key": "stream"
@@ -56,7 +76,7 @@
       "caption": "80 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7201",
+      "value": "gen 7220",
       "verify": "data/genome-shared.json"
     },
     {
@@ -65,6 +85,47 @@
       "label": "Shipping velocity",
       "value": "100 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
+    },
+    {
+      "caption": "open PRs GRIP is driving through CI + the cross-provider council right now — watch it happen",
+      "key": "converging",
+      "label": "Converging now",
+      "links": [
+        {
+          "text": "#5072 chore(changelog): update for PR #5064",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5072"
+        },
+        {
+          "text": "#5070 fix(save): derive the instance-serialize budget from the ladder ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5070"
+        },
+        {
+          "text": "#5067 Proportionate critique doctrine + memory tier classifier fix",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5067"
+        },
+        {
+          "text": "#5042 feat: Mac safe self-deploy, SSH-gate zero-trust hardening, docto",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5042"
+        },
+        {
+          "text": "#5005 fix(security): remove image-size from grip-mobile via metro 0.83",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5005"
+        },
+        {
+          "text": "#4977 fix(prove-it) snapshot+mobile; feat(kono) broly-hardened prune t",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4977"
+        },
+        {
+          "text": "#531 Security triage: image-size DoS alerts in grip-mobile have no ups",
+          "url": "https://github.com/CodeTonight-SA/HAL/pull/531"
+        },
+        {
+          "text": "#530 fix(git): remove orphan happi-site gitlink and ignore the path",
+          "url": "https://github.com/CodeTonight-SA/HAL/pull/530"
+        }
+      ],
+      "value": "10 in flight",
+      "verify": "gh pr list --repo CodeTonight-SA/GRIP"
     },
     {
       "caption": "Every consequential decision — the what / why / how / believed-when — signed and replayable",
@@ -78,31 +139,31 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
-          "desc": "Durable operator reminders — \"remind me later/at X about Y\" arms a reminder on B",
-          "name": "/remind-me"
-        },
-        {
           "desc": "Find where to watch ANYTHING live, right now, and return the one pointer that ac",
           "name": "/grip-watch"
         },
         {
-          "desc": "Translate GRIP jargon, metrics, and gate messages to plain English on demand",
-          "name": "/plain-language"
+          "desc": "Show who is waiting on a reply from you and what they asked, read from your own ",
+          "name": "/owes"
         },
         {
-          "desc": "DEPRECATED — superseded by grip-session-mesh (https://github",
-          "name": "/pair-mode"
+          "desc": "WITNESS — one gesture fusing the short answer, the openable deliverable, and GRA",
+          "name": "/witness"
         },
         {
-          "desc": "Adaptive Context Extension (ACE) - legacy model switching (current Opus defaults",
-          "name": "/context-extension"
+          "desc": "On a fresh SessionStart, surface on-disk continuation briefs (ultraprompts) that",
+          "name": "/ultraprompt-picker"
         },
         {
-          "desc": "Generate professional PDF documents with per-organisation branding variants",
-          "name": "/professional-pdf"
+          "desc": "Durably remember a rule, fact, or lesson FOREVER — write it to the tier that is ",
+          "name": "/remember"
+        },
+        {
+          "desc": "Generate a MINIMAL next-session continuation prompt (the specific next action + ",
+          "name": "/handoff-prompt"
         }
       ],
-      "tip": "/evo: 'user_rejected_action' ff=18% (34/41). Ev: grip_workflow:mode, steering:user wanted, grip_workflow:sprint, steering:user interrupted, grip_workflow:broly"
+      "tip": "Parallel over either-or: independent, non-exclusive work runs together, not as a menu."
     }
   ]
 }
