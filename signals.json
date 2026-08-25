@@ -3,68 +3,129 @@
     {
       "items": [
         {
-          "kind": "shipped",
-          "tldr": "docs(dsh): put the boot-verify step where a plugin gets added (#5012)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c77a30d11d4a4799d7b8d31704448d5d093ca55e"
+          "kind": "converging",
+          "tldr": "fix(llm): make \"/llm clear\" actually clear the marker it is showing",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5063"
+        },
+        {
+          "kind": "converging",
+          "tldr": "fix(cost): price Fable 5 and Mythos 5 instead of silently billing them as Sonnet",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5062"
+        },
+        {
+          "kind": "converging",
+          "tldr": "ci: run the forward-anchor suite on every PR",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5061"
+        },
+        {
+          "kind": "converging",
+          "tldr": "feat: Mac safe self-deploy, SSH-gate zero-trust hardening, doctor-shim regression tests",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5042"
+        },
+        {
+          "kind": "converging",
+          "tldr": "fix(security): remove image-size from grip-mobile via metro 0.83.8 override",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5005"
+        },
+        {
+          "kind": "converging",
+          "tldr": "fix(prove-it) snapshot+mobile; feat(kono) broly-hardened prune tool",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4977"
+        },
+        {
+          "kind": "converging",
+          "tldr": "Security triage: image-size DoS alerts in grip-mobile have no upstream fix",
+          "url": "https://github.com/CodeTonight-SA/HAL/pull/531"
+        },
+        {
+          "kind": "converging",
+          "tldr": "fix(git): remove orphan happi-site gitlink and ignore the path",
+          "url": "https://github.com/CodeTonight-SA/HAL/pull/530"
+        },
+        {
+          "kind": "converging",
+          "tldr": "docs(security): triage image-size DoS alerts — no fix exists, risk accepted",
+          "url": "https://github.com/CodeTonight-SA/HAL/pull/529"
+        },
+        {
+          "kind": "converging",
+          "tldr": "Remove image-size from grip-mobile by bumping metro to 0.83.8",
+          "url": "https://github.com/CodeTonight-SA/HAL/pull/528"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5010 (#5011)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6644feebe95df4bfe64f4865197d9c727833e7d0"
+          "tldr": "chore(changelog): update for PR #5057 (#5059)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4eeead76673d8d1f8c276a49b3d3fd700129e191"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(dsh): verify a profile can actually boot, not merely compose (#5010)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f8f6922c44057aefc2b12c9a014da96fed037ce6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): fold self-describing artefacts into the two rules that own it (#5007)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a40e8cb5fe07913e52111e1ceaf5e3ac5ee0cbdf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(council-converge): grade the filesystem, not the function's own return (#5004)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2706858601bc0944e32b560ef64fbfc5d561ed58"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4993 (#5006)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6954ed62c9f368e5340fe9146c34222fdaf190f4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(activation): verify every declared MCP server, not just the healable ones (#4993)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/275631f1942c905522fe44e059a8e7e0baf51f0d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4997 (#5003)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/33a5554627aeb062ebc5ad2974baaaf1dd330492"
+          "tldr": "feat(llm): Claude 5 display names + Mythos opt-in-only forward anchor (#5057)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44c5c025fae00699d66a0af99e8d5480127210df"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "496 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "501 registered · confirmation rate 47% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
-      "value": "131 confirmed / 151 refuted",
+      "value": "132 confirmed / 151 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "79 living genes exported with their fitness scores",
+      "caption": "80 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7073",
+      "value": "gen 7197",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "141 changes / 7 days",
+      "value": "98 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
+    },
+    {
+      "caption": "open PRs GRIP is driving through CI + the cross-provider council right now — watch it happen",
+      "key": "converging",
+      "label": "Converging now",
+      "links": [
+        {
+          "text": "#5063 fix(llm): make \"/llm clear\" actually clear the marker it is show",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5063"
+        },
+        {
+          "text": "#5062 fix(cost): price Fable 5 and Mythos 5 instead of silently billin",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5062"
+        },
+        {
+          "text": "#5061 ci: run the forward-anchor suite on every PR",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5061"
+        },
+        {
+          "text": "#5042 feat: Mac safe self-deploy, SSH-gate zero-trust hardening, docto",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5042"
+        },
+        {
+          "text": "#5005 fix(security): remove image-size from grip-mobile via metro 0.83",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/5005"
+        },
+        {
+          "text": "#4977 fix(prove-it) snapshot+mobile; feat(kono) broly-hardened prune t",
+          "url": "https://github.com/CodeTonight-SA/GRIP/pull/4977"
+        },
+        {
+          "text": "#531 Security triage: image-size DoS alerts in grip-mobile have no ups",
+          "url": "https://github.com/CodeTonight-SA/HAL/pull/531"
+        },
+        {
+          "text": "#530 fix(git): remove orphan happi-site gitlink and ignore the path",
+          "url": "https://github.com/CodeTonight-SA/HAL/pull/530"
+        }
+      ],
+      "value": "10 in flight",
+      "verify": "gh pr list --repo CodeTonight-SA/GRIP"
     },
     {
       "caption": "Every consequential decision — the what / why / how / believed-when — signed and replayable",
@@ -82,6 +143,10 @@
           "name": "/remind-me"
         },
         {
+          "desc": "Find where to watch ANYTHING live, right now, and return the one pointer that ac",
+          "name": "/grip-watch"
+        },
+        {
           "desc": "Translate GRIP jargon, metrics, and gate messages to plain English on demand",
           "name": "/plain-language"
         },
@@ -96,13 +161,9 @@
         {
           "desc": "Generate professional PDF documents with per-organisation branding variants",
           "name": "/professional-pdf"
-        },
-        {
-          "desc": "Show who is waiting on a reply from you and what they asked, read from your own ",
-          "name": "/owes"
         }
       ],
-      "tip": "/evo: 'user_rejected_action' ff=18% (34/41). Ev: grip_workflow:broly, grip_workflow:rsi, steering:user wanted, steering:user had to, grip_workflow:sprint"
+      "tip": "/evo: 'user_rejected_action' ff=18% (34/41). Ev: grip_workflow:mode, steering:user wanted, grip_workflow:sprint, steering:user interrupted, grip_workflow:broly"
     }
   ]
 }
