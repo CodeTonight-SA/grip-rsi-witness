@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(settings): a trailing shell comment is not a hook's identity (#5082)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e984f43bc730be8eae141731c39045d71f74a277"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(rules): record the binary-verified compaction precedence, with an anchor (#5074)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2d2a096e1a6d1e9c48bf5fb144aaa6d99345efe"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(agora): a red test on main demanded behaviour we deliberately changed (#5089)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/276dd79f4a3dae6fc6916d49b6ba407ded5f9179"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5080 (#5092)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe1f5a54a0cbfd9e25eac899943ff92ab698c54c"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5070 (#5078)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2319d1d7de318d8b0bd3e0cdc5f4a017ad311c64"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(save): derive the instance-serialize budget from the ladder it contains (#5070)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/29d2dbec27c07871537b174b867a36efd4960015"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5064 (#5072)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/774485b44f1aa171fcf1a8d70d65fa9e9f5b3186"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rsi-witness): the tip was the friction ledger, and \"newest\" was mtime (#5064)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4ecfd008e4d6c8719c4188fb3ca0707242b1494e"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "80 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7238",
+      "value": "gen 7250",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "105 changes / 7 days",
+      "value": "108 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
