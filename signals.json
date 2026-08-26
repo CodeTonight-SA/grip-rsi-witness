@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(scripts): grip-stats.sh counted the shared tree, not the repo it lives in (#5113)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d6b859abeb87a20a2d8a84802f621832c2086a98"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(hooks): the keepalive test steered HOME while the wrapper reads CLAUDE_DIR (#5111)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ef82943e804b3f2bb9da7b82ddcb69b7d6354e1d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(infinite): the W1 decision — should the cycle fire, and can it (#5103)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ac17e365405d3c8880f419e8ba7c56355e363bc0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(settings): close #5094 - run the falsification the council proposed (#5101)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/21bb1ac550886c145fe847dd6192193363d78664"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "80 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7258",
+      "value": "gen 7259",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "119 changes / 7 days",
+      "value": "120 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
