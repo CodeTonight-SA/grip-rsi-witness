@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5042 (#5134)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d3b6db6c124be1464aad19d2e346dfc471e48a9a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat: Mac safe self-deploy, SSH-gate zero-trust hardening, doctor-shim regression tests (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eb754887d467d26cd3ce126a3808a6b4d3c38546"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test: ban assertions that cannot fail (#5127)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d7b8a2570be7c93050863979f8909876b1fadba1"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(agora): record the measured qwen result so the next reader does not infer it (#5120)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/028c34cb890c10d5a99d235101ef4e9434e00939"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5117 (#5119)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6824d7804c07da3bd412961e71d024bae0f839fa"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: two tests that could not pass, and 46 that could not fail (#5117)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a417da988edc252ad95453896d6845df8fb8d87c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "121 changes / 7 days",
+      "value": "123 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
