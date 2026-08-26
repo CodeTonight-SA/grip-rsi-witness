@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5098 (#5100)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/489b1e51568a3dded4a22d9dfc5864e8b8f28b2b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(settings): two DENY safety gates were announcing themselves as a WARN gate (#5098)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f884aa6c7cfd524fb600308d565ce69a56b23a36"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5082 (#5095)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c57f5b8c63cb2f1351724f163fb9fcaecb263f03"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(settings): a trailing shell comment is not a hook's identity (#5082)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e984f43bc730be8eae141731c39045d71f74a277"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(rules-scope): bring the safety-core budget back under, and name its growth term (#5080",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0130c881b6b1cbf9c916c194c46e9815767af16"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5087 (#5090)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c68d1d168381e4f850da9199503b8a36722fe47"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): chain[0] was unreachable, and every review said so falsely (#5087)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/75572d8a8886b2cde34a08639c3b5dd942a3d87a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5070 (#5078)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2319d1d7de318d8b0bd3e0cdc5f4a017ad311c64"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "80 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7251",
+      "value": "gen 7256",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "108 changes / 7 days",
+      "value": "111 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
