@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5098 (#5100)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/489b1e51568a3dded4a22d9dfc5864e8b8f28b2b"
+          "tldr": "test(hooks): the keepalive test steered HOME while the wrapper reads CLAUDE_DIR (#5111)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ef82943e804b3f2bb9da7b82ddcb69b7d6354e1d"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(settings): two DENY safety gates were announcing themselves as a WARN gate (#5098)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f884aa6c7cfd524fb600308d565ce69a56b23a36"
+          "tldr": "chore(changelog): update for PR #5108 (#5110)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0836ef68e71e74cf095d152e6a28c325a2895942"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5082 (#5095)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c57f5b8c63cb2f1351724f163fb9fcaecb263f03"
+          "tldr": "feat(infinite): the W1 idle signal, shipped inert (#5108)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6cf809ce7c9da27cded1412de950afbdb7b1e181"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(settings): a trailing shell comment is not a hook's identity (#5082)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e984f43bc730be8eae141731c39045d71f74a277"
+          "tldr": "chore(changelog): update for PR #5106 (#5107)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec5d016429f6ae5d39286ba209197c6c430c24a0"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(rules): record the binary-verified compaction precedence, with an anchor (#5074)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2d2a096e1a6d1e9c48bf5fb144aaa6d99345efe"
+          "tldr": "fix(infinite): close #5104 - clock skew, a total decide, and a real actuator check (#5106)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/58a36eba827ae690f581339da5880e06b377251d"
         },
         {
           "kind": "shipped",
-          "tldr": "test(agora): a red test on main demanded behaviour we deliberately changed (#5089)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/276dd79f4a3dae6fc6916d49b6ba407ded5f9179"
+          "tldr": "chore(changelog): update for PR #5103 (#5105)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd01db10e04293b529ebc551011d333989ee1652"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5080 (#5092)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe1f5a54a0cbfd9e25eac899943ff92ab698c54c"
+          "tldr": "feat(infinite): the W1 decision — should the cycle fire, and can it (#5103)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ac17e365405d3c8880f419e8ba7c56355e363bc0"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(rules-scope): bring the safety-core budget back under, and name its growth term (#5080",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0130c881b6b1cbf9c916c194c46e9815767af16"
+          "tldr": "test(settings): close #5094 - run the falsification the council proposed (#5101)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/21bb1ac550886c145fe847dd6192193363d78664"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "111 changes / 7 days",
+      "value": "119 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
