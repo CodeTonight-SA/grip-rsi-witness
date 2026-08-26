@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test: ban assertions that cannot fail (#5127)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d7b8a2570be7c93050863979f8909876b1fadba1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5123 (#5126)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/178d72f9c5dee017e7b33019604f41e9204064b2"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: two tests that could not pass, and 46 that could not fail (#5117)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a417da988edc252ad95453896d6845df8fb8d87c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5113 (#5115)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3c01c9ee98d39556e502975e961f239e9f0a62d"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "128 changes / 7 days",
+      "value": "129 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
