@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix: two tests that could not pass, and 46 that could not fail (#5117)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a417da988edc252ad95453896d6845df8fb8d87c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5113 (#5115)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3c01c9ee98d39556e502975e961f239e9f0a62d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(infinite): close #5104 - clock skew, a total decide, and a real actuator check (#5106)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/58a36eba827ae690f581339da5880e06b377251d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5103 (#5105)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd01db10e04293b529ebc551011d333989ee1652"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "121 changes / 7 days",
+      "value": "122 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
