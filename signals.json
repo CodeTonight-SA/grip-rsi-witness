@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(agora): record the measured qwen result so the next reader does not infer it (#5120)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/028c34cb890c10d5a99d235101ef4e9434e00939"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5117 (#5119)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6824d7804c07da3bd412961e71d024bae0f839fa"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix: two tests that could not pass, and 46 that could not fail (#5117)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a417da988edc252ad95453896d6845df8fb8d87c"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(infinite): the W1 idle signal, shipped inert (#5108)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6cf809ce7c9da27cded1412de950afbdb7b1e181"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5106 (#5107)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec5d016429f6ae5d39286ba209197c6c430c24a0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(infinite): close #5104 - clock skew, a total decide, and a real actuator check (#5106)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/58a36eba827ae690f581339da5880e06b377251d"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "122 changes / 7 days",
+      "value": "124 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
