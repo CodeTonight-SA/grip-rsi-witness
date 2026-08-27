@@ -102,7 +102,7 @@
           "name": "/handoff-prompt"
         }
       ],
-      "tip": "R0: every claim needs specific evidence, a scope that matches it, and a stated falsifier — on any miss, qualify it or drop it."
+      "tip": "A green test that cannot fail is not a check: prove it goes red before you trust it passes."
     }
   ]
 }
