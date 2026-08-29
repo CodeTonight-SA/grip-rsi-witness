@@ -102,7 +102,7 @@
           "name": "/handoff-prompt"
         }
       ],
-      "tip": "Declared input must reach the actor — an accepted flag nothing reads is a lie about influence."
+      "tip": "The shared tree is not canonical: resolve any decision-gating read against origin/main."
     }
   ]
 }
