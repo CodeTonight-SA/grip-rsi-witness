@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(grip-web): frontier-council UI review rounds — mobile witness columns, ascent padding,",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c76a8d8912c1ffc31905eedc688011d5543cafd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(grip-web-snapshot): cross-file witness-chain verification (rotation-aware)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8880227345a62d28a1398f4a0f5cc91d207ef02b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(grip-web): visitor-first landing — Witness Wall + live proof, harness-aware /frontier",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fcc4e12567d0d21d2e5d109de6dab1466f4cbd64"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5148 (#5153)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a3e5edd1ca1b6ee08705ec9354a9378e2c295be1"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5141 (#5145)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4c042a340587c833d71d6fc756ffbd3f2d57e0cf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat: converge-fleet skill - parallel expert lanes that learn from each other (#5141)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3093b89c70ab1e2685f16b37d78f7218c32377a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5137 (#5138)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/023939cdd611b928396d8561742cbdb23df46ad6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tree-sync): \"level with origin/main\" could not disagree with reality (#5137)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c5d1007c74af9b6bd8ead9a358fc467337d7157e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "85 changes / 7 days",
+      "value": "88 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
