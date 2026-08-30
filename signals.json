@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5141 (#5145)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4c042a340587c833d71d6fc756ffbd3f2d57e0cf"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat: converge-fleet skill - parallel expert lanes that learn from each other (#5141)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3093b89c70ab1e2685f16b37d78f7218c32377a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5137 (#5138)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/023939cdd611b928396d8561742cbdb23df46ad6"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5123 (#5126)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/178d72f9c5dee017e7b33019604f41e9204064b2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): the last three assertions that could not fail (#5123)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fca83cccb313dcd0e151ee2a4284ba16e4d63654"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5122 (#5124)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ab46029ae4fbc856023206763e5f0d113ebd62e"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "82 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7292",
+      "value": "gen 7300",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "79 changes / 7 days",
+      "value": "81 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
