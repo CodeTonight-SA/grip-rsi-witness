@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5185 (#5192)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/64d78b7d94569cce9c9a9eaf6fd80dc148b4f7db"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Four mesh tests failed because the fixture's isolation was overridden by the live session ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec5ae6195369dcff7cec2e8b774137f89b864d14"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5189 (#5191)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/96ecdc33e7a1b0875de5417a96cd3c2139150bac"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "The confidence gate reported PASS when it could not measure (#5180)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1e35b02594c3ae3883856f32f419389f73261cd1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5179 (#5183)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d8f57289ea01d5ff6884b9f3c3719ab9dd0e088e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(catalog): residual sweep — cost_tracker pricing + docstring examples (#5179)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/57fab87c4056310779e2da4bdee586ba8dff22ef"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "83 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7339",
+      "value": "gen 7341",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "115 changes / 7 days",
+      "value": "117 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
