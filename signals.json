@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5180 (#5184)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/02076666de020a288392dfa44ec9a0bc71b058a8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "The confidence gate reported PASS when it could not measure (#5180)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1e35b02594c3ae3883856f32f419389f73261cd1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5179 (#5183)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d8f57289ea01d5ff6884b9f3c3719ab9dd0e088e"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(harness): pi models.json emitter + dsh hal route wiring (#5168)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e1bb7488702f61a0d3c4f4d985de719bea31da12"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #4977 (#5167)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/323ebbd31e91162d75eed4c1ce29b2dfbbd1c5c9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(prove-it) snapshot+mobile; feat(kono) broly-hardened prune tool (#4977)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1336d4f6a95bad3463898db2f9f042780d1363de"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "109 changes / 7 days",
+      "value": "111 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
