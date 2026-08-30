@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5170 (#5187)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf92c9f870a3afd889af752c710ce1d7f539b30a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Congruent Continuity W3-W5: features, labels, thesis trio, WARN watcher (#5170)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/01aac56d6df82539f52931bf439882ceac69ec5d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5180 (#5184)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/02076666de020a288392dfa44ec9a0bc71b058a8"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "Close the client-data leak surface, and make its test able to detect it (#5176)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a98e22e01ca3274b8c3bb68b619482fded1707e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5168 (#5177)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec98c9c402e74790e7e41614c8e157b39130df3d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(harness): pi models.json emitter + dsh hal route wiring (#5168)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e1bb7488702f61a0d3c4f4d985de719bea31da12"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "111 changes / 7 days",
+      "value": "113 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
