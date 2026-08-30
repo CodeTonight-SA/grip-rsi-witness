@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5179 (#5183)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d8f57289ea01d5ff6884b9f3c3719ab9dd0e088e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(catalog): residual sweep — cost_tracker pricing + docstring examples (#5179)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/57fab87c4056310779e2da4bdee586ba8dff22ef"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5176 (#5178)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a5439d883e4953e752742604c33c2a66198391fe"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(prove-it) snapshot+mobile; feat(kono) broly-hardened prune tool (#4977)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1336d4f6a95bad3463898db2f9f042780d1363de"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5085 (#5164)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cae68e19a92c05a1d211cb7f3f155a191fece635"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(vercel): stop rebuilding both sites on commits that touch neither (#5085)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff3cd9438e05cc58d24d91927224716d38e3ed35"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "83 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7306",
+      "value": "gen 7307",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "107 changes / 7 days",
+      "value": "109 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
