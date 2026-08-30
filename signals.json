@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5137 (#5138)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/023939cdd611b928396d8561742cbdb23df46ad6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(tree-sync): \"level with origin/main\" could not disagree with reality (#5137)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c5d1007c74af9b6bd8ead9a358fc467337d7157e"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5122 (#5124)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ab46029ae4fbc856023206763e5f0d113ebd62e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): make the installer's tests capable of failing (#5122)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4dce99290abc6949fbf123c4f22896276f9aa83f"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "501 registered · confirmation rate 47% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "504 registered · confirmation rate 47% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "132 confirmed / 151 refuted",
@@ -56,14 +56,14 @@
       "caption": "82 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7287",
+      "value": "gen 7292",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "78 changes / 7 days",
+      "value": "79 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
