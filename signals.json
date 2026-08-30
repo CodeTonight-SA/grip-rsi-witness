@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5189 (#5191)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/96ecdc33e7a1b0875de5417a96cd3c2139150bac"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(spec): strike adjudicated kills from the predictor chapter (#5189)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8de406838066f6b406964de7485bdb987cb0600a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5170 (#5187)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf92c9f870a3afd889af752c710ce1d7f539b30a"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(catalog): residual sweep — cost_tracker pricing + docstring examples (#5179)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/57fab87c4056310779e2da4bdee586ba8dff22ef"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5176 (#5178)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a5439d883e4953e752742604c33c2a66198391fe"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Close the client-data leak surface, and make its test able to detect it (#5176)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a98e22e01ca3274b8c3bb68b619482fded1707e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "113 changes / 7 days",
+      "value": "115 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
