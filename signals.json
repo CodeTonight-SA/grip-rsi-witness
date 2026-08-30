@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(tree-sync): \"level with origin/main\" could not disagree with reality (#5137)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c5d1007c74af9b6bd8ead9a358fc467337d7157e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5042 (#5134)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d3b6db6c124be1464aad19d2e346dfc471e48a9a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(tests): make the installer's tests capable of failing (#5122)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4dce99290abc6949fbf123c4f22896276f9aa83f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(agora): record the measured qwen result so the next reader does not infer it (#5120)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/028c34cb890c10d5a99d235101ef4e9434e00939"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "82 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7280",
+      "value": "gen 7287",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "77 changes / 7 days",
+      "value": "78 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
