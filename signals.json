@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5176 (#5178)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a5439d883e4953e752742604c33c2a66198391fe"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Close the client-data leak surface, and make its test able to detect it (#5176)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a98e22e01ca3274b8c3bb68b619482fded1707e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5168 (#5177)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec98c9c402e74790e7e41614c8e157b39130df3d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(harness): pi models.json emitter + dsh hal route wiring (#5168)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e1bb7488702f61a0d3c4f4d985de719bea31da12"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #4977 (#5167)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/323ebbd31e91162d75eed4c1ce29b2dfbbd1c5c9"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(vercel): stop rebuilding both sites on commits that touch neither (#5085)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff3cd9438e05cc58d24d91927224716d38e3ed35"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5076 (#5162)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e6c6f05a806cb9060843ea50267d2c10dcb64ce"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "/recall said 8 memories when 379 matched (#5079)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/21bf5c2cf684d015a56c6d8d894a4d40bf67ec07"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5005 (#5161)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/37f6abadcef9665652d4e0608dcbcc779855ff17"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Ultraprompt picker: report how many briefs are pending, not the page size (#5076)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0086f98c687938b19420bd429ea2021fdac9499"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "82 living genes exported with their fitness scores",
+      "caption": "83 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7302",
+      "value": "gen 7306",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "103 changes / 7 days",
+      "value": "107 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
