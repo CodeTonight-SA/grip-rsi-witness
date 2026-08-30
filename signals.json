@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5084 (#5158)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb931f74d32fd7f61c8162a1359752b80654953c"
+          "tldr": "chore(changelog): update for PR #4977 (#5167)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/323ebbd31e91162d75eed4c1ce29b2dfbbd1c5c9"
         },
         {
           "kind": "shipped",
-          "tldr": "Backlog said \"50 items\" when it had more (#5084)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7424400713fb4401bde5871ae5cd816176914dff"
+          "tldr": "fix(prove-it) snapshot+mobile; feat(kono) broly-hardened prune tool (#4977)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1336d4f6a95bad3463898db2f9f042780d1363de"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5073 (#5157)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/50b88c63d09da5e1018151ddcac87e292ebf4985"
+          "tldr": "chore(changelog): update for PR #5085 (#5164)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cae68e19a92c05a1d211cb7f3f155a191fece635"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5067 (#5156)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e639dd2d528846da75fc9363e3835cba92d7bf3f"
+          "tldr": "fix(vercel): stop rebuilding both sites on commits that touch neither (#5085)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff3cd9438e05cc58d24d91927224716d38e3ed35"
         },
         {
           "kind": "shipped",
-          "tldr": "Bulleted session summaries with every link inline (COS amendment, V>> 2026-08-24) (#5073)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7d97549a91a53ba2322d9b4e362ba440d13d1eff"
+          "tldr": "chore(changelog): update for PR #5076 (#5162)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e6c6f05a806cb9060843ea50267d2c10dcb64ce"
         },
         {
           "kind": "shipped",
-          "tldr": "Mesh sessions can see each other's tree drift, plus memory and safety substrate fixes (#50",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7f34c1b09ccef8d4a60739a460696d561658539f"
+          "tldr": "/recall said 8 memories when 379 matched (#5079)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/21bf5c2cf684d015a56c6d8d894a4d40bf67ec07"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(grip-web): frontier-council UI review rounds — mobile witness columns, ascent padding,",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c76a8d8912c1ffc31905eedc688011d5543cafd"
+          "tldr": "chore(changelog): update for PR #5005 (#5161)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/37f6abadcef9665652d4e0608dcbcc779855ff17"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(grip-web-snapshot): cross-file witness-chain verification (rotation-aware)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8880227345a62d28a1398f4a0f5cc91d207ef02b"
+          "tldr": "Ultraprompt picker: report how many briefs are pending, not the page size (#5076)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0086f98c687938b19420bd429ea2021fdac9499"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "94 changes / 7 days",
+      "value": "103 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
