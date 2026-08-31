@@ -102,7 +102,7 @@
           "name": "/ultraprompt-picker"
         }
       ],
-      "tip": "A negative claim is only as strong as the search behind it — name the scopes you checked."
+      "tip": "verify-canonical: trust origin/main + the live endpoint + an e2e probe — never a status label."
     }
   ]
 }
