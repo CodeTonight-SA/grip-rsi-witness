@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5230 (#5233)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a500996e4b3414cad63e1f1315841b0947646ac3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat: find what GRIP keeps re-learning — and what it already learned but cannot reach (#52",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/538c7f86f3b655750e0362a0b925c31f885974d5"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5223 (#5225)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f332b67a56a6d18a0fd9136c96d0de005e253a35"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: careful agents were being killed for thinking, and nothing could measure the loss (#5",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c62a578f068998115a30f23bc7012f76f8fa5c8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5212 (#5216)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/782d71913b42be7a987cd10cbeef019faab8f5b2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(pseudocommit): set identity at the precedence level that actually wins (#5212)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a2d938c4a1a4e216361b1ac83f5da382cc06b371"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "119 changes / 7 days",
+      "value": "121 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
