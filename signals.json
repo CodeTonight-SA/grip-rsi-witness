@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5209 (#5211)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/15bd4bd5216477c6935881749b30ec8830d7ba7c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix: the estate called its own shipped work \"roadmap\" — and nothing tested for that (#5209",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3741cb34c3daa9c8f746a9ff1bfd672e0970a7e8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5174 (#5208)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dad499ffe940308dc6f56fd66fa37fd4d8c4db5e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(site): a shipped anchor called \"not live yet\", and a check that could not fail (#5174)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5603e767a048c954a9905e1c2db0a6a84c0973d7"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(hooks): a warning that repeats on every call is one nobody reads (#5169)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bde6296579b2e63d60b8ec031a507201ecd59679"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5202 (#5205)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c263f4eb97809de8f8d1e23d7fcac998a4a3e48c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(pseudocommit): commit as architext1, scoped to one commit (#5202)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/223e2420586d628b335172a2f9b0294276130e46"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5197 (#5201)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/428b40d536fe5ea01d263d3b6472225689c579a8"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "108 changes / 7 days",
+      "value": "111 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
