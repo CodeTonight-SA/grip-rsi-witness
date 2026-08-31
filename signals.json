@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(pool-c): inject --skip-git-repo-check before delegating to the ladder (#5223)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a072eddd241041b260016e42bf1b7135d782c28f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5220 (#5222)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b24e175e773c7384bee1d129388aec39d45fd13"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Wire Pool A, B and C so every harness can actually reach them (#5220)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/39dd368d62f839ee5b3c878d64d0f003fe58191f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5215 (#5219)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/89b63a12e0116de0d36ab2a11fb3a1032a835051"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix: careful agents were being killed for thinking, and nothing could measure the loss (#5",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c62a578f068998115a30f23bc7012f76f8fa5c8"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5209 (#5211)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/15bd4bd5216477c6935881749b30ec8830d7ba7c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: the estate called its own shipped work \"roadmap\" — and nothing tested for that (#5209",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3741cb34c3daa9c8f746a9ff1bfd672e0970a7e8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5174 (#5208)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dad499ffe940308dc6f56fd66fa37fd4d8c4db5e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(site): a shipped anchor called \"not live yet\", and a check that could not fail (#5174)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5603e767a048c954a9905e1c2db0a6a84c0973d7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5172 (#5207)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f7b38db9a25273ecc00477a8096a816f31ecb3f8"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "83 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7382",
+      "value": "gen 7385",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "114 changes / 7 days",
+      "value": "118 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
