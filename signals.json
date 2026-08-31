@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(pseudocommit): commit as architext1, scoped to one commit (#5202)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/223e2420586d628b335172a2f9b0294276130e46"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5197 (#5201)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/428b40d536fe5ea01d263d3b6472225689c579a8"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5189 (#5191)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/96ecdc33e7a1b0875de5417a96cd3c2139150bac"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(spec): strike adjudicated kills from the predictor chapter (#5189)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8de406838066f6b406964de7485bdb987cb0600a"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "83 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7376",
+      "value": "gen 7378",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "101 changes / 7 days",
+      "value": "102 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Commits under the operator's second GitHub identity (architext1) instead of the ",
+          "name": "/pseudocommit"
+        },
         {
           "desc": "Runs a /converge loop whose parallel expert lanes cross-learn — every lane's dis",
           "name": "/converge-fleet"
@@ -96,10 +100,6 @@
         {
           "desc": "On a fresh SessionStart, surface on-disk continuation briefs (ultraprompts) that",
           "name": "/ultraprompt-picker"
-        },
-        {
-          "desc": "Durably remember a rule, fact, or lesson FOREVER — write it to the tier that is ",
-          "name": "/remember"
         }
       ],
       "tip": "A negative claim is only as strong as the search behind it — name the scopes you checked."
