@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "A gate was blocking its own repair from every worktree (PARAMOUNT invariant restored) (#51",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/36dc3aab611ef4ffde97cbfc8e2a34655d4435f7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5193 (#5196)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e32a3e0a0ecc3362d52a2d8e2fe7b40a7cf23671"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5170 (#5187)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf92c9f870a3afd889af752c710ce1d7f539b30a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Congruent Continuity W3-W5: features, labels, thesis trio, WARN watcher (#5170)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/01aac56d6df82539f52931bf439882ceac69ec5d"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "82 living genes exported with their fitness scores",
+      "caption": "83 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7375",
+      "value": "gen 7376",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "111 changes / 7 days",
+      "value": "110 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
