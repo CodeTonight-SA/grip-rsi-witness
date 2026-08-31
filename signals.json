@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix: the liveness receipt records what it measured, not merely that it ran (#5234)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0998dd7ed5d228ffa279bdb50f5fbe28fd12b26"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5226 (#5236)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/adee27a877719d4f8c5b7406a2cb506f67687b71"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(nextmove): rank the next moves before asking, and derive the manner (#5226)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/da19f1811e462f5a6ace0eb0355028427cc3e0d5"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5230 (#5233)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a500996e4b3414cad63e1f1315841b0947646ac3"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5220 (#5222)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b24e175e773c7384bee1d129388aec39d45fd13"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Wire Pool A, B and C so every harness can actually reach them (#5220)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/39dd368d62f839ee5b3c878d64d0f003fe58191f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5215 (#5219)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/89b63a12e0116de0d36ab2a11fb3a1032a835051"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: careful agents were being killed for thinking, and nothing could measure the loss (#5",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c62a578f068998115a30f23bc7012f76f8fa5c8"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "121 changes / 7 days",
+      "value": "124 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
