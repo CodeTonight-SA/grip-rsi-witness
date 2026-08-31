@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5234 (#5238)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7dec4d96dd845db4add386fee07994b862a8f94f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix: the liveness receipt records what it measured, not merely that it ran (#5234)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0998dd7ed5d228ffa279bdb50f5fbe28fd12b26"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(pool-c): inject --skip-git-repo-check before delegating to the ladder (#5223)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a072eddd241041b260016e42bf1b7135d782c28f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5220 (#5222)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b24e175e773c7384bee1d129388aec39d45fd13"
         }
       ],
       "key": "stream"
