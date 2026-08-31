@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(pseudocommit): set identity at the precedence level that actually wins (#5212)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a2d938c4a1a4e216361b1ac83f5da382cc06b371"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5209 (#5211)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/15bd4bd5216477c6935881749b30ec8830d7ba7c"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(site): the unified suite page — one page a buyer can read, and break (#5172)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f6d2be62716962a7bbe971e6ed7e6e2a3f567efc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): a warning that repeats on every call is one nobody reads (#5169)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bde6296579b2e63d60b8ec031a507201ecd59679"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "111 changes / 7 days",
+      "value": "112 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
