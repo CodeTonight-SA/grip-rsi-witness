@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5202 (#5205)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c263f4eb97809de8f8d1e23d7fcac998a4a3e48c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(pseudocommit): commit as architext1, scoped to one commit (#5202)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/223e2420586d628b335172a2f9b0294276130e46"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "Four mesh tests failed because the fixture's isolation was overridden by the live session ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec5ae6195369dcff7cec2e8b774137f89b864d14"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5189 (#5191)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/96ecdc33e7a1b0875de5417a96cd3c2139150bac"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "102 changes / 7 days",
+      "value": "103 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
