@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5197 (#5201)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/428b40d536fe5ea01d263d3b6472225689c579a8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "A gate was blocking its own repair from every worktree (PARAMOUNT invariant restored) (#51",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/36dc3aab611ef4ffde97cbfc8e2a34655d4435f7"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(spec): strike adjudicated kills from the predictor chapter (#5189)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8de406838066f6b406964de7485bdb987cb0600a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5170 (#5187)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf92c9f870a3afd889af752c710ce1d7f539b30a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "106 changes / 7 days",
+      "value": "107 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
