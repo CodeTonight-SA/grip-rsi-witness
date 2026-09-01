@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(models): add Claude Fable 5.1 alongside Fable 5 (#5248)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fba26c24a5850afbc163232944e5205e4600354d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5245 (#5247)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f2282eb695783adac0f85b6f0c73680a014b28d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(infer-classify): ask what text means instead of matching words in it (#5245)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/885afe774001ea6073ec793c5de72f990f170cb1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5240 (#5244)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e415628c69984aab902ddacc62096a879b54bf0d"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5226 (#5236)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/adee27a877719d4f8c5b7406a2cb506f67687b71"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(nextmove): rank the next moves before asking, and derive the manner (#5226)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/da19f1811e462f5a6ace0eb0355028427cc3e0d5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5230 (#5233)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a500996e4b3414cad63e1f1315841b0947646ac3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat: find what GRIP keeps re-learning — and what it already learned but cannot reach (#52",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/538c7f86f3b655750e0362a0b925c31f885974d5"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "83 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7389",
+      "value": "gen 7391",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "109 changes / 7 days",
+      "value": "113 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/witness"
         }
       ],
-      "tip": "verify-canonical: trust origin/main + the live endpoint + an e2e probe — never a status label."
+      "tip": "Exogenous-anchor law: a loop is only valid if a process it cannot please evaluates the exit."
     }
   ]
 }
