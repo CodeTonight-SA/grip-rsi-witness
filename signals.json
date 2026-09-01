@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(catalog): Fable 5.1 is verified on the Claude Code path, by probe not report (#5254)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b5338ac4725c6d93fe1cb444e3148e698ad07be4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(infer-classify): close the three gaps the AGORA council named (#5250)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/79445e537431e6ba7929abf76465df17da48ffe9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5248 (#5251)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2ee0de8f732112b0b01eb571827e15e53b1d117"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(models): add Claude Fable 5.1 alongside Fable 5 (#5248)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fba26c24a5850afbc163232944e5205e4600354d"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(converge-fleet): the Fibonacci numbers index nothing — say so, and fix two real bugs (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a39e6a80f775e5fb9e599067cd56ed1d457bd4b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5234 (#5238)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7dec4d96dd845db4add386fee07994b862a8f94f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: the liveness receipt records what it measured, not merely that it ran (#5234)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0998dd7ed5d228ffa279bdb50f5fbe28fd12b26"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5226 (#5236)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/adee27a877719d4f8c5b7406a2cb506f67687b71"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "83 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7391",
+      "value": "gen 7393",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "113 changes / 7 days",
+      "value": "110 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
