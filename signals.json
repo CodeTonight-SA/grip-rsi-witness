@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "/mode finally delivers its protocol; restore runs; degradation is loud (#5262)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2bf4927f2e06cc77b717d5e247c4fd405aa7e21"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5263 (#5265)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1434180bdbf130d63a7a23954f023d57304ecffa"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(cc-auto-harness): converge-fleet triage of Claude Code 2.1.227-2.1.257 (#5263)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2dc00e7fc1380418132561dec7dea45f8290dd7"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(infer-classify): close the three gaps the AGORA council named (#5250)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/79445e537431e6ba7929abf76465df17da48ffe9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5248 (#5251)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2ee0de8f732112b0b01eb571827e15e53b1d117"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(models): add Claude Fable 5.1 alongside Fable 5 (#5248)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fba26c24a5850afbc163232944e5205e4600354d"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "110 changes / 7 days",
+      "value": "112 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
