@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(cc-auto-harness): converge-fleet triage of Claude Code 2.1.227-2.1.257 (#5263)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2dc00e7fc1380418132561dec7dea45f8290dd7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(congruence): close the W1 Gentner gap, correct its numbers, reverse one kill (#5257)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf8bea9079aac0f7746ba2c7e6052b37ae427bee"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5255 (#5261)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5a9f632ca239a5b7d792f79d6a363be833d6596c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix: post-upgrade brief: stale watchdog citations, two slowness-as-death timeouts, the N-i",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/75864b8e8100b0c36385c576eb117c28e1bafd33"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(catalog): Fable 5.1 is verified on the Claude Code path, by probe not report (#5254)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b5338ac4725c6d93fe1cb444e3148e698ad07be4"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(models): add Claude Fable 5.1 alongside Fable 5 (#5248)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fba26c24a5850afbc163232944e5205e4600354d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5245 (#5247)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f2282eb695783adac0f85b6f0c73680a014b28d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(infer-classify): ask what text means instead of matching words in it (#5245)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/885afe774001ea6073ec793c5de72f990f170cb1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5240 (#5244)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e415628c69984aab902ddacc62096a879b54bf0d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(converge-fleet): the Fibonacci numbers index nothing — say so, and fix two real bugs (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a39e6a80f775e5fb9e599067cd56ed1d457bd4b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "108 changes / 7 days",
+      "value": "110 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
