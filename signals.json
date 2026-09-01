@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5240 (#5244)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e415628c69984aab902ddacc62096a879b54bf0d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(converge-fleet): the Fibonacci numbers index nothing — say so, and fix two real bugs (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a39e6a80f775e5fb9e599067cd56ed1d457bd4b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5234 (#5238)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7dec4d96dd845db4add386fee07994b862a8f94f"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat: find what GRIP keeps re-learning — and what it already learned but cannot reach (#52",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/538c7f86f3b655750e0362a0b925c31f885974d5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5223 (#5225)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f332b67a56a6d18a0fd9136c96d0de005e253a35"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(pool-c): inject --skip-git-repo-check before delegating to the ladder (#5223)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a072eddd241041b260016e42bf1b7135d782c28f"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "83 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7388",
+      "value": "gen 7389",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "107 changes / 7 days",
+      "value": "109 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Ranks the candidate next moves before asking anything, derives how each should b",
+          "name": "/nextmove"
+        },
         {
           "desc": "Commits under the operator's second GitHub identity (architext1) instead of the ",
           "name": "/pseudocommit"
@@ -96,10 +100,6 @@
         {
           "desc": "WITNESS — one gesture fusing the short answer, the openable deliverable, and GRA",
           "name": "/witness"
-        },
-        {
-          "desc": "On a fresh SessionStart, surface on-disk continuation briefs (ultraprompts) that",
-          "name": "/ultraprompt-picker"
         }
       ],
       "tip": "verify-canonical: trust origin/main + the live endpoint + an e2e probe — never a status label."
