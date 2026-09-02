@@ -102,7 +102,7 @@
           "name": "/witness"
         }
       ],
-      "tip": "Exogenous-anchor law: a loop is only valid if a process it cannot please evaluates the exit."
+      "tip": "No stubs: every symbol is fully implemented — a hollow placeholder is a false-completeness signal."
     }
   ]
 }
