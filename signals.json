@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5285 (#5288)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/db17b3ba73e5fee17249cd97b141d9ee90ada46f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(hooks): model-switch guard harnesses PreModelSwitch and PostModelSwitch (T116) (#5285",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f05e4ae03645ccf22ddbcbafac917b0d2adb8158"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(modes): close three adjacent defects filed on GRIP#5242's closure (#5275)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f26d80a492cd546a2f52e9b70ca624fdb1f7823"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurements): recover the two unrun workflow phases — W1 synthesis and the happi mob",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a9e0021f096ed9c63692c1a9ea1e83db01120b08"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "93 changes / 7 days",
+      "value": "94 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
