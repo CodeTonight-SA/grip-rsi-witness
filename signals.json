@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5198 (#5269)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/26d078da7c605a0b298a1a7b45958b187ec23d93"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(sunyata): EvidenceState pilot — benchmark, four systems under test, H1–H3 harnesses, ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/030146c51c59a2fd954d980aa54929c5453c7ca0"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5255 (#5261)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5a9f632ca239a5b7d792f79d6a363be833d6596c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: post-upgrade brief: stale watchdog citations, two slowness-as-death timeouts, the N-i",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/75864b8e8100b0c36385c576eb117c28e1bafd33"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "106 changes / 7 days",
+      "value": "103 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
