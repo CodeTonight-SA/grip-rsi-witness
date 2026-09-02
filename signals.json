@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(nextmove): four defects found on its first real use (#5281)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9927c2340cc207b91834a785064f92813dad2027"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5277 (#5282)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/161164cfc78c39d801261b29dc679645d77c9db0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(cc-auto-harness): complete on-device verification for the 2.1.227-2.1.257 triage (#5",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/33ce04c320486192e9bf889df6feeea14a9ec78f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5275 (#5279)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2b18d0fb2213ebad76fc14aead7b432693831b0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(modes): close three adjacent defects filed on GRIP#5242's closure (#5275)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f26d80a492cd546a2f52e9b70ca624fdb1f7823"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(measurements): recover the two unrun workflow phases — W1 synthesis and the happi mob",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a9e0021f096ed9c63692c1a9ea1e83db01120b08"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(sunyata): EvidenceState pilot — benchmark, four systems under test, H1–H3 harnesses, ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/030146c51c59a2fd954d980aa54929c5453c7ca0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5262 (#5268)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0c01a29ece63744e7b8f9eaa3b621e778f4ee3d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "/mode finally delivers its protocol; restore runs; degradation is loud (#5262)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2bf4927f2e06cc77b717d5e247c4fd405aa7e21"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5263 (#5265)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1434180bdbf130d63a7a23954f023d57304ecffa"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(cc-auto-harness): converge-fleet triage of Claude Code 2.1.227-2.1.257 (#5263)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2dc00e7fc1380418132561dec7dea45f8290dd7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(congruence): close the W1 Gentner gap, correct its numbers, reverse one kill (#5257)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf8bea9079aac0f7746ba2c7e6052b37ae427bee"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "88 changes / 7 days",
+      "value": "93 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
