@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(hooks): model-switch guard harnesses PreModelSwitch and PostModelSwitch (T116) (#5285",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f05e4ae03645ccf22ddbcbafac917b0d2adb8158"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5281 (#5283)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c1197ce764fcec461b7218cfce721afec771f0b6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(nextmove): four defects found on its first real use (#5281)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9927c2340cc207b91834a785064f92813dad2027"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(measurements): recover the two unrun workflow phases — W1 synthesis and the happi mob",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a9e0021f096ed9c63692c1a9ea1e83db01120b08"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5198 (#5269)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/26d078da7c605a0b298a1a7b45958b187ec23d93"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(sunyata): EvidenceState pilot — benchmark, four systems under test, H1–H3 harnesses, ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/030146c51c59a2fd954d980aa54929c5453c7ca0"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "83 living genes exported with their fitness scores",
+      "caption": "84 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7393",
+      "value": "gen 7394",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "93 changes / 7 days",
+      "value": "95 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
