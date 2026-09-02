@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(sunyata): EvidenceState pilot — benchmark, four systems under test, H1–H3 harnesses, ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/030146c51c59a2fd954d980aa54929c5453c7ca0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5262 (#5268)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0c01a29ece63744e7b8f9eaa3b621e778f4ee3d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: post-upgrade brief: stale watchdog citations, two slowness-as-death timeouts, the N-i",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/75864b8e8100b0c36385c576eb117c28e1bafd33"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(catalog): Fable 5.1 is verified on the Claude Code path, by probe not report (#5254)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b5338ac4725c6d93fe1cb444e3148e698ad07be4"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "105 changes / 7 days",
+      "value": "106 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
