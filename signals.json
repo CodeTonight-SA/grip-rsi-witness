@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5262 (#5268)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0c01a29ece63744e7b8f9eaa3b621e778f4ee3d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "/mode finally delivers its protocol; restore runs; degradation is loud (#5262)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2bf4927f2e06cc77b717d5e247c4fd405aa7e21"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(catalog): Fable 5.1 is verified on the Claude Code path, by probe not report (#5254)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b5338ac4725c6d93fe1cb444e3148e698ad07be4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(infer-classify): close the three gaps the AGORA council named (#5250)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/79445e537431e6ba7929abf76465df17da48ffe9"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "112 changes / 7 days",
+      "value": "109 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
