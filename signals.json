@@ -102,7 +102,7 @@
           "name": "/witness"
         }
       ],
-      "tip": "No stubs: every symbol is fully implemented — a hollow placeholder is a false-completeness signal."
+      "tip": "Banach idempotence: if improve(state) == state, the loop has converged. Provable, not felt."
     }
   ]
 }
