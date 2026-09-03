@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5290 (#5294)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/63e6481841eb5516b6397358683393667471b961"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Bind \"never close on the operator's behalf\" to a Stop-hook advisory (#5290)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/76d3c392e67e3652544d2f939a09a030ee3d0ce9"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(cc-auto-harness): complete on-device verification for the 2.1.227-2.1.257 triage (#5",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/33ce04c320486192e9bf889df6feeea14a9ec78f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5275 (#5279)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2b18d0fb2213ebad76fc14aead7b432693831b0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "95 changes / 7 days",
+      "value": "96 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
