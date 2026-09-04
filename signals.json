@@ -102,7 +102,7 @@
           "name": "/witness"
         }
       ],
-      "tip": "Banach idempotence: if improve(state) == state, the loop has converged. Provable, not felt."
+      "tip": "Everything is a shim; AI is a syscall — one stable boundary, provider-swappable underneath."
     }
   ]
 }
