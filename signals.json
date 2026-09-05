@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(deps): raise fast-uri to 3.1.7 and qs to 6.16.0 in grip-mcp-desktop (#5305)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/301875c82118d3ed7f22e1753e2c2c14e6f274c0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(deps): raise fast-uri to 3.1.7 and qs to 6.16.0 in grip-apps (#5303)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/827ff847d917386ab8a3922b7073f234658ba164"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5290 (#5294)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/63e6481841eb5516b6397358683393667471b961"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(nextmove): four defects found on its first real use (#5281)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9927c2340cc207b91834a785064f92813dad2027"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5277 (#5282)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/161164cfc78c39d801261b29dc679645d77c9db0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(cc-auto-harness): complete on-device verification for the 2.1.227-2.1.257 triage (#5",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/33ce04c320486192e9bf889df6feeea14a9ec78f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "96 changes / 7 days",
+      "value": "98 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
