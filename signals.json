@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5306 (#5315)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/76209894f38d27d0c4924facc3fb92c8510af78f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(deps): raise fast-uri to 3.1.7 and qs to 6.16.0 in grip-mcp-web (#5306)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f17a387a086cfd28d272af8b4b9fd0f57f2b3671"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5303 (#5312)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9795579f3ad759956bcb1ff1a56c7f42c003add0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(deps): raise fast-uri to 3.1.7 and qs to 6.16.0 in grip-mcp-desktop (#5305)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/301875c82118d3ed7f22e1753e2c2c14e6f274c0"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5285 (#5288)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/db17b3ba73e5fee17249cd97b141d9ee90ada46f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(hooks): model-switch guard harnesses PreModelSwitch and PostModelSwitch (T116) (#5285",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f05e4ae03645ccf22ddbcbafac917b0d2adb8158"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5281 (#5283)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c1197ce764fcec461b7218cfce721afec771f0b6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(nextmove): four defects found on its first real use (#5281)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9927c2340cc207b91834a785064f92813dad2027"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "98 changes / 7 days",
+      "value": "101 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
