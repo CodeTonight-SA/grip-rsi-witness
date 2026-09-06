@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(prove-it): citation-provenance artifact for the 4-day catch-me-up audit",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0cca7275835de3b9cc6e5258512437deeabe6d86"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Merge remote-tracking branch 'origin/main'",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0d3e3b695cf3ca6de2035154d1eaf9d2a298bc91"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "Merge remote-tracking branch 'origin/main'",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0e203b7ba4ba21256508a1df5ce5bf719c749da3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(smt): Phase B kernel — SME, MAC/FAC, relational shift, Lean formalisation",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/20fcc32895d0c0f0cac9aec58227ee0d408841d0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "80 changes / 7 days",
+      "value": "81 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
