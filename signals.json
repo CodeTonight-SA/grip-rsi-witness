@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(grip-web): public-surface review fixes — installer branding, mobile layout, inspect li",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/29ba15559e102c9213783c39e81dc8de6a2e9349"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5323 (#5329)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/19c1ed85eb8c16060552473e4be56f996b3215f3"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(deps-dev): bump browserslist in /apps/grip-web (#5316)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c844c90805b3b49ba9bf58a1020274eafc6ea6a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5304 (#5322)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/282e4c90f7c9feb29d4c58f6525fae028e2a333b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "80 changes / 7 days",
+      "value": "81 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/witness"
         }
       ],
-      "tip": "Rate-limited never blocks: a transient 429 is a retry/failover signal, not a halt."
+      "tip": "Parallel over either-or: independent, non-exclusive work runs together, not as a menu."
     }
   ]
 }
