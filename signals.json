@@ -5,42 +5,42 @@
         {
           "kind": "shipped",
           "tldr": "Merge remote-tracking branch 'origin/main'",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0d3e3b695cf3ca6de2035154d1eaf9d2a298bc91"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(backup): dereference the ~/.claude symlink so backups archive the real tree",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d3946fad4176f5319c5e410149476438caba14a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5313 (#5319)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aea1d251493fc98248f1b20ee0989e23967592b8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(deps): patch fast-uri and both fflate lines in grip-explainers (6 alerts) (#5307)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9eeff4ab570bc38115dcb5c535e8c965cfc0f7c3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(deps): raise fast-uri to 3.1.7 and qs to 6.16.0 in grip-channel (#5310)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/596a2cb745dc77096583d4fdac392be3021628d6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(deps): force qs past its vulnerable range in grip-server (alert 515) (#5313)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/97765b892b0ad07117932f9712fb99a63dda8876"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Merge remote-tracking branch 'origin/main'",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0e203b7ba4ba21256508a1df5ce5bf719c749da3"
         },
         {
           "kind": "shipped",
           "tldr": "feat(smt): Phase B kernel — SME, MAC/FAC, relational shift, Lean formalisation",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/20fcc32895d0c0f0cac9aec58227ee0d408841d0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(pi): bridge GRIP slash commands into pi prompt templates",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/26269f66ae94c1434535f43a8c6cad75430701e5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "perf(skill-lint): flatten nested loops to depth 1 (BIG-O gate)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0216a4f8361a9f8cbc1f1cb9c2697368ebbd83c8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(skills): strict-loader spec compliance sweep + lint gate",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2660f9aab901599c3ffba91a8313bbd83f2f46d0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5306 (#5315)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/76209894f38d27d0c4924facc3fb92c8510af78f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): raise fast-uri to 3.1.7 and qs to 6.16.0 in grip-mcp-web (#5306)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f17a387a086cfd28d272af8b4b9fd0f57f2b3671"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5303 (#5312)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9795579f3ad759956bcb1ff1a56c7f42c003add0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "76 changes / 7 days",
+      "value": "80 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
