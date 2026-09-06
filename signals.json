@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "docs(prove-it): citation-provenance artifact for the 4-day catch-me-up audit",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0cca7275835de3b9cc6e5258512437deeabe6d86"
+          "tldr": "chore(changelog): update for PR #5323 (#5329)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/19c1ed85eb8c16060552473e4be56f996b3215f3"
         },
         {
           "kind": "shipped",
-          "tldr": "Merge remote-tracking branch 'origin/main'",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0d3e3b695cf3ca6de2035154d1eaf9d2a298bc91"
+          "tldr": "fix(deps): patch @xmldom/xmldom and browserslist in grip-mobile (Dependabot alerts 514, 53",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/77d2e94dbf82a8512944ca12ef4799cb01fe72df"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(backup): dereference the ~/.claude symlink so backups archive the real tree",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d3946fad4176f5319c5e410149476438caba14a"
+          "tldr": "fix(deps): raise browserslist to 4.28.9 in grip-explainers (alerts 538, 539) (#5323)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1265cf4a9b7b04aa85792233900d6b91c780544b"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5313 (#5319)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aea1d251493fc98248f1b20ee0989e23967592b8"
+          "tldr": "chore(changelog): update for PR #5324 (#5327)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/03dfcd591e5eac037e435d4f67b7f26adddf014f"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(deps): patch fast-uri and both fflate lines in grip-explainers (6 alerts) (#5307)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9eeff4ab570bc38115dcb5c535e8c965cfc0f7c3"
+          "tldr": "fix(docs): refresh the generated capability-stats line (unblocks all open PRs) (#5324)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/74dc31cf9d91492dc37a1f69ca33ece987082277"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(deps): raise fast-uri to 3.1.7 and qs to 6.16.0 in grip-channel (#5310)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/596a2cb745dc77096583d4fdac392be3021628d6"
+          "tldr": "chore(changelog): update for PR #5316 (#5325)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f16a48c7a4b5e8df0500963793a733eec95e408"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(deps): force qs past its vulnerable range in grip-server (alert 515) (#5313)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/97765b892b0ad07117932f9712fb99a63dda8876"
+          "tldr": "chore(deps-dev): bump browserslist in /apps/grip-web (#5316)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c844c90805b3b49ba9bf58a1020274eafc6ea6a"
         },
         {
           "kind": "shipped",
-          "tldr": "Merge remote-tracking branch 'origin/main'",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0e203b7ba4ba21256508a1df5ce5bf719c749da3"
+          "tldr": "chore(changelog): update for PR #5304 (#5322)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/282e4c90f7c9feb29d4c58f6525fae028e2a333b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "81 changes / 7 days",
+      "value": "90 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
