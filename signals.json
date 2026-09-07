@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(kimi): the three AGORA DEFER follow-ups — Pool D prose and boundary, --direct message",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dff11c3bbd19c73ccd014aa16bfbcb33c4d30293"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5340 (#5349)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7e2660e3da8cd2c1307e1fcd39ab4f1e89fee51"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gates): SSH gate asks instead of denying; tailnet auto-ratify survives compound comman",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7a78ab722d5e4de65e1042be149fdf774f1b4b6"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(pools): Pool D for the Kimi Code subscription, unarmed until a credential exists (W5,",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/12daa7f23f7c68b50d16618ffac4ef283ad7f494"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5335 (#5337)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/82302dcb9e2eb272ce80f5665e0aec7003a263d6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(kimi): W0 truth pass — retire kimi-k2.5 and moonshot-v1-*, list kimi-k2.7-code-highspe",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fff13375b172e72c1cd375df52630415d215a59"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "71 changes / 7 days",
+      "value": "73 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
