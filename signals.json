@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(pools): Pool D for the Kimi Code subscription, unarmed until a credential exists (W5,",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/12daa7f23f7c68b50d16618ffac4ef283ad7f494"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5335 (#5337)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/82302dcb9e2eb272ce80f5665e0aec7003a263d6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(kimi): W0 truth pass — retire kimi-k2.5 and moonshot-v1-*, list kimi-k2.7-code-highspe",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fff13375b172e72c1cd375df52630415d215a59"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(deps): patch @xmldom/xmldom and browserslist in grip-mobile (Dependabot alerts 514, 53",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/77d2e94dbf82a8512944ca12ef4799cb01fe72df"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): raise browserslist to 4.28.9 in grip-explainers (alerts 538, 539) (#5323)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1265cf4a9b7b04aa85792233900d6b91c780544b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5324 (#5327)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/03dfcd591e5eac037e435d4f67b7f26adddf014f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "80 changes / 7 days",
+      "value": "82 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
