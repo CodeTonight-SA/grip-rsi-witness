@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5333 (#5334)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a290a98d40119065f2aaf7b14576443326cfedf"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(redaction): repair dead default caller that left L2 semantic scan inert (#5333)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3cb398f72b11226ca522d798945ec82a18c02220"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(grip-web): public-surface review fixes — installer branding, mobile layout, inspect li",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/29ba15559e102c9213783c39e81dc8de6a2e9349"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(docs): refresh the generated capability-stats line (unblocks all open PRs) (#5324)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/74dc31cf9d91492dc37a1f69ca33ece987082277"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5316 (#5325)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f16a48c7a4b5e8df0500963793a733eec95e408"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(deps-dev): bump browserslist in /apps/grip-web (#5316)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c844c90805b3b49ba9bf58a1020274eafc6ea6a"
         }
       ],
       "key": "stream"
