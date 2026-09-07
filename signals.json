@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gates): SSH gate asks instead of denying; tailnet auto-ratify survives compound comman",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7a78ab722d5e4de65e1042be149fdf774f1b4b6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5343 (#5347)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c6f2bcd8c05b3a23449076101b7e9ce6d9b6dfb7"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(kimi): W0 truth pass — retire kimi-k2.5 and moonshot-v1-*, list kimi-k2.7-code-highspe",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fff13375b172e72c1cd375df52630415d215a59"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5333 (#5334)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a290a98d40119065f2aaf7b14576443326cfedf"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "70 changes / 7 days",
+      "value": "71 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
