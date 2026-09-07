@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5336 (#5339)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7582e3014c33b674b09db18a0e13000f4499ed09"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(pools): Pool D for the Kimi Code subscription, unarmed until a credential exists (W5,",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/12daa7f23f7c68b50d16618ffac4ef283ad7f494"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5323 (#5329)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/19c1ed85eb8c16060552473e4be56f996b3215f3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): patch @xmldom/xmldom and browserslist in grip-mobile (Dependabot alerts 514, 53",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/77d2e94dbf82a8512944ca12ef4799cb01fe72df"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "82 changes / 7 days",
+      "value": "77 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
