@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(kimi): W0 truth pass — retire kimi-k2.5 and moonshot-v1-*, list kimi-k2.7-code-highspe",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fff13375b172e72c1cd375df52630415d215a59"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5333 (#5334)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a290a98d40119065f2aaf7b14576443326cfedf"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5324 (#5327)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/03dfcd591e5eac037e435d4f67b7f26adddf014f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(docs): refresh the generated capability-stats line (unblocks all open PRs) (#5324)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/74dc31cf9d91492dc37a1f69ca33ece987082277"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "79 changes / 7 days",
+      "value": "80 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
