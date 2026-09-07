@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5343 (#5347)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c6f2bcd8c05b3a23449076101b7e9ce6d9b6dfb7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(harness): Kimi Code CLI as a GRIP harness leaf (W4, harness-in-a-harness both ways) (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1d98dc4076f1e271478093d3f4c4433f12368a98"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(kimi): gg++ claude --kimi via the HAL gateway, --direct opt-in for Claude Code and Co",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/83c96b1dba8acf8a3c59dc57de96b42ac62ecaf6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5336 (#5339)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7582e3014c33b674b09db18a0e13000f4499ed09"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5333 (#5334)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a290a98d40119065f2aaf7b14576443326cfedf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(redaction): repair dead default caller that left L2 semantic scan inert (#5333)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3cb398f72b11226ca522d798945ec82a18c02220"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-web): public-surface review fixes — installer branding, mobile layout, inspect li",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/29ba15559e102c9213783c39e81dc8de6a2e9349"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5323 (#5329)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/19c1ed85eb8c16060552473e4be56f996b3215f3"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "71 changes / 7 days",
+      "value": "70 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
