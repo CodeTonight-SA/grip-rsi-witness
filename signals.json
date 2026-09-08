@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "78 changes / 7 days",
+      "value": "74 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/witness"
         }
       ],
-      "tip": "R0: every claim needs specific evidence, a scope that matches it, and a stated falsifier — on any miss, qualify it or drop it."
+      "tip": "A green test that cannot fail is not a check: prove it goes red before you trust it passes."
     }
   ]
 }
