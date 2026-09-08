@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5355 (#5363)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f0b477ee79db7b3d09d0e240d8f137b6edb7f24"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(memory): /forget --release, context-supersede, and rule-deletion coverage (#5355)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cf7c6ee9d0e5b8d3ce371cf111cbd9977365ce2b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(dispatch): refresh the workflow stall-timeout offsets for 2.1.261 (#5358)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/de26cac265912b353407360adf02d5a5d18b5515"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(kimi): the three AGORA DEFER follow-ups — Pool D prose and boundary, --direct message",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/dff11c3bbd19c73ccd014aa16bfbcb33c4d30293"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5340 (#5349)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7e2660e3da8cd2c1307e1fcd39ab4f1e89fee51"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): SSH gate asks instead of denying; tailnet auto-ratify survives compound comman",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7a78ab722d5e4de65e1042be149fdf774f1b4b6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "72 changes / 7 days",
+      "value": "74 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
