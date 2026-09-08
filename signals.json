@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(models): reach GPT-6 Astra by name only, and make the dogfood-domain workflow portabl",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c74badb55341bc9194ea54aa06392b5a0bb2bd3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5365 (#5368)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8e7a444d44cda0ce44210d6b93f94b91f6811d8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(smt): wire the structural mapping kernel into recall and insight consolidation (#5365",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d6548349286cdc72e3ed95f13a024ca75ca51c31"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5355 (#5363)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f0b477ee79db7b3d09d0e240d8f137b6edb7f24"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(continuity): make the settlement floor a real boundary, add the council leg and the wo",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7af6d08ef8f769c8cac47fbfdb8c504e2f3dd414"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5352 (#5354)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a4aa697aee14a6499d423148497b453e9b7a7a1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(grip-post): GRIP skill wrapping the grip-post CLI, with an exit-code gate and the /gr",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f81a9681b70806c5304c6f0eed92266c778c981b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(kimi): the three AGORA DEFER follow-ups — Pool D prose and boundary, --direct message",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dff11c3bbd19c73ccd014aa16bfbcb33c4d30293"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "74 changes / 7 days",
+      "value": "77 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
