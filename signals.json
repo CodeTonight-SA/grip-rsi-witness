@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "perf(continuity): compute the refuted-premise closure once per check, not once per refutat",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/82d0a9fd1400b88b69aa60cba0e2e8a5e4160603"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(forget): prove the deferred-verb refusal, and fix the test that could not see it (#53",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f0bd94165dc4a9fcac137cf1e0fa6f8b578c0ac"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5367 (#5370)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f2e53c340f9e6f247605baa26174f9af12d5b2e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(models): reach GPT-6 Astra by name only, and make the dogfood-domain workflow portabl",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c74badb55341bc9194ea54aa06392b5a0bb2bd3"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(memory): /forget --release, context-supersede, and rule-deletion coverage (#5355)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cf7c6ee9d0e5b8d3ce371cf111cbd9977365ce2b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(dispatch): refresh the workflow stall-timeout offsets for 2.1.261 (#5358)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/de26cac265912b353407360adf02d5a5d18b5515"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5356 (#5361)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fd73fedd6a6ae1ac5729a978c7a0f1f5a625b790"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(continuity): make the settlement floor a real boundary, add the council leg and the wo",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7af6d08ef8f769c8cac47fbfdb8c504e2f3dd414"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "77 changes / 7 days",
+      "value": "80 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
