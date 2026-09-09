@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): reconcile five stranded bot entries (#5344 #5317 #5307 #5305 #5079) (#53",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/00627c486310f73b030c8e7b786a0868c2783e66"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5300 (#5379)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/58d7106dfa7fe23cfb1fb02ed0e603f1d2751a43"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(forget): prove the deferred-verb refusal, and fix the test that could not see it (#53",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f0bd94165dc4a9fcac137cf1e0fa6f8b578c0ac"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5367 (#5370)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f2e53c340f9e6f247605baa26174f9af12d5b2e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "59 changes / 7 days",
+      "value": "60 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/converge-fleet"
         }
       ],
-      "tip": "A green test that cannot fail is not a check: prove it goes red before you trust it passes."
+      "tip": "Declared input must reach the actor — an accepted flag nothing reads is a lie about influence."
     }
   ]
 }
