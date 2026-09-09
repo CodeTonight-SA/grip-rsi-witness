@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5372 (#5376)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/36b6cfcb18073ddce898e4eae5c3e96bbc74d55a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "perf(continuity): compute the refuted-premise closure once per check, not once per refutat",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/82d0a9fd1400b88b69aa60cba0e2e8a5e4160603"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5355 (#5363)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f0b477ee79db7b3d09d0e240d8f137b6edb7f24"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(memory): /forget --release, context-supersede, and rule-deletion coverage (#5355)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cf7c6ee9d0e5b8d3ce371cf111cbd9977365ce2b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "54 changes / 7 days",
+      "value": "55 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
