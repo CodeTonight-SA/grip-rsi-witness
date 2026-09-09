@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5300 (#5379)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/58d7106dfa7fe23cfb1fb02ed0e603f1d2751a43"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(deps): bump fflate in /remotion/grip-explainers (#5300)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/37842e4bc0936e7e86799f891278dfa6598cb183"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(rules): channel limit on negative claims; adjudicable operator-close audit (#5377)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4fecd571569d5b9ead23d7bb6d15cd7473d16c36"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(operational-context): record the HAL push identity that email privacy requires (#5332",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3911c8a45740a61b199f324a09fe226e260aff9"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5372 (#5376)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/36b6cfcb18073ddce898e4eae5c3e96bbc74d55a"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5367 (#5370)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f2e53c340f9e6f247605baa26174f9af12d5b2e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(models): reach GPT-6 Astra by name only, and make the dogfood-domain workflow portabl",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c74badb55341bc9194ea54aa06392b5a0bb2bd3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5365 (#5368)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8e7a444d44cda0ce44210d6b93f94b91f6811d8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(smt): wire the structural mapping kernel into recall and insight consolidation (#5365",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d6548349286cdc72e3ed95f13a024ca75ca51c31"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5355 (#5363)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f0b477ee79db7b3d09d0e240d8f137b6edb7f24"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "55 changes / 7 days",
+      "value": "59 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -78,6 +78,18 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
+          "desc": "Adds a newly announced vendor model to the HAL and GRIP catalogues and wires its",
+          "name": "/dogfood-domain"
+        },
+        {
+          "desc": "The inverse of /remember — free a memory record's slot in the loaded MEMORY",
+          "name": "/forget"
+        },
+        {
+          "desc": "Writes and gates a public post in GRIP's voice - plain language, no hype or shil",
+          "name": "/grip-post"
+        },
+        {
           "desc": "Ranks the candidate next moves before asking anything, derives how each should b",
           "name": "/nextmove"
         },
@@ -88,18 +100,6 @@
         {
           "desc": "Runs a /converge loop whose parallel expert lanes cross-learn — every lane's dis",
           "name": "/converge-fleet"
-        },
-        {
-          "desc": "Find where to watch ANYTHING live, right now, and return the one pointer that ac",
-          "name": "/grip-watch"
-        },
-        {
-          "desc": "Show who is waiting on a reply from you and what they asked, read from your own ",
-          "name": "/owes"
-        },
-        {
-          "desc": "WITNESS — one gesture fusing the short answer, the openable deliverable, and GRA",
-          "name": "/witness"
         }
       ],
       "tip": "A green test that cannot fail is not a check: prove it goes red before you trust it passes."
