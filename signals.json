@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "Merge pull request #5461 from CodeTonight-SA/feat/session-48541-1788997570",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1e546e0ee6a42feca774eb26019983ebf0ef72d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(wa-finding): an unquoted body was never tested against the lane",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e8a6c7904c5863ff31afc19cd89d9209daaa4d2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5457 (#5460)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c39715d813574eab0bdda308c22fac362d90089c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Merge pull request #5457 from CodeTonight-SA/feat/session-48541-1788997570",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/15caae5554c5b8e1724ccb1558d1764252bec328"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(wa-verify): pin the sentence a reader most easily mistakes for a correction",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/adee464b7ac2f34f31fc1b72a7718fbca54451d9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(wa-verify): a \"nearest recomputed quantity\" was reading as a correction",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a7b9ee6916695ba254971e5ff2af010347cfca04"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5453 (#5456)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b0ec42e9616e18a9e912e56da0ec5f09ff063eda"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "Merge pull request #5453 from CodeTonight-SA/feat/session-48541-1788997570",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cc9950fa10d00e14570cc21387c6959e408d0d4d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(wa-repair-composites): remove a fallback that could silently swap the parser",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a06feb4751785ed5ff881234a812bc3adcaaf27"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(test): a real person's name in a lane stem I had just committed",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c35ae4a707776e012e5f7b91ed092ce60fa1ef34"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(wa-repair-composites): turn a part-verified citation into a usable one",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/93e8bbcef35317e6f5cc2b473b65df3d10da5460"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5451 (#5452)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f18d230d82d3337f3b7abe16fa005d278713899a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Merge pull request #5451 from CodeTonight-SA/feat/session-48541-1788997570",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d7029365000b5dd798cb75afefa72e03bfa2371f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(wa-search): force UTF-8 stdio — it would crash on a Windows console",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2cfdd45012c208f0e7822a1e362fd4f620180070"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "188 changes / 7 days",
+      "value": "194 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
