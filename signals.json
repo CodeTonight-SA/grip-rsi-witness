@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hooks): reconcile the hook registry with production, and say what it does not own (clo",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/abf5e321c485ca43f6e7d5d899153c7736ee62fb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5431 (#5434)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f6ee175f208a4d30ae4cfdaf53e203f31cf102cd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(mesh): count only sessions that have actually sent a heartbeat (#5431)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bda781ab1cec8a2d47ae85fceb8983204afe6e65"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5424 (#5430)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a6b27eb71515611df475d55b6e8634b01918bb0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(settings): autoCompactEnabled is canonically true in both profiles (#5424)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4c8ceedf402de727112371c14dc2928fea636a5c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5420 (#5427)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/128ea9c31efd6ba9b0795062e8744e592b273954"
         },
@@ -16,54 +41,29 @@
           "kind": "shipped",
           "tldr": "docs(cos): copy-paste-ready output — fenced code blocks, never blockquotes, for anything t",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cedc26cfb0d1a4784f206d8ca9aea013c1e99e61"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(converge-fleet): the stall guard cannot save a lane whose single compile step exceeds",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/db754054c980e82317deb858d03d7dd3dccc81d9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5411 (#5421)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0f7d8d79269fd805152e71d0b9c058f00436974f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-tree-sync): detect the autostash re-apply conflict instead of reporting success (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/07fcc48f1d193915969593039ab6af6f59e9ed8d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5398 (#5417)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f7363f0f2acd485bbb6cf02f9f507b23218e5ab9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(whatsapp): forensic chronology stack — authorisation gate, coverage limits, export re",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e7a44537c61560745fcde8aa6ae59a7a8cbc135"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "503 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "500 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "131 confirmed / 151 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "85 living genes exported with their fitness scores",
+      "caption": "32 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7405",
+      "value": "gen 7094",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "82 changes / 7 days",
+      "value": "87 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
