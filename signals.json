@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5443 (#5449)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2d37c62f6c4d018734728e418855fb88e67ec0e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(thinking-trace): read each transcript once — dedupe symlinked slugs by inode (#5443)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e6ec7914b4b6b4720ffe8a119ae27fafa948ad3c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5439 (#5445)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ca8795c1a01ca716172aae57d0036acf55aa0b70"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(wa-chronology): make the documented exit code 3 reachable (#5439)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a35e7b86f9474616404af921135f21def6d972d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(continuity): anchor the --state isolation boundary and settle-pass idempotence (#5435",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/39ba5c4d77baf7a33f2c38d04efbd23541392c01"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tree-sync): print unmerged paths the operator can actually paste back (#5433)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b03d6b9c85d777ea5ab9453e753eecd7a14b3f58"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5432 (#5438)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4302d97b8cd97cd3560458601f9e6035a579fa05"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(hooks): reconcile the hook registry with production, and say what it does not own (clo",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/abf5e321c485ca43f6e7d5d899153c7736ee62fb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5431 (#5434)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f6ee175f208a4d30ae4cfdaf53e203f31cf102cd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(mesh): count only sessions that have actually sent a heartbeat (#5431)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bda781ab1cec8a2d47ae85fceb8983204afe6e65"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5424 (#5430)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a6b27eb71515611df475d55b6e8634b01918bb0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(settings): autoCompactEnabled is canonically true in both profiles (#5424)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4c8ceedf402de727112371c14dc2928fea636a5c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5420 (#5427)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/128ea9c31efd6ba9b0795062e8744e592b273954"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(rules): orchestrator context is planning capacity, with a reading-vs-dispatch measure",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/56733a124f69aa3fb19bd0df9459c7fb4b745b44"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "88 changes / 7 days",
+      "value": "94 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
