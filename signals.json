@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5472 (#5476)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/25e5d7ede03479577de190f9102846968ecea6c4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(settings): restore the clear-context option on plan accept, in both profiles (#5472)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1742d566a6101147a86e11cf451d4e290b977d2"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(wa-finding): an unquoted body was never tested against the lane",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e8a6c7904c5863ff31afc19cd89d9209daaa4d2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5457 (#5460)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c39715d813574eab0bdda308c22fac362d90089c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "199 changes / 7 days",
+      "value": "200 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
