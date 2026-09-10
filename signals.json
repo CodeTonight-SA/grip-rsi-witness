@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5381 (#5401)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8047cbdc67f89c241e4b02bb417597295f5034e1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(deps): bump hono from 4.13.2 to 4.13.7 in /mcp-servers/grip-apps (#5394)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b57d62807b0cd5443dbc9868f1bd05f8345b9535"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(deps): bump hono from 4.13.1 to 4.13.7 in /mcp-servers/hal-mcp (#5392)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4af6f0d6da26a39995ecbb110877907991856506"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(deps): bump hono in /mcp-servers/grip-mcp-desktop (#5391)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba00ecac4c7a8dc1747762f31274d77db88e11d8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(deps): bump @vitest/mocker and vitest in /lib/whatsapp-client (#5381)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0d08f66a1bde606f84afc38d52fcd966b8eb019"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5393 (#5397)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c4f441be61be8c810792100427e341d740ab106e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(thinking-trace): preserve reasoning as a non-authoritative diagnostic specimen (#5393",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b88478f45230ab0355bbf3fb4cd9fe7048915a32"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5387 (#5390)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7c70adc6cdd3c2db13d03940e3fe31585073e993"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(continuity): measure predictor precision on a paired corpus and record push premises ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e36c93131bc36d34b9777498391733a55d0f546a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5385 (#5386)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/114e8e22203dcea674ff1edd45fb0aff7211e93c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): scope Gate 3 secrets detection to staged pathspecs, not command text (#5385)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0cac6f7f0bf393aff6f5803da758c03f84e03bce"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5382 (#5384)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b34f42acb32ac0bf7c74829f00dfc1f5b3edde40"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): a declared-but-empty council secret must read absent, not present (#5382)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fb198113bd196d62385ef2f5ab504f8fa22dadf5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): reconcile five stranded bot entries (#5344 #5317 #5307 #5305 #5079) (#53",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/00627c486310f73b030c8e7b786a0868c2783e66"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5300 (#5379)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/58d7106dfa7fe23cfb1fb02ed0e603f1d2751a43"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "64 changes / 7 days",
+      "value": "71 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
