@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5432 (#5438)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4302d97b8cd97cd3560458601f9e6035a579fa05"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hooks): reconcile the hook registry with production, and say what it does not own (clo",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/abf5e321c485ca43f6e7d5d899153c7736ee62fb"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(rules): orchestrator context is planning capacity, with a reading-vs-dispatch measure",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/56733a124f69aa3fb19bd0df9459c7fb4b745b44"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(cos): copy-paste-ready output — fenced code blocks, never blockquotes, for anything t",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cedc26cfb0d1a4784f206d8ca9aea013c1e99e61"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "87 changes / 7 days",
+      "value": "88 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
