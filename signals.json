@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5453 (#5456)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b0ec42e9616e18a9e912e56da0ec5f09ff063eda"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Merge pull request #5453 from CodeTonight-SA/feat/session-48541-1788997570",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cc9950fa10d00e14570cc21387c6959e408d0d4d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(wa-search): force UTF-8 stdio — it would crash on a Windows console",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2cfdd45012c208f0e7822a1e362fd4f620180070"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "refactor(wa-finding): decompose verify() — CC 39 against a limit of 25",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e69ca9d3c36c855abed7efd179101b2bfff5bb83"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "187 changes / 7 days",
+      "value": "188 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
