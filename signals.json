@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5420 (#5427)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/128ea9c31efd6ba9b0795062e8744e592b273954"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(rules): orchestrator context is planning capacity, with a reading-vs-dispatch measure",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/56733a124f69aa3fb19bd0df9459c7fb4b745b44"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(cos): copy-paste-ready output — fenced code blocks, never blockquotes, for anything t",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cedc26cfb0d1a4784f206d8ca9aea013c1e99e61"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(converge-fleet): the stall guard cannot save a lane whose single compile step exceeds",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/db754054c980e82317deb858d03d7dd3dccc81d9"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(whatsapp): forensic chronology stack — authorisation gate, coverage limits, export re",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e7a44537c61560745fcde8aa6ae59a7a8cbc135"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5413 (#5416)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5fa58d8c84502d241d4e9fa3a36abac4faac70c1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(thinking-trace): union across project slugs, race-safe writes, hook e2e test, CLI shim",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/469196b05016ef755e6da03323bf25b29f45ec51"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(continuity): end-to-end settle pass, failure inside settlement, seed and k in the rul",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a516f132eb5d37180dee51d07a679ddaaf128846"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "79 changes / 7 days",
+      "value": "82 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
