@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(settings): restore the clear-context option on plan accept, in both profiles (#5472)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1742d566a6101147a86e11cf451d4e290b977d2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(adr): ADR 0014 — drift-aware ultraprompt picker (#5469)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/455285888579dac67efb0285481d6cb78f28c8cd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5463 (#5471)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/94ff6331847c7e557c12f7e7c12f0fb60943d311"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(delight): fortnight river - the first surface that renders a span of time (#5463)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c26744d5f11178a7cb084190c2f67bbeb46ff2b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5461 (#5462)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/90b0402b3b296da320178a8778eb5e47b0252b96"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5457 (#5460)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c39715d813574eab0bdda308c22fac362d90089c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Merge pull request #5457 from CodeTonight-SA/feat/session-48541-1788997570",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/15caae5554c5b8e1724ccb1558d1764252bec328"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(wa-verify): pin the sentence a reader most easily mistakes for a correction",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/adee464b7ac2f34f31fc1b72a7718fbca54451d9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(wa-verify): a \"nearest recomputed quantity\" was reading as a correction",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a7b9ee6916695ba254971e5ff2af010347cfca04"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5453 (#5456)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b0ec42e9616e18a9e912e56da0ec5f09ff063eda"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "85 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7407",
+      "value": "gen 7408",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "195 changes / 7 days",
+      "value": "199 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
