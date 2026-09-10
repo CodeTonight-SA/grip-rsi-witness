@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5461 (#5462)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/90b0402b3b296da320178a8778eb5e47b0252b96"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Merge pull request #5461 from CodeTonight-SA/feat/session-48541-1788997570",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1e546e0ee6a42feca774eb26019983ebf0ef72d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5453 (#5456)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b0ec42e9616e18a9e912e56da0ec5f09ff063eda"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Merge pull request #5453 from CodeTonight-SA/feat/session-48541-1788997570",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cc9950fa10d00e14570cc21387c6959e408d0d4d"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "85 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7406",
+      "value": "gen 7407",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "194 changes / 7 days",
+      "value": "195 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
