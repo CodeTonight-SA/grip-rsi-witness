@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(adr): ADR 0014 feasibility verdict — three decisions refuted as specified (#5482)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/41137b719a3db807c9000e2cadb493374ebfd124"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5472 (#5476)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/25e5d7ede03479577de190f9102846968ecea6c4"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "Merge pull request #5461 from CodeTonight-SA/feat/session-48541-1788997570",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1e546e0ee6a42feca774eb26019983ebf0ef72d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(wa-finding): an unquoted body was never tested against the lane",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e8a6c7904c5863ff31afc19cd89d9209daaa4d2"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "200 changes / 7 days",
+      "value": "201 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
