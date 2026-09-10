@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gates): scope Gate 3 secrets detection to staged pathspecs, not command text (#5385)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0cac6f7f0bf393aff6f5803da758c03f84e03bce"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5382 (#5384)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b34f42acb32ac0bf7c74829f00dfc1f5b3edde40"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(agora): a declared-but-empty council secret must read absent, not present (#5382)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fb198113bd196d62385ef2f5ab504f8fa22dadf5"
         },
@@ -31,39 +41,29 @@
           "kind": "shipped",
           "tldr": "docs(operational-context): record the HAL push identity that email privacy requires (#5332",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3911c8a45740a61b199f324a09fe226e260aff9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5372 (#5376)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/36b6cfcb18073ddce898e4eae5c3e96bbc74d55a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "perf(continuity): compute the refuted-premise closure once per check, not once per refutat",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/82d0a9fd1400b88b69aa60cba0e2e8a5e4160603"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "502 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "503 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "131 confirmed / 151 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "84 living genes exported with their fitness scores",
+      "caption": "85 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7400",
+      "value": "gen 7403",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "59 changes / 7 days",
+      "value": "61 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
