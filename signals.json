@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5387 (#5390)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7c70adc6cdd3c2db13d03940e3fe31585073e993"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(continuity): measure predictor precision on a paired corpus and record push premises ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e36c93131bc36d34b9777498391733a55d0f546a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5385 (#5386)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/114e8e22203dcea674ff1edd45fb0aff7211e93c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gates): scope Gate 3 secrets detection to staged pathspecs, not command text (#5385)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0cac6f7f0bf393aff6f5803da758c03f84e03bce"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5300 (#5379)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/58d7106dfa7fe23cfb1fb02ed0e603f1d2751a43"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(deps): bump fflate in /remotion/grip-explainers (#5300)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/37842e4bc0936e7e86799f891278dfa6598cb183"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): channel limit on negative claims; adjudicable operator-close audit (#5377)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4fecd571569d5b9ead23d7bb6d15cd7473d16c36"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(operational-context): record the HAL push identity that email privacy requires (#5332",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3911c8a45740a61b199f324a09fe226e260aff9"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "85 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7403",
+      "value": "gen 7404",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "61 changes / 7 days",
+      "value": "64 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
