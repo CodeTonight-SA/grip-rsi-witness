@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "Merge pull request #5453 from CodeTonight-SA/feat/session-48541-1788997570",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cc9950fa10d00e14570cc21387c6959e408d0d4d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(wa-repair-composites): remove a fallback that could silently swap the parser",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a06feb4751785ed5ff881234a812bc3adcaaf27"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(test): a real person's name in a lane stem I had just committed",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c35ae4a707776e012e5f7b91ed092ce60fa1ef34"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(wa-repair-composites): turn a part-verified citation into a usable one",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/93e8bbcef35317e6f5cc2b473b65df3d10da5460"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5451 (#5452)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f18d230d82d3337f3b7abe16fa005d278713899a"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "refactor(wa-finding): decompose verify() — CC 39 against a limit of 25",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e69ca9d3c36c855abed7efd179101b2bfff5bb83"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(wa): purge a real family from code bound for a client-mirrored repo",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b1e68141933c73273a090d82c999b91ab94fb870"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(wa-intent): an unanswered reading is undecided, not a disagreement",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cc9c693002690566f1d8b7034b48efbfd34e470e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(wa-intent): both sides, counted twice — the figure the brief asked for",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e424b8d5e788b90e1e538d3c14a1c3f8e4ca5788"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(wa-intent): make a long pass legible while it is still running",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e139514c2b0721daf83881d01e8b172cccbbe1af"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "183 changes / 7 days",
+      "value": "187 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
