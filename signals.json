@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(agora): a declared-but-empty council secret must read absent, not present (#5382)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fb198113bd196d62385ef2f5ab504f8fa22dadf5"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): reconcile five stranded bot entries (#5344 #5317 #5307 #5305 #5079) (#53",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/00627c486310f73b030c8e7b786a0868c2783e66"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "perf(continuity): compute the refuted-premise closure once per check, not once per refutat",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/82d0a9fd1400b88b69aa60cba0e2e8a5e4160603"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(forget): prove the deferred-verb refusal, and fix the test that could not see it (#53",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f0bd94165dc4a9fcac137cf1e0fa6f8b578c0ac"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "58 changes / 7 days",
+      "value": "59 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
