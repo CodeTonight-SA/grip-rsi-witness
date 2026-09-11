@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5529 (#5530)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8932d42ce96d4debf4e1586de7a5359ccb600ae7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(redaction): two denylist terms I added tonight were pure false positives (#5529)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b792328ce2e44da575f952573ac52defcf56e2c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurement): the context chain is in 52 pieces, not destroyed (#5525)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c92f0b519714deb99192624a7df6a7eb85886e0d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): record the vitest bump whose bot branch went stale (#5522)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e9c915fc82b38ee347ecad6b3bfd79d44a81e355"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5521 (#5523)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b11e3d0d181a848d0f1b745ec5fdd115483c73a9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(idr): mint the genesis record that opens the signed era, dry-run by default (#5521)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6d8f69abc5f08b44d5f2b333f935efedc6e9b357"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5497 (#5519)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/64afbdc5c1e935848b29ddd51e9395827c47e5ed"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(hitl+modes): form-input schema, kind-aware validator, and a mode-field audit (#5497)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/66940fbb9ef51a7754dc0f233067979669ab91b6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5512 (#5516)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bcebb1d538711644a6b520a7b161f368ab9bc662"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gitignore): the rule meant to stop the key being committed never matched it (#5512)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d3b047e8eb4f8b328a77d2ab00f04ff13b764e4e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): record two entries whose bot branches went stale (#5511)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c316c758581ed182f8a72c3bc24545ba3712032"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5503 (#5514)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b1b8d236a9ec3a31df9aec42460f24a4c8c3fc4e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5507 (#5513)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/24f2a10e0870b7ead12cfa539c2c841e5172c629"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(idr): freeze a ledger era into a reproducible fingerprint (#5503)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c39904a8cfd31e4f857181ee070d5d23cd4bbd87"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "85 living genes exported with their fitness scores",
+      "caption": "86 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7415",
+      "value": "gen 7417",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "226 changes / 7 days",
+      "value": "232 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Documents Claude Code's form-input schema for AskUserQuestion — the typed questi",
+          "name": "/creating-form-input"
+        },
         {
           "desc": "Adds a newly announced vendor model to the HAL and GRIP catalogues and wires its",
           "name": "/dogfood-domain"
@@ -96,10 +100,6 @@
         {
           "desc": "Commits under the operator's second GitHub identity (architext1) instead of the ",
           "name": "/pseudocommit"
-        },
-        {
-          "desc": "Runs a /converge loop whose parallel expert lanes cross-learn — every lane's dis",
-          "name": "/converge-fleet"
         }
       ],
       "tip": "The shared tree is not canonical: resolve any decision-gating read against origin/main."
