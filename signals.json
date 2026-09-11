@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "The weekly dependency audit could only ever report zero (#5531)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/62e0371f54c2974598c9fc51e5d976900f69936a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurement): narrow my own recommendation — the privacy ratchet drifted (#5540)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/981047b514c33244a24af4ced45c70f0dc19a20c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5534 (#5539)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b11bf81276d1748155fbadae170f99d3c04a4d76"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(harness): Antepaste MCP reach — port 2547 registry entry, Codex HTTP and OpenCode rem",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cb90748b317504ebf79bf74b05db92fbc9bbc0ef"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurement): CI runs 9 of 1,576 test files on a pull request (#5538)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f6f4cb81c6dc1e72b14c224d56c75711a5378c6e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5532 (#5537)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/db6357f48b85c40d2f57cc8d49a96b97ea235287"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5529 (#5530)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8932d42ce96d4debf4e1586de7a5359ccb600ae7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(redaction): two denylist terms I added tonight were pure false positives (#5529)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b792328ce2e44da575f952573ac52defcf56e2c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurement): the context chain is in 52 pieces, not destroyed (#5525)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c92f0b519714deb99192624a7df6a7eb85886e0d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): record the vitest bump whose bot branch went stale (#5522)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e9c915fc82b38ee347ecad6b3bfd79d44a81e355"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5521 (#5523)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b11e3d0d181a848d0f1b745ec5fdd115483c73a9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(idr): mint the genesis record that opens the signed era, dry-run by default (#5521)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6d8f69abc5f08b44d5f2b333f935efedc6e9b357"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "234 changes / 7 days",
+      "value": "239 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
