@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(professional-pdf): Antepaste PDF variant (asset-only) (#5550)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdb55f24e7a1536fcfaceaa374a187fc206a8444"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5518 (#5548)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a493bf3307d25127937e1a23c08074cd41db33ab"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(measurement): narrow my own recommendation — the privacy ratchet drifted (#5540)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/981047b514c33244a24af4ced45c70f0dc19a20c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5534 (#5539)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b11bf81276d1748155fbadae170f99d3c04a4d76"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "244 changes / 7 days",
+      "value": "245 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
