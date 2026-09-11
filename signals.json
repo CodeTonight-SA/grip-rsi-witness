@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5543 (#5547)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7331d7e9e470c8145091a097e3462073a89698c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(antepaste): ClipHistoryColdStore adapter, .mcp.json registration, operational-context",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/381190c76283e9e3908de0a7c6ec5118bfc74af9"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5531 (#5542)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f8f16abffb4cade048444ae9267a85f65f85d96f"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(measurement): CI runs 9 of 1,576 test files on a pull request (#5538)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f6f4cb81c6dc1e72b14c224d56c75711a5378c6e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5532 (#5537)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/db6357f48b85c40d2f57cc8d49a96b97ea235287"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(publish): a missing denylist published unshielded instead of refusing (#5532)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f4aa730813598a167097840041ce97272f4d3ff0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "240 changes / 7 days",
+      "value": "242 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
