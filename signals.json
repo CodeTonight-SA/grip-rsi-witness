@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5485 (#5488)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/081c6496ec09272089cdc015dea4fa6ddb8cdfb9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Canonical block ends with a paste-ready next step; the manifest stops sprawling (#5485)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0791e273a050e29f1327ec074e1a02a9c54d1bc1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(adr): ADR 0014 feasibility verdict — three decisions refuted as specified (#5482)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/41137b719a3db807c9000e2cadb493374ebfd124"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(delight): fortnight river - the first surface that renders a span of time (#5463)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c26744d5f11178a7cb084190c2f67bbeb46ff2b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5461 (#5462)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/90b0402b3b296da320178a8778eb5e47b0252b96"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Merge pull request #5461 from CodeTonight-SA/feat/session-48541-1788997570",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1e546e0ee6a42feca774eb26019983ebf0ef72d"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "85 living genes exported with their fitness scores",
+      "caption": "32 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7410",
+      "value": "gen 7094",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "201 changes / 7 days",
+      "value": "203 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
