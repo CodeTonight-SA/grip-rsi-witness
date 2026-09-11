@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5531 (#5542)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f8f16abffb4cade048444ae9267a85f65f85d96f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "The weekly dependency audit could only ever report zero (#5531)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/62e0371f54c2974598c9fc51e5d976900f69936a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(publish): a missing denylist published unshielded instead of refusing (#5532)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f4aa730813598a167097840041ce97272f4d3ff0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5529 (#5530)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8932d42ce96d4debf4e1586de7a5359ccb600ae7"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "239 changes / 7 days",
+      "value": "240 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
