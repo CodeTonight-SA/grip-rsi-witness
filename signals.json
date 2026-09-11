@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5532 (#5537)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/db6357f48b85c40d2f57cc8d49a96b97ea235287"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(publish): a missing denylist published unshielded instead of refusing (#5532)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f4aa730813598a167097840041ce97272f4d3ff0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5529 (#5530)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8932d42ce96d4debf4e1586de7a5359ccb600ae7"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(idr): mint the genesis record that opens the signed era, dry-run by default (#5521)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6d8f69abc5f08b44d5f2b333f935efedc6e9b357"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5497 (#5519)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/64afbdc5c1e935848b29ddd51e9395827c47e5ed"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(hitl+modes): form-input schema, kind-aware validator, and a mode-field audit (#5497)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66940fbb9ef51a7754dc0f233067979669ab91b6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "232 changes / 7 days",
+      "value": "234 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
