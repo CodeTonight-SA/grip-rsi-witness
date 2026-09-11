@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "fix(idr): the outside auditor's loader discarded every root record (#5490)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/606ee2d37110efcf3059e03262d5bec9b8d17cd1"
+          "tldr": "chore(changelog): update for PR #5497 (#5519)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/64afbdc5c1e935848b29ddd51e9395827c47e5ed"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(deps): bump sharp in /mcp-servers/grip-channel (#5403)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/27d413dd3d2983afa3fb859aa9341cba0fa11525"
+          "tldr": "feat(hitl+modes): form-input schema, kind-aware validator, and a mode-field audit (#5497)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66940fbb9ef51a7754dc0f233067979669ab91b6"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(deps): bump js-yaml from 4.3.1 to 4.3.2 in /apps/grip-mobile (#5405)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b0a712dc5db179a87686ff3b009bba328d7c1dcb"
+          "tldr": "chore(changelog): update for PR #5512 (#5516)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bcebb1d538711644a6b520a7b161f368ab9bc662"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5483 (#5492)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8cc89779040eb6b8c4ecfeb6d19ce2e32883dce7"
+          "tldr": "fix(gitignore): the rule meant to stop the key being committed never matched it (#5512)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d3b047e8eb4f8b328a77d2ab00f04ff13b764e4e"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(ultraprompt): read a brief's byline the way a human writes one (#5483)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0a89e30f83f459dec7647d19f437379efa7cce43"
+          "tldr": "chore(changelog): record two entries whose bot branches went stale (#5511)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c316c758581ed182f8a72c3bc24545ba3712032"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5487 (#5489)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2eaa774a5749d12980b6591dc2920a4d9b12a4f"
+          "tldr": "chore(changelog): update for PR #5503 (#5514)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b1b8d236a9ec3a31df9aec42460f24a4c8c3fc4e"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(redaction): the public profile was blind, and new entries were silently inert (#5487)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eb4bc8b626f72869a8dd70ccab2f9aa28ee2abed"
+          "tldr": "chore(changelog): update for PR #5507 (#5513)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/24f2a10e0870b7ead12cfa539c2c841e5172c629"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5485 (#5488)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/081c6496ec09272089cdc015dea4fa6ddb8cdfb9"
+          "tldr": "feat(idr): freeze a ledger era into a reproducible fingerprint (#5503)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c39904a8cfd31e4f857181ee070d5d23cd4bbd87"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "85 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7414",
+      "value": "gen 7415",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "210 changes / 7 days",
+      "value": "226 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
