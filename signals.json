@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5554 (#5557)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/64bdbc8b45c15a50add54154b0ea9bc1278d1441"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gate-n): narrow workflow-edit deny to fork PRs (#5554)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/12711c17530d59167a6f9d4a16e09b9a0a422d02"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5550 (#5552)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1539021cb17ad8ab2415c58ecd950f06cc80c07d"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(antepaste): ClipHistoryColdStore adapter, .mcp.json registration, operational-context",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/381190c76283e9e3908de0a7c6ec5118bfc74af9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5531 (#5542)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f8f16abffb4cade048444ae9267a85f65f85d96f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "The weekly dependency audit could only ever report zero (#5531)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/62e0371f54c2974598c9fc51e5d976900f69936a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "236 changes / 7 days",
+      "value": "238 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
