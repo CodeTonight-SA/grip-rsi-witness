@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5573 (#5576)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/92c609d75a36cd858450ec1879bcbe5ecb43436a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "rule(paramount): every substantive response closes with RECOMMENDED BEST ACTION next (#557",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ffab0465d820b0c2479dad8b31c28847d5e59f49"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5568 (#5575)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4521947fba50cc2ce65853a52d8af1263d51bd21"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(idr): resolve a dual-sign-capable interpreter before writing a record (#5568)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e8b2b136c5401a5d34b5487bbe14fc100c51b8a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5570 (#5571)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5303c4900f142806604b1895c9adce969eb25e3c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(judgement): persist the answer the council graded, so variance is attributable (#5570)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/43753cf6987c54ef0d49379b0ff74f0587dabc53"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5565 (#5566)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1aab32dfa4c386a89cf0b3066bde78e526978d3f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Make the RSI loop real: repair the four mechanisms that never ran, and measure one (#5565)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a4debeff962ff97e2b3b1e98692dcbf5cf76f4e3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5561 (#5563)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b5760fa58c99dd866fb567834d2c6d2e12ebcb4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): drop the per-speaker grounding rule, which has never once been right (#5561)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/685824774a56aa9db483930e4faf6d1dcf048343"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5556 (#5560)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/686ce78b8db77a1ffc9416cdcd0c6c7138c7c864"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(skill): adding-agora-ci-workflow — install the AGORA council gate on any repository (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e99deeb299e78aa45a316a32ffd581a45d5728ee"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7425",
+      "value": "gen 7428",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "242 changes / 7 days",
+      "value": "247 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
