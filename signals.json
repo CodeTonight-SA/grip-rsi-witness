@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(surfacing-skills): name the 220 constants + unit-test the generator (#5621) (#5623)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5bad90f3ce33ce1377f466079db380ed541516c4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5620 (#5622)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cca05ee157da251d163333f22459d10deb73d7e9"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(agora): direct unit test for the CCH rung CI gate (#5601 follow-up) (#5613)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a7944686586b585c776c6a01e98fba0e87243203"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(save): run /save under the GRIP venv, not bare python3 (#5610)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7860649b25a169c65c9c5747b71692af1bfba937"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "263 changes / 7 days",
+      "value": "264 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
