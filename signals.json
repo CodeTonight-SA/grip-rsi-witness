@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5536 (#5627)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/837147027e6f742ed822fbb243c49d3ee1cdbe34"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(agora): declare a diff the council could not read (#5536)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1983aa42561d594e8f6d57c193ce715ff4f227ca"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(surfacing-skills): name the 220 constants + unit-test the generator (#5621) (#5623)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5bad90f3ce33ce1377f466079db380ed541516c4"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(ultrareason): assert every skill-documented import resolves (#4194) (#5616)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/68f693cf52b545fd0b8efb2b156ca3faae8c7f10"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(save): close the venv-scope inconsistency in saving-state (#5611) (#5614)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ca82e8fe2956439d1146715f31a78fa0d397acca"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(agora): direct unit test for the CCH rung CI gate (#5601 follow-up) (#5613)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a7944686586b585c776c6a01e98fba0e87243203"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7435",
+      "value": "gen 7439",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "264 changes / 7 days",
+      "value": "266 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
