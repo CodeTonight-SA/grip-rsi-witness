@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(judgement): persist the answer the council graded, so variance is attributable (#5570)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/43753cf6987c54ef0d49379b0ff74f0587dabc53"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(ci): fix AGORA workflow header drift — secrets comment now matches the live speaker s",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f5c966cbb30ebb71006d148a5736dae47fb15ac1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5565 (#5566)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1aab32dfa4c386a89cf0b3066bde78e526978d3f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Make the RSI loop real: repair the four mechanisms that never ran, and measure one (#5565)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a4debeff962ff97e2b3b1e98692dcbf5cf76f4e3"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(skill): adding-agora-ci-workflow — install the AGORA council gate on any repository (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e99deeb299e78aa45a316a32ffd581a45d5728ee"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5554 (#5557)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/64bdbc8b45c15a50add54154b0ea9bc1278d1441"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gate-n): narrow workflow-edit deny to fork PRs (#5554)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/12711c17530d59167a6f9d4a16e09b9a0a422d02"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5550 (#5552)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1539021cb17ad8ab2415c58ecd950f06cc80c07d"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "239 changes / 7 days",
+      "value": "242 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
