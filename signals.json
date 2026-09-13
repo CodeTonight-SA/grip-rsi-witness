@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5593 (#5602)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9995d165fc7a0755285317d6d33fa95420521bed"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(agora): gate the CCH rung's keychain fallback on _in_ci() (#5589)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a97a9ff39fcc9a10b7f1e907fb7d1515a4b61284"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(continuity): premise variance measured — r=0.529, deliverable 2 not required (#5600)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a4f92a7fbf865f5a0372e00871760bb9f2911c3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(guardrail): exempt documentation intent — cut doc false positives, keep every deny (#5",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/247f01660e28fcd1f1a820f998c7443d70b22aa9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(floorplan,artifact_accuracy): scaled floor-plan renderer + accuracy instruments (#559",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2bcfde00a94e8a23b3d91757c822f4e0a65d0fe"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(org_repo_graph): fail loud when mmdc cannot render SVGs (#5593)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9fac99b7c8d733e4cbc039fce15dbd1ea0f4b6c1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5590 (#5596)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb772d808430f86b1e2678c8c0c443b4749ff75e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(forensics): cover the product repos + race-resilient verify (#5590)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/226a70d00dbf082c4ef32b60455ca9670e9a2c5c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5586 (#5588)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7dc240c41d2dcad09435cc85b2bda6c8a5ac66bd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-hear): close the GRIP#5399 sys.modules race — exec before register (#5586)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/475c4da204c07837f2bc2564892d2b7b166c443b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5584 (#5585)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dde3dde7826cf3dda3d50845bd718938db552c0d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(opencode): point the top-level model at the chosen model on rewire (#5584)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/485620792dcfa8c6cac45120fd0841bdaf82f7b8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5474 (#5583)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d31a1700de9e5abff0a45b0cc7bab8b6705a75a2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): ground a review that cites a file with its middle elided (#5474)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/97d16e0c0d7e6d3fc9190519701726e6ea6d8ca4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5579 (#5581)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/019a7f0986a035d082202bdd9a3e99acdf72e7af"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "253 changes / 7 days",
+      "value": "260 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
