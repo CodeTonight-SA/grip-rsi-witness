@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5642 (#5645)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c35773963e61f38c67070f0b0fd8bbb635694a9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(agora): recover >300-file diffs in robust_pr_diff rung 4 (#5642)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7d8cc9c54519f6f8e9b80f1dec3e11f76087dbbc"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5625 (#5637)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/617e4f22df626435273eaafa22c7a2faa299c629"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(agora): a no-concerns speaker citing no file is not a hallucination (#5494) (#5625)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc3d46092470ac7ea87fcef9515d8a5d52c82909"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(agpl): gate-c no longer fails red on PairedRow with nothing behind it (#5526)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9da49af38c12f1d09da44c45b9987e4b390fe196"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5536 (#5627)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/837147027e6f742ed822fbb243c49d3ee1cdbe34"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): declare a diff the council could not read (#5536)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1983aa42561d594e8f6d57c193ce715ff4f227ca"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(surfacing-skills): name the 220 constants + unit-test the generator (#5621) (#5623)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5bad90f3ce33ce1377f466079db380ed541516c4"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7449",
+      "value": "gen 7450",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "270 changes / 7 days",
+      "value": "273 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
