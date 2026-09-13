@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5620 (#5622)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cca05ee157da251d163333f22459d10deb73d7e9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(surfacing-skills): emit portable skill paths + sentence-bounded descriptions (#5515) (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/adfbd6b4db191c8c3351169e1b49afe2a8db528b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5617 (#5619)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f4ca2ee4397db5e795eca37a9f512f2b7a695e47"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(save): run /save under the GRIP venv, not bare python3 (#5610)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7860649b25a169c65c9c5747b71692af1bfba937"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5606 (#5609)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f5728c187c456dc9d0335ba98094c7862aab1ba6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(org_repo_graph): drop the mmdc subcommand arg — mermaid-cli v11 rejects it (#5606)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a18226aeec30dfdcda3dddb5bd18b195e8106148"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7433",
+      "value": "gen 7435",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "270 changes / 7 days",
+      "value": "272 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
