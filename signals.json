@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(handover): cc-session forensics + always-ready auto handover (#5579)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/387e65e1618663f1f226eb950e09af41de5835bd"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5573 (#5576)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/92c609d75a36cd858450ec1879bcbe5ecb43436a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(ci): fix AGORA workflow header drift — secrets comment now matches the live speaker s",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f5c966cbb30ebb71006d148a5736dae47fb15ac1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5565 (#5566)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1aab32dfa4c386a89cf0b3066bde78e526978d3f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "247 changes / 7 days",
+      "value": "248 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
