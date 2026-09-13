@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(forensics): cover the product repos + race-resilient verify (#5590)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/226a70d00dbf082c4ef32b60455ca9670e9a2c5c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5586 (#5588)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7dc240c41d2dcad09435cc85b2bda6c8a5ac66bd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(grip-hear): close the GRIP#5399 sys.modules race — exec before register (#5586)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/475c4da204c07837f2bc2564892d2b7b166c443b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5584 (#5585)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dde3dde7826cf3dda3d50845bd718938db552c0d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(opencode): point the top-level model at the chosen model on rewire (#5584)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/485620792dcfa8c6cac45120fd0841bdaf82f7b8"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5579 (#5581)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/019a7f0986a035d082202bdd9a3e99acdf72e7af"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(handover): cc-session forensics + always-ready auto handover (#5579)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/387e65e1618663f1f226eb950e09af41de5835bd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5573 (#5576)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/92c609d75a36cd858450ec1879bcbe5ecb43436a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "rule(paramount): every substantive response closes with RECOMMENDED BEST ACTION next (#557",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ffab0465d820b0c2479dad8b31c28847d5e59f49"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5568 (#5575)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4521947fba50cc2ce65853a52d8af1263d51bd21"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "250 changes / 7 days",
+      "value": "253 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
