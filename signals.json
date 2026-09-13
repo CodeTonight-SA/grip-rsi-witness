@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(agora): a no-concerns speaker citing no file is not a hallucination (#5494) (#5625)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc3d46092470ac7ea87fcef9515d8a5d52c82909"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5629 (#5635)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d3e120e7078deab7819db3d181db413e65aff785"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(idr): the install instruction named a version that cannot sign, and the writer detecto",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/547911d0a3ae78dc1803d792262931c9809cf322"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5526 (#5634)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3792941a2f2aa012c120efd032e34c7c3016481f"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "test(surfacing-skills): name the 220 constants + unit-test the generator (#5621) (#5623)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5bad90f3ce33ce1377f466079db380ed541516c4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5620 (#5622)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cca05ee157da251d163333f22459d10deb73d7e9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(surfacing-skills): emit portable skill paths + sentence-bounded descriptions (#5515) (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/adfbd6b4db191c8c3351169e1b49afe2a8db528b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5617 (#5619)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f4ca2ee4397db5e795eca37a9f512f2b7a695e47"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7446",
+      "value": "gen 7449",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "267 changes / 7 days",
+      "value": "270 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
