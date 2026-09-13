@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7420",
+      "value": "gen 7423",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "239 changes / 7 days",
+      "value": "238 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
