@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "Make the RSI loop real: repair the four mechanisms that never ran, and measure one (#5565)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a4debeff962ff97e2b3b1e98692dcbf5cf76f4e3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5561 (#5563)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b5760fa58c99dd866fb567834d2c6d2e12ebcb4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(agora): drop the per-speaker grounding rule, which has never once been right (#5561)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/685824774a56aa9db483930e4faf6d1dcf048343"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5556 (#5560)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/686ce78b8db77a1ffc9416cdcd0c6c7138c7c864"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5550 (#5552)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1539021cb17ad8ab2415c58ecd950f06cc80c07d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(professional-pdf): Antepaste PDF variant (asset-only) (#5550)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdb55f24e7a1536fcfaceaa374a187fc206a8444"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5518 (#5548)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a493bf3307d25127937e1a23c08074cd41db33ab"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): a speaker with no concerns cites no file, and is not a hallucination (#5518)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66cab0f614b901f7cce84f0b5842e378dfc89bc5"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7424",
+      "value": "gen 7425",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "236 changes / 7 days",
+      "value": "239 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
