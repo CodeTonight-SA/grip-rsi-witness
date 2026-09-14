@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(hypothesis): fixtures registered a metric no collector knows (#5784)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c5c176133653359e55614fad10747c5ad133ede"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5780 (#5783)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7d648c72f18d97b6a0abff883ec13dcd65a8cb5b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(agora): make a judge parse failure diagnosable, and invert a test that demanded a reti",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/147f24ce7279dff6fdd2ebe836540984959b977e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5773 (#5779)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/055fa4c90f2f92e908a3dd4c75d3c68525ac89d5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): the deps-install anchors read the checkout, not a scratch directory (#5773)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/50dcd2581d40d5bddc388b5c9b5dd057b9491169"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(gates): repair 15 tests that graded a stale path and two ratified changes (#5776)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/004f4f4b37bfa40d1cf9b90f8b734fabdd207f72"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(hooks): give the noise-regression suite a private context_gate (#5774)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8ffbad6934a38469f8f7a76827052ad2df61ebf"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(deps): assert what the dependency audit can actually prove (#5770)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3adb95f44cbaeab35fe526324eabc551b1663619"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(sweep): assert bin/ coverage as a ratio against the real repository (#5771)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/38498880badac8bff2c0625f951dac28cd3e4657"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5765 (#5767)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb5dc91e00c66fb9023b605f6563db1e2deecdb9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): point the workflow-yaml validator at data/aide, not data/copilot (#5765)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3598d6c60fc5f196aa79a3b9351c2a7c0cfd519d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(gate-r): assert the schema the cross-org gate actually emits (#5764)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba1db19748989779637c8102565d545a9ad1c9f7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(gates): repair 14 red tests, all of them test-side (#5761)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/88984bb6e023a9abc4c249eb48a0938303f1f8b7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5758 (#5760)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c648a485a759fd5d4a09b0333e090601b4c8fd4a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): scope concern extraction to concerns sections, so praise is not reported as a ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ce04cb6c26efd069b8fe251b2839d01ebce1f9d"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "339 changes / 7 days",
+      "value": "346 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Runs a five-stage acceptance gauntlet (LEARN, INSTALL SAFELY, DRY-RUN, interacti",
+          "name": "/proving-ground"
+        },
         {
           "desc": "Install the AGORA Council PR-review CI workflow into ANY GitHub repository — cop",
           "name": "/adding-agora-ci-workflow"
@@ -96,10 +100,6 @@
         {
           "desc": "Writes and gates a public post in GRIP's voice - plain language, no hype or shil",
           "name": "/grip-post"
-        },
-        {
-          "desc": "Ranks the candidate next moves before asking anything, derives how each should b",
-          "name": "/nextmove"
         }
       ],
       "tip": "Exogenous-anchor law: a loop is only valid if a process it cannot please evaluates the exit."
