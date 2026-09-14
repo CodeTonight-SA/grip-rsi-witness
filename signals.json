@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5662 (#5665)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/821896fe910307414d437106247092853dfbf8db"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(precog): track the canonical HAPPI runtime version, which had gone stale (#5662)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/40b4e7f70683db6c42a9db1624bf438b5f5da6c9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5659 (#5661)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a1a9d53689cf7c04db1434686c7a0f7adff647c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(asset-counter): count what GRIP contains, not what plugins symlink into it (#5659)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7d629490090882d2da9819914fae675847853cc"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5643 (#5658)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5a964d77ae3a0d4a19690f76fded61e9e009f023"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore: track three shared-tree files that existed only on one disk, redacted (#5648)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2839524f674ec965fadafe52d492276af4be555"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5651 (#5655)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecf27cd59ab7f61e863b8517f51a7e8a45c75675"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(skills): regenerate proxy commands with portable paths (#5515) (#5651)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1ead135c7807f39866be82ca215aa34be0d47ba6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5640 (#5649)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2dbeb5464f97d84ee1f4b9251edd8259afafb59"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: never run GRIP code under the system python (closes the forgeable-seal path) (#5640)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9225bfb11163272d9f3d84866df9820c9c0add3a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "281 changes / 7 days",
+      "value": "285 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
