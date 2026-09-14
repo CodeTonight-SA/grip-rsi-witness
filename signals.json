@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "test(relay): pin the recorded capability key set, so a new kwarg cannot go unasserted (#59",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/147518ee3fb8f13a08ba7a4308b0bad81326851a"
+          "tldr": "test(auto): assert who owns the legacy command, not how the stub is quoted (#5970)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f026d971898dc188d490f4f5662be156a23890d7"
         },
         {
           "kind": "shipped",
-          "tldr": "test(mutual-auth): assert the real (ok, consumed) contract, and cover the replay branch (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d82a790f8972c55b3d006ca2d3fcc788acad8f3"
+          "tldr": "test(agora): stub subprocess with a real CompletedProcess, not None (#5968)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d269c2f749a10b4a2dbfccb75a00b5b9529cd9f5"
         },
         {
           "kind": "shipped",
-          "tldr": "test(doubles): repair nine test doubles whose signatures drifted from production (#5956)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2e12ad9a36852868e76887833066700224937765"
+          "tldr": "test(about): grade the page that shipped, not the one it replaced (#5963)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b403c4574db904f5bc9abcdeac8c5f0ec5a5bfec"
         },
         {
           "kind": "shipped",
-          "tldr": "test(insight-deny): read the hook's real verdict shape, not the legacy flat keys (#5954)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/769bd518979e42bafaaa0f34b815c81cbea008b1"
+          "tldr": "chore(changelog): update for PR #5891 (#5967)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce7abb0f350473244b17878d9f8aef1ebb816679"
         },
         {
           "kind": "shipped",
-          "tldr": "test(infra-gate): say Gate T is disabled instead of grading a constant (#5952)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5eb8b7ff648bc2f8c8f515d9158efd2e0d44abfa"
+          "tldr": "rule(paramount): an AGORA downgrade is not a refutation (#5891)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3415d6b341a9db16870fde10468adec9047e8dad"
         },
         {
           "kind": "shipped",
-          "tldr": "test(slack-notify): grade the Block Kit payload, not the accessibility fallback (#5950)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e71aa9fce78e8ec3492a364099177f02ff94e321"
+          "tldr": "chore(changelog): update for PR #5962 (#5965)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b258e068ac807d83db10db773b41380eb8045f99"
         },
         {
           "kind": "shipped",
-          "tldr": "test(relay): extract the capability assertion, and prove every kill survives it (#5946)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8618b5228426a45faebfdc0af8a1fe88c991b04c"
+          "tldr": "fix(test): kono_schema's test required the very module it mocks to avoid (#5962)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e0980d75288f0eb90eec404b1f403340c0045d5"
         },
         {
           "kind": "shipped",
-          "tldr": "test(rwa): skip the deliverable gate where the deliverable no longer exists (#5949)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7678dcfc8ca8df7104db909488c114bf68ce0a81"
+          "tldr": "test(aide): say the standup handler is dead instead of grading a module that is gone (#596",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a66187e41a7ffacaa61b8b5f74a823d0461c7722"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "444 changes / 7 days",
+      "value": "452 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
