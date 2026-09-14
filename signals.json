@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(syntax-gate): raise the coverage floor and anchor the directory-vs-prefix distinction",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b8f0c3e42e24d556f1e9850ede755ff8291bd57"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(reaper): sandbox the default-archive test against its own mutation (#5988)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b014cb10b2591042068383720f616fda0823246f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(ci): the CC ratchet reported a pass for a diff it never ran (#5975)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f4a34ddaa0dd40e2a28c1f51fb1a0c7620b861b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(3139): archive the SKILL, not the directory the launcher reads (#5977)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/34a0a1748acf2796eea8a0d463e4bff848c27cfb"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "461 changes / 7 days",
+      "value": "462 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
