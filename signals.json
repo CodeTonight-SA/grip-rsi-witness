@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(sweep): assert bin/ coverage as a ratio against the real repository (#5771)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/38498880badac8bff2c0625f951dac28cd3e4657"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5765 (#5767)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb5dc91e00c66fb9023b605f6563db1e2deecdb9"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(requirements): record what is deliberately absent, and why (#5752)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/098e0aa6a26c6ee0e34326629c7560d2043380dd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5753 (#5757)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/24d6abd8423df764f11d1daf2650cfe2084b9860"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "337 changes / 7 days",
+      "value": "338 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
