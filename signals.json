@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(grip-py): correct the cryptography floor from 47 to 48 everywhere an operator reads it",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3c94a7aac423b59b7045fb9a672cbac94a61cc2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5638 (#5669)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4434cb52494c34bd3610a6603b2ddea1124f4a42"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(health-check): the canonical effort tier is \"max\", not \"high\" (#2737) (#5638)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/56209ac69dd09b0347622035dbcd21bb4eaec120"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(asset-counter): count what GRIP contains, not what plugins symlink into it (#5659)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7d629490090882d2da9819914fae675847853cc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5643 (#5658)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5a964d77ae3a0d4a19690f76fded61e9e009f023"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(custody): guard the scripts/ and hooks/ record writers, bind the anchor to CI, and unb",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0dbcc34bf26af2f3dc9571f64ead91c381911034"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "287 changes / 7 days",
+      "value": "289 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
