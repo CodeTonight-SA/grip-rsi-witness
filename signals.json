@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5765 (#5767)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb5dc91e00c66fb9023b605f6563db1e2deecdb9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): point the workflow-yaml validator at data/aide, not data/copilot (#5765)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3598d6c60fc5f196aa79a3b9351c2a7c0cfd519d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(gate-r): assert the schema the cross-org gate actually emits (#5764)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba1db19748989779637c8102565d545a9ad1c9f7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(gates): repair 14 red tests, all of them test-side (#5761)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/88984bb6e023a9abc4c249eb48a0938303f1f8b7"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5753 (#5757)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/24d6abd8423df764f11d1daf2650cfe2084b9860"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(yolo): scope the marker per session, so one session cannot govern another (#5753)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a8ffa67d397f751bdcbbd5dd8a4090d0c60c0bac"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5745 (#5747)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/791898096595d25f658338ced2adc3704866fff2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps-audit): never emit `grasp` as a PyPI requirement (#5745)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/da8c3effc96314ed7e654e54a6c9f13249ac0e70"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "334 changes / 7 days",
+      "value": "337 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
