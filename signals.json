@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(syntax-gate): the test reimplemented the script's exclusion and drifted (#5986)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/87157b7c278995378c13814c783011fe9d1a06cd"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(converge-replay): an assertion that could not fail now checks its subject (#5983)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b3d3fab2b07a7c290b70ca952b6eb481fce0f14"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(aide-cli): supply the rituals instead of borrowing the operator's (#5978)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b6fa467db06389effec5a2f0933e2ab454dc43f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(auto): assert who owns the legacy command, not how the stub is quoted (#5970)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f026d971898dc188d490f4f5662be156a23890d7"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "459 changes / 7 days",
+      "value": "460 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
