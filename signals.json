@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5999 (#6002)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8090ec6ef8cf2983558e96ec7e0dccd805af01af"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(rsync): assert source content before --delete, and repair a non-shebang (#5999)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2522383cd3cd3bf47d368b563dc4b383e996e1f2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(reaper): correct the compression ratio against the full run (#5994)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d053ea5983e6797876405bdca293a51b070e370b"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(syntax-gate): the test reimplemented the script's exclusion and drifted (#5986)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/87157b7c278995378c13814c783011fe9d1a06cd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(converge-replay): an assertion that could not fail now checks its subject (#5983)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b3d3fab2b07a7c290b70ca952b6eb481fce0f14"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5980 (#5984)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4fba53e26d354cee2a61fef8a7fb71e778af009b"
         }
       ],
       "key": "stream"
