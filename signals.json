@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(council): make the independence claim machine-checkable, add AGORA's falsifier (#5801",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b30337dec2f6e5d8280b664874ec666daffb213a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(council): drop a stale count from an assertion, harden the fallback anchor (#5797)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1447e6cc265b2bccf67e4a09853f416b1ff0b724"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(vortex): the fixture still described the pre-2026-03-17 pulse card (#5795)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8895722cb4a015d5a287297ebf094a11478a927f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5791 (#5793)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c1180d0393370ccf23dfcb684a5d4f07e28ce25e"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(council): the verdict record resolved from __file__ while its IDR leaf resolved canoni",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/63426bae01029cbd3dddf63b4f712bd518b6d9e5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(hypothesis): fixtures registered a metric no collector knows (#5784)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c5c176133653359e55614fad10747c5ad133ede"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5780 (#5783)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7d648c72f18d97b6a0abff883ec13dcd65a8cb5b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): make a judge parse failure diagnosable, and invert a test that demanded a reti",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/147f24ce7279dff6fdd2ebe836540984959b977e"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7456",
+      "value": "gen 7457",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "351 changes / 7 days",
+      "value": "354 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
