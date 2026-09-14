@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5833 (#5842)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ae9e6aa59e2aaef9e0ea545362555647ebf968b0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(grip): resolve CLAUDE_DIR before the prompt-path prefix check (#5833)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a9a33517a50e02cf23a75057d76f9879106d9d20"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(sensitive-info-guard): read the decision where the contract puts it (#5839)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b0eec9a20632852f6c7909a0fe371628b0b02b0d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5834 (#5836)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4ca00608ab100dd78c6329d807ca73c9d4cbc883"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(leak-sweep): it could print \"clean\" about files it never opened (#5829)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ece2ebc11ec09b74367f7aa9b14ff73e02847f4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5768 (#5828)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/25453ac1df9101fdc722c0698e76bf81100939c1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): follow the onboarding schema to 6.4.0, red for 62 days (#5768)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f1c8706e7c440e5f8cf6ae426a8d56bfaf3de07d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(hooks): build the ownership fixtures from the MODULE's root, not this file's (#5825)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d5728f320e11a69a32fbaea6122a75b46583822e"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7458",
+      "value": "gen 7459",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "379 changes / 7 days",
+      "value": "382 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
