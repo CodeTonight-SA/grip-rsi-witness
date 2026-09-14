@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5791 (#5793)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c1180d0393370ccf23dfcb684a5d4f07e28ce25e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(requirements): the DELIBERATELY ABSENT block claimed more than was measured (#5789)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab39f5d1d52fd9cf38c46a3ac0b7a1f64869821a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(skills): track proving-ground, which existed only on one disk (#5791)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ac011877339d188e7c972bf46eb7664cae2b5d3a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5787 (#5792)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b40a2de6928443e5ab8b0cb1a89f57e15ba4029a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(council): the verdict record resolved from __file__ while its IDR leaf resolved canoni",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/63426bae01029cbd3dddf63b4f712bd518b6d9e5"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(hypothesis): fixtures registered a metric no collector knows (#5784)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c5c176133653359e55614fad10747c5ad133ede"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(agora): make a judge parse failure diagnosable, and invert a test that demanded a reti",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/147f24ce7279dff6fdd2ebe836540984959b977e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5773 (#5779)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/055fa4c90f2f92e908a3dd4c75d3c68525ac89d5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): the deps-install anchors read the checkout, not a scratch directory (#5773)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/50dcd2581d40d5bddc388b5c9b5dd057b9491169"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(gates): repair 15 tests that graded a stale path and two ratified changes (#5776)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/004f4f4b37bfa40d1cf9b90f8b734fabdd207f72"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(hooks): give the noise-regression suite a private context_gate (#5774)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8ffbad6934a38469f8f7a76827052ad2df61ebf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(deps): assert what the dependency audit can actually prove (#5770)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3adb95f44cbaeab35fe526324eabc551b1663619"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7455",
+      "value": "gen 7456",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "346 changes / 7 days",
+      "value": "351 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
