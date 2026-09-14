@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5643 (#5658)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5a964d77ae3a0d4a19690f76fded61e9e009f023"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(custody): guard the scripts/ and hooks/ record writers, bind the anchor to CI, and unb",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0dbcc34bf26af2f3dc9571f64ead91c381911034"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5648 (#5657)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba9a540c2ecef9bb60f7d46d30af19c5341702c5"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: never run GRIP code under the system python (closes the forgeable-seal path) (#5640)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9225bfb11163272d9f3d84866df9820c9c0add3a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5642 (#5645)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c35773963e61f38c67070f0b0fd8bbb635694a9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): recover >300-file diffs in robust_pr_diff rung 4 (#5642)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7d8cc9c54519f6f8e9b80f1dec3e11f76087dbbc"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "279 changes / 7 days",
+      "value": "281 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
