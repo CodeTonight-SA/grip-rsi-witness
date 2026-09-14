@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "docs(grip-python): record why VENV_PYTHON is a path, and what the bin/python layout actual",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/be4ca2dc814a3a30b5fc135ce6f2d2df440c46b3"
+          "tldr": "test(gate-check): cover the isabs branch with a standing test, not a transcript (#5932)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f87c9be97e9632a8e00e2169dd838fbda074b17d"
         },
         {
           "kind": "shipped",
-          "tldr": "test(image-gen): teach five doubles the base_image they drifted from, and assert it thread",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3c55f7839970d9e97b2eb5e4fc69dac0d0cdeb6"
+          "tldr": "chore(changelog): update for PR #5930 (#5940)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/47a5ce5aafb42738e7c1f1f63d5577eca454b8bb"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(rules): the signing dependency is declared now, and a test says so (#5912)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e910abd44958197bd1d29fddd474e43cdbdc3bfa"
+          "tldr": "fix(grip-python): add the bin/python rung, so a hook never runs under the system interpret",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b675dd9fc0058484c15970a6842425282a776e7"
         },
         {
           "kind": "shipped",
-          "tldr": "test(osa-watch): say why the injection assertions are red, so the real reason cannot hide ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e5a16385dca1f82b9c00e92f05b5d9de892d61b"
+          "tldr": "docs(test): the broader surface is not covered, and this file said it was (#5934)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/26853c440f63221daca3223fbc97c40dc7f036cf"
         },
         {
           "kind": "shipped",
-          "tldr": "test(relay): teach the failover double the signature it drifted from, and assert the capab",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d6d39064782e7cf3cae0b5bb4c772c0eb5fd0f5d"
+          "tldr": "test(broly): the double drifted twice; this time assert the contract it hides (#5928)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d8dbd615e535b5c16ae5f3876968c8638e9d680"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5908 (#5911)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/46c2325cd0d176242bbbc65bf68c6f06abd57b50"
+          "tldr": "test(reaper): anchor the partial-archive failure discriminator (#5929)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/49b97dfdeda631bc922f89011c53d3291a8b5b1d"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(ff-ops): one missing wheel must not abort the whole pytest session (#5908)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a5ccdf5256058748a0fb0a944a511c477d5c8c7b"
+          "tldr": "test(context-budget): scan a directory the conftest does not write into (#5926)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fb04b28728ee6a6ac955d6062f35e1978bbe7c36"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5902 (#5907)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3eca82ce16e57e476c33d4cf1eda28b1c12605b"
+          "tldr": "chore(changelog): update for PR #5922 (#5927)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/50dad987937edff9cdb09ac4c135196480763061"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "420 changes / 7 days",
+      "value": "433 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
