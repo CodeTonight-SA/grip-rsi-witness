@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(changelog-ci): anchor the workflow that ships, not the one from June (#5880)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/948d20e43ecc11782dc978d6a1b4af5227eae221"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(converge-metrics): add the partial-strip falsifier the council asked for (#5877)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/47ff9166fc31c543cf6c7a7289a93ca87c44f0e5"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5862 (#5869)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/38e18b9867cc1bc7712b95cfb65b4aff861a7f7a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "ci: add a dispatch-only bare-runner probe for widening the test gate (#5862)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/104bd8cb15074697a72f160cec751ec789f47fdd"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "403 changes / 7 days",
+      "value": "404 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
