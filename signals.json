@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(gates): repair 14 red tests, all of them test-side (#5761)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/88984bb6e023a9abc4c249eb48a0938303f1f8b7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5758 (#5760)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c648a485a759fd5d4a09b0333e090601b4c8fd4a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(agora): scope concern extraction to concerns sections, so praise is not reported as a ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ce04cb6c26efd069b8fe251b2839d01ebce1f9d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(requirements): record what is deliberately absent, and why (#5752)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/098e0aa6a26c6ee0e34326629c7560d2043380dd"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(deps-audit): never emit `grasp` as a PyPI requirement (#5745)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/da8c3effc96314ed7e654e54a6c9f13249ac0e70"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5742 (#5744)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/39003153010ddb6b7a33c78ad914ca7af664eed3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps-audit): name things pip can actually install (#5742)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d1d0fcc890d14ce543c9c2a46ec373b0ee9a887b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(plans): ultraprompt — the page is the whole story, not one product (#5577)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c50401aa9d8efca4f831930923985f42c3031d0a"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7454",
+      "value": "gen 7455",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "331 changes / 7 days",
+      "value": "334 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
