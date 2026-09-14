@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(requirements): record what is deliberately absent, and why (#5752)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/098e0aa6a26c6ee0e34326629c7560d2043380dd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5753 (#5757)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/24d6abd8423df764f11d1daf2650cfe2084b9860"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(yolo): scope the marker per session, so one session cannot govern another (#5753)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a8ffa67d397f751bdcbbd5dd8a4090d0c60c0bac"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5745 (#5747)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/791898096595d25f658338ced2adc3704866fff2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(deps-audit): never emit `grasp` as a PyPI requirement (#5745)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/da8c3effc96314ed7e654e54a6c9f13249ac0e70"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5742 (#5744)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/39003153010ddb6b7a33c78ad914ca7af664eed3"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(deps-audit): name things pip can actually install (#5742)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d1d0fcc890d14ce543c9c2a46ec373b0ee9a887b"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(plans): ultraprompt — the page is the whole story, not one product (#5577)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c50401aa9d8efca4f831930923985f42c3031d0a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5736 (#5741)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7b46c03d06c3264344832f71edf698a954fbf32"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "refactor(deps-audit): split generate_requirements along its real seams (#5736)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c195537ed0aafb594fd58172a3e303cd611e33a5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5724 (#5734)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/28568d053c6c7e6818e9f97cbb9ac4b57cf51bb6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(grip-yolo): --help now documents --quality, the gate's own escape hatch (#5713)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/39afe611ebc74f08d8c3e3095fc61ca20c6b6d5c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hal): parse providers.yaml with PyYAML instead of a parser that got it wrong (#5728)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e0ba5dbaed1b36e44df7d1d8f2b6b4997f472a7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(asset-counter): a link that names nothing is not inventory (#5660) (#5724)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2eb8e6caaa013cef3e9718f1066c30312e4fb41e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "325 changes / 7 days",
+      "value": "331 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
