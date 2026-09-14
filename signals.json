@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5671 (#5672)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b45ff5114df0fe49b1a0791c98d07fe7ebc3759"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(grip-py): correct the cryptography floor from 47 to 48 everywhere an operator reads it",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3c94a7aac423b59b7045fb9a672cbac94a61cc2"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5659 (#5661)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a1a9d53689cf7c04db1434686c7a0f7adff647c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(asset-counter): count what GRIP contains, not what plugins symlink into it (#5659)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7d629490090882d2da9819914fae675847853cc"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "501 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "502 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "131 confirmed / 151 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "289 changes / 7 days",
+      "value": "290 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
