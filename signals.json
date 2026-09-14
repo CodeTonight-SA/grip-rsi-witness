@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5648 (#5657)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba9a540c2ecef9bb60f7d46d30af19c5341702c5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore: track three shared-tree files that existed only on one disk, redacted (#5648)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2839524f674ec965fadafe52d492276af4be555"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5651 (#5655)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecf27cd59ab7f61e863b8517f51a7e8a45c75675"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(skills): regenerate proxy commands with portable paths (#5515) (#5651)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1ead135c7807f39866be82ca215aa34be0d47ba6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5640 (#5649)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2dbeb5464f97d84ee1f4b9251edd8259afafb59"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix: never run GRIP code under the system python (closes the forgeable-seal path) (#5640)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9225bfb11163272d9f3d84866df9820c9c0add3a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5642 (#5645)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c35773963e61f38c67070f0b0fd8bbb635694a9"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(agora): recover >300-file diffs in robust_pr_diff rung 4 (#5642)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7d8cc9c54519f6f8e9b80f1dec3e11f76087dbbc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5625 (#5637)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/617e4f22df626435273eaafa22c7a2faa299c629"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): a no-concerns speaker citing no file is not a hallucination (#5494) (#5625)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc3d46092470ac7ea87fcef9515d8a5d52c82909"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5629 (#5635)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d3e120e7078deab7819db3d181db413e65aff785"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(idr): the install instruction named a version that cannot sign, and the writer detecto",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/547911d0a3ae78dc1803d792262931c9809cf322"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5526 (#5634)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3792941a2f2aa012c120efd032e34c7c3016481f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agpl): gate-c no longer fails red on PairedRow with nothing behind it (#5526)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9da49af38c12f1d09da44c45b9987e4b390fe196"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "273 changes / 7 days",
+      "value": "279 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
