@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(deps): assert what the dependency audit can actually prove (#5770)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3adb95f44cbaeab35fe526324eabc551b1663619"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(sweep): assert bin/ coverage as a ratio against the real repository (#5771)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/38498880badac8bff2c0625f951dac28cd3e4657"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(agora): scope concern extraction to concerns sections, so praise is not reported as a ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ce04cb6c26efd069b8fe251b2839d01ebce1f9d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(requirements): record what is deliberately absent, and why (#5752)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/098e0aa6a26c6ee0e34326629c7560d2043380dd"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "338 changes / 7 days",
+      "value": "339 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
