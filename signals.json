@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(syntax-gate): pin the exclusion pattern's leading anchor as well as its trailing slas",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f08b6b3c699f36423cd8be7ef1b39f7f70088f7d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(ff-ops): prove a real pytest session survives the kernel ImportError (#5992)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/91df644dc0a5bd827409d7545e5efb70ccc2e5f0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(syntax-gate): raise the coverage floor and anchor the directory-vs-prefix distinction",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b8f0c3e42e24d556f1e9850ede755ff8291bd57"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(ci): the Python syntax gate checked a quarter of the tree (#5980)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/caffccc0603222e4380b9e7c850d3abbc9b474f0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5975 (#5979)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/67bde66be7663e8038e62ea841ef29accfee9882"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ci): the CC ratchet reported a pass for a diff it never ran (#5975)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f4a34ddaa0dd40e2a28c1f51fb1a0c7620b861b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "462 changes / 7 days",
+      "value": "464 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
