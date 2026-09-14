@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "test(council): make the independence claim machine-checkable, add AGORA's falsifier (#5801",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b30337dec2f6e5d8280b664874ec666daffb213a"
+          "tldr": "chore(changelog): update for PR #5808 (#5814)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a29d692e76d1abecd723a340f462babfe4e0b5d"
         },
         {
           "kind": "shipped",
-          "tldr": "test(council): drop a stale count from an assertion, harden the fallback anchor (#5797)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1447e6cc265b2bccf67e4a09853f416b1ff0b724"
+          "tldr": "fix(gates): the leak detector missed the signature spelling of a client contact (#5808)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/37d8f838eb364f8fe6953a24b6c506afc1b91aa2"
         },
         {
           "kind": "shipped",
-          "tldr": "test(vortex): the fixture still described the pre-2026-03-17 pulse card (#5795)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8895722cb4a015d5a287297ebf094a11478a927f"
+          "tldr": "chore(changelog): update for PR #5802 (#5813)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/437e3df4772436a337b2013fb91d5373cf0762aa"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5791 (#5793)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c1180d0393370ccf23dfcb684a5d4f07e28ce25e"
+          "tldr": "fix(tests): make the channel-scope gate suite read the real verdict shape and stop reading",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/65cdaf1d402cd10b8b76af54e1f7ca6989ac606c"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(requirements): the DELIBERATELY ABSENT block claimed more than was measured (#5789)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab39f5d1d52fd9cf38c46a3ac0b7a1f64869821a"
+          "tldr": "chore(changelog): update for PR #5803 (#5812)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c4243b04b6a9158c8eb31ed75c8b5503e08ce2d"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(skills): track proving-ground, which existed only on one disk (#5791)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ac011877339d188e7c972bf46eb7664cae2b5d3a"
+          "tldr": "fix(kanban): reassign seed card #1923, orphaned by the Craig offboarding (#5803)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5af18791090c91162dad803847937b286b3f6b49"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5787 (#5792)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b40a2de6928443e5ab8b0cb1a89f57e15ba4029a"
+          "tldr": "chore(changelog): update for PR #5807 (#5811)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ed6d9729cd9bb20ad4c2f08bd554d20f73852dfb"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(council): the verdict record resolved from __file__ while its IDR leaf resolved canoni",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/63426bae01029cbd3dddf63b4f712bd518b6d9e5"
+          "tldr": "fix(agora): a repo file outside the diff is context, not a hallucinated citation (#5807)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/19c78e83f90197a692dd91cdaf0b77352bea7637"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "354 changes / 7 days",
+      "value": "364 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
