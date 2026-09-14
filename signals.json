@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "test(gh-default-repo-gate): read the contract the gate actually has (#5860)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/98e257a3eea068e4bae08721857e15106b361139"
+          "tldr": "test(converge-metrics): pin the run_id discard where the property lives (#5874)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b233ce3b85619aa1330ce2310df40bdee215bc63"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5857 (#5858)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb0d09695989677d9c4cc1487d89312fe4f72c48"
+          "tldr": "chore(changelog): update for PR #5872 (#5873)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f5df5dea2f9a34130e6ebbc5005202cb6248cba1"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(aide): stop injecting the preferences learner into the ritual engine (#5857)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/72f9ef987aa4be88253775e155d2aea529fb98ee"
+          "tldr": "fix(hooks): the context gate could not import on any python CI uses (#5872)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/544a928150bdad78937888c0dbbbff5a2d452baf"
         },
         {
           "kind": "shipped",
-          "tldr": "test(closeout): grade the split skill, invert the polyglot assertions (#5845)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b3a2e7e938b660dd53e26352bd95759bfdc47ea"
+          "tldr": "test(converge-metrics): make the suggest_max_depth tests exercise the code (#5870)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ef5d0a9bbe7a902ed43ba51496a0c7881b8a13a5"
         },
         {
           "kind": "shipped",
-          "tldr": "test(mode-isolation): pass the catalogue dir the test already computes (#5843)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ad9514c5369d566cad96ec72545b39bf824bdb41"
+          "tldr": "test(rsi-workflow): stop skipping silently, and record the removed action (#5868)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/964aec177052136b94ebf9276ff5bddc4ebabf28"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5854 (#5856)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0e5398c014ba03288363de6685ec77cff78d3d83"
+          "tldr": "chore(changelog): update for PR #5862 (#5869)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/38e18b9867cc1bc7712b95cfb65b4aff861a7f7a"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(aide): record what a ritual's steps DID, not just how many there were (#5854)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dec48eeda0dfda117d791cdbad68da6a704d9725"
+          "tldr": "ci: add a dispatch-only bare-runner probe for widening the test gate (#5862)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/104bd8cb15074697a72f160cec751ec789f47fdd"
         },
         {
           "kind": "shipped",
-          "tldr": "test(security-audit): source the real validate_prompt_path, grade this checkout (#5855)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8fe0f149858888739eaacca65c24eed227c2cd66"
+          "tldr": "chore(changelog): update for PR #5863 (#5865)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d84d552921c26310ecb15813c5a8de624722ca84"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "393 changes / 7 days",
+      "value": "402 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
