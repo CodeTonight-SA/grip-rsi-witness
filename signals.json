@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5897 (#5904)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/41ce89c2238cc08651d9f9a7bf4d678f369515e4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "ci: widen the PR test gate from 13 files to 72, on CI evidence (#5897)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/07a36d739236698d4aa9aab4f08e1a03b8088a74"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(conftest): cite the guard by the name it actually has (#5893)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/86bf2679bf471f0a47d6e803c0cabc940313837e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(deps-install): anchor the import-time resolution fixed in GRIP#5773 (#5782)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b160715bd573d1b760645d56805fd1c4c09581c1"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "test(changelog-ci): anchor the workflow that ships, not the one from June (#5880)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/948d20e43ecc11782dc978d6a1b4af5227eae221"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(converge-metrics): add the partial-strip falsifier the council asked for (#5877)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/47ff9166fc31c543cf6c7a7289a93ca87c44f0e5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(converge-metrics): pin the run_id discard where the property lives (#5874)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b233ce3b85619aa1330ce2310df40bdee215bc63"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5872 (#5873)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f5df5dea2f9a34130e6ebbc5005202cb6248cba1"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "408 changes / 7 days",
+      "value": "411 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
