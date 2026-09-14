@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(infra-gate): say Gate T is disabled instead of grading a constant (#5952)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5eb8b7ff648bc2f8c8f515d9158efd2e0d44abfa"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(slack-notify): grade the Block Kit payload, not the accessibility fallback (#5950)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e71aa9fce78e8ec3492a364099177f02ff94e321"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(relay): extract the capability assertion, and prove every kill survives it (#5946)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8618b5228426a45faebfdc0af8a1fe88c991b04c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(rwa): skip the deliverable gate where the deliverable no longer exists (#5949)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7678dcfc8ca8df7104db909488c114bf68ce0a81"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(hal-marker): stop writing the operator's live session state, and read addresses from ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a73b313ee48b41b7f112ba6a7ac7e68b08f44196"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(grip-python): assert on sys.prefix, so the anchor cannot flake on a symlinked tmpdir ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d497eaa961fa4a41115af16b85aaaea87ca53e10"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(broly): prove the reservation set is round-SCOPED, not merely shared (#5941)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b58e62dd033c1c74255702542e7f273a3c30cd63"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(gate-check): cover the isabs branch with a standing test, not a transcript (#5932)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f87c9be97e9632a8e00e2169dd838fbda074b17d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5930 (#5940)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/47a5ce5aafb42738e7c1f1f63d5577eca454b8bb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-python): add the bin/python rung, so a hook never runs under the system interpret",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b675dd9fc0058484c15970a6842425282a776e7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(test): the broader surface is not covered, and this file said it was (#5934)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/26853c440f63221daca3223fbc97c40dc7f036cf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(broly): the double drifted twice; this time assert the contract it hides (#5928)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d8dbd615e535b5c16ae5f3876968c8638e9d680"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(reaper): anchor the partial-archive failure discriminator (#5929)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/49b97dfdeda631bc922f89011c53d3291a8b5b1d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(context-budget): scan a directory the conftest does not write into (#5926)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fb04b28728ee6a6ac955d6062f35e1978bbe7c36"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5922 (#5927)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/50dad987937edff9cdb09ac4c135196480763061"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "433 changes / 7 days",
+      "value": "440 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
