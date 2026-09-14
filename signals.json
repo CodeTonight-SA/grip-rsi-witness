@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5671 (#5672)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b45ff5114df0fe49b1a0791c98d07fe7ebc3759"
+          "tldr": "chore(changelog): update for PR #5684 (#5699)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0145714f8794cfe7b188cb5df575e68fd273b28a"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(grip-py): correct the cryptography floor from 47 to 48 everywhere an operator reads it",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3c94a7aac423b59b7045fb9a672cbac94a61cc2"
+          "tldr": "chore(changelog): update for PR #5692 (#5698)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c2d306ee0f45417db4192f7f883cb4479a3c5d3b"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5638 (#5669)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4434cb52494c34bd3610a6603b2ddea1124f4a42"
+          "tldr": "fix(worktree): warn when a new branch is born from the shared tree's HEAD (#5684)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a42cc2430f83ce67711d34b7c6bf2a4c3966b59"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(health-check): the canonical effort tier is \"max\", not \"high\" (#2737) (#5638)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/56209ac69dd09b0347622035dbcd21bb4eaec120"
+          "tldr": "fix(test-pq-reexec): close the threshold sweep's two coverage holes, and decompose the fun",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/62ef576a8a79f3c4bdc5fd29046fbfa06686fc5a"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(idr): GRASP has converged, so stop saying it has not (#5667)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e9a108c6985c9b5186f134a4c4a928cd74a620d4"
+          "tldr": "chore(changelog): update for PR #5683 (#5694)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/10fd1fdf2d107713740000b6c3569097bcc76e37"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5662 (#5665)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/821896fe910307414d437106247092853dfbf8db"
+          "tldr": "feat(py): `py` runs the venv python, defined where every install already reads (#5683)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1ed607f791bb43b288f5831a386f801f595798f8"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(precog): track the canonical HAPPI runtime version, which had gone stale (#5662)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/40b4e7f70683db6c42a9db1624bf438b5f5da6c9"
+          "tldr": "chore(changelog): update for PR #5677 (#5690)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/173c24e8cff8d049c0227ce6e279d49d0d669272"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5659 (#5661)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a1a9d53689cf7c04db1434686c7a0f7adff647c"
+          "tldr": "fix(nextup): bound the instance read that walked 13 GB on every hook tick (#5677)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6e8ea402f2213a63c64d5ca61a2d9d949991e775"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "290 changes / 7 days",
+      "value": "300 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
