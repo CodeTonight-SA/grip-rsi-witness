@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(reaper): correct the compression ratio against the full run (#5994)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d053ea5983e6797876405bdca293a51b070e370b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(syntax-gate): pin the exclusion pattern's leading anchor as well as its trailing slas",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f08b6b3c699f36423cd8be7ef1b39f7f70088f7d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5980 (#5984)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4fba53e26d354cee2a61fef8a7fb71e778af009b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ci): the Python syntax gate checked a quarter of the tree (#5980)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/caffccc0603222e4380b9e7c850d3abbc9b474f0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "464 changes / 7 days",
+      "value": "465 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
