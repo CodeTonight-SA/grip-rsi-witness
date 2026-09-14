@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5897 (#5904)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/41ce89c2238cc08651d9f9a7bf4d678f369515e4"
+          "tldr": "docs(grip-python): record why VENV_PYTHON is a path, and what the bin/python layout actual",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/be4ca2dc814a3a30b5fc135ce6f2d2df440c46b3"
         },
         {
           "kind": "shipped",
-          "tldr": "ci: widen the PR test gate from 13 files to 72, on CI evidence (#5897)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/07a36d739236698d4aa9aab4f08e1a03b8088a74"
+          "tldr": "test(image-gen): teach five doubles the base_image they drifted from, and assert it thread",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3c55f7839970d9e97b2eb5e4fc69dac0d0cdeb6"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(conftest): cite the guard by the name it actually has (#5893)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/86bf2679bf471f0a47d6e803c0cabc940313837e"
+          "tldr": "docs(rules): the signing dependency is declared now, and a test says so (#5912)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e910abd44958197bd1d29fddd474e43cdbdc3bfa"
         },
         {
           "kind": "shipped",
-          "tldr": "test(deps-install): anchor the import-time resolution fixed in GRIP#5773 (#5782)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b160715bd573d1b760645d56805fd1c4c09581c1"
+          "tldr": "test(osa-watch): say why the injection assertions are red, so the real reason cannot hide ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e5a16385dca1f82b9c00e92f05b5d9de892d61b"
         },
         {
           "kind": "shipped",
-          "tldr": "test(gate-check): make the wrapper tests hermetic and able to fail (#5883)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5916c22139024c92260923ce9ab7c6f6e7a1ffe5"
+          "tldr": "test(relay): teach the failover double the signature it drifted from, and assert the capab",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d6d39064782e7cf3cae0b5bb4c772c0eb5fd0f5d"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5886 (#5888)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/641cbebbc578f92439a842b6ecad7946806abd78"
+          "tldr": "chore(changelog): update for PR #5908 (#5911)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/46c2325cd0d176242bbbc65bf68c6f06abd57b50"
         },
         {
           "kind": "shipped",
-          "tldr": "ci(probe): add a lean block so the gate question can be settled by measurement (#5886)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/27cdd6176e36ecede40a4eb25c683cf2f61013ec"
+          "tldr": "fix(ff-ops): one missing wheel must not abort the whole pytest session (#5908)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a5ccdf5256058748a0fb0a944a511c477d5c8c7b"
         },
         {
           "kind": "shipped",
-          "tldr": "test(changelog-ci): anchor the workflow that ships, not the one from June (#5880)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/948d20e43ecc11782dc978d6a1b4af5227eae221"
+          "tldr": "chore(changelog): update for PR #5902 (#5907)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3eca82ce16e57e476c33d4cf1eda28b1c12605b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "411 changes / 7 days",
+      "value": "420 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
