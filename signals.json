@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(reaper): sandbox the default-archive test against its own mutation (#5988)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b014cb10b2591042068383720f616fda0823246f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(syntax-gate): the test reimplemented the script's exclusion and drifted (#5986)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/87157b7c278995378c13814c783011fe9d1a06cd"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(3139): archive the SKILL, not the directory the launcher reads (#5977)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/34a0a1748acf2796eea8a0d463e4bff848c27cfb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(aide-cli): supply the rituals instead of borrowing the operator's (#5978)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b6fa467db06389effec5a2f0933e2ab454dc43f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "460 changes / 7 days",
+      "value": "461 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
