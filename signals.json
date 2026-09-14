@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(relay): pin the recorded capability key set, so a new kwarg cannot go unasserted (#59",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/147518ee3fb8f13a08ba7a4308b0bad81326851a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(mutual-auth): assert the real (ok, consumed) contract, and cover the replay branch (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d82a790f8972c55b3d006ca2d3fcc788acad8f3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(doubles): repair nine test doubles whose signatures drifted from production (#5956)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2e12ad9a36852868e76887833066700224937765"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(insight-deny): read the hook's real verdict shape, not the legacy flat keys (#5954)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/769bd518979e42bafaaa0f34b815c81cbea008b1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(infra-gate): say Gate T is disabled instead of grading a constant (#5952)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5eb8b7ff648bc2f8c8f515d9158efd2e0d44abfa"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "test(rwa): skip the deliverable gate where the deliverable no longer exists (#5949)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7678dcfc8ca8df7104db909488c114bf68ce0a81"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(hal-marker): stop writing the operator's live session state, and read addresses from ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a73b313ee48b41b7f112ba6a7ac7e68b08f44196"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(grip-python): assert on sys.prefix, so the anchor cannot flake on a symlinked tmpdir ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d497eaa961fa4a41115af16b85aaaea87ca53e10"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(broly): prove the reservation set is round-SCOPED, not merely shared (#5941)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b58e62dd033c1c74255702542e7f273a3c30cd63"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(gate-check): cover the isabs branch with a standing test, not a transcript (#5932)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f87c9be97e9632a8e00e2169dd838fbda074b17d"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "440 changes / 7 days",
+      "value": "444 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
