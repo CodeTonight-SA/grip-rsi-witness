@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(hooks): build the ownership fixtures from the MODULE's root, not this file's (#5825)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d5728f320e11a69a32fbaea6122a75b46583822e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5823 (#5824)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b95001b1f3ed66cbd59a8e64d292bb647d8a76b4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(hooks): ownership is decided by hooks/ and lib/, not by the repo root (#5823)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6369e5bddc61602b31febb8f11438f9b7414c733"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5820 (#5822)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f23c053bdd78196901b31f2c76c546301c4f70b"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "Donna's import transport was broken for any caller that had already imported GRIP's lib (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/691a8d8c48d2e0d62e3d099e88920ec20f77130e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5808 (#5814)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a29d692e76d1abecd723a340f462babfe4e0b5d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): the leak detector missed the signature spelling of a client contact (#5808)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/37d8f838eb364f8fe6953a24b6c506afc1b91aa2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5802 (#5813)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/437e3df4772436a337b2013fb91d5373cf0762aa"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "369 changes / 7 days",
+      "value": "372 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
