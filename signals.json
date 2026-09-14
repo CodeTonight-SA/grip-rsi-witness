@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(idr): GRASP has converged, so stop saying it has not (#5667)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e9a108c6985c9b5186f134a4c4a928cd74a620d4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5662 (#5665)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/821896fe910307414d437106247092853dfbf8db"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5648 (#5657)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba9a540c2ecef9bb60f7d46d30af19c5341702c5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore: track three shared-tree files that existed only on one disk, redacted (#5648)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2839524f674ec965fadafe52d492276af4be555"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7450",
+      "value": "gen 7451",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "285 changes / 7 days",
+      "value": "286 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
