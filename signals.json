@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "test(happi): cross-repo HAPPI version parity, bound to the forward-anchor gate (#5686)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f900c115e214b8258929cc91d85acc0bb91590f"
+          "tldr": "fix(deps-audit): name things pip can actually install (#5742)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d1d0fcc890d14ce543c9c2a46ec373b0ee9a887b"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5716 (#5720)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c66a666fb46c814f248126fc6e681245cbd42b7a"
+          "tldr": "docs(plans): ultraprompt — the page is the whole story, not one product (#5577)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c50401aa9d8efca4f831930923985f42c3031d0a"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(hooks): one definition of \"this whole group is another product's\" (#5716)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2d30cdc7ebe4287105aa16f681466ee576749b15"
+          "tldr": "chore(changelog): update for PR #5736 (#5741)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7b46c03d06c3264344832f71edf698a954fbf32"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5709 (#5714)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c43db6ed7e6524f5270a402d9e5659ef08ba3fdf"
+          "tldr": "refactor(deps-audit): split generate_requirements along its real seams (#5736)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c195537ed0aafb594fd58172a3e303cd611e33a5"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(backlog): compare the idr version against its producer, not a copy of it (#5709)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fa071aad7980f3bf03a496b608728d9efc9b1c53"
+          "tldr": "chore(changelog): update for PR #5724 (#5734)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/28568d053c6c7e6818e9f97cbb9ac4b57cf51bb6"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5706 (#5712)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/51dc33c55e9161fdbaf77d1705cbcdc1a69ef97f"
+          "tldr": "docs(grip-yolo): --help now documents --quality, the gate's own escape hatch (#5713)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/39afe611ebc74f08d8c3e3095fc61ca20c6b6d5c"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(hooks): repair the hook wiring, and scope GRIP's contract to GRIP's hooks (#5706)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d624b5255c0e70eb05c4e70c977fdc76cc896aa6"
+          "tldr": "fix(hal): parse providers.yaml with PyYAML instead of a parser that got it wrong (#5728)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e0ba5dbaed1b36e44df7d1d8f2b6b4997f472a7"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5691 (#5711)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0a63262ae69383b48d9532d70c20a8bdfc03dbc"
+          "tldr": "fix(asset-counter): a link that names nothing is not inventory (#5660) (#5724)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2eb8e6caaa013cef3e9718f1066c30312e4fb41e"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7452",
+      "value": "gen 7454",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "313 changes / 7 days",
+      "value": "325 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
