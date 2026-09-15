@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6003 (#6004)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30ae1ebe4a46225b7e8faa2a333a337d8968a9d0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(wa): rotation guard + evidence monitor for the WhatsApp mirror (#6003)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5b9c3bd0df91ccac7deca272d39d065f59a2b36b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5999 (#6002)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8090ec6ef8cf2983558e96ec7e0dccd805af01af"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(syntax-gate): raise the coverage floor and anchor the directory-vs-prefix distinction",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b8f0c3e42e24d556f1e9850ede755ff8291bd57"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(reaper): sandbox the default-archive test against its own mutation (#5988)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b014cb10b2591042068383720f616fda0823246f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(syntax-gate): the test reimplemented the script's exclusion and drifted (#5986)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/87157b7c278995378c13814c783011fe9d1a06cd"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "441 changes / 7 days",
+      "value": "443 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
