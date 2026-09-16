@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6020 (#6024)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5ca1ef0305a869fcebc2b5e0bfbb04c419201aa0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(skills): /catchup — context transfer as an artefact, not a summary (#6020)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a6d7ff8e53fdda6cc37cc3b52c6537994f1a748"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6016 (#6022)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a78a105166fa5598ec154d7894feb1d07025b9f8"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(backups): report which rung of the ladder supplied the backup root (#6010)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1681139c134ffcd303727cafe888fa1f800443b1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6005 (#6007)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/62c10251bf19304e44aed6701c549ac24d5f0363"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(rules): resolve blockers autonomously — never wait for confirmation (#6005)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c1ef7be4b55b526ee07f0efcaa1597cc2e2e6ae"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "446 changes / 7 days",
+      "value": "448 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
