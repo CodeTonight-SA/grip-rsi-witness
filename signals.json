@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6005 (#6007)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/62c10251bf19304e44aed6701c549ac24d5f0363"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(rules): resolve blockers autonomously — never wait for confirmation (#6005)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c1ef7be4b55b526ee07f0efcaa1597cc2e2e6ae"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(syntax-gate): pin the exclusion pattern's leading anchor as well as its trailing slas",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f08b6b3c699f36423cd8be7ef1b39f7f70088f7d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(ff-ops): prove a real pytest session survives the kernel ImportError (#5992)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/91df644dc0a5bd827409d7545e5efb70ccc2e5f0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "444 changes / 7 days",
+      "value": "445 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
