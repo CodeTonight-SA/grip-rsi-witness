@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6020 (#6024)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5ca1ef0305a869fcebc2b5e0bfbb04c419201aa0"
+          "tldr": "chore(changelog): update for PR #6025 (#6036)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c1cbfdb4755aa1a52c15d9660d3575e806ea1a29"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(skills): /catchup — context transfer as an artefact, not a summary (#6020)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a6d7ff8e53fdda6cc37cc3b52c6537994f1a748"
+          "tldr": "fix(history-store): report every WhatsApp history drop, make retention depth configurable ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7261e6fe74cc1b285e439b8b6f4f0ab8d1c099c1"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6016 (#6022)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a78a105166fa5598ec154d7894feb1d07025b9f8"
+          "tldr": "chore(changelog): update for PR #6032 (#6035)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/298c66787e3f15c7587428dd38a6811cd821d152"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(command-executor): trim frontmatter with parameter expansion, not xargs (#6016)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cb9e2f7b24695dca8cfdcdad60ec00d89336d16c"
+          "tldr": "fix(skill-loader): make skill-name collisions audible and countable (#6032)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/adf803460c971c45f78644a1a650647355ebd830"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6014 (#6017)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2fda354ac4b5d8d668c48eb31d0811762375ca6f"
+          "tldr": "chore(changelog): update for PR #6021 (#6033)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3d5647f8ff0d5e538ee2fc171cb31402d68c9da"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(skill-loader): repair the frontmatter parser that emptied the skills index (#6014)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/60cf02cec576c73129a907e019714fa6b551cda0"
+          "tldr": "fix(skill-loader): write the index atomically so a failed build cannot empty it (#6021)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2e4733d61abadbb42d67fdbdc63f57f799ca3ed"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6010 (#6015)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3d946278f3c57cb61ffe07f1be6d5f45e5737bb"
+          "tldr": "chore(changelog): update for PR #6026 (#6030)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4594b9e3fd035de8282ac92a5b4d7917f49ecfac"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(backups): report which rung of the ladder supplied the backup root (#6010)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1681139c134ffcd303727cafe888fa1f800443b1"
+          "tldr": "fix(command-executor): stop a no-match rg from aborting the whole command index (#6026)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/138dbb3d9755902b1590f2697ea0c8fdd1bebd18"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "448 changes / 7 days",
+      "value": "457 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
