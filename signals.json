@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6044 (#6047)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/331cf6df599e2c88ee284a52eea878809311ef48"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(install): route every destructive replace through one shared, self-verifying guard (#6",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cfee5d766b5ffceaf87451704876e7c3c0e34828"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6039 (#6046)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2abe57e45ba75f7e799f53964995539b6fb087c5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(command-executor): write the commands index atomically too (#6039)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f84167fac1fb535ebff053f59b8a2d6dbc303125"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6038 (#6043)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/984c99b1c3ad668287811526d292e9fcfc41b51a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): stop the collision suite depending on a non-atomic index write (#6038)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/df6a6858be7f8574a44c8bc5a082be5344d0c557"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6025 (#6036)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c1cbfdb4755aa1a52c15d9660d3575e806ea1a29"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(history-store): report every WhatsApp history drop, make retention depth configurable ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7261e6fe74cc1b285e439b8b6f4f0ab8d1c099c1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6032 (#6035)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/298c66787e3f15c7587428dd38a6811cd821d152"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(skill-loader): make skill-name collisions audible and countable (#6032)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/adf803460c971c45f78644a1a650647355ebd830"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6021 (#6033)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3d5647f8ff0d5e538ee2fc171cb31402d68c9da"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(skill-loader): write the index atomically so a failed build cannot empty it (#6021)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2e4733d61abadbb42d67fdbdc63f57f799ca3ed"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6026 (#6030)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4594b9e3fd035de8282ac92a5b4d7917f49ecfac"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(command-executor): stop a no-match rg from aborting the whole command index (#6026)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/138dbb3d9755902b1590f2697ea0c8fdd1bebd18"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "457 changes / 7 days",
+      "value": "463 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
