@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "441 changes / 7 days",
+      "value": "440 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/grip-post"
         }
       ],
-      "tip": "Banach idempotence: if improve(state) == state, the loop has converged. Provable, not felt."
+      "tip": "Everything is a shim; AI is a syscall — one stable boundary, provider-swappable underneath."
     }
   ]
 }
