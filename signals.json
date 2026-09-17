@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6233 (#6234)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cfde0e459db5868245db724872113bf8b71c4693"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(publish): refuse a version at or behind the package's own public repo (#6233)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/55ba573acd01bf1e96c3d0410362bf745cd9a610"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(context-chain): compare the Verdict ENUM, not its repr (#6224)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c4c7c3d8ea61e8a853591ab2b2a8d9bbe30dc5c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6221 (#6223)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/37efcbe1380e3f44fcba271c3ff940273b76c373"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "459 changes / 7 days",
+      "value": "460 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
