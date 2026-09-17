@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6145 (#6149)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/77b51ff39b4d866b4c9ce8b93f544ddee2b949b6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(oss): index the five extracted packages, and say plainly none are published (#6147)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/88b9a1240eb69d59ef47b3a259ce557abad63781"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(fleet-verify): make the local endpoint and model overridable (#6145)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff468b5dc060d78bcb8fa66d57fb14a9ca505dc7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6141 (#6144)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8fa0ff76bc58ea8f506af04c46973e40df4756f"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6136 (#6138)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/772c11eb33cba029fec9026fb25735d245ec1fa3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(oss): extract the IDR signing chain as the idr-chain package (#6136)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ed7a2958fa506122b418f93be55d3b869938e17e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(converge-fleet): record the two criterion defects that cost a run its verdict (#6134)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/125376ea4eece620ceee7d2e4904810c0b4416b4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6131 (#6135)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/865ab13ec262882cc96c896fec50894210c82f0b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "422 changes / 7 days",
+      "value": "421 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
