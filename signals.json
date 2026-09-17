@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6057 (#6058)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2ede4c9a6fe7eb1c9e389fc07a99c1e278afe055"
+          "tldr": "chore(changelog): update for PR #6071 (#6074)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f1eb677fd842fd4012daa84b28e37155f8970640"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(gitignore): anchor strat-ops/ to the repo root so it stops hiding a tracked skill (#60",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4de1ef781bf2ea765bd676899ba4b673a6aad88e"
+          "tldr": "feat(ultracode): HarnessAdapter — outbound harness dispatch, built cross-harness (#6071)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44994d205bfbeef8095ef58ff9be2b69ece7dc7c"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6053 (#6055)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/df924fe154ad3b785ca91164802914fb99d3703c"
+          "tldr": "chore(changelog): update for PR #6063 (#6070)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c5fe3496b7d95fa065f8afc3d8f4239b3aa55fb"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(skill-loader): exclude archived skills from discovery (#6053)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/39ab44769004ff41cc486c9665d2081f700c2d16"
+          "tldr": "feat(measurement): Pool-A model attribution — the non-Anthropic goal gets a scoreboard (1.",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/45cadc507eee5dc4f739af85014076f2224f5037"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6044 (#6047)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/331cf6df599e2c88ee284a52eea878809311ef48"
+          "tldr": "chore(changelog): update for PR #6066 (#6068)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8e9897713a7aedad017626eed0e6797faf723497"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(install): route every destructive replace through one shared, self-verifying guard (#6",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cfee5d766b5ffceaf87451704876e7c3c0e34828"
+          "tldr": "fix(gitignore): anchor templates/ and drop two reactive negations (#6066)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f15becdf1ea8ebc48a0da95c70ef3989a983ce7d"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6039 (#6046)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2abe57e45ba75f7e799f53964995539b6fb087c5"
+          "tldr": "chore(changelog): update for PR #6059 (#6065)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/75f16df4da848f7f71b02bc0bdc62cb011306d2e"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(command-executor): write the commands index atomically too (#6039)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f84167fac1fb535ebff053f59b8a2d6dbc303125"
+          "tldr": "perf(session-start): rebuild the skill and command indexes only when stale (#6059)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c13815e016b691b18b2574f0dc0f89f79d41dd25"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "458 changes / 7 days",
+      "value": "466 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
