@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6141 (#6144)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8fa0ff76bc58ea8f506af04c46973e40df4756f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(idr-chain): correct a stale test cross-reference, and pin the class (#6141)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/59ba52257989e06d85babf16a6821ee6a0ab1ea1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6139 (#6140)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5bdd21eed373b33ff9d1e5320e5a4218372197d0"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6131 (#6135)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/865ab13ec262882cc96c896fec50894210c82f0b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(fleet-verify): stop erasing every run's bearing vocabulary but one (#6131)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/284978b76ce6452fb179feadec03d35655399492"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6129 (#6133)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff22b5f08ee9c269bc054261bbf9eaf77f69ed45"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "437 changes / 7 days",
+      "value": "434 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
