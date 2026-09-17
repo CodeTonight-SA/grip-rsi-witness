@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6110 (#6112)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0b8248f7f50a108c55b397848b15d5918d2ad1c4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(hal-default): --check, so an unpinned Pool-B default stops being silent (#6110)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a61deda3283a75303761bf1e933ceb9bb618da47"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #5973 (#6109)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3452aa71b3eba93a8d4252b7189609b5179c3c2e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(bin): grip-merge-when-green treated an unreadable answer as a pass (#5973)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ea3f4a0917245d1769cbecf7ee85f7e2c9961873"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6106 (#6107)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/805eebd36e074f7e36e31cd2eeaf42ac518e5467"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(mesh): a shared transcript, so peers can hold a conversation (#6041)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/92166ab4a520c217e418a7c482cfaa2afb2741a7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(agora): assert the judge is never the AUTHOR's family, independent of the roster (#60",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d75bdb35c7d352f819a991b3863e2541aee728e6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6100 (#6102)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f7ffed4e374ba5eb846f56783a0ae7a61081b73"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(remember): the second memory writer had the same unquoted-YAML defect (#6100)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7ff067add5d08c3258b396c8645f97c50444a5a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6096 (#6099)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7589de1c3c92dd0e5ba43f5052d7a6215e78524"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "450 changes / 7 days",
+      "value": "453 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
