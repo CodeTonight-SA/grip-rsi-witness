@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(publish): refuse a version at or behind the package's own public repo (#6233)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/55ba573acd01bf1e96c3d0410362bf745cd9a610"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6230 (#6232)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e91b1d9ace06b1528dc0122f51a86881bacb5ee2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(oss): trusted publishing, so no PyPI token needs to exist (#6230)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2c3b35f58ae9ff5f79c27574626695ab0a056c7c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6227 (#6228)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4b93e1c6c3ca5043d59be5577eb118806cf9e30"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6221 (#6223)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/37efcbe1380e3f44fcba271c3ff940273b76c373"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(context): diagnose why the belief chain verifies as it does, changing no verdict (#62",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/80afd621a8502333788964ac04d9f940c8ceb92d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(oss): make the five packages discoverable from each other (#6218)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/643e59f8f8fc71558e607d3d1a7d05cac226de8d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurement): round three updates round two, and makes the licensing call decidable (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/430fda995d6dcf22854b73606655c8f644ef42dc"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "461 changes / 7 days",
+      "value": "459 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
