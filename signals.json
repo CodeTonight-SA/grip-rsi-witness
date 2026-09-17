@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(oss): make the five packages discoverable from each other (#6218)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/643e59f8f8fc71558e607d3d1a7d05cac226de8d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurement): round three updates round two, and makes the licensing call decidable (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/430fda995d6dcf22854b73606655c8f644ef42dc"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6214 (#6215)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/40b3238c1b4080016e6591df82c7861976bfd639"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(idr-chain): widen the attack corpus 4 to 10, and fix two classifier defects it expose",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f560f156a954bd686f96acc21b604acc047a9c26"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(measurement): a second council, carrying the first forward, refutes an argument I mad",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3c7c39b325a981de56088f86f8320c9270a1c3a"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6207 (#6210)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5f2f2e52a8b6dc6f850705dd19e15983832392a2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(idr-chain): the shippable audit was weaker than the internal one, and could not read o",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d375797eda4f41fc7b2d6620d99601188c1a1dd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurement): a non-Anthropic council with the evidence refutes two of my own buyer c",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c2c33f06831e9618470841fa5a1f8d9502cf0851"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6205 (#6206)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/63137dc82e7725bff30dd882c2c251b739f9b4de"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(continuity): the belief check accused an intact binding, and the incumbent's SDK read ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2fd1824a975ffd18f81e2826b5cef3f23aec1f68"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "451 changes / 7 days",
+      "value": "455 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
