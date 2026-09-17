@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(publish): the --only refusal now says WHY a package is excluded (#6243)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/24082d179dd0d439533fbfecece86c16a71eb893"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(cc): the ratchet did not ratchet — give it a floor that follows improvement (#6242)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/01ec360ab824355066941c5dde646c3757f9596d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6240 (#6241)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6572aa62fa483d02e9c10f919fd31e9e0c9ddec3"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6233 (#6234)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cfde0e459db5868245db724872113bf8b71c4693"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(publish): refuse a version at or behind the package's own public repo (#6233)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/55ba573acd01bf1e96c3d0410362bf745cd9a610"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6230 (#6232)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e91b1d9ace06b1528dc0122f51a86881bacb5ee2"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "465 changes / 7 days",
+      "value": "467 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
