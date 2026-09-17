@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(measurement): four adversarial injections, and the claim they narrow (#6178)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f69386e8fc24934c8db6f88d1b523095f69becb2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6176 (#6177)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/429d27115c69059d369b6de09f79cdc3f5b9436f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(security): gitignore the Max-account OAuth tokens before one is stored (#6127)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fb5026cc01d62010a0806d91447c7aea44e29ded"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6111 (#6170)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b649ec235ed26acd9729e11ec1011110e96a5444"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "435 changes / 7 days",
+      "value": "429 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
