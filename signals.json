@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6205 (#6206)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/63137dc82e7725bff30dd882c2c251b739f9b4de"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(continuity): the belief check accused an intact binding, and the incumbent's SDK read ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2fd1824a975ffd18f81e2826b5cef3f23aec1f68"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6203 (#6204)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b9b4229200fbf1a925d584cfb2085d5662c5a344"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(continuity): bind a decision to the belief chain, and surface unsettled decisions (#6",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7741c17405f913c9bbbf6b97de11682624de0a01"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(seal): RFC 8785 canonical JSON, verifier first — 336 sealed records unbroken (#6198)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2cc6c798f4b6348946d5d4e4adfb5db265a4c67"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurement): the absence-keyed check was an instance, not a class (#6195)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5be70f8e80c71a3688fcd728cc0487ee28ddd9bf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6193 (#6194)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5182554ad157106cb29500a269f7213495235105"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(council): report what a clean verification does NOT assert (#6193)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5606d3c1c0c2952fc5be98d53e9e7dc175653319"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "442 changes / 7 days",
+      "value": "445 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
