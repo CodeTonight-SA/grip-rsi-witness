@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(converge-fleet): record the two criterion defects that cost a run its verdict (#6134)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/125376ea4eece620ceee7d2e4904810c0b4416b4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6131 (#6135)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/865ab13ec262882cc96c896fec50894210c82f0b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(fleet-verify): stop erasing every run's bearing vocabulary but one (#6131)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/284978b76ce6452fb179feadec03d35655399492"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6129 (#6133)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff22b5f08ee9c269bc054261bbf9eaf77f69ed45"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(converge-fleet): resolve the lane-brief scratch paths in the v2 template (#6129)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8f2e5d5ce0cdb0c5d39af3875b2bfeb835c34b37"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6126 (#6128)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/446034ca3026a9efdbe7b863ae080fd4bf290ee6"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5728 (#5735)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9866e72590789d19b2deb8e8cee06b892be0135b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5723 (#5730)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d17277e462219dba077c7ece8cd2a34eb171b5d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6123 (#6125)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/23c64510f75304a91d84da06ce91a19e78332453"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #5589 (#5603)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d47f9502cee6370365839427b2765fc7d5700f73"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "perf(cc-forensics): stop reading 20GB and spawning 2,504 processes per scan (#6123)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b5ceb5547e638483139df3ec1ef833081f9e7d71"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6120 (#6122)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/354c9fbad2449f882958fad0effb823c6661a65c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "448 changes / 7 days",
+      "value": "453 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
