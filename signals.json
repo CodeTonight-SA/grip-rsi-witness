@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6227 (#6228)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4b93e1c6c3ca5043d59be5577eb118806cf9e30"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(publish): name the credential routes instead of promising a prompt (#6227)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/df9c58efb8cafa59defea3fa9b371a774ed8ee47"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6224 (#6226)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f286123983caf2b16603de45be20710c20b1dcb2"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(measurement): round three updates round two, and makes the licensing call decidable (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/430fda995d6dcf22854b73606655c8f644ef42dc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6214 (#6215)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/40b3238c1b4080016e6591df82c7861976bfd639"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(idr-chain): widen the attack corpus 4 to 10, and fix two classifier defects it expose",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f560f156a954bd686f96acc21b604acc047a9c26"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "459 changes / 7 days",
+      "value": "461 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
