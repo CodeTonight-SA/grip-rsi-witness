@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(rules): operator-anonymity — the doctrine",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b6b3fcd873ea5c77695fac1c054b112971eb6ed6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(rules): productise-the-proof — the productisation doctrine",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/440188a2fce8db7086b481cfd0da08fa01c5eda7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix: remove tracked absorb log (operator PII, plaintext)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/028a2fda63959c62c1ddb6e1aedb7048867cbce9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gitignore): ignore runtime absorb data (operator PII)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b1e2fe0d48a77e992501032791d0450e5f4d0f0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6071 (#6074)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f1eb677fd842fd4012daa84b28e37155f8970640"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(measurement): Pool-A model attribution — the non-Anthropic goal gets a scoreboard (1.",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/45cadc507eee5dc4f739af85014076f2224f5037"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6066 (#6068)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8e9897713a7aedad017626eed0e6797faf723497"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gitignore): anchor templates/ and drop two reactive negations (#6066)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f15becdf1ea8ebc48a0da95c70ef3989a983ce7d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6059 (#6065)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/75f16df4da848f7f71b02bc0bdc62cb011306d2e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "perf(session-start): rebuild the skill and command indexes only when stale (#6059)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c13815e016b691b18b2574f0dc0f89f79d41dd25"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "466 changes / 7 days",
+      "value": "469 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Reconstruct YOUR context from the real record, not from recollection",
+          "name": "/catchup"
+        },
         {
           "desc": "Runs a five-stage acceptance gauntlet (LEARN, INSTALL SAFELY, DRY-RUN, interacti",
           "name": "/proving-ground"
@@ -96,10 +100,6 @@
         {
           "desc": "The inverse of /remember — free a memory record's slot in the loaded MEMORY",
           "name": "/forget"
-        },
-        {
-          "desc": "Writes and gates a public post in GRIP's voice - plain language, no hype or shil",
-          "name": "/grip-post"
         }
       ],
       "tip": "Everything is a shim; AI is a syscall — one stable boundary, provider-swappable underneath."
