@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(hardening): close GRIP#6087 -- probe vacuity, failure path, and the shared filter (#6",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/abb62d39590ff402359e3340c727c38b0c17ad2e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(auto-memory): auto-captured records were writing frontmatter YAML cannot parse (#6096)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d481423e5822ca0b8b227bd61fbc8b6f0da5b984"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6092 (#6095)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/73ac46d3a894055d107cc84198eb749ca862415e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "rules(paramount): good-faith reciprocity — verification points outward (#6092)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/90cda2cf17e18521c4509ab50b25e73640edfac7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6089 (#6090)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/96223cb61b33a14eaf35173d5a1fa1ee95745672"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(audit-chain): lock timeout must never append unchained bytes + fix the test (#6086)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e3e02aa408e49b0f94faa997a0347c5c3ea7eddd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6079 (#6085)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aecedede344311981b99bab3bf9a06487b59d6c1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(audit-chain): a lock timeout must never append to the hash-chain (#6079)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b0f3eef54abf15a9330e38f5ccba24bb5d19c45"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(hardening): land the deferred council items from #6029, #6045 and #6069 (#6075)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/085041e439c9b239eff6fbdfbdd86f18f95fe6db"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6082 (#6083)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d692e5648aa4b62804d7fea749c6597d2b0f258"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "87 living genes exported with their fitness scores",
+      "caption": "88 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7462",
+      "value": "gen 7463",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "439 changes / 7 days",
+      "value": "443 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
