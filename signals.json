@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6100 (#6102)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f7ffed4e374ba5eb846f56783a0ae7a61081b73"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(remember): the second memory writer had the same unquoted-YAML defect (#6100)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7ff067add5d08c3258b396c8645f97c50444a5a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6096 (#6099)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7589de1c3c92dd0e5ba43f5052d7a6215e78524"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(hardening): close GRIP#6087 -- probe vacuity, failure path, and the shared filter (#6",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/abb62d39590ff402359e3340c727c38b0c17ad2e"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6089 (#6090)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/96223cb61b33a14eaf35173d5a1fa1ee95745672"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(bin): grip-identity — the session-start gate a cold session must pass (#6089)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c5b13dcb08df8a6b085d38d55d464947461f7f79"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6086 (#6088)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f91c6185163d657419117364ddcd6b3dd34660e5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(audit-chain): lock timeout must never append unchained bytes + fix the test (#6086)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e3e02aa408e49b0f94faa997a0347c5c3ea7eddd"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "443 changes / 7 days",
+      "value": "446 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
