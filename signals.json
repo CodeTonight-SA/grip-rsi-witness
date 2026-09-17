@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6106 (#6107)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/805eebd36e074f7e36e31cd2eeaf42ac518e5467"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(prove-it): the judge ladder must never fall through to an Anthropic judge (#6106)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d00decbd763aa2a9aa8b6e801070c7d4687d30d4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6041 (#6105)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c780442350a36ca0234dfdedd8c4b416649a3e52"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(mesh): a shared transcript, so peers can hold a conversation (#6041)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/92166ab4a520c217e418a7c482cfaa2afb2741a7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(agora): assert the judge is never the AUTHOR's family, independent of the roster (#60",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d75bdb35c7d352f819a991b3863e2541aee728e6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6100 (#6102)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f7ffed4e374ba5eb846f56783a0ae7a61081b73"
         },
@@ -16,54 +41,29 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6096 (#6099)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7589de1c3c92dd0e5ba43f5052d7a6215e78524"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(hardening): close GRIP#6087 -- probe vacuity, failure path, and the shared filter (#6",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/abb62d39590ff402359e3340c727c38b0c17ad2e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(auto-memory): auto-captured records were writing frontmatter YAML cannot parse (#6096)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d481423e5822ca0b8b227bd61fbc8b6f0da5b984"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6092 (#6095)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/73ac46d3a894055d107cc84198eb749ca862415e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "rules(paramount): good-faith reciprocity — verification points outward (#6092)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/90cda2cf17e18521c4509ab50b25e73640edfac7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6089 (#6090)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/96223cb61b33a14eaf35173d5a1fa1ee95745672"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "502 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "500 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "131 confirmed / 151 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "88 living genes exported with their fitness scores",
+      "caption": "32 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7463",
+      "value": "gen 7094",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "445 changes / 7 days",
+      "value": "450 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
