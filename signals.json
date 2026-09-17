@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6126 (#6128)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/446034ca3026a9efdbe7b863ae080fd4bf290ee6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(oss): extract agent-room — a shared transcript, with a neutral default and no upstrea",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3173a17bb598b0d9544e4f0dc301753a946fb721"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #5728 (#5735)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9866e72590789d19b2deb8e8cee06b892be0135b"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6120 (#6122)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/354c9fbad2449f882958fad0effb823c6661a65c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6116 (#6121)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3440f78c606de9a0039ac136d151e2040d0b7ab4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(oss): extract false-signal-lint — three detectors for code that claims what it does n",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a410f06ddb54cf85a579a4c5ac128b8a8673037c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "453 changes / 7 days",
+      "value": "451 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
