@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(continuity): bind a decision to the belief chain, and surface unsettled decisions (#6",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7741c17405f913c9bbbf6b97de11682624de0a01"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6201 (#6202)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d32045a22b14b92c92cb3f8cefcb34b617b12f54"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(seal): R0-test the deferred AGORA concerns, and correct a licence claim published from",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4c9bf276488817021a95925d03ac6124d8bd12c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6198 (#6200)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/743d5fddb80a8edd992a2c1089a29a981980a011"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(seal): RFC 8785 canonical JSON, verifier first — 336 sealed records unbroken (#6198)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2cc6c798f4b6348946d5d4e4adfb5db265a4c67"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(measurement): the absence-keyed check was an instance, not a class (#6195)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5be70f8e80c71a3688fcd728cc0487ee28ddd9bf"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(council): report what a clean verification does NOT assert (#6193)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5606d3c1c0c2952fc5be98d53e9e7dc175653319"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6190 (#6192)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/14e0e11d28df0e4a9d9e075ae122d398fb640e79"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(anchor): RFC 3161 trusted timestamps — the external time anchor we lacked (#6190)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd6f5474c51ecd4df1fad1fb62b58637ee51fedc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurement): the incumbent survey — our position is weaker, not stronger (#6189)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f663f2660c26bf0d88662b7a9549dc217219125a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurement): the buyer question, asked of the world instead of a council (#6188)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/77156d8d283fbb895d9935490870dcea5ce2e9c9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(oss): lead with the audit, and add a credential-free render pre-flight (#6187)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4599aa01757e2f4ae4203860beba2c3d5258e778"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "437 changes / 7 days",
+      "value": "442 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
