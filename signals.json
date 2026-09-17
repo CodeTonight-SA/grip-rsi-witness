@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6221 (#6223)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/37efcbe1380e3f44fcba271c3ff940273b76c373"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(context): diagnose why the belief chain verifies as it does, changing no verdict (#62",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/80afd621a8502333788964ac04d9f940c8ceb92d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(oss): make the five packages discoverable from each other (#6218)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/643e59f8f8fc71558e607d3d1a7d05cac226de8d"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6211 (#6212)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa99633b63bb87e340b17ecb8b6d743a22b401ec"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(oss): one command to publish the five MIT packages, run by the operator (#6211)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fa5648fa98dc3690214359313d3d6f001a25a1ea"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6207 (#6210)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5f2f2e52a8b6dc6f850705dd19e15983832392a2"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "455 changes / 7 days",
+      "value": "457 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
