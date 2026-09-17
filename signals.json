@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6057 (#6058)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2ede4c9a6fe7eb1c9e389fc07a99c1e278afe055"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gitignore): anchor strat-ops/ to the repo root so it stops hiding a tracked skill (#60",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4de1ef781bf2ea765bd676899ba4b673a6aad88e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6053 (#6055)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/df924fe154ad3b785ca91164802914fb99d3703c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(skill-loader): exclude archived skills from discovery (#6053)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/39ab44769004ff41cc486c9665d2081f700c2d16"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6044 (#6047)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/331cf6df599e2c88ee284a52eea878809311ef48"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(command-executor): write the commands index atomically too (#6039)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f84167fac1fb535ebff053f59b8a2d6dbc303125"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6038 (#6043)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/984c99b1c3ad668287811526d292e9fcfc41b51a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): stop the collision suite depending on a non-atomic index write (#6038)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/df6a6858be7f8574a44c8bc5a082be5344d0c557"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6025 (#6036)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c1cbfdb4755aa1a52c15d9660d3575e806ea1a29"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(history-store): report every WhatsApp history drop, make retention depth configurable ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7261e6fe74cc1b285e439b8b6f4f0ab8d1c099c1"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "461 changes / 7 days",
+      "value": "462 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
