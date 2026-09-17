@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6086 (#6088)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f91c6185163d657419117364ddcd6b3dd34660e5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(audit-chain): lock timeout must never append unchained bytes + fix the test (#6086)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e3e02aa408e49b0f94faa997a0347c5c3ea7eddd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6079 (#6085)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aecedede344311981b99bab3bf9a06487b59d6c1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(audit-chain): a lock timeout must never append to the hash-chain (#6079)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b0f3eef54abf15a9330e38f5ccba24bb5d19c45"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(hardening): land the deferred council items from #6029, #6045 and #6069 (#6075)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/085041e439c9b239eff6fbdfbdd86f18f95fe6db"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6082 (#6083)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d692e5648aa4b62804d7fea749c6597d2b0f258"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(stats): regenerate the capability line after two new rules landed (#6082)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/93c172d7cc84cbdc6918558280bf0d9280500f17"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(rules): operator-anonymity — the doctrine",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b6b3fcd873ea5c77695fac1c054b112971eb6ed6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(rules): productise-the-proof — the productisation doctrine",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/440188a2fce8db7086b481cfd0da08fa01c5eda7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: remove tracked absorb log (operator PII, plaintext)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/028a2fda63959c62c1ddb6e1aedb7048867cbce9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gitignore): ignore runtime absorb data (operator PII)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b1e2fe0d48a77e992501032791d0450e5f4d0f0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6071 (#6074)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f1eb677fd842fd4012daa84b28e37155f8970640"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ultracode): HarnessAdapter — outbound harness dispatch, built cross-harness (#6071)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44994d205bfbeef8095ef58ff9be2b69ece7dc7c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6063 (#6070)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c5fe3496b7d95fa065f8afc3d8f4239b3aa55fb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(measurement): Pool-A model attribution — the non-Anthropic goal gets a scoreboard (1.",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/45cadc507eee5dc4f739af85014076f2224f5037"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "469 changes / 7 days",
+      "value": "476 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
