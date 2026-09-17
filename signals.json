@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6224 (#6226)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f286123983caf2b16603de45be20710c20b1dcb2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(context-chain): compare the Verdict ENUM, not its repr (#6224)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c4c7c3d8ea61e8a853591ab2b2a8d9bbe30dc5c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6221 (#6223)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/37efcbe1380e3f44fcba271c3ff940273b76c373"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(idr-chain): widen the attack corpus 4 to 10, and fix two classifier defects it expose",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f560f156a954bd686f96acc21b604acc047a9c26"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurement): a second council, carrying the first forward, refutes an argument I mad",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3c7c39b325a981de56088f86f8320c9270a1c3a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6211 (#6212)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa99633b63bb87e340b17ecb8b6d743a22b401ec"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "457 changes / 7 days",
+      "value": "459 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
