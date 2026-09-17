@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6158 (#6159)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/36984a11a7c11b1c81b903c21a42ca045deb2cf6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(oss): verify the SOURCE distribution too — it was never built (#6158)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/793bcb8e6e58573a8cb9607922c4a5dbb4010095"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(oss): a release runbook, so \"no release process\" stops being a blocker (#6157)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fb6c82a0563a6410b775d71a539927d15b9c1efe"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(oss): two of the four publishing blockers are now answered (#6155)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2119665e657ea8453ca78173c2bdc975b4b3433"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(fleet-verify): probe reproducibility directly instead of trusting the sampler (#6148)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a5706f640525ea1bfe06a179acfb65e0c86c1409"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(converge-fleet): a quantised KV cache makes the verdicts irreproducible (#6151)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a10e58b5c2a3683b72797d09e96ec1dc39976e8a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6145 (#6149)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/77b51ff39b4d866b4c9ce8b93f544ddee2b949b6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(oss): index the five extracted packages, and say plainly none are published (#6147)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/88b9a1240eb69d59ef47b3a259ce557abad63781"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "424 changes / 7 days",
+      "value": "422 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
