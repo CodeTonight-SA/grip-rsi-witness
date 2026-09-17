@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(idr-chain): the shippable audit was weaker than the internal one, and could not read o",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d375797eda4f41fc7b2d6620d99601188c1a1dd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurement): a non-Anthropic council with the evidence refutes two of my own buyer c",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c2c33f06831e9618470841fa5a1f8d9502cf0851"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6205 (#6206)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/63137dc82e7725bff30dd882c2c251b739f9b4de"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(seal): R0-test the deferred AGORA concerns, and correct a licence claim published from",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4c9bf276488817021a95925d03ac6124d8bd12c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6198 (#6200)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/743d5fddb80a8edd992a2c1089a29a981980a011"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(seal): RFC 8785 canonical JSON, verifier first — 336 sealed records unbroken (#6198)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2cc6c798f4b6348946d5d4e4adfb5db265a4c67"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "445 changes / 7 days",
+      "value": "447 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
