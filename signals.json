@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6089 (#6090)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/96223cb61b33a14eaf35173d5a1fa1ee95745672"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(bin): grip-identity — the session-start gate a cold session must pass (#6089)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c5b13dcb08df8a6b085d38d55d464947461f7f79"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6086 (#6088)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f91c6185163d657419117364ddcd6b3dd34660e5"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6082 (#6083)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d692e5648aa4b62804d7fea749c6597d2b0f258"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(stats): regenerate the capability line after two new rules landed (#6082)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/93c172d7cc84cbdc6918558280bf0d9280500f17"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(rules): operator-anonymity — the doctrine",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b6b3fcd873ea5c77695fac1c054b112971eb6ed6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "437 changes / 7 days",
+      "value": "439 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
