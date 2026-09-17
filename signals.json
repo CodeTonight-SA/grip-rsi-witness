@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6139 (#6140)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5bdd21eed373b33ff9d1e5320e5a4218372197d0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(idr-chain): resolve lib.* with a scoped finder instead of claiming sys.path (#6139)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/487857ef59eb5e0f856e1d4f66e91b80e167ed80"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6136 (#6138)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/772c11eb33cba029fec9026fb25735d245ec1fa3"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6129 (#6133)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff22b5f08ee9c269bc054261bbf9eaf77f69ed45"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(converge-fleet): resolve the lane-brief scratch paths in the v2 template (#6129)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8f2e5d5ce0cdb0c5d39af3875b2bfeb835c34b37"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6126 (#6128)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/446034ca3026a9efdbe7b863ae080fd4bf290ee6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "452 changes / 7 days",
+      "value": "449 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
