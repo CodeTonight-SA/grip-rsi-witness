@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(oss): two of the four publishing blockers are now answered (#6155)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2119665e657ea8453ca78173c2bdc975b4b3433"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6154 (#6156)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/50439dce9274bfd381ce77c8947e165b44954302"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(oss): verify every package builds, installs and imports — none did before (#6154)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a491a3fba8d1305a4a5b6a611a30dbe99050a79f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6148 (#6153)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b1cfa1be223a4411309d4a1969407eee392dd744"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(fleet-verify): probe reproducibility directly instead of trusting the sampler (#6148)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a5706f640525ea1bfe06a179acfb65e0c86c1409"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(converge-fleet): a quantised KV cache makes the verdicts irreproducible (#6151)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a10e58b5c2a3683b72797d09e96ec1dc39976e8a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6145 (#6149)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/77b51ff39b4d866b4c9ce8b93f544ddee2b949b6"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(oss): index the five extracted packages, and say plainly none are published (#6147)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/88b9a1240eb69d59ef47b3a259ce557abad63781"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(fleet-verify): make the local endpoint and model overridable (#6145)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff468b5dc060d78bcb8fa66d57fb14a9ca505dc7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6141 (#6144)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8fa0ff76bc58ea8f506af04c46973e40df4756f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(idr-chain): correct a stale test cross-reference, and pin the class (#6141)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/59ba52257989e06d85babf16a6821ee6a0ab1ea1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6139 (#6140)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5bdd21eed373b33ff9d1e5320e5a4218372197d0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(idr-chain): resolve lib.* with a scoped finder instead of claiming sys.path (#6139)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/487857ef59eb5e0f856e1d4f66e91b80e167ed80"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6136 (#6138)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/772c11eb33cba029fec9026fb25735d245ec1fa3"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "421 changes / 7 days",
+      "value": "424 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
