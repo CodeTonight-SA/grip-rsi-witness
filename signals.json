@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6176 (#6177)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/429d27115c69059d369b6de09f79cdc3f5b9436f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(council): --verify never compared the record against the hash it sealed (#6176)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f443bae9ff419b93ffaf9b1c58b021041668781"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurement): falsify the productisation thesis before publishing, not after (#6175)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7f9949a163a33323632217ef084fc0bc2ba27dd9"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6061 (#6174)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3644f1ef27b7756debcebb8583232db4b3cd1d6c"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6111 (#6170)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b649ec235ed26acd9729e11ec1011110e96a5444"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(redaction): the public emitter published unshielded on a locked denylist (#6050)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a687b01a0cea8cb22648432c113b45df2669782d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(bin): a FAILED check query that emitted bytes still reached the merge (#6111)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/65455633a0d326cac4f01bb71fcc378374d8933f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6103 (#6169)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c25109e79ea46e8dcff15025bb08bf74fe61ac5"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "437 changes / 7 days",
+      "value": "435 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
