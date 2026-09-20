@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(ci): a probe candidate for the 237 anchors bound to no gate (#6348)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2afde5016e75ef6ea7109a787b57ddca076743c3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(cos): assert the reasoning route reaches a LIVE model, not a retired id (#6355)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/768d9405b475f8d47e50e0fc7829d425f5f4ef63"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(backlog): assert the render changed nothing, not that the directory is empty (#6353)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b94cf8c8cb1934158456e92eb8dd2ea918b49d7d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(bash-error-capture): create the collector the hermetic tree lacks, and stop discardin",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/349ac27cd08b0699def3c0e3eacfeb0d3303559c"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "test(gate): prove the empty-block guard fires, not merely that it is spelled right (#6341)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/efa0a5daa48920b393fcaa234e6e9d3851fe6a71"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6338 (#6343)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8ad263710262c6dad958ee920034478477b4630"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6339 (#6342)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d02e87d97b550478707c3e164e3cb3276c133f9a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(room): resolve a raw-id author name instead of showing the UUID (#6340)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e542ff8c6c1ffc31f486693698b6dd33edf6acd"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "454 changes / 7 days",
+      "value": "457 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
