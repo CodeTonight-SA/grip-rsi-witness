@@ -4,52 +4,52 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(inception): the command's frontmatter hardcoded the operator's home path (#6318)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a3cca31d9df32286e906434d3142f491f322ae3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurement): why the safety-core budget is 24k over, per-rule (#6320)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c31a304e1abd14ee0a0f75b071ae572a2c674903"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(headroom): let the fail-open tests reach the path they are about (#6319)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0b92a03166a781998a18dff686ed1a9f1b0e7a2f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6308 (#6309)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30e53ad0bc327eb4f66c4e178067a865ff913551"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(room): the live page shows what peers typed, declares its language, and says what it i",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/db4c36c15d082b8d44c3d1669d263d523a62d452"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(room): default_author_id ignored the id it was given (#6308)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4c8a2b948a1a06481484d2e746ce591298246a8b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6299 (#6303)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2fb04f5c3ca2f39d93c53061fd24f1c8999f4b36"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6301 (#6306)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cc4a14df43ce810dd91b919296bc0ddfdc90ce46"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(precog): resolve the default IDR ledger path at call time, not import (#6301)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bec358d27ec00c08ea49fe826b55740953465999"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6295 (#6305)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc1698877bb95393c3824b61997cb1a71681d270"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(witness): publish the verdicts that rest on a measurement, not all of them (#6295)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b5e1e0a54ca5aacede5809e25b778d5e5bbe2f0e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6298 (#6302)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/78f1c3835abb4f3c4e535697314e6b28575877d2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(room): GRIP_SEAT_MODEL is this session's model, so it is owner-scoped too (#6299)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3adcf9c5655cdabb6def00e10039235c363432b4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(surface-skills): codex-plugin proxies kept the building machine's home path (#6298)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8d49a1609011b170a14643f4aea3bca18c4708a0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(converge-fleet): every pointer sent readers to the superseded v1 template (#6297)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d21de0c36fab66afe5cc47f30e568d8ebde7636"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "500 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "12 of 282 verdicts rest on a resolvable metric; the other 270 were graded from a sentinel that means no collector exists, and are NOT evidence. 500 hypotheses registered.",
       "key": "hypotheses",
-      "label": "Hypotheses tested",
-      "value": "131 confirmed / 151 refuted",
+      "label": "Hypotheses tested (grounded)",
+      "value": "8 confirmed / 4 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "434 changes / 7 days",
+      "value": "440 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
