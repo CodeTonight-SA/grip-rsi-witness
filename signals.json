@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gitignore): image-cache holds pasted screenshots and was committable (#6269)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/436873222644144309f3ac4a1e7ad034100bdb23"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6262 (#6265)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e38f2b330737256be89641660b9bbf99a062901b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat: find the work you can't find, and run the gates under any harness (#6252)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/775fc5bbc53cf1619d31aeb78f76f65da496a932"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6243 (#6247)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3ddc4da96e937094d0cad8ac3c332fce55c5a69d"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "415 changes / 7 days",
+      "value": "414 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
