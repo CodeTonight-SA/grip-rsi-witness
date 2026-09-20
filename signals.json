@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(bash-error-capture): create the collector the hermetic tree lacks, and stop discardin",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/349ac27cd08b0699def3c0e3eacfeb0d3303559c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(caveman): guard the rails where they now live, not the redirect stub (#6349)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a716797a8bd5c34dc2165c7c4d59c189a4abb4e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6344 (#6347)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8d9a1d64d32665fb445a8a25574b839f2ac8fa0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(rules-scope): refuse to shed a dangerous-action rule, and stop calling a real glob une",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fd8e0aa7bd6e52db37878bbb4f89ef7d8e094609"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(gate): prove the empty-block guard fires, not merely that it is spelled right (#6341)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/efa0a5daa48920b393fcaa234e6e9d3851fe6a71"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(room): resolve a raw-id author name instead of showing the UUID (#6340)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e542ff8c6c1ffc31f486693698b6dd33edf6acd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): the measure_plan anchor demanded the absence of its own subject (#6338)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8a543562618d3949ecffbc2191195af44883dd4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(oss): gate the extraction-parity test, and re-sync the twin it caught (#6339)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/df39596d7eacd4c185b4de08efeada6a5417a136"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6334 (#6336)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cd050f9ec7a37d82fca1f6e039a79b11504a7544"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(room): a session's posts are authored by a name, not a UUID (#6334)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/11a60fafcfcc6e163dc6f44974ad869e46f6f685"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "450 changes / 7 days",
+      "value": "454 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
