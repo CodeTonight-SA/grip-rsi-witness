@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(ci): state the forward-anchor merge rule where a resolver will see it (#6283)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1e06cab53a4314ad7f67fc25b65ac20d77a76c7b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6094 (#6286)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/17a9364c95e4ef38a3739ef008cb0d88ecfc8e29"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(cost): announce a fan-out's cost before it spends, and name the billing account (#609",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c93a6af802041167e151a5d92bc65aac19028513"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6250 (#6282)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5972d6752b963950fbf413dcfc55b8e4a3829081"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(account): run different Claude Code accounts in different terminals (#6250)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e829c806c2c41c7fcc38f16ed1fa6a868a7e4c07"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6261 (#6281)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/abcaf3075ec30332738262861af85a13cbc94319"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(council): a panel with nobody sitting printed a confident consensus (#6261)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2893c73ff070a13d597eb2256e6fb053983b7e8"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6078 (#6277)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ee27ec204fac27dacb0c4dcda72ac1844578a048"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6248 (#6276)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/512392f3108941ce765d842723f9bb2682451c1c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(audit): lock-timeout fallback must never append unsigned entries into the chain file (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/69f0f09f69b80d15f6a9e7c0e4559571cef453bf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(defer): surface the deferred-concern queue, because nothing did (#6248)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f7919f7d750aea9151e14dc7f5feb507538b50c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6050 (#6171)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a9e1bc15d3309bf4aa66cd572538fefbee0fccc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6264 (#6273)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c2b11a940b56491e3d5769f0f322674cb3a2415"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat: /infiltrate — a release-readiness audit read from outside (#6264)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ec6d8e0acc1d8246315ab88a9e8ae3fe66a88fd"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "32 living genes exported with their fitness scores",
+      "caption": "88 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7094",
+      "value": "gen 7467",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "422 changes / 7 days",
+      "value": "417 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
