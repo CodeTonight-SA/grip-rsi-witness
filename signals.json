@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6262 (#6265)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e38f2b330737256be89641660b9bbf99a062901b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(publish): the publish job needs contents:read, or checkout cannot read the repo (#6262",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2e35ca9ff337f22c089627c87e3bc73826b43aca"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(rules): agora-downgrade evidence 3 of 3 -> 5 of 5, and widen the scope (#6257)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/26db381312ab2d82345174be8a6784270f53a370"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6243 (#6247)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3ddc4da96e937094d0cad8ac3c332fce55c5a69d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6242 (#6246)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d923c8fc14c08450feeff47e761cdd151d472ec2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(publish): the --only refusal now says WHY a package is excluded (#6243)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/24082d179dd0d439533fbfecece86c16a71eb893"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "32 living genes exported with their fitness scores",
+      "caption": "88 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7094",
+      "value": "gen 7464",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "413 changes / 7 days",
+      "value": "415 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
