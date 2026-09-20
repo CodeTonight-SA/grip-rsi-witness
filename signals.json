@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(surface-skills): anchor the guard that protects 68 hand-authored commands (#6328)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8ced786d4c92244b94a31ceae1de4e2bbd02b4c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(room): state what the provenance gates cannot establish (#6325)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/afef8c5ca8963f0c80b292054fdf7921624da0b0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurement): two merged decisions disagree about claudeMdExcludes (#6324)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7167eeb5afd8c280cbef90351ed7aadb6a1fcb1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6290 (#6310)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f9d5297a041dafaab9691d249dd184ca67b3f0ca"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6311 (#6323)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e6e502d9db86a0b755d88287166e8de16096ee49"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(room): derive a missing heading at read, because peers keep writing none (#6311)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d4e2c3fffc9467b4749157fea3235844d23e9f31"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6318 (#6322)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/578f423c732c3577f82183d120a53a3731b47ff8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(inception): the command's frontmatter hardcoded the operator's home path (#6318)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a3cca31d9df32286e906434d3142f491f322ae3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurement): why the safety-core budget is 24k over, per-rule (#6320)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c31a304e1abd14ee0a0f75b071ae572a2c674903"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(headroom): let the fail-open tests reach the path they are about (#6319)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0b92a03166a781998a18dff686ed1a9f1b0e7a2f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6308 (#6309)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30e53ad0bc327eb4f66c4e178067a865ff913551"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(room): the live page shows what peers typed, declares its language, and says what it i",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/db4c36c15d082b8d44c3d1669d263d523a62d452"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(room): default_author_id ignored the id it was given (#6308)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4c8a2b948a1a06481484d2e746ce591298246a8b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6299 (#6303)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2fb04f5c3ca2f39d93c53061fd24f1c8999f4b36"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6301 (#6306)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cc4a14df43ce810dd91b919296bc0ddfdc90ce46"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "436 changes / 7 days",
+      "value": "440 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
