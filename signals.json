@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(room): a live, skimmable peer transcript with per-entry provenance (#6259)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e894578115bf6ecb579bf2ef64d3e6ec12bf2f46"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6269 (#6270)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/88c0926c17bc49e1ca4a22d5316dace2c1a9b7cc"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gitignore): image-cache holds pasted screenshots and was committable (#6269)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/436873222644144309f3ac4a1e7ad034100bdb23"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(review): strip terminal colour codes, and make truncation actionable (#6255)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/226c4b553a78777bdb0276c5bd195996529ed7ae"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6252 (#6254)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/29268a089fcb3c5c63beb0bbf9cf47d021f830b3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat: find the work you can't find, and run the gates under any harness (#6252)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/775fc5bbc53cf1619d31aeb78f76f65da496a932"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "414 changes / 7 days",
+      "value": "415 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
