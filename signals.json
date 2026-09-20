@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6330 (#6332)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/92ed12b2d32902a488d8b2a02b827423b4a097d0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(room): redact before asking what is still exposed (#6330)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/11019e63fc6ce0934289abb9d27575a5f840af6b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(room): derive a missing heading at read, because peers keep writing none (#6311)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d4e2c3fffc9467b4749157fea3235844d23e9f31"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6318 (#6322)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/578f423c732c3577f82183d120a53a3731b47ff8"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "441 changes / 7 days",
+      "value": "442 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
