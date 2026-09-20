@@ -4,66 +4,66 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "docs(moat): withdraw the defensibility claim, and record that the anchor now anchors (#619",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/859aad1d1f66a405926a6beaf86f8846fcbc9b7a"
+          "tldr": "fix(council): a panel with nobody sitting printed a confident consensus (#6261)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2893c73ff070a13d597eb2256e6fb053983b7e8"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6268 (#6272)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8f04206308b3da098f4326c5f7a231d994dfff9d"
+          "tldr": "chore(changelog): update for PR #6078 (#6277)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ee27ec204fac27dacb0c4dcda72ac1844578a048"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(roster): show which GRIP sessions are live and what each one is doing (#6268)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a8b4873e0445fba66abd81ae450209e23aff160"
+          "tldr": "chore(changelog): update for PR #6248 (#6276)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/512392f3108941ce765d842723f9bb2682451c1c"
         },
         {
           "kind": "shipped",
-          "tldr": "docs: harness-agnostic brief for a scheduled Discord session roster (#6267)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6747486e41b31e7c261a7d683074dac244386532"
+          "tldr": "fix(audit): lock-timeout fallback must never append unsigned entries into the chain file (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/69f0f09f69b80d15f6a9e7c0e4559571cef453bf"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6259 (#6271)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7d181c5d3c25386dd6709c8ddbd497d610ba696c"
+          "tldr": "feat(defer): surface the deferred-concern queue, because nothing did (#6248)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f7919f7d750aea9151e14dc7f5feb507538b50c"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(room): a live, skimmable peer transcript with per-entry provenance (#6259)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e894578115bf6ecb579bf2ef64d3e6ec12bf2f46"
+          "tldr": "chore(changelog): update for PR #6050 (#6171)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a9e1bc15d3309bf4aa66cd572538fefbee0fccc"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6269 (#6270)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/88c0926c17bc49e1ca4a22d5316dace2c1a9b7cc"
+          "tldr": "chore(changelog): update for PR #6264 (#6273)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c2b11a940b56491e3d5769f0f322674cb3a2415"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(gitignore): image-cache holds pasted screenshots and was committable (#6269)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/436873222644144309f3ac4a1e7ad034100bdb23"
+          "tldr": "feat: /infiltrate — a release-readiness audit read from outside (#6264)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ec6d8e0acc1d8246315ab88a9e8ae3fe66a88fd"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "502 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
+      "caption": "500 registered · confirmation rate 46% — refutations prove GRIP falsifies its own claims (exogenously verified)",
       "key": "hypotheses",
       "label": "Hypotheses tested",
       "value": "131 confirmed / 151 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "88 living genes exported with their fitness scores",
+      "caption": "32 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7465",
+      "value": "gen 7094",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "417 changes / 7 days",
+      "value": "422 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Audits whether a codebase is actually ready to be released, by reading it from a",
+          "name": "/infiltrate"
+        },
         {
           "desc": "Reconstruct YOUR context from the real record, not from recollection",
           "name": "/catchup"
@@ -96,10 +100,6 @@
         {
           "desc": "Adds a newly announced vendor model to the HAL and GRIP catalogues and wires its",
           "name": "/dogfood-domain"
-        },
-        {
-          "desc": "The inverse of /remember — free a memory record's slot in the loaded MEMORY",
-          "name": "/forget"
         }
       ],
       "tip": "R0: every claim needs specific evidence, a scope that matches it, and a stated falsifier — on any miss, qualify it or drop it."
