@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "docs(ci): state the forward-anchor merge rule where a resolver will see it (#6283)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1e06cab53a4314ad7f67fc25b65ac20d77a76c7b"
+          "tldr": "chore(changelog): update for PR #6301 (#6306)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cc4a14df43ce810dd91b919296bc0ddfdc90ce46"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6094 (#6286)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/17a9364c95e4ef38a3739ef008cb0d88ecfc8e29"
+          "tldr": "fix(precog): resolve the default IDR ledger path at call time, not import (#6301)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bec358d27ec00c08ea49fe826b55740953465999"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(cost): announce a fan-out's cost before it spends, and name the billing account (#609",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c93a6af802041167e151a5d92bc65aac19028513"
+          "tldr": "chore(changelog): update for PR #6295 (#6305)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc1698877bb95393c3824b61997cb1a71681d270"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6250 (#6282)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5972d6752b963950fbf413dcfc55b8e4a3829081"
+          "tldr": "fix(witness): publish the verdicts that rest on a measurement, not all of them (#6295)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b5e1e0a54ca5aacede5809e25b778d5e5bbe2f0e"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(account): run different Claude Code accounts in different terminals (#6250)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e829c806c2c41c7fcc38f16ed1fa6a868a7e4c07"
+          "tldr": "chore(changelog): update for PR #6298 (#6302)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/78f1c3835abb4f3c4e535697314e6b28575877d2"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6261 (#6281)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/abcaf3075ec30332738262861af85a13cbc94319"
+          "tldr": "fix(room): GRIP_SEAT_MODEL is this session's model, so it is owner-scoped too (#6299)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3adcf9c5655cdabb6def00e10039235c363432b4"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(council): a panel with nobody sitting printed a confident consensus (#6261)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2893c73ff070a13d597eb2256e6fb053983b7e8"
+          "tldr": "fix(surface-skills): codex-plugin proxies kept the building machine's home path (#6298)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8d49a1609011b170a14643f4aea3bca18c4708a0"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6078 (#6277)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ee27ec204fac27dacb0c4dcda72ac1844578a048"
+          "tldr": "docs(converge-fleet): every pointer sent readers to the superseded v1 template (#6297)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d21de0c36fab66afe5cc47f30e568d8ebde7636"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "88 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7467",
+      "value": "gen 7468",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "417 changes / 7 days",
+      "value": "434 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
