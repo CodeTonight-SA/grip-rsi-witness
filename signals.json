@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(moat): withdraw the defensibility claim, and record that the anchor now anchors (#619",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/859aad1d1f66a405926a6beaf86f8846fcbc9b7a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6268 (#6272)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8f04206308b3da098f4326c5f7a231d994dfff9d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(roster): show which GRIP sessions are live and what each one is doing (#6268)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a8b4873e0445fba66abd81ae450209e23aff160"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs: harness-agnostic brief for a scheduled Discord session roster (#6267)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6747486e41b31e7c261a7d683074dac244386532"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6259 (#6271)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7d181c5d3c25386dd6709c8ddbd497d610ba696c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(room): a live, skimmable peer transcript with per-entry provenance (#6259)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e894578115bf6ecb579bf2ef64d3e6ec12bf2f46"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(gitignore): image-cache holds pasted screenshots and was committable (#6269)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/436873222644144309f3ac4a1e7ad034100bdb23"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6262 (#6265)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e38f2b330737256be89641660b9bbf99a062901b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(publish): the publish job needs contents:read, or checkout cannot read the repo (#6262",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2e35ca9ff337f22c089627c87e3bc73826b43aca"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): agora-downgrade evidence 3 of 3 -> 5 of 5, and widen the scope (#6257)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/26db381312ab2d82345174be8a6784270f53a370"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6255 (#6256)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f6fb2ab02af2a99f870adac39347d5c6f6a9b1c7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(review): strip terminal colour codes, and make truncation actionable (#6255)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/226c4b553a78777bdb0276c5bd195996529ed7ae"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "88 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7464",
+      "value": "gen 7465",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "415 changes / 7 days",
+      "value": "417 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
