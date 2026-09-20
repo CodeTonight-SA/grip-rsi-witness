@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6348 (#6358)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b052f840c1b1808ea1c48fa3c703616f19983936"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(ci): a probe candidate for the 237 anchors bound to no gate (#6348)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2afde5016e75ef6ea7109a787b57ddca076743c3"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(rules-scope): refuse to shed a dangerous-action rule, and stop calling a real glob une",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fd8e0aa7bd6e52db37878bbb4f89ef7d8e094609"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(gate): prove the empty-block guard fires, not merely that it is spelled right (#6341)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/efa0a5daa48920b393fcaa234e6e9d3851fe6a71"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "457 changes / 7 days",
+      "value": "458 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
