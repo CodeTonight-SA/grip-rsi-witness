@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(room): redact before asking what is still exposed (#6330)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/11019e63fc6ce0934289abb9d27575a5f840af6b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(surface-skills): anchor the guard that protects 68 hand-authored commands (#6328)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8ced786d4c92244b94a31ceae1de4e2bbd02b4c"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6318 (#6322)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/578f423c732c3577f82183d120a53a3731b47ff8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(inception): the command's frontmatter hardcoded the operator's home path (#6318)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a3cca31d9df32286e906434d3142f491f322ae3"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "88 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7468",
+      "value": "gen 7469",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "440 changes / 7 days",
+      "value": "441 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
