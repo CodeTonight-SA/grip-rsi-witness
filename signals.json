@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(fleet): the measured state of the fleet before a restart (#6361)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e07f8c9ef7d053129e8c6778f3ed57ed4496da4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6359 (#6363)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/644d33949cce0c61bd43f4ac7cf509d8c1dd9b80"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(mesh): inbox messages reach the model via stdout, not only stderr (#6359)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/18aa8ba51c251afae3e9dfcb1bf0f55ffa0a69be"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6348 (#6358)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b052f840c1b1808ea1c48fa3c703616f19983936"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "test(bash-error-capture): create the collector the hermetic tree lacks, and stop discardin",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/349ac27cd08b0699def3c0e3eacfeb0d3303559c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(caveman): guard the rails where they now live, not the redirect stub (#6349)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a716797a8bd5c34dc2165c7c4d59c189a4abb4e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6344 (#6347)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8d9a1d64d32665fb445a8a25574b839f2ac8fa0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rules-scope): refuse to shed a dangerous-action rule, and stop calling a real glob une",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fd8e0aa7bd6e52db37878bbb4f89ef7d8e094609"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "257 changes / 7 days",
+      "value": "260 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
