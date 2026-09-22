@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6441 (#6493)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b95c54f515696438ccc7f0b8020c4c4c3412911d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(happiverse): machine stars on the public star-map, one per nickname per user",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/682c061e87af5d25a00ee3d26121e7ca0f19b3f1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6490 (#6491)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c00e584091aa5b951075e08818b093c3098a909"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ci): report where each test block spends its time (#6490)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf554391324a8dd038adc32b0282a10196490a69"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(verification): the READMEs could name keys that no longer exist (#6488)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0d08bf7f08977b8562883e2265a3aa293d4989a"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(rules): the fourteenth downgraded AGORA concern that proved real, and it was a leak (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/da879a8a95394a7c5855e90680218ff68b2c55b3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6479 (#6485)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8182aac75098512f349a71cbf15bc203aadae408"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): test_digest_data patched a name another test had deleted (#6479)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fec4919d9a56e68b4fbe9001c320b159c1fadca6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6476 (#6484)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/93c35964b0a8ab7a3fc21926fabfe2146f608436"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "perf(ci): split the slowest CI job across four runners (#6476)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7cb5b5c963cd09f176dabfcad0cc4223c591b17"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7492",
+      "value": "gen 7494",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "321 changes / 7 days",
+      "value": "325 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
