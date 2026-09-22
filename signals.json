@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(verification): the READMEs could name keys that no longer exist (#6488)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0d08bf7f08977b8562883e2265a3aa293d4989a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6482 (#6487)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fb5af042f45dd9f803a21e4f04d97032099a628"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "perf(ci): split the slowest CI job across four runners (#6476)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7cb5b5c963cd09f176dabfcad0cc4223c591b17"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6473 (#6483)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1503451079c839b2a49c907bd96f95c941be3bf"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "320 changes / 7 days",
+      "value": "321 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
