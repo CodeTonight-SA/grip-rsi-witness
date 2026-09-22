@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6501 (#6505)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66d4b75ed0b9c6a24bdf618e72a2aeb77637327c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "perf(test): the costliest test in the critical-path job spent 14s asleep and could not fai",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44c242abca176edcfa4a75fd32d942c346ea1118"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6498 (#6500)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4c912a3fc9f6343cae3798de3df3b8fc67061240"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(ci): report where each test block spends its time (#6490)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf554391324a8dd038adc32b0282a10196490a69"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(verification): the READMEs could name keys that no longer exist (#6488)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0d08bf7f08977b8562883e2265a3aa293d4989a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6482 (#6487)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fb5af042f45dd9f803a21e4f04d97032099a628"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "325 changes / 7 days",
+      "value": "327 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
