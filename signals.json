@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(modes): the mode YAML told readers Broly fans out with no way to stop it (#6425)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44a986786b09396de83e0f7ec649e3f1f8de43fd"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test: bind 883 measured-clean tests that ran on no pull request (#6433)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/67ec593cd4f93a6e157a1a0fa46abb7f72e80685"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(skills): stop generating proxy commands for Codex plugins (#6424)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cf8b54c1db5cfd5853f8fac23b8175ec41da2985"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6379 (#6422)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/04c8372cd51fc1b6877bf6b0a1a8f0258d8340b9"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "294 changes / 7 days",
+      "value": "295 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
