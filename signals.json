@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6498 (#6500)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4c912a3fc9f6343cae3798de3df3b8fc67061240"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "perf(tests): stop parsing 1,711 files twice to ask about 297 (#6498)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/609b73629ecbb9af1ad612d0bacd2fd0a8412e61"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6441 (#6493)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b95c54f515696438ccc7f0b8020c4c4c3412911d"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6482 (#6487)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fb5af042f45dd9f803a21e4f04d97032099a628"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): the last rung of the settings resolver was taken in silence (#6482)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/687673716d9d86cc52a63bed9da2512ea8bbc2d5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): the fourteenth downgraded AGORA concern that proved real, and it was a leak (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/da879a8a95394a7c5855e90680218ff68b2c55b3"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7494",
+      "value": "gen 7495",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "325 changes / 7 days",
+      "value": "327 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
