@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6440 (#6444)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f16f05bc6dd14b61d286dc566180a9350a932a13"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ci): report which test files no CI job reaches (#6440)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c51f05df035cea9a60590a8f202d67a0bf08624"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(modes): the mode YAML told readers Broly fans out with no way to stop it (#6425)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/44a986786b09396de83e0f7ec649e3f1f8de43fd"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(measurements): proving-ground release-readiness infiltration, 2026-09-22 (#6428)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba38b65f4fc57230064bb474759838e119337245"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6424 (#6427)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab26114b70e7d3b3d5446dd4fe2ae042360bb5f0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(skills): stop generating proxy commands for Codex plugins (#6424)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cf8b54c1db5cfd5853f8fac23b8175ec41da2985"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "295 changes / 7 days",
+      "value": "297 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
