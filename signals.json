@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(ci): the hooks/settings/registry block cannot change membership silently (#6417)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff45f12dc5beb65f90ec53afb3f9c5bebd535e15"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6416 (#6420)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0b99fcd9325e85f5946c63731719923bacbfcb7e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(yaml): two more writers interpolated arbitrary prose into frontmatter bare (#6416)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4fdcd6bd42b837907be1513586d02a2cd4f23ff3"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6401 (#6415)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f8fa3682e6e046fa72ce1f7220b2db75a4eb4147"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "test(violation-memory): forward anchors for the shared-session-key defect (#6380)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/39542ad0c472a982820c72b662f192abe407dae7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(ci): a CI test block cannot silently shrink below its recorded floor (#6406)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6aea5131bdd7c282d1b6dc76cae9d793a48139a4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6392 (#6408)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d08d63affb2bdbcc49b7854f049736da73e02729"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(oss): skip idr-chain's suite where it cannot run, and gate it where it can (#6392)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c4d8ee909ba02da52ee7f541c3c04a7a3709ef14"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7485",
+      "value": "gen 7486",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "284 changes / 7 days",
+      "value": "285 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
