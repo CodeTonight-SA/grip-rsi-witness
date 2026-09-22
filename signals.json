@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6509 (#6511)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a7a220b3d6f2877c13050d5472c9d35839dd6a7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(hypotheses): record the 2026-09-21 deadline-reconciliation sweep (#6509)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d361ef10da6d1c0d3763a308695a09ce9af77a0b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(chain): show why the public decision chain will not publish, ranked by risk",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/650cb7789924287976ad7854caf3df59d913f3f6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6501 (#6505)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66d4b75ed0b9c6a24bdf618e72a2aeb77637327c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "334 changes / 7 days",
+      "value": "335 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
