@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6518 (#6519)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c963f4af2d5e07797750d7e6957690117d85518"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Merge pull request #6518 from CodeTonight-SA/feat/session-77839-1789879953",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce77da0f1ae5c59bf82d4210a40914515b6ba7fc"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(grip-tree-sync): one-way additive mirror of overlapping shared skills into ~/.agents/",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cd2a5452101505b7a8034715b74d499438a5d646"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6514 (#6515)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8ee7b3e8696adffe90fa62c65e9ac47913ce5298"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6449 (#6507)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8584985f31e0a75543763964377c5617dfa59165"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6421 (#6506)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cfcd3b67ab53ccb15ea57daf0568fc4f9389b99e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(aide): the type-check probe reported ok for work it never did",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/87cf9f4536dc806e6487ea9c6fed96a0812a02a7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(happiverse): a timer that finishes a machine the moment it becomes reachable",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe2a41de45e29134e6b7e559a0b0cdda8d2a38c8"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "337 changes / 7 days",
+      "value": "340 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
