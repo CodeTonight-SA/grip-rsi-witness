@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gentner): derive GentnerScore.passed from the failure set, not from all([]) (#6473)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c56a2aed771371266c2d514d5059cca1dfbfa7c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6474 (#6481)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c1b508e4a1ffabe1f6711a45b681f8a222aa1df7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(verification): serve the keys from GRIP's own host, not only from the repo (#6474)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ee58dfb993b95c394db81a8b0e8a07bd56f4ed8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6454 (#6472)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/750de3c1cf42472d8ae826582f758c0f1ffd7a6d"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6456 (#6470)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b6daa264f4e56b96b3c099efe989f338cdd022b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "refactor(council): decompose seal() along its seams to clear the KISS gate (#6456)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/33dde79cf496da58e452ffb06f92f40063f1f410"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6448 (#6467)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/15d4713d07fa89ce085386e8cb51845aa0f04de1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(verification): publish the keys that let a stranger check a signed record (#6448)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3771f9d38a3706af74eb8d38132d620cdc90b2b0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "309 changes / 7 days",
+      "value": "312 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
