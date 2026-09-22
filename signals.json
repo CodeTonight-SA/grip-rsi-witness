@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6514 (#6515)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8ee7b3e8696adffe90fa62c65e9ac47913ce5298"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(next-step): measure whether the operator is reading, not whether a REPL exists (#6514)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4767387a93f69b3d02ab5ad708fa30ad33f4bf33"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6509 (#6511)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a7a220b3d6f2877c13050d5472c9d35839dd6a7"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(happiverse): a timer that finishes a machine the moment it becomes reachable",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe2a41de45e29134e6b7e559a0b0cdda8d2a38c8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): ground a citation written as a bare filename",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/00092ab115d58a48d1126bf3f3d64ba503b770ab"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(chain): show why the public decision chain will not publish, ranked by risk",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/650cb7789924287976ad7854caf3df59d913f3f6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "335 changes / 7 days",
+      "value": "337 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
