@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(tree-sync): gate the merge on the target, not on HEAD (GRIP#6346) (#6455)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/04e0036a00915ec454c18ce59403771b037e8df3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurements): correct the token-budget plan's evidence and withdraw step 3 (#6445)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c17289ca513fdafd09f9c8fc011669018f2be5ec"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6440 (#6444)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f16f05bc6dd14b61d286dc566180a9350a932a13"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6431 (#6435)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fe8558413481db57e032eb052499ab44e797b5b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(council): verify a shipped record where it lies, and name its custody (#6431)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fb09e42aac017bac2931b26064b227c29b15e3d4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurements): proving-ground release-readiness infiltration, 2026-09-22 (#6428)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba38b65f4fc57230064bb474759838e119337245"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7488",
+      "value": "gen 7490",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "297 changes / 7 days",
+      "value": "299 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
