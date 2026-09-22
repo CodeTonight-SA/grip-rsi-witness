@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test: bind 883 measured-clean tests that ran on no pull request (#6433)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/67ec593cd4f93a6e157a1a0fa46abb7f72e80685"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(measurements): ship the IDR leaf beside the council seal and quote what a stranger ac",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5f2096531dc805ad892ca09c617f3b445cbdf8b3"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6379 (#6422)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/04c8372cd51fc1b6877bf6b0a1a8f0258d8340b9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(mode-loader): operator-owned brake for Broly, and the session-end cleanups it exposed",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e55de82f5f72c1d431c90622ce630a1b8fef435"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7487",
+      "value": "gen 7488",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "293 changes / 7 days",
+      "value": "294 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
