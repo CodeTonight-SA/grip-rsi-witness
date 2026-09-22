@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test: stop two unbound-sweep tests writing into the shared tree (#6458)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/532b3b74e224b3c0e4feef04c4d20c9f31a7645e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6456 (#6470)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b6daa264f4e56b96b3c099efe989f338cdd022b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "refactor(council): decompose seal() along its seams to clear the KISS gate (#6456)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/33dde79cf496da58e452ffb06f92f40063f1f410"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6448 (#6467)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/15d4713d07fa89ce085386e8cb51845aa0f04de1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(verification): publish the keys that let a stranger check a signed record (#6448)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3771f9d38a3706af74eb8d38132d620cdc90b2b0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: prove the unbound-sweep overlap guard's discovery step, not just its comparison (#64",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/67a34566420b5e734bc37f265b2f03dcd145c7ee"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6455 (#6463)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/734e13bdcd0907691f575c554f368287865aca28"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(tree-sync): gate the merge on the target, not on HEAD (GRIP#6346) (#6455)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/04e0036a00915ec454c18ce59403771b037e8df3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurements): correct the token-budget plan's evidence and withdraw step 3 (#6445)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c17289ca513fdafd09f9c8fc011669018f2be5ec"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6440 (#6444)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f16f05bc6dd14b61d286dc566180a9350a932a13"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ci): report which test files no CI job reaches (#6440)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c51f05df035cea9a60590a8f202d67a0bf08624"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(modes): the mode YAML told readers Broly fans out with no way to stop it (#6425)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44a986786b09396de83e0f7ec649e3f1f8de43fd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: bind 883 measured-clean tests that ran on no pull request (#6433)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/67ec593cd4f93a6e157a1a0fa46abb7f72e80685"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurements): ship the IDR leaf beside the council seal and quote what a stranger ac",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5f2096531dc805ad892ca09c617f3b445cbdf8b3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6431 (#6435)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fe8558413481db57e032eb052499ab44e797b5b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "299 changes / 7 days",
+      "value": "306 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
