@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(measurements): ship the IDR leaf beside the council seal and quote what a stranger ac",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5f2096531dc805ad892ca09c617f3b445cbdf8b3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6431 (#6435)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fe8558413481db57e032eb052499ab44e797b5b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(council): verify a shipped record where it lies, and name its custody (#6431)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fb09e42aac017bac2931b26064b227c29b15e3d4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(measurements): proving-ground release-readiness infiltration, 2026-09-22 (#6428)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba38b65f4fc57230064bb474759838e119337245"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(mode-loader): operator-owned brake for Broly, and the session-end cleanups it exposed",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e55de82f5f72c1d431c90622ce630a1b8fef435"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(ci): the hooks/settings/registry block cannot change membership silently (#6417)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff45f12dc5beb65f90ec53afb3f9c5bebd535e15"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6416 (#6420)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0b99fcd9325e85f5946c63731719923bacbfcb7e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(yaml): two more writers interpolated arbitrary prose into frontmatter bare (#6416)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4fdcd6bd42b837907be1513586d02a2cd4f23ff3"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "290 changes / 7 days",
+      "value": "293 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
