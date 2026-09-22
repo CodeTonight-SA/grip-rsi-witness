@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6385 (#6405)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ef32cc2ccfb2e71cb65b490de518d0d418c17afb"
+          "tldr": "chore(changelog): update for PR #6401 (#6415)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f8fa3682e6e046fa72ce1f7220b2db75a4eb4147"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(ocf): compactor refuses unknown flags and folds the CLAUDE_DIR tree (#6385)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/55d1d66059d3fa3e1d3bbebedcbe9a4ef4582f36"
+          "tldr": "feat(idr-public-emitter): redaction-safe anchoring (leaf_sha256), denylist update, and a r",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5d1e730dc4e66c41ed4f2dd40169276f89680d03"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6383 (#6402)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8aa2a9f6ea61c87f589a01024d058cb9d764992"
+          "tldr": "chore(changelog): update for PR #6407 (#6414)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/24fa54506b68bd2679a96a1c4f6772a7c0010aec"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(tests): worktree teardown no longer leaks a ~/.claude/projects entry (#6390)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/76aca08fa277abbf450bb2ddfcd5a3259351ee57"
+          "tldr": "fix(gate): the unbound-anchors list now states its own rule and is checked (#6407)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce510339699725953a2e8a3350a8dc0a7f93b778"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(hypothesis): an inconclusive verdict now records why it was inconclusive (#6383)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/96b03538b5dd430b7d8053c3b46107d2d1ffb8c8"
+          "tldr": "test(violation-memory): forward anchors for the shared-session-key defect (#6380)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/39542ad0c472a982820c72b662f192abe407dae7"
         },
         {
           "kind": "shipped",
-          "tldr": "test(gate): the empty-block guard now has two carriers; cover both by discovery (#6396)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b8f804fb7125f1d1a36941d8a62db218b1d3463"
+          "tldr": "test(ci): a CI test block cannot silently shrink below its recorded floor (#6406)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6aea5131bdd7c282d1b6dc76cae9d793a48139a4"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6384 (#6399)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b96aa07c26ce82a0cd857d10034ed10059472d9"
+          "tldr": "chore(changelog): update for PR #6392 (#6408)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d08d63affb2bdbcc49b7854f049736da73e02729"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(external-reviewer): resolve the diff budget import in the CLI shape (#6384)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8bc34858fbd5e6a1de7f5c3350e30dd89f05fa4f"
+          "tldr": "fix(oss): skip idr-chain's suite where it cannot run, and gate it where it can (#6392)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c4d8ee909ba02da52ee7f541c3c04a7a3709ef14"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 283 verdicts rest on a resolvable metric; the other 271 were graded from a sentinel that means no collector exists, and are NOT evidence. 503 hypotheses registered.",
+      "caption": "12 of 283 verdicts rest on a resolvable metric; the other 271 were graded from a sentinel that means no collector exists, and are NOT evidence. 508 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -56,14 +56,14 @@
       "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7481",
+      "value": "gen 7485",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "276 changes / 7 days",
+      "value": "284 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
