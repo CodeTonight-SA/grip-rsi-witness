@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6374 (#6377)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fa3d8cef0d54bd5f137cf341f2096fb1267db28d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix: worktree sessions no longer lose the tail of the rules injection (#6374)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3b0043543a8cc90e3c118bd1ea74289a65cd83e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6368 (#6373)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/23a9d1914af62cdcf916d81f63c6bb81230f93cd"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(review): the index no longer offers paths that no longer exist (#6364)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b914662492b472e4fb3ca54181a6e4f6a822ee25"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(fleet): the measured state of the fleet before a restart (#6361)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e07f8c9ef7d053129e8c6778f3ed57ed4496da4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6359 (#6363)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/644d33949cce0c61bd43f4ac7cf509d8c1dd9b80"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "263 changes / 7 days",
+      "value": "265 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
