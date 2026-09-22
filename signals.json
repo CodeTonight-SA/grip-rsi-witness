@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(skills): stop generating proxy commands for Codex plugins (#6424)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cf8b54c1db5cfd5853f8fac23b8175ec41da2985"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6379 (#6422)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/04c8372cd51fc1b6877bf6b0a1a8f0258d8340b9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(mode-loader): operator-owned brake for Broly, and the session-end cleanups it exposed",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e55de82f5f72c1d431c90622ce630a1b8fef435"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(ci): the hooks/settings/registry block cannot change membership silently (#6417)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff45f12dc5beb65f90ec53afb3f9c5bebd535e15"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(idr-public-emitter): redaction-safe anchoring (leaf_sha256), denylist update, and a r",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5d1e730dc4e66c41ed4f2dd40169276f89680d03"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6407 (#6414)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/24fa54506b68bd2679a96a1c4f6772a7c0010aec"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gate): the unbound-anchors list now states its own rule and is checked (#6407)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce510339699725953a2e8a3350a8dc0a7f93b778"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(violation-memory): forward anchors for the shared-session-key defect (#6380)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/39542ad0c472a982820c72b662f192abe407dae7"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "285 changes / 7 days",
+      "value": "288 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
