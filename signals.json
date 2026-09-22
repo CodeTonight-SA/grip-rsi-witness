@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(measurements): proving-ground release-readiness infiltration, 2026-09-22 (#6428)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba38b65f4fc57230064bb474759838e119337245"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6424 (#6427)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab26114b70e7d3b3d5446dd4fe2ae042360bb5f0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(skills): stop generating proxy commands for Codex plugins (#6424)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cf8b54c1db5cfd5853f8fac23b8175ec41da2985"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(yaml): two more writers interpolated arbitrary prose into frontmatter bare (#6416)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4fdcd6bd42b837907be1513586d02a2cd4f23ff3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6401 (#6415)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f8fa3682e6e046fa72ce1f7220b2db75a4eb4147"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(idr-public-emitter): redaction-safe anchoring (leaf_sha256), denylist update, and a r",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5d1e730dc4e66c41ed4f2dd40169276f89680d03"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "288 changes / 7 days",
+      "value": "290 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
