@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(operator-presence): close out the AGORA #6517 follow-up (#6521)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a942f335b4ac37f5f1759bfac51b8b8a14627a2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6516 (#6520)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d2e279f9d5b72aa150742afeda4b4d23acc565b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(next-step): measure whether the operator is reading, not whether a REPL exists (#6514)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4767387a93f69b3d02ab5ad708fa30ad33f4bf33"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6509 (#6511)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a7a220b3d6f2877c13050d5472c9d35839dd6a7"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "342 changes / 7 days",
+      "value": "343 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
