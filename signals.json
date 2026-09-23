@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6516 (#6520)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d2e279f9d5b72aa150742afeda4b4d23acc565b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(next-step): one resolver for the prompt-stamp directory, not two (#6516)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/29e0eb0c597324d57d24303671398f351f579841"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6518 (#6519)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c963f4af2d5e07797750d7e6957690117d85518"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6509 (#6511)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a7a220b3d6f2877c13050d5472c9d35839dd6a7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(hypotheses): record the 2026-09-21 deadline-reconciliation sweep (#6509)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d361ef10da6d1c0d3763a308695a09ce9af77a0b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6449 (#6507)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8584985f31e0a75543763964377c5617dfa59165"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "340 changes / 7 days",
+      "value": "342 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
