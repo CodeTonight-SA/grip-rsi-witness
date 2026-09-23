@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(ci): bind GRIP#6438's second tranche, 246 more orphan tests, 738 -> 984 (#6532)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d8c00bc7cbf0f5a9261be02a9cec374f9a03dfbc"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6526 (#6530)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/11cd21abcbb8bc1059688b866161b659ee5d590a"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(next-step): one resolver for the prompt-stamp directory, not two (#6516)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/29e0eb0c597324d57d24303671398f351f579841"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6518 (#6519)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c963f4af2d5e07797750d7e6957690117d85518"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 285 verdicts rest on a resolvable metric; the other 273 were graded from a sentinel that means no collector exists, and are NOT evidence. 509 hypotheses registered.",
+      "caption": "12 of 285 verdicts rest on a resolvable metric; the other 273 were graded from a sentinel that means no collector exists, and are NOT evidence. 514 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "347 changes / 7 days",
+      "value": "348 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
