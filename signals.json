@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6526 (#6530)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/11cd21abcbb8bc1059688b866161b659ee5d590a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(save): the genome-evolve step's timeout was shorter than its own cost (#6526)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c657cddc1821ea1d376d9256dd830b1d14f7e430"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6523 (#6525)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/599ee621e590291de8a1586ae33179289f017f50"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(quality-duality): an empty dimension_scores dict is UNKNOWN, not PASS (#6523)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5d06e358dee7688dd127d378112109d91e556da3"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(operator-presence): close out the AGORA #6517 follow-up (#6521)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a942f335b4ac37f5f1759bfac51b8b8a14627a2"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6518 (#6519)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c963f4af2d5e07797750d7e6957690117d85518"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Merge pull request #6518 from CodeTonight-SA/feat/session-77839-1789879953",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce77da0f1ae5c59bf82d4210a40914515b6ba7fc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(grip-tree-sync): one-way additive mirror of overlapping shared skills into ~/.agents/",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cd2a5452101505b7a8034715b74d499438a5d646"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6514 (#6515)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8ee7b3e8696adffe90fa62c65e9ac47913ce5298"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(next-step): measure whether the operator is reading, not whether a REPL exists (#6514)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4767387a93f69b3d02ab5ad708fa30ad33f4bf33"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "343 changes / 7 days",
+      "value": "347 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
