@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(save): genome-evolve and instance-serialize timeouts under real load (#6553)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c164ac6332fdb060eb9f7a5dcb9dfc5759e4c4a6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6548 (#6550)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a2280f69e59828ca2401555a3a527251e05e0b5"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(tests): restore CLAUDE_DIR immediately + add a 5th CI shard (#6539)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/aeed65864ac6dab034f98c34264154979beb80cc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): backfill 3 entries stranded by stale, conflicting PRs (#6537)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2917f61a6fd75f492582d8cb8073618a3893d20"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "90 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7505",
+      "value": "gen 7506",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "314 changes / 7 days",
+      "value": "315 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
