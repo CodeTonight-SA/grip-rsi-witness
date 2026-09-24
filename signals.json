@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6539 (#6541)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a6abd8a287be3e6363f96b97416a276cf6e0d39"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): restore CLAUDE_DIR immediately + add a 5th CI shard (#6539)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aeed65864ac6dab034f98c34264154979beb80cc"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): backfill 3 entries stranded by stale, conflicting PRs (#6537)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2917f61a6fd75f492582d8cb8073618a3893d20"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6527 (#6538)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce13b70cd99ed459c8b3488f762dcdd6b4654a67"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(room): derive a missing model from the session's own transcript, at read (#6527)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a2a8658ed16d3485ab2128bd4653b8fddbbce4c6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6504 (#6535)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b5774b67759894b50b17576bfcae8dcfc214a3d"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(mesh): pin the session-mesh submodule to its merged main (#6504)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/aaf55c77af8821720fd8d8106cf8dc09bcab5c11"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(setup): skip-worktree covers the whole class, and a failure is reported (#6512)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/770a26a4e2cb76e78bf2c2ee0445ce4b5dc6b544"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(ci): bind GRIP#6438's second tranche, 246 more orphan tests, 738 -> 984 (#6532)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d8c00bc7cbf0f5a9261be02a9cec374f9a03dfbc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6526 (#6530)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/11cd21abcbb8bc1059688b866161b659ee5d590a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(save): the genome-evolve step's timeout was shorter than its own cost (#6526)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c657cddc1821ea1d376d9256dd830b1d14f7e430"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6523 (#6525)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/599ee621e590291de8a1586ae33179289f017f50"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "325 changes / 7 days",
+      "value": "322 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
