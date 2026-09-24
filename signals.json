@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6602 (#6604)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7195e911a00b55486f4220215e5711bd1bd7c6cf"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6599 (#6601)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/734a222439e6462c15f290e0bf19e9c023a2d636"
         },
@@ -31,16 +36,6 @@
           "kind": "shipped",
           "tldr": "feat(lib): verify and register Shona for Zimbabwe coverage; confirm Ndebele is a genuine g",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5d8cf41819a1b81f30b98d4436e2f40820b1946e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6587 (#6591)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/56c8b737d7cbf4e45a924a0275bef5e3db051e6b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Low-resource African-language translation: DFI-FIB convergence loop (#6587)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3ab781d78f036387f3b3317432fd960f30c86fb1"
         }
       ],
       "key": "stream"
