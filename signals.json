@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6548 (#6550)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a2280f69e59828ca2401555a3a527251e05e0b5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(council): subscription-authenticated seats — codex (OpenAI, ChatGPT business) + tempo",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a2f755722338869366b7c3da545d4c5ab6ef9a46"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6542 (#6547)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f0a08e5b95e5d00cfa56c35b889757d5d67cda8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(council): knighted roundtable Tier-0 emitter — vendor-disjoint plan + deterministic s",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/55565cbb1942328017e82eea55dbba4bc1fe7600"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(ci): bind GRIP#6438's third tranche, 50 more orphan tests, 984 -> 1038 (#6546)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/34e3669eea374e8a72dcdf4d988533b94de40761"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): backfill 3 entries stranded by stale, conflicting PRs (#6537)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2917f61a6fd75f492582d8cb8073618a3893d20"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6527 (#6538)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce13b70cd99ed459c8b3488f762dcdd6b4654a67"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(room): derive a missing model from the session's own transcript, at read (#6527)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a2a8658ed16d3485ab2128bd4653b8fddbbce4c6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6504 (#6535)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b5774b67759894b50b17576bfcae8dcfc214a3d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6512 (#6534)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e3efb37a80a4b8fe2ef5d97d8f770157ea42e218"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "90 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7502",
+      "value": "gen 7505",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "310 changes / 7 days",
+      "value": "314 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
