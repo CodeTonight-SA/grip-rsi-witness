@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6504 (#6535)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b5774b67759894b50b17576bfcae8dcfc214a3d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6512 (#6534)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e3efb37a80a4b8fe2ef5d97d8f770157ea42e218"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(mesh): pin the session-mesh submodule to its merged main (#6504)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aaf55c77af8821720fd8d8106cf8dc09bcab5c11"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(setup): skip-worktree covers the whole class, and a failure is reported (#6512)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/770a26a4e2cb76e78bf2c2ee0445ce4b5dc6b544"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(ci): bind GRIP#6438's second tranche, 246 more orphan tests, 738 -> 984 (#6532)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d8c00bc7cbf0f5a9261be02a9cec374f9a03dfbc"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6523 (#6525)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/599ee621e590291de8a1586ae33179289f017f50"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(quality-duality): an empty dimension_scores dict is UNKNOWN, not PASS (#6523)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5d06e358dee7688dd127d378112109d91e556da3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(operator-presence): close out the AGORA #6517 follow-up (#6521)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a942f335b4ac37f5f1759bfac51b8b8a14627a2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6516 (#6520)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d2e279f9d5b72aa150742afeda4b4d23acc565b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(next-step): one resolver for the prompt-stamp directory, not two (#6516)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/29e0eb0c597324d57d24303671398f351f579841"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "90 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7500",
+      "value": "gen 7501",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "321 changes / 7 days",
+      "value": "325 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
