@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6583 (#6586)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f6dbd6f97758eb4349d1c196ac893a6d57e24664"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(redaction): allowlist two GRIP terms the public chain gate has refused since 22 Sep (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e5ec706f5e12325cb776f1a72ed995ceabd51603"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6574 (#6576)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/df8093ed6e26b90248ae250d2c0e8695ce1d2d69"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Onboard Claude Opus 5.5 as the launch default, and make model onboarding fail CI instead o",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/006ad508c245dbf201213cc2162367647b6516dc"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "259 changes / 7 days",
+      "value": "260 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
