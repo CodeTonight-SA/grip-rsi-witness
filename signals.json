@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6574 (#6576)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/df8093ed6e26b90248ae250d2c0e8695ce1d2d69"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Onboard Claude Opus 5.5 as the launch default, and make model onboarding fail CI instead o",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/006ad508c245dbf201213cc2162367647b6516dc"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6563 (#6573)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5109524e332a8b808c2fb304d286e121d4adf9e7"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(input-watch): routing + lossless move + idempotence",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b0dd562346a6efa27f648d88aaa44cd405818871"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(input-watch): spec",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66d18b4a71260aa230e8f3eeb2c475d1c2ddd238"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(input-watch): launchd agent template",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e02575debd2b8fd339e2746da48ab1e3f1f2bfe"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "330 changes / 7 days",
+      "value": "332 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
