@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6569 (#6570)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d08929b1cd36b8dbb96e97bb8d0cd411dbc6e495"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(chain): schedule the decision chain's Bitcoin anchoring (#6569)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ed1c037402558e6a68f8762a9d3319a6f9b1fd15"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6566 (#6568)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c7a9a61a329b195f0bbc65dea06ed919cbec9ee7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(council): selection leaderboard + Knight's Roundtable (advisor -> panel -> judge) (#6",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/467a60095fae8098da0a5575e51c75ccfdb47d4d"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6556 (#6559)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7974bd1cabab0e98303d6702755c7689729dca5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(council): codex seat pins the subscription provider and V>>'s model — gpt-6-astra at m",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/87fad1fed6017e4472bd91258d169416c0e3dd42"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6553 (#6555)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/40998964029ea4387f5fcddbdb57cccda75c8eb5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(save): genome-evolve and instance-serialize timeouts under real load (#6553)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c164ac6332fdb060eb9f7a5dcb9dfc5759e4c4a6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "322 changes / 7 days",
+      "value": "325 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
