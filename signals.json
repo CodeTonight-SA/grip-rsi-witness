@@ -58,7 +58,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "242 changes / 7 days",
+      "value": "237 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -97,7 +97,7 @@
           "name": "/dogfood-domain"
         }
       ],
-      "tip": "A negative claim is only as strong as the search behind it — name the scopes you checked."
+      "tip": "verify-canonical: trust origin/main + the live endpoint + an e2e probe — never a status label."
     }
   ]
 }
