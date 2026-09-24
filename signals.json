@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6595 (#6598)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f6605407c74534f550123d620a520f90329259d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Fix a real blank-message bug found by building the calibration harness (#6595)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ca9f512eea2ab89d14995def6228dbc2e9d61e2f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6592 (#6594)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/42985755d0a882e0a368a29277dcd911d26450a9"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(redaction): allowlist two GRIP terms the public chain gate has refused since 22 Sep (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e5ec706f5e12325cb776f1a72ed995ceabd51603"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6582 (#6585)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/640c025a1cb00cae8b966787ddd4f37e9ae22396"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(council): seal the all-dead panel instead of crashing on it (GRIP#6557) (#6582)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f649e926ca16d90084ebcd594c3c38f42707a8d7"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "253 changes / 7 days",
+      "value": "252 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
