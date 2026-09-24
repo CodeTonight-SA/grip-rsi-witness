@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6605 (#6607)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b4f427d1dcbd4fd922c1cea4e5e2d41d63fb3a0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(happiverse): keep every machine level with main, and measure it honestly (#6605)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d6a51ed9ce48e6a3a856a3f2ef9c3c3192a4ffc3"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6602 (#6604)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7195e911a00b55486f4220215e5711bd1bd7c6cf"
         },
@@ -26,16 +36,6 @@
           "kind": "shipped",
           "tldr": "Fix a real blank-message bug found by building the calibration harness (#6595)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ca9f512eea2ab89d14995def6228dbc2e9d61e2f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6592 (#6594)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/42985755d0a882e0a368a29277dcd911d26450a9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(lib): verify and register Shona for Zimbabwe coverage; confirm Ndebele is a genuine g",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5d8cf41819a1b81f30b98d4436e2f40820b1946e"
         }
       ],
       "key": "stream"
@@ -58,7 +58,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "237 changes / 7 days",
+      "value": "235 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
