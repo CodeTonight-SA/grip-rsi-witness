@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6587 (#6591)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/56c8b737d7cbf4e45a924a0275bef5e3db051e6b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Low-resource African-language translation: DFI-FIB convergence loop (#6587)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3ab781d78f036387f3b3317432fd960f30c86fb1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6583 (#6586)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f6dbd6f97758eb4349d1c196ac893a6d57e24664"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6577 (#6580)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/335f9dd8185375e7dbc9d007687e50f4236aeece"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Model onboarding, round two: catch a model named anywhere without a catalogue row, and app",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a50b716d85dd83a21cdb098cf6d57169fc9e272f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6574 (#6576)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/df8093ed6e26b90248ae250d2c0e8695ce1d2d69"
         }
       ],
       "key": "stream"
