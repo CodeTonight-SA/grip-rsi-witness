@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(council): selection leaderboard + Knight's Roundtable (advisor -> panel -> judge) (#6",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/467a60095fae8098da0a5575e51c75ccfdb47d4d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6562 (#6565)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/455d5061dfa4fef2181d6df19a8da23699889e7a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(room): hold a session id to an allowlist before it becomes a glob; cache only a found ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc573410ba7345e78d9e95d9cb903ef6a836e100"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(chain-blockers): pin that run_leak_gate keeps stderr and tolerates exit 2 (#6560)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d3789d47c707edf0e7d571e4eeb0bcd4d6ce4353"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6556 (#6559)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7974bd1cabab0e98303d6702755c7689729dca5"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(save): genome-evolve and instance-serialize timeouts under real load (#6553)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c164ac6332fdb060eb9f7a5dcb9dfc5759e4c4a6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6548 (#6550)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a2280f69e59828ca2401555a3a527251e05e0b5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(council): subscription-authenticated seats — codex (OpenAI, ChatGPT business) + tempo",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a2f755722338869366b7c3da545d4c5ab6ef9a46"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6542 (#6547)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f0a08e5b95e5d00cfa56c35b889757d5d67cda8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(council): knighted roundtable Tier-0 emitter — vendor-disjoint plan + deterministic s",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/55565cbb1942328017e82eea55dbba4bc1fe7600"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "90 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7506",
+      "value": "gen 7507",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "318 changes / 7 days",
+      "value": "322 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
