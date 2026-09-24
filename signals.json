@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6563 (#6573)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5109524e332a8b808c2fb304d286e121d4adf9e7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Opus 5.5 as the verified default, a fleet-quit ability, and the defects an audit of it fou",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7c01f2d38a93254ee729a555630a5fe66372100f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(input-watch): logs outside INPUT, not inside the watched folder",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/07779140d3fc9cea8114746431047b10aed7f551"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(input-watch): launchd agent template",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e02575debd2b8fd339e2746da48ab1e3f1f2bfe"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(input-watch): the drop-folder watcher CLI",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4813bc1979094d14588d29fdfc7dc1a5b61cbec"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(input-watch): pure classify/route/move logic",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/35392781b71cb8363d424455f17bce5b25fdb353"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "328 changes / 7 days",
+      "value": "330 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
