@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6599 (#6601)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/734a222439e6462c15f290e0bf19e9c023a2d636"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(lib): verify South Africa's official languages, closing the third named country (#659",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/46acd08810875765adc59629a7ce927b4a5f1464"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6595 (#6598)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f6605407c74534f550123d620a520f90329259d"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "Low-resource African-language translation: DFI-FIB convergence loop (#6587)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3ab781d78f036387f3b3317432fd960f30c86fb1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6583 (#6586)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f6dbd6f97758eb4349d1c196ac893a6d57e24664"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(redaction): allowlist two GRIP terms the public chain gate has refused since 22 Sep (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e5ec706f5e12325cb776f1a72ed995ceabd51603"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "252 changes / 7 days",
+      "value": "251 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
