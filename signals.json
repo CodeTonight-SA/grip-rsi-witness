@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(ci): bind GRIP#6438's third tranche, 50 more orphan tests, 984 -> 1038 (#6546)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/34e3669eea374e8a72dcdf4d988533b94de40761"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6539 (#6541)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a6abd8a287be3e6363f96b97416a276cf6e0d39"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6512 (#6534)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e3efb37a80a4b8fe2ef5d97d8f770157ea42e218"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(mesh): pin the session-mesh submodule to its merged main (#6504)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aaf55c77af8821720fd8d8106cf8dc09bcab5c11"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "311 changes / 7 days",
+      "value": "312 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
