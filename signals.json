@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6569 (#6570)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d08929b1cd36b8dbb96e97bb8d0cd411dbc6e495"
+          "tldr": "fix(input-watch): logs outside INPUT, not inside the watched folder",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/07779140d3fc9cea8114746431047b10aed7f551"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(chain): schedule the decision chain's Bitcoin anchoring (#6569)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ed1c037402558e6a68f8762a9d3319a6f9b1fd15"
+          "tldr": "fix(input-watch): add the repo root to sys.path",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1de30c154dc30e6f7917a6261c4f2e5032e013bf"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6566 (#6568)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c7a9a61a329b195f0bbc65dea06ed919cbec9ee7"
+          "tldr": "fix(input-watch): import hal with the lib. prefix",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b78a1c55d8119c00636bff379d57b570cc2ed6be"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(council): selection leaderboard + Knight's Roundtable (advisor -> panel -> judge) (#6",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/467a60095fae8098da0a5575e51c75ccfdb47d4d"
+          "tldr": "test(input-watch): routing + lossless move + idempotence",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b0dd562346a6efa27f648d88aaa44cd405818871"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6562 (#6565)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/455d5061dfa4fef2181d6df19a8da23699889e7a"
+          "tldr": "docs(input-watch): spec",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66d18b4a71260aa230e8f3eeb2c475d1c2ddd238"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(room): hold a session id to an allowlist before it becomes a glob; cache only a found ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc573410ba7345e78d9e95d9cb903ef6a836e100"
+          "tldr": "feat(input-watch): launchd agent template",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e02575debd2b8fd339e2746da48ab1e3f1f2bfe"
         },
         {
           "kind": "shipped",
-          "tldr": "test(chain-blockers): pin that run_leak_gate keeps stderr and tolerates exit 2 (#6560)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d3789d47c707edf0e7d571e4eeb0bcd4d6ce4353"
+          "tldr": "feat(input-watch): the drop-folder watcher CLI",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4813bc1979094d14588d29fdfc7dc1a5b61cbec"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6556 (#6559)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7974bd1cabab0e98303d6702755c7689729dca5"
+          "tldr": "feat(input-watch): pure classify/route/move logic",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/35392781b71cb8363d424455f17bce5b25fdb353"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "318 changes / 7 days",
+      "value": "328 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
