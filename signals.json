@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(mcp): add local grip-channel endpoint so WhatsApp sends actually work",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/86fc9eada9e7b1e7a969a96dcba1bcd7d2862df0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6577 (#6580)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/335f9dd8185375e7dbc9d007687e50f4236aeece"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(input-watch): logs outside INPUT, not inside the watched folder",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/07779140d3fc9cea8114746431047b10aed7f551"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(input-watch): add the repo root to sys.path",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1de30c154dc30e6f7917a6261c4f2e5032e013bf"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "90 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7507",
+      "value": "gen 7508",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "303 changes / 7 days",
+      "value": "304 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
