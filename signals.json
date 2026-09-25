@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(grip-mobile-web): record HTTPS home-screen URL (#6612)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d6e6f69b96e73dba8bd3ff779eff89a0dac719f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6572 (#6611)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e03b8caad1d35d9c5f7d6cf5a1e3a4cace3168d4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(grip-mobile-web): authenticated GRIP chat + messenger relay over tailnet (#6572)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f1ff9ea35849039d20bb2144252c33526549974"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6605 (#6607)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b4f427d1dcbd4fd922c1cea4e5e2d41d63fb3a0"
         },
@@ -21,21 +36,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6599 (#6601)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/734a222439e6462c15f290e0bf19e9c023a2d636"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(lib): verify South Africa's official languages, closing the third named country (#659",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/46acd08810875765adc59629a7ce927b4a5f1464"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6595 (#6598)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f6605407c74534f550123d620a520f90329259d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Fix a real blank-message bug found by building the calibration harness (#6595)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ca9f512eea2ab89d14995def6228dbc2e9d61e2f"
         }
       ],
       "key": "stream"
@@ -58,7 +58,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "235 changes / 7 days",
+      "value": "238 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
