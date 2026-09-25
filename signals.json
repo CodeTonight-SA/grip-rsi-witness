@@ -1,6 +1,46 @@
 {
   "signals": [
     {
+      "items": [
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6605 (#6607)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b4f427d1dcbd4fd922c1cea4e5e2d41d63fb3a0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(happiverse): keep every machine level with main, and measure it honestly (#6605)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d6a51ed9ce48e6a3a856a3f2ef9c3c3192a4ffc3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6602 (#6604)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7195e911a00b55486f4220215e5711bd1bd7c6cf"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6599 (#6601)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/734a222439e6462c15f290e0bf19e9c023a2d636"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(lib): verify South Africa's official languages, closing the third named country (#659",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/46acd08810875765adc59629a7ce927b4a5f1464"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6595 (#6598)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f6605407c74534f550123d620a520f90329259d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Fix a real blank-message bug found by building the calibration harness (#6595)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ca9f512eea2ab89d14995def6228dbc2e9d61e2f"
+        }
+      ],
+      "key": "stream"
+    },
+    {
       "caption": "12 of 285 verdicts rest on a resolvable metric; the other 273 were graded from a sentinel that means no collector exists, and are NOT evidence. 515 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
