@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "merge #6614",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a7df1a0886d002a79012e48f91e701ee5b710eb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "merge #6613",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/510e058c2db31d6236a4d17b9eb3b447bf347b35"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(grip-mobile-web): record HTTPS home-screen URL (#6612)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d6e6f69b96e73dba8bd3ff779eff89a0dac719f"
         },
@@ -31,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6602 (#6604)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7195e911a00b55486f4220215e5711bd1bd7c6cf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6599 (#6601)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/734a222439e6462c15f290e0bf19e9c023a2d636"
         }
       ],
       "key": "stream"
@@ -58,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "238 changes / 7 days",
+      "value": "240 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
