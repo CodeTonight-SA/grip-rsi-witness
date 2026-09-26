@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(operational-context): never use ANTHROPIC_API_KEY (#6620)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d6efa9bb1be09844dd2225220eed3eb10af9d45d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6617 (#6619)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/48193fb8a09cb3a547994ae9f547923777674883"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(grip-mobile-web): record HTTPS home-screen URL (#6612)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d6e6f69b96e73dba8bd3ff779eff89a0dac719f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6572 (#6611)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e03b8caad1d35d9c5f7d6cf5a1e3a4cace3168d4"
         }
       ],
       "key": "stream"
