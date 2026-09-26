@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6617 (#6619)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/48193fb8a09cb3a547994ae9f547923777674883"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(grip-mobile-web): alert chime, mac notification, read/delivered receipts (#6617)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d67f218259df9e4c34f9d22ffaaa840d02f777f2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6614 (#6616)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/190f745712d34b6c4144e000c09819908129f26a"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6572 (#6611)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e03b8caad1d35d9c5f7d6cf5a1e3a4cace3168d4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(grip-mobile-web): authenticated GRIP chat + messenger relay over tailnet (#6572)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f1ff9ea35849039d20bb2144252c33526549974"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6605 (#6607)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b4f427d1dcbd4fd922c1cea4e5e2d41d63fb3a0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "242 changes / 7 days",
+      "value": "244 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
