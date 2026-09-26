@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6614 (#6616)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/190f745712d34b6c4144e000c09819908129f26a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6613 (#6615)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6b2b5672fc0f912f6b1f40ee361184877b4191be"
+        },
+        {
+          "kind": "shipped",
           "tldr": "merge #6614",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a7df1a0886d002a79012e48f91e701ee5b710eb"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6605 (#6607)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b4f427d1dcbd4fd922c1cea4e5e2d41d63fb3a0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(happiverse): keep every machine level with main, and measure it honestly (#6605)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d6a51ed9ce48e6a3a856a3f2ef9c3c3192a4ffc3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6602 (#6604)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7195e911a00b55486f4220215e5711bd1bd7c6cf"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "240 changes / 7 days",
+      "value": "242 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
