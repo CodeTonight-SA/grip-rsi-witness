@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6630 (#6634)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1700a842392b49d804f26b492f89ea9a2e639e4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(skill): remind-me tiers — grip-remind is local-only; cloud is a separate VPS tool (#66",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c274ef9a7ef4c3d10beebde2e6fe6c4b88c9e4f4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(harness): pin Claude Code to the `default` alias — never a 200K window (#6630)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ebc80507629e76c61d576ebd26f04a08984aa6c5"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6571 (#6628)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b66c73cb52c4180f74bae45cf635d5eb61c4c584"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "Merge remote-tracking branch 'origin/main'",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2194d5fd3bacf77ff77221b38f59f10e7d0c7362"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(orphans): preserve dead sessions' uncommitted config, data and doc changes",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30430fa5b0fa414f31cb6215e6618d5925e64fb3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-harness): fence cross-wire profiles so re-runs preserve operator hook-trust",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab5f2a74596277571049e659175d67af963f76f7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(roster): surface /ultraprompt continuation briefs the roster was blind to",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/552f76a221aa1130468de477b154992059a5b957"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "171 changes / 7 days",
+      "value": "174 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
