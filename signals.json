@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6677 (#6681)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/926f16a3c84354db0fafb3afa67b7488d1560a09"
+          "tldr": "chore(changelog): update for PR #6689 (#6692)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a3da6bea52a9385173c2d68dc1eb8959e6adb966"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(presence): stamp only prompts a human typed, not task notices or peer messages (#6677)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/413d388ff0a502d8bcfb2514bcc2ca0a6ac2612e"
+          "tldr": "fix(broly): make MET reachable and stop reading doubt as UNMET (#6689)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdcf9072faeef1b7f419990295ef372a997c3be3"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6671 (#6674)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2036034b47b7df0d8e70e7a36d7f8aa661af7af7"
+          "tldr": "chore(changelog): update for PR #6685 (#6690)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4981e18908262b9a89550adb1f7a44ca1ede984d"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(presence): measure rung 3's window; none beats always-ABSENT, so 300 s stays a placeh",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ffc0172fcbf39607b241a5ad28455d0301db2208"
+          "tldr": "fix(council): refuse an unknown seat name instead of silently swapping it (#6685)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cc81e32f5ef540a301a31273023c5d5bb342991c"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6650 (#6672)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d8c41265bdfa8d3f7345e977d926fb15917a0bce"
+          "tldr": "chore(changelog): update for PR #6680 (#6688)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/35a9ef4f54aad135fba044d0099ed9cbf7c2eb98"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(lexicon): KERN W0 - tooling to measure and prove a low-token instruction notation (#6",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/08cf0d08e9a93f4c9c4e8178327b56331591bee5"
+          "tldr": "fix(gitignore): let GitHub Actions workflows be committed; keep fleet workflows ignored (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/92b3b98b49d18f2e0ee1c704605d6468ef2d170b"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(ci): record the tranche 3 and 4 floor raises beside BLOCK_FLOORS (#6667)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/704d8fcd3d1afd67d01a6348de38d4c1f23dcda7"
+          "tldr": "docs(caveman): replace the unmeasured ~80% wenyan claim with the measured range (#6682)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8c0879fc92fe48e50cb383642177d3c81212e94"
         },
         {
           "kind": "shipped",
-          "tldr": "test(ci): bind 106 more orphan tests into unbound-sweep (tranche 4) (#6665)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eac0cd51d602813d3cfad2a4fb13246a3cfd2b68"
+          "tldr": "chore(changelog): update for PR #6676 (#6684)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fe65b255b034f8acb0da2eb6e3a899a0fc4e78f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "162 changes / 7 days",
+      "value": "171 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
