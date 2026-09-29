@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "test: stop the genome test leaking CLAUDE_DIR, and fix the five tests that depended on it ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3f1186c6b4a696c5a52ad883e0ace2a477e4cf8"
+          "tldr": "fix(kern): the extended-rules index takes session state from one list (#6741)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6087b3e4aada8311f548b411c38c05258af868c9"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6724 (#6727)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66a53f079f31cb3cc48242e1524f58bc351de708"
+          "tldr": "fix(lexicon): saved gate results name their question bank, and a re-render checks it (#673",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/da3cf0beda59064b8a774af6143fa3f1e98d5a56"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(lexicon): show which questions a kernel lost, seat by seat (#6724)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0821dcbaf07b20ec3b1d2f5aad1b05c0ed4079c5"
+          "tldr": "test: stop three unbound-anchors test files leaking CLAUDE_DIR, and guard both jobs (#6733",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d96ebe60fd63634487eb02879a005c3e1bed9749"
         },
         {
           "kind": "shipped",
-          "tldr": "test(evo): run the cube-cache tests on a bare runner, and bind them into CI (#6722)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/344dbf31d0785b4d4d43c32ba253baf79576aa9b"
+          "tldr": "chore(changelog): update for PR #6734 (#6740)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/40d9cd6b145b0cc43499dc8a107b582ce4475c6e"
         },
         {
           "kind": "shipped",
-          "tldr": "test(kern): pre-register held-out question banks for the revised pilot kernels (#6723)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7c256d3fc1fc1b49dde584caed00d83be86e8e70"
+          "tldr": "fix(rules): verify-canonical names git ls-remote, not a gh command that does not exist (#6",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bea85d7574dfc6386b37b13dbce170ccac1808c9"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6718 (#6720)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/723f0ec18ceb2d5a94312faaa6a85d74135a97ee"
+          "tldr": "chore(changelog): update for PR #6732 (#6738)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30229db9f857c54244952a9ec978bd1dba63b09e"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(afk): one malformed marker can no longer crash the /afk reader (#6718)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ad12dc5df78b14046a1e4ddb138cfbb4e7adaed"
+          "tldr": "feat(kern): give the main session an index of the extended rules that actually arrives (#6",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/65020801e07e8bb8988f645dd60aca2e72bd386d"
         },
         {
           "kind": "shipped",
-          "tldr": "test(evo): keep every test_evo.py test off the real principles scan (#6710)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7c611f67f2cd21456793ec5078a3c5d843be1337"
+          "tldr": "test: stop two excluded test files leaking CLAUDE_DIR, and bind them back into CI (#6729)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5f3435a0b85161198d68e848227304a430c00612"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "195 changes / 7 days",
+      "value": "200 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
