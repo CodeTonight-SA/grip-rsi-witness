@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(evo): keep every test_evo.py test off the real principles scan (#6710)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7c611f67f2cd21456793ec5078a3c5d843be1337"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6714 (#6716)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/374c1d59cb92bfb6739f47cc8011f0e01b4fe582"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(afk): read /afk markers from the directory the writer uses (#6714)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e89aba3a657254527319873b396066b18f456a1a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(fold-cache): make the latency test robust, and assert the property it measures (#6713",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9eff3e85cd1f64c816e8660ab7401f011f7b55da"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(lexicon): KERN - let the no-rule control score, so the vacuity check can fail (#6703)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1eaf142ae712f73b3385f7f304a3e3e8cfdd9731"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6698 (#6709)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/43a5919042c550b69b8e3d52125007efd863d8b3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(presence): label parked questions decision or chore, in shadow mode (#6698)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/55d7e7303dde79b1c6dc500dd6740e61ef33f596"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6629 (#6707)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/573aa7ab372fa307195948df7c8867c4ce823ed1"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "185 changes / 7 days",
+      "value": "188 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
