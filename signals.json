@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(models): add the counter-example falsifier for the default-alias invariant (#6775)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2555f8ea29fac8973f513bc655bf8f0385d1541a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6771 (#6774)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d9758ccdf5e4f9034dedc04307081e76c17c5f64"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(lexicon): a validation run's card no longer reports a kernel gate it never ran (#6771)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3cf0bfcbb2485b5ec4dec887f2e53d7435369b34"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6769 (#6773)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/637131f7b4ebecf6c2b9eb9d97666032dab9c509"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(kern): behavioural question bank for proportionate-critique (#6769)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/29abbdb29f06d4d4ffdb9fdf1953fcf4fa461643"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(hypothesis): read the committed store on PR runs instead of skipping (#6763)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0910e7395de50bf56f12826d5b085dc56b3aac13"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6765 (#6768)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/45a8befb857efcdd31f56c45784e6ee5c5f61e37"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6641 (#6767)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7277fdbfd7d1ccd64081d9ea9fc32a6a90b227cf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(kern): behavioural question banks for verify-canonical and bash-safety (#6765)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/241cb89263bf385da3e2808c6e30522efab72c82"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: close the `default`-alias + vision-routing DEFER follow-ups (#6641)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7f803681ed7e498ee2d2d8f12283fbfd11303b1b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(translate): the fixed-point collision now raises, not KeyError (#6760)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/47ff8e3b43995a927cb4b8550615b29627253f9c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(model): pin that the setup wizard stores the default alias itself (#6759)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dc66ec1b1556469c5ec8f95bef891d6c1a324a95"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "214 changes / 7 days",
+      "value": "218 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
