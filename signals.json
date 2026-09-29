@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(ci): record the tranche 3 and 4 floor raises beside BLOCK_FLOORS (#6667)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/704d8fcd3d1afd67d01a6348de38d4c1f23dcda7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(ci): bind 106 more orphan tests into unbound-sweep (tranche 4) (#6665)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eac0cd51d602813d3cfad2a4fb13246a3cfd2b68"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6660 (#6664)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6952813d0bac4ac7b5dabc0d644c451b57332764"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(ledger): Clean Ledger Pillar 1 -- per-session dirty manifests and grip ownership (#66",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c3e2412af548db4ad92535dfbddae69f10aaa44"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6638 (#6640)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc765c1d2d0d47c8dc4cda1bbb8c5acbaa9f7755"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(models): align the activate-grip wizard default to the `default` alias (#6638)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d8f7769340dc3e505346801fe1e7864f6f9127c0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "165 changes / 7 days",
+      "value": "159 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
