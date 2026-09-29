@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test: read the CLAUDE_DIR leak anchor's CI blocks from the workflows (#6746)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c6748d42191cfafccab47ec8e60071a4e2fa647"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(rules): stop test_rules_scope.py leaking CLAUDE_DIR (#6744)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/caabae446aa8220d11b95172b6a6ce2b3607c8a7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6741 (#6743)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f8019fbf0edeeb9ea571b8f0d9ef9d353577016c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(kern): the extended-rules index takes session state from one list (#6741)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6087b3e4aada8311f548b411c38c05258af868c9"
         },
@@ -26,27 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(rules): verify-canonical names git ls-remote, not a gh command that does not exist (#6",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bea85d7574dfc6386b37b13dbce170ccac1808c9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6732 (#6738)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30229db9f857c54244952a9ec978bd1dba63b09e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(kern): give the main session an index of the extended rules that actually arrives (#6",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/65020801e07e8bb8988f645dd60aca2e72bd386d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: stop two excluded test files leaking CLAUDE_DIR, and bind them back into CI (#6729)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5f3435a0b85161198d68e848227304a430c00612"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 285 verdicts rest on a resolvable metric; the other 273 were graded from a sentinel that means no collector exists, and are NOT evidence. 521 hypotheses registered.",
+      "caption": "12 of 285 verdicts rest on a resolvable metric; the other 273 were graded from a sentinel that means no collector exists, and are NOT evidence. 523 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "200 changes / 7 days",
+      "value": "201 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
