@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6660 (#6664)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6952813d0bac4ac7b5dabc0d644c451b57332764"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ledger): Clean Ledger 1.5 -- claim each file a Write/Edit touches (hook shipped unbou",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/897f0ae506be8937af5bc015f00c125ab184361a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6662 (#6663)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b3c4125828047f79baeddbb8dacaf875176ec2f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(grip): pass-through fallbacks resolve beside this grip (GRIP#6644) (#6662)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2ebc70e62cd773a0c7f77b0bc3e44f0b4dee917"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6642 (#6647)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e70ad7ff3d88325b5d65c68853f9159cf0e8feb1"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(models): align the activate-grip wizard default to the `default` alias (#6638)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d8f7769340dc3e505346801fe1e7864f6f9127c0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6636 (#6637)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/92605868531e4642d1661acbf0eb91b2f03194ea"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: ignore every .wa-session* name, including dead-session quarantines (#6636)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0745bed101ff4e0a969e96d154f3e1d2664ecddd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6630 (#6634)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1700a842392b49d804f26b492f89ea9a2e639e4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(skill): remind-me tiers — grip-remind is local-only; cloud is a separate VPS tool (#66",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c274ef9a7ef4c3d10beebde2e6fe6c4b88c9e4f4"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "172 changes / 7 days",
+      "value": "176 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
