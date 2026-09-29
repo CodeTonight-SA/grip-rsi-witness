@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(fold-cache): make the latency test robust, and assert the property it measures (#6713",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9eff3e85cd1f64c816e8660ab7401f011f7b55da"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(kern): pre-register the short-answer question banks for the three pilot rules (#6715)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cbc5fb29e90cd57a32ea6d9486689ac02a140c1a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(next-step): run the Stop hook's tests anywhere, isolated from the live /afk marker (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4cb73a385677c481803ac332b455aaa0b2f9a67"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6629 (#6707)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/573aa7ab372fa307195948df7c8867c4ce823ed1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(council): per-seat system prompts in fan_out/roundtable (Step 3a) (#6629)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a3c0431f835c03c2e0278f34dfa458247236ea0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6694 (#6699)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e547f451171ca20e9dfddeffa695a80cb5c3341b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "183 changes / 7 days",
+      "value": "185 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
