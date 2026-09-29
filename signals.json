@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "test(translate): run the unsupported-language refusals without the model (#6755)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/feb2500f4374f4fdcbf02758f1e2bfb6b8032444"
+          "tldr": "test(hypothesis): read the committed store on PR runs instead of skipping (#6763)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0910e7395de50bf56f12826d5b085dc56b3aac13"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6751 (#6757)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6792387ecc2ab61b5c4801685cf7fa0d1f27fdf0"
+          "tldr": "test(translate): pin the fidelity guard without the model (#6764)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8576cc9e6a4369e73fcfa9b4b6a5cd88965577c5"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6752 (#6756)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/41873b8e99f9e2eb6c0436478e7e7dd72cb9bf7c"
+          "tldr": "chore(changelog): update for PR #6765 (#6768)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/45a8befb857efcdd31f56c45784e6ee5c5f61e37"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(lexicon): a pooled, paired difference beside the per-seat gate (#6751)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a02ddf7963ff4b554f53addec454b2a84eb960a4"
+          "tldr": "chore(changelog): update for PR #6641 (#6767)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7277fdbfd7d1ccd64081d9ea9fc32a6a90b227cf"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(lexicon): the probe's reply example uses the bank's own question ids (#6752)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fbdc37d7d4994a4438a2c7b870642f73cc559bf9"
+          "tldr": "feat(kern): behavioural question banks for verify-canonical and bash-safety (#6765)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/241cb89263bf385da3e2808c6e30522efab72c82"
         },
         {
           "kind": "shipped",
-          "tldr": "test(relay): skip the mapfile snippet on macOS bash 3.2, never on Linux (#6750)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec31aad827a5464016f36a1700f2981ef5e4c8ae"
+          "tldr": "fix: close the `default`-alias + vision-routing DEFER follow-ups (#6641)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7f803681ed7e498ee2d2d8f12283fbfd11303b1b"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6747 (#6749)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/83be2f4c271d4ccc5d046dc618b9c6524c02dded"
+          "tldr": "docs(translate): the fixed-point collision now raises, not KeyError (#6760)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/47ff8e3b43995a927cb4b8550615b29627253f9c"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(context-gate): a non-object or unreadable RSI stop signal halts instead of crashing th",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4056904c813b53ca8522d9d3aca6ff9ef63ca33f"
+          "tldr": "test(model): pin that the setup wizard stores the default alias itself (#6759)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dc66ec1b1556469c5ec8f95bef891d6c1a324a95"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "209 changes / 7 days",
+      "value": "214 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
