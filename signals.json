@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6792 (#6794)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0fcfb25590a2a8894bcb7be044ad0deff8495fb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ci): turn main green after the chime and meter merges (#6792)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5054dcc1e2bc9e6ff217631e64eede5e9142683d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6648 (#6786)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/11b5b46a49cd275c099ac36d206db82620edf469"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6503 (#6785)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ac2d2d281fdd92f09de62ab680a7c44252e57779"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(deps): bump ip-address from 10.5.0 to 10.7.2 in /mcp-servers/grip-mcp-web (#6649)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a98031d52d2f1d6b3684bf5bdac3e18a9337f1ac"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(deps): bump undici from 6.28.0 to 6.29.0 in /tools/grip-discord-voice (#6648)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/263066d605d0b7eaaabb88a1b28283626238d48e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(council): sealed-record I/O must name its encoding (#6503)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/53b6370f7a1fabff77f57314a73ceb4cbd846a63"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6781 (#6784)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c204194d8289b444117874ac09c63354e0590554"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6608 (#6783)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ca9c167d5e7c33cc7d3fb434b4187d7916a8831f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6625 (#6782)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7614ca9e790b8e9b4a4a27af5f1ef7393360a752"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(gitignore): ignore the WhatsApp pending-sends file (#6781)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b0414cf93a31d545f9d4b9010cff29122b86590e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tree-sync): stop an untouched uncommitted file from blocking every sync (#6608)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/60615aca48c57fa1da972f57971aa6658bc8b6b6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(meter): cross-harness usage fuel-gauge skill (#6622)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4bd5d6c5aed9e5e89cacba24227312e26e31d212"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(chime): sound the alert when a GRIP session needs the operator (#6625)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1e442da1567104e3c6c408beb3d6cb00cad3e260"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "198 changes / 7 days",
+      "value": "202 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
