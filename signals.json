@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test: stop the genome test leaking CLAUDE_DIR, and fix the five tests that depended on it ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3f1186c6b4a696c5a52ad883e0ace2a477e4cf8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6724 (#6727)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/66a53f079f31cb3cc48242e1524f58bc351de708"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(evo): keep every test_evo.py test off the real principles scan (#6710)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7c611f67f2cd21456793ec5078a3c5d843be1337"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6714 (#6716)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/374c1d59cb92bfb6739f47cc8011f0e01b4fe582"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "194 changes / 7 days",
+      "value": "195 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
