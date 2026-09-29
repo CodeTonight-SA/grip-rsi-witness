@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6718 (#6720)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/723f0ec18ceb2d5a94312faaa6a85d74135a97ee"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(afk): one malformed marker can no longer crash the /afk reader (#6718)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ad12dc5df78b14046a1e4ddb138cfbb4e7adaed"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(evo): keep every test_evo.py test off the real principles scan (#6710)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7c611f67f2cd21456793ec5078a3c5d843be1337"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(next-step): run the Stop hook's tests anywhere, isolated from the live /afk marker (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4cb73a385677c481803ac332b455aaa0b2f9a67"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6703 (#6712)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f6309b1556c697ead7f5660871671261e66c2bd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(lexicon): KERN - let the no-rule control score, so the vacuity check can fail (#6703)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1eaf142ae712f73b3385f7f304a3e3e8cfdd9731"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "188 changes / 7 days",
+      "value": "190 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
