@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6797 (#6799)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8ec92b2db08058da12f6f62d517c0aeddf6bb79"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(meter): the --days window counts exactly --days calendar days (#6797)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/133007dac369f542e0ebe1c0995a80408036bd25"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(gitignore): pin the WhatsApp bridge private files as ignored (#6796)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c2f3edc7b5a027d1dae26de1814aae446e3d730"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6648 (#6786)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/11b5b46a49cd275c099ac36d206db82620edf469"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6503 (#6785)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ac2d2d281fdd92f09de62ab680a7c44252e57779"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(deps): bump ip-address from 10.5.0 to 10.7.2 in /mcp-servers/grip-mcp-web (#6649)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a98031d52d2f1d6b3684bf5bdac3e18a9337f1ac"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "197 changes / 7 days",
+      "value": "199 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
