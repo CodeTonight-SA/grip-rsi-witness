@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(next-step): run the Stop hook's tests anywhere, isolated from the live /afk marker (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4cb73a385677c481803ac332b455aaa0b2f9a67"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6703 (#6712)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f6309b1556c697ead7f5660871671261e66c2bd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(lexicon): KERN - let the no-rule control score, so the vacuity check can fail (#6703)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1eaf142ae712f73b3385f7f304a3e3e8cfdd9731"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6698 (#6709)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/43a5919042c550b69b8e3d52125007efd863d8b3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(presence): label parked questions decision or chore, in shadow mode (#6698)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/55d7e7303dde79b1c6dc500dd6740e61ef33f596"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6629 (#6707)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/573aa7ab372fa307195948df7c8867c4ce823ed1"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6694 (#6699)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e547f451171ca20e9dfddeffa695a80cb5c3341b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(lexicon): KERN W1c - short-answer probe items, and genuinely isolated Claude seats (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/753479607babf596da710351a854f9cf176b147c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(translate): check Tshivenda's absence against the tokenizer, with a control (#6695)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/742cf9335942409650abd328fc82110700c92ed3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6691 (#6696)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/47cced4087f469ccc41acd032861714bdc47d5cf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(roundtable): tell Claude planners the plan shape; keep the causes of an F-3 refusal (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f3de45463c8b8619a2e2c219981eb709b2f7198"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6689 (#6692)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a3da6bea52a9385173c2d68dc1eb8959e6adb966"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "178 changes / 7 days",
+      "value": "183 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
