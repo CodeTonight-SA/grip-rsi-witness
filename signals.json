@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6724 (#6727)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66a53f079f31cb3cc48242e1524f58bc351de708"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(lexicon): show which questions a kernel lost, seat by seat (#6724)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0821dcbaf07b20ec3b1d2f5aad1b05c0ed4079c5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(evo): run the cube-cache tests on a bare runner, and bind them into CI (#6722)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/344dbf31d0785b4d4d43c32ba253baf79576aa9b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(kern): pre-register held-out question banks for the revised pilot kernels (#6723)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7c256d3fc1fc1b49dde584caed00d83be86e8e70"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6718 (#6720)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/723f0ec18ceb2d5a94312faaa6a85d74135a97ee"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6714 (#6716)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/374c1d59cb92bfb6739f47cc8011f0e01b4fe582"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(afk): read /afk markers from the directory the writer uses (#6714)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e89aba3a657254527319873b396066b18f456a1a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(fold-cache): make the latency test robust, and assert the property it measures (#6713",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9eff3e85cd1f64c816e8660ab7401f011f7b55da"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(kern): pre-register the short-answer question banks for the three pilot rules (#6715)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cbc5fb29e90cd57a32ea6d9486689ac02a140c1a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(next-step): run the Stop hook's tests anywhere, isolated from the live /afk marker (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4cb73a385677c481803ac332b455aaa0b2f9a67"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "190 changes / 7 days",
+      "value": "194 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
