@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6629 (#6707)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/573aa7ab372fa307195948df7c8867c4ce823ed1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(council): per-seat system prompts in fan_out/roundtable (Step 3a) (#6629)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a3c0431f835c03c2e0278f34dfa458247236ea0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6694 (#6699)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e547f451171ca20e9dfddeffa695a80cb5c3341b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(lexicon): KERN W1c - short-answer probe items, and genuinely isolated Claude seats (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/753479607babf596da710351a854f9cf176b147c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(translate): check Tshivenda's absence against the tokenizer, with a control (#6695)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/742cf9335942409650abd328fc82110700c92ed3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6691 (#6696)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/47cced4087f469ccc41acd032861714bdc47d5cf"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(roundtable): tell Claude planners the plan shape; keep the causes of an F-3 refusal (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f3de45463c8b8619a2e2c219981eb709b2f7198"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6689 (#6692)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a3da6bea52a9385173c2d68dc1eb8959e6adb966"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(broly): make MET reachable and stop reading doubt as UNMET (#6689)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdcf9072faeef1b7f419990295ef372a997c3be3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6685 (#6690)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4981e18908262b9a89550adb1f7a44ca1ede984d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(council): refuse an unknown seat name instead of silently swapping it (#6685)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cc81e32f5ef540a301a31273023c5d5bb342991c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6680 (#6688)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/35a9ef4f54aad135fba044d0099ed9cbf7c2eb98"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gitignore): let GitHub Actions workflows be committed; keep fleet workflows ignored (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/92b3b98b49d18f2e0ee1c704605d6468ef2d170b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(caveman): replace the unmeasured ~80% wenyan claim with the measured range (#6682)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8c0879fc92fe48e50cb383642177d3c81212e94"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6676 (#6684)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fe65b255b034f8acb0da2eb6e3a899a0fc4e78f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "171 changes / 7 days",
+      "value": "178 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
