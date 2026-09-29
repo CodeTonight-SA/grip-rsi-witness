@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6802 (#6804)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/84ea923ac05682d69b9ab488bc851fe6ffa92933"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(chime): keep the chime WAV in GRIP's cache, not the shared /tmp (#6802)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e1059e82cf904dde6c5c7722419757364d3d7245"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6800 (#6801)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2e96492d317a5a8f68e5036c09a9e445816dd0f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(meter): refuse a --days value with no days in it (#6800)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0769aae65c84ed3b0e6f7a9131d7f30620b40326"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6797 (#6799)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8ec92b2db08058da12f6f62d517c0aeddf6bb79"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6791 (#6795)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/46b817bbd8b10752c0d1bce1fe9b30aeb7c651be"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(gitignore): also ignore the pending-sends file's .tmp copy (#6791)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2325ed457e781b751955d32ba818f83601e7707d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6792 (#6794)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0fcfb25590a2a8894bcb7be044ad0deff8495fb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ci): turn main green after the chime and meter merges (#6792)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5054dcc1e2bc9e6ff217631e64eede5e9142683d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6648 (#6786)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/11b5b46a49cd275c099ac36d206db82620edf469"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "199 changes / 7 days",
+      "value": "202 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
