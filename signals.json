@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6747 (#6749)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/83be2f4c271d4ccc5d046dc618b9c6524c02dded"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(context-gate): a non-object or unreadable RSI stop signal halts instead of crashing th",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4056904c813b53ca8522d9d3aca6ff9ef63ca33f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test: read the CLAUDE_DIR leak anchor's CI blocks from the workflows (#6746)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c6748d42191cfafccab47ec8e60071a4e2fa647"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test: stop three unbound-anchors test files leaking CLAUDE_DIR, and guard both jobs (#6733",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d96ebe60fd63634487eb02879a005c3e1bed9749"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6734 (#6740)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/40d9cd6b145b0cc43499dc8a107b582ce4475c6e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rules): verify-canonical names git ls-remote, not a gh command that does not exist (#6",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bea85d7574dfc6386b37b13dbce170ccac1808c9"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "201 changes / 7 days",
+      "value": "203 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
