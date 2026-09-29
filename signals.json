@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "fix(models): add the counter-example falsifier for the default-alias invariant (#6775)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2555f8ea29fac8973f513bc655bf8f0385d1541a"
+          "tldr": "fix(council): sealed-record I/O must name its encoding (#6503)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/53b6370f7a1fabff77f57314a73ceb4cbd846a63"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6771 (#6774)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d9758ccdf5e4f9034dedc04307081e76c17c5f64"
+          "tldr": "chore(changelog): update for PR #6781 (#6784)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c204194d8289b444117874ac09c63354e0590554"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(lexicon): a validation run's card no longer reports a kernel gate it never ran (#6771)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3cf0bfcbb2485b5ec4dec887f2e53d7435369b34"
+          "tldr": "chore(changelog): update for PR #6608 (#6783)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ca9c167d5e7c33cc7d3fb434b4187d7916a8831f"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6769 (#6773)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/637131f7b4ebecf6c2b9eb9d97666032dab9c509"
+          "tldr": "chore(changelog): update for PR #6625 (#6782)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7614ca9e790b8e9b4a4a27af5f1ef7393360a752"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(kern): behavioural question bank for proportionate-critique (#6769)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/29abbdb29f06d4d4ffdb9fdf1953fcf4fa461643"
+          "tldr": "chore(gitignore): ignore the WhatsApp pending-sends file (#6781)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b0414cf93a31d545f9d4b9010cff29122b86590e"
         },
         {
           "kind": "shipped",
-          "tldr": "test(hypothesis): read the committed store on PR runs instead of skipping (#6763)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0910e7395de50bf56f12826d5b085dc56b3aac13"
+          "tldr": "fix(tree-sync): stop an untouched uncommitted file from blocking every sync (#6608)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/60615aca48c57fa1da972f57971aa6658bc8b6b6"
         },
         {
           "kind": "shipped",
-          "tldr": "test(translate): pin the fidelity guard without the model (#6764)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8576cc9e6a4369e73fcfa9b4b6a5cd88965577c5"
+          "tldr": "feat(meter): cross-harness usage fuel-gauge skill (#6622)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4bd5d6c5aed9e5e89cacba24227312e26e31d212"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6765 (#6768)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/45a8befb857efcdd31f56c45784e6ee5c5f61e37"
+          "tldr": "feat(chime): sound the alert when a GRIP session needs the operator (#6625)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1e442da1567104e3c6c408beb3d6cb00cad3e260"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 291 verdicts rest on a resolvable metric; the other 279 were graded from a sentinel that means no collector exists, and are NOT evidence. 530 hypotheses registered.",
+      "caption": "12 of 292 verdicts rest on a resolvable metric; the other 280 were graded from a sentinel that means no collector exists, and are NOT evidence. 530 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "188 changes / 7 days",
+      "value": "198 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
