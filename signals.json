@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6791 (#6795)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/46b817bbd8b10752c0d1bce1fe9b30aeb7c651be"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(gitignore): also ignore the pending-sends file's .tmp copy (#6791)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2325ed457e781b751955d32ba818f83601e7707d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6792 (#6794)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0fcfb25590a2a8894bcb7be044ad0deff8495fb"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(deps): bump undici from 6.28.0 to 6.29.0 in /tools/grip-discord-voice (#6648)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/263066d605d0b7eaaabb88a1b28283626238d48e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(council): sealed-record I/O must name its encoding (#6503)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/53b6370f7a1fabff77f57314a73ceb4cbd846a63"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6781 (#6784)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c204194d8289b444117874ac09c63354e0590554"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "202 changes / 7 days",
+      "value": "196 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
