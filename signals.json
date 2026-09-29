@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6677 (#6681)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/926f16a3c84354db0fafb3afa67b7488d1560a09"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(presence): stamp only prompts a human typed, not task notices or peer messages (#6677)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/413d388ff0a502d8bcfb2514bcc2ca0a6ac2612e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6671 (#6674)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2036034b47b7df0d8e70e7a36d7f8aa661af7af7"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(ci): bind 106 more orphan tests into unbound-sweep (tranche 4) (#6665)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/eac0cd51d602813d3cfad2a4fb13246a3cfd2b68"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6660 (#6664)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6952813d0bac4ac7b5dabc0d644c451b57332764"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ledger): Clean Ledger 1.5 -- claim each file a Write/Edit touches (hook shipped unbou",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/897f0ae506be8937af5bc015f00c125ab184361a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "160 changes / 7 days",
+      "value": "162 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
