@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(translate): run the unsupported-language refusals without the model (#6755)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/feb2500f4374f4fdcbf02758f1e2bfb6b8032444"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6751 (#6757)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6792387ecc2ab61b5c4801685cf7fa0d1f27fdf0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6752 (#6756)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/41873b8e99f9e2eb6c0436478e7e7dd72cb9bf7c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(lexicon): a pooled, paired difference beside the per-seat gate (#6751)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a02ddf7963ff4b554f53addec454b2a84eb960a4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(lexicon): the probe's reply example uses the bank's own question ids (#6752)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fbdc37d7d4994a4438a2c7b870642f73cc559bf9"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(relay): skip the mapfile snippet on macOS bash 3.2, never on Linux (#6750)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec31aad827a5464016f36a1700f2981ef5e4c8ae"
         },
@@ -16,37 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(context-gate): a non-object or unreadable RSI stop signal halts instead of crashing th",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4056904c813b53ca8522d9d3aca6ff9ef63ca33f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: read the CLAUDE_DIR leak anchor's CI blocks from the workflows (#6746)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c6748d42191cfafccab47ec8e60071a4e2fa647"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(rules): stop test_rules_scope.py leaking CLAUDE_DIR (#6744)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/caabae446aa8220d11b95172b6a6ce2b3607c8a7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6741 (#6743)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f8019fbf0edeeb9ea571b8f0d9ef9d353577016c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(kern): the extended-rules index takes session state from one list (#6741)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6087b3e4aada8311f548b411c38c05258af868c9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(lexicon): saved gate results name their question bank, and a re-render checks it (#673",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/da3cf0beda59064b8a774af6143fa3f1e98d5a56"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 285 verdicts rest on a resolvable metric; the other 273 were graded from a sentinel that means no collector exists, and are NOT evidence. 523 hypotheses registered.",
+      "caption": "12 of 286 verdicts rest on a resolvable metric; the other 274 were graded from a sentinel that means no collector exists, and are NOT evidence. 523 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "204 changes / 7 days",
+      "value": "209 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
