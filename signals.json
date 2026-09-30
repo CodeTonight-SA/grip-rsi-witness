@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6779 (#6810)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/31dc54adec6beb999f08603912753eec6107c967"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(kern): classify the twelve default-core rules on purpose (KERN option C) (#6779)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3ab5c98f0fafb6f8ada1bfae785ddb04aab34218"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(claude-md): drop the project file's verbatim copies of the global file (#6778)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c384eca87ff086ad1ac00fe0d615aade00ff8ddf"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6802 (#6804)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/84ea923ac05682d69b9ab488bc851fe6ffa92933"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6797 (#6799)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8ec92b2db08058da12f6f62d517c0aeddf6bb79"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(meter): the --days window counts exactly --days calendar days (#6797)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/133007dac369f542e0ebe1c0995a80408036bd25"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(gitignore): pin the WhatsApp bridge private files as ignored (#6796)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c2f3edc7b5a027d1dae26de1814aae446e3d730"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6791 (#6795)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/46b817bbd8b10752c0d1bce1fe9b30aeb7c651be"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "188 changes / 7 days",
+      "value": "191 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
