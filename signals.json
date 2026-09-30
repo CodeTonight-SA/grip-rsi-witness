@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test: stop four test files leaking a fake websockets, and guard the class (#6807)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/401ccb9252e0f95790db3c110fbf03c4bba97965"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6779 (#6810)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/31dc54adec6beb999f08603912753eec6107c967"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(meter): refuse a --days value with no days in it (#6800)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0769aae65c84ed3b0e6f7a9131d7f30620b40326"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6797 (#6799)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8ec92b2db08058da12f6f62d517c0aeddf6bb79"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "191 changes / 7 days",
+      "value": "192 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
