@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6811 (#6843)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f5b164a026c4a259b059d6124b818139c1633713"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(agora): fall back to a second judge family when Gemini gives no verdict (#6811)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/69055f3c9167a02faaf47c837009e4d67ee91b23"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(rules): remember operator em-dash style (--) not U+2014 (#6841)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f919b569a4af1a2b5ae71867b0b306daf87b3361"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6832 (#6833)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/44139fd98ad9c3c0a96ffac858118dcedcf62735"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(memory-brief): read and write MEMORY.md as UTF-8 on every OS (#6832)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/11ee96e28d413d413ace7ba40ae29f7e5524886f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6826 (#6831)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/69a05c7c6edb9ebd8a5a4596552348b29b4fd672"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "167 changes / 7 days",
+      "value": "169 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
