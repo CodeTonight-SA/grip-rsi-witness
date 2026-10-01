@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6924 (#6949)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/335d0e19105164bcb2a1c4e152bee40bd5690df0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6947 (#6948)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a00442d9710d387b97144852287fbede227b1ce7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(pr-monitor): extract the verdict token from the AGORA review comment (#6924)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/705187e629f76c342cfbdcf0ced9b30333d55207"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(learning): root /learn at its checkout and keep every candidate (#6946)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d44e5dcd40eceb270c9d38b2f7458bd4b25a0d50"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(shared-tree): advise when a session writes into the shared tree from elsewhere (#6947",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4de37abe8bbf91fa68d1342eb1c34d9fc0b86bc3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6942 (#6945)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d957af8d958d68c2ef20eb5a2bee329603073a2b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ultraplan): reach the cloud with a launch the API accepts (closes #6859) (#6942)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f141111d53565dca8312b161c5805f7753726e18"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(agora): pin the council footer verbatim; name every wave-through condition (#6940)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6805f87a234f5bccd3ba5175f06819efe3a334dd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6937 (#6939)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bca00cdeb5bcaae3afed97c0c171f34ee2b2ce80"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(agora): the council may wave a PR through, never block one (option A) (#6937)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d3af0de2f6b3d76f03c400b1681d5495baf2b728"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: carry the holding items from four AGORA sittings, and one hermetic git helper (#6934",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5d860cbd1b60b3c4b8af9c11bcc44aef8871b2fc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6929 (#6932)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/819675d7b443b675b041f94f61ecc3f4623de8a8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6930 (#6931)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/75130adae490fa937c1e082ad9b03820f9c208fb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "refactor(dojo): single-source lessons + atomic marker + falsifier test (closes #6890) (#69",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3ff0880cfee4b56dc3f2818651fb2a696d92ea02"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): the room-viewer fixture no longer lists its own \"unlisted\" name inertly (#6930",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/10ce62d114b49d5257dafc83fe20bf6930ac4d33"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 293 verdicts rest on a resolvable metric; the other 281 were graded from a sentinel that means no collector exists, and are NOT evidence. 530 hypotheses registered.",
+      "caption": "12 of 293 verdicts rest on a resolvable metric; the other 281 were graded from a sentinel that means no collector exists, and are NOT evidence. 535 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -56,14 +56,14 @@
       "caption": "90 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7524",
+      "value": "gen 7525",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "215 changes / 7 days",
+      "value": "222 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
