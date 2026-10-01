@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6850 (#6851)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9044476a453c83cf0b2cd2edd9697fb91fec20fa"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(cost): re-read Gemini, DeepSeek, xAI and Qwen prices from vendor pages (#6850)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dce358442ae8c5bf7d224401f2259feca7148c17"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(kern): preserve the W1 pilot refutation record (#6847)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/350985f773e0626eb2a64472804637b3f0147305"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(rules): em-dash rule -- literal with spaces, tables and code scoped out (closes #6842",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cb0bb814750475474eacbdd136971e8489c65810"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6811 (#6843)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f5b164a026c4a259b059d6124b818139c1633713"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(agora): fall back to a second judge family when Gemini gives no verdict (#6811)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/69055f3c9167a02faaf47c837009e4d67ee91b23"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "175 changes / 7 days",
+      "value": "177 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
