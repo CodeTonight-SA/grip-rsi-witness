@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(skills): add /guardian, a private read-only watch over the operator's own affairs (#6",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d60a20a66781563152fefc5b1461836fd81bb0b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6854 (#6856)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7479316e11baac223608caa85c5a7322184ebfec"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(room): plain-language headings in the peer room, and an always-on viewer template (#6",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/693cf7bce1169babb0518ef84054f6c3f7c66196"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6852 (#6855)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cbff2ddf683c7ac2a81c43acb2a35b2e0d8edc52"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(agora): record what each sitting cost; price provider addresses correctly (#6852)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/07f41bea7e2f41fe01e71fa343e9b41829535682"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6850 (#6851)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9044476a453c83cf0b2cd2edd9697fb91fec20fa"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(kern): preserve the W1 pilot refutation record (#6847)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/350985f773e0626eb2a64472804637b3f0147305"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6669 (#6849)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e6837d1d193aeefcf76cea251b6d084ea39bb88a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): hold PRs that edit the written merge authority for a human (#6669)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdb68cd6ca2e27c12055c200067ed290311703cb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6809 (#6846)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba42e1a803df8445288b64fa2db489930e5a8414"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-mobile-web): harden the multi-Mac chime broadcast (REQUEST CHANGES convergence) (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e28d2b17f0263d3ea5ecec21bf840511ce0d4bfa"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): em-dash rule -- literal with spaces, tables and code scoped out (closes #6842",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cb0bb814750475474eacbdd136971e8489c65810"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "177 changes / 7 days",
+      "value": "178 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
