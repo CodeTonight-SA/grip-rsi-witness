@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6837 (#6838)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3abdbfeb10f6731c651d601c4fe34c993fdda26"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "ci(windows-smoke): fail when the runner's default text encoding is not cp1252 (#6837)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/58ce6f825df8c25ee8da19d4c4c88bde9a33e5d6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6834 (#6836)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ead8bccf55d02912f431ea1e7b2a2b5aafab02ea"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(instance-serializer): read the session transcript and instance files as UTF-8 (#6826)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d13bd6d2c43b4ca9764f220b90645aa8d058a347"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6824 (#6825)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/62e83d066ba48be0320141064d0fda440746c7e8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "ci(windows-smoke): run the three cross-OS forward anchors on a real Windows runner (#6824)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6076890414479997460806248d45a678b5c00be8"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "165 changes / 7 days",
+      "value": "167 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
