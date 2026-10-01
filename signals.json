@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6881 (#6883)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8762305e516593a2e07c6ba7070c69d7a50c146a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(guardian): answer action items on the page, served on this machine only (#6881)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe38d7a2a110cdcb15048e569ab792432236ec94"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6878 (#6880)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/83e71dfaa5f12e20e2e3d1ec11a534f078251adb"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(rules-scope): an unclassified rule is reported whatever the default says (#6869)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1cd22ea86130fdccc442609a66d7cbc9440ec8fd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6864 (#6868)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5840279f11a9393c0c84e4eea7537a7230d00aec"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rules-scope): classify the two defaulted rules as extended, and stop defaulting to cor",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cbf69015a7fed63d853b1d4cda26f8521e529bb7"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "182 changes / 7 days",
+      "value": "183 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
