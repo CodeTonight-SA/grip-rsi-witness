@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6909 (#6912)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ac3d12355d60934f2f34f60ce0449e8f04fa8f6"
+          "tldr": "docs(operational-context): record that the VPS has merge-capable gh auth (#6926)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0db16e3f03facb88efc114da11c94c9b3585b548"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(pr-monitor): durable verdict-aware merge sweep for harnesses without a monitor (#6909",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a3881c9c17aec2f0d34814d81612cec28ef9eb1"
+          "tldr": "chore(changelog): update for PR #6918 (#6925)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/de1ac7a9c848c34bc75123aed9d593649237d382"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6907 (#6911)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e080fb725bac683f7bd6afb864a2dd46d80eb5a"
+          "tldr": "chore(gitignore): runtime key directories and the Codex accounts file are never source (#6",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4d3ef6f26435b6be65bbfd227d0195be13a2417"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(agora): the shadow record says whether the council would have flipped the merge gate ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fca98c7ea702f92c179e234ca7739706a179804d"
+          "tldr": "chore(changelog): update for PR #6917 (#6922)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/96b2e94f49ede44789b7fd90ffdbbf06d09c4a52"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6886 (#6908)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5ad99f2c6630c45c5eb2c50fcd06cfddc8051ab9"
+          "tldr": "fix(pr-monitor): anchor the verdict gate on the \"**Verdict:\" header, not the body (#6913)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/82b88a74a1d9851a7de2e0e4eae66c65530c9e2e"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(dojo): daily tip-of-the-day + /dojo shell v2 (Swiss nihilism) (#6886)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/25f323c5806a65a7b34ba44eeddc471797a634a5"
+          "tldr": "fix(redaction-shield): match canonicals, edge-aware boundaries, ID and 0xx-phone floor, re",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3ccaf2dce5c8c968c7850e3db9bb79ff7797e3eb"
         },
         {
           "kind": "shipped",
-          "tldr": "test(messenger): close the GRIP#6901 and GRIP#6902 follow-ups (#6905)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f908c3c4ddfee95c4485df1d312d06d7f9c4ea8"
+          "tldr": "fix(doc-drift): write counts into the checkout that was edited, and count only tracked fil",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1314e493779a46a704d5cb1e1ef2e2da2aca3c0"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6896 (#6904)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3267f12947e44563a6469ab2652318caa06b736d"
+          "tldr": "fix(session-cleanup): never archive a release file git tracks (#6917)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3dd864dc9962fdbad06191f35ccb7479a103a74"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "199 changes / 7 days",
+      "value": "207 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
