@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6834 (#6836)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ead8bccf55d02912f431ea1e7b2a2b5aafab02ea"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(quality-gate): judge a file the same way on Windows as on a Mac (#6834)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f360d1e1640d4e394010296980bcfc7d003fb04"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6832 (#6833)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44139fd98ad9c3c0a96ffac858118dcedcf62735"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(memory-brief): read and write MEMORY.md as UTF-8 on every OS (#6832)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/11ee96e28d413d413ace7ba40ae29f7e5524886f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6826 (#6831)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/69a05c7c6edb9ebd8a5a4596552348b29b4fd672"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "ci(windows-smoke): run the three cross-OS forward anchors on a real Windows runner (#6824)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6076890414479997460806248d45a678b5c00be8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6815 (#6823)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f79d1a95a100aca307c9e81f0e77e7a442acc3c1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(session-context): read and write rules/session-context.md as UTF-8 on every OS (#6815)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ae8a1776fe2b672b083e6953018ca9f57d942fd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6817 (#6822)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/20a84ee7fd80f3fc470cec929561a87761d4d96f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(path-encoding): make the project-directory slug work on Windows (#6817)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e7ebb5363adae85a428ce0b93134ecd280fbf6b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "161 changes / 7 days",
+      "value": "165 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
