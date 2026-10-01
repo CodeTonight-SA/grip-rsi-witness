@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6886 (#6908)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5ad99f2c6630c45c5eb2c50fcd06cfddc8051ab9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(dojo): daily tip-of-the-day + /dojo shell v2 (Swiss nihilism) (#6886)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/25f323c5806a65a7b34ba44eeddc471797a634a5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(messenger): close the GRIP#6901 and GRIP#6902 follow-ups (#6905)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f908c3c4ddfee95c4485df1d312d06d7f9c4ea8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6896 (#6904)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3267f12947e44563a6469ab2652318caa06b736d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(guardian): check the \"need you\" count after an answer, and document the answers file (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6865a72700be43310f05756fffd0eedc63c70a7a"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(messenger): the relay refuses to start without a server address (#6897)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4bb4ff584c267aa5e5d47942630db83088a9ddea"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6893 (#6899)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ae09d3fb8335ad73ac26382df7ee49c5a334b99f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(messenger): forward a WhatsApp reply only when it starts with \"L:\" (#6893)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/778e4f2ac263cfdbe101f5adb7063c076607cfc5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6885 (#6895)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2452aef1f1a46411df0405fdde0227a385276227"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(messenger): a macOS menu-bar icon for GRIP Messenger (#6885)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3f18bb8a95c8f584169f476905082c2606496f6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "193 changes / 7 days",
+      "value": "197 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/adding-agora-ci-workflow"
         }
       ],
-      "tip": "Parallel over either-or: independent, non-exclusive work runs together, not as a menu."
+      "tip": "R0: every claim needs specific evidence, a scope that matches it, and a stated falsifier — on any miss, qualify it or drop it."
     }
   ]
 }
