@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(rules): remember operator em-dash style (--) not U+2014 (#6841)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f919b569a4af1a2b5ae71867b0b306daf87b3361"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6837 (#6838)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3abdbfeb10f6731c651d601c4fe34c993fdda26"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6826 (#6831)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/69a05c7c6edb9ebd8a5a4596552348b29b4fd672"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(instance-serializer): read the session transcript and instance files as UTF-8 (#6826)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d13bd6d2c43b4ca9764f220b90645aa8d058a347"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "166 changes / 7 days",
+      "value": "167 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
