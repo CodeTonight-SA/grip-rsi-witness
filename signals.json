@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6909 (#6912)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ac3d12355d60934f2f34f60ce0449e8f04fa8f6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(pr-monitor): durable verdict-aware merge sweep for harnesses without a monitor (#6909",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a3881c9c17aec2f0d34814d81612cec28ef9eb1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6907 (#6911)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e080fb725bac683f7bd6afb864a2dd46d80eb5a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(agora): the shadow record says whether the council would have flipped the merge gate ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fca98c7ea702f92c179e234ca7739706a179804d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6886 (#6908)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5ad99f2c6630c45c5eb2c50fcd06cfddc8051ab9"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6896 (#6904)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3267f12947e44563a6469ab2652318caa06b736d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(guardian): check the \"need you\" count after an answer, and document the answers file (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6865a72700be43310f05756fffd0eedc63c70a7a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6897 (#6903)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7135e62a80b1409e4c4cbe879c9a91e9d22dab6a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(messenger): edge cases for the \"L:\" reply marker (#6900)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5b5a089b1be0453597c99b69d299e49ff696afcb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(messenger): the relay refuses to start without a server address (#6897)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4bb4ff584c267aa5e5d47942630db83088a9ddea"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "90 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7518",
+      "value": "gen 7519",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "197 changes / 7 days",
+      "value": "199 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
