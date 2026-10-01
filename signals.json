@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6878 (#6880)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/83e71dfaa5f12e20e2e3d1ec11a534f078251adb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(codex): a plain `codex` uses the ChatGPT subscription; HAL becomes the `hal` profile (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/571d98224161233afb8f1be227b9ffe7402042fb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6872 (#6875)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0412ca1f4451b106e7d93a4364b8983b3d22779b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(inception): wire the overnight wake scheduler and the limbo ledger (#6874)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f5b293a02ab98a66cc678b812cb77a6599a0ee4d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(guardian): see your brief as a local, offline page (#6872)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/170344ac962160951f83001393b62942372cedee"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(rules-scope): an unclassified rule is reported whatever the default says (#6869)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1cd22ea86130fdccc442609a66d7cbc9440ec8fd"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(rules-scope): classify the two defaulted rules as extended, and stop defaulting to cor",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cbf69015a7fed63d853b1d4cda26f8521e529bb7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6863 (#6867)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7f6bb11b0b4a1b1873380a8f246980661bf7fcd6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(guardian): give each guardian its own private, encrypted repository (#6863)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4743d18ebb8b8e7cd61a7f422261c5eb7f6c45e6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6858 (#6862)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b9e37a51066c1169be26111b8f36858d8fce5b8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(skills): add /guardian, a private read-only watch over the operator's own affairs (#6",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d60a20a66781563152fefc5b1461836fd81bb0b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6854 (#6856)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7479316e11baac223608caa85c5a7322184ebfec"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "182 changes / 7 days",
+      "value": "184 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
