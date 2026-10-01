@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6884 (#6888)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b87ed4ff9e899be08ce7f3e6be17f4a3bf0c4edc"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(agora): run a cheap shadow council beside the judge on every review (#6884)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/97baf23a255e31897ccfd391757f1d2997fa9889"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6881 (#6883)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8762305e516593a2e07c6ba7070c69d7a50c146a"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(inception): wire the overnight wake scheduler and the limbo ledger (#6874)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f5b293a02ab98a66cc678b812cb77a6599a0ee4d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(guardian): see your brief as a local, offline page (#6872)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/170344ac962160951f83001393b62942372cedee"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(rules-scope): an unclassified rule is reported whatever the default says (#6869)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1cd22ea86130fdccc442609a66d7cbc9440ec8fd"
         }
       ],
       "key": "stream"
