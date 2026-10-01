@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(guardian): check the \"need you\" count after an answer, and document the answers file (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6865a72700be43310f05756fffd0eedc63c70a7a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6897 (#6903)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7135e62a80b1409e4c4cbe879c9a91e9d22dab6a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(messenger): edge cases for the \"L:\" reply marker (#6900)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5b5a089b1be0453597c99b69d299e49ff696afcb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(messenger): the relay refuses to start without a server address (#6897)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4bb4ff584c267aa5e5d47942630db83088a9ddea"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6893 (#6899)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ae09d3fb8335ad73ac26382df7ee49c5a334b99f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(messenger): forward a WhatsApp reply only when it starts with \"L:\" (#6893)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/778e4f2ac263cfdbe101f5adb7063c076607cfc5"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6885 (#6895)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2452aef1f1a46411df0405fdde0227a385276227"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(messenger): a macOS menu-bar icon for GRIP Messenger (#6885)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3f18bb8a95c8f584169f476905082c2606496f6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6891 (#6892)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f1715968b141a9f85ca3d0cfd56fe742e02d3217"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(inception): make the limbo ledger's save atomic under concurrent writers (#6891)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c8f1a77f109164954678fab2052a636cc2b667a7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6884 (#6888)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b87ed4ff9e899be08ce7f3e6be17f4a3bf0c4edc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(agora): run a cheap shadow council beside the judge on every review (#6884)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/97baf23a255e31897ccfd391757f1d2997fa9889"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6881 (#6883)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8762305e516593a2e07c6ba7070c69d7a50c146a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(guardian): answer action items on the page, served on this machine only (#6881)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe38d7a2a110cdcb15048e569ab792432236ec94"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "187 changes / 7 days",
+      "value": "193 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
