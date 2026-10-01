@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(kern): preserve the W1 pilot refutation record (#6847)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/350985f773e0626eb2a64472804637b3f0147305"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6669 (#6849)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e6837d1d193aeefcf76cea251b6d084ea39bb88a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(agora): hold PRs that edit the written merge authority for a human (#6669)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdb68cd6ca2e27c12055c200067ed290311703cb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6809 (#6846)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba42e1a803df8445288b64fa2db489930e5a8414"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(grip-mobile-web): harden the multi-Mac chime broadcast (REQUEST CHANGES convergence) (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e28d2b17f0263d3ea5ecec21bf840511ce0d4bfa"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(rules): em-dash rule -- literal with spaces, tables and code scoped out (closes #6842",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cb0bb814750475474eacbdd136971e8489c65810"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6811 (#6843)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f5b164a026c4a259b059d6124b818139c1633713"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(agora): fall back to a second judge family when Gemini gives no verdict (#6811)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/69055f3c9167a02faaf47c837009e4d67ee91b23"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(rules): remember operator em-dash style (--) not U+2014 (#6841)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f919b569a4af1a2b5ae71867b0b306daf87b3361"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6837 (#6838)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3abdbfeb10f6731c651d601c4fe34c993fdda26"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "ci(windows-smoke): fail when the runner's default text encoding is not cp1252 (#6837)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/58ce6f825df8c25ee8da19d4c4c88bde9a33e5d6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6834 (#6836)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ead8bccf55d02912f431ea1e7b2a2b5aafab02ea"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(quality-gate): judge a file the same way on Windows as on a Mac (#6834)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f360d1e1640d4e394010296980bcfc7d003fb04"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6832 (#6833)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44139fd98ad9c3c0a96ffac858118dcedcf62735"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "90 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7515",
+      "value": "gen 7516",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "169 changes / 7 days",
+      "value": "175 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Cross-harness usage fuel-gauge — see how much AI you burned across every coding ",
+          "name": "/meter"
+        },
         {
           "desc": "Audits whether a codebase is actually ready to be released, by reading it from a",
           "name": "/infiltrate"
@@ -96,10 +100,6 @@
         {
           "desc": "Documents Claude Code's form-input schema for AskUserQuestion — the typed questi",
           "name": "/creating-form-input"
-        },
-        {
-          "desc": "Adds a newly announced vendor model to the HAL and GRIP catalogues and wires its",
-          "name": "/dogfood-domain"
         }
       ],
       "tip": "Parallel over either-or: independent, non-exclusive work runs together, not as a menu."
