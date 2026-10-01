@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(rules-scope): an unclassified rule is reported whatever the default says (#6869)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1cd22ea86130fdccc442609a66d7cbc9440ec8fd"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6864 (#6868)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5840279f11a9393c0c84e4eea7537a7230d00aec"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6854 (#6856)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7479316e11baac223608caa85c5a7322184ebfec"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(room): plain-language headings in the peer room, and an always-on viewer template (#6",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/693cf7bce1169babb0518ef84054f6c3f7c66196"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "183 changes / 7 days",
+      "value": "184 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
