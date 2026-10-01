@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(agora): pin the council footer verbatim; name every wave-through condition (#6940)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6805f87a234f5bccd3ba5175f06819efe3a334dd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6937 (#6939)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bca00cdeb5bcaae3afed97c0c171f34ee2b2ce80"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(agora): the council may wave a PR through, never block one (option A) (#6937)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d3af0de2f6b3d76f03c400b1681d5495baf2b728"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test: carry the holding items from four AGORA sittings, and one hermetic git helper (#6934",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5d860cbd1b60b3c4b8af9c11bcc44aef8871b2fc"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(tests): the room-viewer fixture no longer lists its own \"unlisted\" name inertly (#6930",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/10ce62d114b49d5257dafc83fe20bf6930ac4d33"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(operational-context): record that the VPS has merge-capable gh auth (#6926)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0db16e3f03facb88efc114da11c94c9b3585b548"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6918 (#6925)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/de1ac7a9c848c34bc75123aed9d593649237d382"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(gitignore): runtime key directories and the Codex accounts file are never source (#6",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4d3ef6f26435b6be65bbfd227d0195be13a2417"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "90 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7522",
+      "value": "gen 7524",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "212 changes / 7 days",
+      "value": "215 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
