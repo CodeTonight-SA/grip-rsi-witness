@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7139 (#7140)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/532d22c3a5d938c994218754e2a4526932ee700f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(store): a replaced token is kept, and the relay follows its label (#7139)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30d21327619ecd9be19b7fcddb07fd0c81698aca"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7134 (#7136)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/00bdf0d43bceb9a6441f0c6697d4a74c1ead38c5"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(guard): the hung-gh falsifier must prove it waited on gh, and stay silent (#7131)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/73f410c2740b38cf1decf33f09669142e0e16a25"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(guard): a hung gh lookup must end in time and fail open (#7127)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7628daa2256b5bc47a73f81c0bac84e584930ee8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7125 (#7128)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/df7246c53f91301d5893199863a279a49174ed71"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "359 changes / 7 days",
+      "value": "361 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
