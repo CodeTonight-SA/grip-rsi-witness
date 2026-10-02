@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7091 (#7092)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f5684eb0ed3e6add998bd1bcfe4e07980334619e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(tokens): grip-claude-fleet says which machine holds which Claude token, and makes it ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a4387b370018318480bb8f3e9fed5042fb206c1d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7089 (#7090)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a55de01208158254993482e435e01c944827d8eb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tokens): a token given as an argument is refused and never echoed; two council follow-",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/54333d133945771aa043cfa529ac63d496e3c42b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7086 (#7088)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/20c0e7c93bfc1ad024242b837e31bad1e539e724"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(tokens): grip-claude-as runs one claude process as one stored account (#7084)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/67bcfeec7567fe513e7127628f524a9345efcdc6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7082 (#7083)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fa540fc57a21e383e275a223241564d28e3853f0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(account): the live check, not the screen, decides which reading is the token (#7082)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a9d21b0a143b11e42faac5e744dcddd3e965b5f2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7080 (#7081)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c616c189acf8782663d0fccd29e98ceda166bbf6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(fleet): flag merged PRs whose branch moved on after the merge (#7080)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/abc45abd9702fb5d4090b8349d7541853ccb10d4"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "327 changes / 7 days",
+      "value": "331 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
