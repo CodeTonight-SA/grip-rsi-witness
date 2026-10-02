@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7023 (#7027)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ee5c18c50fc39a2380954d0aca6f2c79430579a5"
+          "tldr": "chore(changelog): update for PR #7040 (#7043)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e3b0e2d3c754b141adf6dc6854e613b8df6fd2d9"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7024 (#7026)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f6a9da836c488cc34c7c73ac207d6adfabe46e5"
+          "tldr": "fix(settings): keep the operator's model choice through merges, and let only the install's",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/563655c89e747eef32ac04c9dea6f9757c31b750"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(ci): periodic local branch prune (merged branches only) (#7023)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f7f7068030d3e850b7432c305d048ad61f473f4"
+          "tldr": "fix(windows): define the ours merge driver, and stop /save rewriting the genome after a pu",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f607d2de4fb1b792169fe1aa51d617be4b07535f"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(harness): give Kiro one dispatch entry, turning main's harness tests green (#7024)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa2a7768b07827735af341a2dfc6600a82f217b7"
+          "tldr": "chore(changelog): update for PR #7036 (#7041)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d8804baaa4fb49851687e97bd66c79d9b0a96e4"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7021 (#7022)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/69e8ee26c1d3fec9164a73964be9ebb95f76ade4"
+          "tldr": "fix(agora): merge-machinery PRs stay V>>'s -- the council and the auto-merge sweep both re",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/79a48cb68872b5229de3a7d35d574dec4aaf47c7"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(converge-fleet): land ADR 0015's four first fixes in the v2 template (#7021)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/da6edc1bffb767743b2dab61781c75a081650d0c"
+          "tldr": "fix(account): let the mint module import where there is no pseudo-terminal (#7036)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c82b2a70e1a4db23709006b2384b71c854f0cc1f"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7019 (#7020)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b2a789806db9f1cc2bb3a9d45a9419c742bcabe"
+          "tldr": "chore(changelog): update for PR #7035 (#7037)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d97aece4e1e418805bc017f3fca78ebd82857cda"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(mesh): broadcast and list count a session as live while it runs (#7019)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f324ef1f92c4f5c7ff3b1dc86d1e02115210516d"
+          "tldr": "fix(mesh): queue for sessions that cannot be confirmed, skip only the gone (#7035)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/975ae29910a4d588714a467fe0d94c91355f0a3e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "281 changes / 7 days",
+      "value": "295 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
