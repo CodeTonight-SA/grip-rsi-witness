@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7086 (#7088)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/20c0e7c93bfc1ad024242b837e31bad1e539e724"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tokens): grip-claude-as refuses a settings file that sets the token variable itself (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/07f4fa9501f9c2d229f216a58c9dc0af8bcba370"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7084 (#7085)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/00dace556a9d7b80ff66b1f47f7f2e8ef25f60c4"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(fleet): flag merged PRs whose branch moved on after the merge (#7080)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/abc45abd9702fb5d4090b8349d7541853ccb10d4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: mark the fleet-collation brief superseded by grip-fleet (#7078)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0379c012db04b81494d06b2d04bc7cdcce4b6eb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(remotion): drop the two counts AGORA found still stale in the README (#7076)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd0146d5906ba192e693db78846dc2c1d7f3e5dd"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "325 changes / 7 days",
+      "value": "327 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
