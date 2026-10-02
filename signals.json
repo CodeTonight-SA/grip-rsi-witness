@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs: mark the fleet-collation brief superseded by grip-fleet (#7078)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0379c012db04b81494d06b2d04bc7cdcce4b6eb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(remotion): drop the two counts AGORA found still stale in the README (#7076)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd0146d5906ba192e693db78846dc2c1d7f3e5dd"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7067 (#7069)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/57a0fc03c4496eb66f549917605b191ec56918db"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(remotion): add the Antepaste explainer composition (#7067)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e412d2ca16993a00d14b79b762e573d2a5d19e3"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "318 changes / 7 days",
+      "value": "319 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
