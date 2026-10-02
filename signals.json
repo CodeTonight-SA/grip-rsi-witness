@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7093 (#7094)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c58ab1da05495329d32f7f752d1151140c3992aa"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ci): vps-hal-sync checks script_ref on the VPS, not on the runner (#7093)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/501e7bfe1941b48a43d65d7860a96408f88a8eb1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7091 (#7092)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f5684eb0ed3e6add998bd1bcfe4e07980334619e"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(tokens): grip-claude-as refuses a settings file that sets the token variable itself (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/07f4fa9501f9c2d229f216a58c9dc0af8bcba370"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7084 (#7085)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/00dace556a9d7b80ff66b1f47f7f2e8ef25f60c4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(tokens): grip-claude-as runs one claude process as one stored account (#7084)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/67bcfeec7567fe513e7127628f524a9345efcdc6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "331 changes / 7 days",
+      "value": "333 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
