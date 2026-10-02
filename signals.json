@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(remotion): drop the two counts AGORA found still stale in the README (#7076)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd0146d5906ba192e693db78846dc2c1d7f3e5dd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7072 (#7075)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/173bb3b86076f7ccbf750a76e83968e01cf506aa"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ci): vps-hal-sync workflow fails loud instead of silently doing nothing (#7072)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2ca57d62c6a4288ee8883bc51540830805d9d712"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(remotion): README stops saying \"seven\" and lists every registered composition (#7073)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d47d6f9826ca0630c34660edb57e69134f633a85"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7066 (#7071)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cbe3ff78a037a219839b2813039a27d61af4034e"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(remotion): add the Antepaste explainer composition (#7067)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e412d2ca16993a00d14b79b762e573d2a5d19e3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7064 (#7068)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/be7378d3138683cc288f862d19e5572a288257b8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "ci(vps): dispatchable workflow that syncs ~/.hal on the VPS and restarts HAL (#7064)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8f75eed2a29af86bb5fc8c22ac90d97b8d115082"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7062 (#7063)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/38601e5f7c769dad1ef69b6ded8869d06b26293f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(dojo): honest run + non-TTY fallback + footer keymap + word-wrap (#7062)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4b180ae82233637dc683c8214f924f12f32fbe1"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "314 changes / 7 days",
+      "value": "318 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
