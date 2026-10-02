@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(guard): the hung-gh falsifier must prove it waited on gh, and stay silent (#7131)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/73f410c2740b38cf1decf33f09669142e0e16a25"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(guard): a hung gh lookup must end in time and fail open (#7127)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7628daa2256b5bc47a73f81c0bac84e584930ee8"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7119 (#7120)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/af61449000243ea5d2a607ef61f1fa1fce90a5f1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(guard): never cache \"not merged\", so a merge is seen on the next commit (#7119)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/89880f888a2e302c90969cc7d19ec9fe57d778ac"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "353 changes / 7 days",
+      "value": "354 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
