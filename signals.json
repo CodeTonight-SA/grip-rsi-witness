@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(guard): a hung gh lookup must end in time and fail open (#7127)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7628daa2256b5bc47a73f81c0bac84e584930ee8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7125 (#7128)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/df7246c53f91301d5893199863a279a49174ed71"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(fleet): bring the keychain in step with a freshly minted token (#7123)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/052f0c5489a6ec9357f98e1fbabb2b1d4abd3ef1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(semantic-keyword): the falsification clause, run -- 54 false positives in 500, the bi",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e6b1cbbd9707fb3263f7820d407e5c5901056684"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7121 (#7124)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a4564f03a05f4dc48692e0ab502fc5d15b5c462"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(guard): give up on gh before the hook is killed; test the read side's rule (#7121)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/23f437c0e5fe461b9e19afde1eae23cb0f356416"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7119 (#7120)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/af61449000243ea5d2a607ef61f1fa1fce90a5f1"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(guard): never cache \"not merged\", so a merge is seen on the next commit (#7119)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/89880f888a2e302c90969cc7d19ec9fe57d778ac"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7117 (#7118)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec2e4a8f29cc2e8b6b2d63c7b076210b3a702082"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(fleet): find tokens lying in what a harness keeps (strays --deep) (#7117)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aaf003ccff451a0e77b9beb4591cdaa8e04fd322"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7115 (#7116)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f35219d9f4c0f299957121a94f1b9637b1f9a476"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(guardrail-evasion): the documentation exemption recognises Windows paths (#7115)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/73245225b883068619ef47013da9407ee33a3f69"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7113 (#7114)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/70d15665715c189f24cb800dca1af8eac3d2a36b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(fleet): list, test and remove tokens lying in shell files (#7113)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/79a8a1d3c6ddd0dbc34706796bf862614ba03fbb"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "347 changes / 7 days",
+      "value": "353 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
