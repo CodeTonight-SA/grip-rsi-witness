@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7066 (#7071)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cbe3ff78a037a219839b2813039a27d61af4034e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(vps): vps-tree-sync syncs via reset --hard, not merge, and skips only on tracked chang",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6b3060f384d6c3773f0be8b6c580f132159a64d8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7067 (#7069)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/57a0fc03c4496eb66f549917605b191ec56918db"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(remotion): add the Antepaste explainer composition (#7067)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e412d2ca16993a00d14b79b762e573d2a5d19e3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7064 (#7068)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/be7378d3138683cc288f862d19e5572a288257b8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "ci(vps): dispatchable workflow that syncs ~/.hal on the VPS and restarts HAL (#7064)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8f75eed2a29af86bb5fc8c22ac90d97b8d115082"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7062 (#7063)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/38601e5f7c769dad1ef69b6ded8869d06b26293f"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(dojo): honest run + non-TTY fallback + footer keymap + word-wrap (#7062)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4b180ae82233637dc683c8214f924f12f32fbe1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7056 (#7060)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d7d5ca8c91866a701274d144139d7b34280c72a5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(fleet): land every session's work, then inspect it in one short page (#7053)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/09db39f2379ec99cbc23b69b24f1b707c46d005d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(vps): periodic merge-based tree sync for the VPS checkout (#7056)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f191e55bdf6c9916662ae006a711326dc157e34"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7047 (#7059)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/427b60fd6f1c44fdd18cbcd97bc6e163b32553f2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7054 (#7057)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e0c7ef693dd0fa52b143aa527ea61cf194ffa9a3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(account): the latest screen decides the token, and CI now runs the token tests (#7047)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/850cabcf2b88b3003b56b82d2e9445915f9c7271"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "308 changes / 7 days",
+      "value": "314 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
