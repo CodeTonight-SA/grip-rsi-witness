@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6987 (#6990)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ab2ad6508104a6d6f8537f2e665006b9ad87326"
+          "tldr": "chore(changelog): update for PR #7005 (#7006)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/606137f2f6e9e65a8f6fb5d991e77328d8040570"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(relay): one request per canary session, and no unanswerable prompt on OpenCode relay s",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30ae1c18b11fca531b0d4f461030a92d5b5a5cad"
+          "tldr": "fix(mesh): make the inform-all test able to fail, and limit waking to real requests (#7005",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2c932bc5ce8fd3549f92f2c6e98da892a6ea8e9a"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6985 (#6989)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b3df2fe3a712dce466cb4fda4889f984e965964"
+          "tldr": "chore(changelog): update for PR #7001 (#7004)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2692d0c9e81d9a8de87aa1349c24d317018bc110"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6984 (#6988)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/34f98ec47b8a2284899bb746c817c19194db790b"
+          "tldr": "feat(mesh): \"inform all sessions\" now wakes every live Claude session (#7001)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8b9255468f6316695e15d7ba86b006dc79344bf"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(mesh): leave a session's inbox messages for the session, not its background agents (#6",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c7a1ac14ddee5171e0dfce907e714232c07bb28"
+          "tldr": "chore(changelog): update for PR #6999 (#7002)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a290103413271025969f3e9f8e782f2ac319be5"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(semantic-keyword): measure the floor against a real literal floor, fix the L2 time bo",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a05896075f8d5a86b2b5824142ede239f3fe4c88"
+          "tldr": "fix(semantic-keyword): the floor is killed on the deployment distribution; record it (#699",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c4b4059e637f27a1514a8837f70de438f178eae"
         },
         {
           "kind": "shipped",
-          "tldr": "test(insights): pin the refresh lock across a real second process, and say where the repor",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecbed3970c8385d10db8ce2356bc6815c121f561"
+          "tldr": "chore(changelog): update for PR #6995 (#7000)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb5e5891a6583529f1724f9162dd09078a441da1"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6973 (#6981)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9dc9179fe37c406b771ea9d7740390b886daa78e"
+          "tldr": "feat(settings): point the opus, sonnet and fable aliases at their 1M spellings, and keep a",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/379e8e1d85b1711c9f8c394d4d4c9bf6635dc58f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "250 changes / 7 days",
+      "value": "263 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
