@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7113 (#7114)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/70d15665715c189f24cb800dca1af8eac3d2a36b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(fleet): list, test and remove tokens lying in shell files (#7113)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/79a8a1d3c6ddd0dbc34706796bf862614ba03fbb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7105 (#7106)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a6abe4f9d2b56f594f8879717d7e92e4206f997d"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(ssh-gate): a comment ending in a backslash can no longer hide the next line's ssh (#70",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/eda1c185d9a40769fe2303cb2b409bf560852fe0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7095 (#7096)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d9f1cc3c69f9da737ceb6cab39b14df202b2dc86"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ssh-gate): parse every SSH on every line, and ask when the parser finds an outside hos",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdb808055aa4d0ff90203f21cfd9b8bef0c06f77"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "342 changes / 7 days",
+      "value": "344 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
