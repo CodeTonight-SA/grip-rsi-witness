@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7019 (#7020)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b2a789806db9f1cc2bb3a9d45a9419c742bcabe"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(mesh): broadcast and list count a session as live while it runs (#7019)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f324ef1f92c4f5c7ff3b1dc86d1e02115210516d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7015 (#7018)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/675270c1caccdcef3e63c4f255c028da8b3fb431"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(semantic-keyword): the last experiment -- six representations, pre-registered, no flo",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/02bd36de1ad13922b32e2b2d67baa727afe8eb01"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7013 (#7016)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/96e7c5c4db94ccb2f4a9c11afd9849de804d3818"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): grip-pull-check, a read-only health check a teammate runs after git pull (#7",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5356ef23d8f995fc989c0a8ddc76f56e49e11bcc"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(harness): absorb Kiro CLI as GRIP primitive",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a3b78237ca7ecdf0ab8eb8419bdbbe32fa4436fa"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7011 (#7012)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d54c21d77917509390b482efdc895f45ba506eeb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(show): Windows-shaped test expectations, a pager with options, both MSYS switches (#70",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e9df01a49d63566919282d8a5d9f9443e4db8f36"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7009 (#7010)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/95b00a0d56cf199170efc933a0f286306d910e72"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "show verb (feat/grip-show)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7f3e3df8a1f93d33b9cf6158c81fcd899ceef462"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(mesh): state why the wake step exists instead of when the guidance is wrong (#7007)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eabeeb82fbe3b687179e4999ee063565973b1912"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7005 (#7006)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/606137f2f6e9e65a8f6fb5d991e77328d8040570"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(mesh): make the inform-all test able to fail, and limit waking to real requests (#7005",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2c932bc5ce8fd3549f92f2c6e98da892a6ea8e9a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "269 changes / 7 days",
+      "value": "275 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
