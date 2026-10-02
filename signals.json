@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7023 (#7027)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ee5c18c50fc39a2380954d0aca6f2c79430579a5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7024 (#7026)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f6a9da836c488cc34c7c73ac207d6adfabe46e5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ci): periodic local branch prune (merged branches only) (#7023)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f7f7068030d3e850b7432c305d048ad61f473f4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(harness): give Kiro one dispatch entry, turning main's harness tests green (#7024)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa2a7768b07827735af341a2dfc6600a82f217b7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7021 (#7022)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/69e8ee26c1d3fec9164a73964be9ebb95f76ade4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(converge-fleet): land ADR 0015's four first fixes in the v2 template (#7021)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/da6edc1bffb767743b2dab61781c75a081650d0c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7019 (#7020)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b2a789806db9f1cc2bb3a9d45a9419c742bcabe"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(mesh): broadcast and list count a session as live while it runs (#7019)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f324ef1f92c4f5c7ff3b1dc86d1e02115210516d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7015 (#7018)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/675270c1caccdcef3e63c4f255c028da8b3fb431"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(semantic-keyword): the last experiment -- six representations, pre-registered, no flo",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/02bd36de1ad13922b32e2b2d67baa727afe8eb01"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7013 (#7016)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/96e7c5c4db94ccb2f4a9c11afd9849de804d3818"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): grip-pull-check, a read-only health check a teammate runs after git pull (#7",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5356ef23d8f995fc989c0a8ddc76f56e49e11bcc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(harness): absorb Kiro CLI as GRIP primitive",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a3b78237ca7ecdf0ab8eb8419bdbbe32fa4436fa"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7011 (#7012)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d54c21d77917509390b482efdc895f45ba506eeb"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "92 living genes exported with their fitness scores",
+      "caption": "94 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7529",
+      "value": "gen 7531",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "275 changes / 7 days",
+      "value": "281 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
