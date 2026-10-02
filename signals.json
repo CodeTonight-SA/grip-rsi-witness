@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7115 (#7116)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f35219d9f4c0f299957121a94f1b9637b1f9a476"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(guardrail-evasion): the documentation exemption recognises Windows paths (#7115)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/73245225b883068619ef47013da9407ee33a3f69"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7113 (#7114)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/70d15665715c189f24cb800dca1af8eac3d2a36b"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(fleet): identify any stored label, and pin the real last screen of a mint (#7103)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/14291960eb592b0b09d4600dd52de715831154f6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7099 (#7102)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/361a099354265c890cfec65451fea1ce309e0963"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ssh-gate): a comment ending in a backslash can no longer hide the next line's ssh (#70",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eda1c185d9a40769fe2303cb2b409bf560852fe0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "344 changes / 7 days",
+      "value": "343 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
