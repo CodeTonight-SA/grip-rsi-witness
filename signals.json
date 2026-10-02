@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(tokens): forget a kept copy once the service refuses its token (#7141)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6003ac4cf7889a730a6dcc4cf75cdab333f19062"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7139 (#7140)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/532d22c3a5d938c994218754e2a4526932ee700f"
         },
@@ -31,16 +36,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7132 (#7133)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ac18f8405eff689cd41eed82b10d7c743b2d393c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(spend): report ten-day model spend against the cap and its allocations (#7132)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/480711d25075114586cb777356b25baac4fc2dc0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(guard): the hung-gh falsifier must prove it waited on gh, and stay silent (#7131)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/73f410c2740b38cf1decf33f09669142e0e16a25"
         }
       ],
       "key": "stream"
@@ -63,7 +58,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "361 changes / 7 days",
+      "value": "363 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
