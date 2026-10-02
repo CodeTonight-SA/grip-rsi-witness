@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6987 (#6990)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ab2ad6508104a6d6f8537f2e665006b9ad87326"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(relay): one request per canary session, and no unanswerable prompt on OpenCode relay s",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30ae1c18b11fca531b0d4f461030a92d5b5a5cad"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6985 (#6989)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b3df2fe3a712dce466cb4fda4889f984e965964"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #6984 (#6988)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/34f98ec47b8a2284899bb746c817c19194db790b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(mesh): leave a session's inbox messages for the session, not its background agents (#6",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c7a1ac14ddee5171e0dfce907e714232c07bb28"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(semantic-keyword): measure the floor against a real literal floor, fix the L2 time bo",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a05896075f8d5a86b2b5824142ede239f3fe4c88"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(insights): pin the refresh lock across a real second process, and say where the repor",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecbed3970c8385d10db8ce2356bc6815c121f561"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6973 (#6981)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9dc9179fe37c406b771ea9d7740390b886daa78e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(insights): grade a report with missing sections as partial, and run one refresh at a t",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c3bd332bce36208e2d87ed584e0cadfd288acfa1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: ADR 0015 -- lock the /converge-fleet improvement decisions (#6974)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0a9b32a50141c5cd183f595c0ec3e23caa7f340"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6968 (#6972)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b89abd404e011f47fec6c692cb9c6b087097581e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(pr-monitor): add a --self-test regression anchor for the verdict gate (#6968)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/de755fed757ac6a72df8ac7ac46fa68d3966d792"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6969 (#6971)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c195c368e9cd315c900a8a7bf1da3ed74ab5126d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(stats): regenerate the capabilities line (Rules 78 -> 79) (#6969)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f68ffe4a7c2726ffdb048d870aaa33e1ad1a563b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6963 (#6966)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c7f1dd89334e505248bed6ad4f125500fe5c6a6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "243 changes / 7 days",
+      "value": "250 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
