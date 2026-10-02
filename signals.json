@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(mesh): state why the wake step exists instead of when the guidance is wrong (#7007)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eabeeb82fbe3b687179e4999ee063565973b1912"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7005 (#7006)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/606137f2f6e9e65a8f6fb5d991e77328d8040570"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #6995 (#7000)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb5e5891a6583529f1724f9162dd09078a441da1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(settings): point the opus, sonnet and fable aliases at their 1M spellings, and keep a",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/379e8e1d85b1711c9f8c394d4d4c9bf6635dc58f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "263 changes / 7 days",
+      "value": "264 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
