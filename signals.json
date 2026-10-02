@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7062 (#7063)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/38601e5f7c769dad1ef69b6ded8869d06b26293f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(dojo): honest run + non-TTY fallback + footer keymap + word-wrap (#7062)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4b180ae82233637dc683c8214f924f12f32fbe1"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(account): the latest screen decides the token, and CI now runs the token tests (#7047)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/850cabcf2b88b3003b56b82d2e9445915f9c7271"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): eight safety hooks import from their own tree, not ~/.claude (#7048)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d02e9dfee863aa3b6517aad8c2653eaf3880734a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "307 changes / 7 days",
+      "value": "308 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Lands every running GRIP session's uncommitted work through PRs, then shows the ",
+          "name": "/fleet-inspection"
+        },
         {
           "desc": "A private, read-only watch over the operator's own affairs, work and personal",
           "name": "/guardian"
@@ -96,10 +100,6 @@
         {
           "desc": "Runs a five-stage acceptance gauntlet (LEARN, INSTALL SAFELY, DRY-RUN, interacti",
           "name": "/proving-ground"
-        },
-        {
-          "desc": "Install the AGORA Council PR-review CI workflow into ANY GitHub repository — cop",
-          "name": "/adding-agora-ci-workflow"
         }
       ],
       "tip": "R0: every claim needs specific evidence, a scope that matches it, and a stated falsifier — on any miss, qualify it or drop it."
