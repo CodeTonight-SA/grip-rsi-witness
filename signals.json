@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7040 (#7043)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e3b0e2d3c754b141adf6dc6854e613b8df6fd2d9"
+          "tldr": "fix(dojo): honest run + non-TTY fallback + footer keymap + word-wrap (#7062)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4b180ae82233637dc683c8214f924f12f32fbe1"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(settings): keep the operator's model choice through merges, and let only the install's",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/563655c89e747eef32ac04c9dea6f9757c31b750"
+          "tldr": "chore(changelog): update for PR #7056 (#7060)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d7d5ca8c91866a701274d144139d7b34280c72a5"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(windows): define the ours merge driver, and stop /save rewriting the genome after a pu",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f607d2de4fb1b792169fe1aa51d617be4b07535f"
+          "tldr": "feat(fleet): land every session's work, then inspect it in one short page (#7053)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/09db39f2379ec99cbc23b69b24f1b707c46d005d"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7036 (#7041)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d8804baaa4fb49851687e97bd66c79d9b0a96e4"
+          "tldr": "feat(vps): periodic merge-based tree sync for the VPS checkout (#7056)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f191e55bdf6c9916662ae006a711326dc157e34"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(agora): merge-machinery PRs stay V>>'s -- the council and the auto-merge sweep both re",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/79a48cb68872b5229de3a7d35d574dec4aaf47c7"
+          "tldr": "chore(changelog): update for PR #7047 (#7059)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/427b60fd6f1c44fdd18cbcd97bc6e163b32553f2"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(account): let the mint module import where there is no pseudo-terminal (#7036)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c82b2a70e1a4db23709006b2384b71c854f0cc1f"
+          "tldr": "chore(changelog): update for PR #7054 (#7057)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e0c7ef693dd0fa52b143aa527ea61cf194ffa9a3"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7035 (#7037)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d97aece4e1e418805bc017f3fca78ebd82857cda"
+          "tldr": "fix(account): the latest screen decides the token, and CI now runs the token tests (#7047)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/850cabcf2b88b3003b56b82d2e9445915f9c7271"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(mesh): queue for sessions that cannot be confirmed, skip only the gone (#7035)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/975ae29910a4d588714a467fe0d94c91355f0a3e"
+          "tldr": "fix(windows): eight safety hooks import from their own tree, not ~/.claude (#7048)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d02e9dfee863aa3b6517aad8c2653eaf3880734a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "295 changes / 7 days",
+      "value": "307 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
