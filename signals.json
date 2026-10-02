@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7082 (#7083)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fa540fc57a21e383e275a223241564d28e3853f0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(account): the live check, not the screen, decides which reading is the token (#7082)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a9d21b0a143b11e42faac5e744dcddd3e965b5f2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7080 (#7081)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c616c189acf8782663d0fccd29e98ceda166bbf6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(fleet): flag merged PRs whose branch moved on after the merge (#7080)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/abc45abd9702fb5d4090b8349d7541853ccb10d4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs: mark the fleet-collation brief superseded by grip-fleet (#7078)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0379c012db04b81494d06b2d04bc7cdcce4b6eb"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(ci): vps-hal-sync workflow fails loud instead of silently doing nothing (#7072)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2ca57d62c6a4288ee8883bc51540830805d9d712"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(remotion): README stops saying \"seven\" and lists every registered composition (#7073)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d47d6f9826ca0630c34660edb57e69134f633a85"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7066 (#7071)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cbe3ff78a037a219839b2813039a27d61af4034e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(vps): vps-tree-sync syncs via reset --hard, not merge, and skips only on tracked chang",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6b3060f384d6c3773f0be8b6c580f132159a64d8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7067 (#7069)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/57a0fc03c4496eb66f549917605b191ec56918db"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "319 changes / 7 days",
+      "value": "323 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
