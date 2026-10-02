@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7117 (#7118)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec2e4a8f29cc2e8b6b2d63c7b076210b3a702082"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(fleet): find tokens lying in what a harness keeps (strays --deep) (#7117)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aaf003ccff451a0e77b9beb4591cdaa8e04fd322"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7115 (#7116)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f35219d9f4c0f299957121a94f1b9637b1f9a476"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(ssh-gate): Windows line endings and the quote-blind fallback can no longer hide an out",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/023249f00a8666c509a2a6815f6288236ce5020f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7103 (#7104)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d1cfb1cedd884ea7aae705b482e00cdbc08db52c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(fleet): identify any stored label, and pin the real last screen of a mint (#7103)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/14291960eb592b0b09d4600dd52de715831154f6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "343 changes / 7 days",
+      "value": "345 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
