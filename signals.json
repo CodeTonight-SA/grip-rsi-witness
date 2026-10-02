@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(harness): absorb Kiro CLI as GRIP primitive",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a3b78237ca7ecdf0ab8eb8419bdbbe32fa4436fa"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7011 (#7012)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d54c21d77917509390b482efdc895f45ba506eeb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(show): Windows-shaped test expectations, a pager with options, both MSYS switches (#70",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e9df01a49d63566919282d8a5d9f9443e4db8f36"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7009 (#7010)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/95b00a0d56cf199170efc933a0f286306d910e72"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "show verb (feat/grip-show)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7f3e3df8a1f93d33b9cf6158c81fcd899ceef462"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(mesh): state why the wake step exists instead of when the guidance is wrong (#7007)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/eabeeb82fbe3b687179e4999ee063565973b1912"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(mesh): make the inform-all test able to fail, and limit waking to real requests (#7005",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2c932bc5ce8fd3549f92f2c6e98da892a6ea8e9a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7001 (#7004)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2692d0c9e81d9a8de87aa1349c24d317018bc110"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(mesh): \"inform all sessions\" now wakes every live Claude session (#7001)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8b9255468f6316695e15d7ba86b006dc79344bf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6999 (#7002)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a290103413271025969f3e9f8e782f2ac319be5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(semantic-keyword): the floor is killed on the deployment distribution; record it (#699",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c4b4059e637f27a1514a8837f70de438f178eae"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #6995 (#7000)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb5e5891a6583529f1724f9162dd09078a441da1"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "264 changes / 7 days",
+      "value": "269 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
