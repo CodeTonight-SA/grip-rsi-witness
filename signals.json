@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7250 (#7253)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6884b31724560221577ac862183ee573f9934fb9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gg): count every registered harness's sessions, not six of twenty (#7250)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0944d2649ef3959e754e4f5f8950ad94444bfe39"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(decision-logger): compare latency window medians, and say what timing can catch (#724",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/96dbc72ea4893d4a599df127f1e11c01e69ab471"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7247 (#7248)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/187ce3079ff7c3e08d945590f34111f13ba68aed"
+        },
+        {
+          "kind": "shipped",
           "tldr": "refactor(skill-lint): split check_text and repair_text so CC Ratchet passes; keep escaped ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f435e6704ced5126bcb60d4bfe3c03a9d610e401"
         },
@@ -21,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7242 (#7244)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ac1ff145bbbbfee07282ece3ade26c625f900b81"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(skill-lint): stop turning YAML lists into strings, and restore the eleven it changed (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6fb473a302ff258dff3632feb6aa668c06153e6e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7239 (#7240)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7aac5af6e6770a0dd44b60315ccd5075432eda23"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-channel): move the hono advisory floor to where pnpm reads it (#7239)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0117e67e455be47be8e927f896800cdf4b9e7739"
         }
       ],
       "key": "stream"
@@ -58,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "442 changes / 7 days",
+      "value": "446 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
