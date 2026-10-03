@@ -4,38 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "feat(tokens): forget a kept copy once the service refuses its token (#7141)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6003ac4cf7889a730a6dcc4cf75cdab333f19062"
+          "tldr": "chore(changelog): update for PR #7150 (#7151)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/459639520e8d00a2eda93e450e69e4cbca2442c9"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7139 (#7140)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/532d22c3a5d938c994218754e2a4526932ee700f"
+          "tldr": "feat(modes): revive brainstorm-mode and decision-mode in-repo, naming the whole HITL famil",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/682c5ecc774f52dc1c108ca970b4f1366344ce8a"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(store): a replaced token is kept, and the relay follows its label (#7139)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30d21327619ecd9be19b7fcddb07fd0c81698aca"
+          "tldr": "chore(changelog): update for PR #7146 (#7149)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6ffac9fc79190198a67c2db41e9e127715f10c91"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7134 (#7136)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/00bdf0d43bceb9a6441f0c6697d4a74c1ead38c5"
+          "tldr": "fix(windows): venv-utils judges a Python by what it prints, not its exit code (#7146)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7f127b869a7b0c8a44348447514a8fc139aef90a"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(fleet): an unreadable answer is said in words; the keychain warning names who stops (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/603ffdc11c73f812fbbe17dcc4aab70ab62c9c01"
+          "tldr": "chore(changelog): update for PR #7145 (#7147)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e8f9edb5eea027469309408f90df75a7b64ccc7"
         },
         {
           "kind": "shipped",
-          "tldr": "test(spend): pin grip-spend's wrapper, a missing gh and the window edge; document exit cod",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0488458e6b3497d6ae720d8d0343fd786624435"
+          "tldr": "feat(check-reachable): list modes and agents beside skills, tagged by kind (#7145)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a60a04b4411d2514444326034e9b5fa9502d0bce"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7132 (#7133)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ac18f8405eff689cd41eed82b10d7c743b2d393c"
+          "tldr": "chore(changelog): update for PR #7143 (#7144)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9219974fbb4249b07a322742cfc18edaac5a7201"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): pre-check hook survives a git-crypt-locked rules file (#7143)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0f686886c01dce0541f525f08f5df937ea704d84"
         }
       ],
       "key": "stream"
@@ -48,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "94 living genes exported with their fitness scores",
+      "caption": "95 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7531",
+      "value": "gen 7532",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "363 changes / 7 days",
+      "value": "371 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
