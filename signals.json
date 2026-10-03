@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7269 (#7270)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b956581dc51b588cebe6919bf9267c27280317e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ci): add the new settings-identity test to the hooks-settings-registry manifest (#7269",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b56d0f7ee46531865963d8a1e2d6f52bd9024035"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(converge-fleet): say which exit wins, and that unverified findings come back UNCHECKE",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6d92c2426ddd60dc9306aac5f0de9acdcadc732c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(keepalive): the module-argument test can now fail when the guard is gone (#7267)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/401dd52737715542013ec1cee2baf01d05a83956"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7265 (#7266)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/13960483f29b94a07acece6313810183c70ca73d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(settings-merge): one trailing-syntax set for both hook-identity paths (#7265)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/de1d60ed20f80a32f9178c9b13cff9ac0f06fe77"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7262 (#7263)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4419bdbe069a6af4a55e6889890d7a83c4632f53"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(critique-calibration): an everyday phrase no longer silences the rule; catch every inf",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e26dbcff0cccfb4d9c9a1ce293f8cfe779ceb377"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7260 (#7261)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b0b31d117a007386b471fb25f8de1b37607f7be5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(cos-genre): catch slot labels of any length, and match them in linear time (#7260)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/896d433f4ed4f85a96ec9536aea32a4789ef360f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): make the self-describing-artefacts section check out against its own sources ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ffd280059a129fa0f599c5ceeebe027fec673c58"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7257 (#7258)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2ec250742642a45936b5b428d3a7db26ecd41c86"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "457 changes / 7 days",
+      "value": "462 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
