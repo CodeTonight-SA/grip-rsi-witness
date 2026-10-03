@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7297 (#7298)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3436b8765b943fc3da2d82d312d663aa89d6d46b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(privacy): replace a real address in the register and a test fixture (#7297)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/39034090c26774da14a7fd371170e69642a10c21"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7292 (#7296)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6bb3f02315a07d10a7962789ef35bce252085678"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(decision-chain): withhold listed commits' free text from the public chain (#7291)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0a71a32f409222dd5489cedbf2510edf6f53411e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7289 (#7290)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/432e3c45900f8af895379177ba83f5de6358e607"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rules-scope): raise safety-core budget tripwire 40000 -> 72000 (#7289)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a500389b66a31162aea0f1d3b37047b1f9e51d9f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "470 changes / 7 days",
+      "value": "472 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
