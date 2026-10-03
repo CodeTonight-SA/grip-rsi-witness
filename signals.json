@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7271 (#7273)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a39b7d9ff729e9c498ae64b98279adec003d253"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gates): let the zsh-modifier lint see double-quoted expansions (#7271)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fb643bc850e83a8ebaed08425fe7577967702b6f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(ssh-gate): pin AGORA's quoted-argument falsifier from PR #7196 (#7272)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/58d699ed99cfbeb74246bb63519f8a23d5d5b416"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7269 (#7270)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b956581dc51b588cebe6919bf9267c27280317e"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7265 (#7266)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/13960483f29b94a07acece6313810183c70ca73d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(settings-merge): one trailing-syntax set for both hook-identity paths (#7265)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/de1d60ed20f80a32f9178c9b13cff9ac0f06fe77"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(agora): check that an oversized file's notice states its size and the cap, not the wo",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8968bf5d207ee9321396b9eb59b1d14e1449269d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7262 (#7263)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4419bdbe069a6af4a55e6889890d7a83c4632f53"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "458 changes / 7 days",
+      "value": "461 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
