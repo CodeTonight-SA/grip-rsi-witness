@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7275 (#7280)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f233c4daa32b3cd13cf646e209226e8e21882953"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7172 (#7279)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7473aedfd657ea4a772e30f39abaf40ec068eb4b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(agora): a concerns section that says \"None.\" no longer yields downgraded concerns (#72",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/440b6f4d7e0f327bfa3d96a1f68abf87fcbdb7a4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(pr-monitor): trust a verdict only for the PR's current commit, and never read JUDGE_UN",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b19a951b9071a7969a09c36f419a89c01871b58"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(gates): name the nested-substitution case the expansion view over-denies (#7276)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a505a3a8bc3a3f400f4acdf4f31a91ac553f3f22"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "test(ssh-gate): pin AGORA's quoted-argument falsifier from PR #7196 (#7272)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/58d699ed99cfbeb74246bb63519f8a23d5d5b416"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7269 (#7270)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b956581dc51b588cebe6919bf9267c27280317e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ci): add the new settings-identity test to the hooks-settings-registry manifest (#7269",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b56d0f7ee46531865963d8a1e2d6f52bd9024035"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(converge-fleet): say which exit wins, and that unverified findings come back UNCHECKE",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6d92c2426ddd60dc9306aac5f0de9acdcadc732c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(keepalive): the module-argument test can now fail when the guard is gone (#7267)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/401dd52737715542013ec1cee2baf01d05a83956"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "460 changes / 7 days",
+      "value": "464 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
