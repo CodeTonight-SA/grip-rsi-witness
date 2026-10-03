@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(gemini): check the default model is one the catalogue lists, not a pinned name (#7256",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6b3f0543d81422b544d2a0a865f8045d7daa4bb5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: repair two tests that read a removed workflow and a renamed module, and run them in ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/70c0a8466c88941304f94d9ce3ca0067d7808bad"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7250 (#7253)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6884b31724560221577ac862183ee573f9934fb9"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7245 (#7246)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b8635e58ab7d15ff64b8a53f0ee3ef96d08c20a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-can): a failed search no longer licenses a negative capability claim (#7245)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa0a6835c8902c69c69a275179356aa998b2eb6c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7242 (#7244)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ac1ff145bbbbfee07282ece3ade26c625f900b81"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "446 changes / 7 days",
+      "value": "448 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
