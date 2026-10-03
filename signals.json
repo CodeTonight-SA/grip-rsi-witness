@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7181 (#7182)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec7dfdad2ebcc48148d977a6a6ccaa5216e59477"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(commands): the encapsulate example keeps to its passage, and the rule says what it mea",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8771243b8fe10e38ef3de7e82b901b07d566e17c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7177 (#7179)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/14a15a54070f559edfd1627f86801a20885acca3"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(agora): the spend footer line can never stop a review, and counts only sittings the le",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/06192588b5824948209673ab3a8fff1959647d3c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7167 (#7171)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eb7cad151f5813b37b8f2664fe23b9f628e1d998"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tokens): scrub before cutting, so half a token is never shown or recorded (#7167)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ede6fbfc5d5b10a1bdd5823045498291b40646c9"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "391 changes / 7 days",
+      "value": "393 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
