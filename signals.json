@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7216 (#7217)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dafe2e159780a9f77efc2a6025a8da23a25a48fd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(surfacing-skills): decode quoted YAML descriptions in the skill catalogue (#7216)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b45b18cdd6157ea56ba057e902c06d3a01a27b13"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(rules): fix two internal counts in the AGORA-downgrade rule (#7215)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/acd6f578b68475f6d1b384f21ee754a19718859d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7213 (#7214)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/77cd05425617486c9a248482e977ea3203306479"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(clarify): name the linter's input and anchor the command to its own register (#7213)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5a2f2a6bd019b778a721662d82e18985c13a6702"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7207 (#7209)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3106ac7d2e059ed6cbd78c6b8dc25c2a895f27c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(clarify): one command for clear output that keeps its receipts (#7207)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c039f6ec12f91679ea5b6f27b9be069b195e854"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7204 (#7205)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/84b353ffa0140abc66e863c73a6de207bb23ee77"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rules-scope): classify reasoning-lenses.md so the partition test passes on main (#7203",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/adf5615d4621cb3263eb601178c00fb8beaa8057"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): put each __main__ block last, so a direct run runs every test (#7204)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c33f89b97b9dfe171405271eed76521550139804"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "415 changes / 7 days",
+      "value": "419 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
