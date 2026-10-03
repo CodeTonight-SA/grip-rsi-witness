@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7292 (#7296)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6bb3f02315a07d10a7962789ef35bce252085678"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7294 (#7295)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c94c280a2a3998eb6f85a2b9b23480dac806a48c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(hypotheses): redact the register with the shield's public profile (#7292)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cb0f2d64015eec2fb59acf7aa0b97bd8c66fd659"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(decision-chain): a missing withheld list refuses to publish (#7294)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c830882b1914da6d89e111e5db4132852f8f0ddf"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7291 (#7293)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d948e5211b9944f59a84f783c20da12979e8aa8c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(decision-chain): withhold listed commits' free text from the public chain (#7291)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0a71a32f409222dd5489cedbf2510edf6f53411e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7289 (#7290)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/432e3c45900f8af895379177ba83f5de6358e607"
         },
@@ -11,31 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(rules-scope): raise safety-core budget tripwire 40000 -> 72000 (#7289)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a500389b66a31162aea0f1d3b37047b1f9e51d9f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(hypotheses): pin the sweep's note format and its repeat safety (#7287)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b5e457ae1423ff090b82d71db69e82bc5471c0d9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7285 (#7286)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1ef9f9dff7c21d005d08afda45fe08b5b350e42a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7283 (#7284)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab7f526ac17fc4108b0d12bb8b5c147b6df55aff"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hypotheses): restore three evidence notes the deadline sweep overwrote (#7283)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c4ac08966612ccfeb4b344e5b9b65f16897424ec"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7281 (#7282)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec44c7999e1f8d7bac1ce7f5beed99a1569b1b9b"
         }
       ],
       "key": "stream"
@@ -58,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "464 changes / 7 days",
+      "value": "470 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -97,7 +102,7 @@
           "name": "/catchup"
         }
       ],
-      "tip": "A green test that cannot fail is not a check: prove it goes red before you trust it passes."
+      "tip": "Declared input must reach the actor — an accepted flag nothing reads is a lie about influence."
     }
   ]
 }
