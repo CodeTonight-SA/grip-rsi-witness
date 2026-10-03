@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7167 (#7171)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eb7cad151f5813b37b8f2664fe23b9f628e1d998"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tokens): scrub before cutting, so half a token is never shown or recorded (#7167)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ede6fbfc5d5b10a1bdd5823045498291b40646c9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7166 (#7170)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/69562c8ab69daf1b92c6aef45aa19a619c44f53b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(pair-mode): revive pair-mode as the human-AI pairing posture, with /mesh as its trans",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6ff3088d499af57a2bfe3fb7409ff846efa1c06b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(hitl): a suffixed sibling name no longer satisfies the anchor (Codex review of #7153)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/51c5eadc3d6b522e90f501ca64c7c5aa5567595b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7137 (#7162)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7468cd4a84c256932bfe2b6bbdc1f362958c9b61"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(agora): show AGORA's ten-day spend against its share of the cap in every footer (#713",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b4888e558ba467e179d124eba673928bd7eb8a4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7159 (#7161)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/07c8f76c72751cd6f8cd9630c91d703f08136054"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(catalog, modes): kind-filtered header names its kind; revived protocols carry the coun",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b9b49aa05e087820de9779ea9bd33c4b14eb146"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7156 (#7157)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd89dd187bc3ffc00427c9a3592bc842ac0fb391"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): scripts and JSON check out with LF line endings on every clone (#7152)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a2830311d38e93e068a4db06254bc3896521b48"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(hitl): name /creating-wizards and /hitl beside every /asking-users, pinned by a forwa",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5a95024a27799edf323253ea7be86b8a50cd403c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(hitl): the decision matrix as code -- batches of three, cascade detection on assumpti",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7e074ecde81dc04a7a8cb30d77cf2ee2d2b3573e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): venv resolution test asks Python for its own path (#7156)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/60f67365ecb6eb5d39c39bee8adf34d2c3b25ff5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7150 (#7151)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/459639520e8d00a2eda93e450e69e4cbca2442c9"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "95 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7532",
+      "value": "gen 7533",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "378 changes / 7 days",
+      "value": "385 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
