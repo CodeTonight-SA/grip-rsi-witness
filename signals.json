@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7257 (#7258)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2ec250742642a45936b5b428d3a7db26ecd41c86"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(infinite-probe): say the turn did not authenticate only when the data says so (#7257)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e6638c8917b71b1a33812c17465827b542f9ba85"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(gemini): check the default model is one the catalogue lists, not a pinned name (#7256",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6b3f0543d81422b544d2a0a865f8045d7daa4bb5"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7247 (#7248)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/187ce3079ff7c3e08d945590f34111f13ba68aed"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "refactor(skill-lint): split check_text and repair_text so CC Ratchet passes; keep escaped ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f435e6704ced5126bcb60d4bfe3c03a9d610e401"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7245 (#7246)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b8635e58ab7d15ff64b8a53f0ee3ef96d08c20a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "448 changes / 7 days",
+      "value": "450 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
