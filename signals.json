@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7221 (#7223)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d2590d7a97e31cd25d1d2244ace7d414410ffe3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(verify-oss): a failed cleanup no longer aborts the run and deletes its logs (#7221)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/70ae341d609265ac8e0aa08bcee504c4269e5b82"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7219 (#7220)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/646014ba31418d802658224a1a14c2c5d63871ef"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(clarify): check a rewrite against its passage (nothing added, anchors exist) (#7219)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8266ef932e506ecb68fe942515c96d447754d94a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7216 (#7217)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/dafe2e159780a9f77efc2a6025a8da23a25a48fd"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7213 (#7214)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/77cd05425617486c9a248482e977ea3203306479"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(clarify): name the linter's input and anchor the command to its own register (#7213)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5a2f2a6bd019b778a721662d82e18985c13a6702"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7210 (#7211)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bbc705cf64b591eaa3863bb740c2467b92c16e08"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(skills): quote remind-me's description and run the skill linter in CI (#7210)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1906490bae68c09d24bd8925e92ede75f4640305"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7207 (#7209)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3106ac7d2e059ed6cbd78c6b8dc25c2a895f27c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "419 changes / 7 days",
+      "value": "423 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
