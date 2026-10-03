@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7204 (#7205)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/84b353ffa0140abc66e863c73a6de207bb23ee77"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(rules-scope): classify reasoning-lenses.md so the partition test passes on main (#7203",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/adf5615d4621cb3263eb601178c00fb8beaa8057"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): put each __main__ block last, so a direct run runs every test (#7204)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c33f89b97b9dfe171405271eed76521550139804"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7200 (#7201)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1132ffc8f97019a1b1210e02050dff77a4226868"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7194 (#7197)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ef63dad09ee75679452d2f8d2baaa9ad1728d2ad"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(verbind): seal the outcome each path took, and re-check authority on every use (#7194)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/67b79af5ccfa85f401ff909db5aa2adc90eaaa1e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): add reasoning-lenses doctrine (Occam, ELI5, common-sense, intuition) (#7191)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1b15c4c8075b91b16dd122f450f9295778dd7595"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7188 (#7192)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a274cb9d36970b87fc7db1ee316e792084ab051e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "407 changes / 7 days",
+      "value": "410 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
