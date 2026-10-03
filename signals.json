@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(settings-merge): one trailing-syntax set for both hook-identity paths (#7265)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/de1d60ed20f80a32f9178c9b13cff9ac0f06fe77"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(agora): check that an oversized file's notice states its size and the cap, not the wo",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8968bf5d207ee9321396b9eb59b1d14e1449269d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7262 (#7263)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4419bdbe069a6af4a55e6889890d7a83c4632f53"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7257 (#7258)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2ec250742642a45936b5b428d3a7db26ecd41c86"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(infinite-probe): say the turn did not authenticate only when the data says so (#7257)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e6638c8917b71b1a33812c17465827b542f9ba85"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(gemini): check the default model is one the catalogue lists, not a pinned name (#7256",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6b3f0543d81422b544d2a0a865f8045d7daa4bb5"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "455 changes / 7 days",
+      "value": "457 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
