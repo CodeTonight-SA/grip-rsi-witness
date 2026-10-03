@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7283 (#7284)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab7f526ac17fc4108b0d12bb8b5c147b6df55aff"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(hypotheses): restore three evidence notes the deadline sweep overwrote (#7283)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c4ac08966612ccfeb4b344e5b9b65f16897424ec"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7281 (#7282)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec44c7999e1f8d7bac1ce7f5beed99a1569b1b9b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(hypotheses): sync the register to main through H771 (#7281)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a3b9581408357a06fa8fc54ef3221c46189a87c9"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7275 (#7280)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f233c4daa32b3cd13cf646e209226e8e21882953"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(pr-monitor): trust a verdict only for the PR's current commit, and never read JUDGE_UN",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b19a951b9071a7969a09c36f419a89c01871b58"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(gates): name the nested-substitution case the expansion view over-denies (#7276)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a505a3a8bc3a3f400f4acdf4f31a91ac553f3f22"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7271 (#7273)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a39b7d9ff729e9c498ae64b98279adec003d253"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): let the zsh-modifier lint see double-quoted expansions (#7271)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fb643bc850e83a8ebaed08425fe7577967702b6f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(ssh-gate): pin AGORA's quoted-argument falsifier from PR #7196 (#7272)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/58d699ed99cfbeb74246bb63519f8a23d5d5b416"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "464 changes / 7 days",
+      "value": "468 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
