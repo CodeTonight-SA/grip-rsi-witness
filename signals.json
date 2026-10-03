@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(council-verify): an unexpected re-hash error must still surface (#7228)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b22253ca2ef4d9f067a9e710d44cd06aa4f6b878"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(verify-oss): a failed cleanup must not stop the next package (#7227)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f4c3b33a19cce7d71164a1b7ae71f184eb627977"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7224 (#7226)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f047459a63fad7df4dd8205d63cdc10a655cafa8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(council-verify): a stripped or unhashable record gets a verdict, not a traceback (#722",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d57c3e49155451f66c6e70071df4c666d0cec3ed"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7221 (#7223)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d2590d7a97e31cd25d1d2244ace7d414410ffe3"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(clarify): check a rewrite against its passage (nothing added, anchors exist) (#7219)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8266ef932e506ecb68fe942515c96d447754d94a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7216 (#7217)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dafe2e159780a9f77efc2a6025a8da23a25a48fd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(surfacing-skills): decode quoted YAML descriptions in the skill catalogue (#7216)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b45b18cdd6157ea56ba057e902c06d3a01a27b13"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): fix two internal counts in the AGORA-downgrade rule (#7215)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/acd6f578b68475f6d1b384f21ee754a19718859d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7213 (#7214)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/77cd05425617486c9a248482e977ea3203306479"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "423 changes / 7 days",
+      "value": "427 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
