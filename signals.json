@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7184 (#7186)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f071345eca1a859245114828d13670e4c0a65bae"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ultrathink): three-vendor trio deliberation with a per-seat RAILLM ladder (#7184)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f643aa4356558263c83e801b078748832eb9abf"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(verbind): contract and sorry-free Lean spec for the coined-slash-verb gate (#7183)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b311ea27e02f13f8959f5b8f1054a47377678d6"
         },
@@ -31,22 +41,12 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7175 (#7178)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b84362d20749d70ecaacd7d2f72df4a9fa39b59"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(pr-monitor): a held merge-machinery PR names who merges it by effect, not path (#7175)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dace0ca579f56dfc599b1d8b747803ce65413fa0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7168 (#7174)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/73284fd46c51ca04efa5effbe3f701eef99f66c5"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 293 verdicts rest on a resolvable metric; the other 281 were graded from a sentinel that means no collector exists, and are NOT evidence. 543 hypotheses registered.",
+      "caption": "12 of 293 verdicts rest on a resolvable metric; the other 281 were graded from a sentinel that means no collector exists, and are NOT evidence. 550 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "394 changes / 7 days",
+      "value": "396 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
