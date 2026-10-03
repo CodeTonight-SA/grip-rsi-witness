@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(gates): name the nested-substitution case the expansion view over-denies (#7276)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a505a3a8bc3a3f400f4acdf4f31a91ac553f3f22"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7271 (#7273)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a39b7d9ff729e9c498ae64b98279adec003d253"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(keepalive): the module-argument test can now fail when the guard is gone (#7267)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/401dd52737715542013ec1cee2baf01d05a83956"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7265 (#7266)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/13960483f29b94a07acece6313810183c70ca73d"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "461 changes / 7 days",
+      "value": "460 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
