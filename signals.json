@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(hypotheses): pin the sweep's note format and its repeat safety (#7287)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b5e457ae1423ff090b82d71db69e82bc5471c0d9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7285 (#7286)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1ef9f9dff7c21d005d08afda45fe08b5b350e42a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7283 (#7284)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab7f526ac17fc4108b0d12bb8b5c147b6df55aff"
         },
@@ -26,21 +36,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7275 (#7280)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f233c4daa32b3cd13cf646e209226e8e21882953"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7172 (#7279)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7473aedfd657ea4a772e30f39abaf40ec068eb4b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): a concerns section that says \"None.\" no longer yields downgraded concerns (#72",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/440b6f4d7e0f327bfa3d96a1f68abf87fcbdb7a4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(pr-monitor): trust a verdict only for the PR's current commit, and never read JUDGE_UN",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b19a951b9071a7969a09c36f419a89c01871b58"
         }
       ],
       "key": "stream"
@@ -63,7 +58,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "468 changes / 7 days",
+      "value": "471 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
