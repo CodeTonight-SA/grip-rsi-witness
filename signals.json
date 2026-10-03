@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(verbind): contract and sorry-free Lean spec for the coined-slash-verb gate (#7183)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b311ea27e02f13f8959f5b8f1054a47377678d6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7181 (#7182)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec7dfdad2ebcc48148d977a6a6ccaa5216e59477"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7168 (#7174)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/73284fd46c51ca04efa5effbe3f701eef99f66c5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): the spend footer line can never stop a review, and counts only sittings the le",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/06192588b5824948209673ab3a8fff1959647d3c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "393 changes / 7 days",
+      "value": "394 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
