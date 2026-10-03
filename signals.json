@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7200 (#7201)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1132ffc8f97019a1b1210e02050dff77a4226868"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(rules): bump grip-stats rule count 79 -> 80 (#7200)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/83f340c631a2f2592d1cf9fa10e6eea1157fcc75"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7196 (#7199)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b1afb9284deacc4b1200e298534b917d1fd3a0c6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ssh-gate): the allow-list waves a command through only when every SSH destination is a",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8f1cb6b0e9c0b5065a062b11b09779fee7588814"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7194 (#7197)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ef63dad09ee75679452d2f8d2baaa9ad1728d2ad"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(verbind): seal the outcome each path took, and re-check authority on every use (#7194)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/67b79af5ccfa85f401ff909db5aa2adc90eaaa1e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(rules): add reasoning-lenses doctrine (Occam, ELI5, common-sense, intuition) (#7191)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1b15c4c8075b91b16dd122f450f9295778dd7595"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7188 (#7192)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a274cb9d36970b87fc7db1ee316e792084ab051e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rules-scope): classify the regression rule and run its guard on every PR (#7188)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/10fdb9f452bd41240de6118d496c5c6a32dac37c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7187 (#7189)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2c3d06e4c23b782e143e023e4eb913262616c3f4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(maturation): lower YSH and the skill threshold from three to two (#7187)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b73c3c5acf42864f53cdbfb8c56f30e3eed3a8f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7184 (#7186)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f071345eca1a859245114828d13670e4c0a65bae"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ultrathink): three-vendor trio deliberation with a per-seat RAILLM ladder (#7184)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f643aa4356558263c83e801b078748832eb9abf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(verbind): contract and sorry-free Lean spec for the coined-slash-verb gate (#7183)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b311ea27e02f13f8959f5b8f1054a47377678d6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "401 changes / 7 days",
+      "value": "407 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
