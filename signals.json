@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(clarify): name the linter's input and anchor the command to its own register (#7213)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5a2f2a6bd019b778a721662d82e18985c13a6702"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7210 (#7211)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bbc705cf64b591eaa3863bb740c2467b92c16e08"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(skills): quote remind-me's description and run the skill linter in CI (#7210)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1906490bae68c09d24bd8925e92ede75f4640305"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7207 (#7209)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3106ac7d2e059ed6cbd78c6b8dc25c2a895f27c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(clarify): one command for clear output that keeps its receipts (#7207)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c039f6ec12f91679ea5b6f27b9be069b195e854"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7204 (#7205)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/84b353ffa0140abc66e863c73a6de207bb23ee77"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(tests): put each __main__ block last, so a direct run runs every test (#7204)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c33f89b97b9dfe171405271eed76521550139804"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7200 (#7201)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1132ffc8f97019a1b1210e02050dff77a4226868"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rules): bump grip-stats rule count 79 -> 80 (#7200)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/83f340c631a2f2592d1cf9fa10e6eea1157fcc75"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7196 (#7199)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b1afb9284deacc4b1200e298534b917d1fd3a0c6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ssh-gate): the allow-list waves a command through only when every SSH destination is a",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8f1cb6b0e9c0b5065a062b11b09779fee7588814"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7194 (#7197)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ef63dad09ee75679452d2f8d2baaa9ad1728d2ad"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "410 changes / 7 days",
+      "value": "415 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Make a passage clear for the person who reads it or acts on it, and keep its rec",
+          "name": "/clarify"
+        },
         {
           "desc": "Lands every running GRIP session's uncommitted work through PRs, then shows the ",
           "name": "/fleet-inspection"
@@ -96,10 +100,6 @@
         {
           "desc": "Reconstruct YOUR context from the real record, not from recollection",
           "name": "/catchup"
-        },
-        {
-          "desc": "Runs a five-stage acceptance gauntlet (LEARN, INSTALL SAFELY, DRY-RUN, interacti",
-          "name": "/proving-ground"
         }
       ],
       "tip": "A green test that cannot fail is not a check: prove it goes red before you trust it passes."
