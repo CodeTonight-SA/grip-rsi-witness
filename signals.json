@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "synthetic ID in the wa_redact fixture",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/070ea9f0b70faf1be3f4cde0b799a4b1e797efc5"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7337 (#7338)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/22f2907b5083a8875c6b81fedd2db659258dda48"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(verbind): the contract follows v1 -- authority before any question, fail closed on ev",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b54843a219afda496edc773e38e9119cdc510160"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7327 (#7328)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/78cbe5713a28e5cee4cd983e457e774f10e92abe"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "498 changes / 7 days",
+      "value": "499 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
