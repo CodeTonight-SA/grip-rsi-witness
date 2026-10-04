@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(decision-chain): every withheld SHA must name a real commit (#7318)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7a545125dede34ddfa1c818e4a31ee445ed62e7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7316 (#7317)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb3f95b26aef6ce5f5c1f18bfcb49ef0f4db1e7b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(decision-chain): withhold four more entries before the next publish (#7316)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/135d736304896f87eb58ddfbaa65b12215865f12"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7305 (#7313)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/58987381a455cf2b72e388b97e6116a303510049"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7303 (#7307)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/53e51736da29d807b7bd475d37fc106844da155a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): patch fast-uri and ip-address in mcp-servers/hal-mcp (#7299)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2c9328b8993e2e827c43a33dd6c52dfd63946eec"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): patch axios, fast-uri and ip-address in grip-mcp-desktop (#7300)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce5cba4b8f2b3bb3eec3e461f3bc2ca4cd6655ac"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): patch fast-uri and ip-address in mcp-servers/grip-apps (#7301)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/683afd355098690dcfd1bc6f7f883d8bd2b42586"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "482 changes / 7 days",
+      "value": "485 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
