@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7337 (#7338)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/22f2907b5083a8875c6b81fedd2db659258dda48"
+        },
+        {
+          "kind": "shipped",
           "tldr": "ci(verbind): run the Verbind tests in CI and anchor the preprint's Lean status (#7337)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fa6d5b516add8b8f70b6764a41638db726e5676d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7327 (#7328)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/78cbe5713a28e5cee4cd983e457e774f10e92abe"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(verbind): a damaged receipt fails verification; the hook counts its carried payload in",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3a268d67137a33d94160dfef84e75d632d06204c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "497 changes / 7 days",
+      "value": "498 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
