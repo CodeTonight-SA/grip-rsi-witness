@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "ci(verbind): run the Verbind tests in CI and anchor the preprint's Lean status (#7337)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fa6d5b516add8b8f70b6764a41638db726e5676d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7334 (#7336)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dc9b2b3f9c0a8c0183f3be66893978853426b744"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(verbind-paper): bring the paper build tools under the CC 25 gate (#7334)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/86733e2f226c24d1a98d2dfc385450e2d9798658"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(verbind): a damaged receipt fails verification; the hook counts its carried payload in",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3a268d67137a33d94160dfef84e75d632d06204c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7324 (#7325)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fd1525b8f3057fe3fd4159ce31cb54e494d47afa"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(verbind): an oversize prompt stays in the hook instead of vanishing in the re-exec (#7",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/03cbc1095e1260919f643b2b0ae10cfb9c947a3e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "495 changes / 7 days",
+      "value": "497 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
