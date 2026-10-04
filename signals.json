@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(verbind-paper): bring the paper build tools under the CC 25 gate (#7334)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/86733e2f226c24d1a98d2dfc385450e2d9798658"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7331 (#7332)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2df216af962d94fe674aff8ab97c7a342baff4e9"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(verbind): an oversize prompt stays in the hook instead of vanishing in the re-exec (#7",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/03cbc1095e1260919f643b2b0ae10cfb9c947a3e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7322 (#7323)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b861fffc5e7bfdfa5e0e646973aca2c5c83662c5"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "494 changes / 7 days",
+      "value": "495 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
