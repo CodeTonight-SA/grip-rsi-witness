@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7340 (#7341)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3a8507cf0426e055c5f8147be3273003be9be6c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(fleet_verify): send the shield's text to Pool B, and keep originals out of the shield'",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7bfc36d99c785d71a1b305125dcf5f79edeee4d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "synthetic ID in the wa_redact fixture",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/070ea9f0b70faf1be3f4cde0b799a4b1e797efc5"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7331 (#7332)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2df216af962d94fe674aff8ab97c7a342baff4e9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "research(verbind): the Verbind preprint -- a reviewed, correct-by-construction paper and i",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8da4d3eaf94d0a8470b7e079bb7c2e30ed095eb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(verbind): the contract follows v1 -- authority before any question, fail closed on ev",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b54843a219afda496edc773e38e9119cdc510160"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "499 changes / 7 days",
+      "value": "501 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
