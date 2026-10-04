@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(verbind): an oversize prompt stays in the hook instead of vanishing in the re-exec (#7",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/03cbc1095e1260919f643b2b0ae10cfb9c947a3e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7322 (#7323)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b861fffc5e7bfdfa5e0e646973aca2c5c83662c5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(verbind): coin a slash verb and bind it through one Koppel round (v1) (#7322)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c65abc79141b5c0b3038490d4bc27a6eac53c90"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(decision-chain): every withheld SHA must name a real commit (#7318)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7a545125dede34ddfa1c818e4a31ee445ed62e7"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(deps): patch axios in lib/whatsapp-client (#7305)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e760154cdac05d22be0fef0e08cfb638d0149ea"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7304 (#7311)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/78ea26c3ffc474f04b864537a4c787c5b0f1c099"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): patch axios, fast-uri, ip-address and undici in mcp-servers/grip-channel (#7304",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f7c4a3311e205bf0e7631dca4717d4f017878fdd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7303 (#7307)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/53e51736da29d807b7bd475d37fc106844da155a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "485 changes / 7 days",
+      "value": "488 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Coin a slash verb GRIP does not know and bind it, through one Koppel round with ",
+          "name": "/verbind"
+        },
         {
           "desc": "Make a passage clear for the person who reads it or acts on it, and keep its rec",
           "name": "/clarify"
@@ -96,10 +100,6 @@
         {
           "desc": "Audits whether a codebase is actually ready to be released, by reading it from a",
           "name": "/infiltrate"
-        },
-        {
-          "desc": "Reconstruct YOUR context from the real record, not from recollection",
-          "name": "/catchup"
         }
       ],
       "tip": "Declared input must reach the actor — an accepted flag nothing reads is a lie about influence."
