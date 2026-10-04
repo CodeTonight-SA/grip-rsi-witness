@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7331 (#7332)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2df216af962d94fe674aff8ab97c7a342baff4e9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "research(verbind): the Verbind preprint -- a reviewed, correct-by-construction paper and i",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8da4d3eaf94d0a8470b7e079bb7c2e30ed095eb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(verbind): the contract follows v1 -- authority before any question, fail closed on ev",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b54843a219afda496edc773e38e9119cdc510160"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7322 (#7323)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b861fffc5e7bfdfa5e0e646973aca2c5c83662c5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(verbind): coin a slash verb and bind it through one Koppel round (v1) (#7322)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c65abc79141b5c0b3038490d4bc27a6eac53c90"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(decision-chain): every withheld SHA must name a real commit (#7318)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7a545125dede34ddfa1c818e4a31ee445ed62e7"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "492 changes / 7 days",
+      "value": "494 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
