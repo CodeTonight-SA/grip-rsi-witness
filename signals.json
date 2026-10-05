@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(redaction-shield): keep title-cased answers and topics readable on egress (#7506)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bc7c550f0414284e34484c18ea2ac97c80f1276a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ultrathink): the paid OpenAI rung runs only on GRIP_CODEX_ALLOW_PAID=1 (#7515)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6b6b3fe59055bb35ed86a263f5998de90cfbc960"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(codex-ladder): drop glued flag spellings too; regenerate the stale hooks count (#7526)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/18ba3d3310cad1c1fae6919e92bb61708928c0ac"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(inventory): the capabilities line counts the new infinite-cycle hook (#7525)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/84bb772b5464748a98651de9f73bca260961c09c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(codex-ladder): put config flags where codex reads them, and correct the GPT-billing ru",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b40bb5788b9ceae258c5357f48b3ca0fcac6f23"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(approval-gate): broad force-push words need git context; past tense asks for nothing (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a6ceffdfd292b3b2526361997aa6bb4f27f28540"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Step 7 W1: the never-ending cycle (InfiniteMachine v2 ADR-0016) (#7517)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a204f5b286339bd92bf010f636054b8462e6556"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(tests): test_gates.py runs the checkout's hook, and CI runs it (#7514)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/66b2c5ab202cadb21a5414f8e8bf358697b7065f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(redaction-shield): catch every grouping of an ID number; keep egress readable (#7502)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/03df02a502e4917b395855c7c05061f31614a36c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(approval-gate): pin a question that names three actions (#7500)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5ec77899cb2688dae3ca3b31d90b13eb0bbb9f89"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: bind the GPT-subscription rule -- council Codex seat and ladder rung 2 (#7494)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b6ede9fac7db1e6dfddfb7ac55e70a4a837ffe12"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(inventory): the capabilities line counts the new GPT-subscription rule (#7497)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6590131a81919daef404f4fdf5303dd65b9cefd6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(approval-gate): pin questions that name two actions (#7490)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/48303df8b7916333cecad683ae53dfb4dcd67931"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "rules: GPT runs on the ChatGPT subscription, never on workspace credits (#7487)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/60f28ffc9c14022618eca1de0f7675e70939e9c0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(wire-probe): fail closed on ANTHROPIC_API_KEY, add tap/hold-tolerance tests (#7488)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7af60d3dde94c8030bf7d0cbeb9dd77185b7f74"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "377 changes / 7 days",
+      "value": "384 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/infiltrate"
         }
       ],
-      "tip": "The shared tree is not canonical: resolve any decision-gating read against origin/main."
+      "tip": "A negative claim is only as strong as the search behind it — name the scopes you checked."
     }
   ]
 }
