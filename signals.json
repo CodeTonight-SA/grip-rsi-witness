@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(wire-probe): InfiniteMachine v2 Step 1 -- the wire probe harness (#7378)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5023bbf5b4f772f17295f80bcbe019158e7df61f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(bash-safety): point the rtk routing table at the gh-pr stdin footgun (#7377)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c39468ddfcd1c10ee5fcffe998001994fcdc9cb"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(ultragoal): resolve the pasted install-relative brief path from any cwd (#7367)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c80fd20738a20940595928301462d5f3c61da0e0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(adr): ADR-0016, the InfiniteMachine v2 -- supersedes the lost ADR-0002 (#7369)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dba74e1f87b9e40185b2d1ab378df400682b8d4e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "528 changes / 7 days",
+      "value": "529 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
