@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(plain-language): the STE entry point, composed into /clarify, with the missing /plain",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2e189f1bbaec559642849aa29a7a7b72e107ed79"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(semantic-keyword): the general verdict across four domains -- none confirms (#7459)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/dfd6513073c4816548e69f00a565bb23a9204a3f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(wire-probe): a wire arm through HAL's real wire, and a per-connection hold measuremen",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/514677c0f42084f2a4ddfed97d257df01a96db0b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(reasoning-lenses): shield the recall layer before it is wired (#7443)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8109fe665651c6d2cc6ab3d4d1cfcba5f6c9b01"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "98 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7545",
+      "value": "gen 7546",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "359 changes / 7 days",
+      "value": "360 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
