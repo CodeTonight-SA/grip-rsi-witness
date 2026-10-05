@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7383 (#7384)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/89dbc937b2b4345cddd9984bf30c5fe98b18abe0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(hooks): send only shared GRIP files to the outside reviewer (#7383)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/97ee6ce42efe8cecd59aee8cdd72ed17d5fdaa1f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(port-registry): reserve 4011 for the HAL wire (InfiniteMachine v2 Step 2) (#7382)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0fa10aa16afb2eb3f09129043b127d37098d86f9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7378 (#7380)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/36b7ddafb48024af1cc5038346a0e7d4b3967b68"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(wire-probe): InfiniteMachine v2 Step 1 -- the wire probe harness (#7378)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5023bbf5b4f772f17295f80bcbe019158e7df61f"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(semantic-keyword): census follow-up from AGORA's two R0-surviving concerns on GRIP#73",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5919e64e2eec8169d15894224d1e1df6963425d7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(bash-safety): rtk gh pr create/edit get an empty stdin; pass a body file path (#7374)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb338c4bf8fa6fc5b6b7c038b7c804163bd38e7b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(semantic-keyword): census and ranking of GRIP's literal keyword floors (#7373)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/349da41ec9f6e1e2d991c2a1ca46b8e6e2f33053"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7367 (#7370)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/75a435161b732a09c8411133f554a1dbe280cbaa"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ultragoal): resolve the pasted install-relative brief path from any cwd (#7367)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c80fd20738a20940595928301462d5f3c61da0e0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "529 changes / 7 days",
+      "value": "533 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
