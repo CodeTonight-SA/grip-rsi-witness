@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(remember): the README count refreshes even without a stats line (#7556)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/260ee683d4af6887880a7638ac65c9e9001e570a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(wire): Bash commands skip the HAL wire, plus bin/grip-wire-brake (GRIP#7460) (#7547)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/64ebf27b616290e8249317759cc30bdb78845921"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(ste): the eighth question put to Astra, the successor issue by name, and the hypothes",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f73c13f6a28b4df74381cfbfd116249d8ab4b422"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ste): words for the seven scorer-version-2 rules in the hook's line (#7540)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/385d3e3ef0e01057b362449ca146cf0faa88c192"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "100 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7553",
+      "value": "gen 7554",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "396 changes / 7 days",
+      "value": "397 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
