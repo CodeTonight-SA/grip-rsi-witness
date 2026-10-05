@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hooks): project-cwd-hint treats one folder spelled two ways as one folder (#7451)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b49f47ea6e3fe74169f224b5a48f988081a59ff1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(deps): patch brace-expansion in apps/grip-mobile (#7306)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/00c3b569370bbd7dcfc1663079223a72feccbd5f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(ste): measure how close GRIP's own turns are to ASD-STE100 (the baseline) (#7431)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b73726641c3ea4e08ab2f86298096b4dbe37a2c6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(confab-eval): cite the rule that records two incidents whose draft is gone (#7432)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e77cac51be61b1ab4f4967046be8f6637ecccbaa"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "354 changes / 7 days",
+      "value": "355 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
