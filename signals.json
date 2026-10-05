@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(wire-probe): a wire arm through HAL's real wire, and a per-connection hold measuremen",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/514677c0f42084f2a4ddfed97d257df01a96db0b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(reasoning-lenses): shield the recall layer before it is wired (#7443)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8109fe665651c6d2cc6ab3d4d1cfcba5f6c9b01"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(semantic-keyword): semantic keyword floor on the no-stubs domain -- INCONCLUSIVE, no ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5742c076060f0f58f889febfd62bd0fa968c4142"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ste-baseline): take the newest turns first inside each transcript (#7437)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8f543e6e556015d0b67d4dbb59e10963bb61a4a8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(insight-propagator): dry runs show the real destination; every redirect stub names one",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5aee78b5cf62b62cdb8c9ba3378cd036ab55b592"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(ste): measure how close GRIP's own turns are to ASD-STE100 (the baseline) (#7431)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b73726641c3ea4e08ab2f86298096b4dbe37a2c6"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "test(status-reporter): one helper for the memory folder the fixtures build (#7433)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6adb3970f264639f92156b09b2e4abf68ecac950"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): repair the status reporter's memory fixture, and run it in CI (#7423)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bac38891b8adffc0f7bd6cbac28fb146bd404ff5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(insight-propagator): file a redirect stub's lessons under the skill it names (#7424)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6d1b4fe43d5b4ade5e40917ab96d6ee341ef50d0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(frontmatter): run the parser sweeps with HOME pinned to an empty folder (#7426)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/57b93a23e08af788e43ba4b9a3a4a50372a6f8f4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(command-executor): load sibling scripts from this file's own directory (#7419)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8f59046a13a089f718cdd73a5b61c1119ca0bd36"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(gates): pin the empty-path and withheld branches of both egress guards (#7421)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d09a1eefd6a16f8410e9b7d179f7c4087ef7779"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "98 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7544",
+      "value": "gen 7545",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "348 changes / 7 days",
+      "value": "353 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
