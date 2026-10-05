@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(semantic-keyword): the general verdict across four domains -- none confirms (#7459)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dfd6513073c4816548e69f00a565bb23a9204a3f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Semantic keyword floor, self-report domain: inconclusive, and the live L1.5 tier is killed",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8982051ef9be67d3c95a51ccf40e81c28541eca9"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(reasoning-lenses): shield the recall layer before it is wired (#7443)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8109fe665651c6d2cc6ab3d4d1cfcba5f6c9b01"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(semantic-keyword): semantic keyword floor on the no-stubs domain -- INCONCLUSIVE, no ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5742c076060f0f58f889febfd62bd0fa968c4142"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "358 changes / 7 days",
+      "value": "359 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
