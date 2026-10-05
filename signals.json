@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(auth-failover): pin the three cases AGORA raised on GRIP#7343 (#7348)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2f9d1f7f8c47f499fb1f22068c412d98a40b7cd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7345 (#7347)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/25769d1d7a15d1d497f0fd40d2995d2be3ecc466"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(redaction): add a one-word alias to an existing denylist entity (#7345)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a6904fb2186487c5ecea38c06e222dafbc318ef0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(semantic-keyword): scope the verdict to its one measured domain; the capability is ge",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e8988066f7ea16b104bc319e588cb281785755c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7343 (#7344)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ef06cbce76528313fca5473e060f5eb457b8d9f5"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(fleet_verify): send the shield's text to Pool B, and keep originals out of the shield'",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7bfc36d99c785d71a1b305125dcf5f79edeee4d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "synthetic ID in the wa_redact fixture",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/070ea9f0b70faf1be3f4cde0b799a4b1e797efc5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7337 (#7338)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/22f2907b5083a8875c6b81fedd2db659258dda48"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "ci(verbind): run the Verbind tests in CI and anchor the preprint's Lean status (#7337)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fa6d5b516add8b8f70b6764a41638db726e5676d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7334 (#7336)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dc9b2b3f9c0a8c0183f3be66893978853426b744"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "109 living genes exported with their fitness scores",
+      "caption": "98 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7540",
+      "value": "gen 7542",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "503 changes / 7 days",
+      "value": "507 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
