@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7366 (#7368)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e242d7ebc4edf82f8582d7c0cb8ae5691a70868b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore: move the grip-wa analysis toolkit out of GRIP (#7366)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a31220bb9113fec4cf8381d93fb69c80d1c21e09"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7363 (#7365)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/460bbff1d6bb7085f2a4dd8f10051ea8ac2944b2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(hypotheses): pre-register H-WIRE-1, H-HOLD-1 and H-INF-SIG for the InfiniteMachine v2",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ab6e9a1d50a6056d35c024509019ca8a750d858"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(pr-diff): send a deleted file to reviewers as its header and a count (#7363)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba39eb25bba23487bc8b66bb57171c1b9587c90c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7357 (#7362)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/008fd05f77ea9f7e75d9bb5792854ba0a3671717"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(rules): keep private work out of GRIP (#7351)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/71d264817d40524c59b5318a8391b5314148b120"
         },
@@ -11,42 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(agora): recognise the other ways a reviewer says there are no concerns (#7357)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2580f19e9184b581e711e1766353660e6832dd5d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(repl-429 hook): pin what the environment guard reports, all three ways (#7358)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/04307bf968184b633b50cc8c98e1a35a9b00d289"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(repl-429 hook): compare the whole environment after loading the hook (#7355)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab33cf75209edf613f14b145e7424470e782899e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7353 (#7354)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/07d8c3ff10bce701cab9d0ebf6dd0d081099b6f7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(shared-tree advisory): stay quiet for tmp/, where landing records go (#7353)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/486e2d5934d31f7d8d72ca348adf8e9dde716e66"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(repl-429 hook): stop leaking CLAUDE_DIR, and run the file in CI (#7350)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/51360d04de82b929c8a46cc3b5ceac5b82e6c212"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(auth-failover): pin the three cases AGORA raised on GRIP#7343 (#7348)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2f9d1f7f8c47f499fb1f22068c412d98a40b7cd"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 293 verdicts rest on a resolvable metric; the other 281 were graded from a sentinel that means no collector exists, and are NOT evidence. 554 hypotheses registered.",
+      "caption": "12 of 293 verdicts rest on a resolvable metric; the other 281 were graded from a sentinel that means no collector exists, and are NOT evidence. 557 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "514 changes / 7 days",
+      "value": "520 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
