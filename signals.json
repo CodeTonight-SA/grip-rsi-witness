@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(bash-safety): point the rtk routing table at the gh-pr stdin footgun (#7377)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c39468ddfcd1c10ee5fcffe998001994fcdc9cb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(bash-safety): give the rtk gh-pr stdin footgun its own heading and a four-part shape ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5cd1b8d3b6178b0689531a41c7e450c5d7fa7b60"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(semantic-keyword): census follow-up from AGORA's two R0-surviving concerns on GRIP#73",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5919e64e2eec8169d15894224d1e1df6963425d7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(bash-safety): rtk gh pr create/edit get an empty stdin; pass a body file path (#7374)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb338c4bf8fa6fc5b6b7c038b7c804163bd38e7b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(semantic-keyword): census and ranking of GRIP's literal keyword floors (#7373)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/349da41ec9f6e1e2d991c2a1ca46b8e6e2f33053"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7367 (#7370)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/75a435161b732a09c8411133f554a1dbe280cbaa"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(adr): ADR-0016, the InfiniteMachine v2 -- supersedes the lost ADR-0002 (#7369)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/dba74e1f87b9e40185b2d1ab378df400682b8d4e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7366 (#7368)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e242d7ebc4edf82f8582d7c0cb8ae5691a70868b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore: move the grip-wa analysis toolkit out of GRIP (#7366)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a31220bb9113fec4cf8381d93fb69c80d1c21e09"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7363 (#7365)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/460bbff1d6bb7085f2a4dd8f10051ea8ac2944b2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(hypotheses): pre-register H-WIRE-1, H-HOLD-1 and H-INF-SIG for the InfiniteMachine v2",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ab6e9a1d50a6056d35c024509019ca8a750d858"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(pr-diff): send a deleted file to reviewers as its header and a count (#7363)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba39eb25bba23487bc8b66bb57171c1b9587c90c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "523 changes / 7 days",
+      "value": "528 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
