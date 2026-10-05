@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(redaction-shield): catch every grouping of an ID number; keep egress readable (#7502)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/03df02a502e4917b395855c7c05061f31614a36c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(approval-gate): pin a question that names three actions (#7500)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5ec77899cb2688dae3ca3b31d90b13eb0bbb9f89"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(approval-gate): read deploy and push question words as whole words (#7484)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fb1da9ad42585064f297157f9958ca6e8d853ac5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ste-lint): a score for a text, several files in one run, and technical names exempt (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f102fab10172cea0326591adf41a27eb15843010"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "98 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7550",
+      "value": "gen 7551",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "375 changes / 7 days",
+      "value": "376 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
