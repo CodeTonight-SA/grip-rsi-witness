@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(approval-gate): pin a question that names three actions (#7500)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5ec77899cb2688dae3ca3b31d90b13eb0bbb9f89"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix: bind the GPT-subscription rule -- council Codex seat and ladder rung 2 (#7494)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b6ede9fac7db1e6dfddfb7ac55e70a4a837ffe12"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(inventory): the capabilities line counts the new GPT-subscription rule (#7497)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6590131a81919daef404f4fdf5303dd65b9cefd6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(approval-gate): pin questions that name two actions (#7490)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/48303df8b7916333cecad683ae53dfb4dcd67931"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "rules: GPT runs on the ChatGPT subscription, never on workspace credits (#7487)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/60f28ffc9c14022618eca1de0f7675e70939e9c0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(wire-probe): fail closed on ANTHROPIC_API_KEY, add tap/hold-tolerance tests (#7488)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7af60d3dde94c8030bf7d0cbeb9dd77185b7f74"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(approval-gate): read deploy and push question words as whole words (#7484)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fb1da9ad42585064f297157f9958ca6e8d853ac5"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(ste-lint): a score for a text, several files in one run, and technical names exempt (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f102fab10172cea0326591adf41a27eb15843010"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(reasoning-lenses): pin two recall mutants the suite let through (#7476)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/63cce5020d5dd6cc8ccae39533400d2d72d7918d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(inventory): the capabilities line counts the new /plain command (#7477)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8cd04482178b1523da079a32dbcd2a7d269d76e3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hal-adapter): the no-answer reason reads token counts through the module's one reader ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/435c64183627436d7154a722459ccb6c72f357c3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ste): lexicon builder for the operator's own ASD-STE100 copy, plus a public seed (#74",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c640a8b6ee131d93c87a3fae0fbd8e44379df0b0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hal-adapter): a usage field that is not a map no longer raises out of the no-answer pa",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f8f0088f107877daaeb721a12bda396b18dcf83"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hal-adapter): say why a HAL call gave no answer (#7464)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c88c40a9e6a9c9c59f95f543fd39b4cd671280f"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "98 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7548",
+      "value": "gen 7550",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "369 changes / 7 days",
+      "value": "375 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
