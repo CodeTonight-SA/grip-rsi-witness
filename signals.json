@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "feat(reasoning-lenses): full machinery — floor, LLM recall, WARN gate (#7413)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b826ddf59a26f227321d8cffed17794119d97600"
+          "tldr": "feat(ste): measure how close GRIP's own turns are to ASD-STE100 (the baseline) (#7431)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b73726641c3ea4e08ab2f86298096b4dbe37a2c6"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7412 (#7416)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f5e99b91ba64c1de514a952c83976707b39a5fb"
+          "tldr": "fix(confab-eval): cite the rule that records two incidents whose draft is gone (#7432)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e77cac51be61b1ab4f4967046be8f6637ecccbaa"
         },
         {
           "kind": "shipped",
-          "tldr": "test(relay): update the operator-session bloat cap test to the current resolver (#7415)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7d2e7a2128e0180434bbab222ff74b54a457695e"
+          "tldr": "test(status-reporter): one helper for the memory folder the fixtures build (#7433)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6adb3970f264639f92156b09b2e4abf68ecac950"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(gates): keep text outside GRIP off the two gates' outside models (#7412)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4457e0f1512dd3a3e6d2a13b48d547e4c77c59f5"
+          "tldr": "fix(tests): repair the status reporter's memory fixture, and run it in CI (#7423)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bac38891b8adffc0f7bd6cbac28fb146bd404ff5"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7381 (#7410)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a57a0bfb690ff561a7086edbe6e04f92a6732d07"
+          "tldr": "fix(insight-propagator): file a redirect stub's lessons under the skill it names (#7424)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6d1b4fe43d5b4ade5e40917ab96d6ee341ef50d0"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(hal-memory): read back the quoted names the writer now emits (#7408)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/53a46ac372414ef0cf2debcd32ac18cb58255daf"
+          "tldr": "test(frontmatter): run the parser sweeps with HOME pinned to an empty folder (#7426)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/57b93a23e08af788e43ba4b9a3a4a50372a6f8f4"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(wire-probe): live cases use the real login on a Keychain Mac; a stale CLAUDE_CODE_EXEC",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c64a44a5c71c943ad73d92a10d1e4c4ec2ded182"
+          "tldr": "fix(command-executor): load sibling scripts from this file's own directory (#7419)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8f59046a13a089f718cdd73a5b61c1119ca0bd36"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7403 (#7407)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6d498493e0ef759f8fb5bd8b033e59d40a458bd6"
+          "tldr": "test(gates): pin the empty-path and withheld branches of both egress guards (#7421)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d09a1eefd6a16f8410e9b7d179f7c4087ef7779"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 294 verdicts rest on a resolvable metric; the other 282 were graded from a sentinel that means no collector exists, and are NOT evidence. 560 hypotheses registered.",
+      "caption": "12 of 294 verdicts rest on a resolvable metric; the other 282 were graded from a sentinel that means no collector exists, and are NOT evidence. 564 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -60,11 +60,11 @@
       "verify": "data/genome-shared.json"
     },
     {
-      "caption": "commits merged to main in the last week — the self-improvement loop is running",
+      "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "558 changes / 7 days",
-      "verify": "git log --oneline --since='7 days ago' origin/main"
+      "value": "348 changes / 7 days",
+      "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
       "caption": "Every consequential decision — the what / why / how / believed-when — signed and replayable",
