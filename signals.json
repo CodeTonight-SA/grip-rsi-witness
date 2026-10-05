@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "feat(semantic-keyword): record the fit size in the frozen-tau record (#7403)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8212dc7f328ed356dec76df5b8487fd74ea61240"
+          "tldr": "feat(reasoning-lenses): full machinery — floor, LLM recall, WARN gate (#7413)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b826ddf59a26f227321d8cffed17794119d97600"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(council): name UTF-8 on a seat's answer, and run the seal test in CI (#7405)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c8656e0c1eec368820ac836f0584ff465af4fec1"
+          "tldr": "chore(changelog): update for PR #7412 (#7416)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f5e99b91ba64c1de514a952c83976707b39a5fb"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7402 (#7404)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/82bab4f27ad688cdc0624f5e970d95da432c51cc"
+          "tldr": "test(relay): update the operator-session bloat cap test to the current resolver (#7415)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7d2e7a2128e0180434bbab222ff74b54a457695e"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(auth-failover): write the marker where its readers look (#7402)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b36f5e894544b38f2aed4960a558506f883f37f"
+          "tldr": "fix(gates): keep text outside GRIP off the two gates' outside models (#7412)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4457e0f1512dd3a3e6d2a13b48d547e4c77c59f5"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7399 (#7401)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/69ad657915f3aa4d0df8fbdbf1582c444109ec4f"
+          "tldr": "chore(changelog): update for PR #7381 (#7410)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a57a0bfb690ff561a7086edbe6e04f92a6732d07"
         },
         {
           "kind": "shipped",
-          "tldr": "docs: add the auth-bucket failover doc that four places already cite (#7398)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/86c7d7fdda06f31d6f17f5f9e40e77a30fa19d30"
+          "tldr": "fix(hal-memory): read back the quoted names the writer now emits (#7408)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/53a46ac372414ef0cf2debcd32ac18cb58255daf"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(semantic-keyword): lift the bench protocol into a domain-agnostic harness (#7399)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/288ede3ed5c59ad157ecd3cb9a4e72f08febcda0"
+          "tldr": "fix(wire-probe): live cases use the real login on a Keychain Mac; a stale CLAUDE_CODE_EXEC",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c64a44a5c71c943ad73d92a10d1e4c4ec2ded182"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7393 (#7396)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/224c347a6b76c44fe7d4de0a9fa72b313ffd3744"
+          "tldr": "chore(changelog): update for PR #7403 (#7407)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6d498493e0ef759f8fb5bd8b033e59d40a458bd6"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 294 verdicts rest on a resolvable metric; the other 282 were graded from a sentinel that means no collector exists, and are NOT evidence. 558 hypotheses registered.",
+      "caption": "12 of 294 verdicts rest on a resolvable metric; the other 282 were graded from a sentinel that means no collector exists, and are NOT evidence. 560 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -56,14 +56,14 @@
       "caption": "98 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7543",
+      "value": "gen 7544",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "549 changes / 7 days",
+      "value": "558 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
