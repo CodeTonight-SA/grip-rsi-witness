@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "Semantic keyword floor, self-report domain: inconclusive, and the live L1.5 tier is killed",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8982051ef9be67d3c95a51ccf40e81c28541eca9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(semantic-keyword): approval-answer domain measured at frozen tau -- KILL (#7428)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f86799103d16eee23cab7406fa706f453e106a5"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(gitignore): keep Claude Code's synced account skills out of the repo (#7453)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0f032ac234072b3ac341d394dbb19e714c082f6"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(semantic-keyword): semantic keyword floor on the no-stubs domain -- INCONCLUSIVE, no ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5742c076060f0f58f889febfd62bd0fa968c4142"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ste-baseline): take the newest turns first inside each transcript (#7437)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8f543e6e556015d0b67d4dbb59e10963bb61a4a8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(insight-propagator): dry runs show the real destination; every redirect stub names one",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5aee78b5cf62b62cdb8c9ba3378cd036ab55b592"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "356 changes / 7 days",
+      "value": "358 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
