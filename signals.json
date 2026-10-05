@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7390 (#7392)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/879b9cd2bc6d1cfcbec93cdb853155e2e5010af3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7388 (#7391)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e77a2d23b5834e31c5369b8f6a5c78ec58974ec3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(grip-infinite): wire Claude Code by HAL's proxy (InfiniteMachine v2 Step 3) (#7390)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a2dc1b047972a2a6ee2d13ea1aad28017150c3c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(review): scrub review text whole before cutting it (#7388)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c1f0f313e17dcd64684ef777c74bc9e45d5f57d8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7385 (#7387)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a65e9494a8046428106936fb2309175bb9c85c5"
         },
@@ -21,32 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(hooks): send only shared GRIP files to the outside reviewer (#7383)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/97ee6ce42efe8cecd59aee8cdd72ed17d5fdaa1f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(port-registry): reserve 4011 for the HAL wire (InfiniteMachine v2 Step 2) (#7382)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0fa10aa16afb2eb3f09129043b127d37098d86f9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7378 (#7380)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/36b7ddafb48024af1cc5038346a0e7d4b3967b68"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(wire-probe): InfiniteMachine v2 Step 1 -- the wire probe harness (#7378)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5023bbf5b4f772f17295f80bcbe019158e7df61f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(bash-safety): point the rtk routing table at the gh-pr stdin footgun (#7377)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c39468ddfcd1c10ee5fcffe998001994fcdc9cb"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 293 verdicts rest on a resolvable metric; the other 281 were graded from a sentinel that means no collector exists, and are NOT evidence. 557 hypotheses registered.",
+      "caption": "12 of 294 verdicts rest on a resolvable metric; the other 282 were graded from a sentinel that means no collector exists, and are NOT evidence. 558 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "535 changes / 7 days",
+      "value": "539 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
