@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(ste): the readability trial for H778 and its result -- FALSIFIED by the registered ru",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/19b592dd28434084b33b774c6a2896b28faf994e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(service-reload): a service reload that never leaves the service down (#7522)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/136474663d1b0e34516cfb3c92eddaf094f9a4a2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Fix explain function to show truthful failover status (#7532)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3560aee514bf42422cd0619f3d5e9bb776bdbeb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ste): seven more rules in the linter -- scorer version 2 (#7512)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/831479d7220e2565c90c34d446668e4845a4591c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(ste): a concept map of ASD-STE100 in GRIP (#7510)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e5c4a336cafbbc54715f201876f0112a0c072fba"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ste): a hook that scores each turn against STE and shows the operator one line (#7503",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4c34671175846724b60e41f52fdfc8dd670712c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(redaction-shield): keep title-cased answers and topics readable on egress (#7506)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bc7c550f0414284e34484c18ea2ac97c80f1276a"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(ultrathink): the paid OpenAI rung runs only on GRIP_CODEX_ALLOW_PAID=1 (#7515)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6b6b3fe59055bb35ed86a263f5998de90cfbc960"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(codex-ladder): drop glued flag spellings too; regenerate the stale hooks count (#7526)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/18ba3d3310cad1c1fae6919e92bb61708928c0ac"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(inventory): the capabilities line counts the new infinite-cycle hook (#7525)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/84bb772b5464748a98651de9f73bca260961c09c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(codex-ladder): put config flags where codex reads them, and correct the GPT-billing ru",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b40bb5788b9ceae258c5357f48b3ca0fcac6f23"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(approval-gate): broad force-push words need git context; past tense asks for nothing (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a6ceffdfd292b3b2526361997aa6bb4f27f28540"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Step 7 W1: the never-ending cycle (InfiniteMachine v2 ADR-0016) (#7517)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a204f5b286339bd92bf010f636054b8462e6556"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): test_gates.py runs the checkout's hook, and CI runs it (#7514)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66b2c5ab202cadb21a5414f8e8bf358697b7065f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "384 changes / 7 days",
+      "value": "388 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
