@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7385 (#7387)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a65e9494a8046428106936fb2309175bb9c85c5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(review): redact everything sent to outside reviewers (#7385)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/551f840e2eba81acbef335a8cf5ced34edbd9032"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7383 (#7384)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/89dbc937b2b4345cddd9984bf30c5fe98b18abe0"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(bash-safety): point the rtk routing table at the gh-pr stdin footgun (#7377)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c39468ddfcd1c10ee5fcffe998001994fcdc9cb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(bash-safety): give the rtk gh-pr stdin footgun its own heading and a four-part shape ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5cd1b8d3b6178b0689531a41c7e450c5d7fa7b60"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(semantic-keyword): census follow-up from AGORA's two R0-surviving concerns on GRIP#73",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5919e64e2eec8169d15894224d1e1df6963425d7"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "533 changes / 7 days",
+      "value": "535 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
