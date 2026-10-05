@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(changelog): update for PR #7367 (#7370)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/75a435161b732a09c8411133f554a1dbe280cbaa"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ultragoal): resolve the pasted install-relative brief path from any cwd (#7367)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c80fd20738a20940595928301462d5f3c61da0e0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(adr): ADR-0016, the InfiniteMachine v2 -- supersedes the lost ADR-0002 (#7369)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dba74e1f87b9e40185b2d1ab378df400682b8d4e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7366 (#7368)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e242d7ebc4edf82f8582d7c0cb8ae5691a70868b"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(pr-diff): send a deleted file to reviewers as its header and a count (#7363)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba39eb25bba23487bc8b66bb57171c1b9587c90c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7357 (#7362)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/008fd05f77ea9f7e75d9bb5792854ba0a3671717"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): keep private work out of GRIP (#7351)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/71d264817d40524c59b5318a8391b5314148b120"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): recognise the other ways a reviewer says there are no concerns (#7357)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2580f19e9184b581e711e1766353660e6832dd5d"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "98 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7542",
+      "value": "gen 7543",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "520 changes / 7 days",
+      "value": "523 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
