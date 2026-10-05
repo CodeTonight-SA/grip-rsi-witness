@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(hal): pin the audit refusal ahead of the no-failover guard (#7569)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/04f8d1498cc5ed1f45dfc9a9fc18d56f407d85e9"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hal): a no-failover call is never answered by the legacy chain (#7566)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f4f8f5e03b997833e485b0775401e11f8a9e2eb2"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(inventory): the capabilities line counts the STE lint hook (127 hooks) (#7553)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c77c77df03f27dbc4c70d468eec0373fa72014d6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(inventory): the capabilities count repairs itself instead of turning every PR red (#75",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f553230252783bf5065ce978bbfaeddefe30a95e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "401 changes / 7 days",
+      "value": "402 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
