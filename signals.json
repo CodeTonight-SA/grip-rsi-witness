@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7390 (#7392)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/879b9cd2bc6d1cfcbec93cdb853155e2e5010af3"
+          "tldr": "feat(semantic-keyword): record the fit size in the frozen-tau record (#7403)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8212dc7f328ed356dec76df5b8487fd74ea61240"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7388 (#7391)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e77a2d23b5834e31c5369b8f6a5c78ec58974ec3"
+          "tldr": "fix(council): name UTF-8 on a seat's answer, and run the seal test in CI (#7405)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c8656e0c1eec368820ac836f0584ff465af4fec1"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(grip-infinite): wire Claude Code by HAL's proxy (InfiniteMachine v2 Step 3) (#7390)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a2dc1b047972a2a6ee2d13ea1aad28017150c3c"
+          "tldr": "chore(changelog): update for PR #7402 (#7404)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/82bab4f27ad688cdc0624f5e970d95da432c51cc"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(review): scrub review text whole before cutting it (#7388)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c1f0f313e17dcd64684ef777c74bc9e45d5f57d8"
+          "tldr": "fix(auth-failover): write the marker where its readers look (#7402)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b36f5e894544b38f2aed4960a558506f883f37f"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7385 (#7387)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a65e9494a8046428106936fb2309175bb9c85c5"
+          "tldr": "chore(changelog): update for PR #7399 (#7401)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/69ad657915f3aa4d0df8fbdbf1582c444109ec4f"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(review): redact everything sent to outside reviewers (#7385)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/551f840e2eba81acbef335a8cf5ced34edbd9032"
+          "tldr": "docs: add the auth-bucket failover doc that four places already cite (#7398)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/86c7d7fdda06f31d6f17f5f9e40e77a30fa19d30"
         },
         {
           "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7383 (#7384)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/89dbc937b2b4345cddd9984bf30c5fe98b18abe0"
+          "tldr": "feat(semantic-keyword): lift the bench protocol into a domain-agnostic harness (#7399)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/288ede3ed5c59ad157ecd3cb9a4e72f08febcda0"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(hooks): send only shared GRIP files to the outside reviewer (#7383)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/97ee6ce42efe8cecd59aee8cdd72ed17d5fdaa1f"
+          "tldr": "chore(changelog): update for PR #7393 (#7396)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/224c347a6b76c44fe7d4de0a9fa72b313ffd3744"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "539 changes / 7 days",
+      "value": "549 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
