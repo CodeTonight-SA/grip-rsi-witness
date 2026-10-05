@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hal-adapter): the no-answer reason reads token counts through the module's one reader ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/435c64183627436d7154a722459ccb6c72f357c3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ste): lexicon builder for the operator's own ASD-STE100 copy, plus a public seed (#74",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c640a8b6ee131d93c87a3fae0fbd8e44379df0b0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(hal-adapter): a usage field that is not a map no longer raises out of the no-answer pa",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f8f0088f107877daaeb721a12bda396b18dcf83"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(hal-adapter): say why a HAL call gave no answer (#7464)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c88c40a9e6a9c9c59f95f543fd39b4cd671280f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(plain-language): the skill's listing names the STE entry point, and a copied instructi",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9baacf06bf54f29d82438e582dc8e2dc507a2bba"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(plain-language): the STE entry point, composed into /clarify, with the missing /plain",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2e189f1bbaec559642849aa29a7a7b72e107ed79"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "Semantic keyword floor, self-report domain: inconclusive, and the live L1.5 tier is killed",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8982051ef9be67d3c95a51ccf40e81c28541eca9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(semantic-keyword): approval-answer domain measured at frozen tau -- KILL (#7428)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f86799103d16eee23cab7406fa706f453e106a5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(gitignore): keep Claude Code's synced account skills out of the repo (#7453)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0f032ac234072b3ac341d394dbb19e714c082f6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): project-cwd-hint treats one folder spelled two ways as one folder (#7451)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b49f47ea6e3fe74169f224b5a48f988081a59ff1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): patch brace-expansion in apps/grip-mobile (#7306)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/00c3b569370bbd7dcfc1663079223a72feccbd5f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(wire-probe): a wire arm through HAL's real wire, and a per-connection hold measuremen",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/514677c0f42084f2a4ddfed97d257df01a96db0b"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "98 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7546",
+      "value": "gen 7547",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "360 changes / 7 days",
+      "value": "365 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
