@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hal): a no-failover call is never answered by the legacy chain (#7566)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f4f8f5e03b997833e485b0775401e11f8a9e2eb2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(egress): cover the shield's import paths at every send point (#7564)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ac6273ec1695093d75f00a228468a130d07db4a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(hal): run the syscall fail-policy tests in CI and update infer's pinned signature (#7",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/027cbc3421af031e30ca0cc55eb5e931dfc831ac"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(egress): modules that call a model directly pass the redaction shield (#7560)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0763e73cf190b7fb5afa871d51c394b12c5ebf00"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(remember): the README count refreshes even without a stats line (#7556)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/260ee683d4af6887880a7638ac65c9e9001e570a"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(inventory): the capabilities count repairs itself instead of turning every PR red (#75",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f553230252783bf5065ce978bbfaeddefe30a95e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(ste): the linter docs run under grip-py, and a lower-case-only case for the lexicon ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1f5d9b20fb0c0a2d28aad0cc2e4a3b092e1f3843"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(egress): every outside-model send passes the redaction shield (#7544)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5b494f20025b7de9dfd787a2bdb48d83c9e98638"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(ste): the concept map names each tool the same way in the graph and the table (#7545)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f946172df9fb888a0cf762b0a69695dc75a865e3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(ste): the eighth question put to Astra, the successor issue by name, and the hypothes",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f73c13f6a28b4df74381cfbfd116249d8ab4b422"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "397 changes / 7 days",
+      "value": "401 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
