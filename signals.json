@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(rules): keep private work out of GRIP (#7351)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/71d264817d40524c59b5318a8391b5314148b120"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(agora): recognise the other ways a reviewer says there are no concerns (#7357)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2580f19e9184b581e711e1766353660e6832dd5d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(repl-429 hook): pin what the environment guard reports, all three ways (#7358)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/04307bf968184b633b50cc8c98e1a35a9b00d289"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(repl-429 hook): compare the whole environment after loading the hook (#7355)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab33cf75209edf613f14b145e7424470e782899e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(changelog): update for PR #7353 (#7354)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/07d8c3ff10bce701cab9d0ebf6dd0d081099b6f7"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "test(auth-failover): pin the three cases AGORA raised on GRIP#7343 (#7348)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2f9d1f7f8c47f499fb1f22068c412d98a40b7cd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7345 (#7347)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/25769d1d7a15d1d497f0fd40d2995d2be3ecc466"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(redaction): add a one-word alias to an existing denylist entity (#7345)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a6904fb2186487c5ecea38c06e222dafbc318ef0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(semantic-keyword): scope the verdict to its one measured domain; the capability is ge",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e8988066f7ea16b104bc319e588cb281785755c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(changelog): update for PR #7343 (#7344)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ef06cbce76528313fca5473e060f5eb457b8d9f5"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week — the self-improvement loop is running",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "510 changes / 7 days",
+      "value": "514 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main"
     },
     {
