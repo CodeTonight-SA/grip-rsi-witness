@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(agora): recognise two more no-concerns openers from held-out sittings (#7395)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/afd8c2889397587e0eb06e569a9ccc3434831b6a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(redaction-shield): overlay only when no path is named; outbound shields merge it (#757",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f5a39560abdfc8e3edc9040812a9100d51630cf"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(redaction-shield): merge a private overlay first; publisher refuses without it (#7575",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b530fb2b6d298b163fa097d233333fdfc3fefb17"
+        },
+        {
+          "kind": "shipped",
           "tldr": "refactor(hal-memory): one shared frontmatter decoder for both readers (#7469)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/66a75b1e0b5048f05cc67df9763f35e803e53c44"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(hal): a no-failover call is never answered by the legacy chain (#7566)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f4f8f5e03b997833e485b0775401e11f8a9e2eb2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(egress): cover the shield's import paths at every send point (#7564)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ac6273ec1695093d75f00a228468a130d07db4a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(hal): run the syscall fail-policy tests in CI and update infer's pinned signature (#7",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/027cbc3421af031e30ca0cc55eb5e931dfc831ac"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(egress): modules that call a model directly pass the redaction shield (#7560)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0763e73cf190b7fb5afa871d51c394b12c5ebf00"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "378 changes / 7 days",
+      "value": "377 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
