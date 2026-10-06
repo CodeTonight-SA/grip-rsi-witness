@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(tests): gg++ tests needed Codex installed, not a launcher regression; bind into CI (#7",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/becbb3d831208ab79072df076437a02e7b05676c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(rsi-hook): the post-tool hook resolves the install directory, and test_rsi.py runs in ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0faa1385b05fbf630fc4ccb2ea2f1d8382826090"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(ste): run clarify's documented linter step under the test's Python (#7605)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/341af4f9b4b6435fb1ec12c3e3259d8ffdb1435c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): two test files together no longer rewrite the tracked insights file (#7599)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/64530014b627a46ea76f8d2736078753b9d207fe"
         }
       ],
       "key": "stream"
