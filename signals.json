@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore: commit the shared tree's pending changes, with personal names scrubbed out of the k",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8f74ea6312d99285169aaf1ed7ab62133c7361d6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(hal): pin the audit refusal ahead of the no-failover guard (#7569)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/04f8d1498cc5ed1f45dfc9a9fc18d56f407d85e9"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(wire): Bash commands skip the HAL wire, plus bin/grip-wire-brake (GRIP#7460) (#7547)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/64ebf27b616290e8249317759cc30bdb78845921"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(inventory): the capabilities line counts the STE lint hook (127 hooks) (#7553)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c77c77df03f27dbc4c70d468eec0373fa72014d6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "401 changes / 7 days",
+      "value": "402 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
