@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(changelog): close a stuck changelog PR only once its entry is on main (#7621)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/601c1c9d4cdc937ebedaff4cb771f15b3fbd1ebc"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(redaction-shield): fake names in two docstring examples; pin two footer edges (#7624",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6aa50ef0970c3211e5954075dfc1ed57f4255da6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(denylist): drop the entries now kept in the private overlay (#7585)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d40614c74104379ede369a520ece0164311dcb9f"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test: close two review gaps from GRIP#7600 and GRIP#7605 (#7608)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c05e53f2876f782a79345e7831dcbd7344ca9e90"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(changelog): say truthfully how runs queue; pin two edge cases (#7601)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1db06848d7867b256f781e07ec8dfe561b6fec7b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(egress): the HAL-side billing check judges a model the way HAL routes it (#7607)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/01636ebe5633e7ccbd9d83824a5f91fca14f0819"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "381 changes / 7 days",
+      "value": "380 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
