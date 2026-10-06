@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(rules-scope): every rule says who it is for, and the floor's readers are pinned (#768",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/535140a2a68d2413e783b8615f76ff934a404370"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(rules-scope): a fresh install indexes the rules it excludes (#7684)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/02a204ed11488de5bd5dc4ed601e52b4fc1b5a6a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(kern): render the ratchet summary in all three states; refuse a misspelt ratchet befo",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c350018dbb725fce8174bfa14b8c36cde44fbfe9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(kern): report instruction-file size on every PR, with a ratchet that only comes down ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/892223782187e800d65859354c1bc9fe37c8a54c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "381 changes / 7 days",
+      "value": "382 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
