@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(kern): probe the Claude Code behaviour KERN v2 relies on, before any rule moves (#768",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/71fe478ca457866d32aa6b9e52ac014d8eb60693"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(session-end): stop the plan tidy-up from deleting plan files that git tracks (#7668)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f7f3c380f0c6e10e299fb238fd79392664375fb4"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(redaction-shield): pin AGORA's three-spellings falsifier (closes GRIP#7659) (#7663)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f085121ca8abd38e3b7e8f507759861b25d9c739"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(redaction-shield): catch WhatsApp ID slugs, use fake IDs in wa-control (#7656)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1bbde02bb33a41375b41cb7ac70b4c6e28195972"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "380 changes / 7 days",
+      "value": "379 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
