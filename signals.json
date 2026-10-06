@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(denylist): drop the entries now kept in the private overlay (#7585)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d40614c74104379ede369a520ece0164311dcb9f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(tests): gg++ tests needed Codex installed, not a launcher regression; bind into CI (#7",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/becbb3d831208ab79072df076437a02e7b05676c"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(egress): the HAL-side billing check judges a model the way HAL routes it (#7607)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/01636ebe5633e7ccbd9d83824a5f91fca14f0819"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(ste): run clarify's documented linter step under the test's Python (#7605)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/341af4f9b4b6435fb1ec12c3e3259d8ffdb1435c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "383 changes / 7 days",
+      "value": "381 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
