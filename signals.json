@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(auth-failover): an account-wide usage cap notifies and waits unless the operator opts ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c7eb2df86e5cd197589ed266477ebe7d2999792e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: close two review gaps from GRIP#7600 and GRIP#7605 (#7608)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c05e53f2876f782a79345e7831dcbd7344ca9e90"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(changelog): say truthfully how runs queue; pin two edge cases (#7601)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1db06848d7867b256f781e07ec8dfe561b6fec7b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(egress): the HAL-side billing check judges a model the way HAL routes it (#7607)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/01636ebe5633e7ccbd9d83824a5f91fca14f0819"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(ste): run clarify's documented linter step under the test's Python (#7605)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/341af4f9b4b6435fb1ec12c3e3259d8ffdb1435c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(tests): two test files together no longer rewrite the tracked insights file (#7599)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/64530014b627a46ea76f8d2736078753b9d207fe"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): grip-claude-dir-link could never create the junction from Git Bash (#7108)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/57217d229c68f12ea8053aef6a1beb828d03b193"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(changelog): every run restores the entries earlier runs lost (#7588)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/912f8ef0f79f23716704c60b75d298251898aafb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(infinite): report harness-visible errors for the seven-day soak (#7591)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3773d27c19cf1e3ce56ec78d6e877b7c74ca2958"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): the subscription rule names the send-point policy GRIP#7577 bound (#7584)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3342037da300185c25171478973782d5eda7715a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(review-shield): name the private overlay in the footer; pin one more edge (#7583)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c915f29e92195f610cbda506d579008d39cbc97e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(egress): OpenAI per-token billing is refused at every send unless opted in (#7577)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1299743fbf5b71617f87bada87fd0855224aa7cf"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "379 changes / 7 days",
+      "value": "382 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
