@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(rsi): captured insights pass the redaction shield before they are written or sent (#76",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7e1f4ec2e9e54e3cca44e112e202074543fbc394"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(rsi): the post-tool and session-end hooks reach the collector, which refuses to write ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/092b745e04a570cbc5f406dc217592971ee6ec6b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(egress): the OpenAI family table is held equal to HAL's own routing table (#7612)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a76de61fbc0abcc8067e8b13d5385f5c42b417ad"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(auth-failover): an account-wide usage cap notifies and waits unless the operator opts ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c7eb2df86e5cd197589ed266477ebe7d2999792e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "381 changes / 7 days",
+      "value": "378 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
