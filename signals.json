@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(kern): the routing report reads the checkout once; --json says what it prints (#7695)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a04b0c7e0343851c675a469f812e936f463ff7fc"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(kern): report which rules reach which subagent under today's routes (#7691)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f71b74ffe162e35ad60e9e1c3353b596822cac40"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(rules-scope): every rule says who it is for, and the floor's readers are pinned (#768",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/535140a2a68d2413e783b8615f76ff934a404370"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(settings): a fresh install keeps extended rules out of native loading (#7675)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3bbd3fdb005b05255dca0079d4736fcd088adb43"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(remember): route each new rule by channel, annex its narrative, print the size change",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b02e65ef41dc91633929714251a67e6941bbea1f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(kern): render the ratchet summary in all three states; refuse a misspelt ratchet befo",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c350018dbb725fce8174bfa14b8c36cde44fbfe9"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "382 changes / 7 days",
+      "value": "384 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
