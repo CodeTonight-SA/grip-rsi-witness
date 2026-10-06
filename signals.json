@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(rsi): the post-tool and session-end hooks reach the collector, which refuses to write ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/092b745e04a570cbc5f406dc217592971ee6ec6b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(changelog): close a stuck changelog PR only once its entry is on main (#7621)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/601c1c9d4cdc937ebedaff4cb771f15b3fbd1ebc"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(auth-failover): an account-wide usage cap notifies and waits unless the operator opts ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c7eb2df86e5cd197589ed266477ebe7d2999792e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: close two review gaps from GRIP#7600 and GRIP#7605 (#7608)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c05e53f2876f782a79345e7831dcbd7344ca9e90"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "380 changes / 7 days",
+      "value": "381 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
