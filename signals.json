@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(claude-dir-link): answer the AGORA follow-up on GRIP#7108 (GRIP#7590) (#7634)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d113eeb9a9c43a0ad64f782173cd17c18d32c667"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(ports): reserve 7416 for HAL's central brain (#7635)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ad0fa926ee2d521ac24a450ca57cbc0e99580b78"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(rsi): captured insights pass the redaction shield before they are written or sent (#76",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7e1f4ec2e9e54e3cca44e112e202074543fbc394"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(tests): gg++ tests needed Codex installed, not a launcher regression; bind into CI (#7",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/becbb3d831208ab79072df076437a02e7b05676c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rsi-hook): the post-tool hook resolves the install directory, and test_rsi.py runs in ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0faa1385b05fbf630fc4ccb2ea2f1d8382826090"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(egress): the OpenAI family table is held equal to HAL's own routing table (#7612)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a76de61fbc0abcc8067e8b13d5385f5c42b417ad"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "375 changes / 7 days",
+      "value": "377 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
