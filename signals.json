@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "refactor(hal-memory): one shared frontmatter decoder for both readers (#7469)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66a75b1e0b5048f05cc67df9763f35e803e53c44"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(auth-failover): one model's allowance running out no longer counts as a throttle (#749",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a3cb1e7a90ac0980ef3406a9cfad1720138cfc9b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore: commit the shared tree's pending changes, with personal names scrubbed out of the k",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8f74ea6312d99285169aaf1ed7ab62133c7361d6"
         },
@@ -31,22 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(egress): modules that call a model directly pass the redaction shield (#7560)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0763e73cf190b7fb5afa871d51c394b12c5ebf00"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(remember): the README count refreshes even without a stats line (#7556)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/260ee683d4af6887880a7638ac65c9e9001e570a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(wire): Bash commands skip the HAL wire, plus bin/grip-wire-brake (GRIP#7460) (#7547)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/64ebf27b616290e8249317759cc30bdb78845921"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 295 verdicts rest on a resolvable metric; the other 283 were graded from a sentinel that means no collector exists, and are NOT evidence. 566 hypotheses registered.",
+      "caption": "12 of 296 verdicts rest on a resolvable metric; the other 284 were graded from a sentinel that means no collector exists, and are NOT evidence. 566 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
