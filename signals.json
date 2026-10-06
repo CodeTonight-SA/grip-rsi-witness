@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(reasoning-lenses): activate the WARN gate on Stop, three lenses shown (#7638)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f48b45fe561e2ea4a54430917c5dfdef0aaf3ca4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(pr-monitor): the merge sweep also waits for the Codex reviewer (#7625)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/98a3d35e78c3e5596c95638b3144cd2d9ab713a0"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(changelog): close a stuck changelog PR only once its entry is on main (#7621)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/601c1c9d4cdc937ebedaff4cb771f15b3fbd1ebc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(redaction-shield): fake names in two docstring examples; pin two footer edges (#7624",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6aa50ef0970c3211e5954075dfc1ed57f4255da6"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 296 verdicts rest on a resolvable metric; the other 284 were graded from a sentinel that means no collector exists, and are NOT evidence. 568 hypotheses registered.",
+      "caption": "12 of 296 verdicts rest on a resolvable metric; the other 284 were graded from a sentinel that means no collector exists, and are NOT evidence. 569 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -56,14 +56,14 @@
       "caption": "102 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7557",
+      "value": "gen 7558",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "379 changes / 7 days",
+      "value": "380 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {

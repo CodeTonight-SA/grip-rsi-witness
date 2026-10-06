@@ -158,6 +158,7 @@
   <section class="activity" id="activity">
     <div class="shead"><span class="dot"></span><span class="lbl">LIVE</span><span class="cnt">0 in flight</span></div>
     <div class="tower" id="tower">
+      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/f48b45fe561e2ea4a54430917c5dfdef0aaf3ca4" href="https://github.com/CodeTonight-SA/GRIP/commit/f48b45fe561e2ea4a54430917c5dfdef0aaf3ca4" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">feat(reasoning-lenses): activate the WARN gate on Stop, three lenses shown (#7638)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/98a3d35e78c3e5596c95638b3144cd2d9ab713a0" href="https://github.com/CodeTonight-SA/GRIP/commit/98a3d35e78c3e5596c95638b3144cd2d9ab713a0" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">feat(pr-monitor): the merge sweep also waits for the Codex reviewer (#7625)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/5e58c3a7af8cd7b628996cf768c6848987b9bfbb" href="https://github.com/CodeTonight-SA/GRIP/commit/5e58c3a7af8cd7b628996cf768c6848987b9bfbb" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">docs(rules): HAL&#x27;s own OpenAI key is guarded now (HAL#667) (#7636)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/d113eeb9a9c43a0ad64f782173cd17c18d32c667" href="https://github.com/CodeTonight-SA/GRIP/commit/d113eeb9a9c43a0ad64f782173cd17c18d32c667" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">test(claude-dir-link): answer the AGORA follow-up on GRIP#7108 (GRIP#7590) (#7634)</span></a>
@@ -165,7 +166,6 @@
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/7e1f4ec2e9e54e3cca44e112e202074543fbc394" href="https://github.com/CodeTonight-SA/GRIP/commit/7e1f4ec2e9e54e3cca44e112e202074543fbc394" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(rsi): captured insights pass the redaction shield before they are written or sent (#76</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/092b745e04a570cbc5f406dc217592971ee6ec6b" href="https://github.com/CodeTonight-SA/GRIP/commit/092b745e04a570cbc5f406dc217592971ee6ec6b" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(rsi): the post-tool and session-end hooks reach the collector, which refuses to write </span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/601c1c9d4cdc937ebedaff4cb771f15b3fbd1ebc" href="https://github.com/CodeTonight-SA/GRIP/commit/601c1c9d4cdc937ebedaff4cb771f15b3fbd1ebc" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(changelog): close a stuck changelog PR only once its entry is on main (#7621)</span></a>
-      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/6aa50ef0970c3211e5954075dfc1ed57f4255da6" href="https://github.com/CodeTonight-SA/GRIP/commit/6aa50ef0970c3211e5954075dfc1ed57f4255da6" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">chore(redaction-shield): fake names in two docstring examples; pin two footer edges (#7624</span></a>
     </div>
   </section>
   <main class="wrap">
@@ -179,18 +179,18 @@
     <div class="card">
       <div class="label">Hypotheses tested (grounded)</div>
       <div class="value">8 confirmed / 4 refuted</div>
-      <div class="caption">12 of 296 verdicts rest on a resolvable metric; the other 284 were graded from a sentinel that means no collector exists, and are NOT evidence. 568 hypotheses registered.</div>
+      <div class="caption">12 of 296 verdicts rest on a resolvable metric; the other 284 were graded from a sentinel that means no collector exists, and are NOT evidence. 569 hypotheses registered.</div>
       <div class="verify"><span class="vk">verify</span> <code>python lib/hypothesis_engine.py status</code></div>
     </div>
     <div class="card">
       <div class="label">Genome</div>
-      <div class="value">gen 7557</div>
+      <div class="value">gen 7558</div>
       <div class="caption">102 living genes exported with their fitness scores</div>
       <div class="verify"><span class="vk">verify</span> <code>data/genome-shared.json</code></div>
     </div>
     <div class="card">
       <div class="label">Shipping velocity</div>
-      <div class="value">379 changes / 7 days</div>
+      <div class="value">380 changes / 7 days</div>
       <div class="caption">commits merged to main in the last week, not counting the bot&#x27;s automatic changelog entries</div>
       <div class="verify"><span class="vk">verify</span> <code>git log --oneline --since=&#x27;7 days ago&#x27; origin/main | grep -vc &#x27;chore(changelog): update for PR&#x27;</code></div>
     </div>
