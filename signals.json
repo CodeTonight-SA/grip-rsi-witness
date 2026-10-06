@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(denylist): move five person entries to the private overlay (#7648)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/49e6fcff95f90d51c508378ee2746819ffe43907"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(hal-adapter): a caller's max_tokens is a ceiling the budget retry never exceeds (#7647",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f999a4731b164f019be8a3f2440572265ef9fd50"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(hal-adapter): pass max_tokens, retry budget exhaustion, reroute unknown_model (#7644)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/730941215b4c7de741c87f954aa06520779d9164"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(reasoning-lenses): record in a detached child, so a stalled lock cannot drop the notic",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8686de2c4251940d916291aace9590020c9c7a44"
         },
@@ -26,27 +41,12 @@
           "kind": "shipped",
           "tldr": "test(claude-dir-link): answer the AGORA follow-up on GRIP#7108 (GRIP#7590) (#7634)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d113eeb9a9c43a0ad64f782173cd17c18d32c667"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(ports): reserve 7416 for HAL's central brain (#7635)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ad0fa926ee2d521ac24a450ca57cbc0e99580b78"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rsi): captured insights pass the redaction shield before they are written or sent (#76",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7e1f4ec2e9e54e3cca44e112e202074543fbc394"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rsi): the post-tool and session-end hooks reach the collector, which refuses to write ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/092b745e04a570cbc5f406dc217592971ee6ec6b"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 296 verdicts rest on a resolvable metric; the other 284 were graded from a sentinel that means no collector exists, and are NOT evidence. 571 hypotheses registered.",
+      "caption": "12 of 296 verdicts rest on a resolvable metric; the other 284 were graded from a sentinel that means no collector exists, and are NOT evidence. 572 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -56,14 +56,14 @@
       "caption": "102 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7558",
+      "value": "gen 7560",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "372 changes / 7 days",
+      "value": "373 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
