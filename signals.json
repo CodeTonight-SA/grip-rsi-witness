@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "100 living genes exported with their fitness scores",
+      "caption": "102 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7554",
+      "value": "gen 7555",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "384 changes / 7 days",
+      "value": "381 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
