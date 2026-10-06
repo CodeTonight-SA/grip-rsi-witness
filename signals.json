@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(rules-scope): a fresh install indexes the rules it excludes (#7684)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/02a204ed11488de5bd5dc4ed601e52b4fc1b5a6a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Configure InfiniteMachine hold timeouts and isolate HAL harness sessions (#7665)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c89424562eab02a21f10ca05aa965324d689bb96"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(kern): probe the Claude Code behaviour KERN v2 relies on, before any rule moves (#768",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/71fe478ca457866d32aa6b9e52ac014d8eb60693"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(kern): report instruction-file size on every PR, with a ratchet that only comes down ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/892223782187e800d65859354c1bc9fe37c8a54c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(memory-guard): back MEMORY.md up on Windows, where the hook could never read its input",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/632847bb36822ab26f2d6c8d71ba0f669a5201ea"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(redaction-shield): pin AGORA's three-spellings falsifier (closes GRIP#7659) (#7663)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f085121ca8abd38e3b7e8f507759861b25d9c739"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "379 changes / 7 days",
+      "value": "381 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
