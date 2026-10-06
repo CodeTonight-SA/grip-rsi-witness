@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(rsi-hook): the post-tool hook resolves the install directory, and test_rsi.py runs in ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0faa1385b05fbf630fc4ccb2ea2f1d8382826090"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(egress): the OpenAI family table is held equal to HAL's own routing table (#7612)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a76de61fbc0abcc8067e8b13d5385f5c42b417ad"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(auth-failover): an account-wide usage cap notifies and waits unless the operator opts ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c7eb2df86e5cd197589ed266477ebe7d2999792e"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(tests): two test files together no longer rewrite the tracked insights file (#7599)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/64530014b627a46ea76f8d2736078753b9d207fe"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(holistic): a denylist change rewrites the kernel; a refusal reads as one (#7600)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0470a9eee24fc38f2544c3473331977ea2e405c1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): grip-claude-dir-link could never create the junction from Git Bash (#7108)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/57217d229c68f12ea8053aef6a1beb828d03b193"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "382 changes / 7 days",
+      "value": "383 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
