@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(rules): the subscription rule names the send-point policy GRIP#7577 bound (#7584)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3342037da300185c25171478973782d5eda7715a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(review-shield): name the private overlay in the footer; pin one more edge (#7583)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c915f29e92195f610cbda506d579008d39cbc97e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(egress): OpenAI per-token billing is refused at every send unless opted in (#7577)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1299743fbf5b71617f87bada87fd0855224aa7cf"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(agora): recognise two more no-concerns openers from held-out sittings (#7395)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/afd8c2889397587e0eb06e569a9ccc3434831b6a"
         },
@@ -26,27 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(auth-failover): one model's allowance running out no longer counts as a throttle (#749",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a3cb1e7a90ac0980ef3406a9cfad1720138cfc9b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore: commit the shared tree's pending changes, with personal names scrubbed out of the k",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8f74ea6312d99285169aaf1ed7ab62133c7361d6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(hal): pin the audit refusal ahead of the no-failover guard (#7569)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/04f8d1498cc5ed1f45dfc9a9fc18d56f407d85e9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hal): a no-failover call is never answered by the legacy chain (#7566)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f4f8f5e03b997833e485b0775401e11f8a9e2eb2"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 296 verdicts rest on a resolvable metric; the other 284 were graded from a sentinel that means no collector exists, and are NOT evidence. 566 hypotheses registered.",
+      "caption": "12 of 296 verdicts rest on a resolvable metric; the other 284 were graded from a sentinel that means no collector exists, and are NOT evidence. 567 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "377 changes / 7 days",
+      "value": "380 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
