@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(tests): two test files together no longer rewrite the tracked insights file (#7599)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/64530014b627a46ea76f8d2736078753b9d207fe"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(holistic): a denylist change rewrites the kernel; a refusal reads as one (#7600)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0470a9eee24fc38f2544c3473331977ea2e405c1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): grip-claude-dir-link could never create the junction from Git Bash (#7108)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/57217d229c68f12ea8053aef6a1beb828d03b193"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(changelog): every run restores the entries earlier runs lost (#7588)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/912f8ef0f79f23716704c60b75d298251898aafb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(infinite): report harness-visible errors for the seven-day soak (#7591)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3773d27c19cf1e3ce56ec78d6e877b7c74ca2958"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(rules): the subscription rule names the send-point policy GRIP#7577 bound (#7584)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3342037da300185c25171478973782d5eda7715a"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(egress): OpenAI per-token billing is refused at every send unless opted in (#7577)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1299743fbf5b71617f87bada87fd0855224aa7cf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): recognise two more no-concerns openers from held-out sittings (#7395)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/afd8c2889397587e0eb06e569a9ccc3434831b6a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(redaction-shield): overlay only when no path is named; outbound shields merge it (#757",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f5a39560abdfc8e3edc9040812a9100d51630cf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(redaction-shield): merge a private overlay first; publisher refuses without it (#7575",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b530fb2b6d298b163fa097d233333fdfc3fefb17"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "refactor(hal-memory): one shared frontmatter decoder for both readers (#7469)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66a75b1e0b5048f05cc67df9763f35e803e53c44"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(auth-failover): one model's allowance running out no longer counts as a throttle (#749",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a3cb1e7a90ac0980ef3406a9cfad1720138cfc9b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "380 changes / 7 days",
+      "value": "379 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
