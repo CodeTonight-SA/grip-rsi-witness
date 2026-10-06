@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(rules): HAL's own OpenAI key is guarded now (HAL#667) (#7636)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e58c3a7af8cd7b628996cf768c6848987b9bfbb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(claude-dir-link): answer the AGORA follow-up on GRIP#7108 (GRIP#7590) (#7634)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d113eeb9a9c43a0ad64f782173cd17c18d32c667"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(denylist): drop the entries now kept in the private overlay (#7585)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d40614c74104379ede369a520ece0164311dcb9f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): gg++ tests needed Codex installed, not a launcher regression; bind into CI (#7",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/becbb3d831208ab79072df076437a02e7b05676c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "377 changes / 7 days",
+      "value": "378 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
