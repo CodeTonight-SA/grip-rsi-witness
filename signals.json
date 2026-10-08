@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(wa-identities): read real WhatsApp IDs from one private local file (#7727)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0e02e5adaed57e9ecaa1ad68541aece7117cfa7c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(infinite-stop): register HAL's brake module before loading it (#7724)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ebbe861a5e5f1899749963ee12dc6a13abdc4502"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(deps): bump sharp to 0.35.5 and pin source-map-js in lib/whatsapp-client (#7708)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/03516f2e857d44cd10591fa9387f37eade114f19"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): patch critical proxy-addr advisory in mcp-servers/grip-mcp-web (#7698)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d10f4127a9a5fbc8354411a87f7c2e2effd731ec"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "394 changes / 7 days",
+      "value": "395 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
