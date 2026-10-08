@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(closeout): keep the closeout tests out of the real checkout's git (#7788)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/419999f40a646689fd1073afbf07aaa7b5cb9da8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(relay-bill): refuse a second token of an organisation already in the pool (#7775)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/02f423705da71352d55eff8f6d4b7ea1f0cd0e63"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(agents): restore Explore's lean context and regenerate the agents list (#7768)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/68db44303434dc7d53f460b64976e01891243a30"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Default general-purpose and Explore subagents to Sonnet 5 (#7764)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/09ef61c92b6adca01e837223ed9de60be4dccc7c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "412 changes / 7 days",
+      "value": "413 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
