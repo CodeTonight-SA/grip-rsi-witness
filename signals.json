@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(wa): an obvious fake for the operator's number in transport tests and docstrings (#77",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/340a77a8d4eeb22433c1ca4bd747cff0e67856cd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(wa-identities): notifiers read the operator from the private file (#7729)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6958051adec14b078021f6cb241654a57dde8b63"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(wa-identities): read real WhatsApp IDs from one private local file (#7727)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0e02e5adaed57e9ecaa1ad68541aece7117cfa7c"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(deps): override source-map-js to ^1.2.2 and postcss-selector-parser to ^7.1.6 in remot",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c98254828414e031f95553f0054fdc3d9d71117"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): patch critical proxy-addr advisory in mcp-servers/grip-apps (#7697)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9391bbd63f629ebf69521b9bfd00e07977ba25e0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): bump sharp to 0.35.5 and pin source-map-js in lib/whatsapp-client (#7708)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/03516f2e857d44cd10591fa9387f37eade114f19"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "395 changes / 7 days",
+      "value": "397 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
