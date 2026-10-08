@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(relay-bill): refuse a second token of an organisation already in the pool (#7775)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/02f423705da71352d55eff8f6d4b7ea1f0cd0e63"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(codex-handoff): import fcntl through the _compat shim (#7783)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1d6f68507b12884a313a0c07ddd9205c29af5d05"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "Default general-purpose and Explore subagents to Sonnet 5 (#7764)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/09ef61c92b6adca01e837223ed9de60be4dccc7c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(fanout-preflight): refuse a fan-out when HAL's live ledger shows no room left (#7759)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6384a73b46902c6970a4603246420b316618e334"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "411 changes / 7 days",
+      "value": "412 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
