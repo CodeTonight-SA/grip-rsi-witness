@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(wa-identities): kit, deploy sweep, shim and skills drop the number (#7740)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b6a31181efe89b578bac06317920a89cbf2d8cbb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(deps): bump @modelcontextprotocol/sdk to 1.31.0 in mcp-servers/grip-mcp-desktop (#7739",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dd22921051011c455e48526e830350372a71bc32"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(deps): bump @modelcontextprotocol/sdk to 1.31.0 in mcp-servers/grip-channel (#7741)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c02a49010d5e182c6ac2e3e010151a44a48ffae4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(deps): bump @modelcontextprotocol/sdk to 1.31.0 in mcp-servers/grip-apps (#7738)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d041d452f370b4032d3591e14caf2171be73c0ce"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(deps): bump @modelcontextprotocol/sdk to 1.31.0 in mcp-servers/grip-mcp-web (#7737)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a87f1c77ddf28d3d5e5899f281dd8ed0ea78a08c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(deps): bump @modelcontextprotocol/sdk to 1.31.0 in mcp-servers/hal-mcp (#7736)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6188fc2492a16156b38ccb1ee8abd25935d20ac0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(wa-identities): the code that recognises V>> and the team group reads the private fil",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/72473790bc575729096cad04d5232f561c7d2c28"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "test(wa): an obvious fake for the operator's number in transport tests and docstrings (#77",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/340a77a8d4eeb22433c1ca4bd747cff0e67856cd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(wa-identities): notifiers read the operator from the private file (#7729)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6958051adec14b078021f6cb241654a57dde8b63"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(wa-identities): read real WhatsApp IDs from one private local file (#7727)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0e02e5adaed57e9ecaa1ad68541aece7117cfa7c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(infinite-stop): register HAL's brake module before loading it (#7724)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ebbe861a5e5f1899749963ee12dc6a13abdc4502"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(infinite-cycle): W4 capacity relief -- the GRIP half of GRIP#7720 (#7722)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8212a7c596844e219b50d9d3fc8c0a7b1397bf9f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): override source-map-js to ^1.2.2 in apps/grip-web (#7704)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6921c289f74e14fa8c38957f0345b620dd006251"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): override source-map-js to ^1.2.2 in site (#7706)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/22ceef33643426c94910af1ed49b60666a200984"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "398 changes / 7 days",
+      "value": "404 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
