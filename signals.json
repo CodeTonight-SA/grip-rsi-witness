@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(codex): hand a stalled Claude task to Codex on the ChatGPT plan (#7777)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/78bd13cf0367840d6073ce44f270b87310398cd4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ladder): stop on an ordinary codex error instead of moving down (#7780)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/075fdd673f4560cfe6b354e3c9c8cbb3fa58c488"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(shield): an ISO date after a diff's \"+\" is not a phone number (#7770)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a5b162553c050ee8c8689f621367e859d5165a5"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(rules): the grip-env OpenAI export is gated now (HAL#699) (#7760)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8dea9e16e34b35eb95d2eeec9b66e86c47c3f9e7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(settings): turn on autoContinueAtUsageLimit (#7754)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fada1987d7cd662a7ab0ec09dc867351d8c3bffe"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(wa-identities): notify test checks the recipient; two lookup notes (#7757)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a01036d7b92039a4768c4586171907e1fa56868c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "408 changes / 7 days",
+      "value": "410 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
