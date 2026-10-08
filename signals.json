@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(fanout-preflight): refuse a fan-out when HAL's live ledger shows no room left (#7759)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6384a73b46902c6970a4603246420b316618e334"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(rules): the grip-env OpenAI export is gated now (HAL#699) (#7760)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8dea9e16e34b35eb95d2eeec9b66e86c47c3f9e7"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(wa-identities): unchecked kit scan is incomplete; send skill uses grip-py (#7749)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b3d66d2a9323cf72f3afea703fc53e6435d03e1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(wa-identities): kit, deploy sweep, shim and skills drop the number (#7740)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b6a31181efe89b578bac06317920a89cbf2d8cbb"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "411 changes / 7 days",
+      "value": "412 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
