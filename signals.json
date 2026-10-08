@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(wa-identities): notify test checks the recipient; two lookup notes (#7757)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a01036d7b92039a4768c4586171907e1fa56868c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(grip-channel): daemon reads the operator's WhatsApp ID from the private file (#7752)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2067eb0f95f6d753ab077d82a893892f4b1774f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(deps): bump @modelcontextprotocol/sdk to 1.31.0 in mcp-servers/grip-channel (#7741)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c02a49010d5e182c6ac2e3e010151a44a48ffae4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): bump @modelcontextprotocol/sdk to 1.31.0 in mcp-servers/grip-apps (#7738)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d041d452f370b4032d3591e14caf2171be73c0ce"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "408 changes / 7 days",
+      "value": "409 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
