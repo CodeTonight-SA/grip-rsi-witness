@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(grip-channel): daemon reads the operator's WhatsApp ID from the private file (#7752)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2067eb0f95f6d753ab077d82a893892f4b1774f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(wa-identities): pin the dogfood workflows' notify command (#7755)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2fdddcc698c5ae287aaf7f2464a0b829e2356483"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(wa-identities): tests, rules, a skill and two workflows drop real IDs (#7751)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/74af29232ccdf31c21e01ec2cb9ea57e2ee4f990"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(wa-identities): unchecked kit scan is incomplete; send skill uses grip-py (#7749)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b3d66d2a9323cf72f3afea703fc53e6435d03e1"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(deps): bump @modelcontextprotocol/sdk to 1.31.0 in mcp-servers/grip-apps (#7738)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d041d452f370b4032d3591e14caf2171be73c0ce"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): bump @modelcontextprotocol/sdk to 1.31.0 in mcp-servers/grip-mcp-web (#7737)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a87f1c77ddf28d3d5e5899f281dd8ed0ea78a08c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): bump @modelcontextprotocol/sdk to 1.31.0 in mcp-servers/hal-mcp (#7736)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6188fc2492a16156b38ccb1ee8abd25935d20ac0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(wa-identities): the code that recognises V>> and the team group reads the private fil",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/72473790bc575729096cad04d5232f561c7d2c28"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "405 changes / 7 days",
+      "value": "408 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
