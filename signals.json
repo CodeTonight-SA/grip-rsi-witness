@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(shield): an ISO date after a diff's \"+\" is not a phone number (#7770)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a5b162553c050ee8c8689f621367e859d5165a5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(statusline): show live Claude usage limits and warn sessions at 70% (#7762)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/478e937ef0070f983ea77d162aee11f7dc1cfb46"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(agents): restore Explore's lean context and regenerate the agents list (#7768)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/68db44303434dc7d53f460b64976e01891243a30"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(wa-identities): notify test checks the recipient; two lookup notes (#7757)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a01036d7b92039a4768c4586171907e1fa56868c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(grip-channel): daemon reads the operator's WhatsApp ID from the private file (#7752)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2067eb0f95f6d753ab077d82a893892f4b1774f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(wa-identities): pin the dogfood workflows' notify command (#7755)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2fdddcc698c5ae287aaf7f2464a0b829e2356483"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "414 changes / 7 days",
+      "value": "408 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
