@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(codex-handoff): import fcntl through the _compat shim (#7783)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1d6f68507b12884a313a0c07ddd9205c29af5d05"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(codex): hand a stalled Claude task to Codex on the ChatGPT plan (#7777)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/78bd13cf0367840d6073ce44f270b87310398cd4"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(fanout-preflight): refuse a fan-out when HAL's live ledger shows no room left (#7759)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6384a73b46902c6970a4603246420b316618e334"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): the grip-env OpenAI export is gated now (HAL#699) (#7760)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8dea9e16e34b35eb95d2eeec9b66e86c47c3f9e7"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "410 changes / 7 days",
+      "value": "411 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
