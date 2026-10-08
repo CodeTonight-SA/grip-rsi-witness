@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(wa-identities): the code that recognises V>> and the team group reads the private fil",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/72473790bc575729096cad04d5232f561c7d2c28"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(wa): an obvious fake for the operator's number in transport tests and docstrings (#77",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/340a77a8d4eeb22433c1ca4bd747cff0e67856cd"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(deps): override source-map-js to ^1.2.2 in site (#7706)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/22ceef33643426c94910af1ed49b60666a200984"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): override source-map-js to ^1.2.2 and postcss-selector-parser to ^7.1.6 in remot",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c98254828414e031f95553f0054fdc3d9d71117"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "397 changes / 7 days",
+      "value": "398 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
