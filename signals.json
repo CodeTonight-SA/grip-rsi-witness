@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(settings): turn on autoContinueAtUsageLimit (#7754)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fada1987d7cd662a7ab0ec09dc867351d8c3bffe"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(wa-identities): notify test checks the recipient; two lookup notes (#7757)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a01036d7b92039a4768c4586171907e1fa56868c"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(deps): bump @modelcontextprotocol/sdk to 1.31.0 in mcp-servers/grip-mcp-desktop (#7739",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/dd22921051011c455e48526e830350372a71bc32"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): bump @modelcontextprotocol/sdk to 1.31.0 in mcp-servers/grip-channel (#7741)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c02a49010d5e182c6ac2e3e010151a44a48ffae4"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "409 changes / 7 days",
+      "value": "410 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
