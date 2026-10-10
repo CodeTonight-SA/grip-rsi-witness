@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(messenger): real home-screen icons and a safer service worker (#7945)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c698981c6170428996def5887fa094efe61734fb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ste): the fact bench waits out a rate limit and resumes a record (#7938)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/58e47a3f076b8925f48ae34c1406d852fcbab3cc"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(shield): scrub decision-model requests at every depth (#7933)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0baf0ee4d2fb2f211949b4281401894f1fdefa46"
         },
@@ -31,22 +41,12 @@
           "kind": "shipped",
           "tldr": "feat(ste): the fact bench, proven on fake seats, with its twenty passages chosen (#7928)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8e3db29a2a361a59dc1a4a397d0b33d481befec0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ste): hidden counters, trial arms and the arm report with planted controls (#7926)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d4256b81b59b915e797709453a5eaf22f518b1e3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(heartbeat): refresh CC releases on every wake, alarm when the corpus goes stale (#7917",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/284eee45beaa559ff2e8830040d1851fa2241792"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 297 verdicts rest on a resolvable metric; the other 285 were graded from a sentinel that means no collector exists, and are NOT evidence. 580 hypotheses registered.",
+      "caption": "12 of 297 verdicts rest on a resolvable metric; the other 285 were graded from a sentinel that means no collector exists, and are NOT evidence. 581 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "282 changes / 7 days",
+      "value": "284 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
