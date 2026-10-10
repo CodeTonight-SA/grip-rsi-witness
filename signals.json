@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(dogfood): domain 7, REA reverse-engineering evidence as an idempotent fold, proven on",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/60f01809152f9804c30eb503d72685d91f58d764"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(lenses): Jev screens the cheap-signal flags; the council still decides (#7968)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/257e18d5212255bcde5250eedbee4b7d414debdf"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(rea): the keep-up loop for the REA tool server, a configuration of cc_auto_harness (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd8dd894e7b4f88aa1597bbba0bbc4054a171f77"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(rea): attach the REA reverse-engineering tool server opt-in, behind a capability-lock",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f06b4fc05e5e22f93f56038b99f4d97f587c39fb"
         },
@@ -26,27 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(messenger): voice notes keep playing, load on tap, and recover (#7949)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7f3f0a9cf4632b9d0dbf66ca1e68f639615bf0c9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(messenger): alert the Mac even when the WhatsApp relay fails (#7953)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d685087297f101a50b24323a778aca6fab4743c6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(agora): tell speakers and the judge that bracketed placeholders are redactions (#7879",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b07b0515c3ab20e9fda2987001515ad49e662207"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(classify): ask HAL's decision model first, the chat model when it is unsure (#7950)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7e28bb8e2fb6a2597a76166c22d241c2a509e7f"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 301 verdicts rest on a resolvable metric; the other 289 were graded from a sentinel that means no collector exists, and are NOT evidence. 587 hypotheses registered.",
+      "caption": "12 of 301 verdicts rest on a resolvable metric; the other 289 were graded from a sentinel that means no collector exists, and are NOT evidence. 588 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "283 changes / 7 days",
+      "value": "286 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Reverse engineer a shipped binary, app, JavaScript or Electron bundle, APK, firm",
+          "name": "/reverse-engineering"
+        },
         {
           "desc": "Coin a slash verb GRIP does not know and bind it, through one Koppel round with ",
           "name": "/verbind"
@@ -96,10 +100,6 @@
         {
           "desc": "Cross-harness usage fuel-gauge — see how much AI you burned across every coding ",
           "name": "/meter"
-        },
-        {
-          "desc": "Audits whether a codebase is actually ready to be released, by reading it from a",
-          "name": "/infiltrate"
         }
       ],
       "tip": "Banach idempotence: if improve(state) == state, the loop has converged. Provable, not felt."
