@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(canonical-style): the owner test -- stop the closer handing agent-doable steps to the",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7aa4d25177aaaaae88c02f0b1be95f1ea3c5e830"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(evo): bound the CUBE scan with a SIGKILLable subprocess and lib-scoped cache key (#785",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cade05752ac85f7b8b12302b6ee23a23503eb0cc"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs: remove a former contact from guides, skills and rules (#7830)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/dab924cf4a809401a351a8acc8d201802c440fe6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(cloud): link a cloud clone's GRIP skills, commands and launchers into ~/.claude (#783",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0d2f3fe44d615c4812ed593b2f5814109ada98cb"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "286 changes / 7 days",
+      "value": "285 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
