@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(evo): bound the CUBE scan with a SIGKILLable subprocess and lib-scoped cache key (#785",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cade05752ac85f7b8b12302b6ee23a23503eb0cc"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(grip-channel): only the operator's own chat counts as a note-to-self (#7851)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2bc4b14d96d74b78d5d99d7d36782d17f9ab4f8d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hal-services): status, remove and env accept the install options; brain refusal pinned",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/98c20567b1a4b004f58434244d2d919d21737841"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(cloud): link a cloud clone's GRIP skills, commands and launchers into ~/.claude (#783",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0d2f3fe44d615c4812ed593b2f5814109ada98cb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: use fictitious contacts in the remaining DONNA, COS and intel tests (#7831)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cdc92a6fb3aaf9d483a69a5420b7d50798ed82df"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip): stop grip-tier fallback reading unbound top-level script_dir (#7836)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dd04d9d2f02f016fd90950a012362ff869a85a57"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "285 changes / 7 days",
+      "value": "286 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
