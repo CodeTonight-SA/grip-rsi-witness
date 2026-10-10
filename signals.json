@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(grip-channel): refuse queued sends to recipients Baileys cannot decode (#7868)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9bb681efeb4b8a7d4533e89c0847fe92f6925acf"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(grip): grip tier, output-tier and a failing resolver no longer end grip (#7870)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d254c74bdd7ad4b34a39d9ad98d60ee164d1b9d3"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(canonical-style): the owner test -- stop the closer handing agent-doable steps to the",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7aa4d25177aaaaae88c02f0b1be95f1ea3c5e830"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(guards): name projects, not former contacts, in guard patterns and fixtures (#7832)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/20ae6ef7db68879d2a87eed5bda23104ec4a29b6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(relay): read WhatsApp identity maps from the private file, and drop former contacts ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cc0b2df011b719d2904d91dd7fc34284e3e188c5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: remove a former contact from guides, skills and rules (#7830)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dab924cf4a809401a351a8acc8d201802c440fe6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "285 changes / 7 days",
+      "value": "284 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
