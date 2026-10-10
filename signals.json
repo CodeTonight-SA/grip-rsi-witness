@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(rea): attach the REA reverse-engineering tool server opt-in, behind a capability-lock",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f06b4fc05e5e22f93f56038b99f4d97f587c39fb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(measurements): the STE fact bench's first run, CONFIRMED on twenty passages (#7963)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/dcbb62988279280407350c93afe6b552bfbf921d"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "feat(classify): ask HAL's decision model first, the chat model when it is unsure (#7950)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7e28bb8e2fb6a2597a76166c22d241c2a509e7f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(messenger): real home-screen icons and a safer service worker (#7945)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c698981c6170428996def5887fa094efe61734fb"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 299 verdicts rest on a resolvable metric; the other 287 were graded from a sentinel that means no collector exists, and are NOT evidence. 583 hypotheses registered.",
+      "caption": "12 of 301 verdicts rest on a resolvable metric; the other 289 were graded from a sentinel that means no collector exists, and are NOT evidence. 587 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "284 changes / 7 days",
+      "value": "283 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
