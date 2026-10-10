@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(measurements): the STE fact bench's first run, CONFIRMED on twenty passages (#7963)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dcbb62988279280407350c93afe6b552bfbf921d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(messenger): keep the Connect button usable when the screen returns (#7960)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ead78d2b7fed65cc3e39fb3b0da2d683759094c0"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(messenger): real home-screen icons and a safer service worker (#7945)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c698981c6170428996def5887fa094efe61734fb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ste): the fact bench waits out a rate limit and resumes a record (#7938)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/58e47a3f076b8925f48ae34c1406d852fcbab3cc"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "290 changes / 7 days",
+      "value": "291 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
