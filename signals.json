@@ -56,14 +56,14 @@
       "caption": "104 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7569",
+      "value": "gen 7570",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "298 changes / 7 days",
+      "value": "297 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
