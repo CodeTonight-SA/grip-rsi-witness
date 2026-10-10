@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(test): anchor the OpenAI family-table mirror on the assignment (#7934)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/218f383c89fdfc98b3b7553432b67ca90d55114b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ste): the fact bench, proven on fake seats, with its twenty passages chosen (#7928)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8e3db29a2a361a59dc1a4a397d0b33d481befec0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ste): hidden counters, trial arms and the arm report with planted controls (#7926)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d4256b81b59b915e797709453a5eaf22f518b1e3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(heartbeat): refresh CC releases on every wake, alarm when the corpus goes stale (#7917",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/284eee45beaa559ff2e8830040d1851fa2241792"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(markdown): fix the balanced nested template AGORA found after #7921, and keep tagged ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30f283d8c11172ef000b27059c3000dd67606c95"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(ste): one instrument for the STE score, a severity-aware hook line, and four scorer f",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/38cc46afed31210122abca3f8b977782d2ce38e4"
         },
@@ -16,37 +41,12 @@
           "kind": "shipped",
           "tldr": "docs(markdown): close the 238 code fences the MD040 auto-fix broke, and fix the fixer (#79",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a60feee3399e89e0003588a0b377a31aff6291cf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(grip-channel): the LAN reachability probe checks it can see before it judges (#7880)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a209cd4013ebcefd17dcd60fc4ec8e22f9f3abe5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(vps-watchdog): word-split WATCHDOG_SLACK_CMD; document hal-server extension (#7869)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a7e2debb72a03afcf9dc828a5c63a96d2bc6b7ea"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(relay): base the VPS reboot gate on a turn marker, not port 8787 (#7874)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d33342a3c3011b4e5208e12796209014b0e4f720"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(anchor-law): name the AGORA-green supersession where the old interactive default is s",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0c409f42d2b06c9011ade99f0ce73a6380ca500"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "ci(grip-channel): run the daemon's vitest suite on every change to it (#7881)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cabee954656729408bc80664317348f46d08ef0a"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 297 verdicts rest on a resolvable metric; the other 285 were graded from a sentinel that means no collector exists, and are NOT evidence. 579 hypotheses registered.",
+      "caption": "12 of 297 verdicts rest on a resolvable metric; the other 285 were graded from a sentinel that means no collector exists, and are NOT evidence. 580 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "273 changes / 7 days",
+      "value": "278 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
