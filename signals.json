@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(installer): install declared deps (cryptography) even when KONO packages present (#784",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ee6c4cd11606c2450b05e98520d7b2bab11e42b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(guards): name projects, not former contacts, in guard patterns and fixtures (#7832)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/20ae6ef7db68879d2a87eed5bda23104ec4a29b6"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(install): refuse empty or root link roots before ln -sfn (#7824)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4c1f8067b9594223b4025adab0a76eef742528f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(records): neutralise former contacts' names in ledgers and notes (#7822)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cac630369a3bdbba824c6592956d4f3858cf9096"
         }
       ],
       "key": "stream"
