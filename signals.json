@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(skills): Jev re-ranks the skill shortlist in shadow, until it earns the banner (#7976",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d912000bb62afd8e47a28545fb71c04889b5048e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(routing): Jev scores each prompt's effort in shadow beside the router's heuristic (#7",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a260b7a8853044830669ae37847b55f992a1d898"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(skill): the reverse-engineering skill's description said REA is attached to every sess",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/986ef9a359a1fc275b471cd71118dbc981f68e9c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(dogfood): domain 7, REA reverse-engineering evidence as an idempotent fold, proven on",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/60f01809152f9804c30eb503d72685d91f58d764"
         },
@@ -26,27 +41,12 @@
           "kind": "shipped",
           "tldr": "docs(measurements): the STE fact bench's first run, CONFIRMED on twenty passages (#7963)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/dcbb62988279280407350c93afe6b552bfbf921d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(messenger): keep the Connect button usable when the screen returns (#7960)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ead78d2b7fed65cc3e39fb3b0da2d683759094c0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(privacy): a floor in front of every decision-model call (#7957)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/268f05ee7fe6284fc5c957d5d802041a17df0b2f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(messenger): voice notes keep playing, load on tap, and recover (#7949)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7f3f0a9cf4632b9d0dbf66ca1e68f639615bf0c9"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 301 verdicts rest on a resolvable metric; the other 289 were graded from a sentinel that means no collector exists, and are NOT evidence. 588 hypotheses registered.",
+      "caption": "12 of 302 verdicts rest on a resolvable metric; the other 290 were graded from a sentinel that means no collector exists, and are NOT evidence. 589 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -56,14 +56,14 @@
       "caption": "104 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7577",
+      "value": "gen 7578",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "286 changes / 7 days",
+      "value": "289 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
