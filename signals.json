@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(shield): scrub decision-model requests at every depth (#7933)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0baf0ee4d2fb2f211949b4281401894f1fdefa46"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore: finish removing former contacts from encrypted files, tests and ignore rules (#7856",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ead60cef68d6eb5eedf39a09adf4e0aaa31b248f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(messenger): pin the upload checks' length guards (#7939)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a63ed56c6211ab92bfe8cb97301b66375059afcf"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(messenger): validate voice-note uploads before any work (#7895)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d7f1d0ed4272f61a4783de0f62c51397f5d6aa91"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(test): anchor the OpenAI family-table mirror on the assignment (#7934)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/218f383c89fdfc98b3b7553432b67ca90d55114b"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(heartbeat): refresh CC releases on every wake, alarm when the corpus goes stale (#7917",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/284eee45beaa559ff2e8830040d1851fa2241792"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(markdown): fix the balanced nested template AGORA found after #7921, and keep tagged ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30f283d8c11172ef000b27059c3000dd67606c95"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ste): one instrument for the STE score, a severity-aware hook line, and four scorer f",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/38cc46afed31210122abca3f8b977782d2ce38e4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(markdown): give nested example templates four-backtick fences, and guard the whole cl",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/656e0178d3987bb6a52ae8e2371444f1ef9629a3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(markdown): close the 238 code fences the MD040 auto-fix broke, and fix the fixer (#79",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a60feee3399e89e0003588a0b377a31aff6291cf"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "104 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7575",
+      "value": "gen 7576",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "278 changes / 7 days",
+      "value": "282 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
