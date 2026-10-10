@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "ci(grip-channel): run the daemon's vitest suite on every change to it (#7881)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cabee954656729408bc80664317348f46d08ef0a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(insights): cap issue creation at a shared three per day, dedupe titles, and report hon",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/53dce48cd206db3bcaf44ba7d19c88dd995c9b11"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(cc-drift): track Claude Code 2.1.295 in wrapper, hook and stall rule (#7893)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4a31f336ef51246844c788edbbc08bc5cadddd7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(finish, e2e): fix the two Codex findings on GRIP#7876 (#7903)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dbc8b7ec61c139422aaa3079048dc75c4eaf7f7a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(skills): update invalid effort frontmatter values to valid ones (#7859)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f98102794a5ee4586b9961726d47e3c8dce1e285"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(messenger): stop stray recordings and keep messages that were lost (#7899)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/232a35c993f05c976981be0b4811d3644f520f4d"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(merge-gate, closer): align the merge gate with AGORA-Green = Merge and finish the own",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f53bd2f8b60a49dd271a3b056315d8aa61e6be2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(messenger): transcribe voice notes only for the operator (#7882)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/87e11e6f2df2d7b36d35ebd5e7f12ead8506732c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(yagni): make dead-code detection single-pass O(N) instead of O(N²) (#7892)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/388e474f3b61132cb90f6a8d24ff30c6bb98e857"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Verify script for the Cloudflare TLS 1.2 / HSTS hardening item (#7867)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d02c7a3da2ece87e5aed2adce310435e5dde9c2d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(backup): pull the VPS's encrypted secrets backup onto ol' trusty, judged by its own f",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f67990b747a27be99698e43b2343f0bbfea13b2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(messenger): take display names from messages, not from the code (#7883)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/276ac870d6fc96faeb490ec24a22be39effb0863"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "267 changes / 7 days",
+      "value": "271 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
