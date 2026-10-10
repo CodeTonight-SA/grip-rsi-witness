@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hal-services): status, remove and env accept the install options; brain refusal pinned",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/98c20567b1a4b004f58434244d2d919d21737841"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(installer): install declared deps (cryptography) even when KONO packages present (#784",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ee6c4cd11606c2450b05e98520d7b2bab11e42b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(grip): stop grip-tier fallback reading unbound top-level script_dir (#7836)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/dd04d9d2f02f016fd90950a012362ff869a85a57"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(install): refuse empty or root link roots before ln -sfn (#7824)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4c1f8067b9594223b4025adab0a76eef742528f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "286 changes / 7 days",
+      "value": "285 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
