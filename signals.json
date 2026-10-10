@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(hal-services): one command that installs, inspects or removes the HAL wire on a host ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1cb9d44ec14152b7f5bd35b7521729f738694324"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(models): repoint retired xAI/DeepSeek ids (Broly roles + provider/council/harness defa",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f4308961b83912ea6629a7ec69a1297b6e66582e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(intel): remove the unused WhatsApp group walker and adapter (#7805)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3cab1a9f55c688e6aa921bc5ac034161ac00a606"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(cc-auto-harness): the release refresh fails loudly instead of reporting success (#7796",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c9be03bf875c28ff5e26cbbf9ccf111c73c3bdf2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(holistic): leave a record marked private out of the kernel, and refresh it (#7797)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/00ba12d7232a19318bb4f3ce6f8060828ca2f345"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(reasoning-lenses): move common sense to the audit log; H786 refuted at 29.3% (#7793)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1de24a349d5e2514d648c30bd7191c62686a4ee2"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "296 changes / 7 days",
+      "value": "298 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
