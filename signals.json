@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(rea): the keep-up loop's first live run -- strip both REA tag prefixes, show only what",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c92942d6c87841d728020264e6af4cbcfe8dcba9"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(skills): Jev re-ranks the skill shortlist in shadow, until it earns the banner (#7976",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d912000bb62afd8e47a28545fb71c04889b5048e"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(rea): attach the REA reverse-engineering tool server opt-in, behind a capability-lock",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f06b4fc05e5e22f93f56038b99f4d97f587c39fb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurements): the STE fact bench's first run, CONFIRMED on twenty passages (#7963)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dcbb62988279280407350c93afe6b552bfbf921d"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "289 changes / 7 days",
+      "value": "290 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
