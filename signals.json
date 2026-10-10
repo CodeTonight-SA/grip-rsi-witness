@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(intel): remove the unused WhatsApp group walker and adapter (#7805)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3cab1a9f55c688e6aa921bc5ac034161ac00a606"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(insights): record which model wrote the report, and name the cause when it is hollow (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/451ab0ed6fb74d1a7a9c503de679fce3986cb52d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(access): remove three WhatsApp senders and an offboarded roster entry (#7803)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff5e83ccf0c4f12f892369c1ee978544ced156c0"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(reasoning-lenses): move common sense to the audit log; H786 refuted at 29.3% (#7793)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1de24a349d5e2514d648c30bd7191c62686a4ee2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(skills): archive 4 unused skills, checked against the whole repository (#7779)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fa60f2942813e763a140e98947952735a43a6498"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(closeout): keep the closeout tests out of the real checkout's git (#7788)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/419999f40a646689fd1073afbf07aaa7b5cb9da8"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "104 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7567",
+      "value": "gen 7568",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "294 changes / 7 days",
+      "value": "296 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
