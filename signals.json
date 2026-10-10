@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(yagni): make dead-code detection single-pass O(N) instead of O(N²) (#7892)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/388e474f3b61132cb90f6a8d24ff30c6bb98e857"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Verify script for the Cloudflare TLS 1.2 / HSTS hardening item (#7867)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d02c7a3da2ece87e5aed2adce310435e5dde9c2d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(backup): pull the VPS's encrypted secrets backup onto ol' trusty, judged by its own f",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f67990b747a27be99698e43b2343f0bbfea13b2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(messenger): take display names from messages, not from the code (#7883)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/276ac870d6fc96faeb490ec24a22be39effb0863"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(grip-channel): refuse queued sends to recipients Baileys cannot decode (#7868)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9bb681efeb4b8a7d4533e89c0847fe92f6925acf"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(evo): bound the CUBE scan with a SIGKILLable subprocess and lib-scoped cache key (#785",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cade05752ac85f7b8b12302b6ee23a23503eb0cc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-channel): only the operator's own chat counts as a note-to-self (#7851)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2bc4b14d96d74b78d5d99d7d36782d17f9ab4f8d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hal-services): status, remove and env accept the install options; brain refusal pinned",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/98c20567b1a4b004f58434244d2d919d21737841"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(installer): install declared deps (cryptography) even when KONO packages present (#784",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ee6c4cd11606c2450b05e98520d7b2bab11e42b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(guards): name projects, not former contacts, in guard patterns and fixtures (#7832)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/20ae6ef7db68879d2a87eed5bda23104ec4a29b6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "262 changes / 7 days",
+      "value": "265 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
