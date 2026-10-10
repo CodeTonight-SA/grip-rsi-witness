@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(messenger): keep the Connect button usable when the screen returns (#7960)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ead78d2b7fed65cc3e39fb3b0da2d683759094c0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(privacy): a floor in front of every decision-model call (#7957)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/268f05ee7fe6284fc5c957d5d802041a17df0b2f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(messenger): voice notes keep playing, load on tap, and recover (#7949)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7f3f0a9cf4632b9d0dbf66ca1e68f639615bf0c9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(messenger): alert the Mac even when the WhatsApp relay fails (#7953)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d685087297f101a50b24323a778aca6fab4743c6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(agora): tell speakers and the judge that bracketed placeholders are redactions (#7879",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b07b0515c3ab20e9fda2987001515ad49e662207"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(classify): ask HAL's decision model first, the chat model when it is unsure (#7950)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7e28bb8e2fb6a2597a76166c22d241c2a509e7f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(messenger): real home-screen icons and a safer service worker (#7945)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c698981c6170428996def5887fa094efe61734fb"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(ste): the fact bench waits out a rate limit and resumes a record (#7938)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/58e47a3f076b8925f48ae34c1406d852fcbab3cc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(shield): scrub decision-model requests at every depth (#7933)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0baf0ee4d2fb2f211949b4281401894f1fdefa46"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore: finish removing former contacts from encrypted files, tests and ignore rules (#7856",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ead60cef68d6eb5eedf39a09adf4e0aaa31b248f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(messenger): pin the upload checks' length guards (#7939)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a63ed56c6211ab92bfe8cb97301b66375059afcf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(messenger): validate voice-note uploads before any work (#7895)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d7f1d0ed4272f61a4783de0f62c51397f5d6aa91"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(test): anchor the OpenAI family-table mirror on the assignment (#7934)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/218f383c89fdfc98b3b7553432b67ca90d55114b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ste): the fact bench, proven on fake seats, with its twenty passages chosen (#7928)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8e3db29a2a361a59dc1a4a397d0b33d481befec0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "284 changes / 7 days",
+      "value": "290 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
