@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(messenger): stop stray recordings and keep messages that were lost (#7899)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/232a35c993f05c976981be0b4811d3644f520f4d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(grip-channel): a queued send must name a server WhatsApp uses (#7878)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/64fdd573897a69ddae4774f2790f8e218a96506a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(merge-gate, closer): align the merge gate with AGORA-Green = Merge and finish the own",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f53bd2f8b60a49dd271a3b056315d8aa61e6be2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(messenger): transcribe voice notes only for the operator (#7882)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/87e11e6f2df2d7b36d35ebd5e7f12ead8506732c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(yagni): make dead-code detection single-pass O(N) instead of O(N²) (#7892)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/388e474f3b61132cb90f6a8d24ff30c6bb98e857"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(messenger): take display names from messages, not from the code (#7883)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/276ac870d6fc96faeb490ec24a22be39effb0863"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-channel): refuse queued sends to recipients Baileys cannot decode (#7868)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9bb681efeb4b8a7d4533e89c0847fe92f6925acf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip): grip tier, output-tier and a failing resolver no longer end grip (#7870)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d254c74bdd7ad4b34a39d9ad98d60ee164d1b9d3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(canonical-style): the owner test -- stop the closer handing agent-doable steps to the",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7aa4d25177aaaaae88c02f0b1be95f1ea3c5e830"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(evo): bound the CUBE scan with a SIGKILLable subprocess and lib-scoped cache key (#785",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cade05752ac85f7b8b12302b6ee23a23503eb0cc"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "265 changes / 7 days",
+      "value": "267 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
