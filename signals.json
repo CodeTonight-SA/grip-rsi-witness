@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(grip-channel): the LAN reachability probe checks it can see before it judges (#7880)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a209cd4013ebcefd17dcd60fc4ec8e22f9f3abe5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(vps-watchdog): word-split WATCHDOG_SLACK_CMD; document hal-server extension (#7869)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a7e2debb72a03afcf9dc828a5c63a96d2bc6b7ea"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(relay): base the VPS reboot gate on a turn marker, not port 8787 (#7874)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d33342a3c3011b4e5208e12796209014b0e4f720"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(anchor-law): name the AGORA-green supersession where the old interactive default is s",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0c409f42d2b06c9011ade99f0ce73a6380ca500"
+        },
+        {
+          "kind": "shipped",
           "tldr": "ci(grip-channel): run the daemon's vitest suite on every change to it (#7881)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cabee954656729408bc80664317348f46d08ef0a"
         },
@@ -21,32 +41,12 @@
           "kind": "shipped",
           "tldr": "docs(finish, e2e): fix the two Codex findings on GRIP#7876 (#7903)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/dbc8b7ec61c139422aaa3079048dc75c4eaf7f7a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(skills): update invalid effort frontmatter values to valid ones (#7859)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f98102794a5ee4586b9961726d47e3c8dce1e285"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(messenger): stop stray recordings and keep messages that were lost (#7899)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/232a35c993f05c976981be0b4811d3644f520f4d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-channel): a queued send must name a server WhatsApp uses (#7878)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/64fdd573897a69ddae4774f2790f8e218a96506a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(merge-gate, closer): align the merge gate with AGORA-Green = Merge and finish the own",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3f53bd2f8b60a49dd271a3b056315d8aa61e6be2"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 297 verdicts rest on a resolvable metric; the other 285 were graded from a sentinel that means no collector exists, and are NOT evidence. 577 hypotheses registered.",
+      "caption": "12 of 297 verdicts rest on a resolvable metric; the other 285 were graded from a sentinel that means no collector exists, and are NOT evidence. 578 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -56,14 +56,14 @@
       "caption": "104 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7572",
+      "value": "gen 7573",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "271 changes / 7 days",
+      "value": "273 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
