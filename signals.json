@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(prove-it): Phase 3.4 support-probe corpus and harness, pre-registered before any live",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/09c28f4be75b2450b8671c1f7ee23d3dd2cbea2b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(prove-it): Jev first on quote support, behind GRIP_PROVEIT_DECIDE, with hermetic test",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a1df67fc25e136b6ddb8691bd3f77519d80d2e7"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(skills): Jev re-ranks the skill shortlist in shadow, until it earns the banner (#7976",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d912000bb62afd8e47a28545fb71c04889b5048e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(routing): Jev scores each prompt's effort in shadow beside the router's heuristic (#7",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a260b7a8853044830669ae37847b55f992a1d898"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "274 changes / 7 days",
+      "value": "275 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
