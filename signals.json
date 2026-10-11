@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(tree-sync): fast-forward the shared tree over files changed locally and on main (#8049",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e722853f39fecea8615f7196c05acfead2774cf2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(resets): a \"reset available\" indicator for every subscription seat (#8052)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a79a0bfe14a4f92b3a2b3e3aca8b9c84a2c1d273"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(model-pin): the pin reaches only GRIP launches (#8050)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3921bcef3b5063763fb3a1ea4e60d212e9abbd73"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(prove-it): H815 -- grow the held-out set, Wilson bound clears 0.95 (#8047)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e0693f2d9e85f482d60868e65ae5953636a932c1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(pr-monitor): write a state line when a merge is refused (#8041)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/372730c8853c866e7a7bd91bdb7d8d73af9ae3c6"
         },
@@ -21,32 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(confidence-gate): the floor returns to 0.70; 0.80 denied an approved force push (#8037",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/76d7ba47fd0648c242d3bf7bcf5860d21e75dd6e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rea): fleet-audit fixes to the api-reverse-engineering skill (#8036)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4c6f89bd2b964285f22d09256634b275e4cd18c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rea): name research and GRASP-demonstration as first-class REA purposes (#8031)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/92962d0e61ef324f430046ddfa2566e5fa5422cb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(prove-it): follow-up to #8025 -- live threshold tracking + licence wording (#8030)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/92fbafa7cf06f0c4ab4bd781df3b834d16019daa"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(prove-it): Phase 3.4 calibration -- the live support reading already holds on hard pa",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ac5ab1eab3e8775b52c628ea04d8c953354b62e"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 305 verdicts rest on a resolvable metric; the other 293 were graded from a sentinel that means no collector exists, and are NOT evidence. 600 hypotheses registered.",
+      "caption": "12 of 305 verdicts rest on a resolvable metric; the other 293 were graded from a sentinel that means no collector exists, and are NOT evidence. 602 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "292 changes / 7 days",
+      "value": "296 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
