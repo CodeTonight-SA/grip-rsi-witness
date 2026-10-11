@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(measurements): H809 support probe passed; the Jev support reading stays opt-in (#8008",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/120f6f839e9367bfad2abe566bae81655ae9ead5"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore: stop tracking logs/overnight-wave-log.jsonl, a run-time log (#8016)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b37cf79d16e9e3d6449b5a6979d681551dac7854"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(prove-it): Jev first on quote support, behind GRIP_PROVEIT_DECIDE, with hermetic test",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a1df67fc25e136b6ddb8691bd3f77519d80d2e7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ste): turn the 2 by 2 trial on; the pre-registration carries its dates (#7989)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8252ace269189c391f2c1027948480b50490f658"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "114 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7580",
+      "value": "gen 7581",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "278 changes / 7 days",
+      "value": "279 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
