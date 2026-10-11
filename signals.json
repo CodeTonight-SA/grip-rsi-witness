@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore: stop tracking logs/overnight-wave-log.jsonl, a run-time log (#8016)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b37cf79d16e9e3d6449b5a6979d681551dac7854"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(codex): wire grip-channel MCP bearer token so codex exec doesn't crash (#8009)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c9d31e11d289546a35cff50887848e14de2435e"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(ste): turn the 2 by 2 trial on; the pre-registration carries its dates (#7989)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8252ace269189c391f2c1027948480b50490f658"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(rea): pin rea-agents 6.4.0 -- classify its 31 new tools, re-measure the attach cost, ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3dc4d01b3b87aa2894b4e2788bfbeec0ff65844f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "277 changes / 7 days",
+      "value": "278 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
