@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(codex): wire grip-channel MCP bearer token so codex exec doesn't crash (#8009)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c9d31e11d289546a35cff50887848e14de2435e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(prove-it): close the two Codex findings raised on GRIP#8000 after it merged (#8006)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e120c9f99cdd890e41ddb4909520b8e4b1c9c733"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(rea): pin rea-agents 6.4.0 -- classify its 31 new tools, re-measure the attach cost, ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3dc4d01b3b87aa2894b4e2788bfbeec0ff65844f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurements): H804 and two test gaps from the Jev screen and routing shadow (#7982)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4652d31eb72f62d48421f722b06047273403955"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "276 changes / 7 days",
+      "value": "277 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
