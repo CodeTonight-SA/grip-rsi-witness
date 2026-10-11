@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore: commit the four regenerated artefacts from the shared tree, shield-verified (#8067)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cdb1b680ac4a6f335ea005089bc4c4a90f134f44"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(messenger): learn the viewer's identity from every poll, keep the app current, never p",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/db1357ac609ad4a9511df1cd24b41cc369386760"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(model-pin): the pin reaches only GRIP launches (#8050)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3921bcef3b5063763fb3a1ea4e60d212e9abbd73"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(prove-it): H815 -- grow the held-out set, Wilson bound clears 0.95 (#8047)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e0693f2d9e85f482d60868e65ae5953636a932c1"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "300 changes / 7 days",
+      "value": "301 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
