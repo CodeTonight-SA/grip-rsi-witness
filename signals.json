@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(codex-account): pin each seat to its billing workspace, keep the ladder order (#8060)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/14a9deb947f051aeec58d45140a1e123c7beefd8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(rea): broaden the reverse-engineering skill's purpose and authorisation wording (#807",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/34bfc1272c2f0ff5630d0c21a2a56dd0cbe622ae"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore: commit the four regenerated artefacts from the shared tree, shield-verified (#8067)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cdb1b680ac4a6f335ea005089bc4c4a90f134f44"
         },
@@ -31,39 +41,29 @@
           "kind": "shipped",
           "tldr": "fix(tree-sync): fast-forward the shared tree over files changed locally and on main (#8049",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e722853f39fecea8615f7196c05acfead2774cf2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(resets): a \"reset available\" indicator for every subscription seat (#8052)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a79a0bfe14a4f92b3a2b3e3aca8b9c84a2c1d273"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(model-pin): the pin reaches only GRIP launches (#8050)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3921bcef3b5063763fb3a1ea4e60d212e9abbd73"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 305 verdicts rest on a resolvable metric; the other 293 were graded from a sentinel that means no collector exists, and are NOT evidence. 604 hypotheses registered.",
+      "caption": "12 of 305 verdicts rest on a resolvable metric; the other 293 were graded from a sentinel that means no collector exists, and are NOT evidence. 605 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "114 living genes exported with their fitness scores",
+      "caption": "111 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7583",
+      "value": "gen 7586",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "301 changes / 7 days",
+      "value": "303 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
