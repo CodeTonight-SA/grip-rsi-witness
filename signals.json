@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(model): one deliberate default model per machine (#8011)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5ae850b996e8a8e9404140ad654ab83d151c56ba"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(idr): pin HAPPI_VERSION to 1.6 (#8013)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b9f24b84cf144e6c855126e2f6fc731e26123917"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "feat(heartbeat): run the REA keep-up refresh as a heartbeat step, beside cc:refresh (#7997",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fb65a59f992a6568c020915e7df946584df8e29"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(prove-it): Phase 3.4 support-probe corpus and harness, pre-registered before any live",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/09c28f4be75b2450b8671c1f7ee23d3dd2cbea2b"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 303 verdicts rest on a resolvable metric; the other 291 were graded from a sentinel that means no collector exists, and are NOT evidence. 593 hypotheses registered.",
+      "caption": "12 of 304 verdicts rest on a resolvable metric; the other 292 were graded from a sentinel that means no collector exists, and are NOT evidence. 593 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "280 changes / 7 days",
+      "value": "281 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
