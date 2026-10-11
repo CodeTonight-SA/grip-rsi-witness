@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(prove-it): close three Codex findings on the Jev support reading and its probe (#8000)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b71827449e4874b7061dbe2bebdbeb253f0f46b4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(heartbeat): run the REA keep-up refresh as a heartbeat step, beside cc:refresh (#7997",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fb65a59f992a6568c020915e7df946584df8e29"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(prove-it): Phase 3.4 support-probe corpus and harness, pre-registered before any live",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/09c28f4be75b2450b8671c1f7ee23d3dd2cbea2b"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(deps): raise music-metadata to 11.16.1 in mcp-servers/grip-channel (#7986)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1dc41855f5c319e8fa34ba7bceb9a38d592efc3a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rea): the keep-up loop's first live run -- strip both REA tag prefixes, show only what",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c92942d6c87841d728020264e6af4cbcfe8dcba9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(skills): Jev re-ranks the skill shortlist in shadow, until it earns the banner (#7976",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d912000bb62afd8e47a28545fb71c04889b5048e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "275 changes / 7 days",
+      "value": "277 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
