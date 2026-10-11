@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(ste): turn the 2 by 2 trial on; the pre-registration carries its dates (#7989)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8252ace269189c391f2c1027948480b50490f658"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(rea): pin rea-agents 6.4.0 -- classify its 31 new tools, re-measure the attach cost, ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3dc4d01b3b87aa2894b4e2788bfbeec0ff65844f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurements): H804 and two test gaps from the Jev screen and routing shadow (#7982)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4652d31eb72f62d48421f722b06047273403955"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(deps): raise music-metadata to 11.16.1 in mcp-servers/grip-channel (#7986)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1dc41855f5c319e8fa34ba7bceb9a38d592efc3a"
         },
@@ -26,44 +41,29 @@
           "kind": "shipped",
           "tldr": "fix(skill): the reverse-engineering skill's description said REA is attached to every sess",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/986ef9a359a1fc275b471cd71118dbc981f68e9c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(dogfood): domain 7, REA reverse-engineering evidence as an idempotent fold, proven on",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/60f01809152f9804c30eb503d72685d91f58d764"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(lenses): Jev screens the cheap-signal flags; the council still decides (#7968)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/257e18d5212255bcde5250eedbee4b7d414debdf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(rea): the keep-up loop for the REA tool server, a configuration of cc_auto_harness (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd8dd894e7b4f88aa1597bbba0bbc4054a171f77"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 302 verdicts rest on a resolvable metric; the other 290 were graded from a sentinel that means no collector exists, and are NOT evidence. 589 hypotheses registered.",
+      "caption": "12 of 302 verdicts rest on a resolvable metric; the other 290 were graded from a sentinel that means no collector exists, and are NOT evidence. 592 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "104 living genes exported with their fitness scores",
+      "caption": "106 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7578",
+      "value": "gen 7579",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "270 changes / 7 days",
+      "value": "273 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
