@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(deps): raise music-metadata to 11.16.1 in mcp-servers/grip-channel (#7986)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1dc41855f5c319e8fa34ba7bceb9a38d592efc3a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(rea): the keep-up loop's first live run -- strip both REA tag prefixes, show only what",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c92942d6c87841d728020264e6af4cbcfe8dcba9"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(rea): the keep-up loop for the REA tool server, a configuration of cc_auto_harness (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd8dd894e7b4f88aa1597bbba0bbc4054a171f77"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(rea): attach the REA reverse-engineering tool server opt-in, behind a capability-lock",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f06b4fc05e5e22f93f56038b99f4d97f587c39fb"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "285 changes / 7 days",
+      "value": "279 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
