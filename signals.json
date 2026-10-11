@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(messenger): learn the viewer's identity from every poll, keep the app current, never p",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/db1357ac609ad4a9511df1cd24b41cc369386760"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(shield): precision for hex-embedded digit runs, ten allowlisted phrases, and the publi",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/760b13652931441576f745389b4156fb705952d5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(billing): list lib/subscription_resets.py in the per-token tripwire (#8062)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/365f8f035b4386830e46c3a7cb2208c0a3ff57f6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurements): fix H815's UDHR-exclusion claim, per AGORA review on #8047 (#8061)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f6f4c5bdc4fa2c6b3fb571e3c99c7f551db6e49"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(tree-sync): fast-forward the shared tree over files changed locally and on main (#8049",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e722853f39fecea8615f7196c05acfead2774cf2"
         },
@@ -21,32 +41,12 @@
           "kind": "shipped",
           "tldr": "feat(prove-it): H815 -- grow the held-out set, Wilson bound clears 0.95 (#8047)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e0693f2d9e85f482d60868e65ae5953636a932c1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(pr-monitor): write a state line when a merge is refused (#8041)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/372730c8853c866e7a7bd91bdb7d8d73af9ae3c6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rea): clarify \"legal\" in is_legal_tool_call is policy-permitted, not authorisation (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ef1629eef83cbcf135e15e24171ccba095fb5dda"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(settings): engage the API-key bucket on a usage cap (#8012)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/10da3486fd0a5f5c0c775d7a0973a6b28d8a7fa3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(confidence-gate): the floor returns to 0.70; 0.80 denied an approved force push (#8037",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/76d7ba47fd0648c242d3bf7bcf5860d21e75dd6e"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 305 verdicts rest on a resolvable metric; the other 293 were graded from a sentinel that means no collector exists, and are NOT evidence. 602 hypotheses registered.",
+      "caption": "12 of 305 verdicts rest on a resolvable metric; the other 293 were graded from a sentinel that means no collector exists, and are NOT evidence. 604 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "296 changes / 7 days",
+      "value": "300 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
