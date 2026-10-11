@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(rea): clarify \"legal\" in is_legal_tool_call is policy-permitted, not authorisation (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ef1629eef83cbcf135e15e24171ccba095fb5dda"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(settings): engage the API-key bucket on a usage cap (#8012)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/10da3486fd0a5f5c0c775d7a0973a6b28d8a7fa3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(confidence-gate): the floor returns to 0.70; 0.80 denied an approved force push (#8037",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/76d7ba47fd0648c242d3bf7bcf5860d21e75dd6e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(rea): fleet-audit fixes to the api-reverse-engineering skill (#8036)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4c6f89bd2b964285f22d09256634b275e4cd18c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(rea): name research and GRASP-demonstration as first-class REA purposes (#8031)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/92962d0e61ef324f430046ddfa2566e5fa5422cb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(prove-it): follow-up to #8025 -- live threshold tracking + licence wording (#8030)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/92fbafa7cf06f0c4ab4bd781df3b834d16019daa"
         },
@@ -16,37 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(codex-ladder): keep the caller's stdin for codex; read the account table on fd 9 (#802",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/964927053cf9a1e146694582cf0997e5bd970c75"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): stop session-end.sh leaking stdout and exiting 128 (#8019)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1cbbf55114463e940123de1dba764f4580befe1e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore: land the four hand edits found on the shared tree (gate floor, AGENTS.md sizing, sp",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fff4622e1cca01219da66b8c172d330ffbf4dc3f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(model): one deliberate default model per machine (#8011)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5ae850b996e8a8e9404140ad654ab83d151c56ba"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(idr): pin HAPPI_VERSION to 1.6 (#8013)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b9f24b84cf144e6c855126e2f6fc731e26123917"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurements): H809 support probe passed; the Jev support reading stays opt-in (#8008",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/120f6f839e9367bfad2abe566bae81655ae9ead5"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 304 verdicts rest on a resolvable metric; the other 292 were graded from a sentinel that means no collector exists, and are NOT evidence. 594 hypotheses registered.",
+      "caption": "12 of 304 verdicts rest on a resolvable metric; the other 292 were graded from a sentinel that means no collector exists, and are NOT evidence. 596 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "286 changes / 7 days",
+      "value": "291 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/meter"
         }
       ],
-      "tip": "Everything is a shim; AI is a syscall — one stable boundary, provider-swappable underneath."
+      "tip": "Rate-limited never blocks: a transient 429 is a retry/failover signal, not a halt."
     }
   ]
 }
