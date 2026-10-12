@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(hal-services): a gateway dry run does not mention the wire CA (#8241)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/800b77f2695e8e7687b3243500ff3e2458f44a12"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(hal-services): only a wire install initialises the wire CA (#8239)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f85b6bb24f0a6939da3026b1e840ff7d724d3d4c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(hal-services): status reads every way the brain's --bind flag is written (#8237)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/349194652d08a366fcd17dd130ff840a69ae77cd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(codex-ladder): a JSON error event that is not the last line is not a cap (#8235)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f39d377144463fb581246411c20d33961cbdedf4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(codex-ladder): read a cap from codex's closing error, never from the job's output (#82",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8e72a223366f0260e0f52bd37a9ba0d1cac51031"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "test(account): three Claude accounts, end to end, from joining to hand-over (#8222)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/18d3723066819fc80c1ff53a1d49db2de686dc81"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(account): a copy that stops part-way says this machine is already done (#8223)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cf43bf43b50bd1df1b938947e41587315bafb67d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(confidence-gate): one constant governs the transcript cut, the unread budget constant ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/564214bf7f3f5e72f32e08595a2e8a9104207fcf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(account): a machine with no pool yet starts one when an account joins (#8217)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/33261fb1ce835964ba4b8da5b22f534ccb8b7b26"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(account): an unreadable pool file never passes for an empty pool (#8215)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44b7fbcf11bf40b937b3f9e0ebfc5a0ed4506076"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "320 changes / 7 days",
+      "value": "324 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
