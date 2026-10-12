@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(confidence-gate): one constant governs the transcript cut, the unread budget constant ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/564214bf7f3f5e72f32e08595a2e8a9104207fcf"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(account): a machine with no pool yet starts one when an account joins (#8217)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/33261fb1ce835964ba4b8da5b22f534ccb8b7b26"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "feat(ultraideate): /ultraideate -- outside ideas, Jev-ranked, operator-picked (#8110)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/87e52ebe1bd133236a59b0fbe96426e2eeb73ae1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): name the REA tool-policy gate's hook-free escape route (#8199)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/142cfcb55c83146c6bd62c0835f853f131cba89a"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 310 verdicts rest on a resolvable metric; the other 298 were graded from a sentinel that means no collector exists, and are NOT evidence. 621 hypotheses registered.",
+      "caption": "12 of 310 verdicts rest on a resolvable metric; the other 298 were graded from a sentinel that means no collector exists, and are NOT evidence. 622 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "315 changes / 7 days",
+      "value": "316 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
