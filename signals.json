@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(commands): regenerate the command inventory for /ultraideate (#8205)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e096026803df27cd2273011a05a514a589a02627"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(heartbeat): a keep-up refresh that exits 0 keeps its stderr warning (closes GRIP#7999)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/51cb00ffedac687bcdf258390371ce7094659233"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ultraideate): /ultraideate -- outside ideas, Jev-ranked, operator-picked (#8110)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/87e52ebe1bd133236a59b0fbe96426e2eeb73ae1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): name the REA tool-policy gate's hook-free escape route (#8199)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/142cfcb55c83146c6bd62c0835f853f131cba89a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(next-step): (mine) runs until a brake fires; prompts reset the chain (#8197)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/436e9758c38b72b9edb2d23c867f5b6e954e2bb3"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(hypotheses): resolve H817 ledger id collision from GRIP#8096 (#8127)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c08b36830a7820e48d8ca9ee2a761f6184c8a8f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(codex): skip a seat too full to finish the job before starting it there (#8185)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b6e927f2dcd594b70c6f56201d0f1ea043212345"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(relay): a failing hand-over check says so, and pin the marker's bucket read (#8186)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c1e3fa27734f55130a5bfa3eed970789dd39aed"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(infinite-cycle): count a reload only on its own receipt; keep API errors out of checkp",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba6c2125af64a8ec2b513e70e731c4c7f6cf9423"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(relay): a spent account hands over to the next pooled account with room (#8164)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30d715e1c892f14ab3cbffbe2b6dfea74566d2f3"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "339 changes / 7 days",
+      "value": "341 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Many ideas from outside models, ranked by Jev, picked by the operator",
+          "name": "/ultraideate"
+        },
         {
           "desc": "Ask Jev (TypeSafe's decision model, via HAL decide) a quick typed yes/no, pick-o",
           "name": "/decide"
@@ -96,10 +100,6 @@
         {
           "desc": "Lands every running GRIP session's uncommitted work through PRs, then shows the ",
           "name": "/fleet-inspection"
-        },
-        {
-          "desc": "A private, read-only watch over the operator's own affairs, work and personal",
-          "name": "/guardian"
         }
       ],
       "tip": "Rate-limited never blocks: a transient 429 is a retry/failover signal, not a halt."
