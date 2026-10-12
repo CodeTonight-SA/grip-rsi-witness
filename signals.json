@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(account): two follow-up tests for grip-account add (an absent fleet path, a hand-plac",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b4a91641bcab508593511e1472c8f4d6c231bce"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(account): three Claude accounts, end to end, from joining to hand-over (#8222)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/18d3723066819fc80c1ff53a1d49db2de686dc81"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(account): a copy that stops part-way says this machine is already done (#8223)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cf43bf43b50bd1df1b938947e41587315bafb67d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(confidence-gate): one constant governs the transcript cut, the unread budget constant ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/564214bf7f3f5e72f32e08595a2e8a9104207fcf"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(agora): a flush-left identifier named GITCRYPT is source, not ciphertext (#8200)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cb0971cf1c39862aa84126fd3efe2043a0c58dac"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(commands): regenerate the command inventory for /ultraideate (#8205)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e096026803df27cd2273011a05a514a589a02627"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(heartbeat): a keep-up refresh that exits 0 keeps its stderr warning (closes GRIP#7999)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/51cb00ffedac687bcdf258390371ce7094659233"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ultraideate): /ultraideate -- outside ideas, Jev-ranked, operator-picked (#8110)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/87e52ebe1bd133236a59b0fbe96426e2eeb73ae1"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "316 changes / 7 days",
+      "value": "319 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
