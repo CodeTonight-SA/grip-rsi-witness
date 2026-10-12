@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(tests): the ladder stub comment names rung 2's separate credits reader (#8250)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2738ca045747a2bdcbc72a9f7593ddd5684c09bc"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(codex-ladder): the ladder stubs end a capped run with codex's own closing error (#824",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/aaf117de512e4fdcbb8c2f6e09dac85f25b506bb"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(hal-services): status reads every way the brain's --bind flag is written (#8237)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/349194652d08a366fcd17dd130ff840a69ae77cd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(codex-ladder): a JSON error event that is not the last line is not a cap (#8235)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f39d377144463fb581246411c20d33961cbdedf4"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "323 changes / 7 days",
+      "value": "319 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
