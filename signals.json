@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hypotheses): resolve H817 ledger id collision from GRIP#8096 (#8127)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c08b36830a7820e48d8ca9ee2a761f6184c8a8f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(codex): skip a seat too full to finish the job before starting it there (#8185)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b6e927f2dcd594b70c6f56201d0f1ea043212345"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(relay): a failing hand-over check says so, and pin the marker's bucket read (#8186)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c1e3fa27734f55130a5bfa3eed970789dd39aed"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(infinite-cycle): count a reload only on its own receipt; keep API errors out of checkp",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ba6c2125af64a8ec2b513e70e731c4c7f6cf9423"
         },
@@ -26,27 +41,12 @@
           "kind": "shipped",
           "tldr": "chore(deps): bump axios in /mcp-servers/grip-mcp-desktop (#6827)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7c1643523f1a801527d8ff15b24eff31c82eddf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(deps): bump fast-uri from 3.1.7 to 3.1.8 in /mcp-servers/hal-mcp (#6828)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3585d5dfa3236625288a4eee12d6412b452f8b59"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(auth-failover): a Claude cap moves to the next subscription; the paid key needs an op",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/14ca8f21d5890a2e6681bfa5ca25abfc3bb9ee4c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(deps): Bump @modelcontextprotocol/sdk in /mcp-servers/grip-mcp-web (#7713)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4db5b459818e23fc6af5e7b33104db7735afaf91"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 308 verdicts rest on a resolvable metric; the other 296 were graded from a sentinel that means no collector exists, and are NOT evidence. 621 hypotheses registered.",
+      "caption": "12 of 308 verdicts rest on a resolvable metric; the other 296 were graded from a sentinel that means no collector exists, and are NOT evidence. 620 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "339 changes / 7 days",
+      "value": "337 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
