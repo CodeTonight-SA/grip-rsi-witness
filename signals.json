@@ -4,66 +4,66 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "feat(hypothesis): Jev's falsifiability score card at registration (#8084)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d18b9269634e6467a8468e8c45a8dab22b3efc07"
+          "tldr": "test(substrate-merge): pin the one case where the ledger merge still loses a row (#8103)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9fbccd072a7008a208fae8a377aea0a12efb2677"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(ste): the lossless gate for rewrites (plan S4), proved on the twenty H778 pairs (#808",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4c112a1a5ac41bdca554dd107bd78c1282d5189b"
+          "tldr": "fix(codex-ladder): a tab or a line break in a registry field no longer drops a seat's work",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/79b14832b451d6fc0532b6b08493facec9796867"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(jev): Phase 5.1 -- calibration you can watch (Jev predicts AGORA's verdict, sealed be",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cad24e082f931f978e0c30567d66016fb651c6ec"
+          "tldr": "feat(infinite): the cycle signs its decision before it sends /clear (#8077)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a07ee0d4b9299ac61c4f7c98afbd6dd177a836a2"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(shield): the redaction floor withholds Tailscale machine names (#8072)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/76d62f358b0b0e7f1a24f5f233f8e37bfc94b3d1"
+          "tldr": "fix(substrate-merge): settle a repeated id row by row when both sides changed it (#8095)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e91cbae29a11b3975395b63b4c8d250cfd3bb27b"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(tree-sync): say \"already held main's change\" when a file is staged (#8073)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/999e517bafc31f73c95877347f521f2bd736258c"
+          "tldr": "feat(activate): add Step 5.95 HAL default model capture (#7791)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4401180a58421b979f5b58df926d94be356137d0"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(codex-account): pin each seat to its billing workspace, keep the ladder order (#8060)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/14a9deb947f051aeec58d45140a1e123c7beefd8"
+          "tldr": "docs(claude-md): the plain model ids budget 950k on Claude Code 2.1.296 (#8090)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b309575a032f58665ee91557963229a792e1375b"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(rea): broaden the reverse-engineering skill's purpose and authorisation wording (#807",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/34bfc1272c2f0ff5630d0c21a2a56dd0cbe622ae"
+          "tldr": "chore(cc-ledger): update harness state with 282-296 releases, convert SKIP entries, defer ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f611a751a3683e993c9fabb2f3e633f52e7f9a1c"
         },
         {
           "kind": "shipped",
-          "tldr": "chore: commit the four regenerated artefacts from the shared tree, shield-verified (#8067)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cdb1b680ac4a6f335ea005089bc4c4a90f134f44"
+          "tldr": "fix(substrate-merge): the ledger's merge driver changes only what changed (#8082)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4afea3c5c14a5c902b9568a1804e5bb978dcdb6"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 305 verdicts rest on a resolvable metric; the other 293 were graded from a sentinel that means no collector exists, and are NOT evidence. 609 hypotheses registered.",
+      "caption": "12 of 306 verdicts rest on a resolvable metric; the other 294 were graded from a sentinel that means no collector exists, and are NOT evidence. 613 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "111 living genes exported with their fitness scores",
+      "caption": "107 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7587",
+      "value": "gen 7588",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "306 changes / 7 days",
+      "value": "313 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
