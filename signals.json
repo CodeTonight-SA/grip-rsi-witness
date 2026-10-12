@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(hypothesis): Jev's falsifiability score card at registration (#8084)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d18b9269634e6467a8468e8c45a8dab22b3efc07"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ste): the lossless gate for rewrites (plan S4), proved on the twenty H778 pairs (#808",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4c112a1a5ac41bdca554dd107bd78c1282d5189b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(jev): Phase 5.1 -- calibration you can watch (Jev predicts AGORA's verdict, sealed be",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cad24e082f931f978e0c30567d66016fb651c6ec"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(shield): the redaction floor withholds Tailscale machine names (#8072)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/76d62f358b0b0e7f1a24f5f233f8e37bfc94b3d1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tree-sync): say \"already held main's change\" when a file is staged (#8073)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/999e517bafc31f73c95877347f521f2bd736258c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(codex-account): pin each seat to its billing workspace, keep the ladder order (#8060)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/14a9deb947f051aeec58d45140a1e123c7beefd8"
         },
@@ -16,37 +41,12 @@
           "kind": "shipped",
           "tldr": "chore: commit the four regenerated artefacts from the shared tree, shield-verified (#8067)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cdb1b680ac4a6f335ea005089bc4c4a90f134f44"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(messenger): learn the viewer's identity from every poll, keep the app current, never p",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/db1357ac609ad4a9511df1cd24b41cc369386760"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(shield): precision for hex-embedded digit runs, ten allowlisted phrases, and the publi",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/760b13652931441576f745389b4156fb705952d5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(billing): list lib/subscription_resets.py in the per-token tripwire (#8062)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/365f8f035b4386830e46c3a7cb2208c0a3ff57f6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurements): fix H815's UDHR-exclusion claim, per AGORA review on #8047 (#8061)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f6f4c5bdc4fa2c6b3fb571e3c99c7f551db6e49"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tree-sync): fast-forward the shared tree over files changed locally and on main (#8049",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e722853f39fecea8615f7196c05acfead2774cf2"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 305 verdicts rest on a resolvable metric; the other 293 were graded from a sentinel that means no collector exists, and are NOT evidence. 605 hypotheses registered.",
+      "caption": "12 of 305 verdicts rest on a resolvable metric; the other 293 were graded from a sentinel that means no collector exists, and are NOT evidence. 609 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -56,14 +56,14 @@
       "caption": "111 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7586",
+      "value": "gen 7587",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "303 changes / 7 days",
+      "value": "306 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
