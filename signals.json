@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(voice): ASD-STE100 as the specification of GRIP's voice, with the Task Card (DRAFT --",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5b0ab1e131671492f0cd5236687c4d9e3b3f01b6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(hal-services): a gateway dry run does not mention the wire CA (#8241)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/800b77f2695e8e7687b3243500ff3e2458f44a12"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(account): two follow-up tests for grip-account add (an absent fleet path, a hand-plac",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b4a91641bcab508593511e1472c8f4d6c231bce"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(account): three Claude accounts, end to end, from joining to hand-over (#8222)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/18d3723066819fc80c1ff53a1d49db2de686dc81"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "324 changes / 7 days",
+      "value": "325 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
