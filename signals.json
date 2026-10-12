@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(rules): an AGORA-mergeable PR is merged by the agent, never handed over as a command ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/430f10569bd3d51157cb3ceeea432fd733540b0d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(voice): ASD-STE100 as the specification of GRIP's voice, with the Task Card (DRAFT --",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5b0ab1e131671492f0cd5236687c4d9e3b3f01b6"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(hal-services): status finds the brain's address in the installed unit; help marks brai",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/44c74183582e22c047d064d94f7772d26ad62016"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(account): two follow-up tests for grip-account add (an absent fleet path, a hand-plac",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b4a91641bcab508593511e1472c8f4d6c231bce"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "325 changes / 7 days",
+      "value": "326 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
