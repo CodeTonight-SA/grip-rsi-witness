@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(prove-it): --chain-dir on render keeps provenance off the shared chain (#8251)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/342fb686bbf07540de799783d66596a9225576b2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(tests): the ladder stub comment names rung 2's separate credits reader (#8250)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2738ca045747a2bdcbc72a9f7593ddd5684c09bc"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(hal-services): only a wire install initialises the wire CA (#8239)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f85b6bb24f0a6939da3026b1e840ff7d724d3d4c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(hal-services): status reads every way the brain's --bind flag is written (#8237)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/349194652d08a366fcd17dd130ff840a69ae77cd"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "293 changes / 7 days",
+      "value": "286 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
