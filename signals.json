@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(account): a machine with no pool yet starts one when an account joins (#8217)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/33261fb1ce835964ba4b8da5b22f534ccb8b7b26"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(account): an unreadable pool file never passes for an empty pool (#8215)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44b7fbcf11bf40b937b3f9e0ebfc5a0ed4506076"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(account): grip-account add joins a new Max account in one command (#8204)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a15b6c11229d205a9505591e169e8c5cd88e0fd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(agora): a flush-left identifier named GITCRYPT is source, not ciphertext (#8200)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cb0971cf1c39862aa84126fd3efe2043a0c58dac"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(commands): regenerate the command inventory for /ultraideate (#8205)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e096026803df27cd2273011a05a514a589a02627"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(tests): name the REA tool-policy gate's hook-free escape route (#8199)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/142cfcb55c83146c6bd62c0835f853f131cba89a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(next-step): (mine) runs until a brake fires; prompts reset the chain (#8197)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/436e9758c38b72b9edb2d23c867f5b6e954e2bb3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(codex): a crashing room check never skips a seat (#8194)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a83cfb4c019032e0ee85e00d049f11f03ad58a65"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(designs): cite sec-default's source and name the managed-hook floor's failure mode (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7d161afd28d21e523fa7d46da45a1318912af7a3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hypotheses): resolve H817 ledger id collision from GRIP#8096 (#8127)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c08b36830a7820e48d8ca9ee2a761f6184c8a8f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "341 changes / 7 days",
+      "value": "344 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
