@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(remember): a rule's narrative annex travels with the rule (closes GRIP#8242) (#8246)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ed3659ae32170a7e06bd28b92bf512b380a012bb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(rules): an AGORA-mergeable PR is merged by the agent, never handed over as a command ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/430f10569bd3d51157cb3ceeea432fd733540b0d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(codex-ladder): read a cap from codex's closing error, never from the job's output (#82",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8e72a223366f0260e0f52bd37a9ba0d1cac51031"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hal-services): status finds the brain's address in the installed unit; help marks brai",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44c74183582e22c047d064d94f7772d26ad62016"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "326 changes / 7 days",
+      "value": "327 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
