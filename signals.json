@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "307 changes / 7 days",
+      "value": "300 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/fleet-inspection"
         }
       ],
-      "tip": "Rate-limited never blocks: a transient 429 is a retry/failover signal, not a halt."
+      "tip": "Parallel over either-or: independent, non-exclusive work runs together, not as a menu."
     }
   ]
 }
