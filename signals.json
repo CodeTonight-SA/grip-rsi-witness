@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "fix(docs): H833 probe note's pre-registration timeline no longer reads as false (#8135)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd867c859956949c391e92573e448e545f2ff431"
+          "tldr": "fix(limits): probe stored accounts with the sign-in variable, not as an API key (#8151)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0cd6ddadba959685037eebc8588e5449c2234498"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(hypothesis): re-register the falsifiability forward test as H833 (#8130)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7bbc0d280ce39b534ea7d667c0a507a89beac1a0"
+          "tldr": "fix(gate): a summary line with a subtests count no longer hides the counts beside it (#815",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/872d876beb18bc56ddba066ad12f40917b16ce92"
         },
         {
           "kind": "shipped",
-          "tldr": "test(codex-ladder): a pinned seat whose sign-in matches its pin is used (the missing contr",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7816d65513da876cec3d69b9dc2142d17c0970c2"
+          "tldr": "fix(council): an empty voice names its stop reason and any thinking (#8149)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/83669de3d21c8f55ff2d3afef5439df8df9a9a4c"
         },
         {
           "kind": "shipped",
-          "tldr": "fix: two checks left red on main by the /decide skill PR (#8129)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/95e7bf0572830e665fb6c821facac3acec43b44e"
+          "tldr": "fix(legal-receipt): the plain summary names the ledger it signed onto (#8146)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f607175dcf209386b4f412c70aa1c59bfa17d5ad"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(witness): M1/M2 mod designs and the grip-witness spike (#8079)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6e032f09d22e92267486ff3b4c8c518092c82fa4"
+          "tldr": "feat(gate): a test count in a commit or PR text must come from a run the session read (#81",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2d31bdf62eb01073f84f4078f18b7c1c5563d944"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(moe): the external scorer scrubs whole before its cut and at its Anthropic exit (#8121",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5b2544a70b2de82ff7d456117a2b761a1d1e49c6"
+          "tldr": "fix(legal-receipt): refuse an empty --chain-dir; name the ledger in the receipt (#8143)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bacff6176f4741e16045d58464f94db97e3878b6"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(lib/sovereign_council): make speaker tokens and Astra timeout configurable via env va",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bf4a3fbdb3d5aa67f759356ea995d940b3413ed7"
+          "tldr": "feat(ledger-seal): every harness mark or defer leaves a signed IDR leaf and a memory recor",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/048a057ad852411b96ed1e497d88e8d5dd4bd11c"
         },
         {
           "kind": "shipped",
-          "tldr": "feat: /decide skill + Jev relevance ordering for pending ultraprompt briefs (#8096)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f943ed8e329cab904ec66272be93c8b37972e59a"
+          "tldr": "feat(legal-receipt): --chain-dir signs a receipt onto a private chain (#8138)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9cce36647e1070ac4cea7602b259c1d43262b29c"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 308 verdicts rest on a resolvable metric; the other 296 were graded from a sentinel that means no collector exists, and are NOT evidence. 617 hypotheses registered.",
+      "caption": "12 of 308 verdicts rest on a resolvable metric; the other 296 were graded from a sentinel that means no collector exists, and are NOT evidence. 619 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "321 changes / 7 days",
+      "value": "324 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
