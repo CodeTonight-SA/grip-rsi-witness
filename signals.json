@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(security-heal): keep the agent's report and skip unchanged alert sets (GRIP#8218) (#82",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7794625290536d37515e4c14de46d4c8aab83fd0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(relay): the manual deploy installs the same files as the automatic one (#8264)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/229c7eaeb8ae8097df847dd134a16a430365f573"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(codex-ladder): the ladder stubs end a capped run with codex's own closing error (#824",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/aaf117de512e4fdcbb8c2f6e09dac85f25b506bb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(remember): a rule's narrative annex travels with the rule (closes GRIP#8242) (#8246)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ed3659ae32170a7e06bd28b92bf512b380a012bb"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "279 changes / 7 days",
+      "value": "276 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
