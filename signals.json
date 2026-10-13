@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(relay): no account hand-over while HAL's account-switch brake is engaged (#8256)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6fc1779ea3070f5c93851767f1fc1930ef93f8ef"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(prove-it): --chain-dir on render keeps provenance off the shared chain (#8251)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/342fb686bbf07540de799783d66596a9225576b2"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(hal-services): a gateway dry run does not mention the wire CA (#8241)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/800b77f2695e8e7687b3243500ff3e2458f44a12"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hal-services): only a wire install initialises the wire CA (#8239)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f85b6bb24f0a6939da3026b1e840ff7d724d3d4c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "280 changes / 7 days",
+      "value": "279 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
