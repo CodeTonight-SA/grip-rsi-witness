@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(account): grip-account ladder previews where a capped account's work goes (#8254)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bbc52b5dea2d9ca5be24a06ef01ea8b12293c903"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(relay): no account hand-over while HAL's account-switch brake is engaged (#8256)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6fc1779ea3070f5c93851767f1fc1930ef93f8ef"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(voice): ASD-STE100 as the specification of GRIP's voice, with the Task Card (DRAFT --",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5b0ab1e131671492f0cd5236687c4d9e3b3f01b6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(hal-services): a gateway dry run does not mention the wire CA (#8241)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/800b77f2695e8e7687b3243500ff3e2458f44a12"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "279 changes / 7 days",
+      "value": "280 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
