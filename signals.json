@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(memory): file auto-saved memories under projects/ on Windows (GRIP#6821) (#8272)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/abe1ae2d41c9328a41b0395a1b129630d82a3cdd"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(guardrail-evasion): give the LLM layer a budget inside the hook timeout (#8270)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/54bea93a125562255c53462f43c4a492e007f238"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(prove-it): --chain-dir on render keeps provenance off the shared chain (#8251)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/342fb686bbf07540de799783d66596a9225576b2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(tests): the ladder stub comment names rung 2's separate credits reader (#8250)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2738ca045747a2bdcbc72a9f7593ddd5684c09bc"
         }
       ],
       "key": "stream"
