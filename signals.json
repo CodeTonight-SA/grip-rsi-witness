@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(guardrail-evasion): give the LLM layer a budget inside the hook timeout (#8270)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/54bea93a125562255c53462f43c4a492e007f238"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(security-heal): keep the agent's report and skip unchanged alert sets (GRIP#8218) (#82",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7794625290536d37515e4c14de46d4c8aab83fd0"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(tests): the ladder stub comment names rung 2's separate credits reader (#8250)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2738ca045747a2bdcbc72a9f7593ddd5684c09bc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(codex-ladder): the ladder stubs end a capped run with codex's own closing error (#824",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aaf117de512e4fdcbb8c2f6e09dac85f25b506bb"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "257 changes / 7 days",
+      "value": "258 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
