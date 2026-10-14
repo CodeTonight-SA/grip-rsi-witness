@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix: gg++ starts Claude on the first try on Windows (#8281)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b212c2097b26f4a185752b21a2305f282a78b3f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(accounts): the ladder preview estimates how long each account lasts (#8277)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/906e8d6ee77ed6527a951f4abb4b685ac816e94d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(relay): a spent account hands over to the first pooled account that can take over (#82",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/42ed5c88d8f769ad2595cafd5c9a6a56c627b25e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(account): grip-account ladder previews where a capped account's work goes (#8254)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bbc52b5dea2d9ca5be24a06ef01ea8b12293c903"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "228 changes / 7 days",
+      "value": "229 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
