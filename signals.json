@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(accounts): the ladder preview estimates how long each account lasts (#8277)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/906e8d6ee77ed6527a951f4abb4b685ac816e94d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(relay): an account reading over 100% is spent, not unread (#8275)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecde9190d55e6a711ac23c42db2b588ddb49d867"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(account): grip-account ladder previews where a capped account's work goes (#8254)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bbc52b5dea2d9ca5be24a06ef01ea8b12293c903"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(relay): no account hand-over while HAL's account-switch brake is engaged (#8256)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6fc1779ea3070f5c93851767f1fc1930ef93f8ef"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "238 changes / 7 days",
+      "value": "239 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
