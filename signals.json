@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "refactor(accounts): one home for \"a reset has passed\", plus the relay's path (#8288)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ed81260094ad800e71940d668ccdef9eb3e0fd4e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(accounts): a reset of 0 has passed, in the relay's reader too (#8286)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/497a615f58ef1f8dde245f8e97411d5c83eb127a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(memory): file auto-saved memories under projects/ on Windows (GRIP#6821) (#8272)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/abe1ae2d41c9328a41b0395a1b129630d82a3cdd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(guardrail-evasion): give the LLM layer a budget inside the hook timeout (#8270)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/54bea93a125562255c53462f43c4a492e007f238"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "232 changes / 7 days",
+      "value": "233 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
