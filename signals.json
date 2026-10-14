@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(accounts): a reset of 0 has passed, in the relay's reader too (#8286)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/497a615f58ef1f8dde245f8e97411d5c83eb127a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(accounts): a reset of 0 has passed, in the relay's reader too (#8286)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f083cdc256516f21aa972561ed1ec75c3a714eb7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(statusline): show a usage reading over 100% instead of dropping it (#8283)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/328ca907ccf48cd60e5916f5bb77f758b258a938"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(guardrail-evasion): give the LLM layer a budget inside the hook timeout (#8270)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/54bea93a125562255c53462f43c4a492e007f238"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(security-heal): keep the agent's report and skip unchanged alert sets (GRIP#8218) (#82",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7794625290536d37515e4c14de46d4c8aab83fd0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(relay): the manual deploy installs the same files as the automatic one (#8264)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/229c7eaeb8ae8097df847dd134a16a430365f573"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "230 changes / 7 days",
+      "value": "232 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
