@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(relay): an account reading over 100% is spent, not unread (#8275)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecde9190d55e6a711ac23c42db2b588ddb49d867"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(memory): file auto-saved memories under projects/ on Windows (GRIP#6821) (#8272)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/abe1ae2d41c9328a41b0395a1b129630d82a3cdd"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(relay): no account hand-over while HAL's account-switch brake is engaged (#8256)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6fc1779ea3070f5c93851767f1fc1930ef93f8ef"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(prove-it): --chain-dir on render keeps provenance off the shared chain (#8251)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/342fb686bbf07540de799783d66596a9225576b2"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "237 changes / 7 days",
+      "value": "238 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
