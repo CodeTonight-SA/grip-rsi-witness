@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(statusline): show a usage reading over 100% instead of dropping it (#8283)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/328ca907ccf48cd60e5916f5bb77f758b258a938"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix: gg++ starts Claude on the first try on Windows (#8281)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b212c2097b26f4a185752b21a2305f282a78b3f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(relay): the manual deploy installs the same files as the automatic one (#8264)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/229c7eaeb8ae8097df847dd134a16a430365f573"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(relay): a spent account hands over to the first pooled account that can take over (#82",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/42ed5c88d8f769ad2595cafd5c9a6a56c627b25e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "229 changes / 7 days",
+      "value": "230 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
