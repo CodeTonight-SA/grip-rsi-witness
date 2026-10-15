@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(audit-chain): prove the first-use race is forced, and cover eight writers (#8401)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/34ea8d80fe1d5ad2cc1d70f9486d4746e0f86e6e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(audit-chain): create the signing key once, so first writers sign with the key on disk ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/91ed2b189737c615e88ba57b413aaa966baec736"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(ocf-guard): measure the file the tool edited, not a CLAUDE_DIR copy (#8378)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/742cae3d73d8448a41088d259ccfbe835930d1e2"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(bin): launchers resolve the venv through resolve_venv_python instead of literal paths ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/77773db982d3abef7099802b1acafa6bac1654c9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(measured-claim-gate): read a dispatched worker's own transcript, not the parent sessio",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/172f32c1e75ff65d4ea1c216cc611e10cab6b812"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(kit): ship only tracked files, plus the packager's own skeletons (#8377)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a2a278ac1a1568767ea060c5d657dde93d193707"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "244 changes / 7 days",
+      "value": "246 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
