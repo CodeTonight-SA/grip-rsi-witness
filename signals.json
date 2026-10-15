@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(accounts): grip-account blackbox, what led up to each usage cap (#8292)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/96bb9329e1030b90742999a0d9ad426e4fe7fb5f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(accounts): the expiry radar, when each pooled token runs out (#8293)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8d2badbf1ab21e8c3b6343b40fa02598dfb79025"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(accounts): the ladder preview estimates how long each account lasts (#8277)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/906e8d6ee77ed6527a951f4abb4b685ac816e94d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(relay): an account reading over 100% is spent, not unread (#8275)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecde9190d55e6a711ac23c42db2b588ddb49d867"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "214 changes / 7 days",
+      "value": "212 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
