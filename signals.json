@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(kit): ship docs/grip-tier-1m-context.md and name HAL as a requirement (#8338)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e0c50d7773342f88dfb7a00c0edc1cb7bdb6decc"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(grip-tier): close SessionStart ordering hazard (#8337)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0e914f4f82032c36381567dc0465b858f09592e4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(hooks): pool-a-offload advisory on Agent/Task and claude -p spawns (pro tier) (#8325)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9df0a3d345cb6be2a1dac70b0d153a482c49582c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(grip-account): say plainly when one account means no pooling (#8334)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f088d6b39d059a5fb1e34723c40aacf25075f322"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(kit): strip author provider rows, scan config for author markers, scrub the gateway h",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f22435d298260f5945548082d6271a15400547df"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(grip-tier): sync model-state to the resolved tier at SessionStart (#8323)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e56110e82dbe634865c9f98ac3d223fb72a6df6f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(grip): export CONTEXT_GATE_MAX from the tier envelope at launch (#8319)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4bd4113ed33fdcc5c6015de62a83764aa978ab99"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(kit): never copy git-ignored local config (#8317)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d32e50a62cd96976d5b53c2701df4cb4ab55c243"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(codex): resolve codex-accounts.json through CLAUDE_DIR, not a fixed ~/.grip path (#831",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2003feb189eb9bb28e2b317e7c29296059ea35f2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(starter-kit): the leak scan no longer aborts on the guard's own AWS example key (#8298",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3a8d298a6c9685afc391887c3d7ebd7f73563da"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "219 changes / 7 days",
+      "value": "222 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
