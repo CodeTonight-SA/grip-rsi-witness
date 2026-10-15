@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(pr-monitor): hold on a red check that is not red on main (#8343)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/12376743eb060ef1034574251687569642452e12"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(kit): the bundle builder accepts HAL's skeleton list too, not only GRIP's (#8365)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/58c44d1e537e04e47e7b576c97ced5defb782142"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(kit): withhold every git-crypt path, scrub the author's home path everywhere, and let",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c1bad61f9ed2cb97088144bd984b41d2609dc4a0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(account): recognise a live session under any spelling of its slot path (#8358)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2078b52256c723b2793c811e55f605cfcb00e29b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(cc-forensics): _snip takes an optional limit, so the worker scan no longer crashes (#8",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9aef4845ca56441ca055e4539c1f3eb2749ded16"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(kit): withhold the author's config files and the packager's own source (#8349)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/82312323f008d4dd4d9b9b010ab61cdb382057f8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(fanout-preflight): threshold by plan tier, and a real gate on pro (#8345)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/604cc06aa1b1c508136afe2aae4c8b10dd9a2e75"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(kit): grip-gift-kit builds the GRIP+HAL bundle for a Pro-plan recipient (#8348)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5012398a6b0287c9c1a730bc0cc5d25e3f446971"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(account): an account slot shares GRIP's projects/ (memory and history) (#8341)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2267ff1c629f557f3f7e0d927f77f2b8de359852"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(kit): ship docs/grip-tier-1m-context.md and name HAL as a requirement (#8338)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e0c50d7773342f88dfb7a00c0edc1cb7bdb6decc"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "107 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7595",
+      "value": "gen 7596",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "229 changes / 7 days",
+      "value": "233 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
