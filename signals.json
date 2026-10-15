@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(accounts): the expiry radar, when each pooled token runs out (#8293)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8d2badbf1ab21e8c3b6343b40fa02598dfb79025"
+        },
+        {
+          "kind": "shipped",
           "tldr": "refactor(accounts): one home for \"a reset has passed\", plus the relay's path (#8288)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ed81260094ad800e71940d668ccdef9eb3e0fd4e"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(relay): an account reading over 100% is spent, not unread (#8275)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecde9190d55e6a711ac23c42db2b588ddb49d867"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(memory): file auto-saved memories under projects/ on Windows (GRIP#6821) (#8272)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/abe1ae2d41c9328a41b0395a1b129630d82a3cdd"
         }
       ],
       "key": "stream"
