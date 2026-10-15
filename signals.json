@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(ocf-guard): measure the file the tool edited, not a CLAUDE_DIR copy (#8378)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/742cae3d73d8448a41088d259ccfbe835930d1e2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(kit): read the identity of the installed tree when a checkout has none (#8394)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c217010e7c2f3521f21538bb1584a70fe5f0b4cd"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(kit): ship only tracked files, plus the packager's own skeletons (#8377)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a2a278ac1a1568767ea060c5d657dde93d193707"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(backup): keep the pull job's plist at a mode launchd accepts; test its hour dispatch (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8d3020c09f4eedc103a8b601ae140641a9474cee"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "243 changes / 7 days",
+      "value": "244 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
