@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(kit): read the identity of the installed tree when a checkout has none (#8394)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c217010e7c2f3521f21538bb1584a70fe5f0b4cd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(kit): scrub the operator's first name and company-domain emails from the kit (anonymi",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f6d75e263a326ddeffca0fb174c1b8e35d2be09e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(mesh): the drift test reads bin/mesh's source, not the live environment (#8390)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0d1c4daaa8f03414c5dd0ebe2aa6e42a226ba2b4"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(backup): keep the pull job's plist at a mode launchd accepts; test its hour dispatch (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8d3020c09f4eedc103a8b601ae140641a9474cee"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(memory-guard): a broken venv-utils library never blocks an edit on bash 3.2 (#8370)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/787ef899d63918ec5501c40857c937bd572deebb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(grip-tier): one helper for the tier's window, and the anchors GRIP#8321 and GRIP#832",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/23ec36ee44cc0b5208d1a7886dbb4480eb02ecd5"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "241 changes / 7 days",
+      "value": "243 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
