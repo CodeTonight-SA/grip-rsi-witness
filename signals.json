@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(kit): never copy git-ignored local config (#8317)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d32e50a62cd96976d5b53c2701df4cb4ab55c243"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(codex): resolve codex-accounts.json through CLAUDE_DIR, not a fixed ~/.grip path (#831",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2003feb189eb9bb28e2b317e7c29296059ea35f2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(starter-kit): the leak scan no longer aborts on the guard's own AWS example key (#8298",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3a8d298a6c9685afc391887c3d7ebd7f73563da"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(relaybill): describe the relay's default per-message stand-in (#8312)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f078996f77ce2f4a327871c2a4adcad593c8c6b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(operational-context): record CodeTonight (Pty) Ltd and its CIPC number (#8297)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/21b2a2b8d202dd0c70c68f74bb0aac1b9eb5e8f1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(account): a relative HOME no longer breaks a slot's settings link (#8308)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f74afcf98a2e4220960f522653302efc9e98b0cd"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(account): an account slot reads GRIP's settings.json (#8300)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e3ab2a0a8bc539bb316f3c2bdae628c9a2ca6f2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(accounts): grip-account blackbox, what led up to each usage cap (#8292)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/96bb9329e1030b90742999a0d9ad426e4fe7fb5f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(accounts): the expiry radar, when each pooled token runs out (#8293)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8d2badbf1ab21e8c3b6343b40fa02598dfb79025"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "refactor(accounts): one home for \"a reset has passed\", plus the relay's path (#8288)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ed81260094ad800e71940d668ccdef9eb3e0fd4e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(accounts): a reset of 0 has passed, in the relay's reader too (#8286)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/497a615f58ef1f8dde245f8e97411d5c83eb127a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(accounts): a reset of 0 has passed, in the relay's reader too (#8286)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f083cdc256516f21aa972561ed1ec75c3a714eb7"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "209 changes / 7 days",
+      "value": "214 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
