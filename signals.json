@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(account): a relative HOME no longer breaks a slot's settings link (#8308)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f74afcf98a2e4220960f522653302efc9e98b0cd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs: record the third Max account in ADR-0016 and the relaybill skill (#8306)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/929298ec0e68641b286a7a2e3106d8b4a24f5f9d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(account): an account slot reads GRIP's settings.json (#8300)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e3ab2a0a8bc539bb316f3c2bdae628c9a2ca6f2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(accounts): grip-account blackbox, what led up to each usage cap (#8292)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/96bb9329e1030b90742999a0d9ad426e4fe7fb5f"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(accounts): a reset of 0 has passed, in the relay's reader too (#8286)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f083cdc256516f21aa972561ed1ec75c3a714eb7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(statusline): show a usage reading over 100% instead of dropping it (#8283)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/328ca907ccf48cd60e5916f5bb77f758b258a938"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: gg++ starts Claude on the first try on Windows (#8281)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b212c2097b26f4a185752b21a2305f282a78b3f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(accounts): the ladder preview estimates how long each account lasts (#8277)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/906e8d6ee77ed6527a951f4abb4b685ac816e94d"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "107 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7592",
+      "value": "gen 7593",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "206 changes / 7 days",
+      "value": "209 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
