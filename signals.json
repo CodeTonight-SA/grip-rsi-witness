@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(measured-claim-gate): read a dispatched worker's own transcript, not the parent sessio",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/172f32c1e75ff65d4ea1c216cc611e10cab6b812"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(kit): ship only tracked files, plus the packager's own skeletons (#8377)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a2a278ac1a1568767ea060c5d657dde93d193707"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(backup): keep the pull job's plist at a mode launchd accepts; test its hour dispatch (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8d3020c09f4eedc103a8b601ae140641a9474cee"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(memory-guard): a broken venv-utils library never blocks an edit on bash 3.2 (#8370)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/787ef899d63918ec5501c40857c937bd572deebb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(grip-tier): one helper for the tier's window, and the anchors GRIP#8321 and GRIP#832",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/23ec36ee44cc0b5208d1a7886dbb4480eb02ecd5"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(pr-monitor): hold on a red check that is not red on main (#8343)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/12376743eb060ef1034574251687569642452e12"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(kit): withhold every git-crypt path, scrub the author's home path everywhere, and let",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c1bad61f9ed2cb97088144bd984b41d2609dc4a0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(account): recognise a live session under any spelling of its slot path (#8358)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2078b52256c723b2793c811e55f605cfcb00e29b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(cc-forensics): _snip takes an optional limit, so the worker scan no longer crashes (#8",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9aef4845ca56441ca055e4539c1f3eb2749ded16"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: context thresholds as fractions of the resolved window, and the Pro-plan vendor fact",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dac3de56b0b0bfd4ddb864efdce80559c267cd1e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(kit): gift-kit installer passes CI's shellcheck; test the final report scan (#8352)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/017650e724661082ddb7c0dfa7b64c8c6b8b77ea"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(kit): withhold the author's config files and the packager's own source (#8349)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/82312323f008d4dd4d9b9b010ab61cdb382057f8"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "233 changes / 7 days",
+      "value": "238 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
