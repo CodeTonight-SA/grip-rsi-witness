@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(cc-forensics): _snip takes an optional limit, so the worker scan no longer crashes (#8",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9aef4845ca56441ca055e4539c1f3eb2749ded16"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs: context thresholds as fractions of the resolved window, and the Pro-plan vendor fact",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dac3de56b0b0bfd4ddb864efdce80559c267cd1e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(kit): gift-kit installer passes CI's shellcheck; test the final report scan (#8352)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/017650e724661082ddb7c0dfa7b64c8c6b8b77ea"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(kit): withhold the author's config files and the packager's own source (#8349)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/82312323f008d4dd4d9b9b010ab61cdb382057f8"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(kit): ship docs/grip-tier-1m-context.md and name HAL as a requirement (#8338)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e0c50d7773342f88dfb7a00c0edc1cb7bdb6decc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-tier): close SessionStart ordering hazard (#8337)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0e914f4f82032c36381567dc0465b858f09592e4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(hooks): pool-a-offload advisory on Agent/Task and claude -p spawns (pro tier) (#8325)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9df0a3d345cb6be2a1dac70b0d153a482c49582c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(grip-account): say plainly when one account means no pooling (#8334)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f088d6b39d059a5fb1e34723c40aacf25075f322"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "107 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7594",
+      "value": "gen 7595",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "226 changes / 7 days",
+      "value": "229 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
