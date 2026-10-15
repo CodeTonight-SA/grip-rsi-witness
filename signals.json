@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(kit): strip author provider rows, scan config for author markers, scrub the gateway h",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f22435d298260f5945548082d6271a15400547df"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(health-check): tier-aware effort and thinking checks, plus a tier-propagation check (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e94cb47d8ae85b9b82fb123c7a5751661f021b43"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(context-gate): default the window from the plan-tier envelope, not 1,000,000 (#8324)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/572cf9db4617330c745b323307308b49cfebaa24"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(grip-tier): sync model-state to the resolved tier at SessionStart (#8323)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e56110e82dbe634865c9f98ac3d223fb72a6df6f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(grip): export CONTEXT_GATE_MAX from the tier envelope at launch (#8319)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4bd4113ed33fdcc5c6015de62a83764aa978ab99"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(kit): never copy git-ignored local config (#8317)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d32e50a62cd96976d5b53c2701df4cb4ab55c243"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(starter-kit): the leak scan no longer aborts on the guard's own AWS example key (#8298",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3a8d298a6c9685afc391887c3d7ebd7f73563da"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(relaybill): describe the relay's default per-message stand-in (#8312)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f078996f77ce2f4a327871c2a4adcad593c8c6b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(operational-context): record CodeTonight (Pty) Ltd and its CIPC number (#8297)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/21b2a2b8d202dd0c70c68f74bb0aac1b9eb5e8f1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(account): a relative HOME no longer breaks a slot's settings link (#8308)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f74afcf98a2e4220960f522653302efc9e98b0cd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: record the third Max account in ADR-0016 and the relaybill skill (#8306)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/929298ec0e68641b286a7a2e3106d8b4a24f5f9d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(account): an account slot reads GRIP's settings.json (#8300)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e3ab2a0a8bc539bb316f3c2bdae628c9a2ca6f2"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "214 changes / 7 days",
+      "value": "219 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
