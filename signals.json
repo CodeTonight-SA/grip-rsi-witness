@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(ci): run the 34 test files added since 2026-09-25 that no CI job ran (#8411)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/601cc18bc67dcbf86d199e5525969c1c76edfdbb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(operational-context): re-fold under the 40,000-character cap (#8374)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fed28670be5158c52abc12e28cd1f432c92bae89"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(audit-chain): prove the first-use race is forced, and cover eight writers (#8401)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/34ea8d80fe1d5ad2cc1d70f9486d4746e0f86e6e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(audit-chain): create the signing key once, so first writers sign with the key on disk ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/91ed2b189737c615e88ba57b413aaa966baec736"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "252 changes / 7 days",
+      "value": "253 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
