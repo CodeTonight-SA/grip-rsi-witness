@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(kit): README says where to run GRIP, and the wizard asks once (#8426)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a622281890b3a12968d46f6222d12d464cbfbbc4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(kit): ship docs/GETTING-STARTED.md and docs/GLOSSARY.md (#8422)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5eee4b01fe76163a978a654be97322838c28bde7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hooks): the Pool B advisory and the model-pin guard join the install profile (#8418)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c8f088959039c49590f554a44d743ac28e7143b"
         },
@@ -31,22 +41,12 @@
           "kind": "shipped",
           "tldr": "test(ci): run the 34 test files added since 2026-09-25 that no CI job ran (#8411)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/601cc18bc67dcbf86d199e5525969c1c76edfdbb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(operational-context): re-fold under the 40,000-character cap (#8374)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fed28670be5158c52abc12e28cd1f432c92bae89"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(pr-monitor): never merge a PR touching a git-crypt-encrypted path (#8386)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f8bf3ad12cd5378da0d2921ce7498c92087136f"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 314 verdicts rest on a resolvable metric; the other 302 were graded from a sentinel that means no collector exists, and are NOT evidence. 631 hypotheses registered.",
+      "caption": "12 of 314 verdicts rest on a resolvable metric; the other 302 were graded from a sentinel that means no collector exists, and are NOT evidence. 632 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "258 changes / 7 days",
+      "value": "260 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
