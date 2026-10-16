@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(kit): START-HERE.html, the six how-to commands and verify.sh (#8428)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ae3587fde21c78c46d214cff191320059998c17"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(voice): grip-speak passes the reply through the redaction shield before Gemini TTS (#8",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/79e6a0c0ac8ba5fa8aa667aad1e9d84f2b9199cf"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(kit): a Pro install runs Sonnet 5.5 at medium effort (#8413)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a0da16b75a8581321cd57029acea6b4dc83d2cc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(ci): bind the older unbound tests that run on a bare runner, and record why the rest ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/beb7e9ab590a88ae062e6d374688809a17f5573c"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "108 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7598",
+      "value": "gen 7599",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "261 changes / 7 days",
+      "value": "262 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
