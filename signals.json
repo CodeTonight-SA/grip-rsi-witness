@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(pr-monitor): never merge a PR touching a git-crypt-encrypted path (#8386)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f8bf3ad12cd5378da0d2921ce7498c92087136f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(statusline): per-harness status line — reason kwarg, portable core, OpenCode TUI leg ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7117767174aa6fae2dba629560e79fd72340ad5f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(ocf-guard): measure the file the tool edited, not a CLAUDE_DIR copy (#8378)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/742cae3d73d8448a41088d259ccfbe835930d1e2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(kit): read the identity of the installed tree when a checkout has none (#8394)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c217010e7c2f3521f21538bb1584a70fe5f0b4cd"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "250 changes / 7 days",
+      "value": "251 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
