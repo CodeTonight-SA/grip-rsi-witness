@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(statusline): per-harness status line — reason kwarg, portable core, OpenCode TUI leg ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7117767174aa6fae2dba629560e79fd72340ad5f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ci): fail a pull request that adds a test file no CI job runs (#8404)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/26cb78bd31419e075f4e6cb53afade04bf39402b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(ci): run tests/test_claude_account_shared_projects.py in CI (#8405)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ec457489322d71b8c3e7b9c16a2f55bba466438"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(kit): read the identity of the installed tree when a checkout has none (#8394)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c217010e7c2f3521f21538bb1584a70fe5f0b4cd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(kit): scrub the operator's first name and company-domain emails from the kit (anonymi",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f6d75e263a326ddeffca0fb174c1b8e35d2be09e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(mesh): the drift test reads bin/mesh's source, not the live environment (#8390)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0d1c4daaa8f03414c5dd0ebe2aa6e42a226ba2b4"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "248 changes / 7 days",
+      "value": "250 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
