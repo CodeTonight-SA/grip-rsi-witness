@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(ci): bind the older unbound tests that run on a bare runner, and record why the rest ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/beb7e9ab590a88ae062e6d374688809a17f5573c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(ci): run the 34 test files added since 2026-09-25 that no CI job ran (#8411)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/601cc18bc67dcbf86d199e5525969c1c76edfdbb"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(kit): a linear-time address scrub, a copyright exemption that keeps only real notices,",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a15f60d3938b151a30c68fdbc9b050a8267f89e9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(audit-chain): prove the first-use race is forced, and cover eight writers (#8401)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/34ea8d80fe1d5ad2cc1d70f9486d4746e0f86e6e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "253 changes / 7 days",
+      "value": "254 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
