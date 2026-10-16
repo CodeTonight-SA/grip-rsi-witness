@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hooks): the Pool B advisory and the model-pin guard join the install profile (#8418)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c8f088959039c49590f554a44d743ac28e7143b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(kit): the first steps launch with gg++, and bare grip works after activation (#8417)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/083fa962dcc482f4f5516ace514bbb99bcca0f79"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(kit): install.sh checks jq and Python 3.10, and codex is found on PATH (#8415)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f71afae5ad9d6b9c9721047c5154269eaa5b5a25"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(kit): a Pro install runs Sonnet 5.5 at medium effort (#8413)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a0da16b75a8581321cd57029acea6b4dc83d2cc"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(ci): bind the older unbound tests that run on a bare runner, and record why the rest ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/beb7e9ab590a88ae062e6d374688809a17f5573c"
         },
@@ -21,32 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(pr-monitor): never merge a PR touching a git-crypt-encrypted path (#8386)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f8bf3ad12cd5378da0d2921ce7498c92087136f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(statusline): per-harness status line — reason kwarg, portable core, OpenCode TUI leg ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7117767174aa6fae2dba629560e79fd72340ad5f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ci): fail a pull request that adds a test file no CI job runs (#8404)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/26cb78bd31419e075f4e6cb53afade04bf39402b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(ci): run tests/test_claude_account_shared_projects.py in CI (#8405)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ec457489322d71b8c3e7b9c16a2f55bba466438"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(kit): a linear-time address scrub, a copyright exemption that keeps only real notices,",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a15f60d3938b151a30c68fdbc9b050a8267f89e9"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 314 verdicts rest on a resolvable metric; the other 302 were graded from a sentinel that means no collector exists, and are NOT evidence. 625 hypotheses registered.",
+      "caption": "12 of 314 verdicts rest on a resolvable metric; the other 302 were graded from a sentinel that means no collector exists, and are NOT evidence. 631 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "254 changes / 7 days",
+      "value": "258 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
