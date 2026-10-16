@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(operational-context): re-fold under the 40,000-character cap (#8374)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fed28670be5158c52abc12e28cd1f432c92bae89"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(pr-monitor): never merge a PR touching a git-crypt-encrypted path (#8386)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f8bf3ad12cd5378da0d2921ce7498c92087136f"
         },
@@ -36,34 +41,29 @@
           "kind": "shipped",
           "tldr": "fix(audit-chain): create the signing key once, so first writers sign with the key on disk ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/91ed2b189737c615e88ba57b413aaa966baec736"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ocf-guard): measure the file the tool edited, not a CLAUDE_DIR copy (#8378)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/742cae3d73d8448a41088d259ccfbe835930d1e2"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "12 of 310 verdicts rest on a resolvable metric; the other 298 were graded from a sentinel that means no collector exists, and are NOT evidence. 624 hypotheses registered.",
+      "caption": "12 of 314 verdicts rest on a resolvable metric; the other 302 were graded from a sentinel that means no collector exists, and are NOT evidence. 624 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "8 confirmed / 4 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "107 living genes exported with their fitness scores",
+      "caption": "108 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7596",
+      "value": "gen 7597",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "251 changes / 7 days",
+      "value": "252 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {

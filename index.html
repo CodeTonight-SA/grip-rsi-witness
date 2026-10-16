@@ -158,6 +158,7 @@
   <section class="activity" id="activity">
     <div class="shead"><span class="dot"></span><span class="lbl">LIVE</span><span class="cnt">0 in flight</span></div>
     <div class="tower" id="tower">
+      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/fed28670be5158c52abc12e28cd1f432c92bae89" href="https://github.com/CodeTonight-SA/GRIP/commit/fed28670be5158c52abc12e28cd1f432c92bae89" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">docs(operational-context): re-fold under the 40,000-character cap (#8374)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/6f8bf3ad12cd5378da0d2921ce7498c92087136f" href="https://github.com/CodeTonight-SA/GRIP/commit/6f8bf3ad12cd5378da0d2921ce7498c92087136f" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(pr-monitor): never merge a PR touching a git-crypt-encrypted path (#8386)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/7117767174aa6fae2dba629560e79fd72340ad5f" href="https://github.com/CodeTonight-SA/GRIP/commit/7117767174aa6fae2dba629560e79fd72340ad5f" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">feat(statusline): per-harness status line — reason kwarg, portable core, OpenCode TUI leg </span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/26cb78bd31419e075f4e6cb53afade04bf39402b" href="https://github.com/CodeTonight-SA/GRIP/commit/26cb78bd31419e075f4e6cb53afade04bf39402b" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">feat(ci): fail a pull request that adds a test file no CI job runs (#8404)</span></a>
@@ -165,7 +166,6 @@
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/a15f60d3938b151a30c68fdbc9b050a8267f89e9" href="https://github.com/CodeTonight-SA/GRIP/commit/a15f60d3938b151a30c68fdbc9b050a8267f89e9" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(kit): a linear-time address scrub, a copyright exemption that keeps only real notices,</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/34ea8d80fe1d5ad2cc1d70f9486d4746e0f86e6e" href="https://github.com/CodeTonight-SA/GRIP/commit/34ea8d80fe1d5ad2cc1d70f9486d4746e0f86e6e" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">test(audit-chain): prove the first-use race is forced, and cover eight writers (#8401)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/91ed2b189737c615e88ba57b413aaa966baec736" href="https://github.com/CodeTonight-SA/GRIP/commit/91ed2b189737c615e88ba57b413aaa966baec736" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(audit-chain): create the signing key once, so first writers sign with the key on disk </span></a>
-      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/742cae3d73d8448a41088d259ccfbe835930d1e2" href="https://github.com/CodeTonight-SA/GRIP/commit/742cae3d73d8448a41088d259ccfbe835930d1e2" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(ocf-guard): measure the file the tool edited, not a CLAUDE_DIR copy (#8378)</span></a>
     </div>
   </section>
   <main class="wrap">
@@ -179,18 +179,18 @@
     <div class="card">
       <div class="label">Hypotheses tested (grounded)</div>
       <div class="value">8 confirmed / 4 refuted</div>
-      <div class="caption">12 of 310 verdicts rest on a resolvable metric; the other 298 were graded from a sentinel that means no collector exists, and are NOT evidence. 624 hypotheses registered.</div>
+      <div class="caption">12 of 314 verdicts rest on a resolvable metric; the other 302 were graded from a sentinel that means no collector exists, and are NOT evidence. 624 hypotheses registered.</div>
       <div class="verify"><span class="vk">verify</span> <code>python lib/hypothesis_engine.py status</code></div>
     </div>
     <div class="card">
       <div class="label">Genome</div>
-      <div class="value">gen 7596</div>
-      <div class="caption">107 living genes exported with their fitness scores</div>
+      <div class="value">gen 7597</div>
+      <div class="caption">108 living genes exported with their fitness scores</div>
       <div class="verify"><span class="vk">verify</span> <code>data/genome-shared.json</code></div>
     </div>
     <div class="card">
       <div class="label">Shipping velocity</div>
-      <div class="value">251 changes / 7 days</div>
+      <div class="value">252 changes / 7 days</div>
       <div class="caption">commits merged to main in the last week, not counting the bot&#x27;s automatic changelog entries</div>
       <div class="verify"><span class="vk">verify</span> <code>git log --oneline --since=&#x27;7 days ago&#x27; origin/main | grep -vc &#x27;chore(changelog): update for PR&#x27;</code></div>
     </div>
