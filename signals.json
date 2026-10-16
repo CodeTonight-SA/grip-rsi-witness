@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(kit): a linear-time address scrub, a copyright exemption that keeps only real notices,",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a15f60d3938b151a30c68fdbc9b050a8267f89e9"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(audit-chain): prove the first-use race is forced, and cover eight writers (#8401)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/34ea8d80fe1d5ad2cc1d70f9486d4746e0f86e6e"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(kit): withhold the author's operations scripts and the relay deploy scripts (#8382)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b77a08a776f2da6c3c68c98dac56ca60c59e5698"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(bin): launchers resolve the venv through resolve_venv_python instead of literal paths ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/77773db982d3abef7099802b1acafa6bac1654c9"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "246 changes / 7 days",
+      "value": "247 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
