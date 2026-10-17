@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(jev): both shadow readings off by default, opt in with =1 (#8501)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8796aa9f754bc17aa0403c0f1fb5d7926a5995ef"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(prove-it): a per-render public-legal scope for outward support readings (#8498)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8436004155068b31b87e0cb7ab4a61975ff20a72"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "test: forward anchors from the council's falsifiers on GRIP#8480 and GRIP#8482 (#8486)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c27939c418fcb812a39ffd26f380f862258e5ce8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(happiverse): real-git anchor for a HEAD detached at main's own tip (#8482)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/82a4cd0aabfb260307f22adba6b2df1f2120a30b"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 330 verdicts rest on a resolvable metric; the other 317 were graded from a sentinel that means no collector exists, and are NOT evidence. 651 hypotheses registered.",
+      "caption": "13 of 331 verdicts rest on a resolvable metric; the other 318 were graded from a sentinel that means no collector exists, and are NOT evidence. 653 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "275 changes / 7 days",
+      "value": "276 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
