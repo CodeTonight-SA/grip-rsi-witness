@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(operational-context): record the three pooled Max accounts (#8437)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/29dd8b6eb46521dd0f838c6f01a95d958384ad98"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(ci): bind the 14 test files repaired in GRIP#8438 into the Unbound sweep (#8440)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec4aa4f53dffef57fed78c7e071a3730efd43776"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(git-solve): refuse reset-over-uncommitted-work (tree drop guard) (#8441)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1b9d841f5ebaa911b64bede4c0dbc343dc848c7f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: repair 3 test files from GRIP#6423 (relay opt-out, stash guard and the secret redact",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1b19855374d8a8525e4cb63c9cd25616b487d1fe"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: repair 6 test files from GRIP#6423 (CLI and script entry points) (#8444)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/48bfd884ded0fa162f78592550d282399d99e3bb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: repair 4 test files from GRIP#6423 (scoring and evo logic drift) (#8445)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecc32f6917aa56043d03bf93e31e1bb7ee46675d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: repair 2 test files from GRIP#6423 (harness isolation and the overnight loop) (#8443",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/337b050b3931a6be714e076cf4abbbc8c5567799"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(roundtable): the CLI runs by file path, with the repo root first on sys.path (#8434)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e83c6bbf4ef241e66eac44ec7eca679107d60b69"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(git-solve): tree + worktree reconciliation (#8433)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d29748aa3a25e7d41a602e7c4785155851922d1b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: repair fourteen test files that no CI job had run (#8438)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a06c1d15bdaf90ad5778a4dc14609adfef891980"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(kit): START-HERE.html, the six how-to commands and verify.sh (#8428)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9ae3587fde21c78c46d214cff191320059998c17"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(voice): grip-speak passes the reply through the redaction shield before Gemini TTS (#8",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/79e6a0c0ac8ba5fa8aa667aad1e9d84f2b9199cf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(kit): README says where to run GRIP, and the wizard asks once (#8426)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a622281890b3a12968d46f6222d12d464cbfbbc4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(kit): ship docs/GETTING-STARTED.md and docs/GLOSSARY.md (#8422)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5eee4b01fe76163a978a654be97322838c28bde7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): the Pool B advisory and the model-pin guard join the install profile (#8418)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c8f088959039c49590f554a44d743ac28e7143b"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "108 living genes exported with their fitness scores",
+      "caption": "109 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7605",
+      "value": "gen 7607",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "252 changes / 7 days",
+      "value": "259 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
