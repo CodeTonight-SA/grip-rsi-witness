@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(prove-it): a per-render public-legal scope for outward support readings (#8498)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8436004155068b31b87e0cb7ab4a61975ff20a72"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(prove-it): every quote-support panel seat answers again (#8494)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2e1bdf3d0c6c75259c7b9c205ace042672711e35"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(wire): detach an inherited hint-header opt-in with its wire (#8495)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8523fb037fa2c5f5bd3cb58548fd3a58ee43821"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(infer-classify): content-free telemetry for H798's live re-measure (#8491)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f865d02115b7f2c4c5f9686db41e2a86a2ad7e9a"
         },
@@ -26,44 +41,29 @@
           "kind": "shipped",
           "tldr": "test(happiverse): real-git anchor for a HEAD detached at main's own tip (#8482)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/82a4cd0aabfb260307f22adba6b2df1f2120a30b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(relay): an automatic cap rotation goes back to the account it left (#8481)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0d7a482fefc5d68895aeef56fc03622c85f7f041"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(infinite-probe): --help prints usage and an unknown argument runs nothing (#8480)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f7c2c71c2d51297eaa6103daca4c01fbc24de78"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(happiverse): catch-up restores old-main copies, level leg fails off-main trees, laptop",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/58974dd84207941b5fb4783c29298a75a41c80f7"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 329 verdicts rest on a resolvable metric; the other 316 were graded from a sentinel that means no collector exists, and are NOT evidence. 650 hypotheses registered.",
+      "caption": "13 of 330 verdicts rest on a resolvable metric; the other 317 were graded from a sentinel that means no collector exists, and are NOT evidence. 651 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "120 living genes exported with their fitness scores",
+      "caption": "122 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7610",
+      "value": "gen 7612",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "272 changes / 7 days",
+      "value": "275 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
