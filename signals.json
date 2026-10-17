@@ -46,17 +46,17 @@
       "key": "stream"
     },
     {
-      "caption": "12 of 318 verdicts rest on a resolvable metric; the other 306 were graded from a sentinel that means no collector exists, and are NOT evidence. 635 hypotheses registered.",
+      "caption": "13 of 320 verdicts rest on a resolvable metric; the other 307 were graded from a sentinel that means no collector exists, and are NOT evidence. 635 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
-      "value": "8 confirmed / 4 refuted",
+      "value": "9 confirmed / 4 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
       "caption": "108 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7599",
+      "value": "gen 7602",
       "verify": "data/genome-shared.json"
     },
     {
