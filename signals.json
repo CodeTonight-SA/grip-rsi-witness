@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(catalogue): one mistral/mistral-large-3 row, and every address checked for repeats (#8",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b655b8889260dc2b0032aaa891ee095d00274b40"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(ci): bind the 15 test files the GRIP#6423 fleet repaired into the Unbound sweep (#845",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/148958e2f160ce2887037710da2e29817c689722"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: repair 6 test files from GRIP#6423 (state paths and session detection) (#8461)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/35f525826c31e2d5f5023c3503d864d2144590fd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(git-solve): force untracked-file detection in the dirty guard (#8462)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5ac846ca04db551c06355a9672be26adaae34bd8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(roundtable): read provider_key from the module object the stub is on (#8463)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/24b8aa17db6187adce055b5460a2872deb44923d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(follow-ups): AGORA's suggestions on GRIP#8197 and GRIP#8213 (#8459)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/72d4998f6e636ee31d03cdd68d23740e408d9d66"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(models): catalogue Claude Sonnet 5.5 and Haiku 5.5 across GRIP (#8213)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a432894095160ac6a746850c11db2a919bd46c3"
         },
@@ -11,42 +41,12 @@
           "kind": "shipped",
           "tldr": "test: repair 5 test files from GRIP#6423 (tests coupled to live machine state) (#8448)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/155270d328c11caf4e233cbf1a7747f9fb6fdbcb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(operational-context): record the three pooled Max accounts (#8437)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/29dd8b6eb46521dd0f838c6f01a95d958384ad98"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(ci): bind the 14 test files repaired in GRIP#8438 into the Unbound sweep (#8440)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ec4aa4f53dffef57fed78c7e071a3730efd43776"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(git-solve): refuse reset-over-uncommitted-work (tree drop guard) (#8441)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1b9d841f5ebaa911b64bede4c0dbc343dc848c7f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: repair 3 test files from GRIP#6423 (relay opt-out, stash guard and the secret redact",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1b19855374d8a8525e4cb63c9cd25616b487d1fe"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: repair 6 test files from GRIP#6423 (CLI and script entry points) (#8444)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/48bfd884ded0fa162f78592550d282399d99e3bb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: repair 4 test files from GRIP#6423 (scoring and evo logic drift) (#8445)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecc32f6917aa56043d03bf93e31e1bb7ee46675d"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 324 verdicts rest on a resolvable metric; the other 311 were graded from a sentinel that means no collector exists, and are NOT evidence. 636 hypotheses registered.",
+      "caption": "13 of 324 verdicts rest on a resolvable metric; the other 311 were graded from a sentinel that means no collector exists, and are NOT evidence. 639 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,14 +56,14 @@
       "caption": "109 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7607",
+      "value": "gen 7608",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "261 changes / 7 days",
+      "value": "267 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
