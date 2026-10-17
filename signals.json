@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(roundtable): the CLI runs by file path, with the repo root first on sys.path (#8434)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e83c6bbf4ef241e66eac44ec7eca679107d60b69"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(git-solve): tree + worktree reconciliation (#8433)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d29748aa3a25e7d41a602e7c4785155851922d1b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(hooks): the Pool B advisory and the model-pin guard join the install profile (#8418)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c8f088959039c49590f554a44d743ac28e7143b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(kit): the first steps launch with gg++, and bare grip works after activation (#8417)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/083fa962dcc482f4f5516ace514bbb99bcca0f79"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "108 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7604",
+      "value": "gen 7605",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "254 changes / 7 days",
+      "value": "252 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
