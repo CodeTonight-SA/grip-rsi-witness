@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(models): catalogue Claude Sonnet 5.5 and Haiku 5.5 across GRIP (#8213)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a432894095160ac6a746850c11db2a919bd46c3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: repair 5 test files from GRIP#6423 (tests coupled to live machine state) (#8448)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/155270d328c11caf4e233cbf1a7747f9fb6fdbcb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(operational-context): record the three pooled Max accounts (#8437)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/29dd8b6eb46521dd0f838c6f01a95d958384ad98"
         },
@@ -31,22 +41,12 @@
           "kind": "shipped",
           "tldr": "test: repair 4 test files from GRIP#6423 (scoring and evo logic drift) (#8445)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecc32f6917aa56043d03bf93e31e1bb7ee46675d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: repair 2 test files from GRIP#6423 (harness isolation and the overnight loop) (#8443",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/337b050b3931a6be714e076cf4abbbc8c5567799"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(roundtable): the CLI runs by file path, with the repo root first on sys.path (#8434)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e83c6bbf4ef241e66eac44ec7eca679107d60b69"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 320 verdicts rest on a resolvable metric; the other 307 were graded from a sentinel that means no collector exists, and are NOT evidence. 635 hypotheses registered.",
+      "caption": "13 of 324 verdicts rest on a resolvable metric; the other 311 were graded from a sentinel that means no collector exists, and are NOT evidence. 636 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "259 changes / 7 days",
+      "value": "261 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
