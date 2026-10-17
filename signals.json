@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(infer-classify): content-free telemetry for H798's live re-measure (#8491)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f865d02115b7f2c4c5f9686db41e2a86a2ad7e9a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(settings): opt every GRIP session into Claude Code's gateway hint headers (#8456)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3bf483f87fa795e1901f0bcaed08709160c866fd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(decision-privacy): read only real stand-ins as already-scrubbed text (#8488)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4659bb5f03be1370d4ee99463c23f51dffcfa4e6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: forward anchors from the council's falsifiers on GRIP#8480 and GRIP#8482 (#8486)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c27939c418fcb812a39ffd26f380f862258e5ce8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(happiverse): real-git anchor for a HEAD detached at main's own tip (#8482)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/82a4cd0aabfb260307f22adba6b2df1f2120a30b"
         },
@@ -21,49 +41,29 @@
           "kind": "shipped",
           "tldr": "fix(happiverse): catch-up restores old-main copies, level leg fails off-main trees, laptop",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/58974dd84207941b5fb4783c29298a75a41c80f7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: two forward anchors AGORA asked for on GRIP#8404 and GRIP#8386 (GRIP#8406, GRIP#8387",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b785e1873697297a04c7d2819a2741d2c6361b5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(ci): bind the four bare-green files from GRIP#8461 and the relay opt-out file into th",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e83b8f30df4ab13df6b0fe0644166341458df67c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rules): generalise two origin narratives and one docstring so the kit ships no private",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c5e7dc00d6b583c3f805dd06dbea2ae57a47151"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(catalogue): one mistral/mistral-large-3 row, and every address checked for repeats (#8",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b655b8889260dc2b0032aaa891ee095d00274b40"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 326 verdicts rest on a resolvable metric; the other 313 were graded from a sentinel that means no collector exists, and are NOT evidence. 642 hypotheses registered.",
+      "caption": "13 of 329 verdicts rest on a resolvable metric; the other 316 were graded from a sentinel that means no collector exists, and are NOT evidence. 650 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "109 living genes exported with their fitness scores",
+      "caption": "120 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7608",
+      "value": "gen 7610",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "271 changes / 7 days",
+      "value": "272 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
