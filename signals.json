@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(happiverse): real-git anchor for a HEAD detached at main's own tip (#8482)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/82a4cd0aabfb260307f22adba6b2df1f2120a30b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(relay): an automatic cap rotation goes back to the account it left (#8481)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0d7a482fefc5d68895aeef56fc03622c85f7f041"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(infinite-probe): --help prints usage and an unknown argument runs nothing (#8480)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f7c2c71c2d51297eaa6103daca4c01fbc24de78"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(happiverse): catch-up restores old-main copies, level leg fails off-main trees, laptop",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/58974dd84207941b5fb4783c29298a75a41c80f7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: two forward anchors AGORA asked for on GRIP#8404 and GRIP#8386 (GRIP#8406, GRIP#8387",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b785e1873697297a04c7d2819a2741d2c6361b5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(ci): bind the four bare-green files from GRIP#8461 and the relay opt-out file into th",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e83b8f30df4ab13df6b0fe0644166341458df67c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(rules): generalise two origin narratives and one docstring so the kit ships no private",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c5e7dc00d6b583c3f805dd06dbea2ae57a47151"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(catalogue): one mistral/mistral-large-3 row, and every address checked for repeats (#8",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b655b8889260dc2b0032aaa891ee095d00274b40"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(ci): bind the 15 test files the GRIP#6423 fleet repaired into the Unbound sweep (#845",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/148958e2f160ce2887037710da2e29817c689722"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: repair 6 test files from GRIP#6423 (state paths and session detection) (#8461)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/35f525826c31e2d5f5023c3503d864d2144590fd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(git-solve): force untracked-file detection in the dirty guard (#8462)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5ac846ca04db551c06355a9672be26adaae34bd8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(roundtable): read provider_key from the module object the stub is on (#8463)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/24b8aa17db6187adce055b5460a2872deb44923d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(follow-ups): AGORA's suggestions on GRIP#8197 and GRIP#8213 (#8459)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/72d4998f6e636ee31d03cdd68d23740e408d9d66"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(models): catalogue Claude Sonnet 5.5 and Haiku 5.5 across GRIP (#8213)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a432894095160ac6a746850c11db2a919bd46c3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: repair 5 test files from GRIP#6423 (tests coupled to live machine state) (#8448)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/155270d328c11caf4e233cbf1a7747f9fb6fdbcb"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 324 verdicts rest on a resolvable metric; the other 311 were graded from a sentinel that means no collector exists, and are NOT evidence. 639 hypotheses registered.",
+      "caption": "13 of 326 verdicts rest on a resolvable metric; the other 313 were graded from a sentinel that means no collector exists, and are NOT evidence. 642 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "267 changes / 7 days",
+      "value": "271 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
