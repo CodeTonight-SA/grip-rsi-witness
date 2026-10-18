@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(kern): teach-once gate delivers a command-moment rule at its first command (#8530)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/08a5217da35cd00bab661e5b4eff94d0c6b679e8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(kern): annex the narrative of no-sensitive-info, untrusted-content-capability-lock an",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc385542a07408083190d0bcbaed9f6ba686a335"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(kern): file-moment follow-ups from Codex's second review of #8526 (#8533)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a11768c1f8ad9296c7f07768883090ef5846622f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(statusline): implement GRIP#8474 follow-up (log-dir + wave-position helpers) (#8534)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/26548950e83240282ef30c1908db4d1b8cf0a645"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(kern): four code rules load at the file moment (ruling 2a) (#8526)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/dba69ba19f64d59d09c48ada24161fcc4259636f"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(prove-it): every quote-support panel seat answers again (#8494)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2e1bdf3d0c6c75259c7b9c205ace042672711e35"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(wire): detach an inherited hint-header opt-in with its wire (#8495)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b8523fb037fa2c5f5bd3cb58548fd3a58ee43821"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(infer-classify): content-free telemetry for H798's live re-measure (#8491)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f865d02115b7f2c4c5f9686db41e2a86a2ad7e9a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(settings): opt every GRIP session into Claude Code's gateway hint headers (#8456)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3bf483f87fa795e1901f0bcaed08709160c866fd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(decision-privacy): read only real stand-ins as already-scrubbed text (#8488)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4659bb5f03be1370d4ee99463c23f51dffcfa4e6"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "111 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7618",
+      "value": "gen 7620",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "224 changes / 7 days",
+      "value": "228 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
