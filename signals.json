@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "255 changes / 7 days",
+      "value": "251 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -102,7 +102,7 @@
           "name": "/fleet-inspection"
         }
       ],
-      "tip": "A negative claim is only as strong as the search behind it — name the scopes you checked."
+      "tip": "verify-canonical: trust origin/main + the live endpoint + an e2e probe — never a status label."
     }
   ]
 }
