@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(uninstall): the manifest covers everything the installers leave, and bytecode folders ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b66dfa6792f2e747cf7b97402bb9e47457f59b4d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "ci(mutation): the weekly slot mutates the signing module first, report-only until measured",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/dde93b3962f83c610126d6faff4f7d7bab8384bb"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(gift-kit): the bundle ships all four parts, with a NOTICE naming each one's licence (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/daf0faf5d83051f4183beded29647b24df160076"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(idr): refuse the demo seal for want of a crypto backend unless opted in (A3) (#8608)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2c9657155d841962d492af6787b6302e715b135"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "273 changes / 7 days",
+      "value": "274 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
