@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(activation): the seam that decides which of the four parts run, with the floor no pro",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/57ab953ec52cea7b055c8ba467a200ab0378618b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(gift-kit): the bundle ships all four parts, with a NOTICE naming each one's licence (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/daf0faf5d83051f4183beded29647b24df160076"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(idr): refuse the demo seal for want of a crypto backend unless opted in (A3) (#8608)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2c9657155d841962d492af6787b6302e715b135"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(install): a stranger's install carries the security floor, and each gate proves it de",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1debce33f3e8e8646db94d4cf610d1a4ebffb90a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(launch): Claude Code's permission prompts stay on unless this machine opted out (A8) ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/38665b89cf5c9d9492d0dbf65687dec57ca8cab9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ultrathink): a council rung honours a longer per-seat read timeout (#8603)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d02f80b590da5c8fe35f66cb5a3f980cc9d5cb9"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "267 changes / 7 days",
+      "value": "269 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
