@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(kern): annex the narrative of measured-claims, operator-anonymity and autonomous-bloc",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6ae4734edd91496d35cb21bd40b20c3bdbf8eb29"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(kern): annex the narrative of r0-critical-thinking, gate-resolution-escape-hatch and ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2a1683a3f3581ad34bc7a44ed3d754f07a1ac9e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(grip-browser): effect-class capability lock and result shield (PR2 of the /browse pla",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2ce6eaf519353a09b52b3065b3a754be42651f96"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(style-eval): the paired, blind, two-judge evaluation that gates the voice change (#85",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/808ab6244b5be53652bb76087231ce73c05d34c6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurements): Argon versus 3.1 Pro as the AGORA judge, an offline replay of 20 merge",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9db541f3fea1847a83625f5e0141df466ade0293"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(fold-search): an opt-in whole-word match, measured against the security fold (A7) (#8",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/62718c8cd3a55f1199f944f20479f79aa6103e51"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(hypotheses): register the one-folder product's eight claims as falsifiable rows (A6) ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1db4d1d233b61619699b4b048df0e0f3b67f7f58"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(kern): annex verify-canonical and visual-artifact-leak-prevention, and mend the fragm",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d8f1ef95dec968f0a44d30cff1d375407d99dcc8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(grip-browser): install and attach stealth-browser-mcp as an opt-in tool server (PR1 o",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c09aacbc6e3d915bc0612d51cf055335a26f6063"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(cos): the narration and first-sentence boundaries the council asked for (#8586)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/91fccb865133a0c274f096f0ffaf2fc1b935f1f5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(doctrine): the record of how the canonical style subsumes i-have-adhd (#8581)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8e247fad25a0edc7483ab01d5a96512e32696c56"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(gemini): Gemini 3.6 Flash and 3.8 Flash rows; 3.5 Flash marked deprecated (#8578)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e58b6e49d6aa4be145a41a9f17739fe0a0eac00a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(harness): one canonical-style block, projected into every harness surface (#8574)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c1b82a5f19fa3d88e1149cce8a53e3a6ade28b4d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(kern): annex the narrative of an-agora-downgrade, reasoning-lenses and partial-record",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c0bc1d2cee6804e855dcb65ea5c0f8472fa4c55"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "111 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7625",
+      "value": "gen 7627",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "253 changes / 7 days",
+      "value": "259 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
