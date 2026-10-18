@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(kern): the three command-moment rules leave native loading for the teach-once gate (r",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb52dc0c3d1b8d80520feebe9789e3774fd91aef"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(kern): move the five operator-facing floor rules to the main-session tier (#8560)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6b4903640709fc3737f34726aa764d0f22c9f495"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ste): action-first counters logged beside the trial's counters, row only (#8561)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b10f66c08a040cf784ed3c74db8a836f292cc699"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(headless): gg++ -p runs a task through ClaudeCodeHarness and writes a verifiable rece",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/669172ef6b1e13bd3fc116d43f526d95ab4a0e15"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(ci): cut the Actions bill -- CHANGELOG-only runs skipped, changelog bot on a schedule",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/55d29ef67c19fec9c053f17b8a01c04e044f7a92"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(gemini): onboard Gemini 4 Argon -- rows, a dated price schedule, one API base, Gemini",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2ed723f046b7d5f33c567cfa5579b2b8c25d48e6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(kern): a main-session tier delivered in full by SessionStart chunks, and the delivere",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/67420e9fd214d9556022f6a5eab0bb3af50334c8"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(mode-loader): source grip-paths.sh from beside the loader, not only under CLAUDE_DIR (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe592c4e239723f671017ef0526c1aaecdcb96fc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(kern): annex the narrative of prove-it, bash-safety and never-system-python (#8553)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/73bbcb2a09614d2d337c8693de5dd2c167793e4e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurements): Asqav in October 2026, and where GRASP leads and trails it (#8499)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6599e40b549ada4fa14c7aa2593f4b5085878d8e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(kern): the task brief carries a subagent the rules it cannot receive natively (ruling",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a26193be5db06c172d564d54b376a647875f7ce8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(kit): a ship-time private-term scan refuses any bundle that carries a private term (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c1285d688f89d2ab71e5e7791ad75290d413be19"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(council): per-seat read-timeout and model overrides from the environment (#8521)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fcfc3ed1aaf8ffca7db05502aae5be9a2b4cf2f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(kern): teach-once gate delivers a command-moment rule at its first command (#8530)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/08a5217da35cd00bab661e5b4eff94d0c6b679e8"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "111 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7622",
+      "value": "gen 7623",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "235 changes / 7 days",
+      "value": "241 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
