@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(kern): four code rules load at the file moment (ruling 2a) (#8526)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dba69ba19f64d59d09c48ada24161fcc4259636f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(jev): both shadow readings off by default, opt in with =1 (#8501)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8796aa9f754bc17aa0403c0f1fb5d7926a5995ef"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(decision-privacy): read only real stand-ins as already-scrubbed text (#8488)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4659bb5f03be1370d4ee99463c23f51dffcfa4e6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: forward anchors from the council's falsifiers on GRIP#8480 and GRIP#8482 (#8486)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c27939c418fcb812a39ffd26f380f862258e5ce8"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "122 living genes exported with their fitness scores",
+      "caption": "111 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7617",
+      "value": "gen 7618",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "223 changes / 7 days",
+      "value": "224 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
