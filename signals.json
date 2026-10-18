@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gift-kit): vendored parts get the packagers' identity scrub (from the first fresh-home",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/35f43c25eef8abc276ffd894a2b1357f157ac30e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(kit): the rules pack strips dated origin stories from shipped rules and keeps every m",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6b484f39fde87080ce61713c774e8f2336a02d3b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(gift-kit): a symmetric uninstall driven by the manifest the installer now writes (B5)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b6f6c5b2e1c24e213c16e5d1b7f87a347bbe55a8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(activation): the seam that decides which of the four parts run, with the floor no pro",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/57ab953ec52cea7b055c8ba467a200ab0378618b"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(gift-kit): a build time from SOURCE_DATE_EPOCH and a whole-payload tree hash, so two ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2358ae89c5f475e05dec5de1ad13f0188aa201ba"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(kern): annex the narrative of five short safety-core rules (#8601)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/de3ea51af741bede5c5238b32f5d6baa1cd72d09"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(launch): the caller's own flag passes through and prompts-on adds no argument (closes",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d18d49fa922ef49ac4b2d364f32eeba83b38f658"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(install): a stranger's install carries the security floor, and each gate proves it de",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1debce33f3e8e8646db94d4cf610d1a4ebffb90a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "269 changes / 7 days",
+      "value": "271 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
