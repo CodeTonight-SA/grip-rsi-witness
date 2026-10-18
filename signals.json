@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "ci(mutation): the weekly slot mutates the signing module first, report-only until measured",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dde93b3962f83c610126d6faff4f7d7bab8384bb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(uninstall): a damaged manifest stops the uninstaller before anything is removed (close",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/357c76cb1342b820d222f8645cd29ecd194e8f71"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gift-kit): vendored parts get the packagers' identity scrub (from the first fresh-home",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/35f43c25eef8abc276ffd894a2b1357f157ac30e"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(idr): refuse the demo seal for want of a crypto backend unless opted in (A3) (#8608)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2c9657155d841962d492af6787b6302e715b135"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(style-eval): the gate reads its margin from the registration or refuses; the ledger id",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/99465fd1a91f200b04b129c25b6a5622aa355c83"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(gift-kit): a build time from SOURCE_DATE_EPOCH and a whole-payload tree hash, so two ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2358ae89c5f475e05dec5de1ad13f0188aa201ba"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "271 changes / 7 days",
+      "value": "273 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
