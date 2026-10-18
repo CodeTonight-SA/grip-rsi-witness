@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(cos): edge A refuses the i-have-adhd openers, closers and recap narration (#8572)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/071e5715b37f02b4df6ff4d4437df10b1d425fd5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ste): a counter fault never costs the row or the line; non-strings count as empty (#85",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/28bbef2765d99456b8c5d0ccb281bb162f432306"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(model-watch): a nightly list-endpoint watch replaces the monthly job that never ran (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4bce94df03e1c22c3bda4c26b34856552b1e0b58"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(kern): the three command-moment rules leave native loading for the teach-once gate (r",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb52dc0c3d1b8d80520feebe9789e3774fd91aef"
         },
@@ -26,27 +41,12 @@
           "kind": "shipped",
           "tldr": "feat(ci): cut the Actions bill -- CHANGELOG-only runs skipped, changelog bot on a schedule",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/55d29ef67c19fec9c053f17b8a01c04e044f7a92"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(gemini): onboard Gemini 4 Argon -- rows, a dated price schedule, one API base, Gemini",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2ed723f046b7d5f33c567cfa5579b2b8c25d48e6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(kern): a main-session tier delivered in full by SessionStart chunks, and the delivere",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/67420e9fd214d9556022f6a5eab0bb3af50334c8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(mode-loader): source grip-paths.sh from beside the loader, not only under CLAUDE_DIR (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe592c4e239723f671017ef0526c1aaecdcb96fc"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 334 verdicts rest on a resolvable metric; the other 321 were graded from a sentinel that means no collector exists, and are NOT evidence. 657 hypotheses registered.",
+      "caption": "13 of 334 verdicts rest on a resolvable metric; the other 321 were graded from a sentinel that means no collector exists, and are NOT evidence. 663 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "241 changes / 7 days",
+      "value": "244 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
