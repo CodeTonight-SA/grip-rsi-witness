@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(radar): the Vercel, Search Console, IETF and web-mention sources (PR 2 of 2) (#8635)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/59f70aa89c211e341f947cb00a4a64f8d05a81ed"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(radar): take fcntl through lib/_compat so the tick lock imports on Windows too (#8637)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bde493eb4755698e4967b2e75b37c125db20964c"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(kit): the rules pack strips dated origin stories from shipped rules and keeps every m",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6b484f39fde87080ce61713c774e8f2336a02d3b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(gift-kit): a symmetric uninstall driven by the manifest the installer now writes (B5)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b6f6c5b2e1c24e213c16e5d1b7f87a347bbe55a8"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "146 changes / 7 days",
+      "value": "147 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
