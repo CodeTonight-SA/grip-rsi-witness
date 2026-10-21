@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(radar): grip-radar, an economical monitor for replies and GRASP activity (PR 1 of 2) ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/908abb3a1f495e787063965f24b4ac36248ab4a7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(uninstall): the manifest covers everything the installers leave, and bytecode folders ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b66dfa6792f2e747cf7b97402bb9e47457f59b4d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(activation): the seam that decides which of the four parts run, with the floor no pro",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/57ab953ec52cea7b055c8ba467a200ab0378618b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(gift-kit): the bundle ships all four parts, with a NOTICE naming each one's licence (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/daf0faf5d83051f4183beded29647b24df160076"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "144 changes / 7 days",
+      "value": "145 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
