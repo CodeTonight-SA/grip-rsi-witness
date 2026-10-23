@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gates): the git gates see past git's global options (-C, -c, --git-dir) (#8656)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2433d86e84cbd490b8263de65ee422d8d4ae6aee"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(deps): patch @modelcontextprotocol/sdk and hono in mcp-servers/grip-mcp-web (#8649)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7a03d79bbf49c936cc6a45adf7db4bb1a16a12f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(radar): the Vercel, Search Console, IETF and web-mention sources (PR 2 of 2) (#8635)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/59f70aa89c211e341f947cb00a4a64f8d05a81ed"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(radar): take fcntl through lib/_compat so the tick lock imports on Windows too (#8637)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bde493eb4755698e4967b2e75b37c125db20964c"
         }
       ],
       "key": "stream"
