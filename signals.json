@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gates): the push gate treats a command as text only when it is text (#8661)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5946c7e74d1b872bcfbedee9fe7064f9a070d91d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gates): the stash and branch-switch gates read the repository a command names (#8658)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a9dbf0c74e1f786fc25ca90aa531a772070aca8"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(deps): patch vite in site (#8645)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7473f7254759acd64c3bcb5366037724c0d3673c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): patch @modelcontextprotocol/sdk, follow-redirects and hono in mcp-servers/grip-",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/90dfeecfaffd9c1360e4accd86075d9a380a3aa2"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "111 changes / 7 days",
+      "value": "112 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
