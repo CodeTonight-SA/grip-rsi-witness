@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(tests): the no-security PATH fixture survives a dangling symlink on the runner (#8681)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2688034096bd9abbac252a3e53678d70c79b609d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs: stop the information-architecture guide stating inventory counts that went stale (#8",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/034e1ce97cfd2775973c51c3753ac8ebe25b98b1"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(tokenguard): the template's git gates see past git's global options (#8663)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1237d8b3f3b8207cef499729ee5cac3d58d4e813"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): the push gate treats a command as text only when it is text (#8661)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5946c7e74d1b872bcfbedee9fe7064f9a070d91d"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "19 changes / 7 days",
+      "value": "20 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
