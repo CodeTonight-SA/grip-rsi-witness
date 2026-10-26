@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(settings): three-way ownership composer for settings.json divergence (#8719)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fbb5f58636508e4e7ff97654327e7d13ee4bdc88"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Declare GRIP_MAX_AGENTS in shipped workflows; fix cap-guard regex (#8710)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c2c0ebb903364972221f5c01b47129136e8a1c1"
         },
@@ -31,11 +36,6 @@
           "kind": "shipped",
           "tldr": "Gate Workflow fan-out on cost; watchdog for stalled runs (#8698)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/57011c47267af75b49bc53e277722c42a0e9ccb7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(pr-monitor): hold a PR until every CI run on its head has finished (#8689)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cfcf0bade50fbbf0982bfe65355b9b94de52efee"
         }
       ],
       "key": "stream"
@@ -58,7 +58,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "34 changes / 7 days",
+      "value": "35 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
