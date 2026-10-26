@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(shared-tree-advisory): run on Windows with a junction and a redirected home (#8727)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/97106523432a85e47116c3a5209955b9bd9b2cd7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Black October: prove the checklist in proving-ground, seal it, and ship a typed-yes fixer ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/076818c30253280c5c8b518c8c27bf684fbfa0fb"
         },
@@ -58,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "37 changes / 7 days",
+      "value": "38 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
