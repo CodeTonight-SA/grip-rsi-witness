@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "Black October: prove the checklist in proving-ground, seal it, and ship a typed-yes fixer ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/076818c30253280c5c8b518c8c27bf684fbfa0fb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(merge): a session's own merge follows the sweep's red-check and unfinished-run holds ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/75361e6aadc76cfa606054939e160811b44dff70"
         },
@@ -31,11 +36,6 @@
           "kind": "shipped",
           "tldr": "docs: the EU AI Act record-keeping duty applies from late 2027, not 2 August 2026 (#8711)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8438ab8556b39e4fa6aa4f1815c123fd467bea42"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(worktree): link worktree memory on Windows, under Claude Code's names (#8699)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2907acab807167eb0b11a23ac4fe31c0b2f6630"
         }
       ],
       "key": "stream"
@@ -58,7 +58,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "36 changes / 7 days",
+      "value": "37 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
