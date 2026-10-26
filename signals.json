@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(pr-monitor): hold a PR until every CI run on its head has finished (#8689)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cfcf0bade50fbbf0982bfe65355b9b94de52efee"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test: the worktree link tests build entry names with GRIP's shared encoder (#8697)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/735392208bb189bcd14751b2f0f4f2192869d0f0"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(tests): the no-security PATH fixture survives a dangling symlink on the runner (#8681)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2688034096bd9abbac252a3e53678d70c79b609d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: stop the information-architecture guide stating inventory counts that went stale (#8",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/034e1ce97cfd2775973c51c3753ac8ebe25b98b1"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "26 changes / 7 days",
+      "value": "27 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
