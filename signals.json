@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gates): the git gates follow a cd before git into the repository it enters (#8686)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a22fbd7efccce0e0bb790ee00865dae5f85eb3c9"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test: the worktree path-guard tests act on a throwaway repository (#8684)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2096a939e0d213920442819a1350214516bd600"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "perf(tests): cut grip-launchd-whereis's CI cost by batching its generator grep scan (#8666",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/419ae7cd660eff609e691b8b5053a3e0a8d20282"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): Gate H2 looks up a named repository's work tree once per stash (#8664)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/efad7aeebfc053f68102f030d0a7a0caca81d8cb"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "21 changes / 7 days",
+      "value": "22 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
