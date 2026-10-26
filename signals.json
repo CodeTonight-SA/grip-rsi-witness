@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs: the EU AI Act record-keeping duty applies from late 2027, not 2 August 2026 (#8711)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8438ab8556b39e4fa6aa4f1815c123fd467bea42"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(worktree): link worktree memory on Windows, under Claude Code's names (#8699)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2907acab807167eb0b11a23ac4fe31c0b2f6630"
         },
@@ -31,16 +36,6 @@
           "kind": "shipped",
           "tldr": "fix(gates): the stash gates refuse a named repository git cannot open (#8692)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/21efc7900e3b6cfcf34b35f87135173fafd7fe4b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Rename deepseek-v4-flash → deepseek-flash (vendor rename, now text+vision) (#8688)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/57c07d04070b6c94dfabbfc5c130c3530af13cb5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): the git gates follow a cd before git into the repository it enters (#8686)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a22fbd7efccce0e0bb790ee00865dae5f85eb3c9"
         }
       ],
       "key": "stream"
@@ -56,14 +51,14 @@
       "caption": "111 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7633",
+      "value": "gen 7634",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "29 changes / 7 days",
+      "value": "31 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -96,10 +91,6 @@
         {
           "desc": "Make a passage clear for the person who reads it or acts on it, and keep its rec",
           "name": "/clarify"
-        },
-        {
-          "desc": "Lands every running GRIP session's uncommitted work through PRs, then shows the ",
-          "name": "/fleet-inspection"
         }
       ],
       "tip": "R0: every claim needs specific evidence, a scope that matches it, and a stated falsifier — on any miss, qualify it or drop it."
