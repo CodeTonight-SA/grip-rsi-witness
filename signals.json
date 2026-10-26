@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs: stop the information-architecture guide stating inventory counts that went stale (#8",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/034e1ce97cfd2775973c51c3753ac8ebe25b98b1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix: correct three stale claims GRIP made about itself (focus hook, dead hook pointers, ag",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d1afec6e1af4cde342d04dc333bc6c7327a2349"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(gates): the push gate treats a command as text only when it is text (#8661)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5946c7e74d1b872bcfbedee9fe7064f9a070d91d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): the stash and branch-switch gates read the repository a command names (#8658)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a9dbf0c74e1f786fc25ca90aa531a772070aca8"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "111 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7629",
+      "value": "gen 7630",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "18 changes / 7 days",
+      "value": "19 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
