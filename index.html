@@ -158,6 +158,7 @@
   <section class="activity" id="activity">
     <div class="shead"><span class="dot"></span><span class="lbl">LIVE</span><span class="cnt">0 in flight</span></div>
     <div class="tower" id="tower">
+      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/57011c47267af75b49bc53e277722c42a0e9ccb7" href="https://github.com/CodeTonight-SA/GRIP/commit/57011c47267af75b49bc53e277722c42a0e9ccb7" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">Gate Workflow fan-out on cost; watchdog for stalled runs (#8698)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/cfcf0bade50fbbf0982bfe65355b9b94de52efee" href="https://github.com/CodeTonight-SA/GRIP/commit/cfcf0bade50fbbf0982bfe65355b9b94de52efee" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(pr-monitor): hold a PR until every CI run on its head has finished (#8689)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/735392208bb189bcd14751b2f0f4f2192869d0f0" href="https://github.com/CodeTonight-SA/GRIP/commit/735392208bb189bcd14751b2f0f4f2192869d0f0" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">test: the worktree link tests build entry names with GRIP&#x27;s shared encoder (#8697)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/4588f51decffbe942312ec07b5f6fc5e74c462d8" href="https://github.com/CodeTonight-SA/GRIP/commit/4588f51decffbe942312ec07b5f6fc5e74c462d8" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(worktree): remove clears the branch lock on Windows (#8694)</span></a>
@@ -165,7 +166,6 @@
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/57c07d04070b6c94dfabbfc5c130c3530af13cb5" href="https://github.com/CodeTonight-SA/GRIP/commit/57c07d04070b6c94dfabbfc5c130c3530af13cb5" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">Rename deepseek-v4-flash → deepseek-flash (vendor rename, now text+vision) (#8688)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/a22fbd7efccce0e0bb790ee00865dae5f85eb3c9" href="https://github.com/CodeTonight-SA/GRIP/commit/a22fbd7efccce0e0bb790ee00865dae5f85eb3c9" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(gates): the git gates follow a cd before git into the repository it enters (#8686)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/f2096a939e0d213920442819a1350214516bd600" href="https://github.com/CodeTonight-SA/GRIP/commit/f2096a939e0d213920442819a1350214516bd600" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">test: the worktree path-guard tests act on a throwaway repository (#8684)</span></a>
-      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/2688034096bd9abbac252a3e53678d70c79b609d" href="https://github.com/CodeTonight-SA/GRIP/commit/2688034096bd9abbac252a3e53678d70c79b609d" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(tests): the no-security PATH fixture survives a dangling symlink on the runner (#8681)</span></a>
     </div>
   </section>
   <main class="wrap">
@@ -190,7 +190,7 @@
     </div>
     <div class="card">
       <div class="label">Shipping velocity</div>
-      <div class="value">27 changes / 7 days</div>
+      <div class="value">28 changes / 7 days</div>
       <div class="caption">commits merged to main in the last week, not counting the bot&#x27;s automatic changelog entries</div>
       <div class="verify"><span class="vk">verify</span> <code>git log --oneline --since=&#x27;7 days ago&#x27; origin/main | grep -vc &#x27;chore(changelog): update for PR&#x27;</code></div>
     </div>
