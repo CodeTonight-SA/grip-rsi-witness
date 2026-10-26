@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(legal): keep a topic's playbook when it is typed with a stray separator (#8717)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5b4d38d50532a235d2ebc451bb187d2859b21110"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(legal): require set-up git-crypt; prove private receipts (#8713)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d8054dc139404805cbd3895c5e58393f8dbc09ec"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs: the EU AI Act record-keeping duty applies from late 2027, not 2 August 2026 (#8711)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8438ab8556b39e4fa6aa4f1815c123fd467bea42"
         },
@@ -26,16 +36,6 @@
           "kind": "shipped",
           "tldr": "test: the worktree link tests build entry names with GRIP's shared encoder (#8697)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/735392208bb189bcd14751b2f0f4f2192869d0f0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(worktree): remove clears the branch lock on Windows (#8694)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4588f51decffbe942312ec07b5f6fc5e74c462d8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): the stash gates refuse a named repository git cannot open (#8692)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/21efc7900e3b6cfcf34b35f87135173fafd7fe4b"
         }
       ],
       "key": "stream"
@@ -58,7 +58,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "31 changes / 7 days",
+      "value": "33 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
