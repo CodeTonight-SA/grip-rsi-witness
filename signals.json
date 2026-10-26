@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(worktree): remove clears the branch lock on Windows (#8694)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4588f51decffbe942312ec07b5f6fc5e74c462d8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gates): the stash gates refuse a named repository git cannot open (#8692)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/21efc7900e3b6cfcf34b35f87135173fafd7fe4b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: correct three stale claims GRIP made about itself (focus hook, dead hook pointers, ag",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d1afec6e1af4cde342d04dc333bc6c7327a2349"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: prove two unguarded safety refusals refuse (keyring export, brave-cdp launch) (#8671",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b056fe2d1e7337e9471b24a2360208d9a0be8bcf"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "24 changes / 7 days",
+      "value": "25 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
