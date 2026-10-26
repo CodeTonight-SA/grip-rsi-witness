@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "Rename deepseek-v4-flash → deepseek-flash (vendor rename, now text+vision) (#8688)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/57c07d04070b6c94dfabbfc5c130c3530af13cb5"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gates): the git gates follow a cd before git into the repository it enters (#8686)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a22fbd7efccce0e0bb790ee00865dae5f85eb3c9"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "feat(headless): refuse a headless run that a hard GRIP gate would not cover (slice 2) (#86",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c2b0bab3c77abb7c2ba822ad26373b946bfb5df"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "perf(tests): cut grip-launchd-whereis's CI cost by batching its generator grep scan (#8666",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/419ae7cd660eff609e691b8b5053a3e0a8d20282"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 335 verdicts rest on a resolvable metric; the other 322 were graded from a sentinel that means no collector exists, and are NOT evidence. 663 hypotheses registered.",
+      "caption": "13 of 335 verdicts rest on a resolvable metric; the other 322 were graded from a sentinel that means no collector exists, and are NOT evidence. 664 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "22 changes / 7 days",
+      "value": "23 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {

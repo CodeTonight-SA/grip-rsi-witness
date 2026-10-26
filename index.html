@@ -158,6 +158,7 @@
   <section class="activity" id="activity">
     <div class="shead"><span class="dot"></span><span class="lbl">LIVE</span><span class="cnt">0 in flight</span></div>
     <div class="tower" id="tower">
+      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/57c07d04070b6c94dfabbfc5c130c3530af13cb5" href="https://github.com/CodeTonight-SA/GRIP/commit/57c07d04070b6c94dfabbfc5c130c3530af13cb5" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">Rename deepseek-v4-flash → deepseek-flash (vendor rename, now text+vision) (#8688)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/a22fbd7efccce0e0bb790ee00865dae5f85eb3c9" href="https://github.com/CodeTonight-SA/GRIP/commit/a22fbd7efccce0e0bb790ee00865dae5f85eb3c9" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(gates): the git gates follow a cd before git into the repository it enters (#8686)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/f2096a939e0d213920442819a1350214516bd600" href="https://github.com/CodeTonight-SA/GRIP/commit/f2096a939e0d213920442819a1350214516bd600" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">test: the worktree path-guard tests act on a throwaway repository (#8684)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/2688034096bd9abbac252a3e53678d70c79b609d" href="https://github.com/CodeTonight-SA/GRIP/commit/2688034096bd9abbac252a3e53678d70c79b609d" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(tests): the no-security PATH fixture survives a dangling symlink on the runner (#8681)</span></a>
@@ -165,7 +166,6 @@
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/3d1afec6e1af4cde342d04dc333bc6c7327a2349" href="https://github.com/CodeTonight-SA/GRIP/commit/3d1afec6e1af4cde342d04dc333bc6c7327a2349" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix: correct three stale claims GRIP made about itself (focus hook, dead hook pointers, ag</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/b056fe2d1e7337e9471b24a2360208d9a0be8bcf" href="https://github.com/CodeTonight-SA/GRIP/commit/b056fe2d1e7337e9471b24a2360208d9a0be8bcf" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">test: prove two unguarded safety refusals refuse (keyring export, brave-cdp launch) (#8671</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/9c2b0bab3c77abb7c2ba822ad26373b946bfb5df" href="https://github.com/CodeTonight-SA/GRIP/commit/9c2b0bab3c77abb7c2ba822ad26373b946bfb5df" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">feat(headless): refuse a headless run that a hard GRIP gate would not cover (slice 2) (#86</span></a>
-      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/419ae7cd660eff609e691b8b5053a3e0a8d20282" href="https://github.com/CodeTonight-SA/GRIP/commit/419ae7cd660eff609e691b8b5053a3e0a8d20282" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">perf(tests): cut grip-launchd-whereis&#x27;s CI cost by batching its generator grep scan (#8666</span></a>
     </div>
   </section>
   <main class="wrap">
@@ -179,7 +179,7 @@
     <div class="card">
       <div class="label">Hypotheses tested (grounded)</div>
       <div class="value">9 confirmed / 4 refuted</div>
-      <div class="caption">13 of 335 verdicts rest on a resolvable metric; the other 322 were graded from a sentinel that means no collector exists, and are NOT evidence. 663 hypotheses registered.</div>
+      <div class="caption">13 of 335 verdicts rest on a resolvable metric; the other 322 were graded from a sentinel that means no collector exists, and are NOT evidence. 664 hypotheses registered.</div>
       <div class="verify"><span class="vk">verify</span> <code>python lib/hypothesis_engine.py status</code></div>
     </div>
     <div class="card">
@@ -190,7 +190,7 @@
     </div>
     <div class="card">
       <div class="label">Shipping velocity</div>
-      <div class="value">22 changes / 7 days</div>
+      <div class="value">23 changes / 7 days</div>
       <div class="caption">commits merged to main in the last week, not counting the bot&#x27;s automatic changelog entries</div>
       <div class="verify"><span class="vk">verify</span> <code>git log --oneline --since=&#x27;7 days ago&#x27; origin/main | grep -vc &#x27;chore(changelog): update for PR&#x27;</code></div>
     </div>
