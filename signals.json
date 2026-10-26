@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test: the worktree link tests build entry names with GRIP's shared encoder (#8697)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/735392208bb189bcd14751b2f0f4f2192869d0f0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(worktree): remove clears the branch lock on Windows (#8694)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4588f51decffbe942312ec07b5f6fc5e74c462d8"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs: stop the information-architecture guide stating inventory counts that went stale (#8",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/034e1ce97cfd2775973c51c3753ac8ebe25b98b1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: correct three stale claims GRIP made about itself (focus hook, dead hook pointers, ag",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d1afec6e1af4cde342d04dc333bc6c7327a2349"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "25 changes / 7 days",
+      "value": "26 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
