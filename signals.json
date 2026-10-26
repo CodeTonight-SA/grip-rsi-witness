@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(headless): refuse a headless run that a hard GRIP gate would not cover (slice 2) (#86",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c2b0bab3c77abb7c2ba822ad26373b946bfb5df"
+        },
+        {
+          "kind": "shipped",
           "tldr": "perf(tests): cut grip-launchd-whereis's CI cost by batching its generator grep scan (#8666",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/419ae7cd660eff609e691b8b5053a3e0a8d20282"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(deps): patch @modelcontextprotocol/sdk and hono in mcp-servers/grip-mcp-web (#8649)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7a03d79bbf49c936cc6a45adf7db4bb1a16a12f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(deps): patch @modelcontextprotocol/sdk and hono in mcp-servers/hal-mcp (#8647)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdd971945eb9564847af9eb862e47591eeb820f8"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "15 changes / 7 days",
+      "value": "16 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
