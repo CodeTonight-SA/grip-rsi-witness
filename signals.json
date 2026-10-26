@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(worktree): link worktree memory on Windows, under Claude Code's names (#8699)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2907acab807167eb0b11a23ac4fe31c0b2f6630"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Gate Workflow fan-out on cost; watchdog for stalled runs (#8698)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/57011c47267af75b49bc53e277722c42a0e9ccb7"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(gates): the git gates follow a cd before git into the repository it enters (#8686)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a22fbd7efccce0e0bb790ee00865dae5f85eb3c9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: the worktree path-guard tests act on a throwaway repository (#8684)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2096a939e0d213920442819a1350214516bd600"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "111 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7632",
+      "value": "gen 7633",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "28 changes / 7 days",
+      "value": "29 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
