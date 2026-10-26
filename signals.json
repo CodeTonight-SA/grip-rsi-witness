@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gates): the stash gates refuse a named repository git cannot open (#8692)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/21efc7900e3b6cfcf34b35f87135173fafd7fe4b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Rename deepseek-v4-flash → deepseek-flash (vendor rename, now text+vision) (#8688)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/57c07d04070b6c94dfabbfc5c130c3530af13cb5"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test: prove two unguarded safety refusals refuse (keyring export, brave-cdp launch) (#8671",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b056fe2d1e7337e9471b24a2360208d9a0be8bcf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(headless): refuse a headless run that a hard GRIP gate would not cover (slice 2) (#86",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c2b0bab3c77abb7c2ba822ad26373b946bfb5df"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "23 changes / 7 days",
+      "value": "24 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
