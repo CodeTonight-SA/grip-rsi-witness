@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "Declare GRIP_MAX_AGENTS in shipped workflows; fix cap-guard regex (#8710)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c2c0ebb903364972221f5c01b47129136e8a1c1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(legal): keep a topic's playbook when it is typed with a stray separator (#8717)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5b4d38d50532a235d2ebc451bb187d2859b21110"
         },
@@ -31,11 +36,6 @@
           "kind": "shipped",
           "tldr": "fix(pr-monitor): hold a PR until every CI run on its head has finished (#8689)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cfcf0bade50fbbf0982bfe65355b9b94de52efee"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: the worktree link tests build entry names with GRIP's shared encoder (#8697)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/735392208bb189bcd14751b2f0f4f2192869d0f0"
         }
       ],
       "key": "stream"
@@ -58,7 +58,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "33 changes / 7 days",
+      "value": "34 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
