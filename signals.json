@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(grip-worktree): copy the git-crypt keys into Windows worktrees (GRIP#8705) (#8755)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/662a5befff25f5f6386e1f1a43c0596a4000c375"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test: the remaining signing-key tests use the test folder's key (GRIP#8729, part 2) (#8753",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1e1e5860797332885abe4c0a3e9bb4c8c7d32491"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(skills): the index generator skips plugin symlinks outside the install root (#8738)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a094af1c10f1f86108c05e8fd7982b4c032f0508"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurements): the Official Journal text of Regulation (EU) 2026/1744 is read, and th",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dfdb632d0c53fed368c12cd27f5bc75b08e867be"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "49 changes / 7 days",
+      "value": "50 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
