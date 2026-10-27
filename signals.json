@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test: tests stop writing into the real home folder (GRIP#8729, first part) (#8749)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b588a13515c5834ee79eef8bc18a0a839e342059"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(mode-loader-broly): no test writes the Broly trigger into the checkout (GRIP#8730) (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ae3d2bf13903d382f107e7c2264942d474398512"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(skills): /show opens or reveals any local file or folder (#8715)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a8cad3a9098969bd4ece9eba59e2aad20ea4422a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(home): move HOME and USERPROFILE together, so Windows tests see the move (#8731)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/182483ae09bbc7da24b23cd6a48f91b763d2b6ef"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "46 changes / 7 days",
+      "value": "47 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
