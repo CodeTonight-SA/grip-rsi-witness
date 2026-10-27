@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(tree-sync): sync past a hook script the same merge brings, and a rebuilt skills index ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/802121cf3986aac9048110bde87b2de9e5523fd5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(skills): the index generator skips plugin symlinks outside the install root (#8738)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a094af1c10f1f86108c05e8fd7982b4c032f0508"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurements): the Official Journal text of Regulation (EU) 2026/1744 is read, and th",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dfdb632d0c53fed368c12cd27f5bc75b08e867be"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(council): surface the stderr tail in subprocess seat errors, not the banner head (#873",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4bdc6957d205ef349a2bd121ddb93f8bc8d3ee5"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "Black October: prove the checklist in proving-ground, seal it, and ship a typed-yes fixer ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/076818c30253280c5c8b518c8c27bf684fbfa0fb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(merge): a session's own merge follows the sweep's red-check and unfinished-run holds ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/75361e6aadc76cfa606054939e160811b44dff70"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(settings): three-way ownership composer for settings.json divergence (#8719)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fbb5f58636508e4e7ff97654327e7d13ee4bdc88"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Declare GRIP_MAX_AGENTS in shipped workflows; fix cap-guard regex (#8710)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c2c0ebb903364972221f5c01b47129136e8a1c1"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "41 changes / 7 days",
+      "value": "44 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
