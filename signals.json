@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(council): surface the stderr tail in subprocess seat errors, not the banner head (#873",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4bdc6957d205ef349a2bd121ddb93f8bc8d3ee5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(skills): /show opens or reveals any local file or folder (#8715)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a8cad3a9098969bd4ece9eba59e2aad20ea4422a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(home): move HOME and USERPROFILE together, so Windows tests see the move (#8731)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/182483ae09bbc7da24b23cd6a48f91b763d2b6ef"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(shared-tree-advisory): run on Windows with a junction and a redirected home (#8727)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/97106523432a85e47116c3a5209955b9bd9b2cd7"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "Declare GRIP_MAX_AGENTS in shipped workflows; fix cap-guard regex (#8710)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c2c0ebb903364972221f5c01b47129136e8a1c1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(legal): keep a topic's playbook when it is typed with a stray separator (#8717)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5b4d38d50532a235d2ebc451bb187d2859b21110"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(legal): require set-up git-crypt; prove private receipts (#8713)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d8054dc139404805cbd3895c5e58393f8dbc09ec"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: the EU AI Act record-keeping duty applies from late 2027, not 2 August 2026 (#8711)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8438ab8556b39e4fa6aa4f1815c123fd467bea42"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "111 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7634",
+      "value": "gen 7636",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "38 changes / 7 days",
+      "value": "41 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Opens a file in its default application, opens a folder in the file manager, or ",
+          "name": "/show"
+        },
         {
           "desc": "Many ideas from outside models, ranked by Jev, picked by the operator",
           "name": "/ultraideate"
@@ -92,10 +96,6 @@
         {
           "desc": "Coin a slash verb GRIP does not know and bind it, through one Koppel round with ",
           "name": "/verbind"
-        },
-        {
-          "desc": "Make a passage clear for the person who reads it or acts on it, and keep its rec",
-          "name": "/clarify"
         }
       ],
       "tip": "A green test that cannot fail is not a check: prove it goes red before you trust it passes."
