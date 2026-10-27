@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(measurements): the EU date follow-up names the source it supersedes and states its fa",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a836a4bb18efd30b48209696a505afce15ef7a7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(tree-sync): sync past a hook script the same merge brings, and a rebuilt skills index ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/802121cf3986aac9048110bde87b2de9e5523fd5"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(shared-tree-advisory): run on Windows with a junction and a redirected home (#8727)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/97106523432a85e47116c3a5209955b9bd9b2cd7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Black October: prove the checklist in proving-ground, seal it, and ship a typed-yes fixer ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/076818c30253280c5c8b518c8c27bf684fbfa0fb"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "44 changes / 7 days",
+      "value": "45 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
