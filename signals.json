@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test: the remaining signing-key tests use the test folder's key (GRIP#8729, part 2) (#8753",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1e1e5860797332885abe4c0a3e9bb4c8c7d32491"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(grip-worktree): remove clears the lock the worktree took, after a switch or a detach (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d086ae7aaebeebd965ce31aa18395d9d4c3bf440"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(measurements): the Official Journal text of Regulation (EU) 2026/1744 is read, and th",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/dfdb632d0c53fed368c12cd27f5bc75b08e867be"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(council): surface the stderr tail in subprocess seat errors, not the banner head (#873",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4bdc6957d205ef349a2bd121ddb93f8bc8d3ee5"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "48 changes / 7 days",
+      "value": "49 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
