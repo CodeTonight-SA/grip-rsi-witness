@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(grip-worktree): remove clears the lock the worktree took, after a switch or a detach (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d086ae7aaebeebd965ce31aa18395d9d4c3bf440"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test: tests stop writing into the real home folder (GRIP#8729, first part) (#8749)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b588a13515c5834ee79eef8bc18a0a839e342059"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(council): surface the stderr tail in subprocess seat errors, not the banner head (#873",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4bdc6957d205ef349a2bd121ddb93f8bc8d3ee5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(skills): /show opens or reveals any local file or folder (#8715)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a8cad3a9098969bd4ece9eba59e2aad20ea4422a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "47 changes / 7 days",
+      "value": "48 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
