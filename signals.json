@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(messenger): a backlog never reaches the operator's phone one message at a time (#8760)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/20006f98caec4ef1a987f445724f662ec9d4bfd9"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(compat): a real file lock on Windows, so concurrent appends keep every record (GRIP#87",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/38a2b711101f3c738f1c5c85a707b37598a5e2e4"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(measurements): the EU date follow-up names the source it supersedes and states its fa",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a836a4bb18efd30b48209696a505afce15ef7a7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tree-sync): sync past a hook script the same merge brings, and a rebuilt skills index ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/802121cf3986aac9048110bde87b2de9e5523fd5"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "51 changes / 7 days",
+      "value": "52 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
