@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(rename-sites): kono_auto_capture.py done, rsi-backfill.py blocked by a tool limitation",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a5c0fc13a9a52be1943817234a9ef5bee5a928f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(rename-sites): replace, not rename, over three existing files (GRIP#8778) (#8779)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/adb13dc635879ac60a833bdc77b33eb88fcd67e5"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(compat): a real file lock on Windows, so concurrent appends keep every record (GRIP#87",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/38a2b711101f3c738f1c5c85a707b37598a5e2e4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-worktree): copy the git-crypt keys into Windows worktrees (GRIP#8705) (#8755)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/662a5befff25f5f6386e1f1a43c0596a4000c375"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "57 changes / 7 days",
+      "value": "58 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
