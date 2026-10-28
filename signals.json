@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(efficiency): the never-stuck, no-burn law, the fleet watch, /efficient renamed to /ef",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe53254f98453a97ae4d53efedc4d312befe8221"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(messenger): a backlog never reaches the operator's phone one message at a time (#8760)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/20006f98caec4ef1a987f445724f662ec9d4bfd9"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(mode-loader-broly): no test writes the Broly trigger into the checkout (GRIP#8730) (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ae3d2bf13903d382f107e7c2264942d474398512"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurements): the EU date follow-up names the source it supersedes and states its fa",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a836a4bb18efd30b48209696a505afce15ef7a7"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "52 changes / 7 days",
+      "value": "53 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "The be-all-and-end-all token optimiser and fleet watch",
+          "name": "/efficiency"
+        },
         {
           "desc": "Opens a file in its default application, opens a folder in the file manager, or ",
           "name": "/show"
@@ -92,10 +96,6 @@
         {
           "desc": "Reverse engineer a shipped binary, app, JavaScript or Electron bundle, APK, firm",
           "name": "/reverse-engineering"
-        },
-        {
-          "desc": "Coin a slash verb GRIP does not know and bind it, through one Koppel round with ",
-          "name": "/verbind"
         }
       ],
       "tip": "Declared input must reach the actor — an accepted flag nothing reads is a lie about influence."
