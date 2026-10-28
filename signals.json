@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(tick): the in-session tick measured, the always-on tick planned (#8784)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f376d433f5f323482506bdbf1837f0d5da183cf6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(rename-sites): kono_auto_capture.py done, rsi-backfill.py blocked by a tool limitation",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a5c0fc13a9a52be1943817234a9ef5bee5a928f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(messenger): a backlog never reaches the operator's phone one message at a time (#8760)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/20006f98caec4ef1a987f445724f662ec9d4bfd9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(compat): a real file lock on Windows, so concurrent appends keep every record (GRIP#87",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/38a2b711101f3c738f1c5c85a707b37598a5e2e4"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "58 changes / 7 days",
+      "value": "59 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
