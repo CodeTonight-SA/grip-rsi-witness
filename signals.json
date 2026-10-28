@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(tick): GPT-6 Astra's review of the tick's first autonomous act (#8808)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/53827d4f73daebbf11a716f7a336b099c87c1920"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows-lock): stop calling the Windows lock a no-op, and give the hand-off's true rea",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/191c5b8a8f3ae3dd1cca1014d64344cd19d908da"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(tick): the always-on tick, wave 1: a deterministic floor every five minutes, no model",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bad1f44847a58b6d093f2970fd7ae13607b9cabe"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows-lock): the task pruner and the issue budget lock on Windows (GRIP#8757) (#8790",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/536a7f37169304cc544361f83468d028a7b9a2e0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "64 changes / 7 days",
+      "value": "65 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
