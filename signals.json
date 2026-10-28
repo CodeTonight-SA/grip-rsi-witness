@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(tick): the always-on tick, wave 1: a deterministic floor every five minutes, no model",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bad1f44847a58b6d093f2970fd7ae13607b9cabe"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows-lock): the task pruner and the issue budget lock on Windows (GRIP#8757) (#8790",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/536a7f37169304cc544361f83468d028a7b9a2e0"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(relay-queue-drain): a state write that fails is reported, never a crash (#8761)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d872ac6d1eef86a1a5fb6759840691875e76ebe"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(efficiency): the never-stuck, no-burn law, the fleet watch, /efficient renamed to /ef",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe53254f98453a97ae4d53efedc4d312befe8221"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "57 changes / 7 days",
+      "value": "58 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
