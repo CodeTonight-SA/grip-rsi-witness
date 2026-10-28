@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(tick): under launchd a tick with findings exits 0, so the tick never reports itself (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8e15ea8527376739f97fc9d992dc32532bd20787"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(tick): the always-on tick, wave 1: a deterministic floor every five minutes, no model",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bad1f44847a58b6d093f2970fd7ae13607b9cabe"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(audit-chain): replace the per-log chain state instead of renaming over it (GRIP#8770) ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/491376c5a7ff7c3671422fac728d08827e4279be"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(relay-queue-drain): a state write that fails is reported, never a crash (#8761)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d872ac6d1eef86a1a5fb6759840691875e76ebe"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "58 changes / 7 days",
+      "value": "59 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
