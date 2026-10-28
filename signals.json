@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(relay-queue-drain): a state write that fails is reported, never a crash (#8761)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d872ac6d1eef86a1a5fb6759840691875e76ebe"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(efficiency): the never-stuck, no-burn law, the fleet watch, /efficient renamed to /ef",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe53254f98453a97ae4d53efedc4d312befe8221"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test: tests stop writing into the real home folder (GRIP#8729, first part) (#8749)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b588a13515c5834ee79eef8bc18a0a839e342059"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(mode-loader-broly): no test writes the Broly trigger into the checkout (GRIP#8730) (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ae3d2bf13903d382f107e7c2264942d474398512"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "53 changes / 7 days",
+      "value": "54 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
