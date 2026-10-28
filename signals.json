@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(tick): count the escalation day from when the question was asked (#8801)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e30466f5a86b478b360232021cb22e4206191ca"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(tick): the tick's own act on an open question or shortlist: an escalation after a day",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2c5391d51e43f24835006e603cabd00dd4605063"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(rename-sites): kono_auto_capture.py done, rsi-backfill.py blocked by a tool limitation",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a5c0fc13a9a52be1943817234a9ef5bee5a928f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(rename-sites): replace, not rename, over three existing files (GRIP#8778) (#8779)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/adb13dc635879ac60a833bdc77b33eb88fcd67e5"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "61 changes / 7 days",
+      "value": "62 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
