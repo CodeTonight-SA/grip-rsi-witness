@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(windows-lock): stop calling the Windows lock a no-op, and give the hand-off's true rea",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/191c5b8a8f3ae3dd1cca1014d64344cd19d908da"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows-lock): ten more modules take their lock from _compat (GRIP#8757) (#8803)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/573a567951b78088958d276db2fcc0697480cc10"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows-lock): the task pruner and the issue budget lock on Windows (GRIP#8757) (#8790",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/536a7f37169304cc544361f83468d028a7b9a2e0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(tick): the in-session tick measured, the always-on tick planned (#8784)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f376d433f5f323482506bdbf1837f0d5da183cf6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "63 changes / 7 days",
+      "value": "64 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
