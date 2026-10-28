@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(audit-chain): replace the per-log chain state instead of renaming over it (GRIP#8770) ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/491376c5a7ff7c3671422fac728d08827e4279be"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(relay-queue-drain): a state write that fails is reported, never a crash (#8761)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d872ac6d1eef86a1a5fb6759840691875e76ebe"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(grip-worktree): remove clears the lock the worktree took, after a switch or a detach (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d086ae7aaebeebd965ce31aa18395d9d4c3bf440"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: tests stop writing into the real home folder (GRIP#8729, first part) (#8749)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b588a13515c5834ee79eef8bc18a0a839e342059"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "54 changes / 7 days",
+      "value": "55 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
