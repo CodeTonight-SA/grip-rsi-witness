@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(ultraideate): every rank run records its shortlist with a run id, and the tick report",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9eb31edd2980ae23a57bebf181cee3ca63e28e05"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(tick): under launchd a tick with findings exits 0, so the tick never reports itself (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8e15ea8527376739f97fc9d992dc32532bd20787"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(kono-counters): every save is kept on Windows, and a save waits for readers (GRIP#8758",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/14e6927a0a3beac34511a371ee589d737619aca6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(audit-chain): replace the per-log chain state instead of renaming over it (GRIP#8770) ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/491376c5a7ff7c3671422fac728d08827e4279be"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "59 changes / 7 days",
+      "value": "60 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
