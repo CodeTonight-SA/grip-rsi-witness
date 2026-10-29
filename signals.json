@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(windows): the stale-worktree reaper runs on Windows (GRIP#8280) (#8837)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e6f026d49330c3adb6d6b6faad6550324127440"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows): the session wizard counts the other live sessions (GRIP#8280) (#8834)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/485fd818a1d2981301f4b8fac29d00fc100f4633"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(tick): the operator's signed grant for an autonomous act, verified by the tick (W4a) ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/eaee8d165553659f87ecc58c04c8f8867ca39a79"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(tick): wave 2 acceptance fixture and the carried assertions (GRIP#8789) (#8820)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/abf5fa3a15fe8c317ca9ec9e824b7646ccbf8e5e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "71 changes / 7 days",
+      "value": "72 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
