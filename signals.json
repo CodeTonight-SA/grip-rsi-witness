@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(tick): the keychain holds the signing key's 32-byte seed, because the prompt keeps 128",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6675ecef572e29b7c8ad32e3ae32620e8bafbdca"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(tick): the pending-question threshold is eight hours, and the plan records the operat",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0dc09831bdb885051c5492ab13adc7e68e5821f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(tick): pin the grant verifying key 90f091f179011d86 and hold its path for the operato",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b18eeacbeb158b90cafcc57dd36f466490e49e5"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): session_lister asks psutil before it deletes a lock as dead (GRIP#8817) (#88",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a3be4a2f186e429da8143b77cf7e1a7d33f81845"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): the session registry asks psutil whether a session is alive (GRIP#8817) (#88",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f7abf6762c12d461659cd320a8336c6e4272c672"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(tick): the recovery checkpoint act, behind the operator's grant (W4b) (#8822)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8adcebe9a6a80fb2364aeefdbc92a0f475d13085"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "73 changes / 7 days",
+      "value": "75 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
