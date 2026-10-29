@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(tick): wave 2 acceptance fixture and the carried assertions (GRIP#8789) (#8820)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/abf5fa3a15fe8c317ca9ec9e824b7646ccbf8e5e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows): one mode and Broly key per Claude Code process (GRIP#8743) (#8818)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/08a7b3daa036509040b245459c78f00737a10876"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows-lock): ten more modules take their lock from _compat (GRIP#8757) (#8803)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/573a567951b78088958d276db2fcc0697480cc10"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tick): count the escalation day from when the question was asked (#8801)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e30466f5a86b478b360232021cb22e4206191ca"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "63 changes / 7 days",
+      "value": "64 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
