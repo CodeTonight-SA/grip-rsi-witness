@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(tick): the throttle flag act, raised at the operator's soft cap under a signed grant ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e90115fe17e319a0fe1e112dd29caa278de8d54"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ultraideate): reasoning blocks and prompt echoes are not ideas, unscored criteria carr",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cd54d04f063a1bdf6ea96f4a58e994dc88b9b370"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(tick): the held items of GRIP#8833: budget share by design, two deferred acts count a",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f0190b1cf53957126a0319cfc7f1ed0f115da7d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(tick): the keychain holds the signing key's 32-byte seed, because the prompt keeps 128",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6675ecef572e29b7c8ad32e3ae32620e8bafbdca"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): the session wizard counts the other live sessions (GRIP#8280) (#8834)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/485fd818a1d2981301f4b8fac29d00fc100f4633"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(tick): the act is efficiency-gated: it starts only while the tick is inside half its ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/344c194641eff5789970350c9e7217fb43951394"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): each Claude Code session gets its own GRIP identity (GRIP#8817) (#8830)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4676a5833a900ff6de5dfdb30ac5cf659e133eb8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): session_lister asks psutil before it deletes a lock as dead (GRIP#8817) (#88",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a3be4a2f186e429da8143b77cf7e1a7d33f81845"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "114 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7641",
+      "value": "gen 7642",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "75 changes / 7 days",
+      "value": "78 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
