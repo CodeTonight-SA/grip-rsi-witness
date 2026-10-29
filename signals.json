@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(windows): each Claude Code session gets its own GRIP identity (GRIP#8817) (#8830)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4676a5833a900ff6de5dfdb30ac5cf659e133eb8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows): session_lister asks psutil before it deletes a lock as dead (GRIP#8817) (#88",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a3be4a2f186e429da8143b77cf7e1a7d33f81845"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): start the failover tool through the GRIP interpreter in the REPL 429 hook (G",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/14b2d2fd26997c30b96b6dee075def8422d13b6f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(fleet-watch): list headless processes on Windows, say unknown when the list cannot be ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e2d70fc14409fe502244c0221b267ae7820ff57"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "68 changes / 7 days",
+      "value": "69 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
