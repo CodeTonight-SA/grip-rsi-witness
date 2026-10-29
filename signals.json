@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(ultralearn): parse the command line first, so --help prints usage and spends nothing (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1eb6136ea379e76b1fd167ee23f6a43a2715cb20"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(tick): GPT-6 Astra's review of the tick's first autonomous act (#8808)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/53827d4f73daebbf11a716f7a336b099c87c1920"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(tick): under launchd a tick with findings exits 0, so the tick never reports itself (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8e15ea8527376739f97fc9d992dc32532bd20787"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(tick): the always-on tick, wave 1: a deterministic floor every five minutes, no model",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bad1f44847a58b6d093f2970fd7ae13607b9cabe"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "59 changes / 7 days",
+      "value": "60 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
