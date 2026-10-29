@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(windows): start the failover tool through the GRIP interpreter in the REPL 429 hook (G",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/14b2d2fd26997c30b96b6dee075def8422d13b6f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(fleet-watch): list headless processes on Windows, say unknown when the list cannot be ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e2d70fc14409fe502244c0221b267ae7820ff57"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(ultralearn): parse the command line first, so --help prints usage and spends nothing (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1eb6136ea379e76b1fd167ee23f6a43a2715cb20"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(tick): the tick's own act on an open question or shortlist: an escalation after a day",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2c5391d51e43f24835006e603cabd00dd4605063"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ultraideate): every rank run records its shortlist with a run id, and the tick report",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9eb31edd2980ae23a57bebf181cee3ca63e28e05"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tick): under launchd a tick with findings exits 0, so the tick never reports itself (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8e15ea8527376739f97fc9d992dc32532bd20787"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "60 changes / 7 days",
+      "value": "62 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
