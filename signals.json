@@ -53,10 +53,10 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "111 living genes exported with their fitness scores",
+      "caption": "114 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7639",
+      "value": "gen 7640",
       "verify": "data/genome-shared.json"
     },
     {
@@ -98,7 +98,7 @@
           "name": "/reverse-engineering"
         }
       ],
-      "tip": "The shared tree is not canonical: resolve any decision-gating read against origin/main."
+      "tip": "A negative claim is only as strong as the search behind it — name the scopes you checked."
     }
   ]
 }
