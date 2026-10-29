@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(tick): pin the grant verifying key 90f091f179011d86 and hold its path for the operato",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b18eeacbeb158b90cafcc57dd36f466490e49e5"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows): the stale-worktree reaper runs on Windows (GRIP#8280) (#8837)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e6f026d49330c3adb6d6b6faad6550324127440"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(tick): the recovery checkpoint act, behind the operator's grant (W4b) (#8822)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8adcebe9a6a80fb2364aeefdbc92a0f475d13085"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(tick): the operator's signed grant for an autonomous act, verified by the tick (W4a) ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eaee8d165553659f87ecc58c04c8f8867ca39a79"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "72 changes / 7 days",
+      "value": "73 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
