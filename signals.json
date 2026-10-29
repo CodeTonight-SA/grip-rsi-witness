@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(tick): the recovery checkpoint act, behind the operator's grant (W4b) (#8822)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8adcebe9a6a80fb2364aeefdbc92a0f475d13085"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(tick): the operator's signed grant for an autonomous act, verified by the tick (W4a) ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/eaee8d165553659f87ecc58c04c8f8867ca39a79"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(tick): GPT-6 Astra's review of the tick's first autonomous act (#8808)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/53827d4f73daebbf11a716f7a336b099c87c1920"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows-lock): stop calling the Windows lock a no-op, and give the hand-off's true rea",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/191c5b8a8f3ae3dd1cca1014d64344cd19d908da"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "65 changes / 7 days",
+      "value": "66 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
