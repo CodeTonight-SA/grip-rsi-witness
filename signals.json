@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(tick): the act is efficiency-gated: it starts only while the tick is inside half its ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/344c194641eff5789970350c9e7217fb43951394"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows): each Claude Code session gets its own GRIP identity (GRIP#8817) (#8830)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4676a5833a900ff6de5dfdb30ac5cf659e133eb8"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): one mode and Broly key per Claude Code process (GRIP#8743) (#8818)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/08a7b3daa036509040b245459c78f00737a10876"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): start the failover tool through the GRIP interpreter in the REPL 429 hook (G",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/14b2d2fd26997c30b96b6dee075def8422d13b6f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "69 changes / 7 days",
+      "value": "70 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
