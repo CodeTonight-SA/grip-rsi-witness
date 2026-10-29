@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(windows): session_lister asks psutil before it deletes a lock as dead (GRIP#8817) (#88",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a3be4a2f186e429da8143b77cf7e1a7d33f81845"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows): the session registry asks psutil whether a session is alive (GRIP#8817) (#88",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f7abf6762c12d461659cd320a8336c6e4272c672"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(fleet-watch): list headless processes on Windows, say unknown when the list cannot be ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e2d70fc14409fe502244c0221b267ae7820ff57"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ultralearn): parse the command line first, so --help prints usage and spends nothing (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1eb6136ea379e76b1fd167ee23f6a43a2715cb20"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "67 changes / 7 days",
+      "value": "68 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
