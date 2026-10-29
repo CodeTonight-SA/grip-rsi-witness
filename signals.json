@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(windows): the session registry asks psutil whether a session is alive (GRIP#8817) (#88",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f7abf6762c12d461659cd320a8336c6e4272c672"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(tick): the recovery checkpoint act, behind the operator's grant (W4b) (#8822)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8adcebe9a6a80fb2364aeefdbc92a0f475d13085"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(ultralearn): parse the command line first, so --help prints usage and spends nothing (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1eb6136ea379e76b1fd167ee23f6a43a2715cb20"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(tick): GPT-6 Astra's review of the tick's first autonomous act (#8808)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/53827d4f73daebbf11a716f7a336b099c87c1920"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "66 changes / 7 days",
+      "value": "67 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
