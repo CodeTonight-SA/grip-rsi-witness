@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(tick): the operator's signed grant for an autonomous act, verified by the tick (W4a) ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eaee8d165553659f87ecc58c04c8f8867ca39a79"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(tick): wave 2 acceptance fixture and the carried assertions (GRIP#8789) (#8820)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/abf5fa3a15fe8c317ca9ec9e824b7646ccbf8e5e"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows-lock): stop calling the Windows lock a no-op, and give the hand-off's true rea",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/191c5b8a8f3ae3dd1cca1014d64344cd19d908da"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows-lock): ten more modules take their lock from _compat (GRIP#8757) (#8803)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/573a567951b78088958d276db2fcc0697480cc10"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "64 changes / 7 days",
+      "value": "65 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
