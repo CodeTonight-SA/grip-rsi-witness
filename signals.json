@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(tick): the experiment act, an approved measurement for an overdue hypothesis (W6) (#8",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8ff31ca7ff647a990b6bc2a298ba0b7d8d7fec53"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows): the session coordinator judges a lock's owner from Git's ps -W (GRIP#8835, p",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/23b9d3945fcbbf0603443a5b6e03d29311a2c4c1"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(recall): the layered recall cascade behind grip-recall ask (#8867)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/71774b897e95286be8b3b79187c1dc243002c432"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(roundtable): drive emit_plan with the non-Anthropic roster (AGORA DEFER on GRIP#8863)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f033da6849314ef78242e53018e76ed9d8e64ed"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "86 changes / 7 days",
+      "value": "87 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
