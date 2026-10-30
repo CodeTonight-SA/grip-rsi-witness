@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "perf(recall): the moat's verify-on-read reuses a result only for byte-identical files (GRI",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cd6686865390dc152ef237f932caef5616907455"
+        },
+        {
+          "kind": "shipped",
           "tldr": "perf(recall): S0 scans without a Path per file, and the moat builds its Merkle root once (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff417150c9f282e1f9c9e379012d114aa9c54013"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(council): Gemini 4 Argon seatable by name in the council and the Roundtable, defaults",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/060061b9a852b5e98eb33eb67427d0ee85f44a2e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(throttle): the four remaining headless Claude spawn sites refuse while the flag is set",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/421037357478c460f96e3b0c442dd8e362ef6f6b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "83 changes / 7 days",
+      "value": "84 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
