@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(throttle): the four remaining headless Claude spawn sites refuse while the flag is set",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/421037357478c460f96e3b0c442dd8e362ef6f6b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows): read the genome step's skill files and logs as UTF-8 (GRIP#8783) (#8852)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7c876373b81ef7ac94b7dcdceb2f1f1880d4321"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(tick): the pending-question threshold is eight hours, and the plan records the operat",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0dc09831bdb885051c5492ab13adc7e68e5821f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(tick): pin the grant verifying key 90f091f179011d86 and hold its path for the operato",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b18eeacbeb158b90cafcc57dd36f466490e49e5"
         }
       ],
       "key": "stream"
