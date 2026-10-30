@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "perf(recall): S0 scans without a Path per file, and the moat builds its Merkle root once (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff417150c9f282e1f9c9e379012d114aa9c54013"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(recall): one /recall replaces /grip-first-thinking and /recalling-state; Rule 0 becom",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/929a42b108e8f28f76c11186496ea814ff59acec"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): the four session counters that asked pgrep read one psutil scan (GRIP#8835, ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7f31ebf75e05ce0942a7359a229b3a477c42ddfc"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(recall): the layered recall cascade behind grip-recall ask (#8867)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/71774b897e95286be8b3b79187c1dc243002c432"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(throttle): the four remaining headless Claude spawn sites refuse while the flag is set",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/421037357478c460f96e3b0c442dd8e362ef6f6b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): read the genome step's skill files and logs as UTF-8 (GRIP#8783) (#8852)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7c876373b81ef7ac94b7dcdceb2f1f1880d4321"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): read the next-step index and instance files as UTF-8 (#8850)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/687944e91bdff335c8a7c6602147a6ac4ff12b42"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(tick): the throttle flag act, raised at the operator's soft cap under a signed grant ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e90115fe17e319a0fe1e112dd29caa278de8d54"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "80 changes / 7 days",
+      "value": "83 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "The one recall command and GRIP's Rule 0 (Recall First)",
+          "name": "/recall"
+        },
         {
           "desc": "The be-all-and-end-all token optimiser and fleet watch",
           "name": "/efficiency"
@@ -92,10 +96,6 @@
         {
           "desc": "Ask Jev (TypeSafe's decision model, via HAL decide) a quick typed yes/no, pick-o",
           "name": "/decide"
-        },
-        {
-          "desc": "Reverse engineer a shipped binary, app, JavaScript or Electron bundle, APK, firm",
-          "name": "/reverse-engineering"
         }
       ],
       "tip": "A negative claim is only as strong as the search behind it — name the scopes you checked."
