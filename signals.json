@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(windows): read the next-step index and instance files as UTF-8 (#8850)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/687944e91bdff335c8a7c6602147a6ac4ff12b42"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(tick): the throttle flag act, raised at the operator's soft cap under a signed grant ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e90115fe17e319a0fe1e112dd29caa278de8d54"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): the stale-worktree reaper runs on Windows (GRIP#8280) (#8837)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e6f026d49330c3adb6d6b6faad6550324127440"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): the session wizard counts the other live sessions (GRIP#8280) (#8834)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/485fd818a1d2981301f4b8fac29d00fc100f4633"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "77 changes / 7 days",
+      "value": "78 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
