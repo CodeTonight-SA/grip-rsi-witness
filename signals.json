@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(roundtable): drive emit_plan with the non-Anthropic roster (AGORA DEFER on GRIP#8863)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f033da6849314ef78242e53018e76ed9d8e64ed"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(kono): head-to-head test of KONO recall against keyword search, with the verdict (#85",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/56d2ff37afbb209d28fe2239ba5723a255301d73"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(council): Gemini 4 Argon seatable by name in the council and the Roundtable, defaults",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/060061b9a852b5e98eb33eb67427d0ee85f44a2e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(throttle): the four remaining headless Claude spawn sites refuse while the flag is set",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/421037357478c460f96e3b0c442dd8e362ef6f6b"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(ultraideate): reasoning blocks and prompt echoes are not ideas, unscored criteria carr",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cd54d04f063a1bdf6ea96f4a58e994dc88b9b370"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(tick): the held items of GRIP#8833: budget share by design, two deferred acts count a",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f0190b1cf53957126a0319cfc7f1ed0f115da7d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tick): the keychain holds the signing key's 32-byte seed, because the prompt keeps 128",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6675ecef572e29b7c8ad32e3ae32620e8bafbdca"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(tick): the pending-question threshold is eight hours, and the plan records the operat",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0dc09831bdb885051c5492ab13adc7e68e5821f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "77 changes / 7 days",
+      "value": "79 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
