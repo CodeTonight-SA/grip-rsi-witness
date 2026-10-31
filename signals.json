@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(grip-cos, aide-api): unfreeze the tunnel's log, hide its token, and close aide-api to ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a9074e6b2a0d9911fe2e024047b1682ffd5acee3"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(tick): the experiment act, an approved measurement for an overdue hypothesis (W6) (#8",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8ff31ca7ff647a990b6bc2a298ba0b7d8d7fec53"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): the four session counters that asked pgrep read one psutil scan (GRIP#8835, ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7f31ebf75e05ce0942a7359a229b3a477c42ddfc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(recall): the layered recall cascade behind grip-recall ask (#8867)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/71774b897e95286be8b3b79187c1dc243002c432"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "87 changes / 7 days",
+      "value": "88 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
