@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gut-probe): act on AGORA's review before the first run (#8945)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/169b0963c35b3f2e3669494369fc1ccac2671d9a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(reasoning-lenses): the red-team step cannot kill a claim on its text alone (#8944)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6e4beb57dec0ec40df4907b10542f20398efc086"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(reasoning-bars): a daily limit is waited out, and a finished reply is never re-asked (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/85a18bfb921426d6f6cfa2be01d5c3ed4b348405"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(site): GRIP links to GRASP's real address (#8941)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8fc4a44c89e035bf5ec331f69c4182548e028a45"
+        },
+        {
+          "kind": "shipped",
           "tldr": "research(gut-probe): pre-register G-A before any question reaches the model (#8940)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0cb384009f3601c061fec910fe84857bb02d6abb"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(occam): delete /occam, which missed its pre-registered bar (#8936)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6db548eba4141c8e26c5d4200fae84e719e22b0a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "research(reasoning-bars): the pre-registered bars, and a harness that never scores a cut-o",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e8449b5b42b4ff68d31bc6a011fc265c6969b9b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(popper-board, attack-fanout): act on AGORA's review of GRIP#8933 (#8934)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/19351a7cd139d8a7b704745ba7d6eda787ecb572"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(happiverse): the star map says what it can show (#8912)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/28c6f1780dc42fb38785fcb9c713416dd536685e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(backup): a labelled copy keeps the source's extension (#8914)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c58bf626e9d95f6977fa10153ee06f5e0b5db319"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "118 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7649",
+      "value": "gen 7650",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "124 changes / 7 days",
+      "value": "128 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
