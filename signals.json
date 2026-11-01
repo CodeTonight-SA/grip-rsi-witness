@@ -4,49 +4,39 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "feat(reasoning-lenses): retire the word counter and rewrite the rule (#8906)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ea4934f5021011970241b3fe16dad3a65633b23f"
+          "tldr": "docs(reasoning-lenses): report the by-hand trial, and fix two annex points (#8919)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/82a6c446cebda8c1d53a61cbf1f0b68792150993"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(reasoning-lenses): record the decisions V>> locked on 2026-11-01 (#8903)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0d6505edf6444e51d5c7eb8c562ad00a44353d40"
+          "tldr": "fix(moe): every external-scorer seat answers again (#8515)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a6983cfc290da5dfb55540da43e5566d78a362b8"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(site): the about page says its 70% figure is an estimate (#8902)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9fd9b02ac0ed0992eb3bbf1700f5ecbcd62b0362"
+          "tldr": "fix(groq): the reasoning call sends a model Groq still serves (#8517)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8d20f15cb79c438a9c810043acc3ecb5926ca065"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(site): about.grip-web.com describes the suite as it is today (#8900)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7a4089f1f74544b288d61cd7a01aa356217f39c"
+          "tldr": "fix(happiverse): each autojoin run opens with a UTC time line (#8518)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ad6e0e26826c284411783f638f16ef8153b70a73"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(security): mesh health answers without a token only on private networks (#8899)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc145108fcc31523234e73f5b2304641f95e2258"
+          "tldr": "chore(donnaoss): the retired domain leaves public pages, the monitor and tool defaults (#8",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/059655b7946c2c4af6d52eec190834429efd0e11"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(security): grip-server and the legaltech monitor refuse the public tunnel without a to",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2c560f4244b3313564898d0d116524402a08046"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(plan): the always-on tick plan records W5 and W6 as shipped (#8896)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2c70c8037791e239cc88c8b0b5178ca426cfafb7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "build(deps): Bump body-parser in /servers/grip-server (#8675)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d68eb6cd60679ff349e76c7d4929b139b9abec36"
+          "tldr": "fix(ultraprompt-relevance): two AGORA suggestions from GRIP#8096, tested (#8509)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3154258b728d1531c4b9917fd4bdd0d503e73a5"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 335 verdicts rest on a resolvable metric; the other 322 were graded from a sentinel that means no collector exists, and are NOT evidence. 684 hypotheses registered.",
+      "caption": "13 of 336 verdicts rest on a resolvable metric; the other 323 were graded from a sentinel that means no collector exists, and are NOT evidence. 686 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -63,7 +53,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "98 changes / 7 days",
+      "value": "109 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -98,7 +88,7 @@
           "name": "/decide"
         }
       ],
-      "tip": "Exogenous-anchor law: a loop is only valid if a process it cannot please evaluates the exit."
+      "tip": "No stubs: every symbol is fully implemented — a hollow placeholder is a false-completeness signal."
     }
   ]
 }
