@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "research(gut-probe): pre-register G-A before any question reaches the model (#8940)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0cb384009f3601c061fec910fe84857bb02d6abb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(reasoning-bars): wait out a rate limit, so a busy minute decides no row (#8938)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a265d8e9a32c384f34697711b85f79027b70cdce"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(ops): the VPS access table matches the hardening of 2026-11-01 (#8897)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ad659bbcbe649bf5c99d8d191f5176ea960d565"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(occam): delete /occam, which missed its pre-registered bar (#8936)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6db548eba4141c8e26c5d4200fae84e719e22b0a"
         },
@@ -26,27 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(backup): a labelled copy keeps the source's extension (#8914)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c58bf626e9d95f6977fa10153ee06f5e0b5db319"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(brainstorm, verdict): the full ideation loop, the attack workflow and the board (#893",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6757e4ac49635db9c54b32f0221f5297855aa349"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(site): the about page says the chain publishes again (#8928)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/01f1ddcc591d11acc0db61a275ea723eb007d1c7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ultraideate): an idea scored on one criterion no longer tops the list (#8926)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/81d797364b707d6828dd383f7b32a7634227c07c"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 337 verdicts rest on a resolvable metric; the other 324 were graded from a sentinel that means no collector exists, and are NOT evidence. 691 hypotheses registered.",
+      "caption": "13 of 338 verdicts rest on a resolvable metric; the other 325 were graded from a sentinel that means no collector exists, and are NOT evidence. 692 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "121 changes / 7 days",
+      "value": "124 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -78,16 +78,12 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
-          "desc": "Puts Occam and Why Not Just against each other on one real problem",
+          "desc": "Puts the Occam habit and Why Not Just against each other on one real problem",
           "name": "/knife-fight"
         },
         {
           "desc": "Finds the answer an adult plan misses by asking what a bright five-year-old asks",
           "name": "/why-not-just"
-        },
-        {
-          "desc": "Finds the true cause or the smallest fix by testing the boring explanations firs",
-          "name": "/occam"
         },
         {
           "desc": "The one recall command and GRIP's Rule 0 (Recall First)",
