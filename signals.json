@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(ultraideate): an idea scored on one criterion no longer tops the list (#8926)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/81d797364b707d6828dd383f7b32a7634227c07c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(skills): add /why-not-just and /occam as thin skills over existing tools (#8924)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/adda9e3bf3f4f54ee1d8a49b72ac639cd5734630"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "refactor(how-to, kit): use a neutral register key and example names (#8913)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8242f214bd56e5e72642d9c6e13eb913e7135b3a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(decision-chain): withhold three more entries before the next publish (#8922)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f8927f02e9ac1c5e6f2cca271effae8f37d3d98b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "refactor(skill): /bg-dispatch offers a context choice and outside expert seats (#8923)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d0b610f7a6679513d335bb771b55114c1833fba"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(reasoning-lenses): report the by-hand trial, and fix two annex points (#8919)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/82a6c446cebda8c1d53a61cbf1f0b68792150993"
         },
@@ -11,32 +36,12 @@
           "kind": "shipped",
           "tldr": "fix(moe): every external-scorer seat answers again (#8515)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a6983cfc290da5dfb55540da43e5566d78a362b8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(groq): the reasoning call sends a model Groq still serves (#8517)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8d20f15cb79c438a9c810043acc3ecb5926ca065"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(happiverse): each autojoin run opens with a UTC time line (#8518)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ad6e0e26826c284411783f638f16ef8153b70a73"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(donnaoss): the retired domain leaves public pages, the monitor and tool defaults (#8",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/059655b7946c2c4af6d52eec190834429efd0e11"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ultraprompt-relevance): two AGORA suggestions from GRIP#8096, tested (#8509)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3154258b728d1531c4b9917fd4bdd0d503e73a5"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 336 verdicts rest on a resolvable metric; the other 323 were graded from a sentinel that means no collector exists, and are NOT evidence. 686 hypotheses registered.",
+      "caption": "13 of 336 verdicts rest on a resolvable metric; the other 323 were graded from a sentinel that means no collector exists, and are NOT evidence. 691 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -53,7 +58,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "109 changes / 7 days",
+      "value": "114 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
