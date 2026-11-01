@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "build(deps): Bump body-parser in /servers/grip-server (#8675)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d68eb6cd60679ff349e76c7d4929b139b9abec36"
+        },
+        {
+          "kind": "shipped",
           "tldr": "build(deps): Bump fast-uri in /remotion/grip-explainers (#8673)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9840276e3ebf529cad87fd02c98703b4e6a78ee7"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "perf(recall): the moat's verify-on-read reuses a result only for byte-identical files (GRI",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cd6686865390dc152ef237f932caef5616907455"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "perf(recall): S0 scans without a Path per file, and the moat builds its Merkle root once (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ff417150c9f282e1f9c9e379012d114aa9c54013"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "90 changes / 7 days",
+      "value": "91 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
