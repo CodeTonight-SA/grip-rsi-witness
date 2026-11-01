@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(reasoning-lenses): retire the word counter and rewrite the rule (#8906)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ea4934f5021011970241b3fe16dad3a65633b23f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(reasoning-lenses): record the decisions V>> locked on 2026-11-01 (#8903)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0d6505edf6444e51d5c7eb8c562ad00a44353d40"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(site): the about page says its 70% figure is an estimate (#8902)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9fd9b02ac0ed0992eb3bbf1700f5ecbcd62b0362"
         },
@@ -31,22 +41,12 @@
           "kind": "shipped",
           "tldr": "build(deps): Bump body-parser in /servers/grip-server (#8675)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d68eb6cd60679ff349e76c7d4929b139b9abec36"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "build(deps): Bump fast-uri in /remotion/grip-explainers (#8673)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9840276e3ebf529cad87fd02c98703b4e6a78ee7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "build(deps): Bump undici in /tools/grip-discord-voice (#8674)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0a866db7a5ada8099f1543784368380e201fbf06"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 335 verdicts rest on a resolvable metric; the other 322 were graded from a sentinel that means no collector exists, and are NOT evidence. 681 hypotheses registered.",
+      "caption": "13 of 335 verdicts rest on a resolvable metric; the other 322 were graded from a sentinel that means no collector exists, and are NOT evidence. 684 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,14 +56,14 @@
       "caption": "118 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7647",
+      "value": "gen 7648",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "96 changes / 7 days",
+      "value": "98 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
