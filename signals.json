@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(occam): delete /occam, which missed its pre-registered bar (#8936)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6db548eba4141c8e26c5d4200fae84e719e22b0a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "research(reasoning-bars): the pre-registered bars, and a harness that never scores a cut-o",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e8449b5b42b4ff68d31bc6a011fc265c6969b9b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(popper-board, attack-fanout): act on AGORA's review of GRIP#8933 (#8934)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/19351a7cd139d8a7b704745ba7d6eda787ecb572"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(happiverse): the star map says what it can show (#8912)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/28c6f1780dc42fb38785fcb9c713416dd536685e"
         },
@@ -26,27 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(ultraideate): an idea scored on one criterion no longer tops the list (#8926)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/81d797364b707d6828dd383f7b32a7634227c07c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(skills): add /why-not-just and /occam as thin skills over existing tools (#8924)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/adda9e3bf3f4f54ee1d8a49b72ac639cd5734630"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "refactor(how-to, kit): use a neutral register key and example names (#8913)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8242f214bd56e5e72642d9c6e13eb913e7135b3a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(decision-chain): withhold three more entries before the next publish (#8922)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f8927f02e9ac1c5e6f2cca271effae8f37d3d98b"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 336 verdicts rest on a resolvable metric; the other 323 were graded from a sentinel that means no collector exists, and are NOT evidence. 691 hypotheses registered.",
+      "caption": "13 of 337 verdicts rest on a resolvable metric; the other 324 were graded from a sentinel that means no collector exists, and are NOT evidence. 691 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,14 +56,14 @@
       "caption": "118 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7648",
+      "value": "gen 7649",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "118 changes / 7 days",
+      "value": "121 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
