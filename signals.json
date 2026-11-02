@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(relay): the rotation's return check can never stop a message (#8524)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e5751fba8a9c60301698896ec060cde95594dea6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): the RSI lock judges its owner's PID without os.kill (GRIP#8883, part two) (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d411740e5dbe540fba7345f2ad3af43a15a242a3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): session-broadcast judges the control server's PID from Git's ps -W (GRIP#888",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eba6527284d3611d35cc9077e83cece6fa514251"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(infer-classify): a corrupted shadow quota file heals instead of stopping the shadow (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f5ebff0a1b87c96b1598c9e9e8a2fdc78f8a540"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs: the README says GRIP and HAL are private today (#8946)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7af346c6dd4032d089823d23ecb593b785ea0a14"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gut-probe): act on AGORA's review before the first run (#8945)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/169b0963c35b3f2e3669494369fc1ccac2671d9a"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(reasoning-bars): a daily limit is waited out, and a finished reply is never re-asked (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/85a18bfb921426d6f6cfa2be01d5c3ed4b348405"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(site): GRIP links to GRASP's real address (#8941)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8fc4a44c89e035bf5ec331f69c4182548e028a45"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "research(gut-probe): pre-register G-A before any question reaches the model (#8940)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0cb384009f3601c061fec910fe84857bb02d6abb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(reasoning-bars): wait out a rate limit, so a busy minute decides no row (#8938)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a265d8e9a32c384f34697711b85f79027b70cdce"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(ops): the VPS access table matches the hardening of 2026-11-01 (#8897)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ad659bbcbe649bf5c99d8d191f5176ea960d565"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(occam): delete /occam, which missed its pre-registered bar (#8936)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6db548eba4141c8e26c5d4200fae84e719e22b0a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "122 changes / 7 days",
+      "value": "126 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
