@@ -56,7 +56,7 @@
       "caption": "119 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7651",
+      "value": "gen 7652",
       "verify": "data/genome-shared.json"
     },
     {
