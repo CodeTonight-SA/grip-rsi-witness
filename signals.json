@@ -98,7 +98,7 @@
           "name": "/show"
         }
       ],
-      "tip": "Everything is a shim; AI is a syscall — one stable boundary, provider-swappable underneath."
+      "tip": "Rate-limited never blocks: a transient 429 is a retry/failover signal, not a halt."
     }
   ]
 }
