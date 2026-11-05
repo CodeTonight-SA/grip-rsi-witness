@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(system-diagramming): the tested Mermaid workflow, and a renderer that reads the file ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/51f201c2f3c1bd49f504f2a6355a69303e6c0a9d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(web-fetch): fetch through a locked harness when Claude Code cannot fetch a page (#895",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5349b6d16bc9e743657d4133b717f13ae87d852b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs: the README says GRIP and HAL are private today (#8946)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7af346c6dd4032d089823d23ecb593b785ea0a14"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gut-probe): act on AGORA's review before the first run (#8945)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/169b0963c35b3f2e3669494369fc1ccac2671d9a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "71 changes / 7 days",
+      "value": "72 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
