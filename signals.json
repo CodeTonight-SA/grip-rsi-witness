@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(system-diagramming): the batch removes its temp folder, and the gate's limit covers ti",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b4b732cbbbd8ecd25014e18746b9358e22cb97b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(system-diagramming): the tested Mermaid workflow, and a renderer that reads the file ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/51f201c2f3c1bd49f504f2a6355a69303e6c0a9d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(infer-classify): a corrupted shadow quota file heals instead of stopping the shadow (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f5ebff0a1b87c96b1598c9e9e8a2fdc78f8a540"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: the README says GRIP and HAL are private today (#8946)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7af346c6dd4032d089823d23ecb593b785ea0a14"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "72 changes / 7 days",
+      "value": "73 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
