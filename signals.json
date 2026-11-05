@@ -98,7 +98,7 @@
           "name": "/show"
         }
       ],
-      "tip": "Rate-limited never blocks: a transient 429 is a retry/failover signal, not a halt."
+      "tip": "Parallel over either-or: independent, non-exclusive work runs together, not as a menu."
     }
   ]
 }
