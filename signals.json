@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(mcp-tunnel): Ctrl-D or Ctrl-C at the ceremony prompt no longer ends a verified reply i",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e2e5c233fa552f4a421fa688f4a1e12f72cb12c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(mcp-tunnel): add grip-tunnel, an offline kit for first contact with an MCP tunnel (#8",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/541139496b1b32c02a0db53d18287c8bd19a7018"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(relay): the rotation's return check can never stop a message (#8524)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e5751fba8a9c60301698896ec060cde95594dea6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): the RSI lock judges its owner's PID without os.kill (GRIP#8883, part two) (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d411740e5dbe540fba7345f2ad3af43a15a242a3"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "86 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7658",
+      "value": "gen 7659",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "72 changes / 7 days",
+      "value": "73 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
