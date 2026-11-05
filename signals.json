@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(mcp-tunnel): add grip-tunnel, an offline kit for first contact with an MCP tunnel (#8",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/541139496b1b32c02a0db53d18287c8bd19a7018"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(black-october): the Windows checker, part 1: check and check -Network (GRIP#8858) (#8",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/eacab1b29153c5aafe9e11b29cbb83626edcf00c"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): the RSI lock judges its owner's PID without os.kill (GRIP#8883, part two) (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d411740e5dbe540fba7345f2ad3af43a15a242a3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): session-broadcast judges the control server's PID from Git's ps -W (GRIP#888",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eba6527284d3611d35cc9077e83cece6fa514251"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "71 changes / 7 days",
+      "value": "72 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
