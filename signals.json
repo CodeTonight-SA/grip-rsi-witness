@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(black-october): the Windows checker, part 1: check and check -Network (GRIP#8858) (#8",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eacab1b29153c5aafe9e11b29cbb83626edcf00c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(system-diagramming): the batch removes its temp folder, and the gate's limit covers ti",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b4b732cbbbd8ecd25014e18746b9358e22cb97b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): session-broadcast judges the control server's PID from Git's ps -W (GRIP#888",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/eba6527284d3611d35cc9077e83cece6fa514251"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(infer-classify): a corrupted shadow quota file heals instead of stopping the shadow (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f5ebff0a1b87c96b1598c9e9e8a2fdc78f8a540"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "72 changes / 7 days",
+      "value": "73 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
