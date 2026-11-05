@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs: add a PDF checklist to latex-pdf-generation (#8952)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/407a416249e83fd35ebcc24863a966814f311a42"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(relay): the rotation's return check can never stop a message (#8524)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e5751fba8a9c60301698896ec060cde95594dea6"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "docs(reasoning-lenses): the red-team step cannot kill a claim on its text alone (#8944)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6e4beb57dec0ec40df4907b10542f20398efc086"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(reasoning-bars): a daily limit is waited out, and a finished reply is never re-asked (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/85a18bfb921426d6f6cfa2be01d5c3ed4b348405"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 338 verdicts rest on a resolvable metric; the other 325 were graded from a sentinel that means no collector exists, and are NOT evidence. 692 hypotheses registered.",
+      "caption": "13 of 338 verdicts rest on a resolvable metric; the other 325 were graded from a sentinel that means no collector exists, and are NOT evidence. 696 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "86 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7656",
+      "value": "gen 7657",
       "verify": "data/genome-shared.json"
     },
     {
