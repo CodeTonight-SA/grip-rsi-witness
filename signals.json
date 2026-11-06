@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(chain): withhold 27 more commits from the public decision chain (#8984)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/27314407c04328d3c264124135ae0fe255ad1d5c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(mcp-tunnel): Ctrl-D or Ctrl-C at the ceremony prompt no longer ends a verified reply i",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e2e5c233fa552f4a421fa688f4a1e12f72cb12c"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs: add a PDF checklist to latex-pdf-generation (#8952)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/407a416249e83fd35ebcc24863a966814f311a42"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(relay): the rotation's return check can never stop a message (#8524)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e5751fba8a9c60301698896ec060cde95594dea6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "53 changes / 7 days",
+      "value": "54 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
