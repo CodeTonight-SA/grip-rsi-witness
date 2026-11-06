@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(chain): withhold one more commit from the public decision chain (#8986)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8cf33ede6e6844ab8e650aaa77e3ae02019accf1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(chain): withhold 27 more commits from the public decision chain (#8984)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/27314407c04328d3c264124135ae0fe255ad1d5c"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(web-fetch): fetch through a locked harness when Claude Code cannot fetch a page (#895",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5349b6d16bc9e743657d4133b717f13ae87d852b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: add a PDF checklist to latex-pdf-generation (#8952)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/407a416249e83fd35ebcc24863a966814f311a42"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "54 changes / 7 days",
+      "value": "55 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
