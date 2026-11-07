@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(caffeinate): GRIP's keep-awake lets the screen sleep (#8990)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/420c479d0fbae20896c21d394d84bb888e69e582"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(chain): withhold one more commit from the public decision chain (#8986)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8cf33ede6e6844ab8e650aaa77e3ae02019accf1"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(system-diagramming): the tested Mermaid workflow, and a renderer that reads the file ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/51f201c2f3c1bd49f504f2a6355a69303e6c0a9d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(web-fetch): fetch through a locked harness when Claude Code cannot fetch a page (#895",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5349b6d16bc9e743657d4133b717f13ae87d852b"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "86 living genes exported with their fitness scores",
+      "caption": "87 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7659",
+      "value": "gen 7660",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "55 changes / 7 days",
+      "value": "56 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
