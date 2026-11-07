@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(chain): withhold the free text of four more commits from the public decision chain (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/43b6b806e927cb474eb9a685c0f65e7b7606754a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(caffeinate): GRIP's keep-awake lets the screen sleep (#8990)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/420c479d0fbae20896c21d394d84bb888e69e582"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(system-diagramming): the batch removes its temp folder, and the gate's limit covers ti",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b4b732cbbbd8ecd25014e18746b9358e22cb97b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(system-diagramming): the tested Mermaid workflow, and a renderer that reads the file ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/51f201c2f3c1bd49f504f2a6355a69303e6c0a9d"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "55 changes / 7 days",
+      "value": "56 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
