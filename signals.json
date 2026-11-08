@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(session-control): say why a leftover stays, and fix the digit-limit boundary (#9041)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/36f6ade4760aa8b9e2bdfbef74040894ef449f5e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(caffeinate): state why a kept record would rotate, and give the rsi_lock count (#9040",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b9d10cc7f975c2075cb399455d34fd6c730519d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(session-control): say what a failed cleanup leaves, and skip the digit guard where no ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/262576ca656d5b74c20a9db36ba794e14d033030"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(caffeinate): scope the gone-keep-awake row to GRIP's own, and keep the minute in the ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3380b18c90c3fcbc23996b17f615961b9c95c4e8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(caffeinate): name every way a recorded keep-awake can be gone (#9035)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a26c2669c5ddbfff5a11980df4840e622bcdc8b4"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(closeout): read only the line caffeinate_status prints, after a marker (#9030)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb968c4052cf922e8ce502abb8f88b5526bd351d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(caffeinate): pin the recovery after a failed rotation, and say when protection lapses ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9cd37e9434064c6f13dbf383c55b1353fa94e294"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(session-control): the server only updates an existing RSI lock, never creates one (#90",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d24126c2aee7aeed384d918f9c0675ca124f85e3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(closeout): say when the keep-awake was left running (#9021)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8548c2de4c9d09be76744a09f1236330b00aacdb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(caffeinate): the review follow-ups from GRIP#9018, and one fake process table (#9024)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e13afaad88836fd4b035bfcc401f8c375f53a72c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "76 changes / 7 days",
+      "value": "80 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
