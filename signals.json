@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(caffeinate): the last three precision points from AGORA on GRIP#9042 (#9044)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2619bf1e31dfe9983a16cdf23c273ddf06d3238"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(caffeinate): scope the rotation sentence to the live shapes, and date the rsi_lock ro",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7cdf77c8e91f0243e82c41b1528eb367f03cc707"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(session-control): say why a leftover stays, and fix the digit-limit boundary (#9041)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/36f6ade4760aa8b9e2bdfbef74040894ef449f5e"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(session-control): ignore a binary frame that is not UTF-8, and clean up a failed lock ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/57e609daec18bdce7a67d6721d9e6ab42aa56172"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(caffeinate): say where a reused PID goes, why the margin is a minute, and which tick f",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/192b017ae5be6f181a8b94bee4e5dc79d6934683"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(closeout): read only the line caffeinate_status prints, after a marker (#9030)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb968c4052cf922e8ce502abb8f88b5526bd351d"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "86 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7663",
+      "value": "gen 7665",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "80 changes / 7 days",
+      "value": "82 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
