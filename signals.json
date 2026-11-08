@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore(ste): turn the STE trial's switch off and record its final reading (#9020)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce7433c12ab119df293a10abb15a70dfe29801eb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(caffeinate): signal only a keep-awake ps confirms, and test the keep-alive tick (#9018",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d867b9d9bb6dc4326db57c7dc6a11935aaf8fa0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(caffeinate): a loop lock counts only while it names a live process (#9017)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/74421962b6b41219cd7c2be1f8e02f0116ba3c54"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(doctrine): describe the evaluation runner's scrub as the denylist it is (#9011)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2858d928542253ff41667304f137c5a9d778a2e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(doctrine): say exactly which credential the evaluation runner keeps (#9008)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2955d1ab210e9de5730d693153a202bf56d93ab"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(style): the action-first voice, opened without its evaluation gate (#8999)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8cfd88ae81b5610be104a5dc5a3e6551f0383a4"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "66 changes / 7 days",
+      "value": "68 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
