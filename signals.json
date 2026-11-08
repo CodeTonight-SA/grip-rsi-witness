@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(egress): note or hold a send that follows raw web text in the same turn (GRIP#8959) (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f943bc27bf53743326409d253e44e63b0f08abc2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(chain): push the public decision chain as a GitHub App (#9001)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ddae438300e5d243fc42fb5fd248526905eafa67"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(system-diagramming): read the diagram's role, so a label can name the error (#8997)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/556c3b1867df3472fccd334991085c32fd013cb0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): a high bias for action, the operator's doctrine of 2026-11-05 (#8954)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/981e8f70b99fe897e2c6506d5d4601d5737d1194"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "86 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7661",
+      "value": "gen 7662",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "64 changes / 7 days",
+      "value": "65 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
