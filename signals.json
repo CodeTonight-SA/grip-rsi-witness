@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(doctrine): describe the evaluation runner's scrub as the denylist it is (#9011)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2858d928542253ff41667304f137c5a9d778a2e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(doctrine): say exactly which credential the evaluation runner keeps (#9008)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2955d1ab210e9de5730d693153a202bf56d93ab"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(chain): withhold one more commit from the public decision chain (#8986)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8cf33ede6e6844ab8e650aaa77e3ae02019accf1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(chain): withhold 27 more commits from the public decision chain (#8984)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/27314407c04328d3c264124135ae0fe255ad1d5c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "60 changes / 7 days",
+      "value": "61 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
