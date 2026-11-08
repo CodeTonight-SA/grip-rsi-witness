@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(caffeinate): name every way a recorded keep-awake can be gone (#9035)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a26c2669c5ddbfff5a11980df4840e622bcdc8b4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(session-control): ignore a binary frame that is not UTF-8, and clean up a failed lock ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/57e609daec18bdce7a67d6721d9e6ab42aa56172"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(caffeinate): say where a reused PID goes, why the margin is a minute, and which tick f",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/192b017ae5be6f181a8b94bee4e5dc79d6934683"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(closeout): read only the line caffeinate_status prints, after a marker (#9030)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb968c4052cf922e8ce502abb8f88b5526bd351d"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(caffeinate): the review follow-ups from GRIP#9018, and one fake process table (#9024)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e13afaad88836fd4b035bfcc401f8c375f53a72c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(ste): turn the STE trial's switch off and record its final reading (#9020)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce7433c12ab119df293a10abb15a70dfe29801eb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(caffeinate): signal only a keep-awake ps confirms, and test the keep-alive tick (#9018",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d867b9d9bb6dc4326db57c7dc6a11935aaf8fa0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(caffeinate): a loop lock counts only while it names a live process (#9017)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/74421962b6b41219cd7c2be1f8e02f0116ba3c54"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "73 changes / 7 days",
+      "value": "76 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
