@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(caffeinate): pin the recovery after a failed rotation, and say when protection lapses ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9cd37e9434064c6f13dbf383c55b1353fa94e294"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(session-control): the server only updates an existing RSI lock, never creates one (#90",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d24126c2aee7aeed384d918f9c0675ca124f85e3"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(closeout): say when the keep-awake was left running (#9021)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8548c2de4c9d09be76744a09f1236330b00aacdb"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(egress): note or hold a send that follows raw web text in the same turn (GRIP#8959) (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f943bc27bf53743326409d253e44e63b0f08abc2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(chain): push the public decision chain as a GitHub App (#9001)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ddae438300e5d243fc42fb5fd248526905eafa67"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(pr_mermaid_adapter): prefix import and base-class ids, so a keyword cannot break the d",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a8070e21e9eea42b3eb9255c28c0c1aec35550dd"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "70 changes / 7 days",
+      "value": "72 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
