@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(rules): a high bias for action, the operator's doctrine of 2026-11-05 (#8954)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/981e8f70b99fe897e2c6506d5d4601d5737d1194"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(chain): withhold the free text of four more commits from the public decision chain (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/43b6b806e927cb474eb9a685c0f65e7b7606754a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(black-october): the Windows checker, part 1: check and check -Network (GRIP#8858) (#8",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/eacab1b29153c5aafe9e11b29cbb83626edcf00c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(system-diagramming): the batch removes its temp folder, and the gate's limit covers ti",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b4b732cbbbd8ecd25014e18746b9358e22cb97b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "56 changes / 7 days",
+      "value": "57 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
