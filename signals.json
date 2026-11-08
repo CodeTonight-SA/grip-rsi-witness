@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(chain): push the public decision chain as a GitHub App (#9001)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ddae438300e5d243fc42fb5fd248526905eafa67"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(pr_mermaid_adapter): prefix import and base-class ids, so a keyword cannot break the d",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a8070e21e9eea42b3eb9255c28c0c1aec35550dd"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(rules): a high bias for action, the operator's doctrine of 2026-11-05 (#8954)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/981e8f70b99fe897e2c6506d5d4601d5737d1194"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(chain): withhold the free text of four more commits from the public decision chain (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/43b6b806e927cb474eb9a685c0f65e7b7606754a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "63 changes / 7 days",
+      "value": "64 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
