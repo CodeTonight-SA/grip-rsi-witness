@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(doctrine): say exactly which credential the evaluation runner keeps (#9008)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2955d1ab210e9de5730d693153a202bf56d93ab"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(style): the action-first voice, opened without its evaluation gate (#8999)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e8cfd88ae81b5610be104a5dc5a3e6551f0383a4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(system-diagramming): read the diagram's role, so a label can name the error (#8997)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/556c3b1867df3472fccd334991085c32fd013cb0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(rules): a high bias for action, the operator's doctrine of 2026-11-05 (#8954)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/981e8f70b99fe897e2c6506d5d4601d5737d1194"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "chore(chain): withhold 27 more commits from the public decision chain (#8984)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/27314407c04328d3c264124135ae0fe255ad1d5c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(mcp-tunnel): Ctrl-D or Ctrl-C at the ceremony prompt no longer ends a verified reply i",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9e2e5c233fa552f4a421fa688f4a1e12f72cb12c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(mcp-tunnel): add grip-tunnel, an offline kit for first contact with an MCP tunnel (#8",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/541139496b1b32c02a0db53d18287c8bd19a7018"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(black-october): the Windows checker, part 1: check and check -Network (GRIP#8858) (#8",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eacab1b29153c5aafe9e11b29cbb83626edcf00c"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "57 changes / 7 days",
+      "value": "60 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
