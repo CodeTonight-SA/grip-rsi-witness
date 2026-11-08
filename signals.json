@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(closeout): read only the line caffeinate_status prints, after a marker (#9030)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb968c4052cf922e8ce502abb8f88b5526bd351d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(caffeinate): pin the recovery after a failed rotation, and say when protection lapses ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9cd37e9434064c6f13dbf383c55b1353fa94e294"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(caffeinate): a loop lock counts only while it names a live process (#9017)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/74421962b6b41219cd7c2be1f8e02f0116ba3c54"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(egress): note or hold a send that follows raw web text in the same turn (GRIP#8959) (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f943bc27bf53743326409d253e44e63b0f08abc2"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "72 changes / 7 days",
+      "value": "73 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
