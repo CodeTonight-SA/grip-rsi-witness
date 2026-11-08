@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(mcp-tunnel): a failed exec ends the child, and the stack names the stopping line (#90",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fafbf284cf1d7837cec2d484f8738d6bb7a0fac7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(mcp-tunnel): make a wedged terminal child show where it was stuck (#9046)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0d2cf527eacf3d337e0a48ed55b366bcc77608b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(caffeinate): scope the gone-keep-awake row to GRIP's own, and keep the minute in the ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3380b18c90c3fcbc23996b17f615961b9c95c4e8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(caffeinate): name every way a recorded keep-awake can be gone (#9035)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a26c2669c5ddbfff5a11980df4840e622bcdc8b4"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "86 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7665",
+      "value": "gen 7666",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "78 changes / 7 days",
+      "value": "77 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
