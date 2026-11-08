@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(closeout): say when the keep-awake was left running (#9021)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8548c2de4c9d09be76744a09f1236330b00aacdb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(caffeinate): the review follow-ups from GRIP#9018, and one fake process table (#9024)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e13afaad88836fd4b035bfcc401f8c375f53a72c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore(ste): turn the STE trial's switch off and record its final reading (#9020)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce7433c12ab119df293a10abb15a70dfe29801eb"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(pr_mermaid_adapter): prefix import and base-class ids, so a keyword cannot break the d",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a8070e21e9eea42b3eb9255c28c0c1aec35550dd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(chain): refuse a withheld list whose entries name no commit (#9002)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b9bbe312e8388d6823fafb988430c4b0bf580e6a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(doctrine): describe the evaluation runner's scrub as the denylist it is (#9011)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e2858d928542253ff41667304f137c5a9d778a2e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "68 changes / 7 days",
+      "value": "70 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
