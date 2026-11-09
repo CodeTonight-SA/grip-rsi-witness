@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(ci-guards): read the sweep workflow as UTF-8 (GRIP#8886) (#9058)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdfca3c53a6716e2996b109b229d50f0050e968b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(mcp-tunnel): press Ctrl-C again when CPython loses the first (GRIP#9045) (#9057)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e84bb0e4ed8283f82dc2c6cb366cb6c8032df36d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(ports): register 7678 for the grip-post web panel (#9055)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cdf5aad49b0cfd2a509ba8b06d923a97cec124f4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(ci-guards): read workflow and block files as UTF-8 (GRIP#8966) (#9051)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0a419b6b1eee6f0afafe7a385b2885b646e9ac67"
         },
@@ -26,27 +41,12 @@
           "kind": "shipped",
           "tldr": "docs(caffeinate): scope the rotation sentence to the live shapes, and date the rsi_lock ro",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7cdf77c8e91f0243e82c41b1528eb367f03cc707"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(session-control): say why a leftover stays, and fix the digit-limit boundary (#9041)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/36f6ade4760aa8b9e2bdfbef74040894ef449f5e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(caffeinate): state why a kept record would rotate, and give the rsi_lock count (#9040",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2b9d10cc7f975c2075cb399455d34fd6c730519d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(session-control): say what a failed cleanup leaves, and skip the digit guard where no ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/262576ca656d5b74c20a9db36ba794e14d033030"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 340 verdicts rest on a resolvable metric; the other 327 were graded from a sentinel that means no collector exists, and are NOT evidence. 702 hypotheses registered.",
+      "caption": "13 of 340 verdicts rest on a resolvable metric; the other 327 were graded from a sentinel that means no collector exists, and are NOT evidence. 703 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,14 +56,14 @@
       "caption": "89 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7671",
+      "value": "gen 7672",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "40 changes / 7 days",
+      "value": "43 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
