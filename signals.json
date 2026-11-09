@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(mcp-tunnel): give the lost-Ctrl-C test room for a slow child (GRIP#9057) (#9060)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/53e817609e5debf161ce629d6a6f3da59d433547"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(ci-guards): read the sweep workflow as UTF-8 (GRIP#8886) (#9058)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdfca3c53a6716e2996b109b229d50f0050e968b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(caffeinate): the last three precision points from AGORA on GRIP#9042 (#9044)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2619bf1e31dfe9983a16cdf23c273ddf06d3238"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(caffeinate): scope the rotation sentence to the live shapes, and date the rsi_lock ro",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7cdf77c8e91f0243e82c41b1528eb367f03cc707"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "43 changes / 7 days",
+      "value": "44 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
