@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hooks): a typed merge waits for the Codex reviewer as the sweep does (GRIP#9087) (#909",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6d9e0791757a6ec9f57d0e5a8a128f71d671ebfb"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(pr-monitor): pin each merge to the head its verdict was read for (GRIP#9067) (#9069)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a0234dd15edab34080a4456317fdf4a868f982a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hooks): only a typed prompt restarts the next-step chain (GRIP#9085) (#9089)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3abb979dc90959fb8cc87adc1e5752cfeac405e1"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(chain): name the exit code in push-failure reasons, with AGORA's follow-up tests (GRIP",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a9fd1bd595013cbc42257b39d24a5b7fb7d836b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): read the Stop payload's final message, so a (mine) closer is never missed (#90",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/514b37f76179ff533440e0833964ddbc8eddb218"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(chain): route the Python publisher's push through the App gate (GRIP#9013) (#9070)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a9c4bed4689cdc92198c94011e561abf453e0fd0"
         }
       ],
       "key": "stream"
