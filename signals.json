@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hooks): read a github.com merge where gh merges it, and the newest merges (GRIP#9093) ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9109bb683353df8ba8946a07ea5be8d00fd60ada"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(continue): let the load-time card pass Claude Code's permission check (#9113)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab46f907fdaf74465e1e199af4bdad420fe1c579"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(worktree): give the lsof-free sandbox PATH dirname, so the anchor passes on macOS (GR",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a489cb02e43e27fbb7b7e9603f54fba92dbd9636"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): a typed merge waits for the Codex reviewer as the sweep does (GRIP#9087) (#909",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6d9e0791757a6ec9f57d0e5a8a128f71d671ebfb"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "66 changes / 7 days",
+      "value": "67 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
