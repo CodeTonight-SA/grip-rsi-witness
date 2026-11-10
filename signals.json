@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(continue): point the deep path's stores reader at the GRIP install (#9111)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5be759feb423114cfe38345a3c0cc83ec72e8c74"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(continue): /continue reads the goal back from the transcript and checks it against Gi",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c439e8980b6dd70cf0be9cec35c4d09c3037709"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(pr-monitor): pin each merge to the head its verdict was read for (GRIP#9067) (#9069)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6a0234dd15edab34080a4456317fdf4a868f982a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): only a typed prompt restarts the next-step chain (GRIP#9085) (#9089)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3abb979dc90959fb8cc87adc1e5752cfeac405e1"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "64 changes / 7 days",
+      "value": "65 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
