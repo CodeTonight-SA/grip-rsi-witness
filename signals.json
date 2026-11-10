@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hooks): read the Stop payload's final message, so a (mine) closer is never missed (#90",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/514b37f76179ff533440e0833964ddbc8eddb218"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(chain): route the Python publisher's push through the App gate (GRIP#9013) (#9070)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a9c4bed4689cdc92198c94011e561abf453e0fd0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(system-diagramming): clarify the gate's line joining and pin AGORA's falsifiers (GRIP",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ebd6919ad19aa330efa3434f8683bdd3703d3cb6"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(mcp-tunnel): give the lost-Ctrl-C test room for a slow child (GRIP#9057) (#9060)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/53e817609e5debf161ce629d6a6f3da59d433547"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(ci-guards): read the sweep workflow as UTF-8 (GRIP#8886) (#9058)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdfca3c53a6716e2996b109b229d50f0050e968b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(mcp-tunnel): press Ctrl-C again when CPython loses the first (GRIP#9045) (#9057)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e84bb0e4ed8283f82dc2c6cb366cb6c8032df36d"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "49 changes / 7 days",
+      "value": "51 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
