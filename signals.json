@@ -78,6 +78,10 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
+          "desc": "Reconstructs the goal, approval and next step of the current session from the tr",
+          "name": "/continue"
+        },
+        {
           "desc": "Puts the Occam habit and Why Not Just against each other on one real problem",
           "name": "/knife-fight"
         },
