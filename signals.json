@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(worktree): give the lsof-free sandbox PATH dirname, so the anchor passes on macOS (GR",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a489cb02e43e27fbb7b7e9603f54fba92dbd9636"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hooks): a typed merge waits for the Codex reviewer as the sweep does (GRIP#9087) (#909",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6d9e0791757a6ec9f57d0e5a8a128f71d671ebfb"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(chain): keep only the stderr lines that say something in a push-failure reason (GRIP#9",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d130d556424da063cc251d8b14faf690dcc56fd4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(chain): name the exit code in push-failure reasons, with AGORA's follow-up tests (GRIP",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a9fd1bd595013cbc42257b39d24a5b7fb7d836b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "59 changes / 7 days",
+      "value": "60 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
