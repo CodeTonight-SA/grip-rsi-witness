@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hooks): only a typed prompt restarts the next-step chain (GRIP#9085) (#9089)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3abb979dc90959fb8cc87adc1e5752cfeac405e1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hooks): the insight scanner survives an older transcript reader (Codex on GRIP#9084) (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/04aca0220c79065a9de011696062fc9d9c3472df"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(chain): route the Python publisher's push through the App gate (GRIP#9013) (#9070)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a9c4bed4689cdc92198c94011e561abf453e0fd0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(system-diagramming): clarify the gate's line joining and pin AGORA's falsifiers (GRIP",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ebd6919ad19aa330efa3434f8683bdd3703d3cb6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "56 changes / 7 days",
+      "value": "57 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
