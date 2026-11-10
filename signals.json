@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hooks): the insight scanner survives an older transcript reader (Codex on GRIP#9084) (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/04aca0220c79065a9de011696062fc9d9c3472df"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(hooks): Rule 20 credits a canonical edit anywhere in the insight's turn (GRIP#9083) (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f88a810fdd028b0da4e4785f66321ebf35d8783a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hooks): the advisory Stop hooks read the payload's copy of the final message (GRIP#907",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8807d782b7c7b29257b6cb21dfd478c80eb75316"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(system-diagramming): clarify the gate's line joining and pin AGORA's falsifiers (GRIP",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ebd6919ad19aa330efa3434f8683bdd3703d3cb6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(black-october): two security fixes for the bash checker (GRIP#8971, GRIP#8977) (#9050)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc62740670a5d3dcb6edc0fc568a97ce9436cde4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(black-october): the Windows checker runs no code from the folder it starts in (GRIP#88",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d73e34fc3eaff05ca950323f695ebd6e524158a6"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "54 changes / 7 days",
+      "value": "56 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
