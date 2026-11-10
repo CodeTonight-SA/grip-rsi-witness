@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix: pin the three admin merges to the commit they checked (GRIP#9068) (#9124)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e507f657610cc5de5982fdd17ec3404646a1de52"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(pr-monitor): record /continue's two merge-command mentions as mentions (#9140)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7668ad0e3b4ae45621afcc901c5a80c47a59112f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(actions-runner): the quick-exit pause stays above zero and below a healthy run (GRIP#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f9b61d9dfcd64ab7e22e902047e51e1541b9bb5"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(next-step): Windows bin paths, gg++ beside AGORA, two forward anchors (#9122)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c040f761d5f2f468d13186ba7437ad93274729e5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(reference): regenerate docs/COMMANDS.md for /continue (GRIP#9106 follow-up) (#9123)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66ff6a5e232969fa3362ae1dcda29e0a3092db7c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(installation): a missing embedding model names the command that fixes it (GRIP#9090) ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c31ece691a058b9803ac4877be51ed433922c643"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "89 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7675",
+      "value": "gen 7676",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "76 changes / 7 days",
+      "value": "78 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
