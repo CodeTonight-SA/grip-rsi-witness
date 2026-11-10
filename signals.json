@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(continue): /continue reads the goal back from the transcript and checks it against Gi",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0c439e8980b6dd70cf0be9cec35c4d09c3037709"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(actions-runner): close three of AGORA's deferred runner concerns (#9104)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a6bde50106043eaba7927bccf570d6e2ca62883"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(hooks): only a typed prompt restarts the next-step chain (GRIP#9085) (#9089)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3abb979dc90959fb8cc87adc1e5752cfeac405e1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): the insight scanner survives an older transcript reader (Codex on GRIP#9084) (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/04aca0220c79065a9de011696062fc9d9c3472df"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "63 changes / 7 days",
+      "value": "64 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
