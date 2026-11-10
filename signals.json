@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(chain): keep only the stderr lines that say something in a push-failure reason (GRIP#9",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d130d556424da063cc251d8b14faf690dcc56fd4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(chain): name the exit code in push-failure reasons, with AGORA's follow-up tests (GRIP",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a9fd1bd595013cbc42257b39d24a5b7fb7d836b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(mcp-tunnel): stop the reaper from writing macOS crash reports (#9062)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b659809791adba98f604cd55122640ff819e15d1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(system-diagramming): keep the last good picture and read a wrapped root tag (GRIP#9006",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/98c2edf85fed4c50a14d2b281ae0b6f26be848c0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "52 changes / 7 days",
+      "value": "53 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
