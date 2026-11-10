@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(actions-runner): close three of AGORA's deferred runner concerns (#9104)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1a6bde50106043eaba7927bccf570d6e2ca62883"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Run GRIP's CI on single-use VPS runners from 1 December 2026 (#9101)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3aca2fca8f0fdd99f78cc978bd35049cafe38e96"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(codex): name a signed-out seat and move past it (GRIP#9071) (#9098)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/84c5dbd27ab52f373df429afa671a4d517726f4d"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(hooks): the insight scanner survives an older transcript reader (Codex on GRIP#9084) (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/04aca0220c79065a9de011696062fc9d9c3472df"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): Rule 20 credits a canonical edit anywhere in the insight's turn (GRIP#9083) (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f88a810fdd028b0da4e4785f66321ebf35d8783a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): the advisory Stop hooks read the payload's copy of the final message (GRIP#907",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8807d782b7c7b29257b6cb21dfd478c80eb75316"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "61 changes / 7 days",
+      "value": "63 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
