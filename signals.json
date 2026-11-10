@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(codex): name a signed-out seat and move past it (GRIP#9071) (#9098)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/84c5dbd27ab52f373df429afa671a4d517726f4d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(worktree): give the lsof-free sandbox PATH dirname, so the anchor passes on macOS (GR",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a489cb02e43e27fbb7b7e9603f54fba92dbd9636"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(hooks): the advisory Stop hooks read the payload's copy of the final message (GRIP#907",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8807d782b7c7b29257b6cb21dfd478c80eb75316"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(chain): keep only the stderr lines that say something in a push-failure reason (GRIP#9",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d130d556424da063cc251d8b14faf690dcc56fd4"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "60 changes / 7 days",
+      "value": "61 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
