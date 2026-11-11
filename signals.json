@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "ultraread: test the two gaps the council found (#9163)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4303a02522287da051353588d317cb329bde18c7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "ultraread: say why a seat fell back to the stub, and work when run as a file (#9160)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/14f001a89555b608dd0b955c98cabe4c1e57daa1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(connect): /connect -- a planner, a coder and a reviewer from three vendors, relayed b",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c8175b9d18f3f82db2233795ac006f528b9925c4"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(send-skills): make the outbound folder first, and cite the brake's rule (GRIP#9135) (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e009b56d11d967ac0434e43a971606f2a6b51a1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(measured-claim-gate): read vitest's summary lines as well as pytest's (GRIP#9128) (#91",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b59e804060c2fd5de03ec07c82164a3af76f2a0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-channel): run the bridge's test suite under a throwaway home (GRIP#9126) (#9141)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1d2981233840878d1e0116dcb8cc54098d8b60b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "86 changes / 7 days",
+      "value": "88 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
