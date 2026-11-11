@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(send-skills): make the outbound folder first, and cite the brake's rule (GRIP#9135) (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e009b56d11d967ac0434e43a971606f2a6b51a1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(measured-claim-gate): read vitest's summary lines as well as pytest's (GRIP#9128) (#91",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b59e804060c2fd5de03ec07c82164a3af76f2a0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(grip-channel): run the bridge's test suite under a throwaway home (GRIP#9126) (#9141)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1d2981233840878d1e0116dcb8cc54098d8b60b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix: pin the three admin merges to the commit they checked (GRIP#9068) (#9124)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e507f657610cc5de5982fdd17ec3404646a1de52"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "docs(skills): send-whatsapp and send-to-phone stop at the outbound-stop brake and send fil",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d6d95227eb58afa68651e2d9649358f0511aed51"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(codex-ladder): say when the sign-in check cannot run (GRIP#9099) (#9121)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d3bd30f0b4d7a290fec3dd53904abad87470aa6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-channel): the outbound-stop brake holds on every WhatsApp send path (GRIP#9102) (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/479cabca9d5add45dd5d609899a8a52058988523"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(next-step): Windows bin paths, gg++ beside AGORA, two forward anchors (#9122)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c040f761d5f2f468d13186ba7437ad93274729e5"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "78 changes / 7 days",
+      "value": "81 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
