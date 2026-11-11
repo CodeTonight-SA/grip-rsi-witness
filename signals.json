@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(models): onboard Claude Fable 5.2 as a named tier and the trio's first Fable rung (#9",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/856ca32c1772cf7167faf5d7c32c5b51b2263a43"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(quality-gate): a TypeScript keyword before \"(\" never names a function (GRIP#9127) (#91",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/83fe65950907e8ed93b15377f2662532308e7bd2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(send-skills): make the outbound folder first, and cite the brake's rule (GRIP#9135) (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e009b56d11d967ac0434e43a971606f2a6b51a1"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(actions-runner): the quick-exit pause stays above zero and below a healthy run (GRIP#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f9b61d9dfcd64ab7e22e902047e51e1541b9bb5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(next-step): split AGORA's owner at any run of pluses, keeping gg++ whole (#9136)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/47542dab8e4207ba9a1508a65e449f682892bf71"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(skills): send-whatsapp and send-to-phone stop at the outbound-stop brake and send fil",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d6d95227eb58afa68651e2d9649358f0511aed51"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "91 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7678",
+      "value": "gen 7679",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "81 changes / 7 days",
+      "value": "83 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
