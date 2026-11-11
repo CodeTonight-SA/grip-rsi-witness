@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(bash-safety): build Next.js with rtk proxy, not rtk next build (#9167)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b24b6b8e7fe70c330a732348d594b679f50126a8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Gate R: say when the private overlay could not be read (#9165)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2304621f7192fadb9837e8ce47f4e028676af79f"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(council): make every claude -p council and roundtable seat text-only (#9147)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7711d01361b43f321d59a4a45b13b6a2853e6a30"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(models): onboard Claude Fable 5.2 as a named tier and the trio's first Fable rung (#9",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/856ca32c1772cf7167faf5d7c32c5b51b2263a43"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 340 verdicts rest on a resolvable metric; the other 327 were graded from a sentinel that means no collector exists, and are NOT evidence. 715 hypotheses registered.",
+      "caption": "13 of 341 verdicts rest on a resolvable metric; the other 328 were graded from a sentinel that means no collector exists, and are NOT evidence. 715 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "90 changes / 7 days",
+      "value": "91 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
