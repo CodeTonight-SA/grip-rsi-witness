@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(grip-channel): the bridge never uses the Anthropic API key; Claude goes through HAL CC",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b397cf798970a21f73be4dbeb7cf75852fa23a69"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(hypothesis): record which outside reviewer judged each verification (#9174)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d023c2049d96eb025010cc22db0a6647a9994538"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "ultraread: say why a seat fell back to the stub, and work when run as a file (#9160)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/14f001a89555b608dd0b955c98cabe4c1e57daa1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(connect): /connect -- a planner, a coder and a reviewer from three vendors, relayed b",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c8175b9d18f3f82db2233795ac006f528b9925c4"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "93 changes / 7 days",
+      "value": "94 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
