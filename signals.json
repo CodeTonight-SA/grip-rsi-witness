@@ -78,6 +78,10 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
+          "desc": "Pairs models, not people",
+          "name": "/connect"
+        },
+        {
           "desc": "Reconstructs the goal, approval and next step of the current session from the tr",
           "name": "/continue"
         },
@@ -96,10 +100,6 @@
         {
           "desc": "The be-all-and-end-all token optimiser and fleet watch",
           "name": "/efficiency"
-        },
-        {
-          "desc": "Opens a file in its default application, opens a folder in the file manager, or ",
-          "name": "/show"
         }
       ],
       "tip": "A negative claim is only as strong as the search behind it — name the scopes you checked."
