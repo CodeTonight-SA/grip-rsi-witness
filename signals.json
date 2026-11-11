@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(council): make every claude -p council and roundtable seat text-only (#9147)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7711d01361b43f321d59a4a45b13b6a2853e6a30"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(models): onboard Claude Fable 5.2 as a named tier and the trio's first Fable rung (#9",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/856ca32c1772cf7167faf5d7c32c5b51b2263a43"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(pr-monitor): record /continue's two merge-command mentions as mentions (#9140)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7668ad0e3b4ae45621afcc901c5a80c47a59112f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(actions-runner): the quick-exit pause stays above zero and below a healthy run (GRIP#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6f9b61d9dfcd64ab7e22e902047e51e1541b9bb5"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "83 changes / 7 days",
+      "value": "84 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
