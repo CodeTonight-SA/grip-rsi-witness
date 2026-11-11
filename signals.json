@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(providers): let the Gemini reviewer import with only lib/ on sys.path (#9168)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f31df432734d05db0cd839f4fa989373f56a3ba4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(bash-safety): build Next.js with rtk proxy, not rtk next build (#9167)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b24b6b8e7fe70c330a732348d594b679f50126a8"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(ultrathink): give the Claude Code seat 900 seconds, measured, not 300 (#9148)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/eb1742d70132526f80d3bc536185dfbf6b1b5de6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(council): make every claude -p council and roundtable seat text-only (#9147)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7711d01361b43f321d59a4a45b13b6a2853e6a30"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "91 changes / 7 days",
+      "value": "92 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
