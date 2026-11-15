@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(connect): a racily clean encrypted file no longer breaks the worktree set-up (#9194)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/513a59ad1ce194848b19b87ca0209bfda60d9b63"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(grip-channel): keep voice notes from chosen chats for local transcription (#9190)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/03a97859da77ef7116fadc3d2cbc27e01527509d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "Gate R: say when the private overlay could not be read (#9165)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2304621f7192fadb9837e8ce47f4e028676af79f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(privacy): Gate R and deploy sweep read the redaction overlay (#9162)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4ec8c1a4b47e77174564f921cc595ae0dc28ed9f"
         }
       ],
       "key": "stream"
