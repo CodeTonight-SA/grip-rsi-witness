@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(grip-channel): a channel_typing tool shows typing or recording in a WhatsApp chat (#9",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/15856e3f21fc8e139a166f0fe432044ad865d5e2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(connect): a racily clean encrypted file no longer breaks the worktree set-up (#9194)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/513a59ad1ce194848b19b87ca0209bfda60d9b63"
         },
@@ -31,16 +36,6 @@
           "kind": "shipped",
           "tldr": "fix(providers): let the Gemini reviewer import with only lib/ on sys.path (#9168)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f31df432734d05db0cd839f4fa989373f56a3ba4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(bash-safety): build Next.js with rtk proxy, not rtk next build (#9167)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b24b6b8e7fe70c330a732348d594b679f50126a8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Gate R: say when the private overlay could not be read (#9165)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2304621f7192fadb9837e8ce47f4e028676af79f"
         }
       ],
       "key": "stream"
@@ -63,7 +58,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "78 changes / 7 days",
+      "value": "80 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
