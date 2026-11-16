@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(grip-channel): a passive bridge records messages but acts on none (#9200)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4229b08a71740b6482e6fb7c703d47409de026ba"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(stack-dogfood): add the check-phase overnight loop runner (#9199)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f911778e3a27d1c8bfd348faf65c195c7873dd2e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(stack-dogfood): dogfood the AI suite onto itself across every harness (#9197)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/462258ed0c221f3b6cfec9d91ddb8ba352310133"
         },
@@ -26,16 +36,6 @@
           "kind": "shipped",
           "tldr": "feat(markdown-expert): catch underscore identifiers a viewer renders as italics (#9184)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2edac6222e2223a4b510f3176b6dd6088506b87c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-channel): the bridge never uses the Anthropic API key; Claude goes through HAL CC",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b397cf798970a21f73be4dbeb7cf75852fa23a69"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(hypothesis): record which outside reviewer judged each verification (#9174)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d023c2049d96eb025010cc22db0a6647a9994538"
         }
       ],
       "key": "stream"
@@ -51,14 +51,14 @@
       "caption": "91 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7686",
+      "value": "gen 7687",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "61 changes / 7 days",
+      "value": "63 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -72,6 +72,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Dogfood the CodeTonight AI suite onto itself -- install GRASP, HAPPI, HAL and GR",
+          "name": "/stack-dogfood"
+        },
         {
           "desc": "Pairs models, not people",
           "name": "/connect"
@@ -91,10 +95,6 @@
         {
           "desc": "The one recall command and GRIP's Rule 0 (Recall First)",
           "name": "/recall"
-        },
-        {
-          "desc": "The be-all-and-end-all token optimiser and fleet watch",
-          "name": "/efficiency"
         }
       ],
       "tip": "Everything is a shim; AI is a syscall — one stable boundary, provider-swappable underneath."
