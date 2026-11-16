@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(ultraread): match claims on the identifiers they cite, not their wording (#9204) (#921",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d76197bef3ef86742667f6a82071bebea00f4db4"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(stack-dogfood): wire GRASP's escalation test gate to its own venv (#9216)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e4d331887219f201e6e8831a9c206a971f1a94d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(grip-channel): a passive bridge records messages but acts on none (#9200)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4229b08a71740b6482e6fb7c703d47409de026ba"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(stack-dogfood): add the check-phase overnight loop runner (#9199)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f911778e3a27d1c8bfd348faf65c195c7873dd2e"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "68 changes / 7 days",
+      "value": "69 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
