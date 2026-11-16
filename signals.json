@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(stack-dogfood): push the draft-PR branch before gh pr create (#9252) (#9260)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb824afa9edf8af01cbbfbaabdabf7019fd29018"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(style): replies end with \"Where this stands\", and every GRIP reference opens with one",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0243e1ef40081f786b11c4b287a449b6589b4e7a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(grip-channel): send a picture as a photo; media sends are the bridge's own (#9243)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/116b27c93c3a0af0bbaa329f3e87561cb381378a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hypothesis-engine): keep the outside reviewer's reasons, not only its score line (#924",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/21cf5df1a6557333d329353ec3e66df9e0695751"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "77 changes / 7 days",
+      "value": "78 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
