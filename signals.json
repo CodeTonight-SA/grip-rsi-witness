@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(ultragoal): the /goal pointer runs from any folder, through bin/grip-py (#9188) (#9202",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/de0e1ac847228e8dad858958d19301e6992ef7e7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ultraread): each --models label now reaches the model it names (#9187) (#9203)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8cdc1b23d13a55fc41eca5a4fca4c93dc1ce94a2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(grip-channel): a passive bridge records messages but acts on none (#9200)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4229b08a71740b6482e6fb7c703d47409de026ba"
         },
@@ -26,22 +36,12 @@
           "kind": "shipped",
           "tldr": "fix(connect): a racily clean encrypted file no longer breaks the worktree set-up (#9194)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/513a59ad1ce194848b19b87ca0209bfda60d9b63"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(grip-channel): keep voice notes from chosen chats for local transcription (#9190)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/03a97859da77ef7116fadc3d2cbc27e01527509d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(markdown-expert): catch underscore identifiers a viewer renders as italics (#9184)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2edac6222e2223a4b510f3176b6dd6088506b87c"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 349 verdicts rest on a resolvable metric; the other 336 were graded from a sentinel that means no collector exists, and are NOT evidence. 732 hypotheses registered.",
+      "caption": "13 of 349 verdicts rest on a resolvable metric; the other 336 were graded from a sentinel that means no collector exists, and are NOT evidence. 734 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -58,7 +58,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "63 changes / 7 days",
+      "value": "65 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
