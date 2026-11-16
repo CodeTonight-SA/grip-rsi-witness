@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(ultraread): tell a seat it has no tools and cannot read past the excerpt (#9229) (#923",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d57bca406856ac5194ba13e51dc8a07107997a75"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(ultraread): quote an unreadable seat reply in its fallback warning (#9229) (#9233)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/756632d6bfd6c7ef5c4df9b2e6eb61b263bfbbcb"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(ultraread): match claims on the identifiers they cite, not their wording (#9204) (#921",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d76197bef3ef86742667f6a82071bebea00f4db4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(stack-dogfood): wire GRASP's escalation test gate to its own venv (#9216)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e4d331887219f201e6e8831a9c206a971f1a94d"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "71 changes / 7 days",
+      "value": "67 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
