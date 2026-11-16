@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(external-reviewer): ask for the score first and leave room to answer (#9230) (#9231)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/843437205bc291b454de6917653f7df77b93dc32"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: repair two stale tests that fail on main (council text-only seat, osa subtitle) (#92",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/833fa4c25e9b1f73abd27058544bd46213e0b0f0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(stack-dogfood): gate the live escalation on the operator brakes + add --refresh (#922",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0fa4a9e7b76bcd63a04049d31dbf93005ca85a5"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(stack-dogfood): docs gate profile + wire HAPPI's draft-PR target (#9223)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ef566fe20906cbe5488cf53170289205fa2210a2"
         },
@@ -26,27 +41,12 @@
           "kind": "shipped",
           "tldr": "feat(stack-dogfood): ideate + draft-PR escalation (dry-run by default) (#9212)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cba893ed40c8d875d2610ed9045676fc60e25560"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(cost): name the read date a vendor-price pin was taken on (#9205) (#9213)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4cd4c796ed8a91e50526215be567e94ba369e57d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(cost): price grok-4.6 and qwen3.7-plus from the vendors' own pages (#9205) (#9211)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cb64ffd70226a6ab83e03b5e2ab94ced7c16976a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ultragoal): the /goal pointer runs from any folder, through bin/grip-py (#9188) (#9202",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/de0e1ac847228e8dad858958d19301e6992ef7e7"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 349 verdicts rest on a resolvable metric; the other 336 were graded from a sentinel that means no collector exists, and are NOT evidence. 736 hypotheses registered.",
+      "caption": "13 of 351 verdicts rest on a resolvable metric; the other 338 were graded from a sentinel that means no collector exists, and are NOT evidence. 736 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "71 changes / 7 days",
+      "value": "74 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
