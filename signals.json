@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hypothesis-engine): keep the outside reviewer's reasons, not only its score line (#924",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/21cf5df1a6557333d329353ec3e66df9e0695751"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(wa_local_send): read a sent message's id and edit it (#9238)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a8ce5d92b37b3f4d5371908868a231364e5a79c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(grip-channel): edit a sent WhatsApp message in place (#9236)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f44fd381d5f06df2968c57724a854c2bdbcca0a5"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(stack-dogfood): gate the live escalation on the operator brakes + add --refresh (#922",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0fa4a9e7b76bcd63a04049d31dbf93005ca85a5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(stack-dogfood): docs gate profile + wire HAPPI's draft-PR target (#9223)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ef566fe20906cbe5488cf53170289205fa2210a2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(cost): bill grok-4.5 and grok-4.3 long prompts at xAI's long-context rate (#9220) (#92",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/488305ccde803e4f55d8f4e11eb28091461cb0d7"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "68 changes / 7 days",
+      "value": "70 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
