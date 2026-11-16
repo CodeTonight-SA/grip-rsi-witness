@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(grip-channel): a poll tap that cannot be decrypted is recorded, not lost (#9255)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0f86737765c77ec9b725019a2fa4cb1f7da7abc8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(grip-channel): WhatsApp polls as tap buttons, with votes read back (#9253)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe12a8b939cd2228ace9ec04b75941ecde8df2f0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(stack-dogfood): cmd_escalate integration tests + document the escalation config block",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6de26665999950b07c152d87c220480940b05a56"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(stack-dogfood): confirm each install and probe from the home folder (#9246)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f44df0ad5b54aa1a9e117cb71c137253a334cfdd"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(stack-dogfood): probe `grasp --help`, not the --version flag grasp lacks (#9247)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4091418b2f2bcd790a17d5288542e05b225103a3"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(wa_local_send): read a sent message's id and edit it (#9238)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a8ce5d92b37b3f4d5371908868a231364e5a79c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(grip-channel): edit a sent WhatsApp message in place (#9236)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f44fd381d5f06df2968c57724a854c2bdbcca0a5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ultraread): tell a seat it has no tools and cannot read past the excerpt (#9229) (#923",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d57bca406856ac5194ba13e51dc8a07107997a75"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ultraread): quote an unreadable seat reply in its fallback warning (#9229) (#9233)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/756632d6bfd6c7ef5c4df9b2e6eb61b263bfbbcb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(external-reviewer): ask for the score first and leave room to answer (#9230) (#9231)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/843437205bc291b454de6917653f7df77b93dc32"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "72 changes / 7 days",
+      "value": "76 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
