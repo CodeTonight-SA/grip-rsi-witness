@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(grip-channel): edit a sent WhatsApp message in place (#9236)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f44fd381d5f06df2968c57724a854c2bdbcca0a5"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(ultraread): tell a seat it has no tools and cannot read past the excerpt (#9229) (#923",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d57bca406856ac5194ba13e51dc8a07107997a75"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(cost): bill grok-4.5 and grok-4.3 long prompts at xAI's long-context rate (#9220) (#92",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/488305ccde803e4f55d8f4e11eb28091461cb0d7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ultraread): match claims on the identifiers they cite, not their wording (#9204) (#921",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d76197bef3ef86742667f6a82071bebea00f4db4"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "67 changes / 7 days",
+      "value": "68 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
