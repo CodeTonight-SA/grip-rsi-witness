@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(grip-channel): send a picture as a photo; media sends are the bridge's own (#9243)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/116b27c93c3a0af0bbaa329f3e87561cb381378a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hypothesis-engine): keep the outside reviewer's reasons, not only its score line (#924",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/21cf5df1a6557333d329353ec3e66df9e0695751"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test: repair two stale tests that fail on main (council text-only seat, osa subtitle) (#92",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/833fa4c25e9b1f73abd27058544bd46213e0b0f0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(stack-dogfood): gate the live escalation on the operator brakes + add --refresh (#922",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f0fa4a9e7b76bcd63a04049d31dbf93005ca85a5"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "70 changes / 7 days",
+      "value": "71 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
