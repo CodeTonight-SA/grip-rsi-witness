@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(stack-dogfood): dogfood the AI suite onto itself across every harness (#9197)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/462258ed0c221f3b6cfec9d91ddb8ba352310133"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(grip-channel): a channel_typing tool shows typing or recording in a WhatsApp chat (#9",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/15856e3f21fc8e139a166f0fe432044ad865d5e2"
         },
@@ -31,11 +36,6 @@
           "kind": "shipped",
           "tldr": "feat(hypothesis): record which outside reviewer judged each verification (#9174)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d023c2049d96eb025010cc22db0a6647a9994538"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(providers): let the Gemini reviewer import with only lib/ on sys.path (#9168)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f31df432734d05db0cd839f4fa989373f56a3ba4"
         }
       ],
       "key": "stream"
@@ -58,7 +58,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "60 changes / 7 days",
+      "value": "61 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
