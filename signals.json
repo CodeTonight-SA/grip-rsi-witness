@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(stack-dogfood): docs gate profile + wire HAPPI's draft-PR target (#9223)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ef566fe20906cbe5488cf53170289205fa2210a2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(cost): bill grok-4.5 and grok-4.3 long prompts at xAI's long-context rate (#9220) (#92",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/488305ccde803e4f55d8f4e11eb28091461cb0d7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(ultraread): match claims on the identifiers they cite, not their wording (#9204) (#921",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d76197bef3ef86742667f6a82071bebea00f4db4"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(ultragoal): the /goal pointer runs from any folder, through bin/grip-py (#9188) (#9202",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/de0e1ac847228e8dad858958d19301e6992ef7e7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ultraread): each --models label now reaches the model it names (#9187) (#9203)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8cdc1b23d13a55fc41eca5a4fca4c93dc1ce94a2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(grip-channel): a passive bridge records messages but acts on none (#9200)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4229b08a71740b6482e6fb7c703d47409de026ba"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "69 changes / 7 days",
+      "value": "71 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
