@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(stack-dogfood): probe `grasp --help`, not the --version flag grasp lacks (#9247)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4091418b2f2bcd790a17d5288542e05b225103a3"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(grip-channel): send a picture as a photo; media sends are the bridge's own (#9243)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/116b27c93c3a0af0bbaa329f3e87561cb381378a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(external-reviewer): ask for the score first and leave room to answer (#9230) (#9231)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/843437205bc291b454de6917653f7df77b93dc32"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: repair two stale tests that fail on main (council text-only seat, osa subtitle) (#92",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/833fa4c25e9b1f73abd27058544bd46213e0b0f0"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "91 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7687",
+      "value": "gen 7688",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "71 changes / 7 days",
+      "value": "72 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
