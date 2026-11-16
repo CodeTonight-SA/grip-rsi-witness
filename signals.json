@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(cost): price grok-4.6 and qwen3.7-plus from the vendors' own pages (#9205) (#9211)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cb64ffd70226a6ab83e03b5e2ab94ced7c16976a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(ultragoal): the /goal pointer runs from any folder, through bin/grip-py (#9188) (#9202",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/de0e1ac847228e8dad858958d19301e6992ef7e7"
         },
@@ -31,11 +36,6 @@
           "kind": "shipped",
           "tldr": "feat(grip-channel): a channel_typing tool shows typing or recording in a WhatsApp chat (#9",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/15856e3f21fc8e139a166f0fe432044ad865d5e2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(connect): a racily clean encrypted file no longer breaks the worktree set-up (#9194)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/513a59ad1ce194848b19b87ca0209bfda60d9b63"
         }
       ],
       "key": "stream"
