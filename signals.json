@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(grip-post): sign public posts \"Written by V>>\", per the operator's decision (#9268)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab254467d2c6adfabcdbadabbca25a7b69a35b6f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(mob): /mob-doctor readiness check + guarded mob.sh wrappers (#9266)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a56198197913e41dd3f43a9d6e352efa900b7fad"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(grip-channel): a poll tap that cannot be decrypted is recorded, not lost (#9255)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0f86737765c77ec9b725019a2fa4cb1f7da7abc8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(grip-channel): WhatsApp polls as tap buttons, with votes read back (#9253)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe12a8b939cd2228ace9ec04b75941ecde8df2f0"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "74 changes / 7 days",
+      "value": "73 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
