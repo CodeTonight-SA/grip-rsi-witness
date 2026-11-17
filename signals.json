@@ -56,7 +56,7 @@
       "caption": "103 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7690",
+      "value": "gen 7691",
       "verify": "data/genome-shared.json"
     },
     {
@@ -78,28 +78,28 @@
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
         {
+          "desc": "Guarded wrapper over `mob start` -- the Guild mob",
+          "name": "/mob-start"
+        },
+        {
+          "desc": "Guarded wrapper over `mob next` -- the Guild mob",
+          "name": "/mob-next"
+        },
+        {
+          "desc": "Guarded wrapper over `mob done` -- the Guild mob",
+          "name": "/mob-done"
+        },
+        {
+          "desc": "Read-only readiness check for the AI Craftspeople Guild's mob-programming \"befor",
+          "name": "/mob-doctor"
+        },
+        {
           "desc": "Dogfood the CodeTonight AI suite onto itself -- install GRASP, HAPPI, HAL and GR",
           "name": "/stack-dogfood"
         },
         {
           "desc": "Pairs models, not people",
           "name": "/connect"
-        },
-        {
-          "desc": "Reconstructs the goal, approval and next step of the current session from the tr",
-          "name": "/continue"
-        },
-        {
-          "desc": "Puts the Occam habit and Why Not Just against each other on one real problem",
-          "name": "/knife-fight"
-        },
-        {
-          "desc": "Finds the answer an adult plan misses by asking what a bright five-year-old asks",
-          "name": "/why-not-just"
-        },
-        {
-          "desc": "The one recall command and GRIP's Rule 0 (Recall First)",
-          "name": "/recall"
         }
       ],
       "tip": "Rate-limited never blocks: a transient 429 is a retry/failover signal, not a halt."
