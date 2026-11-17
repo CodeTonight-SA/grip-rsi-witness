@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(mob): /mob-doctor readiness check + guarded mob.sh wrappers (#9266)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a56198197913e41dd3f43a9d6e352efa900b7fad"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(grip-channel): read a poll vote signed with the voter's phone number (#9264)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/57d28e467feac7c5c33f545ba4aa8f3aa8bb2fa8"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(grip-channel): WhatsApp polls as tap buttons, with votes read back (#9253)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe12a8b939cd2228ace9ec04b75941ecde8df2f0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(stack-dogfood): cmd_escalate integration tests + document the escalation config block",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6de26665999950b07c152d87c220480940b05a56"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "73 changes / 7 days",
+      "value": "74 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
