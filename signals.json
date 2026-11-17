@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(grip-channel): read a poll vote signed with the voter's phone number (#9264)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/57d28e467feac7c5c33f545ba4aa8f3aa8bb2fa8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(grip-channel): log when a poll vote was read, never what was chosen (#9263)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/50150200c2e85377b54c2235120c557464dda209"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(next-step): a (yours) closer that only runs a GRIP command is the session's own step (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5f420d11b5c398edb1fda199ab4be359732c9276"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(stack-dogfood): cmd_escalate integration tests + document the escalation config block",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6de26665999950b07c152d87c220480940b05a56"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(stack-dogfood): confirm each install and probe from the home folder (#9246)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f44df0ad5b54aa1a9e117cb71c137253a334cfdd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(stack-dogfood): probe `grasp --help`, not the --version flag grasp lacks (#9247)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4091418b2f2bcd790a17d5288542e05b225103a3"
         }
       ],
       "key": "stream"
