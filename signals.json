@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(stack-dogfood): ship the overnight-loop arming recipe with its three launchd traps (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bfa25d7890701ca5168a7989d86d21cb8a92a780"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(spend-watchdog): a run the harness recorded as finished is never reported as stalled (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2740268819daee20b43672353e3ee1d74b727ec"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(stack-dogfood): push the draft-PR branch before gh pr create (#9252) (#9260)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb824afa9edf8af01cbbfbaabdabf7019fd29018"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(style): replies end with \"Where this stands\", and every GRIP reference opens with one",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0243e1ef40081f786b11c4b287a449b6589b4e7a"
         }
       ],
       "key": "stream"
@@ -56,14 +56,14 @@
       "caption": "103 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7692",
+      "value": "gen 7693",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "66 changes / 7 days",
+      "value": "64 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
