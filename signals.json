@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(spend-watchdog): a run the harness recorded as finished is never reported as stalled (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2740268819daee20b43672353e3ee1d74b727ec"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(grip-post): sign public posts \"Written by V>>\", per the operator's decision (#9268)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab254467d2c6adfabcdbadabbca25a7b69a35b6f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(style): replies end with \"Where this stands\", and every GRIP reference opens with one",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0243e1ef40081f786b11c4b287a449b6589b4e7a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-channel): a poll tap that cannot be decrypted is recorded, not lost (#9255)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0f86737765c77ec9b725019a2fa4cb1f7da7abc8"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "66 changes / 7 days",
+      "value": "67 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
