@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(whatsapp): add a read-only contact visibility watch (#9279)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a2dcfd8d714c20ed8c7a77f48a0781c2ae06e908"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(stack-dogfood): guard the overnight escalation to its scheduled hour (#9275) (#9276)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/412a1650a67f7a0cb50563f6b953e0a6eaaaa5dd"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(grip-channel): log when a poll vote was read, never what was chosen (#9263)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/50150200c2e85377b54c2235120c557464dda209"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(next-step): a (yours) closer that only runs a GRIP command is the session's own step (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5f420d11b5c398edb1fda199ab4be359732c9276"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "41 changes / 7 days",
+      "value": "42 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
