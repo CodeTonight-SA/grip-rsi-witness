@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "Clear naming: remember the law, and name guardian matter folders by code and a plain slug ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/55188b58061a6cd5c32d179af6c2c6644abbb092"
+        },
+        {
+          "kind": "shipped",
           "tldr": "refactor(stack-dogfood): share the local-time read and cover the off-window CLI path (#927",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecaf1621057951e7950094d38ae61f5c203893bd"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(spend-watchdog): a run the harness recorded as finished is never reported as stalled (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2740268819daee20b43672353e3ee1d74b727ec"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-post): sign public posts \"Written by V>>\", per the operator's decision (#9268)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab254467d2c6adfabcdbadabbca25a7b69a35b6f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "44 changes / 7 days",
+      "value": "45 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
