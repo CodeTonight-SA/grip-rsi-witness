@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(whatsapp): a failed registration lookup reads as unknown (#9281)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/86b2373efbc1395514632648e83befaf7810cb60"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "build(grip-channel): upgrade Baileys to 7.0.0-rc14 for the profile-photo fix (#9282)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/375575805bf6097d4881fd572ba3b5b5e0d70c9f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(whatsapp): add a read-only contact visibility watch (#9279)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a2dcfd8d714c20ed8c7a77f48a0781c2ae06e908"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(mob): /mob-doctor readiness check + guarded mob.sh wrappers (#9266)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a56198197913e41dd3f43a9d6e352efa900b7fad"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-channel): read a poll vote signed with the voter's phone number (#9264)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/57d28e467feac7c5c33f545ba4aa8f3aa8bb2fa8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(grip-channel): log when a poll vote was read, never what was chosen (#9263)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/50150200c2e85377b54c2235120c557464dda209"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "42 changes / 7 days",
+      "value": "44 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
