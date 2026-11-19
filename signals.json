@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(rules): remember \"Everything in GRIP can be productised\" in CLAUDE.md (#9294)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d907d7f2f3eceecfbe2bea545f329f69d765436a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hypothesis-engine): refuse a flag a command would not read (#8519)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7bca16637bdecd057b5b8bd644b17e4f0a5c4cdc"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "Clear naming: remember the law, and name guardian matter folders by code and a plain slug ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/55188b58061a6cd5c32d179af6c2c6644abbb092"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "refactor(stack-dogfood): share the local-time read and cover the off-window CLI path (#927",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecaf1621057951e7950094d38ae61f5c203893bd"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "51 changes / 7 days",
+      "value": "52 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
