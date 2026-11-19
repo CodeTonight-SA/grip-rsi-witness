@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hypothesis-engine): refuse a flag a command would not read (#8519)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7bca16637bdecd057b5b8bd644b17e4f0a5c4cdc"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(model-pin): put back the committed settings.json, and tidy it at each launch (GRIP#920",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1243185f91054de0c78b02ee9ccb39be752399f4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "build(deps): Bump @hono/node-server in /mcp-servers/grip-mcp-web (#8895)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/37d715989fbc5b21d1f5e8d0ccf928f9717c7a29"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "build(deps): Bump qs from 6.16.0 to 6.17.1 in /servers/grip-server (#8894)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdaea8e0b4aca53f9b1e4f2dc8e93242fc127871"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(pr-monitor): record lib/run_it_yourself.py as a mention, not a merger (#9295)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/309a49f1b7ae8de523b9bb5c17647c30f148cf34"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "refactor(stack-dogfood): share the local-time read and cover the off-window CLI path (#927",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ecaf1621057951e7950094d38ae61f5c203893bd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(whatsapp): a failed registration lookup reads as unknown (#9281)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/86b2373efbc1395514632648e83befaf7810cb60"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "build(grip-channel): upgrade Baileys to 7.0.0-rc14 for the profile-photo fix (#9282)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/375575805bf6097d4881fd572ba3b5b5e0d70c9f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(whatsapp): add a read-only contact visibility watch (#9279)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a2dcfd8d714c20ed8c7a77f48a0781c2ae06e908"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(stack-dogfood): guard the overnight escalation to its scheduled hour (#9275) (#9276)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/412a1650a67f7a0cb50563f6b953e0a6eaaaa5dd"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "47 changes / 7 days",
+      "value": "51 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
