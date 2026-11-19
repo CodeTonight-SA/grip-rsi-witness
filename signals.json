@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(pr-monitor): record lib/run_it_yourself.py as a mention, not a merger (#9295)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/309a49f1b7ae8de523b9bb5c17647c30f148cf34"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(stack-dogfood): cover local_civil_time's naive-local contract directly (#9286) (#9291",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d2932274345ac464662c55330f5c22be9d74b3b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(stack-dogfood): guard the overnight escalation to its scheduled hour (#9275) (#9276)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/412a1650a67f7a0cb50563f6b953e0a6eaaaa5dd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(stack-dogfood): ship the overnight-loop arming recipe with its three launchd traps (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bfa25d7890701ca5168a7989d86d21cb8a92a780"
         }
       ],
       "key": "stream"
@@ -53,17 +53,17 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "103 living genes exported with their fitness scores",
+      "caption": "92 living genes exported with their fitness scores",
       "key": "genome",
       "label": "Genome",
-      "value": "gen 7693",
+      "value": "gen 7694",
       "verify": "data/genome-shared.json"
     },
     {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "46 changes / 7 days",
+      "value": "47 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
