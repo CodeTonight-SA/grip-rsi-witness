@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(wa-visibility): stop arm and disarm off macOS, and keep the tests out of the real home",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/446e758efc559c45b1ca4a09991b82c7ed9cf556"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test: stop three tests assuming macOS or Linux (GRIP#8874, GRIP#9278) (#9301)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdd104e6ebde0ed31355d07e331ae99a88512c97"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "build(deps): Bump qs from 6.16.0 to 6.17.1 in /servers/grip-server (#8894)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdaea8e0b4aca53f9b1e4f2dc8e93242fc127871"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(pr-monitor): record lib/run_it_yourself.py as a mention, not a merger (#9295)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/309a49f1b7ae8de523b9bb5c17647c30f148cf34"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "54 changes / 7 days",
+      "value": "55 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
