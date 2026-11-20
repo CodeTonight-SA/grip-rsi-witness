@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test: stop three tests assuming macOS or Linux (GRIP#8874, GRIP#9278) (#9301)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdd104e6ebde0ed31355d07e331ae99a88512c97"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hypothesis-engine): skip the folder flush on Windows, where it failed every update aft",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/763ab1253329bf8265240f261a3f96c77d7a6c9f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(pr-monitor): record lib/run_it_yourself.py as a mention, not a merger (#9295)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/309a49f1b7ae8de523b9bb5c17647c30f148cf34"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(stack-dogfood): cover local_civil_time's naive-local contract directly (#9286) (#9291",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d2932274345ac464662c55330f5c22be9d74b3b"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "53 changes / 7 days",
+      "value": "54 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
