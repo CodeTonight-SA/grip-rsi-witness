@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(grasp-google): stop hardcoding two personal email addresses as defaults (#9313)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/21ae3e567bcebdd275fd463e1b429d22835959bf"
+        },
+        {
+          "kind": "shipped",
           "tldr": "chore: remove ENTER Konsult name from current GRIP files (#9296)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f4a750ff1325d3753a5ecfeea56be2f780913b3b"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test: stop three tests assuming macOS or Linux (GRIP#8874, GRIP#9278) (#9301)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdd104e6ebde0ed31355d07e331ae99a88512c97"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hypothesis-engine): skip the folder flush on Windows, where it failed every update aft",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/763ab1253329bf8265240f261a3f96c77d7a6c9f"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "59 changes / 7 days",
+      "value": "60 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
