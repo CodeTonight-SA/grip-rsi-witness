@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(simple): add /simple, the simplest faithful explanation, as a /clarify preset (#9307)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f99114c2dcfb36f3b3077eac1bf4f97602d68381"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(iterm2): label every inactive pane with its session's topic (#9304)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ffda663acd7f44774311e5dce6daede0f8ef84c6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(skills): /productise -- turn a built capability into a product a stranger can use and",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/92e0f233a5b6319fe6cc142b93673c500da92141"
         },
@@ -31,22 +41,12 @@
           "kind": "shipped",
           "tldr": "docs(rules): remember \"Everything in GRIP can be productised\" in CLAUDE.md (#9294)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d907d7f2f3eceecfbe2bea545f329f69d765436a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hypothesis-engine): refuse a flag a command would not read (#8519)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7bca16637bdecd057b5b8bd644b17e4f0a5c4cdc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(model-pin): put back the committed settings.json, and tidy it at each launch (GRIP#920",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1243185f91054de0c78b02ee9ccb39be752399f4"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 352 verdicts rest on a resolvable metric; the other 339 were graded from a sentinel that means no collector exists, and are NOT evidence. 738 hypotheses registered.",
+      "caption": "13 of 353 verdicts rest on a resolvable metric; the other 340 were graded from a sentinel that means no collector exists, and are NOT evidence. 739 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "56 changes / 7 days",
+      "value": "58 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
