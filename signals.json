@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix: remove the genome card from the public witness page (#9314)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4fe27397c7ff340935d747d4ecdbd51350c01463"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(grasp-google): stop hardcoding two personal email addresses as defaults (#9313)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/21ae3e567bcebdd275fd463e1b429d22835959bf"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(wa-visibility): stop arm and disarm off macOS, and keep the tests out of the real home",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/446e758efc559c45b1ca4a09991b82c7ed9cf556"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: stop three tests assuming macOS or Linux (GRIP#8874, GRIP#9278) (#9301)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fdd104e6ebde0ed31355d07e331ae99a88512c97"
         }
       ],
       "key": "stream"
@@ -53,17 +53,10 @@
       "verify": "python lib/hypothesis_engine.py status"
     },
     {
-      "caption": "92 living genes exported with their fitness scores",
-      "key": "genome",
-      "label": "Genome",
-      "value": "gen 7697",
-      "verify": "data/genome-shared.json"
-    },
-    {
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "60 changes / 7 days",
+      "value": "61 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
