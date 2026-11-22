@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(release): public CLAUDE.md placement, licence split fix, verification guide pip fix (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/65fcd90d2cf53581f8a04c053caf366dbf32d6be"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(release): generalize the one protected-term mention blocking output-styles/ (#9326)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/996a1c055f1664f1165b303a0bd11aab2863fe09"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(doc-drift): accept both spellings so the skills and agents counts update again (GRIP#9",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab7af39dadb13fd1a96162292e3673e94719c3b7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(chain): withhold rows that name entries on the private list (#9318)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fda5b36eed705b108590cd8e62191e81f476850f"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "66 changes / 7 days",
+      "value": "67 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
