@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "chore: remove ENTER Konsult name from current GRIP files (#9296)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f4a750ff1325d3753a5ecfeea56be2f780913b3b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(simple): add /simple, the simplest faithful explanation, as a /clarify preset (#9307)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f99114c2dcfb36f3b3077eac1bf4f97602d68381"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(hypothesis-engine): skip the folder flush on Windows, where it failed every update aft",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/763ab1253329bf8265240f261a3f96c77d7a6c9f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): remember \"Everything in GRIP can be productised\" in CLAUDE.md (#9294)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d907d7f2f3eceecfbe2bea545f329f69d765436a"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "58 changes / 7 days",
+      "value": "59 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Turns a passage or a concept into its simplest faithful explanation: one plain l",
+          "name": "/simple"
+        },
         {
           "desc": "Shapes something GRIP built into a candidate product that a stranger could pick ",
           "name": "/productise"
@@ -96,10 +100,6 @@
         {
           "desc": "Read-only readiness check for the AI Craftspeople Guild's mob-programming \"befor",
           "name": "/mob-doctor"
-        },
-        {
-          "desc": "Dogfood the CodeTonight AI suite onto itself -- install GRASP, HAPPI, HAL and GR",
-          "name": "/stack-dogfood"
         }
       ],
       "tip": "The shared tree is not canonical: resolve any decision-gating read against origin/main."
