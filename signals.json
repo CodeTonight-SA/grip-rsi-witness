@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix: public-release page copy -- HAPPIverse and decision-chain template say GRIP/HAL are p",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/24ec42af4f4fab82b05cfef98dd6f7353f9ac94e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(release): generalize the one protected-term mention blocking ensure_cloudflared.py (#9",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/281424a6d9d4a35490958e32cf631c9281dd484b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(release): withhold protected third-party material by content, not rename (#9317)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc96d0c77a97cf28fb49d2162bd90a12b3856fab"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(grasp-google): stop hardcoding two personal email addresses as defaults (#9313)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/21ae3e567bcebdd275fd463e1b429d22835959bf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore: remove ENTER Konsult name from current GRIP files (#9296)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f4a750ff1325d3753a5ecfeea56be2f780913b3b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(simple): add /simple, the simplest faithful explanation, as a /clarify preset (#9307)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f99114c2dcfb36f3b3077eac1bf4f97602d68381"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "65 changes / 7 days",
+      "value": "67 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
