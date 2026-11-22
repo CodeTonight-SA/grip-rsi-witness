@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(skills): /productise -- turn a built capability into a product a stranger can use and",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/92e0f233a5b6319fe6cc142b93673c500da92141"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(pr-monitor): hold while Codex is still reviewing a PR's commit (#9283) (#9293)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a52a9415230813aed3e6788ce29a4f51ff4f2b7a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(model-pin): put back the committed settings.json, and tidy it at each launch (GRIP#920",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1243185f91054de0c78b02ee9ccb39be752399f4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "build(deps): Bump @hono/node-server in /mcp-servers/grip-mcp-web (#8895)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/37d715989fbc5b21d1f5e8d0ccf928f9717c7a29"
         }
       ],
       "key": "stream"
@@ -63,7 +63,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "55 changes / 7 days",
+      "value": "56 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -77,6 +77,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Shapes something GRIP built into a candidate product that a stranger could pick ",
+          "name": "/productise"
+        },
         {
           "desc": "Guarded wrapper over `mob start` -- the Guild mob",
           "name": "/mob-start"
@@ -96,10 +100,6 @@
         {
           "desc": "Dogfood the CodeTonight AI suite onto itself -- install GRASP, HAPPI, HAL and GR",
           "name": "/stack-dogfood"
-        },
-        {
-          "desc": "Pairs models, not people",
-          "name": "/connect"
         }
       ],
       "tip": "The shared tree is not canonical: resolve any decision-gating read against origin/main."
