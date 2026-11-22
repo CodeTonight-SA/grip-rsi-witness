@@ -95,7 +95,7 @@
           "name": "/mob-doctor"
         }
       ],
-      "tip": "The shared tree is not canonical: resolve any decision-gating read against origin/main."
+      "tip": "A negative claim is only as strong as the search behind it — name the scopes you checked."
     }
   ]
 }
