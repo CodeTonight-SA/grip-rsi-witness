@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(release): withhold protected third-party material by content, not rename (#9317)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc96d0c77a97cf28fb49d2162bd90a12b3856fab"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(oss-candidate): generalize client-specific references so foundational files can ship (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f7b3ba04f7260f7eab91dabdb89480e77dcf8c37"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(doc-drift): accept both spellings so the skills and agents counts update again (GRIP#9",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab7af39dadb13fd1a96162292e3673e94719c3b7"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(simple): add /simple, the simplest faithful explanation, as a /clarify preset (#9307)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f99114c2dcfb36f3b3077eac1bf4f97602d68381"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(iterm2): label every inactive pane with its session's topic (#9304)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ffda663acd7f44774311e5dce6daede0f8ef84c6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(skills): /productise -- turn a built capability into a product a stranger can use and",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/92e0f233a5b6319fe6cc142b93673c500da92141"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "63 changes / 7 days",
+      "value": "65 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
