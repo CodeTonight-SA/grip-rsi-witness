@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(doc-drift): accept both spellings so the skills and agents counts update again (GRIP#9",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab7af39dadb13fd1a96162292e3673e94719c3b7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(chain): withhold rows that name entries on the private list (#9318)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fda5b36eed705b108590cd8e62191e81f476850f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(skills): /productise -- turn a built capability into a product a stranger can use and",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/92e0f233a5b6319fe6cc142b93673c500da92141"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(pr-monitor): hold while Codex is still reviewing a PR's commit (#9283) (#9293)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a52a9415230813aed3e6788ce29a4f51ff4f2b7a"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "62 changes / 7 days",
+      "value": "63 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
