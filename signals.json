@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(release): generalize the one protected-term mention blocking output-styles/ (#9326)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/996a1c055f1664f1165b303a0bd11aab2863fe09"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(release): HTTPS clone URLs and ship the one-line installer for the public repos (#9325",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/89b83d6054a6f4531f6b0a5b03c0d937877df755"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(chain): withhold rows that name entries on the private list (#9318)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fda5b36eed705b108590cd8e62191e81f476850f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: remove the genome card from the public witness page (#9314)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4fe27397c7ff340935d747d4ecdbd51350c01463"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "68 changes / 7 days",
+      "value": "69 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
