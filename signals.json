@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(mode-loader): every mode-loader test gets its own CLAUDE_DIR and session (GRIP#8742) ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f47c86c4de4e27c86a1ac4e7b5c1c8492950423f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(doc-drift): make the count hook work on Windows: UTF-8 files, git's path, backslash pa",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/31ac95b7f42fe559599746fc65e2b3ecfecc4000"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(release): withhold protected third-party material by content, not rename (#9317)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc96d0c77a97cf28fb49d2162bd90a12b3856fab"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(oss-candidate): generalize client-specific references so foundational files can ship (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f7b3ba04f7260f7eab91dabdb89480e77dcf8c37"
         }
       ],
       "key": "stream"
