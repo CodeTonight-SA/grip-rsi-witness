@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(quality): read import names only from the code before a comment (GRIP#8855) (#9340)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ec3f25cf5f7971f7ee44443966c38b343e42ba6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(backlog): the inbox scan survives a name clash, a folder and a busy file (GRIP#8776) (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b8a7afab755e6663a1318f26d1072d33abb06f1"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: public-release page copy -- HAPPIverse and decision-chain template say GRIP/HAL are p",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/24ec42af4f4fab82b05cfef98dd6f7353f9ac94e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(release): generalize the one protected-term mention blocking ensure_cloudflared.py (#9",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/281424a6d9d4a35490958e32cf631c9281dd484b"
         }
       ],
       "key": "stream"
