@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(backlog): the inbox scan survives a name clash, a folder and a busy file (GRIP#8776) (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b8a7afab755e6663a1318f26d1072d33abb06f1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(mode-loader): every mode-loader test gets its own CLAUDE_DIR and session (GRIP#8742) ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f47c86c4de4e27c86a1ac4e7b5c1c8492950423f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(release): generalize the one protected-term mention blocking ensure_cloudflared.py (#9",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/281424a6d9d4a35490958e32cf631c9281dd484b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(release): withhold protected third-party material by content, not rename (#9317)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fc96d0c77a97cf28fb49d2162bd90a12b3856fab"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "53 changes / 7 days",
+      "value": "54 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
