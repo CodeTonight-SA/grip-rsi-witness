@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(doc-drift): make the count hook work on Windows: UTF-8 files, git's path, backslash pa",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/31ac95b7f42fe559599746fc65e2b3ecfecc4000"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(release): public CLAUDE.md placement, licence split fix, verification guide pip fix (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/65fcd90d2cf53581f8a04c053caf366dbf32d6be"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(oss-candidate): generalize client-specific references so foundational files can ship (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f7b3ba04f7260f7eab91dabdb89480e77dcf8c37"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(doc-drift): accept both spellings so the skills and agents counts update again (GRIP#9",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab7af39dadb13fd1a96162292e3673e94719c3b7"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "62 changes / 7 days",
+      "value": "59 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
