@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(brainstorm): /brainstorm runs the whole brainstorm in one command, with seeds and pic",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7046a2704444d12ce234719b0264b3914a427bd8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(release): the public build wires only the hooks it ships (#9359)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b063bd8ddc3c0a9804253b2d728604b635f182e9"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "test(doc-drift): pin the spelling patterns from both sides (GRIP#9320) (#9360)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/29c890e5ca22adbd7a22ab08b5e7940621adaa0c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(doc-drift): stop writing the two merge-authority CLAUDE.md files (GRIP#9310) (#9357)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/73ae29d8c9106818f93de02bc87ec46acea6276f"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 353 verdicts rest on a resolvable metric; the other 340 were graded from a sentinel that means no collector exists, and are NOT evidence. 741 hypotheses registered.",
+      "caption": "13 of 353 verdicts rest on a resolvable metric; the other 340 were graded from a sentinel that means no collector exists, and are NOT evidence. 742 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "54 changes / 7 days",
+      "value": "55 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -70,6 +70,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Runs a whole brainstorm in one command, with the operator deciding at every gate",
+          "name": "/brainstorm"
+        },
         {
           "desc": "Turns a passage or a concept into its simplest faithful explanation: one plain l",
           "name": "/simple"
@@ -89,10 +93,6 @@
         {
           "desc": "Guarded wrapper over `mob done` -- the Guild mob",
           "name": "/mob-done"
-        },
-        {
-          "desc": "Read-only readiness check for the AI Craftspeople Guild's mob-programming \"befor",
-          "name": "/mob-doctor"
         }
       ],
       "tip": "verify-canonical: trust origin/main + the live endpoint + an e2e probe — never a status label."
