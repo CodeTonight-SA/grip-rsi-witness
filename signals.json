@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(models): onboard xAI Grok 4.7 and Grok 4.20 reasoning, align parity ids (#9415)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c8a54c7b6738f1003548aaf2faf129e41df63728"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(model-watch): read keys through the shared ladder so the watch can run on the VPS (#9",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2cc01efca87522f878272c9d918612263c5257e8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "GRIP Find My: alerts go straight to the operator's WhatsApp (#9412)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e753ea969039d29d7867a95104ce878d67006f2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "GRIP Find My: keep unread tabs listed, keep the iPhone distance, check the signature (#941",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c101123fe24d0fae54cd48b036c6a9a4f6a0acf6"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(gg++): rebuild the harness and model pickers on one shared menu (#9396)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0822e6a1024497bf42c31924300008a4f1895aac"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(install): a stranger's first install has no traceback, an honest signing check, and no",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/96db3f19e694d20ab801375caad7ef800dad9ed9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: symlink tests use a junction or a copied launcher on Windows (GRIP#9178, part 4) (#9",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8048f61dfc7007a39bc6d530a7d083fc9a9fe440"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(models): drop the Arcee provider (dead end-to-end) (#9392)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1ec2cf5cfe1562a9287d74d00c84ef3665e67070"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "69 changes / 7 days",
+      "value": "72 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
