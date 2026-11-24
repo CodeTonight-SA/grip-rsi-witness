@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "feat(models): onboard Gemini 4 Carbon and Hydrogen, flagship and workhorse only (#9454)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9dc1967d8580950ccc5454934ee67eb8ddc25e71"
+          "tldr": "The suite installer's step engine: a step counts only when its check passes (#9473)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c2e4b915bbf12e55ebf79dafd7e7d5aab6be5ff1"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(council): label the Grok seat \"grok\", since it never calls Grok 3 (#9455)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb03b7cc3c101acc5da97b95f241bdd3f6b6cb73"
+          "tldr": "fix(discord-voice): move off the retiring Gemini 2.5 TTS model, and keep paid keys opt-in ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0da3c23ba2eaa0313d090d0c7d4197332e027ecb"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(cost): wire the >272K tier for GPT-6.2, and fix the 4-tuple's field order comment (#94",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/13781c9e81eceb00c7707b6b2b0eb327198ad4bf"
+          "tldr": "fix(model-watch): flag ids named outside models: lists, add an opt-in alias probe (#9479)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/edb05ade801999062554882a0ae12911fce6f0fb"
         },
         {
           "kind": "shipped",
-          "tldr": "Make the installer finish on a stock Linux machine: bash 5 counters, the pip check, a doub",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce78974614762adabd6621c3495637d721e3eeb9"
+          "tldr": "docs(voice): correct the latency claim in the skill's description (#9468)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b5fa44839a8db263d373967064c194fcbd308d9a"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(models): onboard GPT-6.2 Astra and GPT-6.2 Sol, reachable by name only (#9450)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b585d0fedcdd4682a4420983b59df5ab91853bcb"
+          "tldr": "docs(voice): replace the \"~2-3 seconds\" latency claim with today's measurement (#9466)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/561447259cfebfc3ae6e50c96205509ca6a64543"
         },
         {
           "kind": "shipped",
-          "tldr": "test(gg++ menus): pin the small-terminal fallback, and say why Esc waits 50 ms (#9451)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0080f04ea6f9f6fc77d28a92d26b1d2c01c7ccd"
+          "tldr": "A second install run no longer refuses its own upgrade (#9467)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/135418f095db12e2964a033f7edd90bac7b41c44"
         },
         {
           "kind": "shipped",
-          "tldr": "Ship a core dependency list every install gets, preferring wheels (GRIP#9399) (#9435)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d13bac0dc5d51b1fe3804acf6c40601a3e2b6ceb"
+          "tldr": "feat(agora): shadow-trial candidate speakers, and give the judge trial a timeout flag (#94",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1565db28e50a8e6257940fa6382dfede0538f92"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(gemini): move image generation off shut-down models, and finish the 2.5 Flash repoint ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/89b0a81bcc2e46e34984bd0a5be264b7042bcda3"
+          "tldr": "chore(ci): a weekly check that the core dependency list installs from wheels (GRIP#9399) (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c1e30212fb7f00304e6507842855cda4d76c90c"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 353 verdicts rest on a resolvable metric; the other 340 were graded from a sentinel that means no collector exists, and are NOT evidence. 745 hypotheses registered.",
+      "caption": "13 of 354 verdicts rest on a resolvable metric; the other 341 were graded from a sentinel that means no collector exists, and are NOT evidence. 762 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "90 changes / 7 days",
+      "value": "101 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
