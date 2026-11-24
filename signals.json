@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gg++): rebuild the harness and model pickers on one shared menu (#9396)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0822e6a1024497bf42c31924300008a4f1895aac"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(install): a stranger's first install has no traceback, an honest signing check, and no",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/96db3f19e694d20ab801375caad7ef800dad9ed9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: symlink tests use a junction or a copied launcher on Windows (GRIP#9178, part 4) (#9",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8048f61dfc7007a39bc6d530a7d083fc9a9fe440"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(models): drop the Arcee provider (dead end-to-end) (#9392)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1ec2cf5cfe1562a9287d74d00c84ef3665e67070"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(security-heal): anchor the sign-in probe's handling of any OS error (#9391)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a1e3a66474ed0363c4c6fe9fac4643bf11b6b22"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "GRIP Find My, part 1: read Find My's rows, infer motion, alert without addresses (#9377)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/16b8bdf852ae5e035c46e553753e3183330cfe0a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(models): remove model ids the vendors no longer serve (#9376)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d7616febd1c393da00ab8c1c371c7fce8461a509"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: the empty-block guard tests run on Windows (GRIP#9178) (#9371)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c7d0f5e3f2269b26fb0ae7d60bb1d6ad6eb16a0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(brainstorm): /brainstorm runs the whole brainstorm in one command, with seeds and pic",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7046a2704444d12ce234719b0264b3914a427bd8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(release): the public build wires only the hooks it ships (#9359)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b063bd8ddc3c0a9804253b2d728604b635f182e9"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "61 changes / 7 days",
+      "value": "65 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
