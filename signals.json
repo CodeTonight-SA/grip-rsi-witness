@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix: remove the dead mistral-large-3 catalogue row and a test still naming gemini-2.5-flas",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e45b064800e0cdf775548788833f708d4e0e7b1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(model-watch): assert the cross-repo dedup AGORA's technical reviewer asked for (#9485",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa716407b79309c3fe309407ee09cd2d14883360"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ultraideate): ask Jev each criterion on its own described levels (#9482)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c164722fee6e4611197435a76ebd22e2292e2e91"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(cost): price every paid Mistral and OpenAI id, stop local-pricing a bare paid id (#947",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c71c827d8c0cda6628cb085db3f36f05897bf627"
+        },
+        {
+          "kind": "shipped",
           "tldr": "The suite installer's step engine: a step counts only when its check passes (#9473)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c2e4b915bbf12e55ebf79dafd7e7d5aab6be5ff1"
         },
@@ -21,32 +41,12 @@
           "kind": "shipped",
           "tldr": "docs(voice): correct the latency claim in the skill's description (#9468)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b5fa44839a8db263d373967064c194fcbd308d9a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(voice): replace the \"~2-3 seconds\" latency claim with today's measurement (#9466)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/561447259cfebfc3ae6e50c96205509ca6a64543"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "A second install run no longer refuses its own upgrade (#9467)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/135418f095db12e2964a033f7edd90bac7b41c44"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(agora): shadow-trial candidate speakers, and give the judge trial a timeout flag (#94",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a1565db28e50a8e6257940fa6382dfede0538f92"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(ci): a weekly check that the core dependency list installs from wheels (GRIP#9399) (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8c1e30212fb7f00304e6507842855cda4d76c90c"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 354 verdicts rest on a resolvable metric; the other 341 were graded from a sentinel that means no collector exists, and are NOT evidence. 762 hypotheses registered.",
+      "caption": "13 of 354 verdicts rest on a resolvable metric; the other 341 were graded from a sentinel that means no collector exists, and are NOT evidence. 778 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "101 changes / 7 days",
+      "value": "104 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
