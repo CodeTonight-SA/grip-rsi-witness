@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(instructions): one confidence bar, 99.9999999%, in both instruction files (#9520)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6ffc8ac34e29ae5da96eecbe50fccfdf8fb5ed9c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(audit): record the 24 November decisions in the April audit plan (#9521)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/73dcc22c96acecfc9ba230a5d2e79ccb29ea1bd8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "AGORA seats: Kimi K3.1 Pro as fallback judge (180 s), Qwen4-Max as quality speaker (150 s)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/72752c149f96b35626a70655ed8bd32aca885dd7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(council-picker): a machine with no provider credentials gets an honest page, not an In",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c93124a90460f0587eeedf1eca63c747c2b492df"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(logging): rotation archives a log before trimming it, and covers launchd logs (#9519)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/274cd6c0036a250312f5eb1e7484999e8bb9cc2b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Add the council-picker scorecard flip-cards page (GRIP#9404 pick 1) (#9516)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/feb12e9b0eb267b71baa6ae99373484398efd8a4"
         },
@@ -16,37 +41,12 @@
           "kind": "shipped",
           "tldr": "fix(models): repoint the GLM flagship from glm-5.1 to glm-5.3 (#9515)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/37129898ebc4b50741aa9129f6b3de8112d2613f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Test the door's Fedora route and its missing-installer case, and name Homebrew's Python on",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c9685f7ab326f98b48b3738a6d5c62cff50c4676"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: finish the Gemini 2.5 repoint in the broly example roster and three tests (#9507)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/23957aedc18d50053825eb7424e764c29fe9df2b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "One command installs the GRIP Suite on macOS and Linux: scripts/install-suite.sh (#9504)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe4c788d29c07be56dbfa7ba8c3ef853754ac6dd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gate-e): the secrets-in-output warning reaches the model, not only the operator (#9501",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b1b888840690acbb3fb7f47e6da2baabc6704cec"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "The suite installer's command: one line runs every step, shows each one, and exits 0 only ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ebc2ce9ab42ffa137fedfadd6d494160c163d21e"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 354 verdicts rest on a resolvable metric; the other 341 were graded from a sentinel that means no collector exists, and are NOT evidence. 778 hypotheses registered.",
+      "caption": "13 of 366 verdicts rest on a resolvable metric; the other 353 were graded from a sentinel that means no collector exists, and are NOT evidence. 791 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "117 changes / 7 days",
+      "value": "122 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
