@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test: the empty-block guard tests run on Windows (GRIP#9178) (#9371)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c7d0f5e3f2269b26fb0ae7d60bb1d6ad6eb16a0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(brainstorm): /brainstorm runs the whole brainstorm in one command, with seeds and pic",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7046a2704444d12ce234719b0264b3914a427bd8"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(doc-drift): only the count line moves when both spellings appear (GRIP#9320) (#9361)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/afeedd0b6f89671ae511b98a5be9a8db946f5f8f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(doc-drift): pin the spelling patterns from both sides (GRIP#9320) (#9360)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/29c890e5ca22adbd7a22ab08b5e7940621adaa0c"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "55 changes / 7 days",
+      "value": "56 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
