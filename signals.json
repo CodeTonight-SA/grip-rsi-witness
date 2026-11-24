@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test: six tests no longer reach os.kill(pid, 0) on a Windows host (GRIP#9346, part 1) (#93",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/45576b9dd7a03306320af6f2ab5ed34bca6096dc"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(save): the save tests start this Python, not python3 (GRIP#9349) (#9351)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/95491dd4a79ee98089b7629e60d66be0e4d138dd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: five test files stop writing into the real GRIP folder (GRIP#8746) (#9350)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f86b76ded7370ad94a1b5a46266a38f6cbef3d1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): the genome backfill saves replace the file instead of renaming over it (GRIP",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b5034c09a841f2530bbd7be50f5191c62baebe2e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): the keep-awake and the sibling-session scan judge a PID without os.kill (GRI",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e018c70d4a1f48871061e3ef5e7b32e43f20cef8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows): four PID checks judge a recorded PID without os.kill (GRIP#8883, part three)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/02b3b65bcc1400b36fdb6ea6d5dd261df1f6237c"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(backlog): the inbox scan survives a name clash, a folder and a busy file (GRIP#8776) (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b8a7afab755e6663a1318f26d1072d33abb06f1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(mode-loader): every mode-loader test gets its own CLAUDE_DIR and session (GRIP#8742) ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f47c86c4de4e27c86a1ac4e7b5c1c8492950423f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(doc-drift): make the count hook work on Windows: UTF-8 files, git's path, backslash pa",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/31ac95b7f42fe559599746fc65e2b3ecfecc4000"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(release): public CLAUDE.md placement, licence split fix, verification guide pip fix (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/65fcd90d2cf53581f8a04c053caf366dbf32d6be"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(release): generalize the one protected-term mention blocking output-styles/ (#9326)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/996a1c055f1664f1165b303a0bd11aab2863fe09"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(release): HTTPS clone URLs and ship the one-line installer for the public repos (#9325",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/89b83d6054a6f4531f6b0a5b03c0d937877df755"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "39 changes / 7 days",
+      "value": "44 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
