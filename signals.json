@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(model-watch): give the VPS watch its own key file, so the HAL server gains no provider",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2cb19598b8f09f69eb10e5b3f95f787b38a10a29"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(models): onboard Qwen4-Max and Qwen3.8-Flash (#9432)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7176697c042e6b20dd9a2904e0f1d8860226882a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(claude-signin): give the stack-dogfood escalation agent a working Claude sign-in (GRIP",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a8285b0ced14b59ca48b61732b94ee03bdd7fb87"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(models): onboard Mistral Large 4, and price Small 4's workhorse row (#9421)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/283961d6a6e92e22e0304ce9208ae262ec286fee"
         }
       ],
       "key": "stream"
