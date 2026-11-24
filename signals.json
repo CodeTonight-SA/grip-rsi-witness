@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(grip-tick): say the WhatsApp messages in plain words (#9383)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/08995fd8eca4e16ed570e31522ccb40361389859"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "GRIP Find My, part 1: read Find My's rows, infer motion, alert without addresses (#9377)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/16b8bdf852ae5e035c46e553753e3183330cfe0a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(models): remove model ids the vendors no longer serve (#9376)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d7616febd1c393da00ab8c1c371c7fce8461a509"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test: the empty-block guard tests run on Windows (GRIP#9178) (#9371)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c7d0f5e3f2269b26fb0ae7d60bb1d6ad6eb16a0"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(save): keep memory pointers written inside the brief block (GRIP#9327) (#9365)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/814cec6963147badb89be79f1bf5d4dfddf8e8b9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: the replace-guard tests hand bash a quoted path (GRIP#9178) (#9362)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f24fc68ba1ffa15c7e1d9070660ab9140556236"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore: point the financials repo at its new name, codetonight-financials (#9367)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9cf0e51c1e2d9fcd9035693c7d7fd9e2d58f2827"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(doc-drift): only the count line moves when both spellings appear (GRIP#9320) (#9361)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/afeedd0b6f89671ae511b98a5be9a8db946f5f8f"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "56 changes / 7 days",
+      "value": "59 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
