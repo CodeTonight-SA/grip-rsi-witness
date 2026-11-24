@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(tests): list the release gate's keychain slot names in the OpenAI billing test (#9440)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1e79d783776d25a4f188533ced9dd3e1164238e1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(model-watch): give the VPS watch its own key file, so the HAL server gains no provider",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2cb19598b8f09f69eb10e5b3f95f787b38a10a29"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(models): repoint gemini-2.5-flash/-pro to their Dec-1 redirect targets (#9425)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2872cb6dbda38feb6fdc18c4f63495cddc620c50"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(claude-signin): give the stack-dogfood escalation agent a working Claude sign-in (GRIP",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a8285b0ced14b59ca48b61732b94ee03bdd7fb87"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "81 changes / 7 days",
+      "value": "82 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
