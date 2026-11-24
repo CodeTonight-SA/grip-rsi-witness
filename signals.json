@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "GRIP Find My: keep unread tabs listed, keep the iPhone distance, check the signature (#941",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c101123fe24d0fae54cd48b036c6a9a4f6a0acf6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(install): --non-interactive answers every prompt itself, --mode is honoured, and GRIP_",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/20beba90eb69b8c2e4de7b4d0e79e5a5277fdb39"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "GRIP Find My, part 2: the Mac app, the /find-my skill and four fixes from the first live r",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a4db1cf392af6b4b80a6d919232fe9b942b65dec"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(models): onboard Kimi K3.1 Pro and K3.1 Pro Highspeed (#9403)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0776abcd47b10f84d647836c1fabf442b95d2beb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gg++): rebuild the harness and model pickers on one shared menu (#9396)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0822e6a1024497bf42c31924300008a4f1895aac"
         },
@@ -21,32 +41,12 @@
           "kind": "shipped",
           "tldr": "chore(models): drop the Arcee provider (dead end-to-end) (#9392)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1ec2cf5cfe1562a9287d74d00c84ef3665e67070"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(security-heal): anchor the sign-in probe's handling of any OS error (#9391)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a1e3a66474ed0363c4c6fe9fac4643bf11b6b22"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(security-heal): give the headless claude -p the operator's sign-in under launchd (GRIP",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd129929b15c94203f7367e0e5fc56f4547a0f4c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(grip-tick): say the WhatsApp messages in plain words (#9383)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/08995fd8eca4e16ed570e31522ccb40361389859"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "GRIP Find My, part 1: read Find My's rows, infer motion, alert without addresses (#9377)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/16b8bdf852ae5e035c46e553753e3183330cfe0a"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 353 verdicts rest on a resolvable metric; the other 340 were graded from a sentinel that means no collector exists, and are NOT evidence. 744 hypotheses registered.",
+      "caption": "13 of 353 verdicts rest on a resolvable metric; the other 340 were graded from a sentinel that means no collector exists, and are NOT evidence. 745 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "65 changes / 7 days",
+      "value": "69 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -70,6 +70,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Shows where the operator's Apple Find My devices and items are, whether they are",
+          "name": "/find-my"
+        },
         {
           "desc": "Runs a whole brainstorm in one command, with the operator deciding at every gate",
           "name": "/brainstorm"
@@ -89,10 +93,6 @@
         {
           "desc": "Guarded wrapper over `mob next` -- the Guild mob",
           "name": "/mob-next"
-        },
-        {
-          "desc": "Guarded wrapper over `mob done` -- the Guild mob",
-          "name": "/mob-done"
         }
       ],
       "tip": "verify-canonical: trust origin/main + the live endpoint + an e2e probe — never a status label."
