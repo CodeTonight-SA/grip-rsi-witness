@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(claude-signin): apply AGORA's valid suggestions from PR #9422 (#9429)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/56d55406b54f1d3a678c377c3caf9515d2dc6acd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(agora): shadow-trial a fallback judge; Kimi K3.1 Pro against Kimi K2.6 (#9428)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1577bb01e2ed440e2a8f5d64caa925670d25ef4f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(models): GLM-5.4/5.3-Flash follow-up -- a YAML bug and two test gaps (#9424)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fa36ccf319f46e614684ef8caef30abf1cc6a96"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(models): repoint gemini-2.5-flash/-pro to their Dec-1 redirect targets (#9425)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2872cb6dbda38feb6fdc18c4f63495cddc620c50"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(claude-signin): give the stack-dogfood escalation agent a working Claude sign-in (GRIP",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a8285b0ced14b59ca48b61732b94ee03bdd7fb87"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(models): onboard Mistral Large 4, and price Small 4's workhorse row (#9421)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/283961d6a6e92e22e0304ce9208ae262ec286fee"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(models): onboard GLM-5.4 and GLM-5.3-Flash (#9414)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1998ca8df2eddb45e40ee96c3db2ab7b29e3f29a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(models): onboard xAI Grok 4.7 and Grok 4.20 reasoning, align parity ids (#9415)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c8a54c7b6738f1003548aaf2faf129e41df63728"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(model-watch): read keys through the shared ladder so the watch can run on the VPS (#9",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2cc01efca87522f878272c9d918612263c5257e8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "GRIP Find My: alerts go straight to the operator's WhatsApp (#9412)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e753ea969039d29d7867a95104ce878d67006f2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "GRIP Find My: keep unread tabs listed, keep the iPhone distance, check the signature (#941",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c101123fe24d0fae54cd48b036c6a9a4f6a0acf6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(install): --non-interactive answers every prompt itself, --mode is honoured, and GRIP_",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/20beba90eb69b8c2e4de7b4d0e79e5a5277fdb39"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "GRIP Find My, part 2: the Mac app, the /find-my skill and four fixes from the first live r",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a4db1cf392af6b4b80a6d919232fe9b942b65dec"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(models): onboard Kimi K3.1 Pro and K3.1 Pro Highspeed (#9403)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0776abcd47b10f84d647836c1fabf442b95d2beb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gg++): rebuild the harness and model pickers on one shared menu (#9396)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0822e6a1024497bf42c31924300008a4f1895aac"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "72 changes / 7 days",
+      "value": "79 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
