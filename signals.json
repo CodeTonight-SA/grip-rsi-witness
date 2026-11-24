@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(models): onboard Qwen4-Max and Qwen3.8-Flash (#9432)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7176697c042e6b20dd9a2904e0f1d8860226882a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix: the pull-check tests run on Windows, and the blind CRLF check they exposed is repaire",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fd8a8c0cccd9c76a75434e624d913acd11df1fbd"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(models): onboard Mistral Large 4, and price Small 4's workhorse row (#9421)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/283961d6a6e92e22e0304ce9208ae262ec286fee"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(models): onboard GLM-5.4 and GLM-5.3-Flash (#9414)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1998ca8df2eddb45e40ee96c3db2ab7b29e3f29a"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "80 changes / 7 days",
+      "value": "81 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
