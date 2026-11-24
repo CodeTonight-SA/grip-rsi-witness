@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(security-heal): anchor the sign-in probe's handling of any OS error (#9391)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a1e3a66474ed0363c4c6fe9fac4643bf11b6b22"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(security-heal): give the headless claude -p the operator's sign-in under launchd (GRIP",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd129929b15c94203f7367e0e5fc56f4547a0f4c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(grip-tick): say the WhatsApp messages in plain words (#9383)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/08995fd8eca4e16ed570e31522ccb40361389859"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(release): the public build wires only the hooks it ships (#9359)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b063bd8ddc3c0a9804253b2d728604b635f182e9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(recap): read each security advisory's own summary before naming its risk (#9369)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c0d5633f0462eda716208e513994be657284aa5f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(save): keep memory pointers written inside the brief block (GRIP#9327) (#9365)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/814cec6963147badb89be79f1bf5d4dfddf8e8b9"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "59 changes / 7 days",
+      "value": "61 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
