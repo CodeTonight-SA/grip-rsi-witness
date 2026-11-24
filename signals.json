@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(doc-drift): only the count line moves when both spellings appear (GRIP#9320) (#9361)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/afeedd0b6f89671ae511b98a5be9a8db946f5f8f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(doc-drift): pin the spelling patterns from both sides (GRIP#9320) (#9360)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/29c890e5ca22adbd7a22ab08b5e7940621adaa0c"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test: five test files stop writing into the real GRIP folder (GRIP#8746) (#9350)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f86b76ded7370ad94a1b5a46266a38f6cbef3d1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): the genome backfill saves replace the file instead of renaming over it (GRIP",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b5034c09a841f2530bbd7be50f5191c62baebe2e"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "48 changes / 7 days",
+      "value": "49 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
