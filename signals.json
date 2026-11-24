@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix: the pull-check tests run on Windows, and the blind CRLF check they exposed is repaire",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fd8a8c0cccd9c76a75434e624d913acd11df1fbd"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(claude-signin): apply AGORA's valid suggestions from PR #9422 (#9429)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/56d55406b54f1d3a678c377c3caf9515d2dc6acd"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(models): onboard GLM-5.4 and GLM-5.3-Flash (#9414)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1998ca8df2eddb45e40ee96c3db2ab7b29e3f29a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(models): onboard xAI Grok 4.7 and Grok 4.20 reasoning, align parity ids (#9415)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c8a54c7b6738f1003548aaf2faf129e41df63728"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "79 changes / 7 days",
+      "value": "80 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
