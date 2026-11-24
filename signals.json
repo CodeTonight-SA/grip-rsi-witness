@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "fix(tests): list the release gate's keychain slot names in the OpenAI billing test (#9440)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1e79d783776d25a4f188533ced9dd3e1164238e1"
+          "tldr": "feat(models): onboard Gemini 4 Carbon and Hydrogen, flagship and workhorse only (#9454)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9dc1967d8580950ccc5454934ee67eb8ddc25e71"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(model-watch): give the VPS watch its own key file, so the HAL server gains no provider",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2cb19598b8f09f69eb10e5b3f95f787b38a10a29"
+          "tldr": "fix(council): label the Grok seat \"grok\", since it never calls Grok 3 (#9455)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb03b7cc3c101acc5da97b95f241bdd3f6b6cb73"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(models): onboard Qwen4-Max and Qwen3.8-Flash (#9432)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7176697c042e6b20dd9a2904e0f1d8860226882a"
+          "tldr": "fix(cost): wire the >272K tier for GPT-6.2, and fix the 4-tuple's field order comment (#94",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/13781c9e81eceb00c7707b6b2b0eb327198ad4bf"
         },
         {
           "kind": "shipped",
-          "tldr": "fix: the pull-check tests run on Windows, and the blind CRLF check they exposed is repaire",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fd8a8c0cccd9c76a75434e624d913acd11df1fbd"
+          "tldr": "Make the installer finish on a stock Linux machine: bash 5 counters, the pip check, a doub",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ce78974614762adabd6621c3495637d721e3eeb9"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(claude-signin): apply AGORA's valid suggestions from PR #9422 (#9429)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/56d55406b54f1d3a678c377c3caf9515d2dc6acd"
+          "tldr": "feat(models): onboard GPT-6.2 Astra and GPT-6.2 Sol, reachable by name only (#9450)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b585d0fedcdd4682a4420983b59df5ab91853bcb"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(agora): shadow-trial a fallback judge; Kimi K3.1 Pro against Kimi K2.6 (#9428)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1577bb01e2ed440e2a8f5d64caa925670d25ef4f"
+          "tldr": "test(gg++ menus): pin the small-terminal fallback, and say why Esc waits 50 ms (#9451)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0080f04ea6f9f6fc77d28a92d26b1d2c01c7ccd"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(models): GLM-5.4/5.3-Flash follow-up -- a YAML bug and two test gaps (#9424)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fa36ccf319f46e614684ef8caef30abf1cc6a96"
+          "tldr": "Ship a core dependency list every install gets, preferring wheels (GRIP#9399) (#9435)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d13bac0dc5d51b1fe3804acf6c40601a3e2b6ceb"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(models): repoint gemini-2.5-flash/-pro to their Dec-1 redirect targets (#9425)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2872cb6dbda38feb6fdc18c4f63495cddc620c50"
+          "tldr": "fix(gemini): move image generation off shut-down models, and finish the 2.5 Flash repoint ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/89b0a81bcc2e46e34984bd0a5be264b7042bcda3"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "82 changes / 7 days",
+      "value": "90 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
