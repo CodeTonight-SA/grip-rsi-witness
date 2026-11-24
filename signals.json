@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(windows): the keep-awake process really asks Windows to stay awake (GRIP#9345) (#9353)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd3683f5cbf482ef661285c59102aa7a66fe5432"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test: six tests no longer reach os.kill(pid, 0) on a Windows host (GRIP#9346, part 1) (#93",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/45576b9dd7a03306320af6f2ab5ed34bca6096dc"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(quality): read import names only from the code before a comment (GRIP#8855) (#9340)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ec3f25cf5f7971f7ee44443966c38b343e42ba6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(backlog): the inbox scan survives a name clash, a folder and a busy file (GRIP#8776) (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b8a7afab755e6663a1318f26d1072d33abb06f1"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "44 changes / 7 days",
+      "value": "45 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
