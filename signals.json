@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(release): the public build wires only the hooks it ships (#9359)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b063bd8ddc3c0a9804253b2d728604b635f182e9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(recap): read each security advisory's own summary before naming its risk (#9369)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c0d5633f0462eda716208e513994be657284aa5f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(save): keep memory pointers written inside the brief block (GRIP#9327) (#9365)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/814cec6963147badb89be79f1bf5d4dfddf8e8b9"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(doc-drift): stop writing the two merge-authority CLAUDE.md files (GRIP#9310) (#9357)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/73ae29d8c9106818f93de02bc87ec46acea6276f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): anchor tests and the lexicon probe read UTF-8 text as UTF-8 (GRIP#9178, part",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/749ce19960bf60398026c32bf6df61ad4528af78"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): the keep-awake process really asks Windows to stay awake (GRIP#9345) (#9353)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd3683f5cbf482ef661285c59102aa7a66fe5432"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "52 changes / 7 days",
+      "value": "54 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
