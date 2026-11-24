@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "Test the door's Fedora route and its missing-installer case, and name Homebrew's Python on",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c9685f7ab326f98b48b3738a6d5c62cff50c4676"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix: finish the Gemini 2.5 repoint in the broly example roster and three tests (#9507)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/23957aedc18d50053825eb7424e764c29fe9df2b"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "One command installs the GRIP Suite on macOS and Linux: scripts/install-suite.sh (#9504)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe4c788d29c07be56dbfa7ba8c3ef853754ac6dd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gate-e): the secrets-in-output warning reaches the model, not only the operator (#9501",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b1b888840690acbb3fb7f47e6da2baabc6704cec"
+        },
+        {
+          "kind": "shipped",
           "tldr": "The suite installer's command: one line runs every step, shows each one, and exits 0 only ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ebc2ce9ab42ffa137fedfadd6d494160c163d21e"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "The suite installer installs and proves GRIP, HAL, HAPPI and GRASP, and a second run chang",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fd4ad816af85c67edbb3ad57f5e24928d340a06"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: gg++'s picker restores the terminal on a failed start; the placeholder guard sees dig",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e04f642fc1338fed686878bb699c054055f4b843"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Installing GRIP over an existing Claude Code folder now finishes, with settings and core p",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1bfc5ce79c7a4507ae9be61dece141633714596e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: remove the dead mistral-large-3 catalogue row and a test still naming gemini-2.5-flas",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e45b064800e0cdf775548788833f708d4e0e7b1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(model-watch): assert the cross-repo dedup AGORA's technical reviewer asked for (#9485",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa716407b79309c3fe309407ee09cd2d14883360"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "110 changes / 7 days",
+      "value": "114 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
