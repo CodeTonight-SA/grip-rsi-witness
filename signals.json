@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(windows): four PID checks judge a recorded PID without os.kill (GRIP#8883, part three)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/02b3b65bcc1400b36fdb6ea6d5dd261df1f6237c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(quality): read import names only from the code before a comment (GRIP#8855) (#9340)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ec3f25cf5f7971f7ee44443966c38b343e42ba6"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(release): HTTPS clone URLs and ship the one-line installer for the public repos (#9325",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/89b83d6054a6f4531f6b0a5b03c0d937877df755"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: public-release page copy -- HAPPIverse and decision-chain template say GRIP/HAL are p",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/24ec42af4f4fab82b05cfef98dd6f7353f9ac94e"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "42 changes / 7 days",
+      "value": "43 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
