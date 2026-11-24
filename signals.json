@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "The suite installer's command: one line runs every step, shows each one, and exits 0 only ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ebc2ce9ab42ffa137fedfadd6d494160c163d21e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs: record where the April audit plan stands, explain the confidence bars, tier the Expl",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b720e44cd2a9a5a9d6d6729082180f3837936e6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurements): AGORA seat trials - the fallback judge at 300 s, and two speaker chall",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a2afb60adcf75f691493cd54e4aec2932c91261f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "The suite installer installs and proves GRIP, HAL, HAPPI and GRASP, and a second run chang",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fd4ad816af85c67edbb3ad57f5e24928d340a06"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix: gg++'s picker restores the terminal on a failed start; the placeholder guard sees dig",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e04f642fc1338fed686878bb699c054055f4b843"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Installing GRIP over an existing Claude Code folder now finishes, with settings and core p",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1bfc5ce79c7a4507ae9be61dece141633714596e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix: remove the dead mistral-large-3 catalogue row and a test still naming gemini-2.5-flas",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3e45b064800e0cdf775548788833f708d4e0e7b1"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "test(model-watch): assert the cross-repo dedup AGORA's technical reviewer asked for (#9485",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa716407b79309c3fe309407ee09cd2d14883360"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ultraideate): ask Jev each criterion on its own described levels (#9482)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c164722fee6e4611197435a76ebd22e2292e2e91"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(cost): price every paid Mistral and OpenAI id, stop local-pricing a bare paid id (#947",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c71c827d8c0cda6628cb085db3f36f05897bf627"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "The suite installer's step engine: a step counts only when its check passes (#9473)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c2e4b915bbf12e55ebf79dafd7e7d5aab6be5ff1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(discord-voice): move off the retiring Gemini 2.5 TTS model, and keep paid keys opt-in ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0da3c23ba2eaa0313d090d0c7d4197332e027ecb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(model-watch): flag ids named outside models: lists, add an opt-in alias probe (#9479)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/edb05ade801999062554882a0ae12911fce6f0fb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(voice): correct the latency claim in the skill's description (#9468)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b5fa44839a8db263d373967064c194fcbd308d9a"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "104 changes / 7 days",
+      "value": "110 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
