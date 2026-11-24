@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(save): keep memory pointers written inside the brief block (GRIP#9327) (#9365)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/814cec6963147badb89be79f1bf5d4dfddf8e8b9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: the replace-guard tests hand bash a quoted path (GRIP#9178) (#9362)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4f24fc68ba1ffa15c7e1d9070660ab9140556236"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore: point the financials repo at its new name, codetonight-financials (#9367)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9cf0e51c1e2d9fcd9035693c7d7fd9e2d58f2827"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(doc-drift): only the count line moves when both spellings appear (GRIP#9320) (#9361)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/afeedd0b6f89671ae511b98a5be9a8db946f5f8f"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): the keep-awake process really asks Windows to stay awake (GRIP#9345) (#9353)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bd3683f5cbf482ef661285c59102aa7a66fe5432"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: six tests no longer reach os.kill(pid, 0) on a Windows host (GRIP#9346, part 1) (#93",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/45576b9dd7a03306320af6f2ab5ed34bca6096dc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(save): the save tests start this Python, not python3 (GRIP#9349) (#9351)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/95491dd4a79ee98089b7629e60d66be0e4d138dd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: five test files stop writing into the real GRIP folder (GRIP#8746) (#9350)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2f86b76ded7370ad94a1b5a46266a38f6cbef3d1"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "49 changes / 7 days",
+      "value": "52 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
