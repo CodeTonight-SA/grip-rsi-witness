@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "Add the council-picker scorecard flip-cards page (GRIP#9404 pick 1) (#9516)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/feb12e9b0eb267b71baa6ae99373484398efd8a4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "The Windows door to the GRIP Suite: scripts/install-suite.ps1, and .ps1 ships from scripts",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/477498cf8811ad183ea8d2f98f004f096de0c573"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(models): repoint the GLM flagship from glm-5.1 to glm-5.3 (#9515)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/37129898ebc4b50741aa9129f6b3de8112d2613f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Test the door's Fedora route and its missing-installer case, and name Homebrew's Python on",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c9685f7ab326f98b48b3738a6d5c62cff50c4676"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "The suite installer's command: one line runs every step, shows each one, and exits 0 only ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ebc2ce9ab42ffa137fedfadd6d494160c163d21e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs: record where the April audit plan stands, explain the confidence bars, tier the Expl",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b720e44cd2a9a5a9d6d6729082180f3837936e6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurements): AGORA seat trials - the fallback judge at 300 s, and two speaker chall",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a2afb60adcf75f691493cd54e4aec2932c91261f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "The suite installer installs and proves GRIP, HAL, HAPPI and GRASP, and a second run chang",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3fd4ad816af85c67edbb3ad57f5e24928d340a06"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "114 changes / 7 days",
+      "value": "117 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -95,7 +95,7 @@
           "name": "/mob-next"
         }
       ],
-      "tip": "verify-canonical: trust origin/main + the live endpoint + an e2e probe — never a status label."
+      "tip": "Exogenous-anchor law: a loop is only valid if a process it cannot please evaluates the exit."
     }
   ]
 }
