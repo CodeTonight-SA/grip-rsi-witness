@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(measurements): the gift bundle on a fresh home, two real runs on 2026-10-18 (#8627)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/305fc324f69e55b63e37fdbf1c9eb7a17d0e6557"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(lib): to_whatsapp turns a model's Markdown into WhatsApp markup (#9193)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c868da100bb22701990048f044ce1eab68e35a0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(stranger-check): run README lines with Git Bash on Windows, never WSL's launcher (GRIP",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/38f0d3d7b5c7bd4cf478ee929c05cf7b04fe4584"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): the published verifier reads the record and the keys as UTF-8 (GRIP#9178) (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/12f59ad7242728c6a51b6d6e1a2019b18befeea5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(release): the public build withholds the personal-life tools (#9969)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ee42fee3f95cfe5bd07ee000632776b56cfcd1ed"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(suite-install): wire the signed setup record and a key step into the page (W3 step 4,",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/41e39cf950d812d23f7c4777860afc52210638cc"
+        },
+        {
+          "kind": "shipped",
           "tldr": "No shipped file names the [PERSON-11] entry of the private list (#9963)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/431258415118ab1e2d67f615f74f0e72ed71333b"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(release): A>> is public on purpose in every release (#9961)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/721345786ccea2a4dd6d86cb4b1b7d70b3874406"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): read the env-guard view in one pass (GRIP#9945 review) (#9948)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6d5a187180ab4b93b12e02b355cd6caf5ea2ffba"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(suite-install): close the W3 ledger hardening checklist (#9946)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1acd2ea4dfdef3b4dde593651ebbbf40d295ceba"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(suite-install): close the W3 setup-page hardening checklist (#9952)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1571848683815c01f317ada20321024061f7dc21"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(docs): the keyring tool's motivating comment names no one (#9956)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/38767932dc6328983360402f2a6203faa433f7dc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(release): a private-list term takes a word edge only where it has a word character (#9",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c962631dc17ecbdcd76536fbf99ea948c826d1f7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(release): private-name terms match at any edge, and a bad sites file blocks (#9950)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e6e0a0665b64ff60625ee885c850492120bc5dfd"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "346 changes / 7 days",
+      "value": "352 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
