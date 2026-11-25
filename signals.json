@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(skills): the orphaned-proxy test reads the skill files, not a local catalogue (#9900)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6729cc65b6f2a542876dbebc5d36caa0b08cd341"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(windows): the STE hook's tests name UTF-8, write exact bytes and take either separato",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ce9f40e2bf3a8678204de24850945f315c82832"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "refactor(rsi): remove the retired Ralph reader (GRIP#9886) (#9891)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f40b2a671b5a6ae56c0fceae6e5143af8bec6502"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Windows: install Claude Code with its own installer instead of stopping GRIP's install (#9",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0486408a3b5f12f7b8feff6ec7d96e308cb9aeb"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 371 verdicts rest on a resolvable metric; the other 358 were graded from a sentinel that means no collector exists, and are NOT evidence. 824 hypotheses registered.",
+      "caption": "13 of 371 verdicts rest on a resolvable metric; the other 358 were graded from a sentinel that means no collector exists, and are NOT evidence. 839 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "311 changes / 7 days",
+      "value": "312 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
