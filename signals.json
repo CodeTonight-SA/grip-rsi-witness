@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "fix(ultrajudge): write reports where CLAUDE_DIR points, never over another (GRIP#9182) (#9",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6d9c75113c5cacd5ee4e9e01c5d2f7d9a9793534"
+          "tldr": "test(heartbeat): read the live pulse where the installed agent writes it (GRIP#9509) (#973",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cdfb4b0f43b42e555a17de82870a152aabb46f91"
         },
         {
           "kind": "shipped",
-          "tldr": "test(grip-hal-default): every test checks against a stand-in HAL catalogue (GRIP#9673) (#9",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f246f67c969f84e2e387155cffb7dd2df46d9238"
+          "tldr": "test(compat): the pid-guard test runs without psutil (GRIP#9728) (#9740)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4c9c31c8dcee36f2ca42afccb417b5498794638a"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(compat): process_created() is None for a pid that names no process (GRIP#9619) (#9724)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f706648790fb20e99ff30faf030c43172c71cd26"
+          "tldr": "fix(measured-claim-gate): a version number is not a test count (#9737)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa9ef5d939f65fb8737ed6177016954f0a75ba78"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(sovereign-council): seat flags count wherever they sit, and stray words are refused (G",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c14f392c951d4d60a552584b85aefc8da622803e"
+          "tldr": "fix(ultrajudge): say when the devil's seat went unserved (GRIP#9245) (#9736)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1814b5ac68af8d0ce5879c16a2f669685fba8eb5"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(oss): resync three idr-chain copies the release PRs changed (#9723)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/785bb3c26eba5b2268834b8051c98ca7b8cd0e92"
+          "tldr": "docs(rtk): an explicit -n, not rtk proxy, so the skills work without rtk (#9734)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1846e0ff255592b3158784da4abe5eaadf553d62"
         },
         {
           "kind": "shipped",
-          "tldr": "test: forward anchors asked for in the reviews of GRIP#9694 and GRIP#9696 (#9709)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/977cfae879cdcc291d423bdb575bb0db719faa73"
+          "tldr": "docs(rtk): summary skills read git log past rtk's 50-commit cap (GRIP#9179) (#9729)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c3a6ffe0272ec7df73bb342177cb07441dc8280"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(quote-check): say exactly what a quote is spared, after GRIP#9699 (#9710)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/04a481de694dc4676b8eace1ab57c153c3366e09"
+          "tldr": "fix(sovereign-council): seats passed by name, and an unknown option named as one (GRIP#972",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f18359e4aa2e93d487b2ac9b6f5479b906497c01"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(markdown-expert): the workflow starts when the agent is invoked (GRIP#9186) (#9715)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d7cea53f90daedd772cddc71c5154ea9837c42d0"
+          "tldr": "test(pi-bridge): the recovery sync must report wrote 0, removed 1 (GRIP#9709 review) (#973",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d0a32f45170a58933afed105dc76bc0d11b0af8"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 369 verdicts rest on a resolvable metric; the other 356 were graded from a sentinel that means no collector exists, and are NOT evidence. 820 hypotheses registered.",
+      "caption": "13 of 369 verdicts rest on a resolvable metric; the other 356 were graded from a sentinel that means no collector exists, and are NOT evidence. 821 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "214 changes / 7 days",
+      "value": "222 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
