@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "refactor(rsi): remove the retired Ralph reader (GRIP#9886) (#9891)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f40b2a671b5a6ae56c0fceae6e5143af8bec6502"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Windows: install Claude Code with its own installer instead of stopping GRIP's install (#9",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0486408a3b5f12f7b8feff6ec7d96e308cb9aeb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Windows door: on Windows for Arm, install and use the x64 Python (#9884)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c98528ab2d1854ba26a014c71cb93b1089a9b9a"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(release): public GRIP hides the private financials repository's name, as public HAL do",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6249d498deec4a6e75c3d04f19f5509574ab0c4e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(windows): the ownership and mode-loader tests run on Windows (GRIP#9178, step 4c) (#9",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c2aeb8b4c663250dff4ec1407c85219f5f374e0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): the skill catalogue writes forward-slash paths and skips archived skills (GR",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/79326fbc2c45c57079c7c8858abddf214dfb825f"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "303 changes / 7 days",
+      "value": "305 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
