@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(windows): the two resolver tests run on Windows (GRIP#9178, step 4d, part 1) (#9881)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a9d04e0f9b473db1bfda4a4483ad708dad92038"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(agora): export-tree robustness -- no stuck archive, no unused-filter refusal, correct ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f359621e9064fc32e934a9a9987f81d04d8ea56d"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "test(lib): every module that defines _ensure_own_lib must call it (GRIP#9872 review) (#987",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2ee82080b4f0604700dceb93041790acc694feb9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(lib): mcp_apps/analytics and resurrection/orchestrator put their own lib folder on sys",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/411f990dd6c23e4dcde203b93b40b15e1bafd44d"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "300 changes / 7 days",
+      "value": "301 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
