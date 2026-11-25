@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(warm-start): resolve the /clear next step from one read of the chain, not one per chec",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/11bd2cc717ac373a76eb7e7a9f97889af2629fd7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(gates): allow presence checks inside larger Bash commands (GRIP#9911) (#9917)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ed4123fa79396eb6397c2ffab62cd7b5b0447093"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "Public build: ship the key maker, so IDR can sign a stranger's setup record (W3 step 1) (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9efd0d122e6ba03729d377dff44791cbbedff706"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(ultrajudge): serve the astra seat on the ChatGPT subscription (GRIP#9245) (#9908)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f780a8693474dfa28f5a5dd2b1c39f0e7db1a6a9"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "321 changes / 7 days",
+      "value": "322 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
