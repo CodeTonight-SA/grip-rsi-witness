@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "Run the release builder and contamination gate tests in CI (#9940)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/938f77bda479e23142d3fc24586c73522dcd578d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gates): the env-var guard judges what the shell expands (GRIP#9916) (#9945)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/559596613c517761457318489863b57c03683ed0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(suite-install): the setup page's local server and a minimal page (W3 step 4, part 1) ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ac52c5393a18406618672b51286a0ea0cc36052"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(docs): neutral account labels in two more shipped notes (#9936)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2670a43b2f681dc3790f3dd0e99b9c713af48139"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(docs): neutral example values in two shipped files (#9932)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9cde02c566a5fa24c2c960d0c600389e6115348e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(suite-install): check() refuses the demo seal, as seal() does (#9930)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8ebb73a106aae2dee2a1c360f38d05961c82c87d"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "335 changes / 7 days",
+      "value": "337 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
