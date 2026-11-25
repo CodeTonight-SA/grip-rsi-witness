@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(codex-ladder): never leave codex waiting on a stdin that cannot end (GRIP#9181) (#9750",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b92acb8e8dd13b12d7ae6007772d4cd30210fd1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ultrajudge): a pipe in a seat's reasoning stays inside its table cell (#9752)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d321cce6c88f27d3680180195a920698fb91bf67"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(stack-dogfood): a listing that drops a configured server is UNKNOWN (GRIP#9514) (#9748",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0291164c5aa30b4b6ff4ca7bfd55258896d7917"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(ultrajudge): keep every seat's full reasoning in the report (GRIP#9245) (#9741)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/baeff38a748f39271d580a8aa6db170e9a451ddf"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(workflow-budget-gate): read a cap bounded by Math.min, and stop reading \"4 * n\" as 4 (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66203ff09e9b408a355cf0637db4f4ffa7240273"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(binding-memory): stage two tolerates unreadable-file exceptions too, and every skip is",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/249ce9aa0adbaa54725ef0bec80e8ac37b7b684f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(release): the idempotence test covers the apostrophe-first nickname rule (#9745)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cc81c97ed2334c65c420e636776339c283f65436"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(heartbeat): read the live pulse where the installed agent writes it (GRIP#9509) (#973",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cdfb4b0f43b42e555a17de82870a152aabb46f91"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(compat): the pid-guard test runs without psutil (GRIP#9728) (#9740)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4c9c31c8dcee36f2ca42afccb417b5498794638a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(measured-claim-gate): a version number is not a test count (#9737)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa9ef5d939f65fb8737ed6177016954f0a75ba78"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ultrajudge): say when the devil's seat went unserved (GRIP#9245) (#9736)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1814b5ac68af8d0ce5879c16a2f669685fba8eb5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rtk): an explicit -n, not rtk proxy, so the skills work without rtk (#9734)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1846e0ff255592b3158784da4abe5eaadf553d62"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rtk): summary skills read git log past rtk's 50-commit cap (GRIP#9179) (#9729)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9c3a6ffe0272ec7df73bb342177cb07441dc8280"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(sovereign-council): seats passed by name, and an unknown option named as one (GRIP#972",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f18359e4aa2e93d487b2ac9b6f5479b906497c01"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(pi-bridge): the recovery sync must report wrote 0, removed 1 (GRIP#9709 review) (#973",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3d0a32f45170a58933afed105dc76bc0d11b0af8"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 369 verdicts rest on a resolvable metric; the other 356 were graded from a sentinel that means no collector exists, and are NOT evidence. 821 hypotheses registered.",
+      "caption": "13 of 369 verdicts rest on a resolvable metric; the other 356 were graded from a sentinel that means no collector exists, and are NOT evidence. 822 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "222 changes / 7 days",
+      "value": "229 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
