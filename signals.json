@@ -4,43 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "test: the round-3 anchors asked for in the reviews of GRIP#9758 and GRIP#9760 (#9770)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2e1265cdeba6a6e4491fcb6a32e87f88df9f6ec"
+          "tldr": "fix(stack-dogfood): keep a stuck night run in the digest for the tick's 30-day memory (GRI",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4d1a03f2dd98b16510a8c12cb27f0caf9d015ef"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(sovereign-council): a lone mistyped option is refused, never sent as the question (GRI",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b1aa0f46042cf3e3cf891f9207981cfd1a270e5"
+          "tldr": "fix(stack-dogfood): the leak sweep says \"not a file\", not \"deleted\", for paths it skips (G",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fbe0d969531edc6deb87910937294d441c3cdffb"
         },
         {
           "kind": "shipped",
-          "tldr": "test(sovereign-council): pin the Qwen seat's exact address (GRIP#9767 review) (#9774)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d5f352afa951fe040640e026602b1cc47ceb7b59"
+          "tldr": "fix(tdd-advisory): find a worktree's own test and match folders without case (GRIP#9798 re",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/23136e6624d8b7bb4bae2e3c2acb44e453cefcf5"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(latex-pdf-generation): \">>\" and \"<<\" print as guillemets under fontspec; the fix that",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30c53d768716f794218df8d02d54b959edee2361"
+          "tldr": "fix(stack-dogfood): the blocked-run finding survives a bad byte and stops at 48 hours (GRI",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b59c9b49b752f4436fad0182f0da06bbe7cefe95"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(heartbeat-tests): restore ValueError coverage dropped in #9761's shape guard (GRIP#950",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa3361ef3ee54a5da99ed365c5a3cdd9dd749862"
+          "tldr": "fix(stack-dogfood): the leak sweep's message keeps the finding and counts skipped files (G",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2ac5c56f4d9922ce769f694c5882b4224d9c12c8"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(sovereign-council): a Qwen seat on the Token Plan subscription (GRIP#9181) (#9767)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0a7a6635695ac9e926fd7ecb88941048c43f1ea0"
+          "tldr": "fix(tdd-advisory): detect a worktree's lib or hooks folder on Windows too (GRIP#9341) (#97",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7f0ff8e0878276dcbaa0f329e4d9050f906550e2"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(ste-lint): a sentence that opens with a lower-case quotation is a new sentence (GRIP#9",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a98782c798cc481d2d40918c7f5295a34338e2d"
+          "tldr": "fix: round-2 follow-ups for GRIP#9787 (exact placeholders) and GRIP#9788 (success test) (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/579bd4b8ca1a5087a8a849f36b3b5d5f353d32e4"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(codex): say when stdin is replaced, and guard grip-codex's direct run (GRIP#9750 revie",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1364514b52d5676fda7e0401ebd88b40c354c357"
+          "tldr": "feat(stack-dogfood): the tick reports a blocked night run (GRIP#9470) (#9795)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a82e405b3f46848c59c1f22d1f331e403ff1a81"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "241 changes / 7 days",
+      "value": "259 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
