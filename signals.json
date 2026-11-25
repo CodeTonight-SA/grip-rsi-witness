@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(workflow-automator): check CLAUDE_DIR resolution in a fresh interpreter (GRIP#9509) (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/053385709a577068cec620a4142acdd2f086856e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(release): the public build generalises the operator's machines and a guest's name (#96",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2e67db804475c62cc653add53f05c9b3c577a8c2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(hypothesis-engine): an id flag followed by another flag has no value (GRIP#9297) (#968",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f3e3ffe174e432dbdbaee1786a43c41ffbba130c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(delight-v2): the snapshot runs as a script, as /auto calls it (#9678)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/24d715cf155ae8ad476f277a2ced7688a9f089d6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(measured-claim-gate): read a message fed to `-F -` by a heredoc on stdin (#9675)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/95e69e6e961377ba753b744be95abcc7f97ea13d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(install): no embedding server is a one-line skip, not three tracebacks (#9674)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7e9b62f1b59130b62305dae854ee80c7c969809e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: answer the review of GRIP#9663 (a stand-in HAL catalogue, a guarded patch loop) (#96",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9de996d422a78fa1a19866fcc184bad4ca0febf1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(tests): two stale happiverse tests, fixed for the right reason (#9509) (#9661)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d263214e2beca108fc2e170802c16c9d3336a862"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Happiverse tests ask for a free port, so overlapping runs stop colliding (#9662)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/603ea99df05d80388d967b7200fef2649f1b166f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): four of GRIP#9509's failures, each a drift between a test and the code it chec",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/96a471e8f80bc9fcec733b5ddb4c5fb4ce477ee9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Tests stop reading the developer's machine; the shell-count test runs in strict mode (#964",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/71d31365642011827eddf348bd59bde279690243"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(billing): grip-hal clears the paid OpenAI key whatever provider is asked for (GRIP#964",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab361f08177d78b52a47c300fc46c7844ff4aa3c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(measure-hook-startup): fail fast by name, balance the arm order (GRIP#9555) (#9655)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7359cf59147e9e9555542426697f81f5b9f0e113"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(doc-drift-hook): a checkout git cannot place changes no count (#9651)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/786799e94e1d39b6df984ddffc6cafaab17417a2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "The suite door removes its python3 shim, and two sturdier installer tests (#9637)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d68a35354b5080515d1355960e9b42a1b2b6e102"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 368 verdicts rest on a resolvable metric; the other 355 were graded from a sentinel that means no collector exists, and are NOT evidence. 817 hypotheses registered.",
+      "caption": "13 of 369 verdicts rest on a resolvable metric; the other 356 were graded from a sentinel that means no collector exists, and are NOT evidence. 818 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "181 changes / 7 days",
+      "value": "188 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
