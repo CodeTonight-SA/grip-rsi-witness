@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(agora): in-session reviews read the PR's own files, and never send git-crypt plaintext",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/31b2d1bf55d081d5431ad00698d127a0a7c5b6a3"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(ultraread): match prose claims on the uncommon words they share (#9556)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7725e9c5363741d29188eb448c86d8f590039bbf"
         },
@@ -36,17 +41,12 @@
           "kind": "shipped",
           "tldr": "docs(fractal): fix four wording points from the AGORA review of GRIP#9536 (#9541)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/00c291825c89b708986a0746acec9d87784d532e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(fractal): say in plain words what each \"fractal\" claim means (#9536)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66493af6e8a3d31f1523ac6d57a7a178855aa215"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 367 verdicts rest on a resolvable metric; the other 354 were graded from a sentinel that means no collector exists, and are NOT evidence. 804 hypotheses registered.",
+      "caption": "13 of 367 verdicts rest on a resolvable metric; the other 354 were graded from a sentinel that means no collector exists, and are NOT evidence. 806 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "134 changes / 7 days",
+      "value": "135 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
