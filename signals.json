@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(lib): 13 modules with a hardcoded ~/.claude insert their own lib folder, not the share",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f623d64159a534b7fdafb9ad462309acd889c6d6"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(registry): grip_registry puts its own folder on sys.path, never the shared tree's (#98",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/10db7a0c9841aea93542468d3b783cad073f4803"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(grip-tick): the cert check reads the registry its config names (GRIP#9387) (#9844)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c9298d6d628c16ecc6ca1b114dc2c872fa372ff7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(security-heal): every caller-chosen credential gets no paid key with the opt-in set (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/844c59c63ac0e2bb9b6a81498d104b0686241ab8"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "285 changes / 7 days",
+      "value": "286 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
