@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(backlog-antiblast): restore the package attribute after re-importing antiblast (#9811",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb0c5b7a3dbd9fe300ab203116959d15524c5303"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(stack-dogfood): keep a stuck night run in the digest for the tick's 30-day memory (GRI",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4d1a03f2dd98b16510a8c12cb27f0caf9d015ef"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix: round-2 follow-ups for GRIP#9787 (exact placeholders) and GRIP#9788 (success test) (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/579bd4b8ca1a5087a8a849f36b3b5d5f353d32e4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(stack-dogfood): the tick reports a blocked night run (GRIP#9470) (#9795)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9a82e405b3f46848c59c1f22d1f331e403ff1a81"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "259 changes / 7 days",
+      "value": "260 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
