@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(suite-install): close the GRIP#9921 pre-live checklist on the setup ledger (#9926)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ad9cab57a1f0e5c3bdc707908ad519fe1a2cc617"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(plans): only remove a partial copy this process created (#9929)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/43d4e980f0c8d0d181dec322468ffffff23dcb60"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Plan archive: land the AGORA review fixes that missed GRIP#9924 (#9927)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e27920d5174acb3c395482716e614dcb428ad7ee"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(hypothesis): an \"-inf\" or \"-nan\" id is a missing value (GRIP#9692) (#9910)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/02242b00dd7a53cd5bc59195bdb1901b2fc8c747"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): the STE checkout flag and baseline take a project folder's name from path_en",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/95df0796ec6075da5c1aff3ee88d7f48e38ce806"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): the env-var guard allows a presence check (GRIP#9650) (#9901)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/053c78bebfde762939abb0bb1ce11302e9b06928"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "325 changes / 7 days",
+      "value": "327 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
