@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(bash-gates): land GRIP#9577's late commit (a corrected comment, forward-anchor tests) ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1dad052b4e6b29b5ddcf501528aff70e768ce371"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gates): grip_gate_check.sh runs under the GRIP venv or refuses, never system Python (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4bc7f501352c9491c3b51343af5da21b9004926"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(rsi): the RSI criterion reads AGORA's first sittings (GRIP#9668) (#9882)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2387d4b6115ac3c37723cb36a879e4f141773ed2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(windows): the two resolver tests run on Windows (GRIP#9178, step 4d, part 1) (#9881)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a9d04e0f9b473db1bfda4a4483ad708dad92038"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "308 changes / 7 days",
+      "value": "309 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
