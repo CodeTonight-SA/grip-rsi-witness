@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gates): grip_gate_check.sh runs under the GRIP venv or refuses, never system Python (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b4bc7f501352c9491c3b51343af5da21b9004926"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(windows): the pq_reexec tests compare paths in POSIX form (GRIP#9178, step 4d, part 2",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b01c2572161b4c05b23ce767235ba8e9f8187264"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(tests): resync 4 drifted artefacts GRIP#9509 flagged as failing (#9665)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/61cfdf50c55f828d839974eb6dfaf249b54b6167"
         },
@@ -31,22 +41,12 @@
           "kind": "shipped",
           "tldr": "test(windows): the two resolver tests run on Windows (GRIP#9178, step 4d, part 1) (#9881)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a9d04e0f9b473db1bfda4a4483ad708dad92038"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): export-tree robustness -- no stuck archive, no unused-filter refusal, correct ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f359621e9064fc32e934a9a9987f81d04d8ea56d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): the validity check grounds citations in the PR's own tree, not AGORA's (#9579)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/89544ab38351ae183500ae4f3253d3cfa8d6c42b"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 370 verdicts rest on a resolvable metric; the other 357 were graded from a sentinel that means no collector exists, and are NOT evidence. 823 hypotheses registered.",
+      "caption": "13 of 371 verdicts rest on a resolvable metric; the other 358 were graded from a sentinel that means no collector exists, and are NOT evidence. 824 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "306 changes / 7 days",
+      "value": "308 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
