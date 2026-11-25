@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(registry): grip_registry puts its own folder on sys.path, never the shared tree's (#98",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/10db7a0c9841aea93542468d3b783cad073f4803"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(input-watch): _keep says where the input stays when the move back fails too (GRIP#982",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a6135ec718ee02906e6d42b7240a90790cb08f7"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(install): the live check says \"semantic memory is off\" with no server, and never passe",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e01268874295022f3ec59b9720cb1a0317a6ad87"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test(security-heal): every caller-chosen credential gets no paid key with the opt-in set (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/844c59c63ac0e2bb9b6a81498d104b0686241ab8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(mode-loader): mode_prompt.py writes UTF-8 whatever the locale (GRIP#9334) (#9848)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/016eb9b57930f9cc6be4868785a89f1aba80bc3f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(caffeinate): end a new keep-awake whose record cannot be written (GRIP#9354) (#9842)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7257eb59ed6bf424de4294d84e6f25fb761db32e"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "283 changes / 7 days",
+      "value": "285 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
