@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(input-watch): keep every same-named input, and point tickets at the kept copy (GRIP#93",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7cd6a8eed065bc250fdbee73893788c54b4e69c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(backlog-antiblast): the one-module guard first proves the re-import happened (GRIP#98",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/740e2854b0f0fd2560ff7a366634c6a0ac2e5142"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(stack-dogfood): a day of margin below the tick's memory, an unknown-date fallback, and",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/424f6e61ba83f55d6f4686d6cb1c7f5d7eb66225"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(backlog): save and read item files as UTF-8 on every system (GRIP#9336) (#9799)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8dabbf6b33fdbc25712308ede6a3a082f49ee1c6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(backlog-antiblast): guard that the re-import leaves one antiblast module (GRIP#9811 r",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2c5190db0e08ca2fdeffcda233fe8139ebfcc984"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(backlog-antiblast): restore the package attribute after re-importing antiblast (#9811",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb0c5b7a3dbd9fe300ab203116959d15524c5303"
         },
@@ -16,31 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(stack-dogfood): the leak sweep says \"not a file\", not \"deleted\", for paths it skips (G",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fbe0d969531edc6deb87910937294d441c3cdffb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tdd-advisory): find a worktree's own test and match folders without case (GRIP#9798 re",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/23136e6624d8b7bb4bae2e3c2acb44e453cefcf5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(stack-dogfood): the blocked-run finding survives a bad byte and stops at 48 hours (GRI",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b59c9b49b752f4436fad0182f0da06bbe7cefe95"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(stack-dogfood): the leak sweep's message keeps the finding and counts skipped files (G",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2ac5c56f4d9922ce769f694c5882b4224d9c12c8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tdd-advisory): detect a worktree's lib or hooks folder on Windows too (GRIP#9341) (#97",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7f0ff8e0878276dcbaa0f329e4d9050f906550e2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: round-2 follow-ups for GRIP#9787 (exact placeholders) and GRIP#9788 (success test) (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/579bd4b8ca1a5087a8a849f36b3b5d5f353d32e4"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "260 changes / 7 days",
+      "value": "265 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
