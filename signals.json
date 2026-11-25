@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gates): close the env-var guard gaps in GRIP#9951 and GRIP#9958 (#9972)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b8717168d50958cf9948a1d04134ed425647af0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(measurements): the gift bundle on a fresh home, two real runs on 2026-10-18 (#8627)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/305fc324f69e55b63e37fdbf1c9eb7a17d0e6557"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "No shipped file names the [PERSON-11] entry of the private list (#9963)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/431258415118ab1e2d67f615f74f0e72ed71333b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(release): A>> is public on purpose in every release (#9961)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/721345786ccea2a4dd6d86cb4b1b7d70b3874406"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "352 changes / 7 days",
+      "value": "353 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
