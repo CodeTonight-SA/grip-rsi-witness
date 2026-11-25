@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(evo): pin the one-pass confidence end to end, and record it in the skill (#9638)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e445e5da1468bee0409d3d4a9ace7a8f56af3559"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Shell counts hold one number: grep -c with || true, never || echo 0 (#9625)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fec42e77f7de5edfb7e6a7b177eac05af651d461"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(doc-drift-hook): count a worktree with its own counting rules (#9633)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1597cbb9e017cf7647e550968549ae2d63a80b58"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(auto-converge): pin exit 0 as a measurement and check the warnings (#9635)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2bf94f1bad04c2ecf0da8e73f5bc6eb27a425921"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Stop downloading a 146 MB model that nothing reads on every fresh install (#9626)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bbd9cad96bd2f7134138ed2927f4145c69012934"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): repair 4 GRIP#9509 failures in test_grip_show.py and test_windows_paths.py (#9",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3128a1d5e20e6e62adcf862be7c757c42729e42f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(binding-memory): pinned_records() stops crashing the corpus-wide audit on one bad reco",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/044da76429ce3993b1383dfd6e69bf26a5cab84d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(hypothesis-engine): keep the external-review tests off the tracked ledger and off the",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c8affc9dd4bd65b7095d7e0a881d60297fddd197"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(release): the import-closure check fails closed and reads try blocks exactly (#9613)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d8f93f5bd645c933e889e84bcd60372ce5726355"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(quote-check): final review round (unknown statuses fail closed, claims pinned) (#9615)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0bb141fd47e0f95d66d44bcf6d3b3aa44af857df"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(auto-converge): only pytest exit 0 and 1 count as a measurement (#9616)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0e1c0b84f8bfb8476864770ecb5b8b091ef94678"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(evo): the devil's advocate runs once on every analysis (GRIP#9533) (#9612)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5cbcb99b8c3e4bbf2af5f0978bc8fc31eef2a8b6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(ultrareason): final review round for the NOT GROUNDED matcher (GRIP#9591) (#9607)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7727817143bb35c8e2410ac7bbc553e0a14fe351"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(oss-parity): resync 4 drifted idr-chain oss copies with live lib/ modules (#9608)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a7968732e73a8cc22647f7efcf0dab1c1da5efdd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(find-my): a row last seen days ago is listed, not dropped (#9610)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/61339a5ab2c39698232ff0b77969f028b92dbdb0"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 367 verdicts rest on a resolvable metric; the other 354 were graded from a sentinel that means no collector exists, and are NOT evidence. 812 hypotheses registered.",
+      "caption": "13 of 367 verdicts rest on a resolvable metric; the other 354 were graded from a sentinel that means no collector exists, and are NOT evidence. 815 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "163 changes / 7 days",
+      "value": "170 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
