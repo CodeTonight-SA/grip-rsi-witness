@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(suite-install): the setup record's ledger, sealed and checked with IDR (W3 step 2) (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2dae9f325964da5ff49911c4bf512cea6de0654d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(warm-start): resolve the /clear next step from one read of the chain, not one per chec",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/11bd2cc717ac373a76eb7e7a9f97889af2629fd7"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(gates): the env-var guard allows a presence check (GRIP#9650) (#9901)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/15f00601270da9b20f405f9a6a1a9861fc50ede3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Public build: ship the key maker, so IDR can sign a stranger's setup record (W3 step 1) (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9efd0d122e6ba03729d377dff44791cbbedff706"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "322 changes / 7 days",
+      "value": "323 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
