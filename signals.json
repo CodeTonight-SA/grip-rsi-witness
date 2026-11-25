@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "fix(agora): in-session reviews read the PR's own files, and never send git-crypt plaintext",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/31b2d1bf55d081d5431ad00698d127a0a7c5b6a3"
+          "tldr": "fix(find-my): carried items measure distance from the current iPhone position (#9561)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d1286aa726064bbb1b6294a78173110092f7322a"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(ultraread): match prose claims on the uncommon words they share (#9556)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7725e9c5363741d29188eb448c86d8f590039bbf"
+          "tldr": "feat(find-my): ingest says when a Find My row could not be read, without its text (#9569)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/469964fc84d635cb8cb8acfca9238c3bcb4820b2"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(measure-hook-startup): refuse failed runs and rotate the arm order (#9554)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2d2bb55b10b77a1fe24ba33470797fb3b40e3f40"
+          "tldr": "Suite follow-ups: only a real timeout reads as one, a script that is there is never called",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9281640f554904bfaf2b6296623af6872d95967c"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(measurements): pair the hook measurements and correct the E3 verdict (#9550)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c13fa0054956117663513819ffe94c8fb46815a6"
+          "tldr": "fix(release): the public build blocks a new import of a module it withholds (#9593)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/810a1f9f99f0194da5b0ee1e97d3f103436400cb"
         },
         {
           "kind": "shipped",
-          "tldr": "refactor(state): move the last five root state files under state/ (D5) (#9546)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9296604da40cebe724b8d197811a2e4016fd18d1"
+          "tldr": "fix(quote-check): answer the review of GRIP#9581 (exit codes, empty checks, caps) (#9600)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bc211a094c60cb427fbe32299d5773b06846d500"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(measurements): measure hook start-up and decide on a hook daemon (E3) (#9544)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e954462b3616ede924b62e2c1f1a5f2e40e07c2"
+          "tldr": "test(asset-counter): an empty quoted agent name fails the load check (#9594)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c2201eeca7a6534a0e1cac5033ba8d73c35d82b6"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(find-my): calibrate review fixes: refresh_now polls, a declared live check, a 72-hour ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d02958b17f6a99ca41166c60ab202c92506cea3"
+          "tldr": "fix(ultraread): a brand name in prose is a word, not a shared identifier (#9587)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f048b00468f813a694fb105100c100a353817718"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(fractal): fix four wording points from the AGORA review of GRIP#9536 (#9541)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/00c291825c89b708986a0746acec9d87784d532e"
+          "tldr": "fix(find-my): the app decodes speed as the range the producer writes (#9588)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d1aefc6b41b7760df4dd0ddc6b9defa9b7b74c8"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 367 verdicts rest on a resolvable metric; the other 354 were graded from a sentinel that means no collector exists, and are NOT evidence. 806 hypotheses registered.",
+      "caption": "13 of 367 verdicts rest on a resolvable metric; the other 354 were graded from a sentinel that means no collector exists, and are NOT evidence. 810 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "135 changes / 7 days",
+      "value": "155 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
