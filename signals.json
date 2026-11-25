@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(lib): mcp_apps/analytics and resurrection/orchestrator put their own lib folder on sys",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/411f990dd6c23e4dcde203b93b40b15e1bafd44d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(lib): a self-check pins the guard-pair patterns to both sys and _sys (GRIP#9869 revie",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0a2150ddf89238228c3adaa82e77f2931f5cc79"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(lib): the guard-pair check also sees sys imported as _sys (GRIP#9867 review) (#9869)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/19c7871fdd564fa10de70b71eadb572445335c31"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(lib): 13 modules with a hardcoded ~/.claude insert their own lib folder, not the share",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f623d64159a534b7fdafb9ad462309acd889c6d6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(registry): grip_registry puts its own folder on sys.path, never the shared tree's (#98",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/10db7a0c9841aea93542468d3b783cad073f4803"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(input-watch): _keep says where the input stays when the move back fails too (GRIP#982",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a6135ec718ee02906e6d42b7240a90790cb08f7"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "291 changes / 7 days",
+      "value": "293 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
