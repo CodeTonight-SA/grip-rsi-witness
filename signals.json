@@ -4,6 +4,31 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(ultraread): match prose claims on the uncommon words they share (#9556)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7725e9c5363741d29188eb448c86d8f590039bbf"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(measure-hook-startup): refuse failed runs and rotate the arm order (#9554)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2d2bb55b10b77a1fe24ba33470797fb3b40e3f40"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurements): pair the hook measurements and correct the E3 verdict (#9550)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c13fa0054956117663513819ffe94c8fb46815a6"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "refactor(state): move the last five root state files under state/ (D5) (#9546)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9296604da40cebe724b8d197811a2e4016fd18d1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(measurements): measure hook start-up and decide on a hook daemon (E3) (#9544)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5e954462b3616ede924b62e2c1f1a5f2e40e07c2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(find-my): calibrate review fixes: refresh_now polls, a declared live check, a 72-hour ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4d02958b17f6a99ca41166c60ab202c92506cea3"
         },
@@ -16,37 +41,12 @@
           "kind": "shipped",
           "tldr": "docs(fractal): say in plain words what each \"fractal\" claim means (#9536)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/66493af6e8a3d31f1523ac6d57a7a178855aa215"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(find-my): count a refresh only when Find My really came to the front (#9531)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9b73d810a02f3e75f1b907a68589ce0854d17713"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(find-my): add grip-find-my calibrate, the measurements a threshold refit needs (#9528",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7d923c8ea04a01b9f992117af6a50983308f0c3a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(asset-counter): drop a YAML comment from an agent's tier (#9529)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7dab06e39be42fddca0d30c5592cdba277da0bcf"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(asset-counter): count agents by tier; the base protocol is not an agent (#9527)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1bcfd1445f12f972436bcdc314834749ee977102"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(council-picker): move the seated-card pins to the new seats; test the judge-side guard",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ad7fab5d687e842abebf1881162fc680e13fefed"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 367 verdicts rest on a resolvable metric; the other 354 were graded from a sentinel that means no collector exists, and are NOT evidence. 791 hypotheses registered.",
+      "caption": "13 of 367 verdicts rest on a resolvable metric; the other 354 were graded from a sentinel that means no collector exists, and are NOT evidence. 804 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "130 changes / 7 days",
+      "value": "134 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
