@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "No shipped file names the [PERSON-11] entry of the private list (#9963)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/431258415118ab1e2d67f615f74f0e72ed71333b"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(release): A>> is public on purpose in every release (#9961)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/721345786ccea2a4dd6d86cb4b1b7d70b3874406"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(release): private-name terms match at any edge, and a bad sites file blocks (#9950)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e6e0a0665b64ff60625ee885c850492120bc5dfd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(release): the gate checks the operator's private list, by pseudonym (#9949)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/889c563c02222ebf71f7a21fa59f9dc54842d3e2"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "345 changes / 7 days",
+      "value": "346 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
