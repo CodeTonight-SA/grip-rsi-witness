@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(backlog-scanner): cover the retry-exhausted and lock-held branches of scan_cycle (GRI",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/817597fc5db7d817841d24ba317274bccb8384de"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(backlog): skip files Windows marks hidden or system, in both drop paths (GRIP#9339) (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b13c9d7f50b4a1e561e988b744a6a5dd62dbff33"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(backlog): prove the key-prefix letter guard with a long word (GRIP#9833 review) (#983",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f595757cce6c59d620e6c6036fe8d9ef3117d295"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(backlog): an unknown encoding name falls back to UTF-8, and a lossy read keeps the ori",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/48023c0660c1ea9b115c17b216d816e7a1c946c1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(backlog): catch a key prefix after any non-letter, and drop the ssh- marker (GRIP#9831",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/baa7c0c045b36129a2ced70232f7075ff305d475"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(backlog-scanner): keep a dropped file where the pipeline can read it (GRIP#9337) (#980",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bc1e246de9fb1616c7bb5ada4f451086a30f7699"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(input-watch): keep every same-named input, and point tickets at the kept copy (GRIP#93",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7cd6a8eed065bc250fdbee73893788c54b4e69c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(backlog-antiblast): the one-module guard first proves the re-import happened (GRIP#98",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/740e2854b0f0fd2560ff7a366634c6a0ac2e5142"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(stack-dogfood): a day of margin below the tick's memory, an unknown-date fallback, and",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/424f6e61ba83f55d6f4686d6cb1c7f5d7eb66225"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(backlog): save and read item files as UTF-8 on every system (GRIP#9336) (#9799)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8dabbf6b33fdbc25712308ede6a3a082f49ee1c6"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "269 changes / 7 days",
+      "value": "273 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
