@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(backlog): catch a key prefix after any non-letter, and drop the ssh- marker (GRIP#9831",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/baa7c0c045b36129a2ced70232f7075ff305d475"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(input-watch): a failed move back names where the input still is (GRIP#9826) (#9830)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/799e742903bb8c17f61782d52598e72b5e41cc8f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(backlog): check for secrets before any other type, and match key prefixes only as keys",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/127d20caf903dff1d524e50951510a8cdc0723d0"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(backlog-scanner): keep a dropped file where the pipeline can read it (GRIP#9337) (#980",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bc1e246de9fb1616c7bb5ada4f451086a30f7699"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(input-watch): keep every same-named input, and point tickets at the kept copy (GRIP#93",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b7cd6a8eed065bc250fdbee73893788c54b4e69c"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(backlog): save and read item files as UTF-8 on every system (GRIP#9336) (#9799)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8dabbf6b33fdbc25712308ede6a3a082f49ee1c6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(backlog-antiblast): guard that the re-import leaves one antiblast module (GRIP#9811 r",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2c5190db0e08ca2fdeffcda233fe8139ebfcc984"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(backlog-antiblast): restore the package attribute after re-importing antiblast (#9811",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bb0c5b7a3dbd9fe300ab203116959d15524c5303"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(stack-dogfood): keep a stuck night run in the digest for the tick's 30-day memory (GRI",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4d1a03f2dd98b16510a8c12cb27f0caf9d015ef"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(stack-dogfood): the leak sweep says \"not a file\", not \"deleted\", for paths it skips (G",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fbe0d969531edc6deb87910937294d441c3cdffb"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "265 changes / 7 days",
+      "value": "269 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
