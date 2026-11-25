@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hypothesis): an \"-inf\" or \"-nan\" id is a missing value (GRIP#9692) (#9910)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/02242b00dd7a53cd5bc59195bdb1901b2fc8c747"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): the STE checkout flag and baseline take a project folder's name from path_en",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/95df0796ec6075da5c1aff3ee88d7f48e38ce806"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gates): the env-var guard allows a presence check (GRIP#9650) (#9901)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/053c78bebfde762939abb0bb1ce11302e9b06928"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(install): fail the install when the checkout is incomplete (GRIP#9487) (#9904)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/dd720fcf6b9bfd42084ed308078cf99f87cccd0f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(skills): the orphaned-proxy test reads the skill files, not a local catalogue (#9900)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6729cc65b6f2a542876dbebc5d36caa0b08cd341"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(windows): the STE hook's tests name UTF-8, write exact bytes and take either separato",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ce9f40e2bf3a8678204de24850945f315c82832"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "318 changes / 7 days",
+      "value": "320 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
