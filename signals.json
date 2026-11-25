@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(gates): allow presence checks inside larger Bash commands (GRIP#9911) (#9917)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ed4123fa79396eb6397c2ffab62cd7b5b0447093"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hypothesis): an \"-inf\" or \"-nan\" id is a missing value (GRIP#9692) (#9910)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/02242b00dd7a53cd5bc59195bdb1901b2fc8c747"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(ultrajudge): serve the astra seat on the ChatGPT subscription (GRIP#9245) (#9908)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f780a8693474dfa28f5a5dd2b1c39f0e7db1a6a9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(install): fail the install when the checkout is incomplete (GRIP#9487) (#9904)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dd720fcf6b9bfd42084ed308078cf99f87cccd0f"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "320 changes / 7 days",
+      "value": "321 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
