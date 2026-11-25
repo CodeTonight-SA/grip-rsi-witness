@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(stranger-check): drop ACCESS_KEY and ASKPASS names from a stranger's environment (#994",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/228eda09f5dc15cdc5f999ba6ec678c931f72ee1"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(grip-channel): teammate route names can come from the private identities file; instal",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/041e43193df6dcb15d25bb925fbd084dc1934e94"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(stranger-check): refuse a tarball run that would test GitHub's copy; drop more credent",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/fda9f480c158332eda85796d5acb762a0c4e02cc"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(suite-install): close the GRIP#9921 pre-live checklist on the setup ledger (#9926)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ad9cab57a1f0e5c3bdc707908ad519fe1a2cc617"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(plans): only remove a partial copy this process created (#9929)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/43d4e980f0c8d0d181dec322468ffffff23dcb60"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Plan archive: land the AGORA review fixes that missed GRIP#9924 (#9927)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e27920d5174acb3c395482716e614dcb428ad7ee"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "332 changes / 7 days",
+      "value": "334 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
