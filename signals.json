@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(grip-tick): the cert check reads the registry its config names (GRIP#9387) (#9844)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c9298d6d628c16ecc6ca1b114dc2c872fa372ff7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(security-heal): every caller-chosen credential gets no paid key with the opt-in set (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/844c59c63ac0e2bb9b6a81498d104b0686241ab8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(mode-loader): mode_prompt.py writes UTF-8 whatever the locale (GRIP#9334) (#9848)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/016eb9b57930f9cc6be4868785a89f1aba80bc3f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(caffeinate): end a new keep-awake whose record cannot be written (GRIP#9354) (#9842)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7257eb59ed6bf424de4294d84e6f25fb761db32e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(security-heal): the paid key only when no sign-in works, and log its use (GRIP#9840 re",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/06e6072a632079ece8935a3665f64fb404d425c2"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(security-heal): add the paid key only with GRIP_CLAUDE_ALLOW_PAID=1 (GRIP#9393) (#9840",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/060c5be6cd18b6009fe7f2a470ae11610152c62e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(backlog-scanner): cover the retry-exhausted and lock-held branches of scan_cycle (GRI",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/817597fc5db7d817841d24ba317274bccb8384de"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(backlog): skip files Windows marks hidden or system, in both drop paths (GRIP#9339) (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b13c9d7f50b4a1e561e988b744a6a5dd62dbff33"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(backlog): prove the key-prefix letter guard with a long word (GRIP#9833 review) (#983",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f595757cce6c59d620e6c6036fe8d9ef3117d295"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(backlog): an unknown encoding name falls back to UTF-8, and a lossy read keeps the ori",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/48023c0660c1ea9b115c17b216d816e7a1c946c1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(backlog): catch a key prefix after any non-letter, and drop the ssh- marker (GRIP#9831",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/baa7c0c045b36129a2ced70232f7075ff305d475"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(input-watch): a failed move back names where the input still is (GRIP#9826) (#9830)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/799e742903bb8c17f61782d52598e72b5e41cc8f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(backlog): check for secrets before any other type, and match key prefixes only as keys",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/127d20caf903dff1d524e50951510a8cdc0723d0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(backlog-scanner): keep a dropped file where the pipeline can read it (GRIP#9337) (#980",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bc1e246de9fb1616c7bb5ada4f451086a30f7699"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "273 changes / 7 days",
+      "value": "279 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
