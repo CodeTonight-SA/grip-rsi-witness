@@ -4,49 +4,49 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "fix(codex-ladder): never leave codex waiting on a stdin that cannot end (GRIP#9181) (#9750",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8b92acb8e8dd13b12d7ae6007772d4cd30210fd1"
+          "tldr": "test: the round-3 anchors asked for in the reviews of GRIP#9758 and GRIP#9760 (#9770)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b2e1265cdeba6a6e4491fcb6a32e87f88df9f6ec"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(ultrajudge): a pipe in a seat's reasoning stays inside its table cell (#9752)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d321cce6c88f27d3680180195a920698fb91bf67"
+          "tldr": "fix(sovereign-council): a lone mistyped option is refused, never sent as the question (GRI",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7b1aa0f46042cf3e3cf891f9207981cfd1a270e5"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(stack-dogfood): a listing that drops a configured server is UNKNOWN (GRIP#9514) (#9748",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0291164c5aa30b4b6ff4ca7bfd55258896d7917"
+          "tldr": "test(sovereign-council): pin the Qwen seat's exact address (GRIP#9767 review) (#9774)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d5f352afa951fe040640e026602b1cc47ceb7b59"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(ultrajudge): keep every seat's full reasoning in the report (GRIP#9245) (#9741)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/baeff38a748f39271d580a8aa6db170e9a451ddf"
+          "tldr": "docs(latex-pdf-generation): \">>\" and \"<<\" print as guillemets under fontspec; the fix that",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30c53d768716f794218df8d02d54b959edee2361"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(workflow-budget-gate): read a cap bounded by Math.min, and stop reading \"4 * n\" as 4 (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/66203ff09e9b408a355cf0637db4f4ffa7240273"
+          "tldr": "fix(heartbeat-tests): restore ValueError coverage dropped in #9761's shape guard (GRIP#950",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/aa3361ef3ee54a5da99ed365c5a3cdd9dd749862"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(binding-memory): stage two tolerates unreadable-file exceptions too, and every skip is",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/249ce9aa0adbaa54725ef0bec80e8ac37b7b684f"
+          "tldr": "feat(sovereign-council): a Qwen seat on the Token Plan subscription (GRIP#9181) (#9767)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0a7a6635695ac9e926fd7ecb88941048c43f1ea0"
         },
         {
           "kind": "shipped",
-          "tldr": "test(release): the idempotence test covers the apostrophe-first nickname rule (#9745)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cc81c97ed2334c65c420e636776339c283f65436"
+          "tldr": "fix(ste-lint): a sentence that opens with a lower-case quotation is a new sentence (GRIP#9",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a98782c798cc481d2d40918c7f5295a34338e2d"
         },
         {
           "kind": "shipped",
-          "tldr": "test(heartbeat): read the live pulse where the installed agent writes it (GRIP#9509) (#973",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cdfb4b0f43b42e555a17de82870a152aabb46f91"
+          "tldr": "fix(codex): say when stdin is replaced, and guard grip-codex's direct run (GRIP#9750 revie",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1364514b52d5676fda7e0401ebd88b40c354c357"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 369 verdicts rest on a resolvable metric; the other 356 were graded from a sentinel that means no collector exists, and are NOT evidence. 822 hypotheses registered.",
+      "caption": "13 of 370 verdicts rest on a resolvable metric; the other 357 were graded from a sentinel that means no collector exists, and are NOT evidence. 822 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "229 changes / 7 days",
+      "value": "241 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
