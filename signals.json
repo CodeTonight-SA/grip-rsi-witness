@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(install): fail the install when the checkout is incomplete (GRIP#9487) (#9904)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dd720fcf6b9bfd42084ed308078cf99f87cccd0f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(skills): the orphaned-proxy test reads the skill files, not a local catalogue (#9900)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6729cc65b6f2a542876dbebc5d36caa0b08cd341"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(tests): resync 4 drifted artefacts GRIP#9509 flagged as failing (#9665)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/61cfdf50c55f828d839974eb6dfaf249b54b6167"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "refactor(rsi): remove the retired Ralph reader (GRIP#9886) (#9891)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f40b2a671b5a6ae56c0fceae6e5143af8bec6502"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "312 changes / 7 days",
+      "value": "313 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
