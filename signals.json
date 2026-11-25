@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(windows): the ownership and mode-loader tests run on Windows (GRIP#9178, step 4c) (#9",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5c2aeb8b4c663250dff4ec1407c85219f5f374e0"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(windows): the skill catalogue writes forward-slash paths and skips archived skills (GR",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/79326fbc2c45c57079c7c8858abddf214dfb825f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(focus-cards): the KONO backend puts its own lib folder on sys.path, once (GRIP#9857) (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/494518c78344363dbdc7746e9e8a79d2aa28a63a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(lib): stronger decoy import test; red_team_reporter imports its siblings after its ow",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a75c32ace46c72e6677c12711e88ba967ae892e5"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "296 changes / 7 days",
+      "value": "297 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
