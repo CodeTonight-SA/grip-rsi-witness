@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(lib): stronger decoy import test; red_team_reporter imports its siblings after its ow",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a75c32ace46c72e6677c12711e88ba967ae892e5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(lib): seven modules that read CLAUDE_DIR put their own lib folder on sys.path (GRIP#98",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/89455049cc4d4157e7840177dced5a470e485320"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(kono-preload): the preload tests use their own belief chain, not the machine's (GRIP#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/32ea348bdd6658fd01627a11312fbc4091fb8fa3"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(lib): 13 modules with a hardcoded ~/.claude insert their own lib folder, not the share",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f623d64159a534b7fdafb9ad462309acd889c6d6"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(security-heal): reuse an open heal pull request for a manifest, never open a second (G",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ac3d06d1901d4ea3f32c2d04e66b1066249126a6"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(mode-loader): the semantic fallback takes its path and name as arguments (GRIP#9333) (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e1d400695bd3b11d3d074919bcf2cf76c810566c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: three assertions the reviews of GRIP#9838, GRIP#9845 and GRIP#9848 asked for (#9851)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/053ba1efd91dae804dd4747bdb89e27397c385d9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(grip-tick): the cert check reads the registry its config names (GRIP#9387) (#9844)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c9298d6d628c16ecc6ca1b114dc2c872fa372ff7"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "286 changes / 7 days",
+      "value": "289 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
