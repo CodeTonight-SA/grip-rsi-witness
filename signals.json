@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(windows): the STE hook's tests name UTF-8, write exact bytes and take either separato",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7ce9f40e2bf3a8678204de24850945f315c82832"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(anchors): run the OSS parity test in Forward Anchors (GRIP#9778) (#9898)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4a65fca9d4a3d4e5a60149380ad1afcc2406c4db"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(bash-gates): land GRIP#9577's late commit (a corrected comment, forward-anchor tests) ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1dad052b4e6b29b5ddcf501528aff70e768ce371"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "Windows: install Claude Code with its own installer instead of stopping GRIP's install (#9",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d0486408a3b5f12f7b8feff6ec7d96e308cb9aeb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Windows door: on Windows for Arm, install and use the x64 Python (#9884)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c98528ab2d1854ba26a014c71cb93b1089a9b9a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(rsi): the RSI criterion reads AGORA's first sittings (GRIP#9668) (#9882)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2387d4b6115ac3c37723cb36a879e4f141773ed2"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "309 changes / 7 days",
+      "value": "311 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
