@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(release): A>> is public on purpose in every release (#9961)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/721345786ccea2a4dd6d86cb4b1b7d70b3874406"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gates): read the env-guard view in one pass (GRIP#9945 review) (#9948)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6d5a187180ab4b93b12e02b355cd6caf5ea2ffba"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(suite-install): close the W3 ledger hardening checklist (#9946)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1acd2ea4dfdef3b4dde593651ebbbf40d295ceba"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(release): the gate checks the operator's private list, by pseudonym (#9949)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/889c563c02222ebf71f7a21fa59f9dc54842d3e2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Run the release builder and contamination gate tests in CI (#9940)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/938f77bda479e23142d3fc24586c73522dcd578d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): the env-var guard judges what the shell expands (GRIP#9916) (#9945)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/559596613c517761457318489863b57c03683ed0"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "343 changes / 7 days",
+      "value": "345 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
