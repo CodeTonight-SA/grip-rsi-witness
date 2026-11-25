@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(windows): the skill catalogue writes forward-slash paths and skips archived skills (GR",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/79326fbc2c45c57079c7c8858abddf214dfb825f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(windows): rule readers accept a CRLF checkout, and the lexicon tools keep exact bytes ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/865d6f81c7fe21de4d7fc74eadf2f7052de8e6dd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(lib): every module that defines _ensure_own_lib must call it (GRIP#9872 review) (#987",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2ee82080b4f0604700dceb93041790acc694feb9"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(lib): mcp_apps/analytics and resurrection/orchestrator put their own lib folder on sys",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/411f990dd6c23e4dcde203b93b40b15e1bafd44d"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "test(lib): stronger decoy import test; red_team_reporter imports its siblings after its ow",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a75c32ace46c72e6677c12711e88ba967ae892e5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(lib): seven modules that read CLAUDE_DIR put their own lib folder on sys.path (GRIP#98",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/89455049cc4d4157e7840177dced5a470e485320"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(kono-preload): the preload tests use their own belief chain, not the machine's (GRIP#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/32ea348bdd6658fd01627a11312fbc4091fb8fa3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(lib): 13 modules with a hardcoded ~/.claude insert their own lib folder, not the share",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f623d64159a534b7fdafb9ad462309acd889c6d6"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "293 changes / 7 days",
+      "value": "296 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
