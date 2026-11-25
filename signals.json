@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "Windows door: on Windows for Arm, install and use the x64 Python (#9884)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c98528ab2d1854ba26a014c71cb93b1089a9b9a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(rsi): the RSI criterion reads AGORA's first sittings (GRIP#9668) (#9882)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2387d4b6115ac3c37723cb36a879e4f141773ed2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(windows): the two resolver tests run on Windows (GRIP#9178, step 4d, part 1) (#9881)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2a9d04e0f9b473db1bfda4a4483ad708dad92038"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): the skill catalogue writes forward-slash paths and skips archived skills (GR",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/79326fbc2c45c57079c7c8858abddf214dfb825f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(windows): rule readers accept a CRLF checkout, and the lexicon tools keep exact bytes ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/865d6f81c7fe21de4d7fc74eadf2f7052de8e6dd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(lib): every module that defines _ensure_own_lib must call it (GRIP#9872 review) (#987",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2ee82080b4f0604700dceb93041790acc694feb9"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "301 changes / 7 days",
+      "value": "303 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
