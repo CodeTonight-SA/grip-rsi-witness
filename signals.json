@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(docs): the keyring tool's motivating comment names no one (#9956)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/38767932dc6328983360402f2a6203faa433f7dc"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(release): a private-list term takes a word edge only where it has a word character (#9",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c962631dc17ecbdcd76536fbf99ea948c826d1f7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(release): private-name terms match at any edge, and a bad sites file blocks (#9950)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e6e0a0665b64ff60625ee885c850492120bc5dfd"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(release): the gate checks the operator's private list, by pseudonym (#9949)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/889c563c02222ebf71f7a21fa59f9dc54842d3e2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "Run the release builder and contamination gate tests in CI (#9940)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/938f77bda479e23142d3fc24586c73522dcd578d"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(stranger-check): drop ACCESS_KEY and ASKPASS names from a stranger's environment (#994",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/228eda09f5dc15cdc5f999ba6ec678c931f72ee1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(grip-channel): teammate route names can come from the private identities file; instal",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/041e43193df6dcb15d25bb925fbd084dc1934e94"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(stranger-check): refuse a tarball run that would test GitHub's copy; drop more credent",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fda9f480c158332eda85796d5acb762a0c4e02cc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(stranger-check): install and test each public repository the way its README says (#99",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e945636ce4acc8fced3584e0893bb910d170f0b4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(docs): neutral account labels in two more shipped notes (#9936)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2670a43b2f681dc3790f3dd0e99b9c713af48139"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "337 changes / 7 days",
+      "value": "341 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
