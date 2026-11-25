@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(suite-install): close the W3 ledger hardening checklist (#9946)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1acd2ea4dfdef3b4dde593651ebbbf40d295ceba"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(suite-install): close the W3 setup-page hardening checklist (#9952)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1571848683815c01f317ada20321024061f7dc21"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(docs): the keyring tool's motivating comment names no one (#9956)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/38767932dc6328983360402f2a6203faa433f7dc"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(gates): the env-var guard judges what the shell expands (GRIP#9916) (#9945)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/559596613c517761457318489863b57c03683ed0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(suite-install): the setup page's local server and a minimal page (W3 step 4, part 1) ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0ac52c5393a18406618672b51286a0ea0cc36052"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(stranger-check): drop ACCESS_KEY and ASKPASS names from a stranger's environment (#994",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/228eda09f5dc15cdc5f999ba6ec678c931f72ee1"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "341 changes / 7 days",
+      "value": "343 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
