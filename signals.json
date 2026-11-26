@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(connect): redact a CCH snippet before cutting it to length (#10160)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/47c140855b906e8f7d352129df50d7497e013fbc"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(connect): route the Fable planner seat through HAL's CCH signer (#10152)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/eef9ed001bd2138fda375a33fa701d984889074a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(fleet-watch): file Workflow agents under the session that started them (#10153)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1b3a085fcbc575309603247cddcb8b62187f9524"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(connect): refuse with no --roots outside GRIP, before any model call (#10143)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/73f4bb8a54985e3ce80c6e716f9530135fda3fd1"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "433 changes / 7 days",
+      "value": "434 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
