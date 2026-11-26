@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(connect): Gemini 4 Carbon replaces Gemini 3.1 Pro as the fallback reviewer (cap decis",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c88489715c6fc88393995fafd7576447f2440df"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(measured-claim-gate): read a count written with thousands separators whole (#10063)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/83166a2e20fc389013649fd9e777a48695b11a84"
         },
@@ -31,11 +36,6 @@
           "kind": "shipped",
           "tldr": "test(tokenguard): the global-options test keeps the template's files in tmp_path (#10057)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/046ebd72575fb5e857dcbb8317964f5f094ee43a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(settings): the project-level start-up hook runs from a folder whose path holds a space",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/082fae2c52a6ba5f2a226ec4bbce9d407a6f9ac2"
         }
       ],
       "key": "stream"
@@ -51,7 +51,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "381 changes / 7 days",
+      "value": "382 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
