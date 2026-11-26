@@ -4,38 +4,43 @@
       "items": [
         {
           "kind": "shipped",
-          "tldr": "fix(paths): the code that runs every session names project folders as Claude Code does (GR",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0eb8f37c3df613067feeadaa4153c80ed67dac1"
+          "tldr": "The last shipped import of a withheld module is gone (#10087)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/895b6d7eb8d7edd92d75949a1c9e0ed385ce58fd"
         },
         {
           "kind": "shipped",
-          "tldr": "feat(connect): Gemini 4 Carbon replaces Gemini 3.1 Pro as the fallback reviewer (cap decis",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c88489715c6fc88393995fafd7576447f2440df"
+          "tldr": "Gemini 4 Carbon judges AGORA and the sovereign council (bootstrap: V>> merges) (#10013)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a17d50df3b0eda2dbde3fdd72bcccb9fdd86a16a"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(measured-claim-gate): read a count written with thousands separators whole (#10063)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/83166a2e20fc389013649fd9e777a48695b11a84"
+          "tldr": "fix(release): a shared wave gate lets stack-dogfood ship without the overnight loop (#1008",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a121358ebc8d9402538ff75890b5d1278e93f2ce"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(agora): a failed fallback rung no longer ends a sitting; each sitting keeps its own fi",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/fe044a12fe06ccfad5f1c8a31b8782e7b7047a58"
+          "tldr": "fix(release): withhold the overnight wrappers, LinkedIn feed reader and relay drain (#1008",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dd45af22682382d39977e103e32818279efd16cc"
         },
         {
           "kind": "shipped",
-          "tldr": "fix(recall): recall reads the real memory folder on Windows, and its rulings layer survive",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/34dd7940f3a600367eed8fe99d5274367db66e7f"
+          "tldr": "fix(oss-build): read the operator's GitHub handle from a file (#10074)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/00d680db7083ede275da50b327e93e448f9bbc1f"
         },
         {
           "kind": "shipped",
-          "tldr": "docs(measurements): Carbon as the sovereign judge at 32,768 output tokens (#10059)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9724673595302da4bcd43643c78056f9bf9731e8"
+          "tldr": "fix(council-converge): read Primary Author from a repo variable (#10072)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/676bc8bfec0fcc45b0c38d187ebbd2860f27ed49"
         },
         {
           "kind": "shipped",
-          "tldr": "test: five GRIP tests failed for reasons outside the code they test (#10054)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1cd38557841af9a1c0d81fd8bbcfe0c9e5c69ad4"
+          "tldr": "fix(merge-gate): deny gh pr merge when its target is unreadable (#10070)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8fbfc6b24eb819081a4cd64f93bbb3f9ab17e6d5"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(happiverse-proof): the leak guard skips generated key, signature and digest hex (#1006",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1292d7c553577aec6003a2e50f74a08cf8fff8ae"
         }
       ],
       "key": "stream"
@@ -51,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "383 changes / 7 days",
+      "value": "396 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
