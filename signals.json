@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(settings): the project-level start-up hook runs from a folder whose path holds a space",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/082fae2c52a6ba5f2a226ec4bbce9d407a6f9ac2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(measurements): AGORA fallback rungs and Gemini 4 Carbon latency, 2026-11-26 (#10040)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4050ae666af57b3faa56a370ee468289e5664ed4"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(kernel): one caller's fixed point no longer stops another caller's run (#10034)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c796ad4c0834c8eebc0eea8f375f3659cbe8a046"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(skills): skill and command text no longer loses dollar digits to argument substitution",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/103cef6c346da99cfbee17a03a866a642a0c6268"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "382 changes / 7 days",
+      "value": "383 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
