@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gates): continuations, comments and search patterns in the env-guard view (GRIP#9983) ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e4e7a4195c549a802e2929c8702590abcdd119c2"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(ultraideate): separate Jev's rank from position bias in the pick measure (#10126)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/cbe1810fcd310ecb507703d33ae08289fee7f6ac"
         },
@@ -31,11 +36,6 @@
           "kind": "shipped",
           "tldr": "fix(binding-memory): over-cap error states fact when no pin is attempted (#10091)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f6ef8514c09fd9170403470db0a1eb5c091b6549"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(fleet-inspection): close GRIP#10097's deferred AGORA follow-ups (#10104)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d058946711d8a863aa5972db18cefe0ca5b3cfd1"
         }
       ],
       "key": "stream"
@@ -51,7 +51,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "410 changes / 7 days",
+      "value": "411 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
