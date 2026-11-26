@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(paths): the code that runs every session names project folders as Claude Code does (GR",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0eb8f37c3df613067feeadaa4153c80ed67dac1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(connect): Gemini 4 Carbon replaces Gemini 3.1 Pro as the fallback reviewer (cap decis",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6c88489715c6fc88393995fafd7576447f2440df"
         },
@@ -31,17 +36,12 @@
           "kind": "shipped",
           "tldr": "test: five GRIP tests failed for reasons outside the code they test (#10054)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1cd38557841af9a1c0d81fd8bbcfe0c9e5c69ad4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(tokenguard): the global-options test keeps the template's files in tmp_path (#10057)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/046ebd72575fb5e857dcbb8317964f5f094ee43a"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 371 verdicts rest on a resolvable metric; the other 358 were graded from a sentinel that means no collector exists, and are NOT evidence. 866 hypotheses registered.",
+      "caption": "13 of 371 verdicts rest on a resolvable metric; the other 358 were graded from a sentinel that means no collector exists, and are NOT evidence. 871 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -51,7 +51,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "382 changes / 7 days",
+      "value": "383 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
