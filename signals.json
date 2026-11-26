@@ -46,7 +46,7 @@
       "key": "stream"
     },
     {
-      "caption": "13 of 371 verdicts rest on a resolvable metric; the other 358 were graded from a sentinel that means no collector exists, and are NOT evidence. 839 hypotheses registered.",
+      "caption": "13 of 371 verdicts rest on a resolvable metric; the other 358 were graded from a sentinel that means no collector exists, and are NOT evidence. 866 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "352 changes / 7 days",
+      "value": "350 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
