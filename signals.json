@@ -36,11 +36,6 @@
           "kind": "shipped",
           "tldr": "feat: /mental-model v1, one picture of GRIP that keeps a contract (#10000)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/c92c29723658a0973235f02999429e81ef63d151"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): a listing piped into a subshell, a brace group or sudo is caught (GRIP#9991) (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f9eb306f899993895f705354b773d54b48a7344c"
         }
       ],
       "key": "stream"
@@ -56,7 +51,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "369 changes / 7 days",
+      "value": "370 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
