@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(ultraideate): separate Jev's rank from position bias in the pick measure (#10126)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/cbe1810fcd310ecb507703d33ae08289fee7f6ac"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(brainstorm): council step in ATTACK sends every surviving pick, not a four-pick cap (#",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5680b8c0e3d114b868336adbbbe6a4d441f53af9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): exclude bool and de-duplicate the plist-guard fuzz evidence (AGORA follow-up o",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f35abc9c4e73c4969f29961b6b141b40a428e13"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): make the GRIP#9712 fixture-pollution tests structurally sound (#10106)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a0ebd484f29d0381fb2a075e7bf47d606236445"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(bin): add grip-test-sweep, a per-file test runner (#10089)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/30b6e9254e9a8c44bb89f495ba8ffbe469fdbec8"
         },
@@ -16,32 +36,12 @@
           "kind": "shipped",
           "tldr": "fix(fleet-inspection): close GRIP#10097's deferred AGORA follow-ups (#10104)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d058946711d8a863aa5972db18cefe0ca5b3cfd1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(binding-memory): hoist the duplicated skip-exception tuple, name the real failing file",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a7be801149543b20a2a1d621d9ef83f8f7ebe65a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(backlog): a dropped .json file is kept, not misread as an item (#10100)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/906760b5dfe7ad0516ec8efa4b8ce3a848a417c7"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): scrub inherited git-hook env vars in the worktree fixture helper (#10094)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b9fc33b1e3e7a43f5c07c5c3a828672db20172ca"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(fleet-inspection): deliver the landing prompt over the mesh, not by hand (#10095)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/779f3792016aad85e50f984647bdd7636027e3f3"
         }
       ],
       "key": "stream"
     },
     {
-      "caption": "13 of 371 verdicts rest on a resolvable metric; the other 358 were graded from a sentinel that means no collector exists, and are NOT evidence. 871 hypotheses registered.",
+      "caption": "13 of 371 verdicts rest on a resolvable metric; the other 358 were graded from a sentinel that means no collector exists, and are NOT evidence. 872 hypotheses registered.",
       "key": "hypotheses",
       "label": "Hypotheses tested (grounded)",
       "value": "9 confirmed / 4 refuted",
@@ -51,7 +51,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "406 changes / 7 days",
+      "value": "410 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
