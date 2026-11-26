@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(measurements): AGORA fallback rungs and Gemini 4 Carbon latency, 2026-11-26 (#10040)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4050ae666af57b3faa56a370ee468289e5664ed4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(kernel): pin how partials of one function and bound methods are named (#10044)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/93d531ef2f29a34159a5ae53e8be908e628d597c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(kernel): a corrupt registry line in the caller's own namespace no longer stops the ker",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/99c5ad2696ac4b260d19735b6ba3d2bc2e4264a8"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(skills): skill and command text no longer loses dollar digits to argument substitution",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/103cef6c346da99cfbee17a03a866a642a0c6268"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(identity): a value left empty with a comment reads as empty, not as the comment (#1002",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e1d366d58da6bc8f17dc47cc837f97f1ed155621"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test: one fake Gemini provider for the Carbon seat guards (#10025)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3d656ccdb8e42a1ecfc37ff0d517b443635bece"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "380 changes / 7 days",
+      "value": "382 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
