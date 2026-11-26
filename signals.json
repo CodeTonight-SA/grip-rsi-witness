@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(identity): a value left empty with a comment reads as empty, not as the comment (#1002",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e1d366d58da6bc8f17dc47cc837f97f1ed155621"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: one fake Gemini provider for the Carbon seat guards (#10025)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3d656ccdb8e42a1ecfc37ff0d517b443635bece"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "Carbon seat move: the AGORA fixes that missed GRIP#10009's merge (#10021)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2bdefeaf7c42c06b8635f5a74ef4c5940528526"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(rules): name the command that prints the commit signature (#10016)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/af93b58dc976396d5ee53c539ab9d01bdc51ff2d"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(identity): the identity parser reads lines that carry a trailing comment (#10008)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8df52ce988d2f261bc6583cd1be6a79c83919f0d"
         },
@@ -16,26 +36,6 @@
           "kind": "shipped",
           "tldr": "feat(identity): one resolver for the commit signature; producers stop hard-coding a name (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/43ee428ababf2671baca3008ccae07c39a08e96e"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: /mental-model states its time limits truthfully, starts nothing late, and keeps redac",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f1a61a9cc7cbb0762a764be1fca0e152e7c1f1db"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(lib): /mental-model keeps its time limits and reads only its context (#10002)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/062ba9ce70bed9ed7988e2aad9e4928032c9f68f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(connect): a dictated HAL seat is free only on a local tier (#9997)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2aff13de3a6774187e39246056dea662bc277eaa"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat: /mental-model v1, one picture of GRIP that keeps a contract (#10000)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c92c29723658a0973235f02999429e81ef63d151"
         }
       ],
       "key": "stream"
@@ -51,7 +51,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "370 changes / 7 days",
+      "value": "374 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
