@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(lib): /mental-model keeps its time limits and reads only its context (#10002)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/062ba9ce70bed9ed7988e2aad9e4928032c9f68f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(connect): a dictated HAL seat is free only on a local tier (#9997)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2aff13de3a6774187e39246056dea662bc277eaa"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(release): refuse a public site written as a bare string (#9990)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4de64da6d54714b72715eae620df314ef9ae5236"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(lib): /idea names a ledger that grows mid-verify, and its tests stop quoting docs (#99",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0d192296abf7a0f2cf61ebc66daa9af163acd81"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "364 changes / 7 days",
+      "value": "365 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -70,6 +70,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Shows one up-to-date picture of GRIP in one command: sessions, memory, canonical",
+          "name": "/mental-model"
+        },
         {
           "desc": "Takes one idea from the operator and makes it the first record of a signed, repl",
           "name": "/idea"
@@ -89,10 +93,6 @@
         {
           "desc": "Shapes something GRIP built into a candidate product that a stranger could pick ",
           "name": "/productise"
-        },
-        {
-          "desc": "Guarded wrapper over `mob start` -- the Guild mob",
-          "name": "/mob-start"
         }
       ],
       "tip": "No stubs: every symbol is fully implemented — a hollow placeholder is a false-completeness signal."
