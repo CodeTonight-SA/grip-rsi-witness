@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(agora): land GRIP#10132's round-2 final-rung tests (#10164)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/927ac64345cdbf678d748bc63be2d43565288989"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(save): the report reads the real project folder's files as UTF-8 or bytes (GRIP#10066 ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/85d2cfe2cc061c38a04875775f2e059f5fb479b8"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(gates): the env-var guard reads each word as the shell runs it (GRIP#10120) (#10159)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/25ded7604e880077031cc559ad19de5eb06728c9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(sweep): resume survives torn and non-row lines, reruns unreadable files (#10149)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d73028cca4ad1670d6dffa5c2003749a63bd592"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "435 changes / 7 days",
+      "value": "436 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
