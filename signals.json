@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(measurements): Carbon as the sovereign judge at 32,768 output tokens (#10059)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9724673595302da4bcd43643c78056f9bf9731e8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test: five GRIP tests failed for reasons outside the code they test (#10054)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1cd38557841af9a1c0d81fd8bbcfe0c9e5c69ad4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(tokenguard): the global-options test keeps the template's files in tmp_path (#10057)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/046ebd72575fb5e857dcbb8317964f5f094ee43a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(settings): the project-level start-up hook runs from a folder whose path holds a space",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/082fae2c52a6ba5f2a226ec4bbce9d407a6f9ac2"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(kernel): the default namespace is checked across processes, and partials are named by ",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/624c891d274948ad3e9a82d953dd8bcd58a116f9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(skills): the git fallback test covers a missing, forbidden or hung git (#10038)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3ff81333b741bd589e6ea715620eba6a6da69fec"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(skills): the dollar-digit guard falls back to a glob when git is missing (#10035)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d53908a0eb6e156367ed1cf9ebb0ef2364cceb43"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(kernel): one caller's fixed point no longer stops another caller's run (#10034)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c796ad4c0834c8eebc0eea8f375f3659cbe8a046"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "383 changes / 7 days",
+      "value": "386 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
