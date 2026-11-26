@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(agora): leave calls at or below HAL's 120 s default on their native timeout (#10163)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2515f0560318a2d9c305d8c1316e423bf7cc0cd"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(agora): cite GRIP#10132 instead of this PR in a sitting-test docstring (#10165)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/7c6e40e95d960b18392a9fb9b4bf31dd0782a80a"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(yolo-mode): narrow --quality to the two quality checks; give channel-scope and repo-pr",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7e399e62d6ced93f0f11f2d818a4df2e4a01c2d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): refuse a post that still carries an edit GRIP refused (GRIP#9394) (#10155)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1cfa726e5b8078edc8113ac032c8fbae3ab064c1"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "437 changes / 7 days",
+      "value": "438 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
