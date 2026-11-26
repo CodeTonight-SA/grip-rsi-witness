@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(black-october): fix, undo and list for the Windows checker, part 2 (GRIP#8858) (#8982",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b36b35568fde0ab2aa8a75abe0ed18354fc9f57d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "chore(release): keep [PERSON-11] public in its three existing files (V>>'s decision) (#997",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/afc2c6c570c81f63575c781aa4b7682afc3d1be9"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat: /idea records one idea as a signed causal chain, tried on the Liskov idea (#9973)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/4107c269dc39cdbb0d2cffb1fbfd920383ea254f"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(windows): the published verifier reads the record and the keys as UTF-8 (GRIP#9178) (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/12f59ad7242728c6a51b6d6e1a2019b18befeea5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(release): the public build withholds the personal-life tools (#9969)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ee42fee3f95cfe5bd07ee000632776b56cfcd1ed"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(suite-install): wire the signed setup record and a key step into the page (W3 step 4,",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/41e39cf950d812d23f7c4777860afc52210638cc"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "351 changes / 7 days",
+      "value": "353 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
