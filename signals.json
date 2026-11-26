@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(save): the report reads the real project folder's files as UTF-8 or bytes (GRIP#10066 ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/85d2cfe2cc061c38a04875775f2e059f5fb479b8"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(connect): redact a CCH snippet before cutting it to length (#10160)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/47c140855b906e8f7d352129df50d7497e013fbc"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(sweep): resume survives torn and non-row lines, reruns unreadable files (#10149)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d73028cca4ad1670d6dffa5c2003749a63bd592"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(fleet-watch): file Workflow agents under the session that started them (#10153)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1b3a085fcbc575309603247cddcb8b62187f9524"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "434 changes / 7 days",
+      "value": "435 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
