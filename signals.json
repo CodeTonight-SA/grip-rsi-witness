@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(connect): dictate any seat by role-file id or HAL model address (#9978)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c31a58ac606df9c5e72a5ad3bc53ae42691f029"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gates): Codex's review of the env-var guard's listing check (GRIP#9972) (#9984)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/014deb5d23efffc2f731ba9f90d2c6f23cf42307"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(release): refuse a public site written as a bare string (#9990)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4de64da6d54714b72715eae620df314ef9ae5236"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(lib): /idea names a ledger that grows mid-verify, and its tests stop quoting docs (#99",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0d192296abf7a0f2cf61ebc66daa9af163acd81"
         },
@@ -21,21 +36,6 @@
           "kind": "shipped",
           "tldr": "feat(black-october): fix, undo and list for the Windows checker, part 2 (GRIP#8858) (#8982",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b36b35568fde0ab2aa8a75abe0ed18354fc9f57d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "chore(release): keep [PERSON-11] public in its three existing files (V>>'s decision) (#997",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/afc2c6c570c81f63575c781aa4b7682afc3d1be9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat: /idea records one idea as a signed causal chain, tried on the Liskov idea (#9973)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4107c269dc39cdbb0d2cffb1fbfd920383ea254f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): close the env-var guard gaps in GRIP#9951 and GRIP#9958 (#9972)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b8717168d50958cf9948a1d04134ed425647af0"
         }
       ],
       "key": "stream"
@@ -51,7 +51,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "357 changes / 7 days",
+      "value": "360 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
