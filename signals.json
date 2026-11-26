@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(lib): /idea names a ledger that grows mid-verify, and its tests stop quoting docs (#99",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0d192296abf7a0f2cf61ebc66daa9af163acd81"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(measurements): the first /idea run, on the Liskov idea (#9980)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/8ef9611d04c696fd7407a7ddf0b81ef382023abb"
         },
@@ -31,16 +36,6 @@
           "kind": "shipped",
           "tldr": "fix(gates): close the env-var guard gaps in GRIP#9951 and GRIP#9958 (#9972)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b8717168d50958cf9948a1d04134ed425647af0"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurements): the gift bundle on a fresh home, two real runs on 2026-10-18 (#8627)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/305fc324f69e55b63e37fdbf1c9eb7a17d0e6557"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(lib): to_whatsapp turns a model's Markdown into WhatsApp markup (#9193)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1c868da100bb22701990048f044ce1eab68e35a0"
         }
       ],
       "key": "stream"
@@ -56,7 +51,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "355 changes / 7 days",
+      "value": "357 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
