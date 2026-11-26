@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(identity): the identity parser reads lines that carry a trailing comment (#10008)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8df52ce988d2f261bc6583cd1be6a79c83919f0d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(agora): tell the council a planted value reaches it already replaced (#10012)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e66d23bd043af89e19e7a1ff4265b374e02062c8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(identity): one resolver for the commit signature; producers stop hard-coding a name (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/43ee428ababf2671baca3008ccae07c39a08e96e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix: /mental-model states its time limits truthfully, starts nothing late, and keeps redac",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f1a61a9cc7cbb0762a764be1fca0e152e7c1f1db"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(lib): /mental-model keeps its time limits and reads only its context (#10002)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/062ba9ce70bed9ed7988e2aad9e4928032c9f68f"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(gates): a listing piped into a subshell, a brace group or sudo is caught (GRIP#9991) (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f9eb306f899993895f705354b773d54b48a7344c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): the Primary Author line names the operator signature (#9979)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/abb4c71615c33d21e119ccc47b1641ace5501241"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(connect): dictate any seat by role-file id or HAL model address (#9978)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c31a58ac606df9c5e72a5ad3bc53ae42691f029"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): Codex's review of the env-var guard's listing check (GRIP#9972) (#9984)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/014deb5d23efffc2f731ba9f90d2c6f23cf42307"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(release): refuse a public site written as a bare string (#9990)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4de64da6d54714b72715eae620df314ef9ae5236"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "365 changes / 7 days",
+      "value": "369 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
