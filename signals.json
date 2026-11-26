@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(agora): give every HAPPI call its own provider timeout (#10138)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/866dea1dc296d7edf3d8df477a75ef1855b86f7a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(backlog): close an id-collision data-loss bug Codex found, tighten its test oracles (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/066ac18412700fc1849c67fc55e559c8d5413445"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(stranger-check): accept both the current HAL test lines and the new bin/test-venv.sh l",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ca613d85580928770da4f473ea19a6ca58062686"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): name the real cause when the Windows install-test extraction breaks (#10113)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9705082bae91c44da248a9a8929c819c34c6b02f"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "421 changes / 7 days",
+      "value": "422 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
