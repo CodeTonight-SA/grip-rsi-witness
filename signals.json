@@ -4,6 +4,36 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(binding-memory): hoist the duplicated skip-exception tuple, name the real failing file",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a7be801149543b20a2a1d621d9ef83f8f7ebe65a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(backlog): a dropped .json file is kept, not misread as an item (#10100)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/906760b5dfe7ad0516ec8efa4b8ce3a848a417c7"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): scrub inherited git-hook env vars in the worktree fixture helper (#10094)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b9fc33b1e3e7a43f5c07c5c3a828672db20172ca"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(fleet-inspection): deliver the landing prompt over the mesh, not by hand (#10095)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/779f3792016aad85e50f984647bdd7636027e3f3"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): validate StartInterval's type and drop the dead TypeError arm in the heartbeat",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/975f24d51856605798828c9b7eb6c48e74a460ef"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gates): a listing through a wrapper with options is caught (GRIP#9993) (#10090)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4b0187bcef222ff21c13d89632c9f3f63f03e219"
+        },
+        {
+          "kind": "shipped",
           "tldr": "The last shipped import of a withheld module is gone (#10087)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/895b6d7eb8d7edd92d75949a1c9e0ed385ce58fd"
         },
@@ -11,36 +41,6 @@
           "kind": "shipped",
           "tldr": "Gemini 4 Carbon judges AGORA and the sovereign council (bootstrap: V>> merges) (#10013)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a17d50df3b0eda2dbde3fdd72bcccb9fdd86a16a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(release): a shared wave gate lets stack-dogfood ship without the overnight loop (#1008",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a121358ebc8d9402538ff75890b5d1278e93f2ce"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(release): withhold the overnight wrappers, LinkedIn feed reader and relay drain (#1008",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/dd45af22682382d39977e103e32818279efd16cc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(oss-build): read the operator's GitHub handle from a file (#10074)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/00d680db7083ede275da50b327e93e448f9bbc1f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(council-converge): read Primary Author from a repo variable (#10072)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/676bc8bfec0fcc45b0c38d187ebbd2860f27ed49"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(merge-gate): deny gh pr merge when its target is unreadable (#10070)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8fbfc6b24eb819081a4cd64f93bbb3f9ab17e6d5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(happiverse-proof): the leak guard skips generated key, signature and digest hex (#1006",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1292d7c553577aec6003a2e50f74a08cf8fff8ae"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "396 changes / 7 days",
+      "value": "402 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
