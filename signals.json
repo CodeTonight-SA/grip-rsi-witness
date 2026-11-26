@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(kernel): a corrupt registry line in the caller's own namespace no longer stops the ker",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/99c5ad2696ac4b260d19735b6ba3d2bc2e4264a8"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(kernel): the default namespace is checked across processes, and partials are named by ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/624c891d274948ad3e9a82d953dd8bcd58a116f9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(skills): the git fallback test covers a missing, forbidden or hung git (#10038)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/3ff81333b741bd589e6ea715620eba6a6da69fec"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(skills): the dollar-digit guard falls back to a glob when git is missing (#10035)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d53908a0eb6e156367ed1cf9ebb0ef2364cceb43"
         },
@@ -26,16 +41,6 @@
           "kind": "shipped",
           "tldr": "test: one fake Gemini provider for the Carbon seat guards (#10025)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b3d656ccdb8e42a1ecfc37ff0d517b443635bece"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "Carbon seat move: the AGORA fixes that missed GRIP#10009's merge (#10021)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2bdefeaf7c42c06b8635f5a74ef4c5940528526"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(rules): name the command that prints the commit signature (#10016)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/af93b58dc976396d5ee53c539ab9d01bdc51ff2d"
         }
       ],
       "key": "stream"
@@ -51,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "377 changes / 7 days",
+      "value": "380 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
