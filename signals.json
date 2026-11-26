@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(agora): cite GRIP#10132 instead of this PR in a sitting-test docstring (#10165)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7c6e40e95d960b18392a9fb9b4bf31dd0782a80a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "test(agora): land GRIP#10132's round-2 final-rung tests (#10164)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/927ac64345cdbf678d748bc63be2d43565288989"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(gates): refuse a post that still carries an edit GRIP refused (GRIP#9394) (#10155)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1cfa726e5b8078edc8113ac032c8fbae3ab064c1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): the env-var guard reads each word as the shell runs it (GRIP#10120) (#10159)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/25ded7604e880077031cc559ad19de5eb06728c9"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "436 changes / 7 days",
+      "value": "437 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
