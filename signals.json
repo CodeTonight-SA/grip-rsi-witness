@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gates): grip_gate_check.sh names what it refuses and catches a missing resolver functi",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6dfea21116227de6cbccc6ecc24d90d22bdf4359"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(stranger-check): accept both the current HAL test lines and the new bin/test-venv.sh l",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ca613d85580928770da4f473ea19a6ca58062686"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(tests): name the real cause when the Windows install-test extraction breaks (#10113)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9705082bae91c44da248a9a8929c819c34c6b02f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(binding-memory): guard the skip log against a bytes filename, stop it leaking a declar",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/1febfe753bec04a47399cfeacb7a0b160f766bad"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(brainstorm): council step in ATTACK sends every surviving pick, not a four-pick cap (#",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5680b8c0e3d114b868336adbbbe6a4d441f53af9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): exclude bool and de-duplicate the plist-guard fuzz evidence (AGORA follow-up o",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9f35abc9c4e73c4969f29961b6b141b40a428e13"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(tests): make the GRIP#9712 fixture-pollution tests structurally sound (#10106)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7a0ebd484f29d0381fb2a075e7bf47d606236445"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(bin): add grip-test-sweep, a per-file test runner (#10089)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/30b6e9254e9a8c44bb89f495ba8ffbe469fdbec8"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "413 changes / 7 days",
+      "value": "416 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
