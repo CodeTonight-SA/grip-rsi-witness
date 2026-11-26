@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(hooks): delete dead cost-tracker/TODO/old-memory-brief steps, fix sibling-session line",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a307d964bba3fca3050843315515e3c2019d4660"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gift-kit): add --prefer-binary to the cryptography pip install (#10142)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab9ee0c4c70535fb217be2fabde837035ebead20"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(install-suite): the Windows door needs the x64 Python everywhere, not only on Arm (#10",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/0a3eb295e432eb85727d84ebed5d08e7ecb4be0b"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(fleet-inspection): close GRIP#10107's held/refused and test-rigour follow-ups (#10112)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/5ba811f5f6b812c061eb87b175eaaa06d217d58f"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "424 changes / 7 days",
+      "value": "425 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
