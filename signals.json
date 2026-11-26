@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gates): the env-var guard reads each word as the shell runs it (GRIP#10120) (#10159)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/25ded7604e880077031cc559ad19de5eb06728c9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(sweep): resume survives torn and non-row lines, reruns unreadable files (#10149)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/9d73028cca4ad1670d6dffa5c2003749a63bd592"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(fleet-watch): file Workflow agents under the session that started them (#10153)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1b3a085fcbc575309603247cddcb8b62187f9524"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(connect): refuse with no --roots outside GRIP, before any model call (#10143)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/73f4bb8a54985e3ce80c6e716f9530135fda3fd1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(hooks): delete dead cost-tracker/TODO/old-memory-brief steps, fix sibling-session line",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a307d964bba3fca3050843315515e3c2019d4660"
         },
@@ -21,26 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(agora): give every HAPPI call its own provider timeout (#10138)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/866dea1dc296d7edf3d8df477a75ef1855b86f7a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(backlog): close an id-collision data-loss bug Codex found, tighten its test oracles (#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/066ac18412700fc1849c67fc55e559c8d5413445"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(lib): eight more modules put their own lib folder on sys.path, not CLAUDE_DIR's (GRIP#",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/286682c375924dac472a796af09b24e7f1e48b63"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): try the other funded speakers before any dormant rung (#10133)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/20ba3cea3e2a64eb174c5d82ed427735f4a1eab2"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(install-suite): the Windows door needs the x64 Python everywhere, not only on Arm (#10",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/0a3eb295e432eb85727d84ebed5d08e7ecb4be0b"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "425 changes / 7 days",
+      "value": "429 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
