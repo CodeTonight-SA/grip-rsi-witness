@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gift-kit): add --prefer-binary to the cryptography pip install (#10142)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab9ee0c4c70535fb217be2fabde837035ebead20"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(agora): is_bootstrap_excepted checks a bare path as one path (#10122)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/be7dcc4855e1d312e38898c8d12859b1310ef8ca"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(fleet-inspection): close GRIP#10107's held/refused and test-rigour follow-ups (#10112)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/5ba811f5f6b812c061eb87b175eaaa06d217d58f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): grip_gate_check.sh names what it refuses and catches a missing resolver functi",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6dfea21116227de6cbccc6ecc24d90d22bdf4359"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "423 changes / 7 days",
+      "value": "424 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
