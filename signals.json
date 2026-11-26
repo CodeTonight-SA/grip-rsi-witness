@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat: /idea records one idea as a signed causal chain, tried on the Liskov idea (#9973)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4107c269dc39cdbb0d2cffb1fbfd920383ea254f"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gates): close the env-var guard gaps in GRIP#9951 and GRIP#9958 (#9972)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3b8717168d50958cf9948a1d04134ed425647af0"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(suite-install): wire the signed setup record and a key step into the page (W3 step 4,",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/41e39cf950d812d23f7c4777860afc52210638cc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "No shipped file names the [PERSON-11] entry of the private list (#9963)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/431258415118ab1e2d67f615f74f0e72ed71333b"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "350 changes / 7 days",
+      "value": "351 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
@@ -70,6 +70,10 @@
       "key": "dojo",
       "mesh": "grip-session-mesh over Tailscale · HAPPIverse public constellation — newest commands surface here on every autonomous refresh.",
       "newest": [
+        {
+          "desc": "Takes one idea from the operator and makes it the first record of a signed, repl",
+          "name": "/idea"
+        },
         {
           "desc": "Shows where the operator's Apple Find My devices and items are, whether they are",
           "name": "/find-my"
@@ -89,10 +93,6 @@
         {
           "desc": "Guarded wrapper over `mob start` -- the Guild mob",
           "name": "/mob-start"
-        },
-        {
-          "desc": "Guarded wrapper over `mob next` -- the Guild mob",
-          "name": "/mob-next"
         }
       ],
       "tip": "No stubs: every symbol is fully implemented — a hollow placeholder is a false-completeness signal."
