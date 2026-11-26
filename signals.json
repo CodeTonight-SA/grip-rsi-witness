@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(agora): count what git archive actually writes for the export floor (#10147)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/181008aa6d8850187f69c27194b4fdfb40fa6ea4"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(yolo-mode): narrow --quality to the two quality checks; give channel-scope and repo-pr",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7e399e62d6ced93f0f11f2d818a4df2e4a01c2d"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gates): refuse a post that still carries an edit GRIP refused (GRIP#9394) (#10155)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1cfa726e5b8078edc8113ac032c8fbae3ab064c1"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gates): the env-var guard reads each word as the shell runs it (GRIP#10120) (#10159)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/25ded7604e880077031cc559ad19de5eb06728c9"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(hooks): delete dead cost-tracker/TODO/old-memory-brief steps, fix sibling-session line",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a307d964bba3fca3050843315515e3c2019d4660"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gift-kit): add --prefer-binary to the cryptography pip install (#10142)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/ab9ee0c4c70535fb217be2fabde837035ebead20"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): is_bootstrap_excepted checks a bare path as one path (#10122)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/be7dcc4855e1d312e38898c8d12859b1310ef8ca"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): give every HAPPI call its own provider timeout (#10138)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/866dea1dc296d7edf3d8df477a75ef1855b86f7a"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "429 changes / 7 days",
+      "value": "432 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
