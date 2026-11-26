@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(skills): the dollar-digit guard falls back to a glob when git is missing (#10035)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d53908a0eb6e156367ed1cf9ebb0ef2364cceb43"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(kernel): one caller's fixed point no longer stops another caller's run (#10034)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c796ad4c0834c8eebc0eea8f375f3659cbe8a046"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(skills): skill and command text no longer loses dollar digits to argument substitution",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/103cef6c346da99cfbee17a03a866a642a0c6268"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(identity): a value left empty with a comment reads as empty, not as the comment (#1002",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/e1d366d58da6bc8f17dc47cc837f97f1ed155621"
         },
@@ -21,21 +36,6 @@
           "kind": "shipped",
           "tldr": "docs(rules): name the command that prints the commit signature (#10016)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/af93b58dc976396d5ee53c539ab9d01bdc51ff2d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(identity): the identity parser reads lines that carry a trailing comment (#10008)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8df52ce988d2f261bc6583cd1be6a79c83919f0d"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): tell the council a planted value reaches it already replaced (#10012)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e66d23bd043af89e19e7a1ff4265b374e02062c8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(identity): one resolver for the commit signature; producers stop hard-coding a name (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/43ee428ababf2671baca3008ccae07c39a08e96e"
         }
       ],
       "key": "stream"
@@ -51,7 +51,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "374 changes / 7 days",
+      "value": "377 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
