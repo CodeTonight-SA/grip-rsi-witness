@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(connect): route the Fable planner seat through HAL's CCH signer (#10152)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eef9ed001bd2138fda375a33fa701d984889074a"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(agora): count what git archive actually writes for the export floor (#10147)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/181008aa6d8850187f69c27194b4fdfb40fa6ea4"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(connect): refuse with no --roots outside GRIP, before any model call (#10143)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/73f4bb8a54985e3ce80c6e716f9530135fda3fd1"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(hooks): delete dead cost-tracker/TODO/old-memory-brief steps, fix sibling-session line",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a307d964bba3fca3050843315515e3c2019d4660"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "432 changes / 7 days",
+      "value": "433 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
