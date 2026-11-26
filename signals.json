@@ -4,6 +4,26 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(connect): a dictated HAL seat is free only on a local tier (#9997)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/2aff13de3a6774187e39246056dea662bc277eaa"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat: /mental-model v1, one picture of GRIP that keeps a contract (#10000)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/c92c29723658a0973235f02999429e81ef63d151"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(gates): a listing piped into a subshell, a brace group or sudo is caught (GRIP#9991) (",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f9eb306f899993895f705354b773d54b48a7344c"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "docs(rules): the Primary Author line names the operator signature (#9979)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/abb4c71615c33d21e119ccc47b1641ace5501241"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(connect): dictate any seat by role-file id or HAL model address (#9978)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/3c31a58ac606df9c5e72a5ad3bc53ae42691f029"
         },
@@ -21,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(lib): /idea names a ledger that grows mid-verify, and its tests stop quoting docs (#99",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a0d192296abf7a0f2cf61ebc66daa9af163acd81"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(measurements): the first /idea run, on the Liskov idea (#9980)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8ef9611d04c696fd7407a7ddf0b81ef382023abb"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix: /idea keeps its promises as stated, and the record of its first run (#9975)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a467d9bba9aec081f7de9a4ca7b2e34f6e176d22"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(black-october): fix, undo and list for the Windows checker, part 2 (GRIP#8858) (#8982",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b36b35568fde0ab2aa8a75abe0ed18354fc9f57d"
         }
       ],
       "key": "stream"
@@ -51,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "360 changes / 7 days",
+      "value": "364 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
