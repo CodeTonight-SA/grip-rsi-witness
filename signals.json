@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(index): readers take the newest index entry and read its id as instance_id (#10182)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/71a2ff7ef5b6409097d5bdc064fb3f4b1ba80963"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(continue-deep): ask to name screened readers only when one was screened (GRIP#10179) (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6869fe9600b52bda23b6205ec0843cafa3244f90"
         },
@@ -31,11 +36,6 @@
           "kind": "shipped",
           "tldr": "fix(agora): leave calls at or below HAL's 120 s default on their native timeout (#10163)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2515f0560318a2d9c305d8c1316e423bf7cc0cd"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(agora): cite GRIP#10132 instead of this PR in a sitting-test docstring (#10165)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/7c6e40e95d960b18392a9fb9b4bf31dd0782a80a"
         }
       ],
       "key": "stream"
