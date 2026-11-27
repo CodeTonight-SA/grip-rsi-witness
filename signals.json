@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "test(recall): keep the signing key's read-back tested on Windows (#10197)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/552055342551dc908ad85e295bf177678064eb7e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(pending): withdraw says which refusal applied, and its docstring names its limits (GRI",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6685e316ca6b0341a305837140cb94a6370a559f"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(gates): read an escaped separator as text unless a shell re-reads it (#10199)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/291b86bd8a3fca51a5c378c9d6907e637e5a1be9"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(pending): a question open for 7 days expires and stops counting as current work (GRIP",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a61f71b5d2af4f22ff0a821350c9396370b2a645"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "458 changes / 7 days",
+      "value": "459 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
