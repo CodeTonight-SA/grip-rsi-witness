@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(pending): withdraw says which refusal applied, and its docstring names its limits (GRI",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6685e316ca6b0341a305837140cb94a6370a559f"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(pending): the question whose notice was delivered holds the notice thread (GRIP#10186",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a2e2f5260842b49c383fd8bf888023e7f514df3"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gates): read escapes as text only where every command just prints (#10204)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/effad85c058bebb08b8f5470ef43be022f194ca5"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "feat(pending): a question open for 7 days expires and stops counting as current work (GRIP",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/a61f71b5d2af4f22ff0a821350c9396370b2a645"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(stranger-check): read captured locations, chained errors and cuts right (#10190)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f926274f5951ffb92016f209221d190a58ea6f4a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(recall): read Windows paths in the recall index (#10191)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/717aca7e465fb9727a34ac909c8557034c7e9969"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "456 changes / 7 days",
+      "value": "458 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
