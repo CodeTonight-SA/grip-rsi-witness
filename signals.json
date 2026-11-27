@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gates): read an escaped separator as text unless a shell re-reads it (#10199)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/291b86bd8a3fca51a5c378c9d6907e637e5a1be9"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(pending): a question open for 7 days expires and stops counting as current work (GRIP",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/a61f71b5d2af4f22ff0a821350c9396370b2a645"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(stranger-check): read captured locations, chained errors and cuts right (#10190)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f926274f5951ffb92016f209221d190a58ea6f4a"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(stranger-check): print each failing test's own error lines (#10187)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/bbb79f2579df4d390da13280a1a5b75486f5df16"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(index): readers take the newest index entry and read its id as instance_id (#10182)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/71a2ff7ef5b6409097d5bdc064fb3f4b1ba80963"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(continue-deep): ask to name screened readers only when one was screened (GRIP#10179) (",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6869fe9600b52bda23b6205ec0843cafa3244f90"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "450 changes / 7 days",
+      "value": "452 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
