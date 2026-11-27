@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(continue-deep): name the filler findings the screen drops (GRIP#10176) (#10178)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/968df2e3a77d5dac624b3d263881d1eb9a362358"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(answer-watch): refuse any argument instead of starting the loop (GRIP#10172) (#10177)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1d4ab13710113a0b59baf4b48f71c96fda6c7642"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(continue-deep): a reader's test call no longer becomes its answer (GRIP#10169) (#10174",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2e1f83f6a7fc9570aff00dc0f76de61d9d5ad09"
         },
@@ -26,16 +36,6 @@
           "kind": "shipped",
           "tldr": "test(agora): land GRIP#10132's round-2 final-rung tests (#10164)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/927ac64345cdbf678d748bc63be2d43565288989"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(save): the report reads the real project folder's files as UTF-8 or bytes (GRIP#10066 ",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/85d2cfe2cc061c38a04875775f2e059f5fb479b8"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(connect): redact a CCH snippet before cutting it to length (#10160)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/47c140855b906e8f7d352129df50d7497e013fbc"
         }
       ],
       "key": "stream"
@@ -51,7 +51,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "441 changes / 7 days",
+      "value": "443 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
