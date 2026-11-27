@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(pending): grip-pending-withdraw names the real reason for a refusal (GRIP#10186) (#101",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6898546037fe6cec126c9987329dc6788a9a8c8a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "feat(pending): a session can withdraw its own settled question (GRIP#10171) (#10183)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b29cc10549acb51af65227f20d239bd2f5fb1e1a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(stranger-check): print each failing test's own error lines (#10187)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bbb79f2579df4d390da13280a1a5b75486f5df16"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(index): readers take the newest index entry and read its id as instance_id (#10182)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/71a2ff7ef5b6409097d5bdc064fb3f4b1ba80963"
         },
@@ -26,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(continue-deep): a reader's test call no longer becomes its answer (GRIP#10169) (#10174",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2e1f83f6a7fc9570aff00dc0f76de61d9d5ad09"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "docs(embeddings): call embed_text in the usage example, not embed_single (#10167)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44ba96b834976b7440f0b64465ab8c457b504c5c"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): leave calls at or below HAL's 120 s default on their native timeout (#10163)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2515f0560318a2d9c305d8c1316e423bf7cc0cd"
         }
       ],
       "key": "stream"
@@ -51,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "444 changes / 7 days",
+      "value": "447 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
