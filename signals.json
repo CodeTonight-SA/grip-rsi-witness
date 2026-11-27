@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(pending): the sweep's notice reads the sweep's clock, and the split takes one pass (GR",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/292219207164f80a1ebfd24bd2d4e17503810fda"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(merge-hold): record the stale-post gate as a mention, not a merger (#10201)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/706f847c61217b7a51c407f851379a109444aefd"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(gates): read an escaped separator as text unless a shell re-reads it (#10199)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/291b86bd8a3fca51a5c378c9d6907e637e5a1be9"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(pending): grip-pending-withdraw names the real reason for a refusal (GRIP#10186) (#101",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6898546037fe6cec126c9987329dc6788a9a8c8a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(pending): a session can withdraw its own settled question (GRIP#10171) (#10183)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/b29cc10549acb51af65227f20d239bd2f5fb1e1a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(stranger-check): print each failing test's own error lines (#10187)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/bbb79f2579df4d390da13280a1a5b75486f5df16"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "452 changes / 7 days",
+      "value": "454 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
