@@ -158,6 +158,7 @@
   <section class="activity" id="activity">
     <div class="shead"><span class="dot"></span><span class="lbl">LIVE</span><span class="cnt">0 in flight</span></div>
     <div class="tower" id="tower">
+      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/2e333cf8b6a76dbb80b3de327fd22962f0aaf9ad" href="https://github.com/CodeTonight-SA/GRIP/commit/2e333cf8b6a76dbb80b3de327fd22962f0aaf9ad" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(index): read the session index as UTF-8 in the splash and the merged save (#10220)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/d7cecaa9dbf9e755f28f90675d670c566bf1795e" href="https://github.com/CodeTonight-SA/GRIP/commit/d7cecaa9dbf9e755f28f90675d670c566bf1795e" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(index): every reader picks the newest index entry by serialized_at (#10217)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/b969fa937d903bd4ed314e41d90095bde1136aa0" href="https://github.com/CodeTonight-SA/GRIP/commit/b969fa937d903bd4ed314e41d90095bde1136aa0" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(agora): a sitting that could not read the PR&#x27;s own files withholds its verdict (GRIP#1</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/552055342551dc908ad85e295bf177678064eb7e" href="https://github.com/CodeTonight-SA/GRIP/commit/552055342551dc908ad85e295bf177678064eb7e" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">test(recall): keep the signing key&#x27;s read-back tested on Windows (#10197)</span></a>
@@ -165,7 +166,6 @@
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/8a2e2f5260842b49c383fd8bf888023e7f514df3" href="https://github.com/CodeTonight-SA/GRIP/commit/8a2e2f5260842b49c383fd8bf888023e7f514df3" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">feat(pending): the question whose notice was delivered holds the notice thread (GRIP#10186</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/effad85c058bebb08b8f5470ef43be022f194ca5" href="https://github.com/CodeTonight-SA/GRIP/commit/effad85c058bebb08b8f5470ef43be022f194ca5" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(gates): read escapes as text only where every command just prints (#10204)</span></a>
       <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/6df574a6382ce07f0de508912e665b34926ab35e" href="https://github.com/CodeTonight-SA/GRIP/commit/6df574a6382ce07f0de508912e665b34926ab35e" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">refactor(pending): split the store into a reader role and a writer role (GRIP#10186) (#102</span></a>
-      <a class="wip-item shipped" data-key="https://github.com/CodeTonight-SA/GRIP/commit/292219207164f80a1ebfd24bd2d4e17503810fda" href="https://github.com/CodeTonight-SA/GRIP/commit/292219207164f80a1ebfd24bd2d4e17503810fda" target="_blank" rel="noopener"><span class="k">shipped</span><span class="txt">fix(pending): the sweep&#x27;s notice reads the sweep&#x27;s clock, and the split takes one pass (GR</span></a>
     </div>
   </section>
   <main class="wrap">
@@ -184,7 +184,7 @@
     </div>
     <div class="card">
       <div class="label">Shipping velocity</div>
-      <div class="value">459 changes / 7 days</div>
+      <div class="value">460 changes / 7 days</div>
       <div class="caption">commits merged to main in the last week, not counting the bot&#x27;s automatic changelog entries</div>
       <div class="verify"><span class="vk">verify</span> <code>git log --oneline --since=&#x27;7 days ago&#x27; origin/main | grep -vc &#x27;chore(changelog): update for PR&#x27;</code></div>
     </div>
