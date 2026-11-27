@@ -4,6 +4,16 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(encoding): name UTF-8 on every subprocess text read in the contract modules (#10223)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/96805a9ef18e5ffc6af09172bdf5498c8e5cbf5e"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(pending): old questions that share a ref get their own, and the operator is told once ",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4488affa930cd156a46927e27eae569743ca3ecb"
+        },
+        {
+          "kind": "shipped",
           "tldr": "feat(pending): list expired questions; a reply never names two questions; plan() names the",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/50e1da8f7f4b8087b2474f18ff0613a5e7210256"
         },
@@ -31,16 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(pending): withdraw says which refusal applied, and its docstring names its limits (GRI",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6685e316ca6b0341a305837140cb94a6370a559f"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "feat(pending): the question whose notice was delivered holds the notice thread (GRIP#10186",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/8a2e2f5260842b49c383fd8bf888023e7f514df3"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(gates): read escapes as text only where every command just prints (#10204)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/effad85c058bebb08b8f5470ef43be022f194ca5"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "461 changes / 7 days",
+      "value": "463 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
