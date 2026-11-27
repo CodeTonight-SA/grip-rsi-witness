@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(continue-deep): a reader's test call no longer becomes its answer (GRIP#10169) (#10174",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2e1f83f6a7fc9570aff00dc0f76de61d9d5ad09"
+        },
+        {
+          "kind": "shipped",
           "tldr": "docs(embeddings): call embed_text in the usage example, not embed_single (#10167)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/44ba96b834976b7440f0b64465ab8c457b504c5c"
         },
@@ -31,16 +36,6 @@
           "kind": "shipped",
           "tldr": "fix(connect): redact a CCH snippet before cutting it to length (#10160)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/47c140855b906e8f7d352129df50d7497e013fbc"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(connect): route the Fable planner seat through HAL's CCH signer (#10152)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/eef9ed001bd2138fda375a33fa701d984889074a"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(agora): count what git archive actually writes for the export floor (#10147)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/181008aa6d8850187f69c27194b4fdfb40fa6ea4"
         }
       ],
       "key": "stream"
@@ -56,7 +51,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "439 changes / 7 days",
+      "value": "441 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
