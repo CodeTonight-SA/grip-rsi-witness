@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "docs(embeddings): call embed_text in the usage example, not embed_single (#10167)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/44ba96b834976b7440f0b64465ab8c457b504c5c"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(agora): leave calls at or below HAL's 120 s default on their native timeout (#10163)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/d2515f0560318a2d9c305d8c1316e423bf7cc0cd"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(agora): count what git archive actually writes for the export floor (#10147)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/181008aa6d8850187f69c27194b4fdfb40fa6ea4"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(yolo-mode): narrow --quality to the two quality checks; give channel-scope and repo-pr",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/e7e399e62d6ced93f0f11f2d818a4df2e4a01c2d"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "438 changes / 7 days",
+      "value": "439 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
