@@ -4,6 +4,21 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(stranger-check): read captured locations, chained errors and cuts right (#10190)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f926274f5951ffb92016f209221d190a58ea6f4a"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "fix(recall): read Windows paths in the recall index (#10191)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/717aca7e465fb9727a34ac909c8557034c7e9969"
+        },
+        {
+          "kind": "shipped",
+          "tldr": "test(pending): writers in several processes lose nothing (GRIP#10186) (#10195)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e8364338744bab7621ac4b94d5bf1d589344c03"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(pending): grip-pending-withdraw names the real reason for a refusal (GRIP#10186) (#101",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6898546037fe6cec126c9987329dc6788a9a8c8a"
         },
@@ -26,21 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(continue-deep): ask to name screened readers only when one was screened (GRIP#10179) (",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6869fe9600b52bda23b6205ec0843cafa3244f90"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(continue-deep): name the filler findings the screen drops (GRIP#10176) (#10178)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/968df2e3a77d5dac624b3d263881d1eb9a362358"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(answer-watch): refuse any argument instead of starting the loop (GRIP#10172) (#10177)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/1d4ab13710113a0b59baf4b48f71c96fda6c7642"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "fix(continue-deep): a reader's test call no longer becomes its answer (GRIP#10169) (#10174",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/f2e1f83f6a7fc9570aff00dc0f76de61d9d5ad09"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "447 changes / 7 days",
+      "value": "450 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
