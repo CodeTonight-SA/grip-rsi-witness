@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(gates): read escapes as text only where every command just prints (#10204)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/effad85c058bebb08b8f5470ef43be022f194ca5"
+        },
+        {
+          "kind": "shipped",
           "tldr": "refactor(pending): split the store into a reader role and a writer role (GRIP#10186) (#102",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/6df574a6382ce07f0de508912e665b34926ab35e"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(recall): read Windows paths in the recall index (#10191)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/717aca7e465fb9727a34ac909c8557034c7e9969"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(pending): writers in several processes lose nothing (GRIP#10186) (#10195)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/4e8364338744bab7621ac4b94d5bf1d589344c03"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "455 changes / 7 days",
+      "value": "456 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
