@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "fix(index): every reader picks the newest index entry by serialized_at (#10217)",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/d7cecaa9dbf9e755f28f90675d670c566bf1795e"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(agora): a sitting that could not read the PR's own files withholds its verdict (GRIP#1",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/b969fa937d903bd4ed314e41d90095bde1136aa0"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(pending): the sweep's notice reads the sweep's clock, and the split takes one pass (GR",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/292219207164f80a1ebfd24bd2d4e17503810fda"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "test(merge-hold): record the stale-post gate as a mention, not a merger (#10201)",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/706f847c61217b7a51c407f851379a109444aefd"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "458 changes / 7 days",
+      "value": "459 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
