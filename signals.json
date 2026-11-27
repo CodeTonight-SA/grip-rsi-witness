@@ -4,6 +4,11 @@
       "items": [
         {
           "kind": "shipped",
+          "tldr": "feat(pending): list expired questions; a reply never names two questions; plan() names the",
+          "url": "https://github.com/CodeTonight-SA/GRIP/commit/50e1da8f7f4b8087b2474f18ff0613a5e7210256"
+        },
+        {
+          "kind": "shipped",
           "tldr": "fix(index): read the session index as UTF-8 in the splash and the merged save (#10220)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/2e333cf8b6a76dbb80b3de327fd22962f0aaf9ad"
         },
@@ -36,11 +41,6 @@
           "kind": "shipped",
           "tldr": "fix(gates): read escapes as text only where every command just prints (#10204)",
           "url": "https://github.com/CodeTonight-SA/GRIP/commit/effad85c058bebb08b8f5470ef43be022f194ca5"
-        },
-        {
-          "kind": "shipped",
-          "tldr": "refactor(pending): split the store into a reader role and a writer role (GRIP#10186) (#102",
-          "url": "https://github.com/CodeTonight-SA/GRIP/commit/6df574a6382ce07f0de508912e665b34926ab35e"
         }
       ],
       "key": "stream"
@@ -56,7 +56,7 @@
       "caption": "commits merged to main in the last week, not counting the bot's automatic changelog entries",
       "key": "velocity",
       "label": "Shipping velocity",
-      "value": "460 changes / 7 days",
+      "value": "461 changes / 7 days",
       "verify": "git log --oneline --since='7 days ago' origin/main | grep -vc 'chore(changelog): update for PR'"
     },
     {
